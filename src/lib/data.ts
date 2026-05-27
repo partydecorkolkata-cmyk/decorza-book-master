@@ -272,6 +272,11 @@ export const REVIEWS = [
   ["Yash Verma", "Delhi", "Romantic Bedroom Decoration", "Surprised my girlfriend \u2014 she was speechless. Setup was flawless.", 5],
   ["Pooja Reddy", "Hyderabad", "Baby Shower Decoration", "Lovely pastel pink theme. Coordinator was super responsive on WhatsApp.", 5],
   ["Ritika Bose", "Kolkata", "Birthday Decoration", "Booked at midnight, setup done by noon. Truly 24/7 service.", 5],
+  ["Harsh Agarwal", "Mumbai", "Proposal Decoration", "The candle path and LED Marry Me sign were stunning. She loved it.", 5],
+  ["Simran Kaur", "Delhi", "Haldi Decoration", "Marigold and yellow drapes were so vibrant. Family is still talking about it.", 5],
+  ["Anirban Saha", "Siliguri", "Anniversary Decoration", "Booked last minute, team still pulled off a magical setup. 10/10.", 5],
+  ["Lakshmi Menon", "Bengaluru", "Engagement Decoration", "Stage decor was elegant and floral arrangements were fresh. Highly recommended.", 5],
+  ["Rahul Bhattacharya", "Pune", "Birthday Decoration", "Best birthday surprise for my mom's 60th. Professional team, beautiful work.", 5],
 ] as const;
 
 export const GALLERY = Array.from(
@@ -288,12 +293,14 @@ export const HOMEPAGE_FAQS = [
 ];
 
 export const WHY_CHOOSE = [
-  { title: "Same Day Setup", desc: "Last-minute plans? We deliver same-day decoration setups across all our cities." },
-  { title: "Affordable Packages", desc: "Transparent pricing from budget-friendly to luxury \u2014 no hidden fees." },
-  { title: "Experienced Decor Team", desc: "Hundreds of celebrations delivered by trained, in-house decor artists." },
-  { title: "Premium Decorations", desc: "Imported balloons, fresh flowers, neon signs and designer backdrops." },
-  { title: "Multi-City Service", desc: "Live in 7 cities including Kolkata, Mumbai, Delhi, Bengaluru and more." },
-  { title: "24/7 WhatsApp Support", desc: "Quick replies, instant quotes \u2014 chat with us any time, day or night." },
+  { title: "12,500+ Happy Celebrations", desc: "A decade of memorable moments delivered across India." },
+  { title: "Same Day Setup", desc: "Last-minute plans? Our team mobilises within hours." },
+  { title: "Professional Decor Team", desc: "Trained, in-house decorators \u2014 never random freelancers." },
+  { title: "Affordable Packages", desc: "Transparent pricing from \u20B91,499 \u2014 no hidden charges." },
+  { title: "Multi-City Service", desc: "Live in 7 cities \u2014 Kolkata to Mumbai, Delhi to Pune." },
+  { title: "WhatsApp Booking Support", desc: "Instant quotes, real photos, 24/7 fast confirmations." },
+  { title: "Premium Decoration Materials", desc: "Imported balloons, fresh florals, LED neon, designer props." },
+  { title: "Trusted Event Experts", desc: "Featured on hundreds of celebrations every single month." },
 ];
 
 export const TRUST_BADGES = [
