@@ -29,6 +29,7 @@ export function Header() {
         <nav className="hidden items-center gap-6 lg:flex">
           <Link to="/" className="text-sm font-medium hover:text-primary">Home</Link>
           <Link to="/packages" className="text-sm font-medium hover:text-primary">Packages</Link>
+          <Link to="/blog" className="text-sm font-medium hover:text-primary">Blog</Link>
           <Link to="/about" className="text-sm font-medium hover:text-primary">About</Link>
           <Link to="/contact" className="text-sm font-medium hover:text-primary">Contact</Link>
         </nav>
@@ -90,6 +91,7 @@ export function Header() {
                 ))}
               </div>
             </details>
+            <Link to="/blog" onClick={() => setOpen(false)} className="py-2">Blog</Link>
             <Link to="/about" onClick={() => setOpen(false)} className="py-2">About</Link>
             <Link to="/contact" onClick={() => setOpen(false)} className="py-2">Contact</Link>
             <div className="grid grid-cols-2 gap-2 pt-2">
