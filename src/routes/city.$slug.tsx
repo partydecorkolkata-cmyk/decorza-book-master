@@ -54,8 +54,8 @@ function CityPage() {
   const cityReviews = REVIEWS.filter(([, c]) => c === city).slice(0, 6);
   const displayReviews = cityReviews.length ? cityReviews : REVIEWS.slice(0, 6);
   const popularInCity = info.popular
-    .map((slug) => categoryBySlug(slug))
-    .filter((c): c is NonNullable<typeof c> => !!c);
+    .map((slug: string) => categoryBySlug(slug))
+    .filter((c: ReturnType<typeof categoryBySlug>): c is NonNullable<ReturnType<typeof categoryBySlug>> => !!c);
 
   return (
     <>
@@ -117,7 +117,7 @@ function CityPage() {
           <div className="rounded-2xl border bg-card p-6">
             <h3 className="font-display text-xl flex items-center gap-2"><MapPin className="h-5 w-5 text-gold" />Areas We Cover in {city}</h3>
             <div className="mt-4 flex flex-wrap gap-2">
-              {info.areas.map((a) => (
+              {info.areas.map((a: string) => (
                 <span key={a} className="rounded-full border bg-background px-3 py-1 text-xs font-medium">{a}</span>
               ))}
             </div>
@@ -126,7 +126,7 @@ function CityPage() {
           <div className="rounded-2xl border bg-card p-6">
             <h3 className="font-display text-xl flex items-center gap-2"><Sparkles className="h-5 w-5 text-gold" />Popular Venues in {city}</h3>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              {info.venues.map((v) => (
+              {info.venues.map((v: string) => (
                 <li key={v} className="flex gap-2"><span className="text-gold">\u2022</span>{v}</li>
               ))}
             </ul>
@@ -139,7 +139,7 @@ function CityPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow={`Trending in ${city}`} title={`Most-Booked Decorations in ${city}`} />
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {popularInCity.map((c) => <CategoryCard key={c.slug} c={c} />)}
+            {popularInCity.map((c: NonNullable<ReturnType<typeof categoryBySlug>>) => <CategoryCard key={c.slug} c={c} />)}
           </div>
         </div>
       </section>

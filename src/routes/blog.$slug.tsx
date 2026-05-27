@@ -60,7 +60,7 @@ function BlogPostPage() {
       <img src={post.cover} alt={post.title} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-luxury" />
 
       <div className="prose prose-lg mt-10 max-w-none">
-        {post.content.map((b, i) => (
+        {post.content.map((b: { heading?: string; body: string }, i: number) => (
           <div key={i} className="mb-6">
             {b.heading && <h2 className="mt-8 font-display text-2xl text-primary">{b.heading}</h2>}
             <p className="mt-3 text-base leading-relaxed text-muted-foreground">{b.body}</p>

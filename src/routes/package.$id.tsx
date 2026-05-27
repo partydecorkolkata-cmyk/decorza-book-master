@@ -78,7 +78,7 @@ function PackageDetailPage() {
               <img src={pkg.image} alt={pkg.name} className="aspect-[4/3] w-full object-cover" />
             </div>
             <div className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-6">
-              {pkg.gallery.map((g, i) => (
+              {pkg.gallery.map((g: string, i: number) => (
                 <img key={i} src={g} alt={`${pkg.name} ${i + 1}`} loading="lazy" className="aspect-square w-full rounded-lg object-cover ring-1 ring-border hover:ring-primary transition" />
               ))}
             </div>
@@ -129,7 +129,7 @@ function PackageDetailPage() {
             <div className="mt-6 rounded-2xl border bg-card p-5">
               <h3 className="font-display text-lg">Package Inclusions</h3>
               <ul className="mt-3 space-y-2 text-sm">
-                {pkg.includes.map((i) => (
+                {pkg.includes.map((i: string) => (
                   <li key={i} className="flex gap-2"><Check className="h-4 w-4 shrink-0 text-gold mt-0.5" /> {i}</li>
                 ))}
               </ul>
