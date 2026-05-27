@@ -7,10 +7,11 @@ import { CategoryCard } from "@/components/site/CategoryCard";
 import { PackageCard } from "@/components/site/PackageCard";
 import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
+import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
-  REVIEWS, GALLERY, HOMEPAGE_FAQS, WHY_CHOOSE,
+  REVIEWS, GALLERY, HOMEPAGE_FAQS,
 } from "@/lib/data";
 
 export const Route = createFileRoute("/")({
@@ -62,12 +63,15 @@ function HomePage() {
               <Sparkles className="mr-1 h-3 w-3 text-gold" /> {BRAND.tagline}
             </Badge>
             <h1 className="mt-4 font-display text-4xl leading-tight sm:text-5xl lg:text-6xl">
-              Premium Event <span className="text-gradient-gold">Decorations</span> In Your City
+              Crafting <span className="text-gradient-gold">Memorable Celebrations</span> Across India
             </h1>
             <p className="mt-5 max-w-xl text-base text-white/85 sm:text-lg">
-              Beautiful birthday decorations, anniversary setups, proposal surprises, baby showers, romantic surprises, engagement ceremonies, haldi functions and more — handcrafted by our expert decor team.
+              Birthday Decorations · Anniversary Setups · Proposal Surprises · Romantic Room Decorations · Baby Showers · Engagement Ceremonies · Haldi · Rice Ceremony · Welcome Baby · Car Boot Decoration.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-xs text-gold backdrop-blur">
+              <Star className="h-3.5 w-3.5 fill-gold" /> ★★★★★ Trusted by 12,500+ Customers
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3">
               <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white shadow-luxury">
                 <a href={wa} target="_blank" rel="noopener">
                   <Phone className="mr-2 h-4 w-4" /> Book On WhatsApp
@@ -244,20 +248,7 @@ function HomePage() {
       </section>
 
       {/* WHY CHOOSE */}
-      <section className="bg-primary text-primary-foreground py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeader eyebrow="Why Decorza" title="Why Choose Decorza Events" subtitle="Premium quality, dependable service, unforgettable celebrations." />
-          <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {WHY_CHOOSE.map((w) => (
-              <div key={w.title} className="rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur">
-                <Sparkles className="h-6 w-6 text-gold" />
-                <h3 className="mt-3 font-display text-xl">{w.title}</h3>
-                <p className="mt-2 text-sm text-white/80">{w.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <WhyChooseUs />
 
       {/* FAQ */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">

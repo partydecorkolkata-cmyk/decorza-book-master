@@ -11,6 +11,7 @@ import {
 import appCss from "../styles.css?url";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
+import { TopBar } from "@/components/site/TopBar";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { StickyMobileCTA } from "@/components/site/StickyMobileCTA";
 import { Toaster } from "@/components/ui/sonner";
@@ -118,6 +119,7 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="flex min-h-screen flex-col pb-12 lg:pb-0">
+        <TopBar />
         <Header />
         <main className="flex-1">
           <Outlet />

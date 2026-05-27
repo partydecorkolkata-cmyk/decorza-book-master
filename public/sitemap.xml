@@ -32,4 +32,40 @@
   <url><loc>/service/corporate-event-decoration</loc><priority>0.6</priority></url>
   <url><loc>/service/kids-theme-decoration</loc><priority>0.6</priority></url>
   <url><loc>/service/housewarming-decoration</loc><priority>0.6</priority></url>
+  <url><loc>/birthday-decoration-kolkata</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-mumbai</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-delhi</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-bengaluru</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-hyderabad</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-pune</loc><priority>0.8</priority></url>
+  <url><loc>/birthday-decoration-siliguri</loc><priority>0.8</priority></url>
+  <url><loc>/anniversary-decoration-kolkata</loc><priority>0.8</priority></url>
+  <url><loc>/anniversary-decoration-mumbai</loc><priority>0.8</priority></url>
+  <url><loc>/anniversary-decoration-delhi</loc><priority>0.8</priority></url>
+  <url><loc>/anniversary-decoration-bengaluru</loc><priority>0.7</priority></url>
+  <url><loc>/anniversary-decoration-hyderabad</loc><priority>0.7</priority></url>
+  <url><loc>/anniversary-decoration-pune</loc><priority>0.7</priority></url>
+  <url><loc>/anniversary-decoration-siliguri</loc><priority>0.7</priority></url>
+  <url><loc>/proposal-decoration-kolkata</loc><priority>0.7</priority></url>
+  <url><loc>/proposal-decoration-mumbai</loc><priority>0.8</priority></url>
+  <url><loc>/proposal-decoration-delhi</loc><priority>0.8</priority></url>
+  <url><loc>/proposal-decoration-bengaluru</loc><priority>0.7</priority></url>
+  <url><loc>/proposal-decoration-hyderabad</loc><priority>0.7</priority></url>
+  <url><loc>/proposal-decoration-pune</loc><priority>0.7</priority></url>
+  <url><loc>/baby-shower-decoration-kolkata</loc><priority>0.7</priority></url>
+  <url><loc>/baby-shower-decoration-mumbai</loc><priority>0.7</priority></url>
+  <url><loc>/baby-shower-decoration-delhi</loc><priority>0.7</priority></url>
+  <url><loc>/baby-shower-decoration-bengaluru</loc><priority>0.7</priority></url>
+  <url><loc>/baby-shower-decoration-hyderabad</loc><priority>0.7</priority></url>
+  <url><loc>/haldi-decoration-kolkata</loc><priority>0.7</priority></url>
+  <url><loc>/haldi-decoration-mumbai</loc><priority>0.7</priority></url>
+  <url><loc>/haldi-decoration-delhi</loc><priority>0.7</priority></url>
+  <url><loc>/haldi-decoration-hyderabad</loc><priority>0.7</priority></url>
+  <url><loc>/engagement-decoration-kolkata</loc><priority>0.7</priority></url>
+  <url><loc>/engagement-decoration-mumbai</loc><priority>0.7</priority></url>
+  <url><loc>/engagement-decoration-delhi</loc><priority>0.7</priority></url>
+  <url><loc>/engagement-decoration-bengaluru</loc><priority>0.7</priority></url>
+  <url><loc>/romantic-bedroom-decoration-mumbai</loc><priority>0.7</priority></url>
+  <url><loc>/romantic-bedroom-decoration-delhi</loc><priority>0.7</priority></url>
+  <url><loc>/romantic-bedroom-decoration-pune</loc><priority>0.7</priority></url>
 </urlset>
