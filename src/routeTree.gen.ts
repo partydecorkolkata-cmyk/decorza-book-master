@@ -12,10 +12,13 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as PackagesRouteImport } from './routes/packages'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BookRouteImport } from './routes/book'
+import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServiceSlugRouteImport } from './routes/service.$slug'
+import { Route as PackageIdRouteImport } from './routes/package.$id'
 import { Route as CitySlugRouteImport } from './routes/city.$slug'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 
 const PackagesRoute = PackagesRouteImport.update({
   id: '/packages',
@@ -30,6 +33,11 @@ const ContactRoute = ContactRouteImport.update({
 const BookRoute = BookRouteImport.update({
   id: '/book',
   path: '/book',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -47,38 +55,57 @@ const ServiceSlugRoute = ServiceSlugRouteImport.update({
   path: '/service/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PackageIdRoute = PackageIdRouteImport.update({
+  id: '/package/$id',
+  path: '/package/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CitySlugRoute = CitySlugRouteImport.update({
   id: '/city/$slug',
   path: '/city/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => BlogRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/packages': typeof PackagesRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
+  '/package/$id': typeof PackageIdRoute
   '/service/$slug': typeof ServiceSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/packages': typeof PackagesRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
+  '/package/$id': typeof PackageIdRoute
   '/service/$slug': typeof ServiceSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
+  '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/packages': typeof PackagesRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
+  '/package/$id': typeof PackageIdRoute
   '/service/$slug': typeof ServiceSlugRoute
 }
 export interface FileRouteTypes {
@@ -86,38 +113,49 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/about'
+    | '/blog'
     | '/book'
     | '/contact'
     | '/packages'
+    | '/blog/$slug'
     | '/city/$slug'
+    | '/package/$id'
     | '/service/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/about'
+    | '/blog'
     | '/book'
     | '/contact'
     | '/packages'
+    | '/blog/$slug'
     | '/city/$slug'
+    | '/package/$id'
     | '/service/$slug'
   id:
     | '__root__'
     | '/'
     | '/about'
+    | '/blog'
     | '/book'
     | '/contact'
     | '/packages'
+    | '/blog/$slug'
     | '/city/$slug'
+    | '/package/$id'
     | '/service/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
+  BlogRoute: typeof BlogRouteWithChildren
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
   PackagesRoute: typeof PackagesRoute
   CitySlugRoute: typeof CitySlugRoute
+  PackageIdRoute: typeof PackageIdRoute
   ServiceSlugRoute: typeof ServiceSlugRoute
 }
 
@@ -144,6 +182,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BookRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/about': {
       id: '/about'
       path: '/about'
@@ -165,6 +210,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/package/$id': {
+      id: '/package/$id'
+      path: '/package/$id'
+      fullPath: '/package/$id'
+      preLoaderRoute: typeof PackageIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/city/$slug': {
       id: '/city/$slug'
       path: '/city/$slug'
@@ -172,16 +224,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CitySlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof BlogRoute
+    }
   }
 }
+
+interface BlogRouteChildren {
+  BlogSlugRoute: typeof BlogSlugRoute
+}
+
+const BlogRouteChildren: BlogRouteChildren = {
+  BlogSlugRoute: BlogSlugRoute,
+}
+
+const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
+  BlogRoute: BlogRouteWithChildren,
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
   PackagesRoute: PackagesRoute,
   CitySlugRoute: CitySlugRoute,
+  PackageIdRoute: PackageIdRoute,
   ServiceSlugRoute: ServiceSlugRoute,
 }
 export const routeTree = rootRouteImport

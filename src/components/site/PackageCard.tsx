@@ -58,8 +58,8 @@ export function PackageCard({ pkg }: { pkg: Package }) {
             </a>
           </Button>
           <Button asChild size="sm" variant="outline">
-            <Link to="/book" search={{ pkg: pkg.id } as any}>
-              <CalendarCheck className="mr-1 h-3.5 w-3.5" /> Book
+            <Link to="/package/$id" params={{ id: pkg.id }}>
+              <CalendarCheck className="mr-1 h-3.5 w-3.5" /> View Details
             </Link>
           </Button>
         </div>
