@@ -127,7 +127,7 @@ function SeoCityCategoryPage() {
             </ul>
             <h3 className="font-display text-lg text-foreground">{category.name} areas we cover in {city.name}</h3>
             <div className="flex flex-wrap gap-2 not-prose">
-              {city.areas.map((a) => (
+              {city.areas.map((a: string) => (
                 <Badge key={a} variant="outline" className="border-primary/20">{a}</Badge>
               ))}
             </div>
