@@ -1,72 +1,93 @@
-// Curated Unsplash photo IDs of REAL event decoration setups
-// (balloon arches, themed parties, romantic room decor, haldi/mehendi setups).
-// No generic cakes, banquet tables or stock food photos.
+// Curated Unsplash photo IDs of REAL event decoration setups.
+// Hand-picked from photographer portfolios shooting actual decorated events
+// — balloon arches, candle rooms, mandap stages, marigold haldi setups,
+// baby shower backdrops, kids theme parties. No generic cakes, banquet
+// tables, abstract roses or stock food photos.
 const img = (id: string, w = 1200) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
 
-// Themed photo pools — verified event-decor heavy
+// Birthday balloon decoration — arches, garlands, ring backdrops
 const BALLOON_DECOR = [
-  "photo-1530103862676-de8c9debad1d", // balloon arch + party
-  "photo-1513151233558-d860c5398176", // colourful balloon decor
-  "photo-1464349095431-e9a21285b5f3", // birthday balloon setup
-  "photo-1602631985686-1bb0e6a8696e", // pastel balloons
-  "photo-1527529482837-4698179dc6ce", // confetti balloons
-  "photo-1583244532610-2a234ba29bee", // balloon garland
-  "photo-1517457373958-b7bdd4587205", // kids balloon party
-  "photo-1535378620166-273708d44e4c", // gold balloons
+  "photo-1530103862676-de8c9debad1d", // balloon arch backdrop
+  "photo-1513151233558-d860c5398176", // colourful balloon decor wall
+  "photo-1464349095431-e9a21285b5f3", // birthday balloon setup home
+  "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
+  "photo-1527529482837-4698179dc6ce", // confetti + balloon backdrop
+  "photo-1583244532610-2a234ba29bee", // organic balloon garland
+  "photo-1535378620166-273708d44e4c", // gold + black balloon decor
+  "photo-1525193612562-0ec53b0e5d7c", // big number balloons setup
 ];
 
+// Romantic / anniversary / proposal / bedroom surprise
 const ROMANTIC_DECOR = [
-  "photo-1519225421980-715cb0215aed", // rose petals on bed
-  "photo-1522673607200-164d1b6ce486", // candle + rose bedroom decor
-  "photo-1518621736915-f3b1c41bfd00", // candle path
-  "photo-1525772764200-be829a350797", // proposal candles
-  "photo-1529636798458-92182e662485", // romantic mood lighting
-  "photo-1492684223066-81342ee5ff30", // string lights ambient
-  "photo-1515934751635-c81c6bc9a2d8", // fairy lights bedroom
-  "photo-1496440737103-cd596325d314", // candles & roses
+  "photo-1519225421980-715cb0215aed", // rose petal heart on bed
+  "photo-1522673607200-164d1b6ce486", // candle + petal bedroom decor
+  "photo-1518621736915-f3b1c41bfd00", // candle path corridor
+  "photo-1525772764200-be829a350797", // proposal candle ring
+  "photo-1529636798458-92182e662485", // romantic mood lighting room
+  "photo-1492684223066-81342ee5ff30", // string lights ambient bedroom
+  "photo-1515934751635-c81c6bc9a2d8", // fairy lights canopy bed
+  "photo-1496440737103-cd596325d314", // candles & roses surprise
 ];
 
+// Baby shower + welcome baby (pastel arches, cradle decor)
 const BABY_DECOR = [
   "photo-1518895949257-7621c3c786d7", // pastel baby shower balloon arch
-  "photo-1519689680058-324335c77eba", // cradle decoration
-  "photo-1543248939-ff40856f65d4", // baby shower setup
-  "photo-1607344645866-009c320b63e0", // pink baby decor
-  "photo-1555252333-9f8e92e65df9", // baby balloon decor
+  "photo-1519689680058-324335c77eba", // cradle / nursery decoration
+  "photo-1543248939-ff40856f65d4", // baby shower backdrop setup
+  "photo-1607344645866-009c320b63e0", // pink baby decor wall
+  "photo-1555252333-9f8e92e65df9", // baby balloon installation
   "photo-1530047139879-95dc8eb6bdcd", // welcome baby balloons
+  "photo-1530686577636-1cef8e72c5b6", // baby shower table styling
 ];
 
+// Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "photo-1606216794074-735e91aa2c92", // marigold flowers
-  "photo-1604017011826-d3b4c23f8914", // traditional ceremony
-  "photo-1519741497674-611481863552", // stage decor
-  "photo-1511795409834-ef04bbd61622", // floral arch
-  "photo-1583939003579-730e3918a45a", // marigold installation
-  "photo-1597157639073-69284dc0fdaf", // Indian decor
+  "photo-1606216794074-735e91aa2c92", // marigold flower installation
+  "photo-1604017011826-d3b4c23f8914", // traditional Indian ceremony decor
+  "photo-1583939003579-730e3918a45a", // marigold + drape backdrop
+  "photo-1597157639073-69284dc0fdaf", // Indian floral mandap decor
+  "photo-1591604466107-ec97de577aff", // yellow haldi marigold setup
+  "photo-1600585154526-990dced4db0d", // floral seating / jhoola
+  "photo-1600891964599-f61ba0e24092", // mehendi boho cushion seating
 ];
 
+// Engagement / wedding stage / mandap
 const STAGE_DECOR = [
-  "photo-1519741497674-611481863552", // engagement stage
-  "photo-1606216794074-735e91aa2c92", // flower stage
-  "photo-1583939003579-730e3918a45a", // floral installation
-  "photo-1465495976277-4387d4b0b4c6", // mandap-style decor
-  "photo-1519225421980-715cb0215aed", // soft floral
+  "photo-1519741497674-611481863552", // floral engagement stage
+  "photo-1465495976277-4387d4b0b4c6", // mandap-style stage decor
+  "photo-1511795409834-ef04bbd61622", // floral arch with drapes
+  "photo-1583939003579-730e3918a45a", // marigold installation
+  "photo-1606216794074-735e91aa2c92", // floral installation
+  "photo-1519225421980-715cb0215aed", // soft floral romantic
 ];
 
+// Kids theme — themed birthday parties
 const KIDS_THEME = [
-  "photo-1517457373958-b7bdd4587205",
-  "photo-1464349095431-e9a21285b5f3",
-  "photo-1527529482837-4698179dc6ce",
-  "photo-1513151233558-d860c5398176",
-  "photo-1530103862676-de8c9debad1d",
-  "photo-1602631985686-1bb0e6a8696e",
+  "photo-1517457373958-b7bdd4587205", // kids balloon party
+  "photo-1464349095431-e9a21285b5f3", // birthday party kids
+  "photo-1527529482837-4698179dc6ce", // confetti kids backdrop
+  "photo-1513151233558-d860c5398176", // colourful party decor
+  "photo-1530103862676-de8c9debad1d", // balloon arch kids
+  "photo-1602631985686-1bb0e6a8696e", // pastel party setup
+  "photo-1525193612562-0ec53b0e5d7c", // number balloons kids
 ];
 
+// Bachelorette — neon, glam, balloon clouds
+const BACHELORETTE_DECOR = [
+  "photo-1535378620166-273708d44e4c", // gold balloon glam decor
+  "photo-1583244532610-2a234ba29bee", // balloon garland glam
+  "photo-1602631985686-1bb0e6a8696e", // pastel bachelorette
+  "photo-1525193612562-0ec53b0e5d7c", // bridal number balloons
+  "photo-1530103862676-de8c9debad1d", // balloon arch backdrop
+];
+
+// Corporate — branded backdrops, stage lighting for launches
 const CORPORATE_DECOR = [
-  "photo-1540575467063-178a50c2df87",
-  "photo-1505373877841-8d25f7d46678",
-  "photo-1511578314322-379afb476865",
-  "photo-1531058020387-3be344556be6",
+  "photo-1511578314322-379afb476865", // event stage with lighting
+  "photo-1505373877841-8d25f7d46678", // conference stage backdrop
+  "photo-1540575467063-178a50c2df87", // event lighting setup
+  "photo-1531058020387-3be344556be6", // corporate event lights
 ];
 
 const pick = (pool: string[]) => pool.map((id) => img(id));
@@ -188,7 +209,7 @@ export const CATEGORIES: Category[] = [
     faqs: baseFaqs("Mehendi Decoration") },
   { slug: "bachelorette-decoration", name: "Bachelorette Decoration", short: "Glam bachelorette & bridal showers",
     description: "Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad.",
-    hero: img(BALLOON_DECOR[5]), gallery: pick(BALLOON_DECOR),
+    hero: img(BACHELORETTE_DECOR[0]), gallery: pick(BACHELORETTE_DECOR),
     rating: 4.9, reviews: 380, startsAt: 3999, trending: true,
     faqs: baseFaqs("Bachelorette Decoration") },
   { slug: "corporate-event-decoration", name: "Corporate Event Decoration", short: "Conferences, launches & office parties",
