@@ -24,8 +24,8 @@ export const Route = createFileRoute("/package/$id")({
     if (!p) return {};
     return {
       meta: [
-        { title: `${p.name} | \u20B9${p.offer.toLocaleString()} | Decorza Events` },
-        { name: "description", content: `${p.name} \u2014 starting at \u20B9${p.offer.toLocaleString()}. Includes ${p.includes.slice(0, 3).join(", ")}. Book on WhatsApp ${BRAND.whatsappDisplay}.` },
+        { title: `${p.name} | ₹${p.offer.toLocaleString()} | Decorza Events` },
+        { name: "description", content: `${p.name} — starting at ₹${p.offer.toLocaleString()}. Includes ${p.includes.slice(0, 3).join(", ")}. Book on WhatsApp ${BRAND.whatsappDisplay}.` },
         { property: "og:title", content: `${p.name} | Decorza Events` },
         { property: "og:description", content: p.description },
         { property: "og:image", content: p.image },
@@ -141,8 +141,8 @@ function PackageDetailPage() {
             </div>
 
             <div className="mt-5 flex items-baseline gap-3">
-              <span className="font-display text-4xl text-primary">\u20B9{pkg.offer.toLocaleString()}</span>
-              <span className="text-base text-muted-foreground line-through">\u20B9{pkg.original.toLocaleString()}</span>
+              <span className="font-display text-4xl text-primary">₹{pkg.offer.toLocaleString()}</span>
+              <span className="text-base text-muted-foreground line-through">₹{pkg.original.toLocaleString()}</span>
               {discount > 0 && <Badge className="bg-rose-brand text-white">{discount}% OFF</Badge>}
             </div>
             <p className="mt-1 text-xs text-muted-foreground">Inclusive of setup & cleanup. Custom add-ons available on request.</p>
@@ -226,7 +226,7 @@ function PackageDetailPage() {
               <Palette className="h-4 w-4" /> Balloon Colours
             </div>
             <h2 className="mt-2 font-display text-3xl">Pick your palette</h2>
-            <p className="mt-2 text-sm text-muted-foreground">Choose any of our signature palettes \u2014 or share your own colour scheme on WhatsApp. We\u2019ll match it exactly.</p>
+            <p className="mt-2 text-sm text-muted-foreground">Choose any of our signature palettes — or share your own colour scheme on WhatsApp. We’ll match it exactly.</p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               {BALLOON_PALETTES.map((p) => (
                 <div key={p.name} className="rounded-2xl border bg-card p-4 transition hover:border-primary">
@@ -290,7 +290,7 @@ function PackageDetailPage() {
           {[
             { step: "01", t: "Book & confirm", d: "WhatsApp or fill the form. We confirm within minutes." },
             { step: "02", t: "Team dispatched", d: "Our decor team reaches your venue 60-90 minutes early." },
-            { step: "03", t: "Setup in progress", d: `${pkg.setupTime} \u2014 quiet, professional, on-time installation.` },
+            { step: "03", t: "Setup in progress", d: `${pkg.setupTime} — quiet, professional, on-time installation.` },
             { step: "04", t: "Enjoy & cleanup", d: "Celebrate your moment. We return for hassle-free cleanup." },
           ].map((s) => (
             <div key={s.step} className="rounded-2xl border bg-card p-6">
@@ -312,7 +312,7 @@ function PackageDetailPage() {
                 <PlusCircle className="h-5 w-5 text-gold" />
                 <h4 className="mt-3 font-display text-base">{a.name}</h4>
                 <p className="mt-1 flex-1 text-xs text-muted-foreground">{a.desc}</p>
-                <p className="mt-3 font-display text-lg text-primary">+ \u20B9{a.price.toLocaleString()}</p>
+                <p className="mt-3 font-display text-lg text-primary">+ ₹{a.price.toLocaleString()}</p>
               </div>
             ))}
           </div>
@@ -343,11 +343,11 @@ function PackageDetailPage() {
           </div>
           <div className="rounded-2xl border bg-card p-6 shadow-luxury">
             <h3 className="font-display text-2xl">Book This Package</h3>
-            <p className="mt-1 text-sm text-muted-foreground">Fill the form \u2014 we\u2019ll confirm availability on WhatsApp within minutes.</p>
+            <p className="mt-1 text-sm text-muted-foreground">Fill the form — we’ll confirm availability on WhatsApp within minutes.</p>
             <div className="mt-5"><BookingForm defaultPackageId={pkg.id} /></div>
             <div className="mt-4 rounded-xl bg-whatsapp/10 p-4 text-sm">
               <p className="font-semibold text-whatsapp">Prefer WhatsApp?</p>
-              <p className="mt-1 text-xs text-muted-foreground">Chat with our decor specialist now \u2014 share your date, city & vision.</p>
+              <p className="mt-1 text-xs text-muted-foreground">Chat with our decor specialist now — share your date, city & vision.</p>
               <Button asChild className="mt-3 w-full bg-whatsapp hover:opacity-90 text-white">
                 <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> WhatsApp {BRAND.whatsappDisplay}</a>
               </Button>
@@ -368,8 +368,8 @@ function PackageDetailPage() {
                   <div className="p-4">
                     <h4 className="font-display text-lg">{p.name}</h4>
                     <div className="mt-2 flex items-baseline gap-2">
-                      <span className="font-display text-xl text-primary">\u20B9{p.offer.toLocaleString()}</span>
-                      <span className="text-xs text-muted-foreground line-through">\u20B9{p.original.toLocaleString()}</span>
+                      <span className="font-display text-xl text-primary">₹{p.offer.toLocaleString()}</span>
+                      <span className="text-xs text-muted-foreground line-through">₹{p.original.toLocaleString()}</span>
                     </div>
                   </div>
                 </Link>
