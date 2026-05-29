@@ -1,5 +1,8 @@
 import { createFileRoute, notFound, Link } from "@tanstack/react-router";
-import { Phone, CalendarCheck, Star, Check, Clock, ShieldCheck, Sparkles, MapPin } from "lucide-react";
+import {
+  Phone, CalendarCheck, Star, Check, Clock, ShieldCheck, Sparkles, MapPin,
+  Palette, Lightbulb, Wand2, PlusCircle, Truck, Users, Camera, Music,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SectionHeader } from "@/components/site/SectionHeader";
@@ -47,6 +50,48 @@ export const Route = createFileRoute("/package/$id")({
   component: PackageDetailPage,
 });
 
+// Premium balloon color palette options
+const BALLOON_PALETTES = [
+  { name: "Rose & Gold", colors: ["#f9c5d1", "#e8a0bf", "#d4a548", "#f5e6c8", "#ffffff"] },
+  { name: "Pastel Dream", colors: ["#fde2e4", "#fad2e1", "#c5dedd", "#dbcdf0", "#f7d9c4"] },
+  { name: "Royal Luxe", colors: ["#3d2c5e", "#6b4f9b", "#d4a548", "#1a0f2e", "#f5e6c8"] },
+  { name: "Classic White", colors: ["#ffffff", "#f5f5f5", "#d4a548", "#e8d7a3", "#cccccc"] },
+  { name: "Tropical Pop", colors: ["#ff6b6b", "#ffd166", "#06d6a0", "#118ab2", "#ef476f"] },
+  { name: "Black & Gold", colors: ["#0a0a0a", "#1a1a1a", "#d4a548", "#f5e6c8", "#ffffff"] },
+];
+
+// LED neon name options
+const LED_OPTIONS = [
+  { label: "Custom Name", desc: "Up to 12 characters, LED neon flex" },
+  { label: "Couple Initials", desc: "Stylish 2-letter monogram with heart" },
+  { label: "Happy Birthday", desc: "Premium pre-made neon sign" },
+  { label: "Marry Me", desc: "Romantic LED for proposal moments" },
+  { label: "Mr & Mrs", desc: "Engagement & wedding signage" },
+  { label: "Welcome Baby", desc: "Soft pastel LED for baby events" },
+];
+
+// Customization options
+const CUSTOMIZATION = [
+  { i: Palette, t: "Choose any balloon color palette" },
+  { i: Lightbulb, t: "Custom LED name / message" },
+  { i: Wand2, t: "Fresh flower upgrade (rose, orchid, lily)" },
+  { i: Users, t: "Add seating & lounge styling" },
+  { i: Camera, t: "Photo-ready props & backdrops" },
+  { i: Music, t: "Soft music & fog effect on request" },
+];
+
+// Add-on services with pricing
+const ADDONS = [
+  { name: "Professional Photographer", price: 2999, desc: "1 hour shoot, 50+ edited photos" },
+  { name: "Cinematic Videographer", price: 4999, desc: "Reel + highlight video" },
+  { name: "Customised Cake (1kg)", price: 1499, desc: "Designer cake, premium flavours" },
+  { name: "Fog / Cold-pyro Effect", price: 1999, desc: "Wow-moment entry effect" },
+  { name: "Live Singer / Guitarist", price: 5999, desc: "30-min live acoustic set" },
+  { name: "Premium Floral Upgrade", price: 2499, desc: "Fresh roses, orchids, lilies" },
+  { name: "Bouquet & Chocolates", price: 999, desc: "Premium bouquet + Ferrero box" },
+  { name: "Late-night Setup (post 10pm)", price: 1499, desc: "Setup between 10pm – 6am" },
+];
+
 function PackageDetailPage() {
   const { pkg, category } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: pkg.name }));
@@ -70,7 +115,7 @@ function PackageDetailPage() {
         </div>
       </div>
 
-      {/* GALLERY + DETAIL */}
+      {/* HERO: GALLERY + DETAIL */}
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_1fr]">
           <div>
@@ -149,8 +194,136 @@ function PackageDetailPage() {
         </div>
       </section>
 
-      {/* REVIEWS */}
+      {/* DECORATION SETUP DETAILS */}
+      <section className="border-y bg-gradient-to-b from-secondary/30 to-background py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeader eyebrow="What you get" title="Decoration Setup Details" />
+          <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            {[
+              { i: Sparkles, t: "Premium Quality Balloons", d: "Imported matte & chrome balloons, hand-inflated on-site. No leaks, no shine drops." },
+              { i: Palette, t: "Designer Backdrop", d: "Themed fabric or paper backdrop styled to your colour palette and occasion." },
+              { i: Lightbulb, t: "Ambient & LED Lighting", d: "Fairy lights, warm spots and LED uplighters create a magical, camera-ready vibe." },
+              { i: Wand2, t: "Fresh Florals & Props", d: "Roses, orchids, marigolds plus themed props installed by our experienced florists." },
+            ].map(({ i: I, t, d }) => (
+              <div key={t} className="rounded-2xl border bg-card p-6 transition hover:-translate-y-1 hover:shadow-luxury">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <I className="h-5 w-5" />
+                </div>
+                <h4 className="mt-4 font-display text-lg">{t}</h4>
+                <p className="mt-1.5 text-sm text-muted-foreground">{d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* BALLOON COLORS + LED NAME */}
+      <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid gap-10 lg:grid-cols-2">
+          {/* Balloon palettes */}
+          <div>
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold">
+              <Palette className="h-4 w-4" /> Balloon Colours
+            </div>
+            <h2 className="mt-2 font-display text-3xl">Pick your palette</h2>
+            <p className="mt-2 text-sm text-muted-foreground">Choose any of our signature palettes \u2014 or share your own colour scheme on WhatsApp. We\u2019ll match it exactly.</p>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              {BALLOON_PALETTES.map((p) => (
+                <div key={p.name} className="rounded-2xl border bg-card p-4 transition hover:border-primary">
+                  <div className="flex items-center gap-1.5">
+                    {p.colors.map((c) => (
+                      <span key={c} className="h-7 w-7 rounded-full ring-2 ring-background shadow-sm" style={{ background: c }} />
+                    ))}
+                  </div>
+                  <p className="mt-3 text-sm font-semibold">{p.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* LED name */}
+          <div>
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold">
+              <Lightbulb className="h-4 w-4" /> LED Name Setup
+            </div>
+            <h2 className="mt-2 font-display text-3xl">Personalised neon signage</h2>
+            <p className="mt-2 text-sm text-muted-foreground">A glowing LED neon sign is the heart of every Decorza setup. Pick a ready design or get a fully custom name made just for your event.</p>
+            <div className="mt-6 grid gap-3">
+              {LED_OPTIONS.map((l) => (
+                <div key={l.label} className="flex items-start gap-3 rounded-xl border bg-card p-4">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold/15 text-gold">
+                    <Lightbulb className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold">{l.label}</p>
+                    <p className="text-xs text-muted-foreground">{l.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-muted-foreground">Custom LED neon may add 24-hour fabrication time. Confirm on WhatsApp.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CUSTOMIZATION OPTIONS */}
       <section className="bg-secondary/40 py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeader eyebrow="Make it yours" title="Customisation Options" subtitle="Every Decorza setup is fully customisable. Mix, match and personalise to match your vision." />
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {CUSTOMIZATION.map(({ i: I, t }) => (
+              <div key={t} className="flex items-center gap-4 rounded-2xl border bg-card p-5">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <I className="h-5 w-5" />
+                </div>
+                <p className="text-sm font-medium">{t}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SETUP DURATION & PROCESS */}
+      <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <SectionHeader eyebrow="How it works" title="Setup Duration & Process" />
+        <div className="mt-10 grid gap-5 md:grid-cols-4">
+          {[
+            { step: "01", t: "Book & confirm", d: "WhatsApp or fill the form. We confirm within minutes." },
+            { step: "02", t: "Team dispatched", d: "Our decor team reaches your venue 60-90 minutes early." },
+            { step: "03", t: "Setup in progress", d: `${pkg.setupTime} \u2014 quiet, professional, on-time installation.` },
+            { step: "04", t: "Enjoy & cleanup", d: "Celebrate your moment. We return for hassle-free cleanup." },
+          ].map((s) => (
+            <div key={s.step} className="rounded-2xl border bg-card p-6">
+              <span className="font-display text-3xl text-gold">{s.step}</span>
+              <h4 className="mt-3 font-display text-lg">{s.t}</h4>
+              <p className="mt-1 text-sm text-muted-foreground">{s.d}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ADD-ON SERVICES */}
+      <section className="border-y bg-gradient-to-b from-background to-secondary/40 py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeader eyebrow="Make it unforgettable" title="Add-on Services" subtitle="Elevate your celebration with these premium add-ons. Add any of them when you book." />
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {ADDONS.map((a) => (
+              <div key={a.name} className="group flex flex-col rounded-2xl border bg-card p-5 transition hover:-translate-y-1 hover:border-primary hover:shadow-luxury">
+                <PlusCircle className="h-5 w-5 text-gold" />
+                <h4 className="mt-3 font-display text-base">{a.name}</h4>
+                <p className="mt-1 flex-1 text-xs text-muted-foreground">{a.desc}</p>
+                <p className="mt-3 font-display text-lg text-primary">+ \u20B9{a.price.toLocaleString()}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-6 flex items-center justify-center gap-2 text-xs text-muted-foreground">
+            <Truck className="h-4 w-4 text-gold" /> Free delivery & setup within city limits.
+          </p>
+        </div>
+      </section>
+
+      {/* REVIEWS */}
+      <section className="py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Reviews" title={`What customers say about ${category.name}`} />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -162,21 +335,30 @@ function PackageDetailPage() {
       </section>
 
       {/* BOOKING + FAQ */}
-      <section className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:px-8">
-        <div>
-          <SectionHeader eyebrow="FAQs" title="Common Questions" center={false} />
-          <div className="mt-6"><Faq items={category.faqs} /></div>
-        </div>
-        <div className="rounded-2xl border bg-card p-6">
-          <h3 className="font-display text-2xl">Book This Package</h3>
-          <p className="mt-1 text-sm text-muted-foreground">Fill the form \u2014 we\u2019ll confirm availability on WhatsApp within minutes.</p>
-          <div className="mt-5"><BookingForm defaultPackageId={pkg.id} /></div>
+      <section className="bg-secondary/30 py-14">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div>
+            <SectionHeader eyebrow="FAQs" title="Common Questions" center={false} />
+            <div className="mt-6"><Faq items={category.faqs} /></div>
+          </div>
+          <div className="rounded-2xl border bg-card p-6 shadow-luxury">
+            <h3 className="font-display text-2xl">Book This Package</h3>
+            <p className="mt-1 text-sm text-muted-foreground">Fill the form \u2014 we\u2019ll confirm availability on WhatsApp within minutes.</p>
+            <div className="mt-5"><BookingForm defaultPackageId={pkg.id} /></div>
+            <div className="mt-4 rounded-xl bg-whatsapp/10 p-4 text-sm">
+              <p className="font-semibold text-whatsapp">Prefer WhatsApp?</p>
+              <p className="mt-1 text-xs text-muted-foreground">Chat with our decor specialist now \u2014 share your date, city & vision.</p>
+              <Button asChild className="mt-3 w-full bg-whatsapp hover:opacity-90 text-white">
+                <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> WhatsApp {BRAND.whatsappDisplay}</a>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* RELATED */}
       {related.length > 0 && (
-        <section className="bg-secondary/30 py-14">
+        <section className="py-14">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <SectionHeader eyebrow="Also explore" title={`Other ${category.name} Packages`} />
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
