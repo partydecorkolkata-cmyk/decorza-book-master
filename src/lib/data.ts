@@ -242,6 +242,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
       includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "LED neon name sign", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
+
   ];
   return tiers.map((t, i) => ({
     id: `${c.slug}-${t.tier.toLowerCase()}`,
@@ -254,8 +255,9 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : c.startsAt * t.multOffer) / 0.66),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 11999 : c.startsAt * t.multOffer) / 0.66),
     offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : Math.round(c.startsAt * t.multOffer),
+
 
     duration: t.duration,
     setupTime: t.setupTime,
