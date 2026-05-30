@@ -11,12 +11,12 @@ const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
   "/premium-birthday.jpg", // custom premium birthday upload
   "/luxury-birthday.jpg", // luxury birthday upload
-  "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
+  "/birthday-4.png", // navy + gold arch
 
-  "photo-1527529482837-4698179dc6ce", // confetti + balloon backdrop
+  "/birthday-5.jpg", // boho pink arch
   "photo-1583244532610-2a234ba29bee", // organic balloon garland
-  "photo-1535378620166-273708d44e4c", // gold + black balloon decor
-  "photo-1525193612562-0ec53b0e5d7c", // big number balloons setup
+  "/birthday-6.jpg", // white + gold ring
+  "/birthday-7.jpg", // rose gold theme
 ];
 
 // Romantic / anniversary / proposal / bedroom surprise
