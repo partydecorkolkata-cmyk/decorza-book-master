@@ -51,7 +51,7 @@ function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/balloon-decoration-hero.jpg"
+            src="/images/balloon-decoration-hero-v2.jpg"
             alt="Premium event decoration"
             className="h-full w-full object-cover"
           />

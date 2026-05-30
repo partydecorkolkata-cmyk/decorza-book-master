@@ -8,7 +8,7 @@ const img = (id: string, w = 1200) =>
 
 // Birthday balloon decoration — arches, garlands, ring backdrops
 const BALLOON_DECOR = [
-  "/images/balloon-decoration-hero.jpg", // balloon arch backdrop (custom upload)
+  "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
   "photo-1513151233558-d860c5398176", // colourful balloon decor wall
   "photo-1464349095431-e9a21285b5f3", // birthday balloon setup home
   "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
@@ -150,7 +150,7 @@ export const CATEGORIES: Category[] = [
   { slug: "birthday-decoration", name: "Birthday Decoration", short: "Beautiful birthday setups for every age",
     description: "Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable.",
     hero: img(BALLOON_DECOR[0]), gallery: pick(BALLOON_DECOR),
-    rating: 4.9, reviews: 2148, startsAt: 1499, popular: true, trending: true, bestSeller: true,
+    rating: 4.9, reviews: 2148, startsAt: 2999, popular: true, trending: true, bestSeller: true,
     faqs: baseFaqs("Birthday Decoration") },
   { slug: "anniversary-decoration", name: "Anniversary Decoration", short: "Romantic anniversary surprises",
     description: "Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.",
@@ -180,7 +180,7 @@ export const CATEGORIES: Category[] = [
   { slug: "romantic-bedroom-decoration", name: "Romantic Bedroom Decoration", short: "First night & surprise room setups",
     description: "Rose petal beds, candle paths, balloons and fairy lights \u2014 perfect for honeymoons, anniversaries and surprises.",
     hero: img(ROMANTIC_DECOR[1]), gallery: pick(ROMANTIC_DECOR),
-    rating: 4.9, reviews: 1450, startsAt: 1499, bestSeller: true, trending: true,
+    rating: 4.9, reviews: 1450, startsAt: 2999, bestSeller: true, trending: true,
     faqs: baseFaqs("Romantic Bedroom Decoration") },
   { slug: "car-boot-decoration", name: "Car Boot Decoration", short: "Surprise her with a car-boot proposal",
     description: "Roses, balloons, candles and LED setups inside your car boot \u2014 the most-loved surprise of the year.",
@@ -232,7 +232,7 @@ export const CATEGORIES: Category[] = [
 // Generate 3 packages per category — Essential / Premium / Luxury
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   const tiers = [
-    { tier: "Essential", multOrig: 1, multOffer: 0.7,
+    { tier: "Essential", multOrig: 1, multOffer: 1.5,
       includes: ["Balloon backdrop / arch", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
       duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
     { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
@@ -253,8 +253,8 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round(c.startsAt * t.multOrig * 1.6),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 1499 : i === 0 ? 2999 : Math.round(c.startsAt * t.multOffer),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 ? 4499 : c.startsAt * t.multOffer) / 0.66),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 ? 4499 : Math.round(c.startsAt * t.multOffer),
     duration: t.duration,
     setupTime: t.setupTime,
     trending: i === 1 && c.trending,
