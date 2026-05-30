@@ -281,7 +281,7 @@ export const BUDGET_BUCKETS = [
 ];
 
 export const REVIEWS = [
-  ["Aarav Sharma", "Mumbai", "Birthday Decoration", "The setup was absolutely magical. My wife cried happy tears. Worth every rupee.", 5],
+  ["Aarav Sharma", "Mumbai", "Birthday Decoration", "The setup was absolutely magical. Worth every rupee.", 5],
   ["Priya Banerjee", "Kolkata", "Anniversary Decoration", "Punctual, premium quality balloons and gorgeous flowers. Highly recommended.", 5],
   ["Rohan Mehta", "Delhi", "Proposal Decoration", "She said yes! The car boot decoration was beyond what I imagined.", 5],
   ["Sneha Iyer", "Bengaluru", "Baby Shower Decoration", "Pastel theme was dreamy. The team set up everything in 90 minutes.", 5],
