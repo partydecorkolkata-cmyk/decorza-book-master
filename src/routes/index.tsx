@@ -51,7 +51,7 @@ function HomePage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1920&q=80"
+            src="/images/balloon-decoration-hero.jpg"
             alt="Premium event decoration"
             className="h-full w-full object-cover"
           />

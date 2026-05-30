@@ -8,7 +8,7 @@ const img = (id: string, w = 1200) =>
 
 // Birthday balloon decoration — arches, garlands, ring backdrops
 const BALLOON_DECOR = [
-  "photo-1530103862676-de8c9debad1d", // balloon arch backdrop
+  "/images/balloon-decoration-hero.jpg", // balloon arch backdrop (custom upload)
   "photo-1513151233558-d860c5398176", // colourful balloon decor wall
   "photo-1464349095431-e9a21285b5f3", // birthday balloon setup home
   "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
