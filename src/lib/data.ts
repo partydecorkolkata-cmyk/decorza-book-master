@@ -9,7 +9,8 @@ const img = (id: string, w = 1200) =>
 // Birthday balloon decoration — arches, garlands, ring backdrops
 const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
-  "photo-1513151233558-d860c5398176", // colourful balloon decor wall
+  "/premium-birthday.jpg", // custom premium birthday upload
+
   "photo-1464349095431-e9a21285b5f3", // birthday balloon setup home
   "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
   "photo-1527529482837-4698179dc6ce", // confetti + balloon backdrop
@@ -241,6 +242,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
       includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "LED neon name sign", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
+
   ];
   return tiers.map((t, i) => ({
     id: `${c.slug}-${t.tier.toLowerCase()}`,
@@ -253,8 +255,13 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : c.startsAt * t.multOffer) / 0.66),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : Math.round(c.startsAt * t.multOffer),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "theme-birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 11999 : c.startsAt * t.multOffer) / 0.66),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : Math.round(c.startsAt * t.multOffer),
+
+
+
+
+
     duration: t.duration,
     setupTime: t.setupTime,
     trending: i === 1 && c.trending,
