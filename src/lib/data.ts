@@ -254,7 +254,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(c.startsAt * t.multOrig * 1.6),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 4499 : Math.round(c.startsAt * t.multOffer),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 4499 : i === 0 ? 2999 : Math.round(c.startsAt * t.multOffer),
     duration: t.duration,
     setupTime: t.setupTime,
     trending: i === 1 && c.trending,
@@ -317,7 +317,7 @@ export const WHY_CHOOSE = [
   { title: "12,500+ Happy Celebrations", desc: "A decade of memorable moments delivered across India." },
   { title: "Same Day Setup", desc: "Last-minute plans? Our team mobilises within hours." },
   { title: "Professional Decor Team", desc: "Trained, in-house decorators \u2014 never random freelancers." },
-  { title: "Affordable Packages", desc: "Transparent pricing from \u20B91,499 \u2014 no hidden charges." },
+  { title: "Affordable Packages", desc: "Transparent pricing from \u20B92,999 \u2014 no hidden charges." },
   { title: "Multi-City Service", desc: "Live in 7 cities \u2014 Kolkata to Mumbai, Delhi to Pune." },
   { title: "WhatsApp Booking Support", desc: "Instant quotes, real photos, 24/7 fast confirmations." },
   { title: "Premium Decoration Materials", desc: "Imported balloons, fresh florals, LED neon, designer props." },
@@ -350,7 +350,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Salt Lake", "New Town", "Park Street", "Ballygunge", "Behala", "Jadavpur", "Howrah", "Garia", "Lake Town", "Tollygunge"],
     venues: ["The Park Kolkata", "ITC Sonar", "Taj Bengal", "Westin Rajarhat", "Novotel Kolkata", "Banquet halls across Salt Lake & EM Bypass"],
     popular: ["birthday-decoration", "anniversary-decoration", "rice-ceremony-decoration", "romantic-bedroom-decoration"],
-    startingPrice: 1499,
+    startingPrice: 2999,
   },
   siliguri: {
     name: "Siliguri", slug: "siliguri",
@@ -358,7 +358,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Sevoke Road", "Hill Cart Road", "Matigara", "Pradhan Nagar", "Bagdogra", "Salugara", "Champasari"],
     venues: ["Mainak Tourist Lodge", "Sinclairs Siliguri", "Cygnett Park Asia", "Sourav Banquet", "Vishal Banquet"],
     popular: ["birthday-decoration", "welcome-baby-decoration", "anniversary-decoration", "haldi-decoration"],
-    startingPrice: 1499,
+    startingPrice: 2999,
   },
   delhi: {
     name: "Delhi", slug: "delhi",
@@ -366,7 +366,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["South Delhi", "Saket", "Dwarka", "Rohini", "Karol Bagh", "Pitampura", "Gurgaon", "Noida", "Greater Noida", "Faridabad"],
     venues: ["The Lalit", "Taj Palace Delhi", "JW Marriott Aerocity", "Roseate House", "Banquets across Gurgaon Sector 29"],
     popular: ["proposal-decoration", "anniversary-decoration", "birthday-decoration", "engagement-decoration"],
-    startingPrice: 1799,
+    startingPrice: 2999,
   },
   mumbai: {
     name: "Mumbai", slug: "mumbai",
@@ -374,7 +374,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Andheri", "Bandra", "Juhu", "Powai", "Worli", "Lower Parel", "Thane", "Navi Mumbai", "Borivali", "Malad"],
     venues: ["The Taj Mahal Palace", "Sofitel BKC", "JW Marriott Juhu", "The St. Regis", "Banquets across Andheri & Powai"],
     popular: ["proposal-decoration", "romantic-bedroom-decoration", "bachelorette-decoration", "birthday-decoration"],
-    startingPrice: 1999,
+    startingPrice: 2999,
   },
   bengaluru: {
     name: "Bengaluru", slug: "bengaluru",
@@ -382,7 +382,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Indiranagar", "Koramangala", "HSR Layout", "Whitefield", "Marathahalli", "Electronic City", "Jayanagar", "JP Nagar", "Hebbal", "Sarjapur Road"],
     venues: ["The Leela Palace", "ITC Gardenia", "JW Marriott Bengaluru", "Sheraton Grand Whitefield", "Banquets across ORR"],
     popular: ["birthday-decoration", "baby-shower-decoration", "anniversary-decoration", "kids-theme-decoration"],
-    startingPrice: 1799,
+    startingPrice: 2999,
   },
   hyderabad: {
     name: "Hyderabad", slug: "hyderabad",
@@ -390,7 +390,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Gachibowli", "Hitech City", "Madhapur", "Kondapur", "Banjara Hills", "Jubilee Hills", "Secunderabad", "Kukatpally", "Begumpet", "Manikonda"],
     venues: ["Park Hyatt", "ITC Kohenur", "Trident Hyderabad", "Marriott Hyderabad", "Banquets across Banjara Hills"],
     popular: ["baby-shower-decoration", "haldi-decoration", "engagement-decoration", "birthday-decoration"],
-    startingPrice: 1799,
+    startingPrice: 2999,
   },
   pune: {
     name: "Pune", slug: "pune",
@@ -398,7 +398,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     areas: ["Koregaon Park", "Baner", "Wakad", "Hinjewadi", "Kothrud", "Aundh", "Viman Nagar", "Magarpatta", "Kharadi", "Hadapsar"],
     venues: ["JW Marriott Pune", "The Westin", "Conrad Pune", "Hyatt Regency", "Banquets across Baner & Kharadi"],
     popular: ["romantic-bedroom-decoration", "mehendi-decoration", "anniversary-decoration", "birthday-decoration"],
-    startingPrice: 1799,
+    startingPrice: 2999,
   },
 };
 
