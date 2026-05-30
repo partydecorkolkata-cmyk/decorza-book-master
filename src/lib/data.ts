@@ -232,7 +232,7 @@ export const CATEGORIES: Category[] = [
 // Generate 3 packages per category — Essential / Premium / Luxury
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   const tiers = [
-    { tier: "Essential", multOrig: 1, multOffer: 0.7,
+    { tier: "Essential", multOrig: 1, multOffer: 1.5,
       includes: ["Balloon backdrop / arch", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
       duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
     { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
@@ -253,7 +253,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round(c.startsAt * t.multOrig * 1.6),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : c.startsAt * t.multOffer) / 0.66),
     offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : Math.round(c.startsAt * t.multOffer),
     duration: t.duration,
     setupTime: t.setupTime,
