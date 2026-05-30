@@ -10,9 +10,9 @@ const img = (id: string, w = 1200) =>
 const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
   "/premium-birthday.jpg", // custom premium birthday upload
-
-  "photo-1464349095431-e9a21285b5f3", // birthday balloon setup home
+  "/luxury-birthday.jpg", // luxury birthday upload
   "photo-1602631985686-1bb0e6a8696e", // pastel balloon garland
+
   "photo-1527529482837-4698179dc6ce", // confetti + balloon backdrop
   "photo-1583244532610-2a234ba29bee", // organic balloon garland
   "photo-1535378620166-273708d44e4c", // gold + black balloon decor
@@ -255,8 +255,9 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "theme-birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 11999 : c.startsAt * t.multOffer) / 0.66),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : Math.round(c.startsAt * t.multOffer),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "theme-birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 27999 : c.startsAt * t.multOffer) / 0.66),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 18999 : Math.round(c.startsAt * t.multOffer),
+
 
 
 
