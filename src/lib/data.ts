@@ -317,7 +317,7 @@ export const WHY_CHOOSE = [
   { title: "12,500+ Happy Celebrations", desc: "A decade of memorable moments delivered across India." },
   { title: "Same Day Setup", desc: "Last-minute plans? Our team mobilises within hours." },
   { title: "Professional Decor Team", desc: "Trained, in-house decorators \u2014 never random freelancers." },
-  { title: "Affordable Packages", desc: "Transparent pricing from \u20B91,499 \u2014 no hidden charges." },
+  { title: "Affordable Packages", desc: "Transparent pricing from \u20B92,999 \u2014 no hidden charges." },
   { title: "Multi-City Service", desc: "Live in 7 cities \u2014 Kolkata to Mumbai, Delhi to Pune." },
   { title: "WhatsApp Booking Support", desc: "Instant quotes, real photos, 24/7 fast confirmations." },
   { title: "Premium Decoration Materials", desc: "Imported balloons, fresh florals, LED neon, designer props." },
