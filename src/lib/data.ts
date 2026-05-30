@@ -255,8 +255,9 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 11999 : c.startsAt * t.multOffer) / 0.66),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "theme-birthday-decoration" ? 6817 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 11999 : c.startsAt * t.multOffer) / 0.66),
     offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 7999 : Math.round(c.startsAt * t.multOffer),
+
 
 
 
