@@ -254,7 +254,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(c.startsAt * t.multOrig * 1.6),
-    offer: Math.round(c.startsAt * t.multOffer),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 4499 : Math.round(c.startsAt * t.multOffer),
     duration: t.duration,
     setupTime: t.setupTime,
     trending: i === 1 && c.trending,
