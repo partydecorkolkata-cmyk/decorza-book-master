@@ -21,9 +21,9 @@ const BALLOON_DECOR = [
 
 // Romantic / anniversary / proposal / bedroom surprise
 const ROMANTIC_DECOR = [
-  "photo-1519225421980-715cb0215aed", // rose petal heart on bed
-  "photo-1522673607200-164d1b6ce486", // candle + petal bedroom decor
-  "photo-1518621736915-f3b1c41bfd00", // candle path corridor
+  "/anniversary-1.jpg", // custom anniversary upload
+  "/anniversary-2.webp", // custom anniversary upload 2
+  "/anniversary-3.webp", // custom anniversary upload 3
   "photo-1525772764200-be829a350797", // proposal candle ring
   "photo-1529636798458-92182e662485", // romantic mood lighting room
   "photo-1492684223066-81342ee5ff30", // string lights ambient bedroom
@@ -156,7 +156,7 @@ export const CATEGORIES: Category[] = [
   { slug: "anniversary-decoration", name: "Anniversary Decoration", short: "Romantic anniversary surprises",
     description: "Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.",
     hero: img(ROMANTIC_DECOR[0]), gallery: pick(ROMANTIC_DECOR),
-    rating: 4.9, reviews: 1820, startsAt: 1799, popular: true, bestSeller: true,
+    rating: 4.9, reviews: 1820, startsAt: 1499, popular: true, bestSeller: true,
     faqs: baseFaqs("Anniversary Decoration") },
   { slug: "theme-birthday-decoration", name: "Theme Birthday Decoration", short: "Custom themed parties kids & adults love",
     description: "From jungle and unicorn to football, princess and superhero themes — fully styled with props, balloons and themed backdrops.",
@@ -255,8 +255,8 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "theme-birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 27999 : c.startsAt * t.multOffer) / 0.66),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 18999 : Math.round(c.startsAt * t.multOffer),
+    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 8999 : i === 1 && c.slug === "anniversary-decoration" ? 14999 : i === 1 && c.slug === "theme-birthday-decoration" ? 8999 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 27999 : c.startsAt * t.multOffer) / 0.66),
+    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 2999 : i === 0 ? 2999 : i === 1 && c.slug === "birthday-decoration" ? 5999 : i === 1 && c.slug === "anniversary-decoration" ? 9999 : i === 1 && c.slug === "theme-birthday-decoration" ? 4499 : i === 1 ? 4499 : i === 2 && c.slug === "birthday-decoration" ? 18999 : Math.round(c.startsAt * t.multOffer),
 
 
 
