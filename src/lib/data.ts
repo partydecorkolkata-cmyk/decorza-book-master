@@ -255,8 +255,34 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round((i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 3499 : i === 0 ? 3499 : i === 1 && (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 8999 : i === 1 && c.slug === "anniversary-decoration" ? 6817 : i === 1 ? 4999 : i === 2 && c.slug === "birthday-decoration" ? 34999 : i === 2 && (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34999 : i === 2 && c.slug === "anniversary-decoration" ? 14999 : c.startsAt * t.multOffer) / 0.66),
-    offer: i === 0 && (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration") ? 3499 : i === 0 ? 3499 : i === 1 && (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4999 : i === 1 && c.slug === "anniversary-decoration" ? 4499 : i === 1 ? 4999 : i === 2 && c.slug === "birthday-decoration" ? 34999 : i === 2 && (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 : i === 2 && c.slug === "anniversary-decoration" ? 9999 : Math.round(c.startsAt * t.multOffer),
+    original: Math.round(
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 5302 : 5302) :
+      i === 1 ? (
+        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 8999 :
+        c.slug === "anniversary-decoration" ? 10329 :
+        9089 // Default for 45% off on 4999
+      ) :
+      i === 2 ? (
+        c.slug === "birthday-decoration" ? 53029 :
+        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : // 42% off on 19999
+        c.slug === "anniversary-decoration" ? 22726 :
+        (c.startsAt * t.multOffer) / 0.66
+      ) : (c.startsAt * t.multOffer) / 0.66
+    ),
+    offer: (
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3499 : 3499) :
+      i === 1 ? (
+        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4999 :
+        c.slug === "anniversary-decoration" ? 4499 :
+        4999
+      ) :
+      i === 2 ? (
+        c.slug === "birthday-decoration" ? 34999 :
+        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
+        c.slug === "anniversary-decoration" ? 9999 :
+        Math.round(c.startsAt * t.multOffer)
+      ) : Math.round(c.startsAt * t.multOffer)
+    ),
 
 
 
