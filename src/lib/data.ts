@@ -24,11 +24,11 @@ const ROMANTIC_DECOR = [
   "/anniversary-1.jpg", // custom anniversary upload
   "/anniversary-2.webp", // custom anniversary upload 2
   "/anniversary-3.webp", // custom anniversary upload 3
-  "photo-1525772764200-be829a350797", // proposal candle ring
-  "photo-1529636798458-92182e662485", // romantic mood lighting room
-  "photo-1492684223066-81342ee5ff30", // string lights ambient bedroom
-  "photo-1515934751635-c81c6bc9a2d8", // fairy lights canopy bed
-  "photo-1496440737103-cd596325d314", // candles & roses surprise
+  "/anniversary-gallery-1.jpg", // proposal candle ring
+  "/anniversary-gallery-2.jpg", // romantic mood lighting room
+  "/anniversary-gallery-3.webp", // string lights ambient bedroom
+  "/anniversary-gallery-4.jpg", // fairy lights canopy bed
+  "/anniversary-gallery-5.jpg", // candles & roses surprise
 ];
 
 // Baby shower + welcome baby (pastel arches, cradle decor)
