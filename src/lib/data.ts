@@ -68,19 +68,19 @@ const KIDS_THEME = [
   "/birthday-1.jpg", // kids balloon party
   "/birthday-2.jpg", // birthday party kids
   "/birthday-3.webp", // confetti kids backdrop
-  "photo-1513151233558-d860c5398176", // colourful party decor
-  "photo-1530103862676-de8c9debad1d", // balloon arch kids
-  "photo-1602631985686-1bb0e6a8696e", // pastel party setup
-  "photo-1525193612562-0ec53b0e5d7c", // number balloons kids
+  "/kids-theme-4.jpg", // colourful party decor
+  "/kids-theme-5.webp", // balloon arch kids
+  "/kids-theme-6.jpg", // pastel party setup
+  "/kids-theme-7.jpg", // number balloons kids
 ];
 
 // Bachelorette — neon, glam, balloon clouds
 const BACHELORETTE_DECOR = [
   "photo-1535378620166-273708d44e4c", // gold balloon glam decor
   "photo-1583244532610-2a234ba29bee", // balloon garland glam
-  "photo-1602631985686-1bb0e6a8696e", // pastel bachelorette
-  "photo-1525193612562-0ec53b0e5d7c", // bridal number balloons
-  "photo-1530103862676-de8c9debad1d", // balloon arch backdrop
+  "/kids-theme-6.jpg", // pastel bachelorette
+  "/kids-theme-7.jpg", // bridal number balloons
+  "/kids-theme-5.webp", // balloon arch backdrop
 ];
 
 // Corporate — branded backdrops, stage lighting for launches
