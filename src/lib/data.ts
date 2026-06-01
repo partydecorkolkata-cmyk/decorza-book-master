@@ -46,7 +46,7 @@ const BABY_DECOR = [
 const TRADITIONAL_DECOR = [
   "photo-1606216794074-735e91aa2c92", // marigold flower installation
   "photo-1604017011826-d3b4c23f8914", // traditional Indian ceremony decor
-  "photo-1583939003579-730e3918a45a", // marigold + drape backdrop
+  "/images/engagement-decor-1.png", // engagement decor 1
   "photo-1597157639073-69284dc0fdaf", // Indian floral mandap decor
   "photo-1591604466107-ec97de577aff", // yellow haldi marigold setup
   "photo-1600585154526-990dced4db0d", // floral seating / jhoola
