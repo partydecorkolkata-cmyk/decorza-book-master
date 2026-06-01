@@ -234,13 +234,13 @@ export const CATEGORIES: Category[] = [
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   const tiers = [
     { tier: "Essential", multOrig: 1, multOffer: 1.5,
-      includes: ["✓\nDesigner backdrop ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
+      includes: ["✓\n Designer backdrop  ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
       duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
     { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
-      includes: ["✓\nPremium artificial flower arch", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
+      includes: [" \nPremium artificial flower ", "✓\nPremium cloth & light setup", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
       duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
-      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "Cutout and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
+      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "✓\nLight and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
 
   ];
