@@ -248,8 +248,12 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     id: `${c.slug}-${t.tier.toLowerCase()}`,
     categorySlug: c.slug,
     name: `${t.tier} ${c.name}`,
-    description: `${t.tier} ${c.name.toLowerCase()} package designed by our expert decor team.`,
-    longDescription: `Our ${t.tier} ${c.name} is one of our most-booked setups. Designed end-to-end by Decorza Events' in-house team, this package brings together premium balloons, fresh florals, designer lighting and themed props to create a celebration moment your guests will remember and your phone camera will love. Every element is handpicked and installed on-site by trained decorators.`,
+    description: i === 0
+      ? `A clean, photo-ready ${c.name.toLowerCase()} setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture.`
+      : i === 1
+      ? `An upgraded ${c.name.toLowerCase()} with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo.`
+      : `A full luxury ${c.name.toLowerCase()} experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo.`,
+    longDescription: `Our ${t.tier} ${c.name} is one of our most-booked setups, recreated faithfully to match the photo on this card. Designed end-to-end by Decorza Events' in-house team, this package brings together premium balloons, fresh and artificial florals, draped backdrops, designer lighting and themed props to create a celebration moment your guests will remember and your phone camera will love. Every element is handpicked and installed on-site by trained decorators.`,
     includes: t.includes,
     image: c.gallery[i % c.gallery.length],
     gallery: c.gallery,
