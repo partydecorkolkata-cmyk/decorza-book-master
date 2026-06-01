@@ -58,9 +58,9 @@ const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
   "/stage-floral-arch.png", // floral arch with drapes (custom upload)
-  "photo-1583939003579-730e3918a45a", // marigold installation
-  "photo-1606216794074-735e91aa2c92", // floral installation
-  "photo-1519225421980-715cb0215aed", // soft floral romantic
+  "/images/engagement-decor-1.png", // engagement decor 1
+  "/images/engagement-decor-2.jpg", // engagement decor 2
+  "/images/engagement-decor-3.jpg", // engagement decor 3
 ];
 
 // Kids theme — themed birthday parties
