@@ -36,10 +36,10 @@ const BABY_DECOR = [
   "/baby-shower-1.jpg", // custom baby shower upload
   "/gender-reveal-1.jpg", // custom gender reveal upload
   "/baby-shower-3.jpg", // baby shower backdrop setup (custom upload)
-  "photo-1607344645866-009c320b63e0", // pink baby decor wall
-  "photo-1555252333-9f8e92e65df9", // baby balloon installation
-  "photo-1530047139879-95dc8eb6bdcd", // welcome baby balloons
-  "photo-1530686577636-1cef8e72c5b6", // baby shower table styling
+  "/birthday-decoration.webp", // pink baby decor wall
+  "/maternity-decoration.jpg", // baby balloon installation
+  "/baby-bloom.jpg", // welcome baby balloons
+  "/gender-reveal.jpg", // baby shower table styling
 ];
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
