@@ -55,8 +55,8 @@ const TRADITIONAL_DECOR = [
 
 // Engagement / wedding stage / mandap
 const STAGE_DECOR = [
-  "photo-1519741497674-611481863552", // floral engagement stage
-  "photo-1465495976277-4387d4b0b4c6", // mandap-style stage decor
+  "/floral-stage.jpg", // floral engagement stage
+  "/mandap-stage.jpg", // mandap-style stage decor
   "photo-1511795409834-ef04bbd61622", // floral arch with drapes
   "photo-1583939003579-730e3918a45a", // marigold installation
   "photo-1606216794074-735e91aa2c92", // floral installation
@@ -234,10 +234,10 @@ export const CATEGORIES: Category[] = [
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   const tiers = [
     { tier: "Essential", multOrig: 1, multOffer: 1.5,
-      includes: ["Balloon backdrop / arch", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
+      includes: ["✓\nDesigner backdrop ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
       duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
     { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
-      includes: ["Designer backdrop with LED", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
+      includes: ["✓\nPremium artificial flower arch", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
       duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
       includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "Cutout and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
@@ -256,7 +256,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 5302 : 5302) :
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 11500 : 11500) :
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 8999 :
         c.slug === "anniversary-decoration" ? 10329 :
@@ -273,7 +273,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3499 : 3499)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 6999 : 6999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
