@@ -57,7 +57,7 @@ const TRADITIONAL_DECOR = [
 const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
-  "photo-1511795409834-ef04bbd61622", // floral arch with drapes
+  "/stage-floral-arch.png", // floral arch with drapes (custom upload)
   "photo-1583939003579-730e3918a45a", // marigold installation
   "photo-1606216794074-735e91aa2c92", // floral installation
   "photo-1519225421980-715cb0215aed", // soft floral romantic
@@ -234,13 +234,13 @@ export const CATEGORIES: Category[] = [
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   const tiers = [
     { tier: "Essential", multOrig: 1, multOffer: 1.5,
-      includes: ["✓\nDesigner backdrop ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
+      includes: ["✓\n Designer backdrop  ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
       duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
     { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
-      includes: ["✓\nPremium artificial flower arch", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
+      includes: [" \nPremium artificial flower ", "✓\nPremium cloth & light setup", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
       duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
-      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "Cutout and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
+      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "✓\nLight and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
 
   ];
@@ -256,11 +256,11 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 11500 : 11500) :
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 10499 : 10499) :
       i === 1 ? (
-        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 8999 :
+        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
         c.slug === "anniversary-decoration" ? 10329 :
-        9089 // Default for 45% off on 4999
+        10499 // Default for 45% off on 4999
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 53029 :
@@ -273,19 +273,19 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 6999 : 6999)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 4999 : 4999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4999 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 8999 :
         c.slug === "anniversary-decoration" ? 4499 :
-        4999)
+        8999)
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 34999 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
-        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 7999 :
+        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 6999 :
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
     ),
