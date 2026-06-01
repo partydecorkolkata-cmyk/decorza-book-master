@@ -324,7 +324,7 @@ export const REVIEWS = [
   ["Aditya Rao", "Hyderabad", "Theme Birthday Decoration", "Booked the jungle theme for my son. Absolute showstopper at the party.", 5],
   ["Kavya Nair", "Pune", "Romantic Bedroom Decoration", "Surprised my husband on our anniversary. The room looked like a fairytale.", 5],
   ["Ishita Sen", "Siliguri", "Welcome Baby Decoration", "Cradle decoration with name signage was beautiful. Got so many compliments.", 5],
-  ["Vikram Singh", "Delhi", "Engagement Decoration", "Stage decor was elegant, the florals were super fresh. Top class service.", 5],
+  ["Vikram Singh", "Delhi", "Engagement Decoration", "Engagement decor was perfect as we expected and beautifully crafted by the team, Top class service. Highly recommended.", 5],
   ["Neha Kapoor", "Mumbai", "Bachelorette Decoration", "Neon signs and balloon cloud were Insta gold. Loved every minute.", 5],
   ["Arjun Das", "Kolkata", "Rice Ceremony Decoration", "Traditional yet modern. Our baby\u2019s annaprashan looked stunning.", 5],
   ["Riya Ghosh", "Kolkata", "Haldi Decoration", "Marigold setup and jhoola was breathtaking. Family loved it.", 5],
