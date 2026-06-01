@@ -35,7 +35,7 @@ const ROMANTIC_DECOR = [
 const BABY_DECOR = [
   "/baby-shower-1.jpg", // custom baby shower upload
   "/gender-reveal-1.jpg", // custom gender reveal upload
-  "photo-1543248939-ff40856f65d4", // baby shower backdrop setup
+  "/baby-shower-3.jpg", // baby shower backdrop setup (custom upload)
   "photo-1607344645866-009c320b63e0", // pink baby decor wall
   "photo-1555252333-9f8e92e65df9", // baby balloon installation
   "photo-1530047139879-95dc8eb6bdcd", // welcome baby balloons
@@ -240,7 +240,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       includes: ["Designer backdrop with LED", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
       duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
-      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "LED neon name sign", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
+      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "\n\n", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
 
   ];
@@ -266,6 +266,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         c.slug === "birthday-decoration" ? 53029 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : // 42% off on 19999
         c.slug === "anniversary-decoration" ? 22726 :
+        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 11999 :
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
     ),
@@ -284,6 +285,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         c.slug === "birthday-decoration" ? 34999 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
+        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 7999 :
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
     ),
