@@ -46,7 +46,7 @@ const BABY_DECOR = [
 const TRADITIONAL_DECOR = [
   "photo-1606216794074-735e91aa2c92", // marigold flower installation
   "photo-1604017011826-d3b4c23f8914", // traditional Indian ceremony decor
-  "photo-1583939003579-730e3918a45a", // marigold + drape backdrop
+  "/images/engagement-decor-1.png", // engagement decor 1
   "photo-1597157639073-69284dc0fdaf", // Indian floral mandap decor
   "photo-1591604466107-ec97de577aff", // yellow haldi marigold setup
   "photo-1600585154526-990dced4db0d", // floral seating / jhoola
@@ -58,9 +58,9 @@ const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
   "/stage-floral-arch.png", // floral arch with drapes (custom upload)
-  "photo-1583939003579-730e3918a45a", // marigold installation
-  "photo-1606216794074-735e91aa2c92", // floral installation
-  "photo-1519225421980-715cb0215aed", // soft floral romantic
+  "/images/engagement-decor-1.png", // engagement decor 1
+  "/images/engagement-decor-2.jpg", // engagement decor 2
+  "/images/engagement-decor-3.jpg", // engagement decor 3
 ];
 
 // Kids theme — themed birthday parties
@@ -324,7 +324,7 @@ export const REVIEWS = [
   ["Aditya Rao", "Hyderabad", "Theme Birthday Decoration", "Booked the jungle theme for my son. Absolute showstopper at the party.", 5],
   ["Kavya Nair", "Pune", "Romantic Bedroom Decoration", "Surprised my husband on our anniversary. The room looked like a fairytale.", 5],
   ["Ishita Sen", "Siliguri", "Welcome Baby Decoration", "Cradle decoration with name signage was beautiful. Got so many compliments.", 5],
-  ["Vikram Singh", "Delhi", "Engagement Decoration", "Stage decor was elegant, the florals were super fresh. Top class service.", 5],
+  ["Vikram Singh", "Delhi", "Engagement Decoration", "Engagement decor was perfect as we expected and beautifully crafted by the team, Top class service. Highly recommended.", 5],
   ["Neha Kapoor", "Mumbai", "Bachelorette Decoration", "Neon signs and balloon cloud were Insta gold. Loved every minute.", 5],
   ["Arjun Das", "Kolkata", "Rice Ceremony Decoration", "Traditional yet modern. Our baby\u2019s annaprashan looked stunning.", 5],
   ["Riya Ghosh", "Kolkata", "Haldi Decoration", "Marigold setup and jhoola was breathtaking. Family loved it.", 5],
