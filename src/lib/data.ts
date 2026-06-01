@@ -57,7 +57,7 @@ const TRADITIONAL_DECOR = [
 const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
-  "photo-1511795409834-ef04bbd61622", // floral arch with drapes
+  "/stage-floral-arch.png", // floral arch with drapes (custom upload)
   "photo-1583939003579-730e3918a45a", // marigold installation
   "photo-1606216794074-735e91aa2c92", // floral installation
   "photo-1519225421980-715cb0215aed", // soft floral romantic
