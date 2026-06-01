@@ -240,7 +240,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       includes: ["Designer backdrop with LED", "Premium balloon cloud + arch", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
       duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
     { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
-      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "\n\n", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
+      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "Cutout and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
       duration: "Full event styling", setupTime: "90-150 min setup" },
 
   ];
