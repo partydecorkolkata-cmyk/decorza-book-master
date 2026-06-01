@@ -33,8 +33,8 @@ const ROMANTIC_DECOR = [
 
 // Baby shower + welcome baby (pastel arches, cradle decor)
 const BABY_DECOR = [
-  "photo-1518895949257-7621c3c786d7", // pastel baby shower balloon arch
-  "photo-1519689680058-324335c77eba", // cradle / nursery decoration
+  "/baby-shower-1.jpg", // custom baby shower upload
+  "/gender-reveal-1.jpg", // custom gender reveal upload
   "photo-1543248939-ff40856f65d4", // baby shower backdrop setup
   "photo-1607344645866-009c320b63e0", // pink baby decor wall
   "photo-1555252333-9f8e92e65df9", // baby balloon installation
@@ -171,7 +171,7 @@ export const CATEGORIES: Category[] = [
   { slug: "baby-shower-decoration", name: "Baby Shower Decoration", short: "Soft, dreamy baby shower setups",
     description: "Pastel balloon arches, floral backdrops and elegant baby shower setups for the mommy-to-be.",
     hero: img(BABY_DECOR[0]), gallery: pick(BABY_DECOR),
-    rating: 4.9, reviews: 870, startsAt: 2999, popular: true, bestSeller: true,
+    rating: 4.9, reviews: 870, startsAt: 1999, popular: true, bestSeller: true,
     faqs: baseFaqs("Baby Shower Decoration") },
   { slug: "welcome-baby-decoration", name: "Welcome Baby Decoration", short: "Welcome the little one home in style",
     description: "Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn\u2019s arrival.",
@@ -270,11 +270,15 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       ) : (c.startsAt * t.multOffer) / 0.66
     ),
     offer: (
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3499 : 3499) :
+      i === 0 ? (
+        c.slug === "baby-shower-decoration" ? 2499 :
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3499 : 3499)
+      ) :
       i === 1 ? (
-        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4999 :
+        c.slug === "baby-shower-decoration" ? 5999 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4999 :
         c.slug === "anniversary-decoration" ? 4499 :
-        4999
+        4999)
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 34999 :
