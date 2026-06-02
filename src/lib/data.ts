@@ -49,7 +49,7 @@ const TRADITIONAL_DECOR = [
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
   "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", // yellow haldi marigold setup
-  "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", // floral seating / jhoola
+  "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
 
@@ -204,14 +204,14 @@ export const CATEGORIES: Category[] = [
     gallery: [
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
+      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
       "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
+      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
+      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
@@ -295,12 +295,12 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
         c.slug === "haldi-decoration" ? 4999 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 7999 : 7999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
         c.slug === "haldi-decoration" ? 8500 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 9999 :
         c.slug === "anniversary-decoration" ? 4499 :
         7999) // Changed from 12500 to 7999
       ) :
@@ -309,7 +309,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 6999 :
+        c.slug === "haldi-decoration" ? 7999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
