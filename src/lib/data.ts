@@ -308,6 +308,62 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
   }));
 });
 
+// Additional Haldi Decoration packages — extra cards so more haldi images can be showcased
+const HALDI_EXTRA: Package[] = [
+  {
+    id: "haldi-decoration-marigold-cascade",
+    categorySlug: "haldi-decoration",
+    name: "Marigold Cascade Haldi Setup",
+    description: "A vibrant haldi backdrop layered with cascading marigold strings, yellow drapes and a wooden swing — bringing a traditional courtyard feel to your celebration.",
+    longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
+    includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
+    image: "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
+    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg"],
+    rating: 4.9,
+    reviews: 210,
+    original: 14999,
+    offer: 8999,
+    duration: "3-4 hours of celebration",
+    setupTime: "75-90 min setup",
+  },
+  {
+    id: "haldi-decoration-floral-jhoola",
+    categorySlug: "haldi-decoration",
+    name: "Floral Jhoola Haldi Special",
+    description: "A photogenic floral jhoola seating crafted with fresh yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits.",
+    longDescription: "Built around a hand-decorated floral jhoola, this setup pairs a swing seat with a soft pastel-yellow backdrop, hanging genda phool strings and a styled props corner with haldi pots, coconuts and bangles. A favourite for clients who want a clean, elegant look that photographs beautifully from every angle.",
+    includes: ["Floral jhoola swing seating", "Pastel yellow draped backdrop", "Hanging genda phool strings", "Styled haldi props corner", "Dedicated decor manager on site"],
+    image: "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg",
+    gallery: ["/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"],
+    rating: 4.9,
+    reviews: 175,
+    original: 18999,
+    offer: 11999,
+    duration: "Half-day event styling",
+    setupTime: "90-120 min setup",
+  },
+  {
+    id: "haldi-decoration-royal-courtyard",
+    categorySlug: "haldi-decoration",
+    name: "Royal Courtyard Haldi Mandap",
+    description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
+    longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
+    includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
+    image: "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png",
+    gallery: ["/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
+    rating: 5,
+    reviews: 132,
+    original: 28999,
+    offer: 19999,
+    duration: "Full event styling",
+    setupTime: "120-180 min setup",
+  },
+];
+
+PACKAGES.push(...HALDI_EXTRA);
+
+
+
 export const TRENDING_PACKAGES = PACKAGES.filter((p) => p.trending).slice(0, 8);
 export const BEST_SELLERS = PACKAGES.filter((p) => p.bestSeller).slice(0, 8);
 
