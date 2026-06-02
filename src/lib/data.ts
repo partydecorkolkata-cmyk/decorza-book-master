@@ -151,12 +151,12 @@ export const CATEGORIES: Category[] = [
   { slug: "birthday-decoration", name: "Birthday Decoration", short: "Beautiful birthday setups for every age",
     description: "Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable.",
     hero: img(BALLOON_DECOR[0]), gallery: pick(BALLOON_DECOR),
-    rating: 4.9, reviews: 2148, startsAt: 1499, popular: true, trending: true, bestSeller: true,
+    rating: 4.9, reviews: 2148, startsAt: 7999, popular: true, trending: true, bestSeller: true,
     faqs: baseFaqs("Birthday Decoration") },
   { slug: "anniversary-decoration", name: "Anniversary Decoration", short: "Romantic anniversary surprises",
     description: "Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.",
     hero: img(ROMANTIC_DECOR[0]), gallery: pick(ROMANTIC_DECOR),
-    rating: 4.9, reviews: 1820, startsAt: 1499, popular: true, bestSeller: true,
+    rating: 4.9, reviews: 1820, startsAt: 7999, popular: true, bestSeller: true,
     faqs: baseFaqs("Anniversary Decoration") },
   { slug: "theme-birthday-decoration", name: "Theme Birthday Decoration", short: "Custom themed parties kids & adults love",
     description: "From jungle and unicorn to football, princess and superhero themes — fully styled with props, balloons and themed backdrops.",
@@ -215,7 +215,7 @@ export const CATEGORIES: Category[] = [
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
-    rating: 4.9, reviews: 560, startsAt: 3999, popular: true,
+    rating: 4.9, reviews: 560, startsAt: 7999, popular: true,
     faqs: baseFaqs("Haldi Decoration") },
   { slug: "mehendi-decoration", name: "Mehendi Decoration", short: "Boho mehendi backdrops & seating",
     description: "Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor.",
@@ -225,7 +225,7 @@ export const CATEGORIES: Category[] = [
   { slug: "bachelorette-decoration", name: "Bachelorette Decoration", short: "Glam bachelorette & bridal showers",
     description: "Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad.",
     hero: img(BACHELORETTE_DECOR[0]), gallery: pick(BACHELORETTE_DECOR),
-    rating: 4.9, reviews: 380, startsAt: 3999, trending: true,
+    rating: 4.9, reviews: 380, startsAt: 7999, trending: true,
     faqs: baseFaqs("Bachelorette Decoration") },
   { slug: "corporate-event-decoration", name: "Corporate Event Decoration", short: "Conferences, launches & office parties",
     description: "Branded backdrops, stage decor, registration setups and lighting for corporate events and product launches.",
@@ -286,8 +286,8 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
         c.slug === "anniversary-decoration" ? 22726 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 18999 :
-        c.startsAt === 3999 ? 18999 : // New: Original for Haldi/Bachelorette Luxury
+        c.slug === "haldi-decoration" ? 9999 :
+        c.startsAt === 3999 ? 9999 : // New: Original for Haldi/Bachelorette Luxury
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
     ),
