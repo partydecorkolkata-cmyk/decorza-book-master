@@ -44,7 +44,7 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", // marigold flower installation
+  "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
@@ -200,19 +200,19 @@ export const CATEGORIES: Category[] = [
     faqs: baseFaqs("Engagement Decoration") },
   { slug: "haldi-decoration", name: "Haldi Decoration", short: "Vibrant yellow haldi ceremony decor",
     description: "Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function.",
-    hero: img("/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png"),
+    hero: img("/844521a4-a055-43a3-be1f-0ff672979c63.jpg"),
     gallery: [
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
       "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
     rating: 4.9, reviews: 560, startsAt: 7999, popular: true,
@@ -295,7 +295,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
         c.slug === "haldi-decoration" ? 4999 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 7999 : 7999)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 6999 : 6999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
@@ -309,7 +309,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 7999 :
+        c.slug === "haldi-decoration" ? 11999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
