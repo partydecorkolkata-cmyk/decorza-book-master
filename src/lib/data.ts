@@ -264,32 +264,34 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
         c.slug === "anniversary-decoration" ? 10329 :
-        12500 // Updated from 10499
+        12500
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 53029 :
-        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : // 42% off on 19999
+        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
         c.slug === "anniversary-decoration" ? 22726 :
-        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 : // Updated from 11999
+        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.startsAt === 3999 ? 18999 : // New: Original for Haldi/Bachelorette Luxury
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
     ),
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999) // Updated from 4999
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
         ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
         c.slug === "anniversary-decoration" ? 4499 :
-        12500) // Updated from 7999
+        7999) // Changed from 12500 to 7999
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 34999 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
-        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 : // Updated from 6999
+        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
     ),
