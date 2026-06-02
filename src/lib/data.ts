@@ -44,12 +44,12 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", // marigold flower installation
+  "/38d51fc9-1576-47ed-8471-607782255e90.jpg", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
-  "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", // engagement decor 1
+  "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
   "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", // yellow haldi marigold setup
-  "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", // floral seating / jhoola
+  "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
 
@@ -58,7 +58,7 @@ const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
   "/stage-floral-arch.png", // floral arch with drapes (custom upload)
-  "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", // engagement decor 1
+  "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/images/engagement-decor-2.jpg", // engagement decor 2
   "/images/engagement-decor-3.jpg", // engagement decor 3
 ];
@@ -260,10 +260,11 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 10499 : 10499) :
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" || c.slug === "haldi-decoration" ? 9999 : 10499) :
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
         c.slug === "anniversary-decoration" ? 10329 :
+        c.slug === "haldi-decoration" ? 12999 :
         12500
       ) :
       i === 2 ? (
@@ -271,6 +272,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
         c.slug === "anniversary-decoration" ? 22726 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.slug === "haldi-decoration" ? 18999 :
         c.startsAt === 3999 ? 18999 : // New: Original for Haldi/Bachelorette Luxury
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
@@ -278,10 +280,12 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
+        c.slug === "haldi-decoration" ? 6999 :
         (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
+        c.slug === "haldi-decoration" ? 8500 :
         ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
         c.slug === "anniversary-decoration" ? 4499 :
         7999) // Changed from 12500 to 7999
@@ -291,6 +295,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.slug === "haldi-decoration" ? 12999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
