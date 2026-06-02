@@ -44,7 +44,7 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", // marigold flower installation
+  "/124144d4-36d6-4019-8278-b1771def0e83.png", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
@@ -200,19 +200,19 @@ export const CATEGORIES: Category[] = [
     faqs: baseFaqs("Engagement Decoration") },
   { slug: "haldi-decoration", name: "Haldi Decoration", short: "Vibrant yellow haldi ceremony decor",
     description: "Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function.",
-    hero: img("/844521a4-a055-43a3-be1f-0ff672979c63.jpg"),
+    hero: img("/124144d4-36d6-4019-8278-b1771def0e83.png"),
     gallery: [
-      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+      "/124144d4-36d6-4019-8278-b1771def0e83.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
       "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg",
-      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+      "/124144d4-36d6-4019-8278-b1771def0e83.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
-      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+      "/124144d4-36d6-4019-8278-b1771def0e83.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
-      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+      "/124144d4-36d6-4019-8278-b1771def0e83.png",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
     rating: 4.9, reviews: 560, startsAt: 7999, popular: true,
@@ -337,7 +337,7 @@ const HALDI_EXTRA: Package[] = [
     longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
     includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
     image: "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
+    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/124144d4-36d6-4019-8278-b1771def0e83.png", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
     rating: 4.9,
     reviews: 210,
     original: 7999,
@@ -368,8 +368,8 @@ const HALDI_EXTRA: Package[] = [
     description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
     longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
     includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
-    image: "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
-    gallery: ["/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
+    image: "/124144d4-36d6-4019-8278-b1771def0e83.png",
+    gallery: ["/124144d4-36d6-4019-8278-b1771def0e83.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
     rating: 5,
     reviews: 132,
     original: 18999,
@@ -385,7 +385,7 @@ const HALDI_EXTRA: Package[] = [
     longDescription: "This setup brings a burst of Rajasthani colour to your haldi function. Hand-painted umbrellas, marigold and chrysanthemum garlands, layered yellow and pink drapes, and a styled brass urli corner come together to create a setup that photographs beautifully in daylight. Great for terraces, lawns and open courtyards.",
     includes: ["Hand-painted Rajasthani umbrellas", "Marigold & chrysanthemum garlands", "Layered yellow & pink drapes", "Brass urli & diya corner", "On-time setup & teardown"],
     image: "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
-    gallery: ["/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
+    gallery: ["/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/124144d4-36d6-4019-8278-b1771def0e83.png", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
     rating: 4.9,
     reviews: 168,
     original: 14999,
@@ -400,8 +400,8 @@ const HALDI_EXTRA: Package[] = [
     description: "A grand genda phool floral arch with hanging marigold strings, fairy lights and a styled seating area for the bride or groom.",
     longDescription: "Built around a tall genda phool arch, this setup pairs cascading marigold strings with warm fairy lights and a comfortable styled seating zone. We add brass props, a haldi thali corner and a soft fabric backdrop so every photo angle is camera ready. A favourite for indoor halls and banquet venues.",
     includes: ["Genda phool floral arch", "Cascading marigold strings", "Warm fairy light styling", "Styled seating for couple", "Haldi thali & props corner"],
-    image: "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
-    gallery: ["/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
+    image: "/124144d4-36d6-4019-8278-b1771def0e83.png",
+    gallery: ["/124144d4-36d6-4019-8278-b1771def0e83.png", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
     rating: 4.9,
     reviews: 145,
     original: 15999,
@@ -417,7 +417,7 @@ const HALDI_EXTRA: Package[] = [
     longDescription: "The Grand Haldi Mandap Luxe is our top-tier haldi experience. Double floral pillars in marigold and rose, a silk-draped canopy, ambient warm up-lighting, a sweetheart lounge with cushions, and a styled entry arch — every detail is crafted to recreate a royal Indian courtyard. Includes a dedicated on-site decor manager from setup to teardown.",
     includes: ["Double floral pillars", "Silk-draped canopy", "Ambient warm up-lighting", "Sweetheart lounge with cushions", "Styled entry arch & rangoli", "Dedicated decor manager"],
     image: "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg"],
+    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/124144d4-36d6-4019-8278-b1771def0e83.png"],
     rating: 5,
     reviews: 98,
     original: 24999,
