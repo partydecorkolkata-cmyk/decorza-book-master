@@ -48,7 +48,7 @@ const TRADITIONAL_DECOR = [
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
-  "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", // yellow haldi marigold setup
+  "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", // yellow haldi marigold setup
   "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
@@ -203,17 +203,17 @@ export const CATEGORIES: Category[] = [
     hero: img("/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png"),
     gallery: [
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-      "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
+      "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
       "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-      "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
+      "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-      "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
+      "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
       "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
       "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-      "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
+      "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
     rating: 4.9, reviews: 560, startsAt: 3999, popular: true,
     faqs: baseFaqs("Haldi Decoration") },
