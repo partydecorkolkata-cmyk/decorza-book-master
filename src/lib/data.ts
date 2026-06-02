@@ -44,7 +44,7 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", // marigold flower installation
+  "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
@@ -200,19 +200,19 @@ export const CATEGORIES: Category[] = [
     faqs: baseFaqs("Engagement Decoration") },
   { slug: "haldi-decoration", name: "Haldi Decoration", short: "Vibrant yellow haldi ceremony decor",
     description: "Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function.",
-    hero: img("/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png"),
+    hero: img("/844521a4-a055-43a3-be1f-0ff672979c63.jpg"),
     gallery: [
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
       "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
-      "/bb219e6b-10a5-46e9-84f2-95846633fc10.jpg",
-      "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+      "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+      "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
       "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
     ],
     rating: 4.9, reviews: 560, startsAt: 7999, popular: true,
@@ -295,7 +295,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
         c.slug === "haldi-decoration" ? 4999 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 7999 : 7999)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 6999 : 6999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
@@ -309,7 +309,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 7999 :
+        c.slug === "haldi-decoration" ? 11999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
@@ -336,12 +336,12 @@ const HALDI_EXTRA: Package[] = [
     description: "A vibrant haldi backdrop layered with cascading marigold strings, yellow drapes and a wooden swing — bringing a traditional courtyard feel to your celebration.",
     longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
     includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
-    image: "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
-    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg"],
+    image: "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
+    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
     rating: 4.9,
     reviews: 210,
     original: 7999,
-    offer: 3999,
+    offer: 6999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -352,8 +352,8 @@ const HALDI_EXTRA: Package[] = [
     description: "A photogenic floral jhoola seating crafted with fresh yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits.",
     longDescription: "Built around a hand-decorated floral jhoola, this setup pairs a swing seat with a soft pastel-yellow backdrop, hanging genda phool strings and a styled props corner with haldi pots, coconuts and bangles. A favourite for clients who want a clean, elegant look that photographs beautifully from every angle.",
     includes: ["Floral jhoola swing seating", "Pastel yellow draped backdrop", "Hanging genda phool strings", "Styled haldi props corner", "Dedicated decor manager on site"],
-    image: "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
-    gallery: ["/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"],
+    image: "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+    gallery: ["/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"],
     rating: 4.9,
     reviews: 175,
     original: 12999,
@@ -368,8 +368,8 @@ const HALDI_EXTRA: Package[] = [
     description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
     longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
     includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
-    image: "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-    gallery: ["/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
+    image: "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+    gallery: ["/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
     rating: 5,
     reviews: 132,
     original: 18999,
@@ -384,12 +384,12 @@ const HALDI_EXTRA: Package[] = [
     description: "A bright Rajasthani-inspired haldi setup with colourful umbrellas, marigold drapes and traditional props — perfect for terrace and lawn ceremonies.",
     longDescription: "This setup brings a burst of Rajasthani colour to your haldi function. Hand-painted umbrellas, marigold and chrysanthemum garlands, layered yellow and pink drapes, and a styled brass urli corner come together to create a setup that photographs beautifully in daylight. Great for terraces, lawns and open courtyards.",
     includes: ["Hand-painted Rajasthani umbrellas", "Marigold & chrysanthemum garlands", "Layered yellow & pink drapes", "Brass urli & diya corner", "On-time setup & teardown"],
-    image: "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
-    gallery: ["/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
+    image: "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg",
+    gallery: ["/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
     rating: 4.9,
     reviews: 168,
-    original: 10999,
-    offer: 6499,
+    original: 14999,
+    offer: 11999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -400,8 +400,8 @@ const HALDI_EXTRA: Package[] = [
     description: "A grand genda phool floral arch with hanging marigold strings, fairy lights and a styled seating area for the bride or groom.",
     longDescription: "Built around a tall genda phool arch, this setup pairs cascading marigold strings with warm fairy lights and a comfortable styled seating zone. We add brass props, a haldi thali corner and a soft fabric backdrop so every photo angle is camera ready. A favourite for indoor halls and banquet venues.",
     includes: ["Genda phool floral arch", "Cascading marigold strings", "Warm fairy light styling", "Styled seating for couple", "Haldi thali & props corner"],
-    image: "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
-    gallery: ["/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg"],
+    image: "/844521a4-a055-43a3-be1f-0ff672979c63.jpg",
+    gallery: ["/844521a4-a055-43a3-be1f-0ff672979c63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg"],
     rating: 4.9,
     reviews: 145,
     original: 15999,
@@ -416,8 +416,8 @@ const HALDI_EXTRA: Package[] = [
     description: "Our signature luxury haldi mandap with double floral pillars, draped silk canopy, ambient up-lighting and a sweetheart lounge.",
     longDescription: "The Grand Haldi Mandap Luxe is our top-tier haldi experience. Double floral pillars in marigold and rose, a silk-draped canopy, ambient warm up-lighting, a sweetheart lounge with cushions, and a styled entry arch — every detail is crafted to recreate a royal Indian courtyard. Includes a dedicated on-site decor manager from setup to teardown.",
     includes: ["Double floral pillars", "Silk-draped canopy", "Ambient warm up-lighting", "Sweetheart lounge with cushions", "Styled entry arch & rangoli", "Dedicated decor manager"],
-    image: "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
-    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png"],
+    image: "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg",
+    gallery: ["/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg", "/0674927c-0931-45e9-962b-07a33c2c7b85.jpg", "/844521a4-a055-43a3-be1f-0ff672979c63.jpg"],
     rating: 5,
     reviews: 98,
     original: 24999,
