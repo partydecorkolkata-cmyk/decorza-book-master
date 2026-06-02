@@ -295,7 +295,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 12999 :
+        c.slug === "haldi-decoration" ? 6999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
@@ -343,7 +343,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 175,
     original: 12999,
-    offer: 8500,
+    offer: 6999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -359,7 +359,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 5,
     reviews: 132,
     original: 18999,
-    offer: 12999,
+    offer: 9999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
