@@ -44,7 +44,7 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/38d51fc9-1576-47ed-8471-607782255e90.jpg", // marigold flower installation
+  "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
@@ -323,11 +323,11 @@ const HALDI_EXTRA: Package[] = [
     longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
     includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
     image: "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
-    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/38d51fc9-1576-47ed-8471-607782255e90.jpg", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg"],
+    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg"],
     rating: 4.9,
     reviews: 210,
-    original: 9999,
-    offer: 6999,
+    original: 7999,
+    offer: 3999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -343,7 +343,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 175,
     original: 12999,
-    offer: 6999,
+    offer: 8999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -354,12 +354,12 @@ const HALDI_EXTRA: Package[] = [
     description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
     longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
     includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
-    image: "/38d51fc9-1576-47ed-8471-607782255e90.jpg",
-    gallery: ["/38d51fc9-1576-47ed-8471-607782255e90.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
+    image: "/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png",
+    gallery: ["/d8b1dd4b-b1c7-439d-a86a-2b92e40ea0c7.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
     rating: 5,
     reviews: 132,
     original: 18999,
-    offer: 9999,
+    offer: 12999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
