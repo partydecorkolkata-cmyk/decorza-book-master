@@ -294,7 +294,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
-        c.slug === "haldi-decoration" ? 6999 :
+        c.slug === "haldi-decoration" ? 4999 :
         (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999)
       ) :
       i === 1 ? (
