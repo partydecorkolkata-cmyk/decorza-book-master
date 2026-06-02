@@ -44,12 +44,12 @@ const BABY_DECOR = [
 
 // Traditional Indian — haldi, mehendi, rice ceremony, housewarming
 const TRADITIONAL_DECOR = [
-  "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", // marigold flower installation
+  "/38d51fc9-1576-47ed-8471-607782255e90.jpg", // marigold flower installation
   "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", // traditional Indian ceremony decor
-  "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", // engagement decor 1
+  "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
   "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", // yellow haldi marigold setup
-  "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", // floral seating / jhoola
+  "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
 
@@ -58,7 +58,7 @@ const STAGE_DECOR = [
   "/floral-stage.jpg", // floral engagement stage
   "/mandap-stage.jpg", // mandap-style stage decor
   "/stage-floral-arch.png", // floral arch with drapes (custom upload)
-  "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", // engagement decor 1
+  "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/images/engagement-decor-2.jpg", // engagement decor 2
   "/images/engagement-decor-3.jpg", // engagement decor 3
 ];
@@ -260,10 +260,11 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
     original: Math.round(
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 10499 : 10499) :
+      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" || c.slug === "haldi-decoration" ? 9999 : 10499) :
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
         c.slug === "anniversary-decoration" ? 10329 :
+        c.slug === "haldi-decoration" ? 12999 :
         12500
       ) :
       i === 2 ? (
@@ -271,6 +272,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
         c.slug === "anniversary-decoration" ? 22726 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.slug === "haldi-decoration" ? 18999 :
         c.startsAt === 3999 ? 18999 : // New: Original for Haldi/Bachelorette Luxury
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
@@ -278,10 +280,12 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     offer: (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
+        c.slug === "haldi-decoration" ? 6999 :
         (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 3999 : 3999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
+        c.slug === "haldi-decoration" ? 8500 :
         ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
         c.slug === "anniversary-decoration" ? 4499 :
         7999) // Changed from 12500 to 7999
@@ -291,6 +295,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
+        c.slug === "haldi-decoration" ? 12999 :
         c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
@@ -318,11 +323,11 @@ const HALDI_EXTRA: Package[] = [
     longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
     includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
     image: "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg",
-    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg"],
+    gallery: ["/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/38d51fc9-1576-47ed-8471-607782255e90.jpg", "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg"],
     rating: 4.9,
     reviews: 210,
-    original: 14999,
-    offer: 8999,
+    original: 9999,
+    offer: 6999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -333,12 +338,12 @@ const HALDI_EXTRA: Package[] = [
     description: "A photogenic floral jhoola seating crafted with fresh yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits.",
     longDescription: "Built around a hand-decorated floral jhoola, this setup pairs a swing seat with a soft pastel-yellow backdrop, hanging genda phool strings and a styled props corner with haldi pots, coconuts and bangles. A favourite for clients who want a clean, elegant look that photographs beautifully from every angle.",
     includes: ["Floral jhoola swing seating", "Pastel yellow draped backdrop", "Hanging genda phool strings", "Styled haldi props corner", "Dedicated decor manager on site"],
-    image: "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg",
-    gallery: ["/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"],
+    image: "/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg",
+    gallery: ["/2d159836-1a40-44ec-bc8f-cfbcf6d01d62.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"],
     rating: 4.9,
     reviews: 175,
-    original: 18999,
-    offer: 11999,
+    original: 12999,
+    offer: 8500,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -349,12 +354,12 @@ const HALDI_EXTRA: Package[] = [
     description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
     longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
     includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
-    image: "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png",
-    gallery: ["/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
+    image: "/38d51fc9-1576-47ed-8471-607782255e90.jpg",
+    gallery: ["/38d51fc9-1576-47ed-8471-607782255e90.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"],
     rating: 5,
     reviews: 132,
-    original: 28999,
-    offer: 19999,
+    original: 18999,
+    offer: 12999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
