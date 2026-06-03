@@ -340,8 +340,8 @@ const HALDI_EXTRA: Package[] = [
     gallery: ["/4a188f79-7932-4b6a-916e-3473f5876d90.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/f584ba38-470f-4d64-944f-2383546039a1.jpg"],
     rating: 4.9,
     reviews: 210,
-    original: 4499,
-    offer: 2999,
+    original: 7999,
+    offer: 7999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -387,7 +387,7 @@ export const TRENDING_PACKAGES = PACKAGES.filter((p) => p.trending).slice(0, 8);
 export const BEST_SELLERS = PACKAGES.filter((p) => p.bestSeller).slice(0, 8);
 
 export const BUDGET_BUCKETS = [
-  { label: "Under \u20B92,999", max: 2999, slug: "under-2999" },
+  { label: "Under \u20B97,999", max: 7999, slug: "under-7999" },
   { label: "\u20B93,000 \u2013 \u20B95,999", min: 3000, max: 5999, slug: "3000-5999" },
   { label: "\u20B96,000 \u2013 \u20B99,999", min: 6000, max: 9999, slug: "6000-9999" },
   { label: "\u20B910,000 & above", min: 10000, slug: "10000-plus" },
@@ -438,7 +438,7 @@ export const WHY_CHOOSE = [
   { title: "12,500+ Happy Celebrations", desc: "A decade of memorable moments delivered across India." },
   { title: "Same Day Setup", desc: "Last-minute plans? Our team mobilises within hours." },
   { title: "Professional Decor Team", desc: "Trained, in-house decorators \u2014 never random freelancers." },
-  { title: "Affordable Packages", desc: "Transparent pricing from \u20B92,999 \u2014 no hidden charges." },
+  { title: "Affordable Packages", desc: "Transparent pricing from \u20B97,999 \u2014 no hidden charges." },
   { title: "Multi-City Service", desc: "Live in 7 cities \u2014 Kolkata to Mumbai, Delhi to Pune." },
   { title: "WhatsApp Booking Support", desc: "Instant quotes, real photos, 24/7 fast confirmations." },
   { title: "Premium Decoration Materials", desc: "Imported balloons, fresh florals, LED neon, designer props." },
