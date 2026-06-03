@@ -91,6 +91,36 @@ const CORPORATE_DECOR = [
   "photo-1531058020387-3be344556be6", // corporate event lights
 ];
 
+const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
+  "birthday-decoration": ["/5619dd16-b57c-4707-9f6b-b37ae79bb3de.jpg", "/5d42dfa6-af3e-4cc5-a1de-772f0331e44d.jpg", "/images/balloon-decoration-hero-v2.jpg", "/birthday-4.png", "/birthday-5.jpg", "/birthday-6.jpg"],
+  "anniversary-decoration": ["/745b9998-0fb1-4a81-a2cf-6f3870657562.jpg", "/9a913431-969c-4e55-998a-a7bba80c991b.webp", "/b0418de5-2b26-48c7-bb26-a32effdfe487.webp", "/f509339e-766d-4a5d-9ced-5167e8717f52.jpg", "/71f437ab-4685-46d6-a645-79a6d4757424.jpg", "/36260f0d-da30-4ba0-aa88-bac67d178bed.webp", "/4665153c-3e8b-4ba8-9a93-f357082df038.jpg", "/54013206-8c95-465c-a4ad-05daa25f6a56.jpg"],
+  "theme-birthday-decoration": ["/6e61fd55-46fb-4711-b051-e933b22701bb.jpg", "/7e03dbe4-3334-458e-86b5-1a89a2631696.jpg", "/ff1d6103-d695-41a4-96af-b20031509e2a.webp", "/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg", "/48692914-e809-4527-a8d3-a55e5cb89842.webp", "/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg"],
+  "baby-shower-decoration": ["/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg", "/38135b41-25f2-4c2f-a08f-cac6575c3b12.jpg", "/6fec18e9-7b78-42b6-9764-cbb3037878e1.jpg", "/cefa309d-aa34-467c-aa1d-a6503bc509a8.webp", "/611a101e-21ad-44d4-b9df-2995798cd982.jpg", "/3e650746-51ce-4c70-bbab-c733c2f8b532.jpg", "/b3318de7-5a76-4dad-b0f6-4f752365071d.jpg"],
+  "engagement-decoration": ["/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
+  "haldi-decoration": ["/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg", "/haldi-ring-decoration.png", "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png", "/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/f0430936-2c24-4bc9-b390-1c2e533e7ec4.jpg", "/6774f332-8168-4bc0-bfa4-53c82b9ea5b1.jpg", "/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg", "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg", "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png"],
+  "mehendi-decoration": ["/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
+  "bachelorette-decoration": ["/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg", "/48692914-e809-4527-a8d3-a55e5cb89842.webp", "/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg", "/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg"],
+};
+
+const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
+  "birthday-decoration": 1499,
+  "anniversary-decoration": 1499,
+  "baby-shower-decoration": 1999,
+  "haldi-decoration": 1999,
+  "bachelorette-decoration": 1999,
+};
+
+const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number }[]> = {
+  "birthday-decoration": [{ original: 9999, offer: 7999 }, { original: 12999, offer: 12999 }, { original: 9999, offer: 4999 }],
+  "anniversary-decoration": [{ original: 9999, offer: 2999 }, { original: 9999, offer: 4499 }, { original: 9999, offer: 9999 }],
+  "theme-birthday-decoration": [{ original: 9999, offer: 3499 }, { original: 12500, offer: 4999 }, { original: 34999, offer: 19999 }],
+  "baby-shower-decoration": [{ original: 10499, offer: 2499 }, { original: 12500, offer: 5999 }, { original: 11999, offer: 7999 }],
+  "engagement-decoration": [{ original: 10499, offer: 6999 }, { original: 12500, offer: 7999 }, { original: 18999, offer: 12999 }],
+  "haldi-decoration": [{ original: 9999, offer: 4999 }, { original: 11999, offer: 8500 }, { original: 9999, offer: 5999 }],
+  "mehendi-decoration": [{ original: 9999, offer: 3999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
+  "bachelorette-decoration": [{ original: 9999, offer: 8999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
+};
+
 const pick = (pool: string[]) => pool.map((id) => img(id));
 
 export type Category = {
@@ -147,7 +177,7 @@ const baseFaqs = (name: string) => [
   },
 ];
 
-export const CATEGORIES: Category[] = [
+export const CATEGORIES: Category[] = ([
   { slug: "birthday-decoration", name: "Birthday Decoration", short: "Beautiful birthday setups for every age",
     description: "Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable.",
     hero: img(BALLOON_DECOR[0]), gallery: pick(BALLOON_DECOR),
@@ -242,7 +272,15 @@ export const CATEGORIES: Category[] = [
     hero: img(TRADITIONAL_DECOR[2]), gallery: pick(TRADITIONAL_DECOR),
     rating: 4.8, reviews: 290, startsAt: 2999,
     faqs: baseFaqs("Housewarming Decoration") },
-];
+]).map((category) => {
+  const gallery = RESTORED_CATEGORY_IMAGES[category.slug];
+  const startsAt = RESTORED_CATEGORY_STARTS_AT[category.slug];
+  return {
+    ...category,
+    ...(gallery ? { hero: gallery[0], gallery } : {}),
+    ...(startsAt ? { startsAt } : {}),
+  };
+});
 
 // Generate 3 packages per category — Essential / Premium / Luxury
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
@@ -273,7 +311,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
     gallery: c.gallery,
     rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
     reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: Math.round(
+    original: RESTORED_PACKAGE_PRICES[c.slug]?.[i]?.original ?? Math.round(
       i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" || c.slug === "haldi-decoration" ? 9999 : 10499) :
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
@@ -291,7 +329,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         (c.startsAt * t.multOffer) / 0.66
       ) : (c.startsAt * t.multOffer) / 0.66
     ),
-    offer: (
+    offer: RESTORED_PACKAGE_PRICES[c.slug]?.[i]?.offer ?? (
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
         c.slug === "haldi-decoration" ? 4999 :
