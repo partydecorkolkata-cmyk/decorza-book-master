@@ -158,7 +158,7 @@ const baseFaqs = (name: string) => [
   },
 ];
 
-export const CATEGORIES: Category[] = [
+export const CATEGORIES: Category[] = ([
   { slug: "birthday-decoration", name: "Birthday Decoration", short: "Beautiful birthday setups for every age",
     description: "Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable.",
     hero: img(BALLOON_DECOR[0]), gallery: pick(BALLOON_DECOR),
@@ -253,7 +253,10 @@ export const CATEGORIES: Category[] = [
     hero: img(TRADITIONAL_DECOR[2]), gallery: pick(TRADITIONAL_DECOR),
     rating: 4.8, reviews: 290, startsAt: 2999,
     faqs: baseFaqs("Housewarming Decoration") },
-];
+]).map((category) => {
+  const gallery = RESTORED_CATEGORY_IMAGES[category.slug];
+  return gallery ? { ...category, hero: gallery[0], gallery } : category;
+});
 
 // Generate 3 packages per category — Essential / Premium / Luxury
 export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
