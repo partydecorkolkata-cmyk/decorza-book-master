@@ -274,7 +274,12 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Housewarming Decoration") },
 ]).map((category) => {
   const gallery = RESTORED_CATEGORY_IMAGES[category.slug];
-  return gallery ? { ...category, hero: gallery[0], gallery } : category;
+  const startsAt = RESTORED_CATEGORY_STARTS_AT[category.slug];
+  return {
+    ...category,
+    ...(gallery ? { hero: gallery[0], gallery } : {}),
+    ...(startsAt ? { startsAt } : {}),
+  };
 });
 
 // Generate 3 packages per category — Essential / Premium / Luxury
