@@ -302,7 +302,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         c.slug === "haldi-decoration" ? 8500 :
         ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 9999 :
         c.slug === "anniversary-decoration" ? 4499 :
-        7999) // Changed from 12500 to 7999
+        12999) // Changed from 7999 to 12999
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 34999 :
@@ -357,7 +357,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 175,
     original: 11999,
-    offer: 7999,
+    offer: 12999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -373,7 +373,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 5,
     reviews: 132,
     original: 15999,
-    offer: 7999,
+    offer: 12999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
