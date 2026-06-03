@@ -151,7 +151,7 @@ export const CATEGORIES: Category[] = [
   { slug: "birthday-decoration", name: "Birthday Decoration", short: "Beautiful birthday setups for every age",
     description: "Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable.",
     hero: img(BALLOON_DECOR[0]), gallery: pick(BALLOON_DECOR),
-    rating: 4.9, reviews: 2148, startsAt: 3999, popular: true, trending: true, bestSeller: true,
+    rating: 4.9, reviews: 2148, startsAt: 1999, popular: true, trending: true, bestSeller: true,
     faqs: baseFaqs("Birthday Decoration") },
   { slug: "anniversary-decoration", name: "Anniversary Decoration", short: "Romantic anniversary surprises",
     description: "Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.",
