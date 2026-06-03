@@ -102,6 +102,25 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
   "bachelorette-decoration": ["/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg", "/48692914-e809-4527-a8d3-a55e5cb89842.webp", "/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg", "/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg"],
 };
 
+const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
+  "birthday-decoration": 1499,
+  "anniversary-decoration": 1499,
+  "baby-shower-decoration": 1999,
+  "haldi-decoration": 1999,
+  "bachelorette-decoration": 1999,
+};
+
+const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number }[]> = {
+  "birthday-decoration": [{ original: 9999, offer: 7999 }, { original: 12999, offer: 12999 }, { original: 9999, offer: 4999 }],
+  "anniversary-decoration": [{ original: 9999, offer: 2999 }, { original: 9999, offer: 4499 }, { original: 9999, offer: 9999 }],
+  "theme-birthday-decoration": [{ original: 9999, offer: 3499 }, { original: 12500, offer: 4999 }, { original: 34999, offer: 19999 }],
+  "baby-shower-decoration": [{ original: 10499, offer: 2499 }, { original: 12500, offer: 5999 }, { original: 11999, offer: 7999 }],
+  "engagement-decoration": [{ original: 10499, offer: 6999 }, { original: 12500, offer: 7999 }, { original: 18999, offer: 12999 }],
+  "haldi-decoration": [{ original: 9999, offer: 4999 }, { original: 11999, offer: 8500 }, { original: 9999, offer: 5999 }],
+  "mehendi-decoration": [{ original: 9999, offer: 3999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
+  "bachelorette-decoration": [{ original: 9999, offer: 8999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
+};
+
 const pick = (pool: string[]) => pool.map((id) => img(id));
 
 export type Category = {
