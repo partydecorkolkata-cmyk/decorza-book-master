@@ -282,7 +282,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         12500
       ) :
       i === 2 ? (
-        c.slug === "birthday-decoration" ? 53029 :
+        c.slug === "birthday-decoration" ? 9999 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
         c.slug === "anniversary-decoration" ? 22726 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
@@ -295,17 +295,17 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 0 ? (
         c.slug === "baby-shower-decoration" ? 2499 :
         c.slug === "haldi-decoration" ? 4999 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 6999 : 6999)
+        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 2999 : 2999)
       ) :
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
         c.slug === "haldi-decoration" ? 8500 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 9999 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4499 :
         c.slug === "anniversary-decoration" ? 4499 :
         6999) // Changed from 12999 to 6999
       ) :
       i === 2 ? (
-        c.slug === "birthday-decoration" ? 34999 :
+        c.slug === "birthday-decoration" ? 4999 :
         (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
@@ -340,8 +340,8 @@ const HALDI_EXTRA: Package[] = [
     gallery: ["/4a188f79-7932-4b6a-916e-3473f5876d90.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/f584ba38-470f-4d64-944f-2383546039a1.jpg"],
     rating: 4.9,
     reviews: 210,
-    original: 9999,
-    offer: 8999,
+    original: 4499,
+    offer: 2999,
     duration: "3-4 hours of celebration",
     setupTime: "75-90 min setup",
   },
@@ -357,7 +357,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 175,
     original: 11999,
-    offer: 6999,
+    offer: 5999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -373,7 +373,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 5,
     reviews: 132,
     original: 15999,
-    offer: 6999,
+    offer: 12999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
@@ -405,7 +405,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 145,
     original: 15999,
-    offer: 6999,
+    offer: 2999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
