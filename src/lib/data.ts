@@ -48,7 +48,7 @@ const TRADITIONAL_DECOR = [
   "/1e631830-5a03-4c62-9230-c36bba689802.png", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
-  "/4a188f79-7932-4b6a-916e-3473f5876d90.jpg", // yellow haldi marigold setup
+  "/6c0180f0-9113-4d68-9afb-6e26b385629a.jpg", // yellow haldi marigold setup
   "/f584ba38-470f-4d64-944f-2383546039a1.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
