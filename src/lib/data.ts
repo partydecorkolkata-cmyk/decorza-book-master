@@ -9,7 +9,7 @@ const img = (id: string, w = 1200) =>
 // Birthday balloon decoration — arches, garlands, ring backdrops
 const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
-  "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // custom premium birthday upload
+  "/cocomelon-birthday.jpg", // custom premium birthday upload
   "/eefd4996-0fea-4543-bd20-1b6ac3a8bc32.jpg", // luxury birthday upload
   "/birthday-4.png", // navy + gold arch
 
@@ -65,7 +65,7 @@ const STAGE_DECOR = [
 
 // Kids theme — themed birthday parties
 const KIDS_THEME = [
-  "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // kids balloon party
+  "/cocomelon-birthday.jpg", // kids balloon party
   "/eefd4996-0fea-4543-bd20-1b6ac3a8bc32.jpg", // birthday party kids
   "/birthday-3.webp", // confetti kids backdrop
   "/kids-theme-4.jpg", // colourful party decor
