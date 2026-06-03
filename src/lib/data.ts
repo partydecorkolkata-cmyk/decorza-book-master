@@ -10,7 +10,7 @@ const img = (id: string, w = 1200) =>
 const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
   "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // custom premium birthday upload
-  "/birthday-2.jpg", // luxury birthday upload
+  "/eefd4996-0fea-4543-bd20-1b6ac3a8bc32.jpg", // luxury birthday upload
   "/birthday-4.png", // navy + gold arch
 
   "/birthday-5.jpg", // boho pink arch
