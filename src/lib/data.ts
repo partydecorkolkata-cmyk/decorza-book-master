@@ -65,7 +65,7 @@ const STAGE_DECOR = [
 
 // Kids theme — themed birthday parties
 const KIDS_THEME = [
-  "/birthday-1.jpg", // kids balloon party
+  "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // kids balloon party
   "/birthday-2.jpg", // birthday party kids
   "/birthday-3.webp", // confetti kids backdrop
   "/kids-theme-4.jpg", // colourful party decor
