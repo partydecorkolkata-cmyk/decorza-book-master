@@ -215,7 +215,7 @@ export const CATEGORIES: Category[] = [
       "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg",
       "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png",
     ],
-    rating: 4.9, reviews: 560, startsAt: 3999, popular: true,
+    rating: 4.9, reviews: 560, startsAt: 1999, popular: true,
     faqs: baseFaqs("Haldi Decoration") },
   { slug: "mehendi-decoration", name: "Mehendi Decoration", short: "Boho mehendi backdrops & seating",
     description: "Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor.",
