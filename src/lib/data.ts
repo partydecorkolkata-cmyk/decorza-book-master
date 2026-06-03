@@ -48,7 +48,7 @@ const TRADITIONAL_DECOR = [
   "/1e631830-5a03-4c62-9230-c36bba689802.png", // traditional Indian ceremony decor
   "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg", // engagement decor 1
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", // Indian floral mandap decor
-  "/6c0180f0-9113-4d68-9afb-6e26b385629a.jpg", // yellow haldi marigold setup
+  "/haldi-ring-decoration.png", // yellow haldi marigold setup
   "/f584ba38-470f-4d64-944f-2383546039a1.jpg", // floral seating / jhoola
   "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg", // mehendi boho cushion seating
 ];
@@ -203,7 +203,7 @@ export const CATEGORIES: Category[] = [
     hero: img("/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"),
     gallery: [
       "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg",
-      "/6c0180f0-9113-4d68-9afb-6e26b385629a.jpg",
+      "/haldi-ring-decoration.png",
       "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg",
       "/1e631830-5a03-4c62-9230-c36bba689802.png",
       "/f584ba38-470f-4d64-944f-2383546039a1.jpg",
