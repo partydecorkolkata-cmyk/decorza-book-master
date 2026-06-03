@@ -156,7 +156,7 @@ export const CATEGORIES: Category[] = [
   { slug: "anniversary-decoration", name: "Anniversary Decoration", short: "Romantic anniversary surprises",
     description: "Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.",
     hero: img(ROMANTIC_DECOR[0]), gallery: pick(ROMANTIC_DECOR),
-    rating: 4.9, reviews: 1820, startsAt: 3999, popular: true, bestSeller: true,
+    rating: 4.9, reviews: 1820, startsAt: 1999, popular: true, bestSeller: true,
     faqs: baseFaqs("Anniversary Decoration") },
   { slug: "theme-birthday-decoration", name: "Theme Birthday Decoration", short: "Custom themed parties kids & adults love",
     description: "From jungle and unicorn to football, princess and superhero themes — fully styled with props, balloons and themed backdrops.",
