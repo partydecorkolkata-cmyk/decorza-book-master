@@ -373,7 +373,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 5,
     reviews: 132,
     original: 15999,
-    offer: 7999,
+    offer: 12999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
