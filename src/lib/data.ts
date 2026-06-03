@@ -300,8 +300,8 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
         c.slug === "haldi-decoration" ? 8500 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4499 :
-        c.slug === "anniversary-decoration" ? 4499 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
+        c.slug === "anniversary-decoration" ? 7999 :
         6999) // Changed from 12999 to 6999
       ) :
       i === 2 ? (
