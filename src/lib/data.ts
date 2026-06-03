@@ -10,7 +10,7 @@ const img = (id: string, w = 1200) =>
 const BALLOON_DECOR = [
   "/images/balloon-decoration-hero-v2.jpg", // balloon arch backdrop (custom upload)
   "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // custom premium birthday upload
-  "/birthday-2.jpg", // luxury birthday upload
+  "/eefd4996-0fea-4543-bd20-1b6ac3a8bc32.jpg", // luxury birthday upload
   "/birthday-4.png", // navy + gold arch
 
   "/birthday-5.jpg", // boho pink arch
@@ -66,7 +66,7 @@ const STAGE_DECOR = [
 // Kids theme — themed birthday parties
 const KIDS_THEME = [
   "/4766fc00-6442-4236-bf5e-90b5b4e86194.jpg", // kids balloon party
-  "/birthday-2.jpg", // birthday party kids
+  "/eefd4996-0fea-4543-bd20-1b6ac3a8bc32.jpg", // birthday party kids
   "/birthday-3.webp", // confetti kids backdrop
   "/kids-theme-4.jpg", // colourful party decor
   "/kids-theme-5.webp", // balloon arch kids
@@ -300,8 +300,8 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 1 ? (
         c.slug === "baby-shower-decoration" ? 5999 :
         c.slug === "haldi-decoration" ? 8500 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 4499 :
-        c.slug === "anniversary-decoration" ? 4499 :
+        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
+        c.slug === "anniversary-decoration" ? 7999 :
         6999) // Changed from 12999 to 6999
       ) :
       i === 2 ? (
