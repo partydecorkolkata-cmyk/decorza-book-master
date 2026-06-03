@@ -278,7 +278,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
       i === 1 ? (
         (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
         c.slug === "anniversary-decoration" ? 10329 :
-        c.slug === "haldi-decoration" ? 12999 :
+        c.slug === "haldi-decoration" ? 6999 :
         12500
       ) :
       i === 2 ? (
@@ -302,7 +302,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         c.slug === "haldi-decoration" ? 8500 :
         ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 9999 :
         c.slug === "anniversary-decoration" ? 4499 :
-        12999) // Changed from 7999 to 12999
+        6999) // Changed from 12999 to 6999
       ) :
       i === 2 ? (
         c.slug === "birthday-decoration" ? 34999 :
@@ -310,7 +310,7 @@ export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
         c.slug === "anniversary-decoration" ? 9999 :
         (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
         c.slug === "haldi-decoration" ? 5999 :
-        c.startsAt === 3999 ? 12999 : // New: Offer for Haldi/Bachelorette Luxury (from 8798)
+        c.startsAt === 3999 ? 6999 : // New: Offer for Haldi/Bachelorette Luxury (from 12999)
         Math.round(c.startsAt * t.multOffer)
       ) : Math.round(c.startsAt * t.multOffer)
     ),
@@ -357,7 +357,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 175,
     original: 11999,
-    offer: 12999,
+    offer: 6999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
@@ -373,7 +373,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 5,
     reviews: 132,
     original: 15999,
-    offer: 12999,
+    offer: 6999,
     duration: "Full event styling",
     setupTime: "120-180 min setup",
   },
@@ -405,7 +405,7 @@ const HALDI_EXTRA: Package[] = [
     rating: 4.9,
     reviews: 145,
     original: 15999,
-    offer: 12999,
+    offer: 6999,
     duration: "Half-day event styling",
     setupTime: "90-120 min setup",
   },
