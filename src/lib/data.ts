@@ -225,7 +225,7 @@ export const CATEGORIES: Category[] = [
   { slug: "bachelorette-decoration", name: "Bachelorette Decoration", short: "Glam bachelorette & bridal showers",
     description: "Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad.",
     hero: img(BACHELORETTE_DECOR[0]), gallery: pick(BACHELORETTE_DECOR),
-    rating: 4.9, reviews: 380, startsAt: 3999, trending: true,
+    rating: 4.9, reviews: 380, startsAt: 1999, trending: true,
     faqs: baseFaqs("Bachelorette Decoration") },
   { slug: "corporate-event-decoration", name: "Corporate Event Decoration", short: "Conferences, launches & office parties",
     description: "Branded backdrops, stage decor, registration setups and lighting for corporate events and product launches.",
