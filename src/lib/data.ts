@@ -203,7 +203,7 @@ export const CATEGORIES: Category[] = [
     hero: img("/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"),
     gallery: [
       "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg",
-      "/4a188f79-7932-4b6a-916e-3473f5876d90.jpg",
+      "/6c0180f0-9113-4d68-9afb-6e26b385629a.jpg",
       "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg",
       "/1e631830-5a03-4c62-9230-c36bba689802.png",
       "/f584ba38-470f-4d64-944f-2383546039a1.jpg",
