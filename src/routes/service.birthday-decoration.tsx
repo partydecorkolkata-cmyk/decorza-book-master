@@ -64,40 +64,40 @@ function ServicePage() {
           <StaticPackageCard
             id="birthday-decoration-essential"
             name="Essential Birthday Decoration"
-            description="A clean, photo-ready birthday decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/5619dd16-b57c-4707-9f6b-b37ae79bb3de.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            description="A stunning blue, white and silver balloon frame backdrop with shimmer curtain, personalised name & age foil balloons and a 'Happy Birthday' bunting — perfect for an in-home birthday surprise as shown in the picture."
+            image="/birthday-essential-vivan.png"
+            includes={["Blue, white & silver balloon frame","Personalised name & age foil balloons","Shimmer curtain + Happy Birthday bunting"]}
             rating={4.800000000000001}
             reviews={614}
-            offer={<>₹7,999</>}
-            original={<>₹9,999</>}
-            discountPct={20}
+            offer={<>₹1,999</>}
+            original={<>₹3,999</>}
+            discountPct={50}
             bestSeller={false}
           />
           <StaticPackageCard
             id="birthday-decoration-premium"
             name="Premium Birthday Decoration"
-            description="An upgraded birthday decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/5d42dfa6-af3e-4cc5-a1de-772f0331e44d.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            description="A premium chrome blue & white balloon ring arch with a 'Happy Birthday' neon sign, marquee light-up number and confetti balloon accents — styled exactly like the reference photo."
+            image="/birthday-premium-arch.webp"
+            includes={["Chrome blue & white ring balloon arch","Happy Birthday neon sign","Light-up marquee number + confetti balloons"]}
             rating={4.9}
             reviews={859}
-            offer={<>₹12,999</>}
-            original={<>₹12,999</>}
-            discountPct={0}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
             id="birthday-decoration-luxury"
             name="Luxury Birthday Decoration"
-            description="A full luxury birthday decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/images/balloon-decoration-hero-v2.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            description="A full luxury Cocomelon theme birthday setup with a shimmer sequin wall, neon 'Happy Birthday' sign, pastel balloon arch with gold chrome accents, character cutouts and a glowing marquee number — recreated to match the photo."
+            image="/birthday-luxury-cocomelon.jpg"
+            includes={["Shimmer sequin wall + neon sign","Pastel + gold chrome balloon arch","Cocomelon character cutouts & marquee number"]}
             rating={4.800000000000001}
             reviews={1432}
-            offer={<>₹4,999</>}
-            original={<>₹9,999</>}
-            discountPct={50}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
+            discountPct={33}
             bestSeller={false}
           />
         </div>
