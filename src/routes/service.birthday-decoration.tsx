@@ -8,6 +8,29 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import birthdayGalleryGreenThree from "@/assets/birthday-gallery-green-3.png.asset.json";
+import birthdayGalleryPinkEleven from "@/assets/birthday-gallery-pink-11.png.asset.json";
+import birthdayGalleryBlueTwo from "@/assets/birthday-gallery-blue-2.png.asset.json";
+import birthdayGalleryFirstBirthday from "@/assets/birthday-gallery-first-birthday.webp.asset.json";
+import birthdayGalleryBeigeTwentyThree from "@/assets/birthday-gallery-beige-23.jpeg.asset.json";
+import birthdayGalleryRoseGoldFortyThree from "@/assets/birthday-gallery-rosegold-43.jpeg.asset.json";
+import birthdayGalleryPinkMehakThree from "@/assets/birthday-gallery-pink-mehak-3.png.asset.json";
+import birthdayGalleryRoseGoldFive from "@/assets/birthday-gallery-rosegold-5.png.asset.json";
+import birthdayGalleryPurpleFifteen from "@/assets/birthday-gallery-purple-15.png.asset.json";
+import birthdayGalleryNavyTwelve from "@/assets/birthday-gallery-navy-12.png.asset.json";
+
+const birthdayGalleryImages = [
+  { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
+  { src: birthdayGalleryPinkEleven.url, alt: "Pink chrome birthday decoration with personalised name setup" },
+  { src: birthdayGalleryBlueTwo.url, alt: "Blue and gold second birthday balloon backdrop" },
+  { src: birthdayGalleryFirstBirthday.url, alt: "Pastel first birthday backdrop with elephant theme" },
+  { src: birthdayGalleryBeigeTwentyThree.url, alt: "Beige birthday backdrop with neon sign and marquee numbers" },
+  { src: birthdayGalleryRoseGoldFortyThree.url, alt: "Rose gold birthday balloon arch with neon sign and number balloons" },
+  { src: birthdayGalleryPinkMehakThree.url, alt: "Pink and gold third birthday personalised backdrop" },
+  { src: birthdayGalleryRoseGoldFive.url, alt: "Rose gold fifth birthday home decoration setup" },
+  { src: birthdayGalleryPurpleFifteen.url, alt: "Purple birthday decoration with foil name balloons and number setup" },
+  { src: birthdayGalleryNavyTwelve.url, alt: "Navy blue and gold twelfth birthday decoration setup" },
+];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
   loader: () => {
@@ -66,7 +89,7 @@ function ServicePage() {
             name="Essential Birthday Decoration"
             description="A stunning blue, white and silver balloon frame backdrop with shimmer curtain, personalised name & age foil balloons and a 'Happy Birthday' bunting — perfect for an in-home birthday surprise as shown in the picture."
             image="/birthday-essential-vivan.png"
-            includes={["Blue, white & silver balloon frame","Personalised name & age foil balloons","Shimmer curtain + Happy Birthday bunting"]}
+            includes={["Blue, white & silver balloon frame", "Personalised name & age foil balloons", "Shimmer curtain + Happy Birthday bunting"]}
             rating={4.800000000000001}
             reviews={614}
             offer={<>₹1,999</>}
@@ -79,7 +102,7 @@ function ServicePage() {
             name="Premium Birthday Decoration"
             description="A premium chrome blue & white balloon ring arch with a 'Happy Birthday' neon sign, marquee light-up number and confetti balloon accents — styled exactly like the reference photo."
             image="/birthday-premium-arch.webp"
-            includes={["Chrome blue & white ring balloon arch","Happy Birthday neon sign","Light-up marquee number + confetti balloons"]}
+            includes={["Chrome blue & white ring balloon arch", "Happy Birthday neon sign", "Light-up marquee number + confetti balloons"]}
             rating={4.9}
             reviews={859}
             offer={<>₹3,499</>}
@@ -92,7 +115,7 @@ function ServicePage() {
             name="Luxury Birthday Decoration"
             description="A full luxury Cocomelon theme birthday setup with a shimmer sequin wall, neon 'Happy Birthday' sign, pastel balloon arch with gold chrome accents, character cutouts and a glowing marquee number — recreated to match the photo."
             image="/birthday-luxury-cocomelon.jpg"
-            includes={["Shimmer sequin wall + neon sign","Pastel + gold chrome balloon arch","Cocomelon character cutouts & marquee number"]}
+            includes={["Shimmer sequin wall + neon sign", "Pastel + gold chrome balloon arch", "Cocomelon character cutouts & marquee number"]}
             rating={4.800000000000001}
             reviews={1432}
             offer={<>₹5,999</>}
@@ -105,14 +128,17 @@ function ServicePage() {
 
       <section className="bg-secondary/40 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeader eyebrow="Gallery" title="Birthday Decoration Gallery" subtitle="Real setups by our decor team." />
-          <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            <img src="/5619dd16-b57c-4707-9f6b-b37ae79bb3de.jpg" alt="Birthday Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/5d42dfa6-af3e-4cc5-a1de-772f0331e44d.jpg" alt="Birthday Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/images/balloon-decoration-hero-v2.jpg" alt="Birthday Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/birthday-4.png" alt="Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/birthday-5.jpg" alt="Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/birthday-6.jpg" alt="Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+          <SectionHeader eyebrow="Gallery" title="Birthday Decoration Gallery" subtitle="All uploaded birthday setups are now shown here." />
+          <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {birthdayGalleryImages.map((image, index) => (
+              <img
+                key={image.src}
+                src={image.src}
+                alt={image.alt || `Birthday Decoration Gallery ${index + 1}`}
+                loading="lazy"
+                className="aspect-[4/5] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]"
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -151,3 +177,4 @@ function ServicePage() {
     </>
   );
 }
+
