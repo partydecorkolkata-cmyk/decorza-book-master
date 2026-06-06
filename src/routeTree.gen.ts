@@ -21,11 +21,17 @@ import { Route as ServiceThemeBirthdayDecorationRouteImport } from './routes/ser
 import { Route as ServiceRomanticBedroomDecorationRouteImport } from './routes/service.romantic-bedroom-decoration'
 import { Route as ServiceRiceCeremonyDecorationRouteImport } from './routes/service.rice-ceremony-decoration'
 import { Route as ServiceProposalDecorationRouteImport } from './routes/service.proposal-decoration'
+import { Route as ServiceMehendiDecorationRouteImport } from './routes/service.mehendi-decoration'
+import { Route as ServiceKidsThemeDecorationRouteImport } from './routes/service.kids-theme-decoration'
+import { Route as ServiceHousewarmingDecorationRouteImport } from './routes/service.housewarming-decoration'
+import { Route as ServiceHaldiDecorationRouteImport } from './routes/service.haldi-decoration'
+import { Route as ServiceEngagementDecorationRouteImport } from './routes/service.engagement-decoration'
+import { Route as ServiceCorporateEventDecorationRouteImport } from './routes/service.corporate-event-decoration'
 import { Route as ServiceCarBootDecorationRouteImport } from './routes/service.car-boot-decoration'
 import { Route as ServiceBirthdayDecorationRouteImport } from './routes/service.birthday-decoration'
+import { Route as ServiceBacheloretteDecorationRouteImport } from './routes/service.bachelorette-decoration'
 import { Route as ServiceBabyShowerDecorationRouteImport } from './routes/service.baby-shower-decoration'
 import { Route as ServiceAnniversaryDecorationRouteImport } from './routes/service.anniversary-decoration'
-import { Route as ServiceSlugRouteImport } from './routes/service.$slug'
 import { Route as PackageIdRouteImport } from './routes/package.$id'
 import { Route as CitySlugRouteImport } from './routes/city.$slug'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
@@ -95,6 +101,41 @@ const ServiceProposalDecorationRoute =
     path: '/service/proposal-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ServiceMehendiDecorationRoute =
+  ServiceMehendiDecorationRouteImport.update({
+    id: '/service/mehendi-decoration',
+    path: '/service/mehendi-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceKidsThemeDecorationRoute =
+  ServiceKidsThemeDecorationRouteImport.update({
+    id: '/service/kids-theme-decoration',
+    path: '/service/kids-theme-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceHousewarmingDecorationRoute =
+  ServiceHousewarmingDecorationRouteImport.update({
+    id: '/service/housewarming-decoration',
+    path: '/service/housewarming-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceHaldiDecorationRoute = ServiceHaldiDecorationRouteImport.update({
+  id: '/service/haldi-decoration',
+  path: '/service/haldi-decoration',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServiceEngagementDecorationRoute =
+  ServiceEngagementDecorationRouteImport.update({
+    id: '/service/engagement-decoration',
+    path: '/service/engagement-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceCorporateEventDecorationRoute =
+  ServiceCorporateEventDecorationRouteImport.update({
+    id: '/service/corporate-event-decoration',
+    path: '/service/corporate-event-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ServiceCarBootDecorationRoute =
   ServiceCarBootDecorationRouteImport.update({
     id: '/service/car-boot-decoration',
@@ -105,6 +146,12 @@ const ServiceBirthdayDecorationRoute =
   ServiceBirthdayDecorationRouteImport.update({
     id: '/service/birthday-decoration',
     path: '/service/birthday-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceBacheloretteDecorationRoute =
+  ServiceBacheloretteDecorationRouteImport.update({
+    id: '/service/bachelorette-decoration',
+    path: '/service/bachelorette-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
 const ServiceBabyShowerDecorationRoute =
@@ -119,11 +166,6 @@ const ServiceAnniversaryDecorationRoute =
     path: '/service/anniversary-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServiceSlugRoute = ServiceSlugRouteImport.update({
-  id: '/service/$slug',
-  path: '/service/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const PackageIdRoute = PackageIdRouteImport.update({
   id: '/package/$id',
   path: '/package/$id',
@@ -151,11 +193,17 @@ export interface FileRoutesByFullPath {
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
-  '/service/$slug': typeof ServiceSlugRoute
   '/service/anniversary-decoration': typeof ServiceAnniversaryDecorationRoute
   '/service/baby-shower-decoration': typeof ServiceBabyShowerDecorationRoute
+  '/service/bachelorette-decoration': typeof ServiceBacheloretteDecorationRoute
   '/service/birthday-decoration': typeof ServiceBirthdayDecorationRoute
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
+  '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
+  '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
+  '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
+  '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
+  '/service/mehendi-decoration': typeof ServiceMehendiDecorationRoute
   '/service/proposal-decoration': typeof ServiceProposalDecorationRoute
   '/service/rice-ceremony-decoration': typeof ServiceRiceCeremonyDecorationRoute
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
@@ -173,11 +221,17 @@ export interface FileRoutesByTo {
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
-  '/service/$slug': typeof ServiceSlugRoute
   '/service/anniversary-decoration': typeof ServiceAnniversaryDecorationRoute
   '/service/baby-shower-decoration': typeof ServiceBabyShowerDecorationRoute
+  '/service/bachelorette-decoration': typeof ServiceBacheloretteDecorationRoute
   '/service/birthday-decoration': typeof ServiceBirthdayDecorationRoute
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
+  '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
+  '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
+  '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
+  '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
+  '/service/mehendi-decoration': typeof ServiceMehendiDecorationRoute
   '/service/proposal-decoration': typeof ServiceProposalDecorationRoute
   '/service/rice-ceremony-decoration': typeof ServiceRiceCeremonyDecorationRoute
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
@@ -196,11 +250,17 @@ export interface FileRoutesById {
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
-  '/service/$slug': typeof ServiceSlugRoute
   '/service/anniversary-decoration': typeof ServiceAnniversaryDecorationRoute
   '/service/baby-shower-decoration': typeof ServiceBabyShowerDecorationRoute
+  '/service/bachelorette-decoration': typeof ServiceBacheloretteDecorationRoute
   '/service/birthday-decoration': typeof ServiceBirthdayDecorationRoute
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
+  '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
+  '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
+  '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
+  '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
+  '/service/mehendi-decoration': typeof ServiceMehendiDecorationRoute
   '/service/proposal-decoration': typeof ServiceProposalDecorationRoute
   '/service/rice-ceremony-decoration': typeof ServiceRiceCeremonyDecorationRoute
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
@@ -220,11 +280,17 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
-    | '/service/$slug'
     | '/service/anniversary-decoration'
     | '/service/baby-shower-decoration'
+    | '/service/bachelorette-decoration'
     | '/service/birthday-decoration'
     | '/service/car-boot-decoration'
+    | '/service/corporate-event-decoration'
+    | '/service/engagement-decoration'
+    | '/service/haldi-decoration'
+    | '/service/housewarming-decoration'
+    | '/service/kids-theme-decoration'
+    | '/service/mehendi-decoration'
     | '/service/proposal-decoration'
     | '/service/rice-ceremony-decoration'
     | '/service/romantic-bedroom-decoration'
@@ -242,11 +308,17 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
-    | '/service/$slug'
     | '/service/anniversary-decoration'
     | '/service/baby-shower-decoration'
+    | '/service/bachelorette-decoration'
     | '/service/birthday-decoration'
     | '/service/car-boot-decoration'
+    | '/service/corporate-event-decoration'
+    | '/service/engagement-decoration'
+    | '/service/haldi-decoration'
+    | '/service/housewarming-decoration'
+    | '/service/kids-theme-decoration'
+    | '/service/mehendi-decoration'
     | '/service/proposal-decoration'
     | '/service/rice-ceremony-decoration'
     | '/service/romantic-bedroom-decoration'
@@ -264,11 +336,17 @@ export interface FileRouteTypes {
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
-    | '/service/$slug'
     | '/service/anniversary-decoration'
     | '/service/baby-shower-decoration'
+    | '/service/bachelorette-decoration'
     | '/service/birthday-decoration'
     | '/service/car-boot-decoration'
+    | '/service/corporate-event-decoration'
+    | '/service/engagement-decoration'
+    | '/service/haldi-decoration'
+    | '/service/housewarming-decoration'
+    | '/service/kids-theme-decoration'
+    | '/service/mehendi-decoration'
     | '/service/proposal-decoration'
     | '/service/rice-ceremony-decoration'
     | '/service/romantic-bedroom-decoration'
@@ -286,11 +364,17 @@ export interface RootRouteChildren {
   PackagesRoute: typeof PackagesRoute
   CitySlugRoute: typeof CitySlugRoute
   PackageIdRoute: typeof PackageIdRoute
-  ServiceSlugRoute: typeof ServiceSlugRoute
   ServiceAnniversaryDecorationRoute: typeof ServiceAnniversaryDecorationRoute
   ServiceBabyShowerDecorationRoute: typeof ServiceBabyShowerDecorationRoute
+  ServiceBacheloretteDecorationRoute: typeof ServiceBacheloretteDecorationRoute
   ServiceBirthdayDecorationRoute: typeof ServiceBirthdayDecorationRoute
   ServiceCarBootDecorationRoute: typeof ServiceCarBootDecorationRoute
+  ServiceCorporateEventDecorationRoute: typeof ServiceCorporateEventDecorationRoute
+  ServiceEngagementDecorationRoute: typeof ServiceEngagementDecorationRoute
+  ServiceHaldiDecorationRoute: typeof ServiceHaldiDecorationRoute
+  ServiceHousewarmingDecorationRoute: typeof ServiceHousewarmingDecorationRoute
+  ServiceKidsThemeDecorationRoute: typeof ServiceKidsThemeDecorationRoute
+  ServiceMehendiDecorationRoute: typeof ServiceMehendiDecorationRoute
   ServiceProposalDecorationRoute: typeof ServiceProposalDecorationRoute
   ServiceRiceCeremonyDecorationRoute: typeof ServiceRiceCeremonyDecorationRoute
   ServiceRomanticBedroomDecorationRoute: typeof ServiceRomanticBedroomDecorationRoute
@@ -384,6 +468,48 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceProposalDecorationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/service/mehendi-decoration': {
+      id: '/service/mehendi-decoration'
+      path: '/service/mehendi-decoration'
+      fullPath: '/service/mehendi-decoration'
+      preLoaderRoute: typeof ServiceMehendiDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/kids-theme-decoration': {
+      id: '/service/kids-theme-decoration'
+      path: '/service/kids-theme-decoration'
+      fullPath: '/service/kids-theme-decoration'
+      preLoaderRoute: typeof ServiceKidsThemeDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/housewarming-decoration': {
+      id: '/service/housewarming-decoration'
+      path: '/service/housewarming-decoration'
+      fullPath: '/service/housewarming-decoration'
+      preLoaderRoute: typeof ServiceHousewarmingDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/haldi-decoration': {
+      id: '/service/haldi-decoration'
+      path: '/service/haldi-decoration'
+      fullPath: '/service/haldi-decoration'
+      preLoaderRoute: typeof ServiceHaldiDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/engagement-decoration': {
+      id: '/service/engagement-decoration'
+      path: '/service/engagement-decoration'
+      fullPath: '/service/engagement-decoration'
+      preLoaderRoute: typeof ServiceEngagementDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/corporate-event-decoration': {
+      id: '/service/corporate-event-decoration'
+      path: '/service/corporate-event-decoration'
+      fullPath: '/service/corporate-event-decoration'
+      preLoaderRoute: typeof ServiceCorporateEventDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/service/car-boot-decoration': {
       id: '/service/car-boot-decoration'
       path: '/service/car-boot-decoration'
@@ -398,6 +524,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceBirthdayDecorationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/service/bachelorette-decoration': {
+      id: '/service/bachelorette-decoration'
+      path: '/service/bachelorette-decoration'
+      fullPath: '/service/bachelorette-decoration'
+      preLoaderRoute: typeof ServiceBacheloretteDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/service/baby-shower-decoration': {
       id: '/service/baby-shower-decoration'
       path: '/service/baby-shower-decoration'
@@ -410,13 +543,6 @@ declare module '@tanstack/react-router' {
       path: '/service/anniversary-decoration'
       fullPath: '/service/anniversary-decoration'
       preLoaderRoute: typeof ServiceAnniversaryDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/$slug': {
-      id: '/service/$slug'
-      path: '/service/$slug'
-      fullPath: '/service/$slug'
-      preLoaderRoute: typeof ServiceSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/package/$id': {
@@ -463,11 +589,17 @@ const rootRouteChildren: RootRouteChildren = {
   PackagesRoute: PackagesRoute,
   CitySlugRoute: CitySlugRoute,
   PackageIdRoute: PackageIdRoute,
-  ServiceSlugRoute: ServiceSlugRoute,
   ServiceAnniversaryDecorationRoute: ServiceAnniversaryDecorationRoute,
   ServiceBabyShowerDecorationRoute: ServiceBabyShowerDecorationRoute,
+  ServiceBacheloretteDecorationRoute: ServiceBacheloretteDecorationRoute,
   ServiceBirthdayDecorationRoute: ServiceBirthdayDecorationRoute,
   ServiceCarBootDecorationRoute: ServiceCarBootDecorationRoute,
+  ServiceCorporateEventDecorationRoute: ServiceCorporateEventDecorationRoute,
+  ServiceEngagementDecorationRoute: ServiceEngagementDecorationRoute,
+  ServiceHaldiDecorationRoute: ServiceHaldiDecorationRoute,
+  ServiceHousewarmingDecorationRoute: ServiceHousewarmingDecorationRoute,
+  ServiceKidsThemeDecorationRoute: ServiceKidsThemeDecorationRoute,
+  ServiceMehendiDecorationRoute: ServiceMehendiDecorationRoute,
   ServiceProposalDecorationRoute: ServiceProposalDecorationRoute,
   ServiceRiceCeremonyDecorationRoute: ServiceRiceCeremonyDecorationRoute,
   ServiceRomanticBedroomDecorationRoute: ServiceRomanticBedroomDecorationRoute,
