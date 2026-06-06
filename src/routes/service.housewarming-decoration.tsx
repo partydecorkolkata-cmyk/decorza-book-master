@@ -30,7 +30,7 @@ export const Route = createFileRoute("/service/housewarming-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Housewarming Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => s === "Housewarming Decoration").slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Housewarming Decoration").slice(0, 6);
   const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
 
   return (

@@ -30,7 +30,7 @@ export const Route = createFileRoute("/service/mehendi-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Mehendi Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => s === "Mehendi Decoration").slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Mehendi Decoration").slice(0, 6);
   const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
 
   return (

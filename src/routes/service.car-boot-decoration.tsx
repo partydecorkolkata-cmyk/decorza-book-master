@@ -30,7 +30,7 @@ export const Route = createFileRoute("/service/car-boot-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Car Boot Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => s === "Car Boot Decoration").slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Car Boot Decoration").slice(0, 6);
   const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
 
   return (

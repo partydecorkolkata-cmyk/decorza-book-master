@@ -30,7 +30,7 @@ export const Route = createFileRoute("/service/theme-birthday-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Theme Birthday Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => s === "Theme Birthday Decoration").slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Theme Birthday Decoration").slice(0, 6);
   const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
 
   return (

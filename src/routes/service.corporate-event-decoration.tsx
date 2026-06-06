@@ -30,7 +30,7 @@ export const Route = createFileRoute("/service/corporate-event-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Corporate Event Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => s === "Corporate Event Decoration").slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Corporate Event Decoration").slice(0, 6);
   const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
 
   return (
