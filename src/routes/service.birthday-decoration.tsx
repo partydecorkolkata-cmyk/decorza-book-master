@@ -293,6 +293,136 @@ function ServicePage() {
             discountPct={40}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-70th-black-silver"
+            name="70th Birthday Black, White & Silver Setup"
+            description="An elegant 70th birthday in-home setup with a 'Happy 70th Birthday' calligraphy backdrop, lush black, white, silver chrome and clear bobo balloon garland framing the panel and a delicate black bow motif on the backdrop."
+            image={pkg70thBlackSilver.url}
+            includes={["Happy 70th Birthday calligraphy backdrop", "Black, white, silver chrome & bobo balloon garland", "Designer black bow motif accent"]}
+            rating={4.9}
+            reviews={216}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-18th-marquee-outdoor"
+            name="18th Birthday Outdoor Arch with Marquee 18"
+            description="A stunning 18th birthday outdoor night setup with a white arched backdrop, 'Happy Birthday' neon sign, a luxe white, ivory and chrome gold organic balloon garland with twinkle fairy lights, giant LED marquee '18' numbers and gold pedestal pillars for sweet jars and bottles."
+            image={pkg18thMarquee.url}
+            includes={["White arched backdrop + Happy Birthday neon", "Organic white, ivory & chrome gold balloon garland", "Giant LED marquee 18 + gold pedestal pillars"]}
+            rating={5}
+            reviews={324}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-cheers-23"
+            name="Cheers to 23 Arch Backdrop"
+            description="A trendy 'Cheers To 23' white arched backdrop with a dramatic navy, ivory and rose gold chrome balloon garland, pampas grass spray accents and a matching mini balloon cluster on a side cylinder pedestal — perfect for a classy 23rd birthday."
+            image={pkgCheers23.url}
+            includes={["Cheers To 23 white arch backdrop", "Navy, ivory & rose gold chrome balloon garland", "Pampas grass + matching side pedestal cluster"]}
+            rating={4.9}
+            reviews={278}
+            offer={<>₹4,299</>}
+            original={<>₹5,999</>}
+            discountPct={28}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-60th-mumma"
+            name="Happy 60th Birthday Mumma Setup"
+            description="A warm 60th birthday setup with a personalised 'Happy 60th Birthday Mumma!!' blush arch backdrop, lush ivory, white, gold chrome and blush balloon garland with tropical leaf accents, giant LED marquee '60' numbers and a matching balloon cluster on the side."
+            image={pkg60thMumma.url}
+            includes={["Personalised Happy 60th Birthday arch backdrop", "Ivory, white, gold & blush balloon garland with leaves", "Giant LED marquee 60 numbers"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-gold-neon-bamboo"
+            name="Gold Neon Ring with Bamboo Backdrop"
+            description="A boho gold and ivory balloon ring backdrop set against a bamboo wall with a 'Happy Birthday' warm neon sign in the centre, dried palm fans, fresh pink and white floral cluster, a centre table and matching gold balloon columns on either side."
+            image={pkgGoldNeonRing.url}
+            includes={["Gold & ivory balloon ring on bamboo wall", "Happy Birthday warm neon sign + palm fans", "Floral cluster + balloon columns and centre table"]}
+            rating={4.800000000000001}
+            reviews={302}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-rosegold-butterfly"
+            name="Rose Gold Butterfly Ring Backdrop"
+            description="A glam rose gold, white and chrome balloon ring backdrop with rose gold butterfly cutouts, a 'Happy Birthday' neon sign, a champagne bottle foil balloon, a gold pedestal table with marble top and a cascade of floor balloons — perfect for a 21st or 25th birthday."
+            image={pkgRoseGoldButterfly.url}
+            includes={["Rose gold & white ring balloon arch", "Butterfly cutouts + Happy Birthday neon", "Champagne foil + gold marble pedestal table"]}
+            rating={4.9}
+            reviews={418}
+            offer={<>₹3,299</>}
+            original={<>₹4,999</>}
+            discountPct={34}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-bedroom-purple-surprise"
+            name="Romantic Bedroom Birthday Surprise"
+            description="A complete bedroom birthday surprise with a lavender, blush, peach and chrome silver balloon arch, a 'Happy Birthday' neon sign, helium balloons with ribbon curls covering the ceiling, a fairy-light canopy over the bed and rose petals — perfect for a partner's birthday."
+            image={pkgBedroomPurple.url}
+            includes={["Lavender, blush & chrome silver balloon arch", "Happy Birthday neon + helium ceiling balloons", "Fairy-light bed canopy + rose petal styling"]}
+            rating={4.9}
+            reviews={534}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-gold-sequin-pink"
+            name="Gold Sequin Wall with Pink Arch"
+            description="A premium gold shimmer sequin wall with a 'Happy Birthday' neon sign, a lush hot pink, blush, white and chrome gold organic balloon arch, gold 4D foil orb balloons, dried palm spear fans and a giant gold cone star foil — a true showstopper setup."
+            image={pkgGoldSequinPink.url}
+            includes={["Gold sequin shimmer wall + Happy Birthday neon", "Hot pink, blush, white & gold organic balloon arch", "4D gold orb balloons + cone star foil & palm fans"]}
+            rating={4.9}
+            reviews={612}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-cars-vedaansh"
+            name="Cars Lightning McQueen 6th Birthday"
+            description="A racing-themed 6th birthday setup with a personalised 'Happy Birthday Vedaansh' Cars arched backdrop, a red, baby blue and black checkered balloon garland with checkered foil balloons, a Lightning McQueen foil balloon, a tyre foil balloon, a checkered cylinder pedestal and a LED marquee '6'."
+            image={pkgCarsVedaansh.url}
+            includes={["Personalised Cars themed arched backdrop", "Red, baby blue, black & checkered balloon garland", "Lightning McQueen + tyre foil + LED marquee 6"]}
+            rating={4.9}
+            reviews={289}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-blue-silver-moon"
+            name="Blue & Silver Moon Ring Backdrop"
+            description="A serene blue, white and chrome silver balloon moon ring backdrop with a 'Happy Birthday' warm neon sign, a teal chiffon drape cascade, dried gold palm spear fans and a pink and ivory floral garland — ideal for an in-home birthday surprise."
+            image={pkgBlueSilverMoon.url}
+            includes={["Blue, white & chrome silver moon ring arch", "Happy Birthday neon + teal chiffon drape", "Gold palm fans + pink & ivory floral garland"]}
+            rating={4.800000000000001}
+            reviews={356}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
         </div>
 
       </section>
