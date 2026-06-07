@@ -18,6 +18,16 @@ import birthdayGalleryPinkMehakThree from "@/assets/birthday-gallery-pink-mehak-
 import birthdayGalleryRoseGoldFive from "@/assets/birthday-gallery-rosegold-5.png.asset.json";
 import birthdayGalleryPurpleFifteen from "@/assets/birthday-gallery-purple-15.png.asset.json";
 import birthdayGalleryNavyTwelve from "@/assets/birthday-gallery-navy-12.png.asset.json";
+import pkgLethanPastel from "@/assets/birthday-pkg-lethan-pastel.jpg.asset.json";
+import pkgJungleParv from "@/assets/birthday-pkg-jungle-parv.webp.asset.json";
+import pkg7thMahitha from "@/assets/birthday-pkg-7th-mahitha.webp.asset.json";
+import pkg50thGold from "@/assets/birthday-pkg-50th-gold.webp.asset.json";
+import pkg75thDaddy from "@/assets/birthday-pkg-75th-daddy.jpg.asset.json";
+import pkg27thSahiba from "@/assets/birthday-pkg-27th-sahiba.png.asset.json";
+import pkgCandlePalm from "@/assets/birthday-pkg-candle-palm.png.asset.json";
+import pkgRingGoldWhite from "@/assets/birthday-pkg-ring-goldwhite.jpg.asset.json";
+import pkg40LookGood from "@/assets/birthday-pkg-40-look-good.jpg.asset.json";
+import pkg40GoldBlack from "@/assets/birthday-pkg-40-goldblack.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
