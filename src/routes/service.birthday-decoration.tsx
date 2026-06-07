@@ -60,6 +60,16 @@ const birthdayGalleryImages = [
   { src: pkgRingGoldWhite.url, alt: "White and gold ring balloon arch with Happy Birthday neon sign" },
   { src: pkg40LookGood.url, alt: "Damn I Make 40 Look Good pink arch backdrop with pastel balloon garland" },
   { src: pkg40GoldBlack.url, alt: "40th birthday gold, black and silver balloon arch with Happy Birthday neon" },
+  { src: pkg70thBlackSilver.url, alt: "70th birthday black, white and silver chrome balloon garland backdrop" },
+  { src: pkg18thMarquee.url, alt: "18th birthday outdoor arch with white and gold balloons and giant marquee 18 numbers" },
+  { src: pkgCheers23.url, alt: "Cheers to 23 navy, ivory and rose gold balloon garland arch with pampas" },
+  { src: pkg60thMumma.url, alt: "Happy 60th Birthday Mumma pink arch with gold balloon garland and marquee 60" },
+  { src: pkgGoldNeonRing.url, alt: "Gold and ivory balloon ring backdrop with Happy Birthday neon and bamboo wall" },
+  { src: pkgRoseGoldButterfly.url, alt: "Rose gold and white balloon ring backdrop with butterflies and Happy Birthday neon" },
+  { src: pkgBedroomPurple.url, alt: "Romantic bedroom birthday surprise with purple and pink balloon canopy and neon" },
+  { src: pkgGoldSequinPink.url, alt: "Gold sequin shimmer wall with pink and gold balloon arch and Happy Birthday neon" },
+  { src: pkgCarsVedaansh.url, alt: "Cars Lightning McQueen theme sixth birthday arch backdrop with checkered balloons" },
+  { src: pkgBlueSilverMoon.url, alt: "Blue, white and silver balloon moon ring backdrop with Happy Birthday neon" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
