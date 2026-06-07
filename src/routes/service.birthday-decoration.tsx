@@ -18,6 +18,16 @@ import birthdayGalleryPinkMehakThree from "@/assets/birthday-gallery-pink-mehak-
 import birthdayGalleryRoseGoldFive from "@/assets/birthday-gallery-rosegold-5.png.asset.json";
 import birthdayGalleryPurpleFifteen from "@/assets/birthday-gallery-purple-15.png.asset.json";
 import birthdayGalleryNavyTwelve from "@/assets/birthday-gallery-navy-12.png.asset.json";
+import pkgLethanPastel from "@/assets/birthday-pkg-lethan-pastel.jpg.asset.json";
+import pkgJungleParv from "@/assets/birthday-pkg-jungle-parv.webp.asset.json";
+import pkg7thMahitha from "@/assets/birthday-pkg-7th-mahitha.webp.asset.json";
+import pkg50thGold from "@/assets/birthday-pkg-50th-gold.webp.asset.json";
+import pkg75thDaddy from "@/assets/birthday-pkg-75th-daddy.jpg.asset.json";
+import pkg27thSahiba from "@/assets/birthday-pkg-27th-sahiba.png.asset.json";
+import pkgCandlePalm from "@/assets/birthday-pkg-candle-palm.png.asset.json";
+import pkgRingGoldWhite from "@/assets/birthday-pkg-ring-goldwhite.jpg.asset.json";
+import pkg40LookGood from "@/assets/birthday-pkg-40-look-good.jpg.asset.json";
+import pkg40GoldBlack from "@/assets/birthday-pkg-40-goldblack.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -30,6 +40,16 @@ const birthdayGalleryImages = [
   { src: birthdayGalleryRoseGoldFive.url, alt: "Rose gold fifth birthday home decoration setup" },
   { src: birthdayGalleryPurpleFifteen.url, alt: "Purple birthday decoration with foil name balloons and number setup" },
   { src: birthdayGalleryNavyTwelve.url, alt: "Navy blue and gold twelfth birthday decoration setup" },
+  { src: pkgLethanPastel.url, alt: "Pastel balloon ring backdrop with LETHAN marquee letters and Happy Birthday neon sign" },
+  { src: pkgJungleParv.url, alt: "Jungle theme first birthday balloon arch with animal foil balloons" },
+  { src: pkg7thMahitha.url, alt: "Seventh birthday backdrop with mustard, ivory and silver chrome balloons" },
+  { src: pkg50thGold.url, alt: "50th birthday gold and white balloon arch with foil 50 number balloons" },
+  { src: pkg75thDaddy.url, alt: "75th birthday outdoor backdrop with gold, silver and ivory balloon garland" },
+  { src: pkg27thSahiba.url, alt: "Beige arch backdrop with gold balloon garland and marquee 27 letters" },
+  { src: pkgCandlePalm.url, alt: "Romantic candle and palm leaf birthday setup with fairy light curtain" },
+  { src: pkgRingGoldWhite.url, alt: "White and gold ring balloon arch with Happy Birthday neon sign" },
+  { src: pkg40LookGood.url, alt: "Damn I Make 40 Look Good pink arch backdrop with pastel balloon garland" },
+  { src: pkg40GoldBlack.url, alt: "40th birthday gold, black and silver balloon arch with Happy Birthday neon" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -123,7 +143,138 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-pastel-ring-marquee"
+            name="Pastel Ring Backdrop with Marquee Name"
+            description="Soft pastel balloon ring backdrop in blue, blush, beige and brown with pink rose accents, palm leaves, a 'Happy Birthday' neon sign, shimmer curtain and personalised LED marquee name letters — recreated from the reference photo."
+            image={pkgLethanPastel.url}
+            includes={["Pastel ring balloon garland with rose & palm accents", "Shimmer curtain + Happy Birthday neon sign", "Personalised LED marquee name letters"]}
+            rating={4.9}
+            reviews={412}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-jungle-theme"
+            name="Jungle Theme First Birthday"
+            description="A vibrant jungle theme balloon arch with chrome gold, mint, peach and olive balloons, animal foil balloons (lion, tiger, giraffe, monkey, zebra), tropical leaves, a personalised banner and a gold foil number column — perfect for a first birthday."
+            image={pkgJungleParv.url}
+            includes={["Jungle balloon arch with animal foil balloons", "Personalised name banner backdrop", "Gold foil number column with cylinder pedestal"]}
+            rating={4.9}
+            reviews={528}
+            offer={<>₹3,999</>}
+            original={<>₹6,999</>}
+            discountPct={43}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-7th-mustard-silver"
+            name="7th Birthday Mustard & Silver Setup"
+            description="An elegant 7th birthday setup with a striped arch backdrop, mustard, ivory, orange and silver chrome balloon garland, golden palm spear fans, pampas floral accents, clear bobo balloons and a glowing marquee '7' on cylinder pedestals."
+            image={pkg7thMahitha.url}
+            includes={["Striped arch + mustard/silver balloon garland", "Golden palm fans & pampas floral cluster", "Marquee number 7 with twin cylinder pedestals"]}
+            rating={4.800000000000001}
+            reviews={367}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
+            discountPct={36}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-50th-gold-white"
+            name="50th Birthday Gold & White Arch"
+            description="A grand 50th birthday backdrop with a chrome gold, white and clear confetti balloon arch on a black panel with gold 'Happy Birthday' lettering, giant gold foil '50' number balloons on balloon plinths, and matching balloon columns with star toppers."
+            image={pkg50thGold.url}
+            includes={["Chrome gold + white balloon arch on black panel", "Giant gold foil 50 number balloons", "Matching balloon columns with star toppers"]}
+            rating={4.9}
+            reviews={289}
+            offer={<>₹4,499</>}
+            original={<>₹7,999</>}
+            discountPct={44}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-75th-daddy"
+            name="75th Birthday Outdoor Celebration"
+            description="A heartfelt 75th birthday outdoor setup with a custom 'Happy 75th Birthday Daddy!' banner, lush gold, silver and ivory balloon garland framing the backdrop, gold star foil balloons, fresh floral vases and warm fairy lights overhead."
+            image={pkg75thDaddy.url}
+            includes={["Custom Happy 75th Birthday banner", "Gold, silver & ivory balloon garland frame", "Star foil balloons + fairy lights & floral vases"]}
+            rating={5}
+            reviews={194}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-27th-sahiba-arch"
+            name="Personalised Beige Arch with Marquee Age"
+            description="A chic beige arch panel with personalised 'Happy Birthday' calligraphy, a luxe chrome gold, ivory and white balloon garland with pampas grass, a gold metallic pedestal stand with cascading balloons and giant LED marquee age numbers."
+            image={pkg27thSahiba.url}
+            includes={["Personalised beige arch + chrome gold garland", "Pampas grass + gold metallic pedestal", "Giant LED marquee age numbers"]}
+            rating={4.9}
+            reviews={341}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
+            discountPct={36}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-candle-palm-romantic"
+            name="Romantic Candle & Palm Leaf Setup"
+            description="A romantic birthday setup with a warm fairy light curtain backdrop, dried palm spear fans, draped white chiffon, blush & ivory floral cluster and a row of glowing LED pillar candles with rose-filled vases — ideal for an intimate balcony or rooftop birthday."
+            image={pkgCandlePalm.url}
+            includes={["Fairy light curtain + draped chiffon backdrop", "Dried palm spear fans + blush floral cluster", "LED pillar candles & rose-filled glass vases"]}
+            rating={4.9}
+            reviews={258}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-ring-gold-white"
+            name="Classic Gold & White Ring Backdrop"
+            description="A classic round ring backdrop with chrome gold, white and grey pastel balloon garland, a 'Happy Birthday' neon sign in the centre, a silver star foil accent and scattered floor balloons — perfect for an in-home birthday surprise."
+            image={pkgRingGoldWhite.url}
+            includes={["Round ring frame with gold & white balloon garland", "Happy Birthday neon sign + silver star foil", "Scattered floor balloons accent"]}
+            rating={4.800000000000001}
+            reviews={476}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-40-look-good"
+            name="Damn I Make 40 Look Good Setup"
+            description="A statement 40th birthday outdoor setup with a pink arch panel printed 'Damn I Make 40 Look Good', a luxe ivory, sage and beige balloon garland with golden palm fans, pampas grass floral cluster and blush cylinder pedestals on lawn turf."
+            image={pkg40LookGood.url}
+            includes={["Custom 40 Look Good printed arch panel", "Ivory, sage & beige luxe balloon garland", "Pampas floral cluster + blush cylinder pedestals"]}
+            rating={5}
+            reviews={163}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-40-gold-black-silver"
+            name="40th Birthday Gold, Black & Silver Arch"
+            description="A bold 40th birthday in-home setup with a chrome gold, black and silver balloon ring arch, confetti balloon accents, a 'Happy Birthday' neon sign, giant gold foil '40' number balloons on balloon columns and a gold pedestal stand for the cake."
+            image={pkg40GoldBlack.url}
+            includes={["Gold, black & silver ring balloon arch", "Happy Birthday neon sign + confetti balloons", "Gold foil 40 number balloons + cake pedestal"]}
+            rating={4.9}
+            reviews={387}
+            offer={<>₹2,999</>}
+            original={<>₹4,999</>}
+            discountPct={40}
+            bestSeller={false}
+          />
         </div>
+
       </section>
 
       <section className="bg-secondary/40 py-14">
