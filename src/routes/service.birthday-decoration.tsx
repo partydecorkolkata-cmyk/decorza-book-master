@@ -40,6 +40,16 @@ const birthdayGalleryImages = [
   { src: birthdayGalleryRoseGoldFive.url, alt: "Rose gold fifth birthday home decoration setup" },
   { src: birthdayGalleryPurpleFifteen.url, alt: "Purple birthday decoration with foil name balloons and number setup" },
   { src: birthdayGalleryNavyTwelve.url, alt: "Navy blue and gold twelfth birthday decoration setup" },
+  { src: pkgLethanPastel.url, alt: "Pastel balloon ring backdrop with LETHAN marquee letters and Happy Birthday neon sign" },
+  { src: pkgJungleParv.url, alt: "Jungle theme first birthday balloon arch with animal foil balloons" },
+  { src: pkg7thMahitha.url, alt: "Seventh birthday backdrop with mustard, ivory and silver chrome balloons" },
+  { src: pkg50thGold.url, alt: "50th birthday gold and white balloon arch with foil 50 number balloons" },
+  { src: pkg75thDaddy.url, alt: "75th birthday outdoor backdrop with gold, silver and ivory balloon garland" },
+  { src: pkg27thSahiba.url, alt: "Beige arch backdrop with gold balloon garland and marquee 27 letters" },
+  { src: pkgCandlePalm.url, alt: "Romantic candle and palm leaf birthday setup with fairy light curtain" },
+  { src: pkgRingGoldWhite.url, alt: "White and gold ring balloon arch with Happy Birthday neon sign" },
+  { src: pkg40LookGood.url, alt: "Damn I Make 40 Look Good pink arch backdrop with pastel balloon garland" },
+  { src: pkg40GoldBlack.url, alt: "40th birthday gold, black and silver balloon arch with Happy Birthday neon" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
