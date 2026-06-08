@@ -48,6 +48,16 @@ import pkg18thPastelRoseGold from "@/assets/bday-18th-pastel-rosegold.jpg.asset.
 import pkg22ndWifeGold from "@/assets/bday-22nd-wife-gold.jpg.asset.json";
 import pkgZianSpace from "@/assets/bday-zian-space.jpg.asset.json";
 import pkgFrozenFaizaZara from "@/assets/bday-frozen-faiza-zara.jpg.asset.json";
+import pkgBeige23Rooftop from "@/assets/bday-beige-23-rooftop.jpeg.asset.json";
+import pkgSilverSequinDisco from "@/assets/bday-silver-sequin-disco.jpg.asset.json";
+import pkg32ndAnuja from "@/assets/bday-32nd-anuja-yellow-silver.jpg.asset.json";
+import pkgGoldSequinBW from "@/assets/bday-gold-sequin-black-white.jpg.asset.json";
+import pkgNyeSilverCheers from "@/assets/bday-nye-silver-cheers.jpg.asset.json";
+import pkg30thGoldSequin from "@/assets/bday-30th-gold-sequin-marquee.jpg.asset.json";
+import pkg1stCocomelonJerry from "@/assets/bday-1st-cocomelon-jerry.jpg.asset.json";
+import pkg24thPinkFloating from "@/assets/bday-24th-pink-floating.jpg.asset.json";
+import pkg27thGoldSequinBW from "@/assets/bday-27th-gold-sequin-bw.jpg.asset.json";
+import pkg37thBlackGold from "@/assets/bday-37th-black-gold-pampas.webp.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -90,6 +100,16 @@ const birthdayGalleryImages = [
   { src: pkg22ndWifeGold.url, alt: "22nd birthday white and gold balloon ring backdrop with marquee 22 numbers and florals" },
   { src: pkgZianSpace.url, alt: "Zian's space and astronaut theme 5th birthday twin arch backdrop with planet props" },
   { src: pkgFrozenFaizaZara.url, alt: "Frozen Elsa and Anna theme birthday decoration for Faiza and Zara with pastel balloons" },
+  { src: pkgBeige23Rooftop.url, alt: "Rooftop 23rd birthday beige arch with peach and brown balloon garland and marquee 23" },
+  { src: pkgSilverSequinDisco.url, alt: "Silver sequin shimmer wall with white and chrome balloon arch and disco ball" },
+  { src: pkg32ndAnuja.url, alt: "32nd birthday silver and yellow balloon ring backdrop with floral top and personalised name" },
+  { src: pkgGoldSequinBW.url, alt: "Outdoor gold sequin wall with black, white and gold balloon garland and Happy Birthday neon" },
+  { src: pkgNyeSilverCheers.url, alt: "New Year Cheers silver and black chrome balloon arch with champagne foil and neon" },
+  { src: pkg30thGoldSequin.url, alt: "30th birthday gold sequin wall with white and gold balloon arch and marquee 30 numbers" },
+  { src: pkg1stCocomelonJerry.url, alt: "1st birthday CoComelon and Tom & Jerry pastel arch with gold sequin centre panel" },
+  { src: pkg24thPinkFloating.url, alt: "24th birthday pink sequin wall with chrome balloon arch and floating helium balloons" },
+  { src: pkg27thGoldSequinBW.url, alt: "27th birthday gold sequin wall with black, white and gold balloon arch and foil 27" },
+  { src: pkg37thBlackGold.url, alt: "37th birthday black, gold and white balloon arch with pampas grass and marquee 37" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
