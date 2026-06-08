@@ -48,6 +48,16 @@ import pkg18thPastelRoseGold from "@/assets/bday-18th-pastel-rosegold.jpg.asset.
 import pkg22ndWifeGold from "@/assets/bday-22nd-wife-gold.jpg.asset.json";
 import pkgZianSpace from "@/assets/bday-zian-space.jpg.asset.json";
 import pkgFrozenFaizaZara from "@/assets/bday-frozen-faiza-zara.jpg.asset.json";
+import pkgBeige23Rooftop from "@/assets/bday-beige-23-rooftop.jpeg.asset.json";
+import pkgSilverSequinDisco from "@/assets/bday-silver-sequin-disco.jpg.asset.json";
+import pkg32ndAnuja from "@/assets/bday-32nd-anuja-yellow-silver.jpg.asset.json";
+import pkgGoldSequinBW from "@/assets/bday-gold-sequin-black-white.jpg.asset.json";
+import pkgNyeSilverCheers from "@/assets/bday-nye-silver-cheers.jpg.asset.json";
+import pkg30thGoldSequin from "@/assets/bday-30th-gold-sequin-marquee.jpg.asset.json";
+import pkg1stCocomelonJerry from "@/assets/bday-1st-cocomelon-jerry.jpg.asset.json";
+import pkg24thPinkFloating from "@/assets/bday-24th-pink-floating.jpg.asset.json";
+import pkg27thGoldSequinBW from "@/assets/bday-27th-gold-sequin-bw.jpg.asset.json";
+import pkg37thBlackGold from "@/assets/bday-37th-black-gold-pampas.webp.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -90,6 +100,16 @@ const birthdayGalleryImages = [
   { src: pkg22ndWifeGold.url, alt: "22nd birthday white and gold balloon ring backdrop with marquee 22 numbers and florals" },
   { src: pkgZianSpace.url, alt: "Zian's space and astronaut theme 5th birthday twin arch backdrop with planet props" },
   { src: pkgFrozenFaizaZara.url, alt: "Frozen Elsa and Anna theme birthday decoration for Faiza and Zara with pastel balloons" },
+  { src: pkgBeige23Rooftop.url, alt: "Rooftop 23rd birthday beige arch with peach and brown balloon garland and marquee 23" },
+  { src: pkgSilverSequinDisco.url, alt: "Silver sequin shimmer wall with white and chrome balloon arch and disco ball" },
+  { src: pkg32ndAnuja.url, alt: "32nd birthday silver and yellow balloon ring backdrop with floral top and personalised name" },
+  { src: pkgGoldSequinBW.url, alt: "Outdoor gold sequin wall with black, white and gold balloon garland and Happy Birthday neon" },
+  { src: pkgNyeSilverCheers.url, alt: "New Year Cheers silver and black chrome balloon arch with champagne foil and neon" },
+  { src: pkg30thGoldSequin.url, alt: "30th birthday gold sequin wall with white and gold balloon arch and marquee 30 numbers" },
+  { src: pkg1stCocomelonJerry.url, alt: "1st birthday CoComelon and Tom & Jerry pastel arch with gold sequin centre panel" },
+  { src: pkg24thPinkFloating.url, alt: "24th birthday pink sequin wall with chrome balloon arch and floating helium balloons" },
+  { src: pkg27thGoldSequinBW.url, alt: "27th birthday gold sequin wall with black, white and gold balloon arch and foil 27" },
+  { src: pkg37thBlackGold.url, alt: "37th birthday black, gold and white balloon arch with pampas grass and marquee 37" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -573,7 +593,138 @@ function ServicePage() {
             discountPct={44}
             bestSeller={true}
           />
+          <StaticPackageCard
+            id="birthday-decoration-beige-23-rooftop"
+            name="Rooftop 23rd Birthday Beige & Peach"
+            description="A warm rooftop 23rd birthday surprise with a beige arch backdrop, organic peach, ivory and rose gold balloon garland, a 'Happy Birthday' yellow neon sign, a draped cocktail table and a glowing marquee '23' light-up number."
+            image={pkgBeige23Rooftop.url}
+            includes={["Beige arch backdrop + Happy Birthday neon sign", "Peach, ivory & rose gold organic balloon garland", "Draped cocktail table + marquee '23' light-up numbers"]}
+            rating={4.8}
+            reviews={156}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-silver-sequin-disco"
+            name="Silver Sequin Shimmer Wall Birthday"
+            description="A glamorous silver sequin shimmer wall backdrop with a 'Happy Birthday' rose gold neon sign, a chrome silver and white organic balloon garland, hanging disco balls and a silver starburst foil — perfect for a sparkly indoor celebration."
+            image={pkgSilverSequinDisco.url}
+            includes={["8x8 silver sequin shimmer wall + Happy Birthday neon", "Chrome silver, white & pearl balloon garland", "Hanging disco balls + silver starburst foil props"]}
+            rating={4.9}
+            reviews={212}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-32nd-anuja"
+            name="32nd Birthday Silver & Yellow Ring"
+            description="An elegant 32nd birthday home setup with a circular ring backdrop, a personalised 'Happy 32nd Birthday' name plaque, a silver chrome and pastel yellow balloon garland, a fresh white floral top accent and a draped cake table."
+            image={pkg32ndAnuja.url}
+            includes={["Round ring backdrop + personalised name plaque", "Silver chrome & pastel yellow balloon garland", "Fresh white floral accent + draped cake table"]}
+            rating={4.8}
+            reviews={143}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-gold-sequin-bw"
+            name="Outdoor Gold Sequin Black & White Birthday"
+            description="A premium outdoor gold sequin shimmer wall backdrop with a 'Happy Birthday' white neon sign, a dramatic black, white and gold chrome balloon garland, foil orbz balloons, warm fairy light layer and a draped cake table on grass."
+            image={pkgGoldSequinBW.url}
+            includes={["Gold sequin shimmer wall + Happy Birthday neon", "Black, white & gold balloon garland with foil orbz", "Warm fairy lights + draped cake table setup"]}
+            rating={4.9}
+            reviews={278}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-nye-silver-cheers"
+            name="New Year Cheers Silver & Black Birthday"
+            description="A bold silver and black chrome balloon arch backdrop with a 'Happy Birthday' neon sign, a giant champagne 'POP Cheers' foil balloon, organic balloon clusters and a black cake pedestal — styled for a New-Year-meets-birthday celebration."
+            image={pkgNyeSilverCheers.url}
+            includes={["Silver & black chrome balloon arch + neon", "Giant champagne POP Cheers foil balloon", "Organic balloon clusters + black cake pedestal"]}
+            rating={4.7}
+            reviews={134}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-30th-gold-sequin"
+            name="30th Birthday Gold Sequin & Marquee"
+            description="A glamorous 30th birthday gold sequin shimmer wall with a 'Happy Birthday' white neon sign, a white and gold chrome organic balloon arch, a pampas and white rose floral accent, a draped cake table and giant marquee '30' light-up numbers."
+            image={pkg30thGoldSequin.url}
+            includes={["Gold sequin wall + Happy Birthday neon sign", "White & gold chrome organic balloon arch", "Pampas floral accent + marquee '30' numbers"]}
+            rating={4.9}
+            reviews={246}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-1st-cocomelon-jerry"
+            name="1st Birthday CoComelon & Tom-Jerry"
+            description="A vibrant 1st birthday decor featuring a gold sequin centre panel with a glowing '1 Happy Birthday' neon sign, a sunshine prop on top, life-size CoComelon family and Tom & Jerry cutouts and a pastel blue, lilac, mint and gold balloon arch."
+            image={pkg1stCocomelonJerry.url}
+            includes={["Gold sequin panel + '1 Happy Birthday' neon", "CoComelon family + Tom & Jerry cutouts", "Pastel & gold balloon arch with sunshine prop"]}
+            rating={4.9}
+            reviews={289}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-24th-pink-floating"
+            name="24th Birthday Pink Sequin & Floating Balloons"
+            description="A dreamy 24th birthday surprise with a pink and gold sequin wall, a 'Happy Birthday' yellow neon sign, a hot pink, blush and silver chrome balloon arch, hanging helium balloons from the ceiling, a velvet cake table with candles and giant silver '24' foil numbers."
+            image={pkg24thPinkFloating.url}
+            includes={["Pink & gold sequin wall + Happy Birthday neon", "Pink, blush & silver chrome balloon arch", "Ceiling helium balloons + silver '24' foil numbers"]}
+            rating={4.9}
+            reviews={221}
+            offer={<>₹6,799</>}
+            original={<>₹9,999</>}
+            discountPct={32}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-27th-gold-sequin-bw"
+            name="27th Birthday Gold Sequin Black & Gold"
+            description="A premium 27th birthday gold sequin shimmer wall with a 'Happy Birthday' white neon sign, a black, white and gold chrome organic balloon garland, gold foil starburst and orbz props, a draped cake table and giant gold '27' foil number balloons."
+            image={pkg27thGoldSequinBW.url}
+            includes={["Gold sequin wall + Happy Birthday neon sign", "Black, white & gold chrome balloon garland", "Gold starburst props + '27' foil number balloons"]}
+            rating={4.9}
+            reviews={198}
+            offer={<>₹6,799</>}
+            original={<>₹9,999</>}
+            discountPct={32}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-37th-black-gold"
+            name="37th Birthday Black, Gold & Pampas"
+            description="An elegant 37th birthday indoor decor with an ivory backdrop, a 'Happy Birthday' white neon sign, a dramatic black, gold chrome and white balloon arch, pampas grass and dried palm leaf accents, a wooden cake stool and a glowing marquee '37' light-up number."
+            image={pkg37thBlackGold.url}
+            includes={["Ivory backdrop + Happy Birthday neon sign", "Black, gold & white organic balloon arch", "Pampas accents + wooden cake stool & marquee '37'"]}
+            rating={4.9}
+            reviews={167}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={false}
+          />
         </div>
+
 
 
       </section>
