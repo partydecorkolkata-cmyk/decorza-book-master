@@ -80,6 +80,16 @@ const birthdayGalleryImages = [
   { src: pkgGoldSequinPink.url, alt: "Gold sequin shimmer wall with pink and gold balloon arch and Happy Birthday neon" },
   { src: pkgCarsVedaansh.url, alt: "Cars Lightning McQueen theme sixth birthday arch backdrop with checkered balloons" },
   { src: pkgBlueSilverMoon.url, alt: "Blue, white and silver balloon moon ring backdrop with Happy Birthday neon" },
+  { src: pkgCocomelonAarna.url, alt: "CoComelon theme 4th birthday rainbow balloon arch with JJ and watermelon cutouts" },
+  { src: pkg50thPinkGold.url, alt: "50th birthday elegant pink, white and gold balloon arch with marquee 50 numbers" },
+  { src: pkg26thBowBlack.url, alt: "26th birthday black and pink balloon ring backdrop with giant satin bow and marquee 26" },
+  { src: pkgHanvikaButterfly.url, alt: "Hanvika's 1st birthday pink and lilac butterfly balloon arch with floral backdrop" },
+  { src: pkgMishantCocomelonBlue.url, alt: "Mishant 1st birthday CoComelon blue and beige cloud theme balloon backdrop" },
+  { src: pkgBlueChromeButterfly.url, alt: "Royal blue chrome and white 1st birthday balloon ring with butterflies and marquee 1" },
+  { src: pkg18thPastelRoseGold.url, alt: "18th birthday pastel blue, white and rose gold balloon arch with neon and foil 18" },
+  { src: pkg22ndWifeGold.url, alt: "22nd birthday white and gold balloon ring backdrop with marquee 22 numbers and florals" },
+  { src: pkgZianSpace.url, alt: "Zian's space and astronaut theme 5th birthday twin arch backdrop with planet props" },
+  { src: pkgFrozenFaizaZara.url, alt: "Frozen Elsa and Anna theme birthday decoration for Faiza and Zara with pastel balloons" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
