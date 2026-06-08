@@ -38,6 +38,16 @@ import pkgBedroomPurple from "@/assets/bday-bedroom-purple.jpg.asset.json";
 import pkgGoldSequinPink from "@/assets/bday-gold-sequin-pink.jpg.asset.json";
 import pkgCarsVedaansh from "@/assets/bday-cars-vedaansh.jpg.asset.json";
 import pkgBlueSilverMoon from "@/assets/bday-blue-silver-moon.jpg.asset.json";
+import pkgCocomelonAarna from "@/assets/bday-cocomelon-aarna.jpg.asset.json";
+import pkg50thPinkGold from "@/assets/bday-50th-pink-gold.jpg.asset.json";
+import pkg26thBowBlack from "@/assets/bday-26th-bow-black.jpg.asset.json";
+import pkgHanvikaButterfly from "@/assets/bday-hanvika-butterfly.jpg.asset.json";
+import pkgMishantCocomelonBlue from "@/assets/bday-mishant-cocomelon-blue.jpg.asset.json";
+import pkgBlueChromeButterfly from "@/assets/bday-blue-chrome-butterfly.jpg.asset.json";
+import pkg18thPastelRoseGold from "@/assets/bday-18th-pastel-rosegold.jpg.asset.json";
+import pkg22ndWifeGold from "@/assets/bday-22nd-wife-gold.jpg.asset.json";
+import pkgZianSpace from "@/assets/bday-zian-space.jpg.asset.json";
+import pkgFrozenFaizaZara from "@/assets/bday-frozen-faiza-zara.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -70,6 +80,16 @@ const birthdayGalleryImages = [
   { src: pkgGoldSequinPink.url, alt: "Gold sequin shimmer wall with pink and gold balloon arch and Happy Birthday neon" },
   { src: pkgCarsVedaansh.url, alt: "Cars Lightning McQueen theme sixth birthday arch backdrop with checkered balloons" },
   { src: pkgBlueSilverMoon.url, alt: "Blue, white and silver balloon moon ring backdrop with Happy Birthday neon" },
+  { src: pkgCocomelonAarna.url, alt: "CoComelon theme 4th birthday rainbow balloon arch with JJ and watermelon cutouts" },
+  { src: pkg50thPinkGold.url, alt: "50th birthday elegant pink, white and gold balloon arch with marquee 50 numbers" },
+  { src: pkg26thBowBlack.url, alt: "26th birthday black and pink balloon ring backdrop with giant satin bow and marquee 26" },
+  { src: pkgHanvikaButterfly.url, alt: "Hanvika's 1st birthday pink and lilac butterfly balloon arch with floral backdrop" },
+  { src: pkgMishantCocomelonBlue.url, alt: "Mishant 1st birthday CoComelon blue and beige cloud theme balloon backdrop" },
+  { src: pkgBlueChromeButterfly.url, alt: "Royal blue chrome and white 1st birthday balloon ring with butterflies and marquee 1" },
+  { src: pkg18thPastelRoseGold.url, alt: "18th birthday pastel blue, white and rose gold balloon arch with neon and foil 18" },
+  { src: pkg22ndWifeGold.url, alt: "22nd birthday white and gold balloon ring backdrop with marquee 22 numbers and florals" },
+  { src: pkgZianSpace.url, alt: "Zian's space and astronaut theme 5th birthday twin arch backdrop with planet props" },
+  { src: pkgFrozenFaizaZara.url, alt: "Frozen Elsa and Anna theme birthday decoration for Faiza and Zara with pastel balloons" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -423,7 +443,138 @@ function ServicePage() {
             discountPct={30}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-cocomelon-aarna"
+            name="CoComelon Rainbow Theme Birthday"
+            description="A vibrant CoComelon-themed birthday arch with a multicolour rainbow balloon garland, JJ baby cutouts, watermelon and ladybug props, a star foil balloon and a personalised 'Name is 4' rainbow backdrop with a glowing marquee number — perfect for toddler birthdays."
+            image={pkgCocomelonAarna.url}
+            includes={["Rainbow balloon arch + JJ & watermelon cutouts", "Personalised CoComelon name backdrop", "Marquee number + star foil balloon"]}
+            rating={4.9}
+            reviews={412}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-50th-pink-gold"
+            name="Elegant 50th Birthday Pink & Gold"
+            description="An elegant 50th birthday decor with a tall ivory arch backdrop, a 'Happy Birthday' calligraphy print, a lush pink, white and chrome gold balloon garland, dried palm fans, fresh florals and giant light-up marquee '50' numbers — designed for banquet celebrations."
+            image={pkg50thPinkGold.url}
+            includes={["Ivory arch + Happy Birthday calligraphy", "Pink, white & gold balloon garland with palm fans", "Marquee '50' light-up numbers"]}
+            rating={4.9}
+            reviews={287}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-26th-bow-black"
+            name="26th Birthday Black & Pink Bow Decor"
+            description="A trendy outdoor 26th birthday setup with a silver pleated arch backdrop, dramatic black and pink balloon garland, a giant pink satin bow, a 'Happy Birthday' neon sign and a glowing marquee '26' on grass — perfect for farmhouse and lawn celebrations."
+            image={pkg26thBowBlack.url}
+            includes={["Silver arch + giant pink satin bow", "Black & pink balloon garland with mini bow accents", "Happy Birthday neon + marquee '26' numbers"]}
+            rating={4.9}
+            reviews={198}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-hanvika-butterfly"
+            name="Butterfly Garden 1st Birthday Arch"
+            description="A whimsical first birthday decor with a pink, lilac and clear balloon arch covered in butterfly cutouts, cherry-blossom branches, a personalised 'Hanvika's 1st Birthday' floral backdrop, butterfly cut-out side props, blush pedestals and a marquee '1'."
+            image={pkgHanvikaButterfly.url}
+            includes={["Pink, lilac & clear butterfly balloon arch", "Personalised floral name backdrop + cherry blossoms", "Butterfly side props + marquee '1' + 3 pedestals"]}
+            rating={4.9}
+            reviews={264}
+            offer={<>₹8,499</>}
+            original={<>₹11,999</>}
+            discountPct={29}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-mishant-cocomelon"
+            name="CoComelon Cloud Theme 1st Birthday"
+            description="A premium CoComelon cloud-theme first birthday with a 'Name is in a Melon 1' arched backdrop, blue, ivory and sand balloon garland, JJ baby standee, rainbow side prop, cloud cutouts, bunting flags and clear bobo balloons — a complete in-melon nursery setup."
+            image={pkgMishantCocomelonBlue.url}
+            includes={["Personalised CoComelon arched backdrop", "Blue, ivory & sand balloon garland + bobo balloons", "JJ standee + cloud cutouts + rainbow side prop"]}
+            rating={4.9}
+            reviews={321}
+            offer={<>₹8,999</>}
+            original={<>₹12,999</>}
+            discountPct={31}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-blue-chrome-butterfly"
+            name="Royal Blue Chrome Butterfly 1st"
+            description="A first birthday balloon ring backdrop with royal blue chrome and pearl white balloons, silver and rose gold butterfly cutouts, a 'Happy Birthday' warm neon sign and a glowing marquee '1' — ideal for restaurant and cafe birthday celebrations."
+            image={pkgBlueChromeButterfly.url}
+            includes={["Royal blue chrome & white balloon ring arch", "Silver & rose gold butterfly cutouts", "Happy Birthday neon + marquee '1'"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-18th-pastel-rosegold"
+            name="18th Birthday Pastel & Rose Gold"
+            description="An 18th birthday setup with a pastel blue, white and rose gold chrome balloon ring backdrop, fresh palm fronds, a 'Happy Birthday' warm neon, a celebrate champagne foil, a balloon-filled floor and silver foil '18' number balloons."
+            image={pkg18thPastelRoseGold.url}
+            includes={["Pastel blue, white & rose gold balloon ring", "Happy Birthday neon + palm fronds", "Champagne foil + silver foil '18' numbers + floor balloons"]}
+            rating={4.8}
+            reviews={213}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-22nd-wife-gold"
+            name="22nd Birthday Gold & White Ring"
+            description="A romantic outdoor 22nd birthday surprise with a gold and white balloon ring backdrop, fresh pink and yellow rose accents, a 'Happy Birthday' warm neon sign, a personalised 'Wife' neon side prop, a gold balloon pillar and giant marquee '22' light-up numbers."
+            image={pkg22ndWifeGold.url}
+            includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon + 'Wife' neon side prop", "Gold balloon pillar + marquee '22' numbers"]}
+            rating={4.9}
+            reviews={189}
+            offer={<>₹3,499</>}
+            original={<>₹5,999</>}
+            discountPct={42}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-zian-space"
+            name="Astronaut & Space Theme 5th Birthday"
+            description="An out-of-this-world space and astronaut theme 5th birthday with a twin arch backdrop ('Name' galaxy panel + starry 'Happy Birthday' panel), navy, orange, silver and ivory balloon garland, astronaut and planet cutouts, rocket pedestals and a marquee number '5' with a personalised name strip."
+            image={pkgZianSpace.url}
+            includes={["Twin galaxy & starry arched backdrop with name", "Navy, orange, silver & ivory balloon garland", "Astronaut + planet cutouts, rocket pedestals & marquee '5'"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹8,499</>}
+            original={<>₹9,999</>}
+            discountPct={15}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-frozen-faiza-zara"
+            name="Frozen Elsa Theme Twin Birthday"
+            description="A Frozen-themed twin birthday decor with an Elsa printed round backdrop, a 'Happy Birthday' calligraphy, a pastel blue, lilac, white and chrome balloon arch, life-size Elsa and Anna cutouts, an Olaf-print pedestal and personalised light-up name letters for the birthday twins."
+            image={pkgFrozenFaizaZara.url}
+            includes={["Elsa printed round backdrop + balloon arch", "Life-size Elsa & Anna cutouts + Olaf pedestal", "Pastel balloon pillars + personalised marquee name letters"]}
+            rating={4.9}
+            reviews={304}
+            offer={<>₹4,999</>}
+            original={<>₹8,999</>}
+            discountPct={44}
+            bestSeller={true}
+          />
         </div>
+
 
       </section>
 
