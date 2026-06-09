@@ -58,6 +58,16 @@ import pkg1stCocomelonJerry from "@/assets/bday-1st-cocomelon-jerry.jpg.asset.js
 import pkg24thPinkFloating from "@/assets/bday-24th-pink-floating.jpg.asset.json";
 import pkg27thGoldSequinBW from "@/assets/bday-27th-gold-sequin-bw.jpg.asset.json";
 import pkg37thBlackGold from "@/assets/bday-37th-black-gold-pampas.webp.asset.json";
+import pkgNewPinkRosegold43 from "@/assets/bday-new-pink-rosegold-43.jpeg.asset.json";
+import pkgNewBlackSilverArch from "@/assets/bday-new-black-silver-arch.jpg.asset.json";
+import pkgNewDikshaGoldPampas from "@/assets/bday-new-diksha-gold-pampas.webp.asset.json";
+import pkgNewCocomelonRainbow1st from "@/assets/bday-new-cocomelon-rainbow-1st.jpg.asset.json";
+import pkgNewAgastyaCocomelonBus from "@/assets/bday-new-agastya-cocomelon-bus.jpg.asset.json";
+import pkgNewOmanshCars8th from "@/assets/bday-new-omansh-cars-8th.jpg.asset.json";
+import pkgNewEdhaBerryFirst from "@/assets/bday-new-edha-berry-first.jpg.asset.json";
+import pkgNewAahsviButterfly2nd from "@/assets/bday-new-aahsvi-butterfly-2nd.jpg.asset.json";
+import pkgNewNyeCheersBlackSilver from "@/assets/bday-new-nye-cheers-black-silver.jpg.asset.json";
+import pkgNew60thPinkGold from "@/assets/bday-new-60th-pink-gold.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -110,6 +120,16 @@ const birthdayGalleryImages = [
   { src: pkg24thPinkFloating.url, alt: "24th birthday pink sequin wall with chrome balloon arch and floating helium balloons" },
   { src: pkg27thGoldSequinBW.url, alt: "27th birthday gold sequin wall with black, white and gold balloon arch and foil 27" },
   { src: pkg37thBlackGold.url, alt: "37th birthday black, gold and white balloon arch with pampas grass and marquee 37" },
+  { src: pkgNewPinkRosegold43.url, alt: "43rd birthday pastel pink and rose gold balloon ring with Happy Birthday neon and foil 43" },
+  { src: pkgNewBlackSilverArch.url, alt: "Luxury black and silver chrome balloon arch with disco balls, starburst foils and white bows" },
+  { src: pkgNewDikshaGoldPampas.url, alt: "Outdoor ivory arch with gold, black and white balloon garland and pampas grass for Diksha" },
+  { src: pkgNewCocomelonRainbow1st.url, alt: "CoComelon rainbow 1st birthday pastel balloon arch with JJ cutouts and marquee 1" },
+  { src: pkgNewAgastyaCocomelonBus.url, alt: "Agastya turns 3 CoComelon bus theme balloon column with blue, yellow and orange balloons" },
+  { src: pkgNewOmanshCars8th.url, alt: "Omansh 8th birthday Cars Lightning McQueen sequin wall with red, blue and black balloon arch" },
+  { src: pkgNewEdhaBerryFirst.url, alt: "Edha's Berry First 1st birthday strawberry theme pink and red balloon arch with marquee 1" },
+  { src: pkgNewAahsviButterfly2nd.url, alt: "Aahsvi 2nd birthday purple and gold butterfly theme balloon arch with marquee 2" },
+  { src: pkgNewNyeCheersBlackSilver.url, alt: "New Year Cheers black and silver chrome balloon ring with champagne foil and Happy Birthday neon" },
+  { src: pkgNew60thPinkGold.url, alt: "60th birthday pink and gold balloon ring with veil drape, Happy Birthday neon and marquee 60" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -721,6 +741,136 @@ function ServicePage() {
             offer={<>₹4,999</>}
             original={<>₹6,999</>}
             discountPct={29}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-pink-rosegold-43"
+            name="Pink & Rose Gold 43rd Birthday Ring"
+            description="A dreamy 43rd birthday surprise with a blush pink and rose gold chrome balloon ring backdrop, a glowing 'Happy Birthday' white neon sign, rose gold heart foil balloons, a clear acrylic cake pedestal and giant rose gold '43' foil number balloons cascading onto the floor."
+            image={pkgNewPinkRosegold43.url}
+            includes={["Pink & rose gold balloon ring backdrop", "Happy Birthday neon sign + heart foils", "Acrylic pedestal + rose gold '43' foil numbers"]}
+            rating={4.9}
+            reviews={184}
+            offer={<>₹3,199</>}
+            original={<>₹4,999</>}
+            discountPct={36}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-black-silver-arch"
+            name="Luxury Black & Silver Chrome Arch"
+            description="A classy black, silver and white chrome balloon arch on a black arch backdrop with a yellow 'Happy Birthday' neon sign, silver starburst foil props, mirror disco ball balloons and elegant white satin bow accents — perfect for a premium evening celebration."
+            image={pkgNewBlackSilverArch.url}
+            includes={["Black arch + Happy Birthday yellow neon", "Black, silver & white chrome balloon garland", "Disco ball balloons + starburst foils & satin bows"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-diksha-gold-pampas"
+            name="Outdoor Gold, Black & Pampas Birthday"
+            description="An elegant outdoor 'Happy Birthday Diksha' ivory printed arch backdrop with a gold, black and white organic balloon garland, dramatic pampas grass accents, gold balloon columns on either side and a centre cake table — ideal for garden and lawn birthdays."
+            image={pkgNewDikshaGoldPampas.url}
+            includes={["Ivory personalised arch backdrop", "Gold, black & white balloon garland + pampas", "Twin gold balloon columns + cake table"]}
+            rating={4.9}
+            reviews={156}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-cocomelon-rainbow-1st"
+            name="CoComelon Rainbow 1st Birthday"
+            description="A cheerful CoComelon rainbow themed 1st birthday backdrop with a printed JJ rainbow panel, pastel and silver chrome balloon arch, watermelon and JJ standee cutouts, a glowing 'Happy Birthday' neon and a giant marquee '1' light-up number."
+            image={pkgNewCocomelonRainbow1st.url}
+            includes={["CoComelon rainbow printed backdrop + standees", "Pastel & silver chrome balloon arch", "Happy Birthday neon + marquee '1' number"]}
+            rating={4.9}
+            reviews={267}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-agastya-cocomelon-bus"
+            name="CoComelon Bus 3rd Birthday — Agastya"
+            description="A personalised 'Agastya turns 3' CoComelon school bus theme decoration with a printed arch backdrop, a tall blue, yellow and orange balloon column with clear bobo accents, a school bus cutout, a red car prop and a glowing marquee '3' number."
+            image={pkgNewAgastyaCocomelonBus.url}
+            includes={["Personalised CoComelon bus arch backdrop", "Blue, yellow & orange balloon column + bobos", "Bus & car cutouts + marquee '3' light-up number"]}
+            rating={4.9}
+            reviews={148}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-omansh-cars-8th"
+            name="Cars Lightning McQueen 8th — Omansh"
+            description="A bold Cars Lightning McQueen theme 8th birthday for Omansh with a silver sequin shimmer wall, a 'Happy Birthday Omansh' yellow neon, a red, blue, black and silver balloon arch, McQueen foil and standee props and a glowing gold foil '8' number balloon."
+            image={pkgNewOmanshCars8th.url}
+            includes={["Silver sequin wall + personalised neon name", "Red, blue, black & silver balloon arch", "Lightning McQueen props + gold '8' foil number"]}
+            rating={4.9}
+            reviews={193}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-edha-berry-first"
+            name="Berry First Strawberry 1st — Edha"
+            description="A sweet 'Edha's Berry First Birthday' strawberry theme 1st birthday arch backdrop with red and blush pink balloon garland, strawberry foil balloons, green leafy vines, soft pink rose accents and a glowing marquee '1' light-up number."
+            image={pkgNewEdhaBerryFirst.url}
+            includes={["Personalised Berry First arch backdrop", "Red & pink balloon garland + strawberry foils", "Leafy vines + rose accents & marquee '1'"]}
+            rating={4.9}
+            reviews={176}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-aahsvi-butterfly-2nd"
+            name="Butterfly 2nd Birthday — Aahsvi"
+            description="A magical butterfly theme 2nd birthday for Aahsvi with a printed butterfly backdrop, a purple, lilac and gold chrome balloon garland, 3D butterfly cutouts on the walls, ceiling balloon clusters, a draped cake table and a glowing marquee '2' number with name letters."
+            image={pkgNewAahsviButterfly2nd.url}
+            includes={["Printed butterfly backdrop + 3D butterflies", "Purple, lilac & gold balloon garland", "Ceiling clusters + draped cake table & marquee '2'"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-nye-cheers-black-silver"
+            name="Cheers Black & Silver Birthday Ring"
+            description="A party-ready black and silver chrome balloon ring backdrop with a 'Happy Birthday' white neon sign, a giant 'Cheers' champagne bottle foil balloon, a black pedestal cake table and a cascade of chrome floor balloons — perfect for NYE birthdays and adult parties."
+            image={pkgNewNyeCheersBlackSilver.url}
+            includes={["Black & silver chrome balloon ring backdrop", "Happy Birthday neon + Cheers champagne foil", "Black pedestal table + cascading floor balloons"]}
+            rating={4.8}
+            reviews={132}
+            offer={<>₹2,999</>}
+            original={<>₹4,999</>}
+            discountPct={40}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-new-60th-pink-gold"
+            name="Elegant 60th Pink & Gold Birthday"
+            description="A grand 60th birthday setup with a balloon ring backdrop draped with a soft beige veil, a glowing 'Happy Birthday' white neon sign, a hot pink, blush and gold chrome organic balloon garland, scattered floor balloons and giant warm-white marquee '60' light-up numbers."
+            image={pkgNew60thPinkGold.url}
+            includes={["Balloon ring + veil drape backdrop", "Hot pink, blush & gold chrome garland", "Happy Birthday neon + marquee '60' numbers"]}
+            rating={4.9}
+            reviews={205}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
             bestSeller={false}
           />
         </div>
