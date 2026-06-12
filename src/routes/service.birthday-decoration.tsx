@@ -160,6 +160,16 @@ const birthdayGalleryImages = [
   { src: pkgB8Eighteenth.url, alt: "18th birthday purple, lilac, silver and white balloon arch with Happy Birthday foil text and giant foil 18" },
   { src: pkgB9Armaan8th.url, alt: "Armaan 8th birthday green, gold and white balloon frame with gold foil curtain and ARMAAN name balloons" },
   { src: pkgB10Twelfth.url, alt: "12th birthday navy blue, white and gold balloon arch with silver foil curtain, star foils and gold foil 12" },
+  { src: pkgC1NavyGoldArch.url, alt: "Luxury navy blue, gold and white balloon arch with gold Happy Birthday foil and ceiling balloon bouquets" },
+  { src: pkgC2Blue15th.url, alt: "15th birthday royal blue, sky blue and silver chrome balloon arch with silver foil curtain and giant blue foil 15" },
+  { src: pkgC3PurpleGold.url, alt: "Purple, lilac, gold and silver chrome balloon arch with silver foil curtain and gold Happy Birthday foil text" },
+  { src: pkgC4AnanyaPink8.url, alt: "Ananya 8th birthday pink, hot pink, white and silver chrome balloon frame with foil curtain and ANANYA 8 name balloons" },
+  { src: pkgC5RahulNavy25.url, alt: "Rahul 25th birthday navy blue, gold, silver and white balloon frame with silver foil curtain and RAHUL 25 name balloons" },
+  { src: pkgC6RoseGold21.url, alt: "21st birthday rose gold, pearl and gold chrome balloon arch with silver foil curtain and rose gold Happy Birthday 21 foil" },
+  { src: pkgC7OliveWhite1st.url, alt: "1st birthday olive, white and cream balloon arch with daisy balloon, gold foil curtain and sage Happy Birthday foil and gold 1" },
+  { src: pkgC8Blue1st.url, alt: "1st birthday royal blue, white and silver chrome balloon arch with silver foil curtain and blue Happy Birthday 1 foil" },
+  { src: pkgC9NavySageResto.url, alt: "Restaurant celebration navy, sage green and gold confetti balloon arch with Happy Birthday cursive banner and star foil column" },
+  { src: pkgC10PurplePinkResto.url, alt: "Restaurant celebration purple, pink and rose chrome balloon arch with confetti balloons and Happy Birthday cursive banner" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
