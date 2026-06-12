@@ -180,6 +180,16 @@ const birthdayGalleryImages = [
   { src: pkgC8Blue1st.url, alt: "1st birthday royal blue, white and silver chrome balloon arch with silver foil curtain and blue Happy Birthday 1 foil" },
   { src: pkgC9NavySageResto.url, alt: "Restaurant celebration navy, sage green and gold confetti balloon arch with Happy Birthday cursive banner and star foil column" },
   { src: pkgC10PurplePinkResto.url, alt: "Restaurant celebration purple, pink and rose chrome balloon arch with confetti balloons and Happy Birthday cursive banner" },
+  { src: pkgD1MermaidPurple.url, alt: "Little Mermaid Ariel theme birthday arch with purple, lilac and teal chrome balloons, pink star foils and shimmer curtain" },
+  { src: pkgD2UnicornMaheen.url, alt: "Unicorn rainbow pastel birthday for Maheen with gold Happy Birthday foil text, rainbow balloon arch and unicorn foils" },
+  { src: pkgD3MusicNotesGold.url, alt: "Musical notes theme birthday arch with white, gold and silver balloons, neon Happy Birthday sign and fairy-light curtain" },
+  { src: pkgD4PinkGoldButterfly.url, alt: "Pink, lilac and gold butterfly birthday garland with pink shimmer foil curtain and Happy Birthday banner" },
+  { src: pkgD5AnikaYellowSilver.url, alt: "Happy Birthday Anika yellow and silver foil text setup with balloon columns and silver fringe curtain" },
+  { src: pkgD6PurpleBlueResto.url, alt: "Restaurant birthday arch with purple, blue, lilac and chrome balloons, flower clusters and gold foil curtain" },
+  { src: pkgD7BlackWhiteFairy.url, alt: "Elegant black and white balloon arch with confetti balloons, fairy-light curtain and Happy Birthday cursive banner" },
+  { src: pkgD8Hubby42.url, alt: "Happy Birthday Hubby 42 black and gold balloon canopy with foil text, ceiling balloons and rose petal table" },
+  { src: pkgD9TwentyThirdCanopy.url, alt: "23rd birthday black and gold balloon canopy with giant 23 number foils and Happy Birthday foil text" },
+  { src: pkgD10BujjiGoldSilver.url, alt: "Bujji name gold, silver and white chrome balloon arch with foil curtain and silver star foil columns" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
