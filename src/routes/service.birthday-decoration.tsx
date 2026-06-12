@@ -78,6 +78,16 @@ import pkgB7Saanvi11th from "@/assets/bday-b7-saanvi-11th-rosegold.jpeg.asset.js
 import pkgB8Eighteenth from "@/assets/bday-b8-18th-purple-silver.jpeg.asset.json";
 import pkgB9Armaan8th from "@/assets/bday-b9-armaan-8th-green.jpeg.asset.json";
 import pkgB10Twelfth from "@/assets/bday-b10-12th-navy-gold.jpeg.asset.json";
+import pkgC1NavyGoldArch from "@/assets/bday-c1-navy-gold-arch.jpeg.asset.json";
+import pkgC2Blue15th from "@/assets/bday-c2-blue-15th.jpeg.asset.json";
+import pkgC3PurpleGold from "@/assets/bday-c3-purple-gold.jpeg.asset.json";
+import pkgC4AnanyaPink8 from "@/assets/bday-c4-ananya-pink-8.jpeg.asset.json";
+import pkgC5RahulNavy25 from "@/assets/bday-c5-rahul-navy-25.jpeg.asset.json";
+import pkgC6RoseGold21 from "@/assets/bday-c6-rosegold-21.jpeg.asset.json";
+import pkgC7OliveWhite1st from "@/assets/bday-c7-olive-white-1st.jpeg.asset.json";
+import pkgC8Blue1st from "@/assets/bday-c8-blue-1st.jpeg.asset.json";
+import pkgC9NavySageResto from "@/assets/bday-c9-navy-sage-resto.jpeg.asset.json";
+import pkgC10PurplePinkResto from "@/assets/bday-c10-purple-pink-resto.jpeg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
