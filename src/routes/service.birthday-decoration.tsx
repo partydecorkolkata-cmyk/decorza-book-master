@@ -78,6 +78,16 @@ import pkgB7Saanvi11th from "@/assets/bday-b7-saanvi-11th-rosegold.jpeg.asset.js
 import pkgB8Eighteenth from "@/assets/bday-b8-18th-purple-silver.jpeg.asset.json";
 import pkgB9Armaan8th from "@/assets/bday-b9-armaan-8th-green.jpeg.asset.json";
 import pkgB10Twelfth from "@/assets/bday-b10-12th-navy-gold.jpeg.asset.json";
+import pkgC1NavyGoldArch from "@/assets/bday-c1-navy-gold-arch.jpeg.asset.json";
+import pkgC2Blue15th from "@/assets/bday-c2-blue-15th.jpeg.asset.json";
+import pkgC3PurpleGold from "@/assets/bday-c3-purple-gold.jpeg.asset.json";
+import pkgC4AnanyaPink8 from "@/assets/bday-c4-ananya-pink-8.jpeg.asset.json";
+import pkgC5RahulNavy25 from "@/assets/bday-c5-rahul-navy-25.jpeg.asset.json";
+import pkgC6RoseGold21 from "@/assets/bday-c6-rosegold-21.jpeg.asset.json";
+import pkgC7OliveWhite1st from "@/assets/bday-c7-olive-white-1st.jpeg.asset.json";
+import pkgC8Blue1st from "@/assets/bday-c8-blue-1st.jpeg.asset.json";
+import pkgC9NavySageResto from "@/assets/bday-c9-navy-sage-resto.jpeg.asset.json";
+import pkgC10PurplePinkResto from "@/assets/bday-c10-purple-pink-resto.jpeg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -150,6 +160,16 @@ const birthdayGalleryImages = [
   { src: pkgB8Eighteenth.url, alt: "18th birthday purple, lilac, silver and white balloon arch with Happy Birthday foil text and giant foil 18" },
   { src: pkgB9Armaan8th.url, alt: "Armaan 8th birthday green, gold and white balloon frame with gold foil curtain and ARMAAN name balloons" },
   { src: pkgB10Twelfth.url, alt: "12th birthday navy blue, white and gold balloon arch with silver foil curtain, star foils and gold foil 12" },
+  { src: pkgC1NavyGoldArch.url, alt: "Luxury navy blue, gold and white balloon arch with gold Happy Birthday foil and ceiling balloon bouquets" },
+  { src: pkgC2Blue15th.url, alt: "15th birthday royal blue, sky blue and silver chrome balloon arch with silver foil curtain and giant blue foil 15" },
+  { src: pkgC3PurpleGold.url, alt: "Purple, lilac, gold and silver chrome balloon arch with silver foil curtain and gold Happy Birthday foil text" },
+  { src: pkgC4AnanyaPink8.url, alt: "Ananya 8th birthday pink, hot pink, white and silver chrome balloon frame with foil curtain and ANANYA 8 name balloons" },
+  { src: pkgC5RahulNavy25.url, alt: "Rahul 25th birthday navy blue, gold, silver and white balloon frame with silver foil curtain and RAHUL 25 name balloons" },
+  { src: pkgC6RoseGold21.url, alt: "21st birthday rose gold, pearl and gold chrome balloon arch with silver foil curtain and rose gold Happy Birthday 21 foil" },
+  { src: pkgC7OliveWhite1st.url, alt: "1st birthday olive, white and cream balloon arch with daisy balloon, gold foil curtain and sage Happy Birthday foil and gold 1" },
+  { src: pkgC8Blue1st.url, alt: "1st birthday royal blue, white and silver chrome balloon arch with silver foil curtain and blue Happy Birthday 1 foil" },
+  { src: pkgC9NavySageResto.url, alt: "Restaurant celebration navy, sage green and gold confetti balloon arch with Happy Birthday cursive banner and star foil column" },
+  { src: pkgC10PurplePinkResto.url, alt: "Restaurant celebration purple, pink and rose chrome balloon arch with confetti balloons and Happy Birthday cursive banner" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -1021,6 +1041,123 @@ function ServicePage() {
             offer={<>₹2,199</>}
             original={<>₹3,499</>}
             discountPct={37}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c1-navy-gold-luxury-arch"
+            name="Navy Blue & Gold Luxury Happy Birthday Arch"
+            description="A grand luxury birthday arch in navy blue, chrome gold and pearl white organic balloons with a gold 'HAPPY BIRTHDAY' foil banner on a clean white wall, finished with floating navy, gold and white ceiling balloon bouquets — picture-perfect for milestone celebrations at home or in a banquet hall."
+            image={pkgC1NavyGoldArch.url}
+            includes={["Navy, chrome gold & pearl white organic arch", "Gold 'Happy Birthday' foil banner", "Floating navy, gold & white ceiling balloons"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c2-blue-15th-foil-curtain"
+            name="Royal Blue 15th Birthday Foil Curtain Setup"
+            description="A vibrant 15th birthday in-home setup with a silver foil fringe curtain backdrop, blue 'HAPPY BIRTHDAY 15' foil text and a lush royal blue, sky blue, white and silver chrome organic balloon arch with a matching balloon column and floating ceiling bouquets — exactly as shown."
+            image={pkgC2Blue15th.url}
+            includes={["Silver foil curtain + blue 'HB 15' foil text", "Royal blue, sky blue, white & silver chrome arch", "Matching balloon column + ceiling bouquets"]}
+            rating={4.8}
+            reviews={188}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c3-purple-gold-frame"
+            name="Royal Purple & Gold Happy Birthday Frame"
+            description="A regal birthday frame backdrop in deep purple, lilac, gold and silver chrome balloons on tall twin columns with a top garland, silver foil curtain centre and gold 'HAPPY BIRTHDAY' foil text — a rich, photo-friendly setup ideal for home celebrations."
+            image={pkgC3PurpleGold.url}
+            includes={["Purple, lilac, gold & silver chrome balloon frame", "Silver foil fringe curtain backdrop", "Gold 'Happy Birthday' foil text"]}
+            rating={4.8}
+            reviews={172}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c4-ananya-pink-8th"
+            name="Ananya Pink Princess 8th Birthday Frame"
+            description="A dreamy 8th birthday setup with a square balloon frame in hot pink, baby pink, white and silver chrome, a silver foil curtain centre, a 'HAPPY BIRTHDAY' bunting and personalised hot pink 'ANANYA' name balloons with a giant pink foil number 8 — fully customisable with your child's name."
+            image={pkgC4AnanyaPink8.url}
+            includes={["Hot pink, baby pink, white & silver chrome frame", "Silver foil curtain + Happy Birthday bunting", "Personalised name + giant foil number balloon"]}
+            rating={4.9}
+            reviews={264}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c5-rahul-navy-25th"
+            name="Rahul Navy Blue & Gold 25th Birthday Frame"
+            description="An elegant 25th birthday square balloon frame in navy blue, chrome gold, silver and white with a silver foil curtain centre, a 'HAPPY BIRTHDAY' bunting, a personalised gold 'RAHUL' name and giant navy blue foil number 25 — a perfect classy surprise for him."
+            image={pkgC5RahulNavy25.url}
+            includes={["Navy, gold, silver & white balloon frame", "Silver foil curtain + Happy Birthday bunting", "Personalised gold name + navy foil number"]}
+            rating={4.9}
+            reviews={231}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c6-rosegold-21st"
+            name="Rose Gold 21st Birthday Glam Setup"
+            description="A glam 21st birthday setup with a silver foil fringe curtain and a rose gold 'HAPPY BIRTHDAY 21' foil text, framed by an organic balloon arch in rose gold, chrome gold, pearl white and ivory with a tall matching column and floating ceiling bouquets — perfect for that grown-up celebration."
+            image={pkgC6RoseGold21.url}
+            includes={["Silver foil curtain + rose gold 'HB 21' foil", "Rose gold, chrome gold & pearl white arch", "Matching balloon column + ceiling bouquets"]}
+            rating={4.9}
+            reviews={209}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c7-olive-white-1st"
+            name="Olive & White Boho 1st Birthday Daisy Setup"
+            description="A trending boho 1st birthday backdrop in olive green, ivory and white balloons with a sweet daisy balloon on the left column, a gold foil fringe curtain, a sage 'HAPPY BIRTHDAY' foil and a gold foil number 1 on a matching balloon column — soft, neutral and perfect for cake-smash shoots."
+            image={pkgC7OliveWhite1st.url}
+            includes={["Olive, ivory & white organic balloon arch + daisy", "Gold foil curtain + sage 'Happy Birthday' foil", "Gold foil number 1 on matching column"]}
+            rating={4.9}
+            reviews={198}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c8-blue-1st"
+            name="Royal Blue 1st Birthday Boy Foil Curtain Setup"
+            description="A bright 1st birthday boy in-home setup with a silver foil fringe curtain, blue 'HAPPY BIRTHDAY' foil text and a giant blue foil 1, surrounded by a royal blue, white and silver chrome organic balloon arch with a matching balloon column and floating ceiling balloons."
+            image={pkgC8Blue1st.url}
+            includes={["Silver foil curtain + blue 'HB' foil + giant foil 1", "Royal blue, white & silver chrome arch", "Matching balloon column + ceiling balloons"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹1,799</>}
+            original={<>₹2,999</>}
+            discountPct={40}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-c9-navy-sage-restaurant"
+            name="Navy, Sage & Gold Restaurant Birthday Arch"
+            description="A sophisticated restaurant / cafe table-side birthday setup with a navy blue, sage green, chrome gold and gold-confetti balloon garland over the window, a gold cursive 'Happy Birthday' banner, two black & gold 'Happy Birthday' foil bouquets and a navy-sage-gold balloon column topped with a gold star foil."
+            image={pkgC9NavySageResto.url}
+            includes={["Navy, sage, chrome gold & confetti garland", "Gold cursive 'Happy Birthday' banner", "Star-foil topped balloon column + 2 foil bouquets"]}
+            rating={4.9}
+            reviews={154}
+            offer={<>₹1,799</>}
+            original={<>₹2,999</>}
+            discountPct={40}
             bestSeller={false}
           />
         </div>
