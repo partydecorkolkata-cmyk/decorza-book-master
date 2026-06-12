@@ -1142,9 +1142,9 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB' foil + giant foil 1", "Royal blue, white & silver chrome arch", "Matching balloon column + ceiling balloons"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹1,799</>}
+            offer={<>₹1,999</>}
             original={<>₹2,999</>}
-            discountPct={40}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1155,9 +1155,9 @@ function ServicePage() {
             includes={["Navy, sage, chrome gold & confetti garland", "Gold cursive 'Happy Birthday' banner", "Star-foil topped balloon column + 2 foil bouquets"]}
             rating={4.9}
             reviews={154}
-            offer={<>₹1,799</>}
+            offer={<>₹1,999</>}
             original={<>₹2,999</>}
-            discountPct={40}
+            discountPct={33}
             bestSeller={false}
           />
         </div>
