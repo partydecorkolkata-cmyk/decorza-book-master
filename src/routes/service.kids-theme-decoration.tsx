@@ -44,7 +44,7 @@ function ServicePage() {
           <Badge className="bg-white/10 backdrop-blur border border-white/20 text-white">
             <Star className="mr-1 h-3 w-3 fill-gold text-gold" /> 4.9 · 720 reviews
           </Badge>
-          <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Kids Theme Decoration</h1>
+          <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Kids Theme&nbsp;Decoration</h1>
           <p className="mt-4 max-w-2xl text-white/85">Frozen, Minions, Spiderman, Unicorn, Jungle, Cocomelon — themed kids parties with all the props and balloons.</p>
           <p className="mt-4 font-display text-2xl text-gold">Starting from ₹3,499</p>
           <div className="mt-6 flex flex-wrap gap-3">
