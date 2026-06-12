@@ -1180,7 +1180,138 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-d1-mermaid-purple"
+            name="Little Mermaid Ariel Purple & Teal Birthday Arch"
+            description="A magical Little Mermaid theme birthday setup featuring an organic balloon arch in purple, lilac, teal chrome and white, with pink star foils, Ariel and mermaid-tail foil balloons, a 'Happy Birthday' banner and a shimmering purple foil-fringe curtain backdrop."
+            image={pkgD1MermaidPurple.url}
+            includes={["Purple, lilac, teal & white organic balloon arch", "Ariel cutout + mermaid tail foil + pink star foils", "Purple shimmer curtain + Happy Birthday banner"]}
+            rating={4.9}
+            reviews={182}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d2-unicorn-rainbow"
+            name="Unicorn Rainbow Pastel Birthday Theme"
+            description="A dreamy unicorn rainbow theme birthday setup with giant gold 'Happy Birthday <Name>' foil text, a full pastel rainbow balloon arch, two unicorn foil balloons on pastel balloon columns and a holographic silver fringe curtain backdrop — perfect for little princesses."
+            image={pkgD2UnicornMaheen.url}
+            includes={["Personalised gold 'Happy Birthday <Name>' foil", "Pastel rainbow balloon arch + 2 unicorn foils", "Holographic curtain + 2 pastel balloon columns"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹2,499</>}
+            original={<>₹3,999</>}
+            discountPct={38}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d3-music-notes"
+            name="Musical Notes Gold, Silver & White Premium Arch"
+            description="A premium music lover birthday arch with white, chrome gold and silver chrome balloons, scattered black music note and treble clef cutouts, a glowing 'Happy Birthday' neon sign and a sheer white fairy-light curtain backdrop — elegant, classy and Instagram-perfect."
+            image={pkgD3MusicNotesGold.url}
+            includes={["Gold, silver & white organic balloon arch", "Music note + treble clef cutouts", "Sheer fairy-light curtain + Happy Birthday neon"]}
+            rating={5.0}
+            reviews={167}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d4-pink-gold-butterfly"
+            name="Pink, Lilac & Gold Butterfly Birthday Garland"
+            description="A pretty pink, lilac, peach and chrome gold balloon garland accented with golden butterfly cutouts, a 'Happy Birthday' banner and a pink shimmer foil-fringe curtain backdrop — a sweet, girly setup ideal for in-home celebrations."
+            image={pkgD4PinkGoldButterfly.url}
+            includes={["Pink, lilac, peach & gold balloon garland", "Golden butterfly cutouts + Happy Birthday banner", "Pink shimmer foil-fringe curtain backdrop"]}
+            rating={4.8}
+            reviews={196}
+            offer={<>₹1,999</>}
+            original={<>₹3,499</>}
+            discountPct={43}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d5-anika-yellow-silver"
+            name="Personalised Yellow & Silver Name Birthday Setup"
+            description="A cheerful in-home birthday setup with giant gold 'Happy Birthday <Name>' foil text, two yellow, white and silver balloon columns topped with rose gold star foils, a princess cutout and a silver fringe curtain backdrop — fully personalised with your loved one's name."
+            image={pkgD5AnikaYellowSilver.url}
+            includes={["Personalised gold 'Happy Birthday <Name>' foil", "2 yellow, white & silver balloon columns", "Rose gold star foils + silver fringe curtain"]}
+            rating={4.8}
+            reviews={148}
+            offer={<>₹1,699</>}
+            original={<>₹2,999</>}
+            discountPct={43}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d6-purple-blue-resto"
+            name="Purple, Blue & Lilac Restaurant Birthday Arch"
+            description="A festive restaurant / banquet birthday arch in purple, blue, lilac, white and chrome silver balloons, with a gold 'HAPPY BIRTHDAY' foil text wall, balloon flower clusters and a gold foil-fringe curtain backdrop — perfect for surprise dinners and party-hall celebrations."
+            image={pkgD6PurpleBlueResto.url}
+            includes={["Purple, blue, lilac & silver chrome arch", "Gold 'HAPPY BIRTHDAY' foil + balloon flowers", "Gold foil-fringe curtain backdrop"]}
+            rating={4.9}
+            reviews={172}
+            offer={<>₹1,999</>}
+            original={<>₹3,499</>}
+            discountPct={43}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d7-black-white-fairy"
+            name="Classic Black & White Confetti Fairy-Light Arch"
+            description="An elegant black, white and silver-confetti balloon arch around a sheer white drape and warm fairy-light curtain, finished with a cursive black 'Happy Birthday' banner — a timeless, sophisticated backdrop that works beautifully for adults and surprise parties."
+            image={pkgD7BlackWhiteFairy.url}
+            includes={["Black, white & silver confetti balloon arch", "Sheer white drape + warm fairy-light curtain", "Cursive 'Happy Birthday' banner"]}
+            rating={4.9}
+            reviews={203}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d8-hubby-42"
+            name="Black & Gold Hubby Surprise Ceiling Balloon Setup"
+            description="A romantic husband / partner birthday surprise with a dense gold and black ceiling balloon canopy with curling ribbons, a black 'HAPPY BIRTHDAY HUBBY' foil text wall, gold number-balloon age and a red rose-petal table — straight out of a Pinterest reel."
+            image={pkgD8Hubby42.url}
+            includes={["Gold + black ceiling balloons with curling ribbons", "'HAPPY BIRTHDAY HUBBY' foil + age number balloons", "Red rose-petal table arrangement"]}
+            rating={4.9}
+            reviews={189}
+            offer={<>₹1,699</>}
+            original={<>₹2,999</>}
+            discountPct={43}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d9-23rd-blackgold-canopy"
+            name="23rd Birthday Black & Gold Canopy Surprise"
+            description="A statement 23rd birthday surprise with a dramatic black and chrome gold ceiling balloon canopy with cascading ribbons, a black 'HAPPY BIRTHDAY' foil text wall, giant gold foil number 23 on a black & gold balloon column and matching balloon scatter on the bed — perfect for bedroom surprises."
+            image={pkgD9TwentyThirdCanopy.url}
+            includes={["Black & gold ceiling balloon canopy with ribbons", "'HAPPY BIRTHDAY' foil + giant gold foil 23", "Black & gold balloon column + bed scatter"]}
+            rating={4.9}
+            reviews={221}
+            offer={<>₹1,799</>}
+            original={<>₹2,999</>}
+            discountPct={40}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-d10-bujji-gold-silver"
+            name="Personalised Gold, Silver & White Luxury Name Arch"
+            description="A grand luxury birthday arch in chrome gold, silver and white balloons forming a tall double-column frame, with a gold foil-fringe curtain centre panel, silver star foils on top of each column and giant personalised gold 'Name' balloon letters at the base — a true showstopper setup."
+            image={pkgD10BujjiGoldSilver.url}
+            includes={["Tall gold, silver & white balloon double-column arch", "Gold foil-fringe curtain centre panel + 2 star foils", "Personalised giant gold 'Name' balloon letters"]}
+            rating={5.0}
+            reviews={158}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
+            bestSeller={true}
+          />
         </div>
+
 
 
 
