@@ -118,6 +118,16 @@ import pkgF7NiyanshCars from "@/assets/bday-f7-niyansh-cars-3rd.jpg.asset.json";
 import pkgF8HafsaWings from "@/assets/bday-f8-hafsa-pink-wings-1st.jpg.asset.json";
 import pkgF9SitaPinkBlue from "@/assets/bday-f9-sita-2nd-pink-blue-gold.jpeg.asset.json";
 import pkgF10FirstBlueBoy from "@/assets/bday-f10-1st-blue-white-boy.jpg.asset.json";
+import pkgG1Spiderman from "@/assets/bday-g1-spiderman-samrat-5th.jpg.asset.json";
+import pkgG2PravyaButterfly from "@/assets/bday-g2-pravya-blue-butterfly-1st.jpg.asset.json";
+import pkgG3PurpleBow5 from "@/assets/bday-g3-purple-bow-5-arch.jpg.asset.json";
+import pkgG4AarviPrincess from "@/assets/bday-g4-aarvi-princess-disney-5.jpg.asset.json";
+import pkgG5JungleSafariResto from "@/assets/bday-g5-jungle-safari-resto.jpg.asset.json";
+import pkgG6PinkRosegoldCeiling from "@/assets/bday-g6-pink-rosegold-ceiling-room.jpg.asset.json";
+import pkgG7Shashwat23 from "@/assets/bday-g7-shashwat-23-gold-white.jpg.asset.json";
+import pkgG8PurpleDreamsCanopy from "@/assets/bday-g8-purple-dreams-canopy.webp.asset.json";
+import pkgG9RedHeartRoom from "@/assets/bday-g9-red-heart-romantic-room.jpg.asset.json";
+import pkgG10GoldCeilingCanopy from "@/assets/bday-g10-gold-silver-ceiling-canopy.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
