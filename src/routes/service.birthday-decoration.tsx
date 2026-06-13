@@ -78,6 +78,16 @@ import pkgB7Saanvi11th from "@/assets/bday-b7-saanvi-11th-rosegold.jpeg.asset.js
 import pkgB8Eighteenth from "@/assets/bday-b8-18th-purple-silver.jpeg.asset.json";
 import pkgB9Armaan8th from "@/assets/bday-b9-armaan-8th-green.jpeg.asset.json";
 import pkgB10Twelfth from "@/assets/bday-b10-12th-navy-gold.jpeg.asset.json";
+import pkgE1AmayraPinkBow from "@/assets/bday-e1-amayra-pink-bow-1st.jpeg.asset.json";
+import pkgE2AarviButterfly from "@/assets/bday-e2-aarvi-butterfly-purple.jpg.asset.json";
+import pkgE3RoseGoldButterfly from "@/assets/bday-e3-rosegold-butterfly-1st.webp.asset.json";
+import pkgE4DheekshaThreenager from "@/assets/bday-e4-dheeksha-threenager.webp.asset.json";
+import pkgE5AkshimaPurple from "@/assets/bday-e5-akshima-purple-butterfly.webp.asset.json";
+import pkgE6AlaraMagic from "@/assets/bday-e6-alara-first-year-magic.jpeg.asset.json";
+import pkgE7MulticolorPastel from "@/assets/bday-e7-multicolor-pastel-1st.webp.asset.json";
+import pkgE8SiaPinkGold from "@/assets/bday-e8-sia-pink-gold-butterfly.webp.asset.json";
+import pkgE9JungleSafari from "@/assets/bday-e9-jungle-safari-1st.webp.asset.json";
+import pkgE10FairyPrincess from "@/assets/bday-e10-fairy-princess-purple.jpg.asset.json";
 import pkgC1NavyGoldArch from "@/assets/bday-c1-navy-gold-arch.jpeg.asset.json";
 import pkgC2Blue15th from "@/assets/bday-c2-blue-15th.jpeg.asset.json";
 import pkgC3PurpleGold from "@/assets/bday-c3-purple-gold.jpeg.asset.json";
@@ -190,6 +200,16 @@ const birthdayGalleryImages = [
   { src: pkgD8Hubby42.url, alt: "Happy Birthday Hubby 42 black and gold balloon canopy with foil text, ceiling balloons and rose petal table" },
   { src: pkgD9TwentyThirdCanopy.url, alt: "23rd birthday black and gold balloon canopy with giant 23 number foils and Happy Birthday foil text" },
   { src: pkgD10BujjiGoldSilver.url, alt: "Bujji name gold, silver and white chrome balloon arch with foil curtain and silver star foil columns" },
+  { src: pkgE1AmayraPinkBow.url, alt: "Amayra 1st birthday white balloon arch with pink satin bows, neon number 1 and pink-bow pillar plinth on ivory drape backdrop" },
+  { src: pkgE2AarviButterfly.url, alt: "Aarvi butterfly theme birthday with purple and pink balloon arch, watercolour butterfly backdrop and Sofia & Ariel princess cutouts" },
+  { src: pkgE3RoseGoldButterfly.url, alt: "Rose gold and white chrome balloon ring with rose gold butterflies, neon Happy Birthday and marquee number 1" },
+  { src: pkgE4DheekshaThreenager.url, alt: "Little Miss Threenager Dheeksha pastel pink, lilac and rose gold balloon arch with floral garlands and acrylic cake stand" },
+  { src: pkgE5AkshimaPurple.url, alt: "Akshima purple, pink and rose gold rooftop birthday balloon arch with silver and gold butterflies and floral accents" },
+  { src: pkgE6AlaraMagic.url, alt: "Alara's First Year of Magic peach arch backdrop with coral, lilac and rose gold butterfly balloon garland and fairy lights" },
+  { src: pkgE7MulticolorPastel.url, alt: "Multicolor pastel and gold chrome balloon ring with neon Happy Birthday, butterflies and marquee number 1" },
+  { src: pkgE8SiaPinkGold.url, alt: "Sia 1st birthday gold fringe curtain with pink, lilac and gold chrome balloon ring, gold butterflies and marquee SIA letters" },
+  { src: pkgE9JungleSafari.url, alt: "Jungle safari 1st birthday green, white and gold chrome balloon arch with tiger, zebra, giraffe foils and marquee number 1" },
+  { src: pkgE10FairyPrincess.url, alt: "Fairy princess purple ombre balloon ring with silver fringe curtain, neon Happy Birthday and two fairy princess cutouts" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -1175,9 +1195,9 @@ function ServicePage() {
             includes={["Navy, sage, chrome gold & confetti garland", "Gold cursive 'Happy Birthday' banner", "Star-foil topped balloon column + 2 foil bouquets"]}
             rating={4.9}
             reviews={154}
-            offer={<>₹1,999</>}
+            offer={<>₹1,799</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={40}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1309,6 +1329,136 @@ function ServicePage() {
             original={<>₹3,499</>}
             discountPct={29}
             bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e1-amayra-pink-bow-1st"
+            name="Amayra 1st Birthday White Cloud Arch with Pink Satin Bows"
+            description="A dreamy 1st birthday luxury arch with a cloud-like all-white balloon garland accented with blush and clear bobo balloons, three oversized rose pink satin bows, a personalised 'Happy Birthday Amayra' acrylic backdrop, a neon number 1 marquee and a fluted white pedestal cake plinth with a matching pink bow — set against an ivory pleated drape wall."
+            image={pkgE1AmayraPinkBow.url}
+            includes={["All-white cloud balloon arch + blush & clear bobo accents", "3 oversized rose pink satin bows + personalised acrylic backdrop", "Neon number 1 + fluted white pedestal plinth with pink bow"]}
+            rating={5.0}
+            reviews={246}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e2-aarvi-butterfly-purple"
+            name="Aarvi Butterfly Princess Purple & Pink Theme"
+            description="A magical butterfly princess birthday setup with a full purple, lilac and pink pastel organic balloon garland on a ring frame, a personalised 'Happy Birthday Aarvi' floral butterfly backdrop with paper butterflies, lilac balloon scatter on the floor and Princess Sofia & Ariel character cutouts on the sides."
+            image={pkgE2AarviButterfly.url}
+            includes={["Purple, lilac & pink organic balloon ring garland", "Personalised butterfly backdrop + paper butterflies", "Princess Sofia & Ariel cutouts + lilac balloon floor scatter"]}
+            rating={4.9}
+            reviews={198}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e3-rosegold-butterfly-1st"
+            name="Rose Gold Chrome Butterfly Ring 1st Birthday"
+            description="A glamorous rose gold themed 1st birthday balloon ring with metallic chrome rose gold and white pastel balloons, rose gold paper butterfly accents, a neon 'Happy Birthday' sign hanging in the centre, a marquee light-up number 1 and a cocktail cake table — perfect for premium 1st birthday shoots."
+            image={pkgE3RoseGoldButterfly.url}
+            includes={["Chrome rose gold + white pastel balloon ring", "Rose gold paper butterflies + neon Happy Birthday sign", "Marquee light-up number 1 + cocktail cake table"]}
+            rating={4.9}
+            reviews={172}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e4-dheeksha-threenager"
+            name="Little Miss Threenager Dheeksha Pastel Arch"
+            description="A premium 'Little Miss Threenager' birthday setup with a tall pastel lilac arched backdrop, a luxe pink, lilac, white and chrome rose gold balloon garland with cherry-blossom florals, a clear acrylic cake plinth, matching balloon cluster base and a personalised cake — fairytale princess vibes."
+            image={pkgE4DheekshaThreenager.url}
+            includes={["Tall pastel lilac arch backdrop with crown text print", "Pink, lilac, white & rose gold luxe balloon garland + florals", "Acrylic cake plinth + balloon cluster base"]}
+            rating={5.0}
+            reviews={211}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e5-akshima-purple-butterfly"
+            name="Akshima Purple Rooftop Butterfly Birthday"
+            description="A vibrant purple themed rooftop birthday setup with a tall personalised 'Happy Birthday Akshima' purple backdrop, a lush purple, lilac, pink and rose gold chrome balloon garland with silver and gold butterflies, pink cherry-blossom florals and a metal flower stand with balloon column — bold and photo-ready."
+            image={pkgE5AkshimaPurple.url}
+            includes={["Personalised purple backdrop + butterfly accents", "Purple, lilac, pink & rose gold chrome balloon garland", "Cherry-blossom florals + metal flower stand balloon column"]}
+            rating={4.9}
+            reviews={189}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e6-alara-first-year-magic"
+            name="Alara's First Year of Magic Peach Butterfly Arch"
+            description="A whimsical 'First Year of Magic' premium 1st birthday setup with a peach arched backdrop, a full coral, peach, lilac and rose gold chrome balloon garland, gold and pink paper butterflies, a giant pastel butterfly foil, daisy floral clusters and warm fairy-light curtains for that magical fairytale feel."
+            image={pkgE6AlaraMagic.url}
+            includes={["Personalised peach arch backdrop + paper butterflies", "Coral, peach, lilac & rose gold chrome balloon garland", "Giant pastel butterfly foil + daisies + fairy lights"]}
+            rating={5.0}
+            reviews={234}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e7-multicolor-pastel-1st"
+            name="Multicolor Pastel & Gold Chrome 1st Birthday Ring"
+            description="A magical 1st birthday balloon ring decoration with a multicolor pastel garland of pink, lilac, peach and white balloons, glossy gold chrome accents, paper butterflies, a warm neon 'Happy Birthday' sign with heart, a marquee light-up number 1 and a side cocktail cake table with gold balloon cluster."
+            image={pkgE7MulticolorPastel.url}
+            includes={["Multicolor pastel + gold chrome balloon ring garland", "Neon Happy Birthday heart sign + paper butterflies", "Marquee number 1 + cocktail cake table cluster"]}
+            rating={4.9}
+            reviews={205}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e8-sia-pink-gold-butterfly"
+            name="Sia 1st Birthday Pink, Lilac & Gold Butterfly Ring"
+            description="A radiant 1st birthday setup with hanging wisteria florals, a gold foil-fringe curtain centre, a pink, lilac, peach and gold chrome balloon ring with gold butterflies, a neon 'Happy Birthday' sign, marquee number 1 and a personalised 'SIA' light-up name on a balloon-wrapped flower stand."
+            image={pkgE8SiaPinkGold.url}
+            includes={["Pink, lilac, peach & gold chrome balloon ring + butterflies", "Gold foil-fringe curtain + neon Happy Birthday sign", "Marquee number 1 + personalised light-up name letters"]}
+            rating={5.0}
+            reviews={218}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e9-jungle-safari-1st"
+            name="Jungle Safari Green & Gold 1st Birthday Arch"
+            description="A classic jungle safari themed 1st birthday balloon arch in sage green, white and gold chrome balloons with tiger, zebra and giraffe character foils, a rose gold '1' foil, neon 'Happy Birthday' sign, a marquee light-up number 1 and matching jungle balloon columns flanking the entrance."
+            image={pkgE9JungleSafari.url}
+            includes={["Sage green, white & gold chrome jungle balloon arch", "Tiger, zebra & giraffe character foil balloons", "Neon Happy Birthday + marquee number 1 + jungle columns"]}
+            rating={4.9}
+            reviews={196}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-e10-fairy-princess-purple"
+            name="Fairy Princess Purple Ombre Ring Birthday"
+            description="A magical fairy princess birthday balloon ring in deep purple, lilac, chrome and white ombre balloons with a silver foil-fringe curtain centre, a neon 'Happy Birthday' sign, two fairy princess character cutouts on the sides and a wrapped purple cake plinth — perfect for little princesses."
+            image={pkgE10FairyPrincess.url}
+            includes={["Purple, lilac, chrome & white ombre balloon ring", "Silver foil-fringe curtain + neon Happy Birthday sign", "2 fairy princess cutouts + wrapped purple cake plinth"]}
+            rating={4.9}
+            reviews={183}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
           />
         </div>
 
