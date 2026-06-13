@@ -118,6 +118,16 @@ import pkgF7NiyanshCars from "@/assets/bday-f7-niyansh-cars-3rd.jpg.asset.json";
 import pkgF8HafsaWings from "@/assets/bday-f8-hafsa-pink-wings-1st.jpg.asset.json";
 import pkgF9SitaPinkBlue from "@/assets/bday-f9-sita-2nd-pink-blue-gold.jpeg.asset.json";
 import pkgF10FirstBlueBoy from "@/assets/bday-f10-1st-blue-white-boy.jpg.asset.json";
+import pkgG1Spiderman from "@/assets/bday-g1-spiderman-samrat-5th.jpg.asset.json";
+import pkgG2PravyaButterfly from "@/assets/bday-g2-pravya-blue-butterfly-1st.jpg.asset.json";
+import pkgG3PurpleBow5 from "@/assets/bday-g3-purple-bow-5-arch.jpg.asset.json";
+import pkgG4AarviPrincess from "@/assets/bday-g4-aarvi-princess-disney-5.jpg.asset.json";
+import pkgG5JungleSafariResto from "@/assets/bday-g5-jungle-safari-resto.jpg.asset.json";
+import pkgG6PinkRosegoldCeiling from "@/assets/bday-g6-pink-rosegold-ceiling-room.jpg.asset.json";
+import pkgG7Shashwat23 from "@/assets/bday-g7-shashwat-23-gold-white.jpg.asset.json";
+import pkgG8PurpleDreamsCanopy from "@/assets/bday-g8-purple-dreams-canopy.webp.asset.json";
+import pkgG9RedHeartRoom from "@/assets/bday-g9-red-heart-romantic-room.jpg.asset.json";
+import pkgG10GoldCeilingCanopy from "@/assets/bday-g10-gold-silver-ceiling-canopy.jpg.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -230,6 +240,16 @@ const birthdayGalleryImages = [
   { src: pkgF8HafsaWings.url, alt: "Hafsa Atif 1st birthday rainbow angel wings backdrop with hot pink, rose gold and white chrome balloon arch, Princess Sofia foil and HAFSA marquee letters" },
   { src: pkgF9SitaPinkBlue.url, alt: "Sita's 2nd birthday white arch with royal blue, blush pink and gold chrome balloon garland and oversized foil flower accents" },
   { src: pkgF10FirstBlueBoy.url, alt: "1st Birthday Boy blue and white balloon arch with silver foil curtain, blue foil number 1, star foils and ONE balloon block cubes" },
+  { src: pkgG1Spiderman.url, alt: "Spider-Man theme 5th birthday round backdrop for Samrat with red, blue, black and silver chrome balloon garland and marquee 5" },
+  { src: pkgG2PravyaButterfly.url, alt: "Our Little Princess Pravya 1st birthday baby blue and white balloon ring with butterfly cutouts and marquee number 1" },
+  { src: pkgG3PurpleBow5.url, alt: "Pastel ivory arch with lilac chrome and white balloon garland, hand-painted 5 with pink bow Happy Birthday signage" },
+  { src: pkgG4AarviPrincess.url, alt: "Princess Aarvi turning 5 Disney princesses backdrop with rainbow pastel and gold chrome balloon arch and life-size princess cutouts" },
+  { src: pkgG5JungleSafariResto.url, alt: "Jungle Safari restaurant birthday arch with white, gold and green balloon pillars and tiger, lion, monkey, zebra and cow animal foils and Happy Birthday neon" },
+  { src: pkgG6PinkRosegoldCeiling.url, alt: "Pink and rose gold chrome ceiling balloon canopy bedroom surprise with HAPPY BIRTHDAY foil text and bed balloon cluster" },
+  { src: pkgG7Shashwat23.url, alt: "Shashwat 23rd birthday gold and white balloon arch with silver fringe curtain, black Happy Birthday bunting and gold foil 23" },
+  { src: pkgG8PurpleDreamsCanopy.url, alt: "Purple dreams bedroom birthday surprise with chrome purple and lilac ceiling balloons, white veil fairy-light canopy and silver Happy Birthday foil text" },
+  { src: pkgG9RedHeartRoom.url, alt: "Romantic red heart birthday room decor with hanging red heart balloons, LOVE neon, rose petal heart on bed and floor petals" },
+  { src: pkgG10GoldCeilingCanopy.url, alt: "Gold and silver chrome ceiling balloon surprise with white veil fairy-light canopy, gold Happy Birthday foil text and bed balloon cluster" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
@@ -1608,6 +1628,136 @@ function ServicePage() {
             offer={<>₹2,199</>}
             original={<>₹3,999</>}
             discountPct={45}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g1-spiderman-samrat-5th"
+            name="Spider-Man Theme 5th Birthday Arch"
+            description="A high-action Spider-Man themed 5th birthday round backdrop with a personalised 'Happy 5th Birthday Samrat' web panel, framed by a bold balloon garland of red, royal blue, jet black and silver chrome balloons with a giant silver orbz on top and a marquee light-up number 5 on the floor — a comic-book hero setup that makes little superheroes feel unstoppable."
+            image={pkgG1Spiderman.url}
+            includes={["Personalised Spider-Man web panel with name & age", "Red, blue, black & silver chrome balloon garland", "Giant silver orbz + marquee light-up number 5"]}
+            rating={4.9}
+            reviews={246}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g2-pravya-butterfly-1st"
+            name="Our Little Princess 1st Birthday Butterfly Ring"
+            description="A dreamy 'Our Little Princess' 1st birthday ring backdrop in baby blue and white pearl balloons with twin balloon-and-butterfly side pillars, oversized 3D butterfly cutouts, a personalised photo banner inside the ring and a marquee light-up number 1 — perfect for a baby girl's restaurant or banquet celebration."
+            image={pkgG2PravyaButterfly.url}
+            includes={["Baby blue & white pearl balloon ring with personalised photo banner", "Twin balloon pillars with giant 3D butterfly cutouts", "Marquee light-up number 1 + ceiling butterfly accents"]}
+            rating={5.0}
+            reviews={284}
+            offer={<>₹3,999</>}
+            original={<>₹5,499</>}
+            discountPct={27}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g3-purple-bow-5-arch"
+            name="Ivory & Lilac Watercolour Bow 5th Birthday Arch"
+            description="A premium garden-friendly chiara arch backdrop in ivory with a hand-painted watercolour number 5 and pink bow 'Happy Birthday' design, framed by an elegant organic balloon garland of white, ivory and chrome lilac balloons with soft greenery and warm ground spotlights — a sophisticated setup for milestone birthdays."
+            image={pkgG3PurpleBow5.url}
+            includes={["Ivory chiara arch with hand-painted 5 & bow signage", "White, ivory & chrome lilac organic balloon garland", "Greenery accents + 2 warm ground spotlights"]}
+            rating={5.0}
+            reviews={231}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g4-aarvi-princess-disney"
+            name="Princess Aarvi Disney Princesses 5th Birthday"
+            description="A magical Disney Princesses theme 5th birthday setup with a personalised 'Princess Aarvi is Turning Five' backdrop featuring Cinderella, Belle, Jasmine, Ariel, Tiana and more, framed by a rainbow pastel and gold chrome balloon arch with butterfly accents, life-size Snow White, Belle, Aurora, Sofia and Rapunzel cutouts, butterfly props and 500+ floor balloons."
+            image={pkgG4AarviPrincess.url}
+            includes={["Personalised Disney Princesses backdrop banner", "5 life-size princess cutouts + rainbow balloon arch", "500+ floor balloons + butterfly props + LED lights"]}
+            rating={5.0}
+            reviews={312}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g5-jungle-safari-resto"
+            name="Jungle Safari Restaurant Birthday Arch"
+            description="A playful jungle safari birthday arch designed for restaurants and banquets with twin balloon pillars in ivory, gold chrome, white and forest green balloons topped with tiger, lion, monkey, zebra and cow animal head foils, a warm 'Happy Birthday' neon sign and lush balloon garlands — a wild and joyful setup loved by kids."
+            image={pkgG5JungleSafariResto.url}
+            includes={["Ivory, gold chrome, white & green balloon pillars", "5 jungle animal foils (tiger, lion, monkey, zebra, cow)", "Warm Happy Birthday neon sign + lush garlands"]}
+            rating={4.9}
+            reviews={267}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g6-pink-rosegold-ceiling"
+            name="Pink & Rose Gold Ceiling Balloon Bedroom Surprise"
+            description="A cosy bedroom birthday surprise with a dense ceiling balloon canopy of pastel pink and rose gold chrome balloons with hanging ribbons, a rose gold foil 'HAPPY BIRTHDAY' wall text, two heart foil balloons, twin balloon clusters on the side and a bed balloon scatter — a sweet last-minute setup for partners and bestfriends."
+            image={pkgG6PinkRosegoldCeiling.url}
+            includes={["Pink & rose gold ceiling balloons with ribbons", "Rose gold HAPPY BIRTHDAY foil text wall set", "Bed balloon scatter + 2 heart foils + side clusters"]}
+            rating={4.7}
+            reviews={418}
+            offer={<>₹1,799</>}
+            original={<>₹2,999</>}
+            discountPct={40}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g7-shashwat-23-gold-white"
+            name="Personalised Name & Number Gold Balloon Arch"
+            description="A celebratory home birthday arch in gold and white balloons with a silver fringe foil curtain centre, a black 'Happy Birthday' bunting, personalised gold foil name text and giant gold foil number balloons (any age) — shown here as 'SHASHWAT 23' and fully customisable to your name and age for a clean, classy in-home celebration."
+            image={pkgG7Shashwat23.url}
+            includes={["Gold & white balloon arch + silver fringe curtain", "Personalised gold foil name + giant gold age numbers", "Black Happy Birthday bunting + balloon side cluster"]}
+            rating={4.8}
+            reviews={342}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g8-purple-dreams-canopy"
+            name="Purple Dreams Bedroom Canopy Surprise"
+            description="A dreamy bedroom birthday surprise with a chrome purple, lilac and pastel pink ceiling balloon scatter, curled purple ribbons cascading down, a magical white veil + warm fairy-light canopy over the bed, a silver foil 'HAPPY BIRTHDAY' wall text, heart and star foils and a balloon scatter on the bed — perfect for romantic and milestone birthday surprises."
+            image={pkgG8PurpleDreamsCanopy.url}
+            includes={["Chrome purple, lilac & pink ceiling balloons with ribbons", "White veil + warm fairy-light bed canopy", "Silver HAPPY BIRTHDAY foil text + heart & star foils"]}
+            rating={4.9}
+            reviews={298}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g9-red-heart-romantic-room"
+            name="Red Heart Romantic Bedroom Birthday Surprise"
+            description="A passionate red-heart romantic bedroom birthday setup with dozens of hanging red heart foil and latex balloons from the ceiling, a 'love' neon sign on the wall, a giant red heart foil centrepiece, a rose petal heart on the bed and a thick rose petal trail on the floor — an unforgettable surprise for partner birthdays."
+            image={pkgG9RedHeartRoom.url}
+            includes={["Hanging red heart foil & latex balloons from ceiling", "Wall 'love' neon sign + giant red heart foil centrepiece", "Rose petal heart on bed + petal trail on floor"]}
+            rating={5.0}
+            reviews={386}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-g10-gold-silver-ceiling-canopy"
+            name="Gold & Silver Ceiling Canopy Bedroom Surprise"
+            description="A regal bedroom birthday surprise with a dense gold and silver chrome ceiling balloon scatter with cascading ribbons, a romantic white veil + warm fairy-light canopy draped over the bed, a gold foil 'HAPPY BIRTHDAY' wall text and a bed full of gold and silver chrome balloons with a soft teddy centrepiece — a luxurious last-minute setup for partner and family birthdays."
+            image={pkgG10GoldCeilingCanopy.url}
+            includes={["Gold & silver chrome ceiling balloons with ribbons", "White veil + warm fairy-light bed canopy", "Gold HAPPY BIRTHDAY foil text + bed balloon scatter + teddy"]}
+            rating={4.8}
+            reviews={264}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
             bestSeller={false}
           />
         </div>
