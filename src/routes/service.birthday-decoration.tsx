@@ -1480,7 +1480,138 @@ function ServicePage() {
             discountPct={30}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-f1-cocomelon-2nd-pastel"
+            name="CoComelon Pastel Rainbow 2nd Birthday Ring"
+            description="A joyful 2nd birthday CoComelon themed balloon ring in pastel purple, blue, pink, green and yellow balloons with two JJ sunflower foil cutouts, a JJ character foil on top, a sky-blue shimmer foil curtain, neon 'Happy Birthday' sign, gold foil number 2 and a red star foil accent — perfect for your little champ."
+            image={pkgF1Cocomelon2nd.url}
+            includes={["Pastel rainbow CoComelon balloon ring with 3 JJ foil cutouts", "Sky-blue shimmer foil curtain + neon Happy Birthday sign", "Gold foil number 2 + red star foil + balloon pillars"]}
+            rating={5.0}
+            reviews={264}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f2-4th-blue-gold-silver"
+            name="Royal Blue, Gold & Silver 4th Birthday Arch"
+            description="A classic 4th birthday balloon arch in royal blue, baby blue, white, gold chrome and silver chrome balloons with gold confetti accents, a sheer white drape backdrop, a gold cursive 'Happy Birthday' banner, a giant gold foil number 4 column and a matching blue and gold balloon block at the base."
+            image={pkgF2FourthBlueGold.url}
+            includes={["Royal blue, white, gold & silver chrome balloon arch", "Sheer drape + gold Happy Birthday cursive banner", "Giant gold foil 4 column + balloon block base"]}
+            rating={4.9}
+            reviews={221}
+            offer={<>₹2,499</>}
+            original={<>₹3,999</>}
+            discountPct={38}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f3-pink-purple-butterfly-frame"
+            name="Pink, Lilac & Rose Gold Butterfly Frame"
+            description="A dreamy square birthday balloon frame in soft pink, lilac, peach, white, chrome purple and rose gold balloons with two balloon butterfly accents, a warm golden fairy-light curtain centre and a neon 'Happy Birthday' sign — a romantic setup that frames every photo beautifully."
+            image={pkgF3PinkPurpleFrame.url}
+            includes={["Pink, lilac, chrome purple & rose gold square balloon frame", "Golden fairy-light curtain + neon Happy Birthday sign", "2 balloon butterfly accents + wrapped log plinth"]}
+            rating={4.9}
+            reviews={208}
+            offer={<>₹2,499</>}
+            original={<>₹3,999</>}
+            discountPct={38}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f4-pastel-floral-asymmetric"
+            name="Pastel Floral & Vine Asymmetric Arch"
+            description="A premium asymmetric birthday balloon arch in peach, blush pink, dove grey and ivory balloons cascading with fresh roses, hydrangeas and leafy vines, a soft white neon 'Happy Birthday' sign and a glowing lotus light accent — a luxurious, photoshoot-ready setup made for milestone celebrations."
+            image={pkgF4PastelFloral.url}
+            includes={["Peach, pink, grey & ivory asymmetric balloon arch", "Fresh roses, hydrangeas & leafy vine garlands", "Neon Happy Birthday sign + glowing lotus light accent"]}
+            rating={5.0}
+            reviews={296}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f5-manisha-pink-yellow-arch"
+            name="Hot Pink Retro Chiara Personalised Arch"
+            description="A statement birthday setup featuring a custom hot pink retro chiara arch panel with personalised 'Happy Birthday Manisha' vinyl, framed by a lush organic balloon garland of pastel pink, butter yellow, white, gold confetti and rose gold chrome balloons with greenery and ground spotlights — fully customisable to any name."
+            image={pkgF5ManishaArch.url}
+            includes={["Custom hot pink chiara arch with personalised name vinyl", "Pastel pink, yellow, confetti & rose gold balloon garland", "Greenery accents + 2 warm ground spotlights"]}
+            rating={5.0}
+            reviews={241}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f6-black-gold-luxury-pillars"
+            name="Black, Gold & Ivory Luxury Ballroom Birthday"
+            description="A grand ballroom-style birthday arch in ivory, gold chrome and black balloons with a soft beige chiara backdrop, neon 'Happy Birthday' sign, dramatic pampas grass sunburst and twin gold star foil balloon pillars on white-gold-black bases — an upscale luxury setup for milestone birthdays and adult celebrations."
+            image={pkgF6BlackGoldPillars.url}
+            includes={["Ivory, gold chrome & black ballroom balloon arch", "Beige chiara backdrop + neon Happy Birthday + pampas sunburst", "Twin gold star foil balloon pillars on tri-tone bases"]}
+            rating={5.0}
+            reviews={273}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f7-niyansh-cars-3rd"
+            name="Niyansh Lightning McQueen Cars 3rd Birthday"
+            description="A high-energy Lightning McQueen Cars themed 3rd birthday balloon ring in red, silver, gold chrome and pink balloons with a black shimmer foil curtain centre, gold 'Happy Birthday' cursive foil text, a personalised 'NIYANSH' name banner, McQueen, star, heart and gift box foils plus toy car props at the base."
+            image={pkgF7NiyanshCars.url}
+            includes={["Red, silver & gold chrome Cars balloon ring", "Personalised NIYANSH banner + Happy Birthday foil + McQueen foil", "Star, heart, gift box foils + toy car props on floor"]}
+            rating={4.9}
+            reviews={219}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f8-hafsa-pink-wings-1st"
+            name="Hafsa Atif Rainbow Angel Wings 1st Birthday"
+            description="A magical 1st birthday backdrop with a rainbow angel wings printed panel, personalised 'Happy Birthday Hafsa Atif' text, framed by a hot pink, rose gold, blush and white chrome balloon arch with a Princess Sofia character foil cutout, a marquee light-up number 1 and HAFSA marquee light-up letters on the floor."
+            image={pkgF8HafsaWings.url}
+            includes={["Custom rainbow angel wings panel with personalised name", "Hot pink, rose gold & white chrome balloon arch", "Princess Sofia cutout + marquee 1 + HAFSA marquee letters"]}
+            rating={5.0}
+            reviews={252}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f9-sita-2nd-pink-blue-gold"
+            name="Pink, Royal Blue & Gold Chrome 2nd Birthday Arch"
+            description="A modern restaurant-style 2nd birthday arch on a soft white chiara panel with personalised 'Sita's 2nd Birthday' vinyl, dressed with a chic balloon garland of blush pink, royal blue, taupe and gold chrome balloons accented by oversized navy, coral and white foil daisy flowers — fully customisable to any name and age."
+            image={pkgF9SitaPinkBlue.url}
+            includes={["Custom white chiara arch with personalised name & age vinyl", "Pink, royal blue, taupe & gold chrome balloon garland", "3 oversized foil flower accents (navy, coral, white daisy)"]}
+            rating={4.9}
+            reviews={234}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-f10-1st-blue-white-boy"
+            name="1st Birthday Boy Blue & White Balloon Arch"
+            description="A classic 1st birthday boy balloon arch in baby blue and white balloons with twin blue star foils, a teal heart foil top, a silver shimmer foil curtain, a giant blue foil number 1, 'First Birthday Boy' round foils, a Happy Birthday banner, ONE balloon block cubes and personalised photo cards — a wholesome home setup for your little one."
+            image={pkgF10FirstBlueBoy.url}
+            includes={["Baby blue & white balloon arch with star & heart foils", "Silver foil curtain + giant blue foil 1 + Happy Birthday banner", "ONE balloon block cubes + 4 personalised photo cards"]}
+            rating={4.9}
+            reviews={187}
+            offer={<>₹2,199</>}
+            original={<>₹3,999</>}
+            discountPct={45}
+            bestSeller={false}
+          />
         </div>
+
 
 
 
