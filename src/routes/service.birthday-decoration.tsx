@@ -240,6 +240,16 @@ const birthdayGalleryImages = [
   { src: pkgF8HafsaWings.url, alt: "Hafsa Atif 1st birthday rainbow angel wings backdrop with hot pink, rose gold and white chrome balloon arch, Princess Sofia foil and HAFSA marquee letters" },
   { src: pkgF9SitaPinkBlue.url, alt: "Sita's 2nd birthday white arch with royal blue, blush pink and gold chrome balloon garland and oversized foil flower accents" },
   { src: pkgF10FirstBlueBoy.url, alt: "1st Birthday Boy blue and white balloon arch with silver foil curtain, blue foil number 1, star foils and ONE balloon block cubes" },
+  { src: pkgG1Spiderman.url, alt: "Spider-Man theme 5th birthday round backdrop for Samrat with red, blue, black and silver chrome balloon garland and marquee 5" },
+  { src: pkgG2PravyaButterfly.url, alt: "Our Little Princess Pravya 1st birthday baby blue and white balloon ring with butterfly cutouts and marquee number 1" },
+  { src: pkgG3PurpleBow5.url, alt: "Pastel ivory arch with lilac chrome and white balloon garland, hand-painted 5 with pink bow Happy Birthday signage" },
+  { src: pkgG4AarviPrincess.url, alt: "Princess Aarvi turning 5 Disney princesses backdrop with rainbow pastel and gold chrome balloon arch and life-size princess cutouts" },
+  { src: pkgG5JungleSafariResto.url, alt: "Jungle Safari restaurant birthday arch with white, gold and green balloon pillars and tiger, lion, monkey, zebra and cow animal foils and Happy Birthday neon" },
+  { src: pkgG6PinkRosegoldCeiling.url, alt: "Pink and rose gold chrome ceiling balloon canopy bedroom surprise with HAPPY BIRTHDAY foil text and bed balloon cluster" },
+  { src: pkgG7Shashwat23.url, alt: "Shashwat 23rd birthday gold and white balloon arch with silver fringe curtain, black Happy Birthday bunting and gold foil 23" },
+  { src: pkgG8PurpleDreamsCanopy.url, alt: "Purple dreams bedroom birthday surprise with chrome purple and lilac ceiling balloons, white veil fairy-light canopy and silver Happy Birthday foil text" },
+  { src: pkgG9RedHeartRoom.url, alt: "Romantic red heart birthday room decor with hanging red heart balloons, LOVE neon, rose petal heart on bed and floor petals" },
+  { src: pkgG10GoldCeilingCanopy.url, alt: "Gold and silver chrome ceiling balloon surprise with white veil fairy-light canopy, gold Happy Birthday foil text and bed balloon cluster" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
