@@ -220,6 +220,16 @@ const birthdayGalleryImages = [
   { src: pkgE8SiaPinkGold.url, alt: "Sia 1st birthday gold fringe curtain with pink, lilac and gold chrome balloon ring, gold butterflies and marquee SIA letters" },
   { src: pkgE9JungleSafari.url, alt: "Jungle safari 1st birthday green, white and gold chrome balloon arch with tiger, zebra, giraffe foils and marquee number 1" },
   { src: pkgE10FairyPrincess.url, alt: "Fairy princess purple ombre balloon ring with silver fringe curtain, neon Happy Birthday and two fairy princess cutouts" },
+  { src: pkgF1Cocomelon2nd.url, alt: "2nd birthday CoComelon pastel rainbow balloon ring with JJ character foils, blue shimmer curtain, neon Happy Birthday and gold foil 2" },
+  { src: pkgF2FourthBlueGold.url, alt: "4th birthday royal blue, white, gold and silver chrome balloon arch with gold Happy Birthday banner, sheer drape and gold foil 4 column" },
+  { src: pkgF3PinkPurpleFrame.url, alt: "Pink, lilac, rose gold and chrome purple balloon frame backdrop with gold fairy-light curtain, neon Happy Birthday and balloon butterfly accents" },
+  { src: pkgF4PastelFloral.url, alt: "Pastel peach, pink, grey and white asymmetric balloon arch with fresh florals, leafy vines, neon Happy Birthday and lotus light accent" },
+  { src: pkgF5ManishaArch.url, alt: "Hot pink retro chiara arch backdrop with Happy Birthday Manisha vinyl and pastel yellow and pink balloon garland with greenery" },
+  { src: pkgF6BlackGoldPillars.url, alt: "Luxury ballroom birthday arch in beige, gold chrome and black balloons with neon Happy Birthday, pampas sunburst and twin gold star balloon pillars" },
+  { src: pkgF7NiyanshCars.url, alt: "Niyansh 3rd birthday Lightning McQueen Cars theme balloon ring in red, silver and gold chrome with star foils, NIYANSH banner and toy car props" },
+  { src: pkgF8HafsaWings.url, alt: "Hafsa Atif 1st birthday rainbow angel wings backdrop with hot pink, rose gold and white chrome balloon arch, Princess Sofia foil and HAFSA marquee letters" },
+  { src: pkgF9SitaPinkBlue.url, alt: "Sita's 2nd birthday white arch with royal blue, blush pink and gold chrome balloon garland and oversized foil flower accents" },
+  { src: pkgF10FirstBlueBoy.url, alt: "1st Birthday Boy blue and white balloon arch with silver foil curtain, blue foil number 1, star foils and ONE balloon block cubes" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
