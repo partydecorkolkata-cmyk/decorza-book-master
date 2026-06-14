@@ -177,7 +177,7 @@ function ServicePage() {
             <img src="/36260f0d-da30-4ba0-aa88-bac67d178bed.webp" alt="Anniversary Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/4665153c-3e8b-4ba8-9a93-f357082df038.jpg" alt="Anniversary Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/54013206-8c95-465c-a4ad-05daa25f6a56.jpg" alt="Anniversary Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {NEW_ANNIV_CARDS.map((p) => (
+            {ALL_NEW_ANNIV.map((p) => (
               <img key={p.id} src={p.img} alt={p.name} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
