@@ -138,7 +138,7 @@ function ServicePage() {
             name="Luxury Anniversary Decoration"
             description="A full luxury anniversary experience with a grand floral installation, sweetheart lounge corner, drapes, props and uplighters — recreated to match the photo."
             image="/b0418de5-2b26-48c7-bb26-a32effdfe487.webp"
-            includes={["Grand fresh floral installation","Sweetheart lounge corner & seating","Premium drapes, props & uplighters"]}
+            includes={["✓\nPastel balloon arch & customisable backdrop", "\n\n\u00a0 \u00a0Palm leaves and spot light / focus light\u00a0", "✓\nNumber led light & flower stand\u00a0"]}
             rating={4.8}
             reviews={847}
             offer={<>₹9,999</>}
