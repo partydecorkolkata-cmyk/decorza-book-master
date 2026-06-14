@@ -112,7 +112,7 @@ function ServicePage() {
             name="Essential Anniversary Decoration"
             description="A romantic anniversary setup with a printed couple backdrop, soft pastel balloon arch, fairy lights and floral pedestal — clean and photo-ready, just like the picture."
             image="/745b9998-0fb1-4a81-a2cf-6f3870657562.jpg"
-            includes={["Printed couple photo backdrop","Pastel balloon arch & florals","Warm fairy-light pedestal setup"]}
+            includes={["✓\nRound ring balloon arch", "✓\nChrome balloon & neon sign light\u00a0", "✓\nNumber led light & cake cutting table\u00a0"]}
             rating={4.7}
             reviews={386}
             offer={<>₹3,499</>}
