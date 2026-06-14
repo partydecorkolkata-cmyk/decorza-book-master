@@ -125,7 +125,7 @@ function ServicePage() {
             name="Premium Anniversary Decoration"
             description="An upgraded anniversary setup with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled exactly like the reference photo."
             image="/9a913431-969c-4e55-998a-a7bba80c991b.webp"
-            includes={["Premium artificial flower arch","Draped cloth backdrop + uplighters","Fresh flower accents & fairy lights"]}
+            includes={["✓\nPremium chrome ballon arch\u00a0", "\u00a0\nCustomisable backdrop + neon sign light", "\n\n\u00a0Artificial flower accents + focus light\u00a0"]}
             rating={4.9}
             reviews={612}
             offer={<>₹4,499</>}
