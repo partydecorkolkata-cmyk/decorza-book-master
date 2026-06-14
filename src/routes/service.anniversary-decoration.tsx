@@ -8,6 +8,29 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import annivA1 from "@/assets/anniv-a1-25y-sequin-red-gold.jpg.asset.json";
+import annivA2 from "@/assets/anniv-a2-red-silver-heart-arch.jpg.asset.json";
+import annivA3 from "@/assets/anniv-a3-sarika-ritesh-25th.webp.asset.json";
+import annivA4 from "@/assets/anniv-a4-25th-silver-palm.jpg.asset.json";
+import annivA5 from "@/assets/anniv-a5-35th-pink-purple-sequin.jpg.asset.json";
+import annivA6 from "@/assets/anniv-a6-gold-ring-palm-fans.jpg.asset.json";
+import annivA7 from "@/assets/anniv-a7-25th-gold-black-peach.webp.asset.json";
+import annivA8 from "@/assets/anniv-a8-pink-rosegold-love-ring.jpg.asset.json";
+import annivA9 from "@/assets/anniv-a9-25-outdoor-pink-garden.jpg.asset.json";
+import annivA10 from "@/assets/anniv-a10-rosegold-ring-photo.webp.asset.json";
+
+const NEW_ANNIV_CARDS = [
+  { id: "anniversary-a1-25y-sequin", img: annivA1.url, name: "25 Years Rose-Gold Sequin Wall", desc: "Shimmering rose-gold sequin wall paired with a lush gold, maroon & ivory balloon garland, glowing marquee '25' numbers and a neon Happy Anniversary sign — exactly like the picture.", mrp: 8999, sp: 6499, off: 28, best: true },
+  { id: "anniversary-a2-heart-arch", img: annivA2.url, name: "Red, Gold & Silver Heart Arch", desc: "A bold heart-shaped balloon arch in red, chrome gold and silver with foil hearts and a Happy Anniversary banner against a silver fringe curtain — recreated to match the photo.", mrp: 4999, sp: 3499, off: 30 },
+  { id: "anniversary-a3-sarika-ritesh", img: annivA3.url, name: "Personalised 25th Celebration Arch", desc: "Custom-printed arch backdrop with couple's name and monogram, soft white & nude balloon garland and glowing marquee '25' numbers — fully personalised like the reference.", mrp: 5999, sp: 4499, off: 25 },
+  { id: "anniversary-a4-silver-palm", img: annivA4.url, name: "25th Silver, White & Dried Palm Arch", desc: "Elegant pastel arch backdrop with a chrome silver & white balloon cluster, silver burst stars, butterfly cut-outs and dried palm leaves with floral accents — styled like the picture.", mrp: 5999, sp: 4499, off: 25 },
+  { id: "anniversary-a5-35th-pink-purple", img: annivA5.url, name: "35th Pink & Purple Iridescent Sequin", desc: "Iridescent pastel sequin wall framed by a pink, lilac and rose-gold balloon garland, marquee '35' numbers and a fresh floral pedestal — a dreamy milestone setup as shown.", mrp: 8999, sp: 6499, off: 28 },
+  { id: "anniversary-a6-gold-ring-palm", img: annivA6.url, name: "Royal Gold Ring & Palm Fans", desc: "Grand circular ring backdrop loaded with chrome gold balloons, dried palm fans and a neon Happy Anniversary sign — paired with a glowing white '1' for the perfect anniversary photo.", mrp: 4999, sp: 3499, off: 30 },
+  { id: "anniversary-a7-25th-gold-black-peach", img: annivA7.url, name: "Happy 25th Gold, Black & Peach Arch", desc: "Custom 'Happy 25th Anniversary' printed backdrop framed by a gold, black and peach balloon garland with foil stars and uplighters — exactly like the reference setup.", mrp: 5999, sp: 4499, off: 25 },
+  { id: "anniversary-a8-pink-rosegold-love", img: annivA8.url, name: "Pink, Rose-Gold & Love Ring Arch", desc: "Romantic ring backdrop in pink, white and chrome rose-gold balloons with silver foil stars, fairy lights, a glowing neon sign and a red 'love' foil — straight from the picture.", mrp: 4499, sp: 2999, off: 33 },
+  { id: "anniversary-a9-25-outdoor-garden", img: annivA9.url, name: "25th Outdoor Garden Ring Setup", desc: "Garden-style ring arch with pastel pink, white and chrome gold balloons, fresh florals, a neon Happy Anniversary sign and glowing marquee '25' numbers — recreated outdoors as shown.", mrp: 5499, sp: 3999, off: 27 },
+  { id: "anniversary-a10-rosegold-photo", img: annivA10.url, name: "Rose-Gold Ring with Photo Strings", desc: "Stunning ring backdrop in soft pink and chrome rose-gold balloons with a neon Happy Anniversary sign and personalised photo strings on star lights — a memory-lane setup like the picture.", mrp: 4999, sp: 3499, off: 30 },
+];
 
 export const Route = createFileRoute("/service/anniversary-decoration")({
   loader: () => {
