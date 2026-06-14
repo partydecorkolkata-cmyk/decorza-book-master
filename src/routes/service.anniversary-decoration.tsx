@@ -112,9 +112,9 @@ function ServicePage() {
             name="Essential Anniversary Decoration"
             description="A romantic anniversary setup with a printed couple backdrop, soft pastel balloon arch, fairy lights and floral pedestal — clean and photo-ready, just like the picture."
             image="/745b9998-0fb1-4a81-a2cf-6f3870657562.jpg"
-            includes={["Designer printed backdrop","Pastel balloon arch & florals","Warm fairy-light setup"]}
-            rating={4.8}
-            reviews={520}
+            includes={["Printed couple photo backdrop","Pastel balloon arch & florals","Warm fairy-light pedestal setup"]}
+            rating={4.7}
+            reviews={386}
             offer={<>₹3,499</>}
             original={<>₹4,999</>}
             discountPct={30}
@@ -125,9 +125,9 @@ function ServicePage() {
             name="Premium Anniversary Decoration"
             description="An upgraded anniversary setup with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled exactly like the reference photo."
             image="/9a913431-969c-4e55-998a-a7bba80c991b.webp"
-            includes={["Premium artificial flower arch","Premium cloth & light setup","Fresh flower accents"]}
+            includes={["Premium artificial flower arch","Draped cloth backdrop + uplighters","Fresh flower accents & fairy lights"]}
             rating={4.9}
-            reviews={728}
+            reviews={612}
             offer={<>₹4,499</>}
             original={<>₹5,999</>}
             discountPct={25}
@@ -138,24 +138,24 @@ function ServicePage() {
             name="Luxury Anniversary Decoration"
             description="A full luxury anniversary experience with a grand floral installation, sweetheart lounge corner, drapes, props and uplighters — recreated to match the photo."
             image="/b0418de5-2b26-48c7-bb26-a32effdfe487.webp"
-            includes={["Luxury floral installation","Sweetheart corner & seating","Premium lights, drapes & props"]}
+            includes={["Grand fresh floral installation","Sweetheart lounge corner & seating","Premium drapes, props & uplighters"]}
             rating={4.8}
-            reviews={1213}
+            reviews={847}
             offer={<>₹9,999</>}
             original={<>₹14,999</>}
             discountPct={33}
             bestSeller={false}
           />
-          {NEW_ANNIV_CARDS.map((p) => (
+          {ALL_NEW_ANNIV.map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
               name={p.name}
               description={p.desc}
               image={p.img}
-              includes={["Designer backdrop & balloon work","On-site setup by decor team","Themed props & lighting"]}
-              rating={4.9}
-              reviews={420}
+              includes={p.inc}
+              rating={p.rt}
+              reviews={p.rv}
               offer={<>₹{p.sp.toLocaleString("en-IN")}</>}
               original={<>₹{p.mrp.toLocaleString("en-IN")}</>}
               discountPct={p.off}
