@@ -182,7 +182,7 @@ function ServicePage() {
               offer={<>₹{p.sp.toLocaleString("en-IN")}</>}
               original={<>₹{p.mrp.toLocaleString("en-IN")}</>}
               discountPct={p.off}
-              bestSeller={p.best}
+              bestSeller={(p as { best?: boolean }).best}
             />
           ))}
         </div>
