@@ -47,6 +47,16 @@ import annivD7 from "@/assets/anniv-d7.jpg.asset.json";
 import annivD8 from "@/assets/anniv-d8.jpg.asset.json";
 import annivD9 from "@/assets/anniv-d9.jpeg.asset.json";
 import annivD10 from "@/assets/anniv-d10.jpg.asset.json";
+import annivE1 from "@/assets/anniv-e1.jpg.asset.json";
+import annivE2 from "@/assets/anniv-e2.jpg.asset.json";
+import annivE3 from "@/assets/anniv-e3.jpg.asset.json";
+import annivE4 from "@/assets/anniv-e4.jpeg.asset.json";
+import annivE5 from "@/assets/anniv-e5.jpeg.asset.json";
+import annivE6 from "@/assets/anniv-e6.jpg.asset.json";
+import annivE7 from "@/assets/anniv-e7.jpg.asset.json";
+import annivE8 from "@/assets/anniv-e8.webp.asset.json";
+import annivE9 from "@/assets/anniv-e9.jpg.asset.json";
+import annivE10 from "@/assets/anniv-e10.jpg.asset.json";
 
 const NEW_ANNIV_CARDS = [
   { id: "anniversary-a1-25y-sequin", img: annivA1.url, name: "25 Years Rose-Gold Sequin Wall", desc: "Shimmering rose-gold sequin wall paired with a lush gold, maroon & ivory balloon garland, glowing marquee '25' numbers and a neon Happy Anniversary sign — exactly like the picture.", mrp: 8999, sp: 6499, off: 28, best: true, inc: ["Rose-gold sequin shimmer wall","Gold, maroon & ivory balloon garland","Marquee '25' numbers + neon sign"], rt: 4.9, rv: 612 },
@@ -99,7 +109,20 @@ const NEW_ANNIV_CARDS_D = [
   { id: "anniversary-d10-gold-white-brick-1", img: annivD10.url, name: "Gold & White Ring Anniversary Arch (Rustic)", desc: "Beautiful gold & white balloon ring arch on a rustic brick wall with a glowing 'Happy Anniversary' neon, gold foil stars, confetti accents and a gold marquee '1' foil number — recreated like the picture.", mrp: 4499, sp: 3199, off: 29, inc: ["✓\nGold & white ring balloon arch", "✓\nHappy Anniversary neon + foil stars", "✓\nGold '1' foil number"], rt: 4.8, rv: 302 },
 ];
 
-const ALL_NEW_ANNIV = [...NEW_ANNIV_CARDS, ...NEW_ANNIV_CARDS_B, ...NEW_ANNIV_CARDS_C, ...NEW_ANNIV_CARDS_D];
+const NEW_ANNIV_CARDS_E = [
+  { id: "anniversary-e1-purple-white-gold-arch", img: annivE1.url, name: "Purple, White & Gold Personalised Arch", desc: "Romantic personalised 'Happy Anniversary' panel with the couple's names, framed by a lush purple, lilac, white and chrome gold balloon arch with side balloon pillar — recreated exactly like the picture.", mrp: 5999, sp: 3499, off: 42, inc: ["✓\nPurple, lilac & white balloon arch", "✓\nPersonalised name backdrop panel", "✓\nGold chrome accents + side pillar"], rt: 4.8, rv: 287 },
+  { id: "anniversary-e2-40-years-rosegold", img: annivE2.url, name: "40 Years of Love Rose-Gold Arch", desc: "Elegant '40 Years of Love' printed arched backdrop framed with a chrome rose-gold, ivory and white organic balloon garland and dried golden palm spear accents — exactly like the photo.", mrp: 5999, sp: 3499, off: 42, inc: ["✓\nPrinted '40 Years of Love' arch", "✓\nRose-gold & ivory organic garland", "✓\nDried golden palm spears"], rt: 4.9, rv: 364 },
+  { id: "anniversary-e3-red-tent-i-love-you", img: annivE3.url, name: "Red Cabana Tent & I LOVE YOU Marquee", desc: "Dreamy room surprise with a sheer fairy-light cabana tent, lanterns inside, neon 'Happy Anniversary' sign, red foil heart, pink flower balloon stand, marquee 'I LOVE YOU' lights and a rose-petal heart — straight from the picture.", mrp: 5499, sp: 3499, off: 36, inc: ["✓\nFairy-light cabana tent + lanterns", "✓\nMarquee 'I LOVE YOU' light letters", "✓\nNeon sign + rose petal heart"], rt: 4.9, rv: 421, best: true },
+  { id: "anniversary-e4-red-foil-anniversary", img: annivE4.url, name: "Red Foil HAPPY ANNIVERSARY Room Surprise", desc: "Romantic room surprise with red foil curtain backdrop, silver 'HAPPY ANNIVERSARY' foil letters, foil hearts and stars, red-white ceiling balloons and twin red-silver balloon pillars — recreated like the picture.", mrp: 2999, sp: 1999, off: 33, inc: ["✓\nRed foil curtain + silver letters", "✓\nRed & white ceiling balloons", "✓\nFoil hearts, stars & balloon pillars"], rt: 4.7, rv: 246 },
+  { id: "anniversary-e5-pink-foil-anniversary", img: annivE5.url, name: "Pink Foil HAPPY ANNIVERSARY with Champagne", desc: "Cheerful room surprise with hot-pink foil curtain, silver 'HAPPY ANNIVERSARY' foil letters, foil stars and hearts, pink-silver ceiling balloons, twin balloon pillars and a giant champagne bottle foil — exactly like the photo.", mrp: 2999, sp: 1999, off: 33, inc: ["✓\nPink foil curtain + silver letters", "✓\nPink-silver ceiling balloons + pillars", "✓\nChampagne bottle foil balloon"], rt: 4.8, rv: 272 },
+  { id: "anniversary-e6-25th-navy-gold-arch", img: annivE6.url, name: "25th Navy, Gold & Ivory Anniversary Arch", desc: "Classy 'Happy 25th Anniversary' arched panel with a navy blue, chrome gold and ivory organic balloon garland and matching side balloon column — styled exactly like the reference photo.", mrp: 5999, sp: 3499, off: 42, inc: ["✓\nPrinted 25th anniversary arch panel", "✓\nNavy, gold & ivory organic garland", "✓\nMatching side balloon column"], rt: 4.9, rv: 338 },
+  { id: "anniversary-e7-pink-rosegold-ring-1", img: annivE7.url, name: "Pink & Rose-Gold Ring with Marquee 1", desc: "Stunning circular ring backdrop loaded with pink, white, silver and chrome rose-gold balloons, soft peach drape, neon 'Happy Anniversary' sign, gold cocktail table and a glowing marquee '1' light number — recreated like the picture.", mrp: 4999, sp: 3499, off: 30, inc: ["✓\nPink & rose-gold ring arch + drape", "✓\nNeon sign + gold cocktail table", "✓\nMarquee '1' light number"], rt: 4.9, rv: 392 },
+  { id: "anniversary-e8-gold-sequin-wall", img: annivE8.url, name: "Grand Gold Sequin Shimmer Wall Setup", desc: "Luxurious gold sequin shimmer wall framed by a chrome gold, silver, ivory and white organic balloon garland with dried pampas accents, neon 'Happy Anniversary' sign and a gold pedestal — premium setup exactly like the photo.", mrp: 11999, sp: 7999, off: 33, inc: ["✓\nGold sequin shimmer wall", "✓\nGold, silver & ivory organic garland", "✓\nNeon sign + dried pampas + pedestal"], rt: 4.9, rv: 587, best: true },
+  { id: "anniversary-e9-30th-amma-nanna", img: annivE9.url, name: "Personalised 30th 'Together Forever' Arch", desc: "Premium personalised 'Happy 30th Anniversary' backdrop with 'Together Forever' calligraphy and the couple's names, framed by a red, chrome gold and ivory balloon garland with fresh roses, pampas centrepiece and a neon Happy Anniversary sign — exactly like the photo.", mrp: 8999, sp: 6499, off: 28, inc: ["✓\nPersonalised 30th printed backdrop", "✓\nRed, gold & ivory organic garland", "✓\nPampas centrepiece + neon sign"], rt: 4.9, rv: 462 },
+  { id: "anniversary-e10-rosegold-neon-ring", img: annivE10.url, name: "Rose-Gold & White Neon Ring Arch", desc: "Elegant gold ring balloon arch in chrome rose-gold and pearl white balloons with fresh floral accents, a glowing neon 'Happy Anniversary' sign and matching balloon clusters on the floor — recreated like the picture.", mrp: 4999, sp: 3499, off: 30, inc: ["✓\nRose-gold & pearl ring balloon arch", "✓\nFresh floral accents on arch", "✓\nNeon 'Happy Anniversary' sign"], rt: 4.8, rv: 318 },
+];
+
+const ALL_NEW_ANNIV = [...NEW_ANNIV_CARDS, ...NEW_ANNIV_CARDS_B, ...NEW_ANNIV_CARDS_C, ...NEW_ANNIV_CARDS_D, ...NEW_ANNIV_CARDS_E];
 
 export const Route = createFileRoute("/service/anniversary-decoration")({
   loader: () => {
