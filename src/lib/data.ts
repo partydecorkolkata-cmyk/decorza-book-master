@@ -112,7 +112,7 @@ const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
 
 const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number }[]> = {
   "birthday-decoration": [{ original: 9999, offer: 7999 }, { original: 12999, offer: 12999 }, { original: 9999, offer: 4999 }],
-  "anniversary-decoration": [{ original: 9999, offer: 2999 }, { original: 9999, offer: 4499 }, { original: 9999, offer: 9999 }],
+  "anniversary-decoration": [{ original: 1499, offer: 1499 }, { original: 9999, offer: 4499 }, { original: 9999, offer: 9999 }],
   "theme-birthday-decoration": [{ original: 9999, offer: 3499 }, { original: 12500, offer: 4999 }, { original: 34999, offer: 19999 }],
   "baby-shower-decoration": [{ original: 10499, offer: 2499 }, { original: 12500, offer: 5999 }, { original: 11999, offer: 7999 }],
   "engagement-decoration": [{ original: 10499, offer: 6999 }, { original: 12500, offer: 7999 }, { original: 18999, offer: 12999 }],
