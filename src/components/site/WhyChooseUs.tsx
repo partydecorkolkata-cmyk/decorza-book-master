@@ -5,7 +5,7 @@ const ITEMS = [
   { icon: Award, title: "12,500+ Happy Celebrations", desc: "A decade of memorable moments delivered across India." },
   { icon: Clock, title: "Same Day Setup", desc: "Last-minute plans? Our team mobilises within hours." },
   { icon: Users, title: "Professional Decor Team", desc: "Trained, in-house decorators — never random freelancers." },
-  { icon: Wallet, title: "Affordable Packages", desc: "Transparent pricing from ₹1,499 — no hidden charges." },
+  { icon: Wallet, title: "Affordable Packages", desc: "Transparent pricing from ₹1499 — Transportation charges may include depend on address." },
   { icon: MapPin, title: "Multi-City Service", desc: "7 cities and counting — Kolkata to Mumbai, Delhi to Pune." },
   { icon: MessageCircle, title: "WhatsApp Booking Support", desc: "Instant quotes, real photos, fast confirmations 24/7." },
   { icon: Gem, title: "Premium Decoration Materials", desc: "Imported balloons, fresh florals, LED neon, designer props." },
