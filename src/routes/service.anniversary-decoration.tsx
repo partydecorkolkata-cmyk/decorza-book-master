@@ -184,7 +184,7 @@ function ServicePage() {
           </Badge>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Anniversary Decoration</h1>
           <p className="mt-4 max-w-2xl text-white/85">Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries.</p>
-          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1,499</p>
+          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1499— Transportation&nbsp;</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
               <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" />Book on WhatsApp</a>
