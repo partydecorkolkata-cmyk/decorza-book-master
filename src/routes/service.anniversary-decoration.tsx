@@ -47,6 +47,16 @@ import annivD7 from "@/assets/anniv-d7.jpg.asset.json";
 import annivD8 from "@/assets/anniv-d8.jpg.asset.json";
 import annivD9 from "@/assets/anniv-d9.jpeg.asset.json";
 import annivD10 from "@/assets/anniv-d10.jpg.asset.json";
+import annivE1 from "@/assets/anniv-e1.jpg.asset.json";
+import annivE2 from "@/assets/anniv-e2.jpg.asset.json";
+import annivE3 from "@/assets/anniv-e3.jpg.asset.json";
+import annivE4 from "@/assets/anniv-e4.jpeg.asset.json";
+import annivE5 from "@/assets/anniv-e5.jpeg.asset.json";
+import annivE6 from "@/assets/anniv-e6.jpg.asset.json";
+import annivE7 from "@/assets/anniv-e7.jpg.asset.json";
+import annivE8 from "@/assets/anniv-e8.webp.asset.json";
+import annivE9 from "@/assets/anniv-e9.jpg.asset.json";
+import annivE10 from "@/assets/anniv-e10.jpg.asset.json";
 
 const NEW_ANNIV_CARDS = [
   { id: "anniversary-a1-25y-sequin", img: annivA1.url, name: "25 Years Rose-Gold Sequin Wall", desc: "Shimmering rose-gold sequin wall paired with a lush gold, maroon & ivory balloon garland, glowing marquee '25' numbers and a neon Happy Anniversary sign — exactly like the picture.", mrp: 8999, sp: 6499, off: 28, best: true, inc: ["Rose-gold sequin shimmer wall","Gold, maroon & ivory balloon garland","Marquee '25' numbers + neon sign"], rt: 4.9, rv: 612 },
