@@ -286,7 +286,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {NEW_THEME_CARDS.map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
