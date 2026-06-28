@@ -157,9 +157,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-essential"
             name="Essential Theme Birthday Decoration"
-            description="A clean, photo-ready theme birthday decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
+            description="A clean, photo-ready themed birthday setup with a custom character backdrop, a colourful balloon garland arch and matching props — exactly as shown in the picture."
             image="/6e61fd55-46fb-4711-b051-e933b22701bb.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            includes={["Custom themed backdrop panel", "Colourful balloon garland arch", "Themed props, signage & cake pedestal", "Standard warm lighting setup"]}
             rating={4.7}
             reviews={383}
             offer={<>₹3,499</>}
@@ -170,9 +170,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-premium"
             name="Premium Theme Birthday Decoration"
-            description="An upgraded theme birthday decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
+            description="An upgraded themed birthday setup with a double-arch backdrop, a denser organic balloon garland in your chosen palette, themed character cut-outs, marquee name/number lights and fairy lighting — styled like the reference photo."
             image="/7e03dbe4-3334-458e-86b5-1a89a2631696.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            includes={["Double chiara / arch themed backdrop", "Dense organic balloon garland", "Themed character cut-outs + marquee name or number", "Decorated pedestal + fairy lights"]}
             rating={4.8}
             reviews={536}
             offer={<>₹4,999</>}
@@ -183,9 +183,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-luxury"
             name="Luxury Theme Birthday Decoration"
-            description="A full luxury theme birthday decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
+            description="A full luxury themed birthday experience with a grand custom stage backdrop, two themed arches, character cut-outs, sequin / shimmer wall, marquee name & number, personalised pedestals and themed props — recreated to match the photo."
             image="/ff1d6103-d695-41a4-96af-b20031509e2a.webp"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            includes={["Grand custom themed stage backdrop", "Twin themed arches + sequin/shimmer panel", "Themed character cut-outs + marquee name & number", "Personalised pedestals, props & uplighters"]}
             rating={4.7}
             reviews={893}
             offer={<>₹19,999</>}
@@ -193,6 +193,9 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
+          {NEW_THEME_CARDS.map((p) => (
+            <StaticPackageCard key={p.id} {...p} />
+          ))}
         </div>
       </section>
 
@@ -206,6 +209,9 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {NEW_THEME_CARDS.map((p, i) => (
+              <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
