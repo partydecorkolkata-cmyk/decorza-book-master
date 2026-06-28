@@ -8,6 +8,99 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import themeA1 from "@/assets/theme-a1.jpg.asset.json";
+import themeA2 from "@/assets/theme-a2.jpeg.asset.json";
+import themeA3 from "@/assets/theme-a3.jpeg.asset.json";
+import themeA4 from "@/assets/theme-a4.jpeg.asset.json";
+import themeA5 from "@/assets/theme-a5.jpg.asset.json";
+import themeA6 from "@/assets/theme-a6.jpg.asset.json";
+import themeA7 from "@/assets/theme-a7.jpg.asset.json";
+import themeA8 from "@/assets/theme-a8.jpeg.asset.json";
+import themeA9 from "@/assets/theme-a9.webp.asset.json";
+import themeA10 from "@/assets/theme-a10.jpg.asset.json";
+
+const NEW_THEME_CARDS = [
+  {
+    id: "theme-boss-baby-madhulan-luxury",
+    name: "Boss Baby Luxury Twin-Arch Birthday Setup",
+    description: "A grand Boss Baby themed twin-arch stage decor with black tie cut-outs, 'BOSS' name backdrop, marquee number 1 and name letters, balloon clusters in black, ivory and silver chrome with a 'Happy Birthday' neon — recreated as in the picture.",
+    image: themeA1.url,
+    includes: ["Twin chiara arches with tie & 'BOSS' name backdrop", "Boss Baby cut-outs + marquee name & number 1", "Black, ivory & silver chrome balloon garland", "'Happy Birthday' neon + decorated cake pedestal"],
+    rating: 4.9, reviews: 612, offer: <>₹17,999</>, original: <>₹24,999</>, discountPct: 28, bestSeller: true,
+  },
+  {
+    id: "theme-purple-13th-official-teenager",
+    name: "Purple 'Official Teenager' 13th Birthday Arch",
+    description: "A vibrant purple, lilac and white balloon garland arch over a silver foil-curtain backdrop with 'Happy Birthday Official Teenager' banner and silver foil '13' — perfect for the big teen reveal.",
+    image: themeA2.url,
+    includes: ["Purple, lilac & white balloon garland arch", "Silver foil-curtain backdrop", "'Official Teenager' banner + butterfly accents", "Silver foil number '13' with balloon pillars"],
+    rating: 4.7, reviews: 286, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-boss-baby-blue-arch-home",
+    name: "Boss Baby Blue & Gold Home Arch Setup",
+    description: "A classic Boss Baby ring arch decor in sky blue, black, white and gold chrome with two Boss Baby cut-outs, marquee '1', tie-print pedestal and a 'Happy Birthday' neon — ideal first-birthday home setup.",
+    image: themeA3.url,
+    includes: ["Blue, black, white & gold balloon ring arch", "Two Boss Baby cut-outs + marquee number 1", "Tie-print pedestal + 'Happy Birthday' neon", "White sheer curtain backdrop"],
+    rating: 4.8, reviews: 341, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-rudransh-boss-baby-grand",
+    name: "Rudransh Boss Baby Grand Stage Decor",
+    description: "A premium hall stage Boss Baby setup with gold sequin centre panel, custom 'Rudransh Turns 1' backdrop, three Boss Baby cut-outs, white picket fence, marquee name and a red stage carpet — exactly as in the photo.",
+    image: themeA4.url,
+    includes: ["Stage with gold sequin + custom 'Turns 1' backdrop", "Three Boss Baby cut-outs + marquee name letters", "White picket fence + red carpet stage", "Blue, white & silver chrome balloon clusters"],
+    rating: 4.9, reviews: 524, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-fairy-butterfly-blue-mouli",
+    name: "Blue Fairy & Butterfly Dreamland 3rd Birthday",
+    description: "A whimsical fairy theme decor with arched backdrop, fairy & butterfly cut-outs, heart neon lamp, bobo bubble balloons, baby-blue & white garland and a floral pedestal base — straight out of a storybook.",
+    image: themeA5.url,
+    includes: ["Custom fairy & butterfly arched backdrop", "Bobo bubble + blue & white balloon garland", "Heart neon lamp + fairy and number cut-outs", "Floral pedestal base with cake-stand"],
+    rating: 4.9, reviews: 408, offer: <>₹11,999</>, original: <>₹14,999</>, discountPct: 20, bestSeller: true,
+  },
+  {
+    id: "theme-spiderman-ved-ring-arch",
+    name: "Spider-Man Ring Arch Birthday Decor",
+    description: "An action-packed Spider-Man ring arch in red, blue and black balloons with Spidey foil, 'Happy Birthday' neon, marquee name, gold foil number and themed balloon pillars on either side.",
+    image: themeA6.url,
+    includes: ["Red, blue & black balloon ring arch + Spidey foil", "'Happy Birthday' neon + marquee name letters", "Gold foil number balloon", "Spider-Man cut-out + two balloon pillars"],
+    rating: 4.8, reviews: 372, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-cocomelon-dharmik-grand",
+    name: "Cocomelon Grand 1st Birthday Stage Decor",
+    description: "A full Cocomelon themed stage with custom 'Happy Birthday' name backdrop, pastel rainbow balloon arch, character cut-outs, school bus, marquee '1' and personalised pedestal cylinders — like the picture.",
+    image: themeA7.url,
+    includes: ["Triple custom Cocomelon backdrop panels", "Pastel rainbow + butterfly balloon arch", "Cocomelon character cut-outs + school bus prop", "Personalised name pedestals + marquee number 1"],
+    rating: 4.9, reviews: 478, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-boss-baby-yaseen-organic-arch",
+    name: "Boss Baby Yaseen Organic Balloon Arch",
+    description: "A modern organic balloon arch in shades of blue, grey, white and chrome over a striped 'Boss Baby Yaseen' twin chiara backdrop with a Boss Baby cut-out and marquee number 1.",
+    image: themeA8.url,
+    includes: ["Organic blue, grey, white & chrome balloon arch", "Striped 'Boss Baby' personalised twin chiara backdrop", "Boss Baby cut-out + white pedestal", "Marquee number 1 light"],
+    rating: 4.8, reviews: 263, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-baby-elephant-vedaant-pastel",
+    name: "Baby Elephant Pastel 1st Birthday Arch",
+    description: "A sweet pastel 1st birthday arch in peach, blue, mustard, orange and grey balloons over peach & blue chiara backdrops with a custom 'Happy 1st Birthday' name and a cute baby-elephant cut-out.",
+    image: themeA9.url,
+    includes: ["Peach & blue twin chiara backdrop with custom name", "Pastel balloon arch with floral accents", "Baby elephant cut-out + decorated pedestal", "Fresh-look floral & balloon base"],
+    rating: 4.9, reviews: 351, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-avinya-butterfly-pastel-outdoor",
+    name: "Avinya Pastel Butterfly Outdoor 1st Birthday",
+    description: "An outdoor pastel butterfly themed decor with custom 'Avinya Happy Birthday' twin chiara backdrop, pastel pink, mint and lavender balloon arch, big butterfly cut-out, marquee '1' and butterfly-wrapped pedestal.",
+    image: themeA10.url,
+    includes: ["Custom butterfly twin chiara backdrop", "Pastel pink, mint & lavender balloon arch", "Large butterfly cut-out + butterfly pedestal", "Marquee number 1 light"],
+    rating: 4.9, reviews: 297, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20, bestSeller: true,
+  },
+];
 
 export const Route = createFileRoute("/service/theme-birthday-decoration")({
   loader: () => {
@@ -64,9 +157,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-essential"
             name="Essential Theme Birthday Decoration"
-            description="A clean, photo-ready theme birthday decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
+            description="A clean, photo-ready themed birthday setup with a custom character backdrop, a colourful balloon garland arch and matching props — exactly as shown in the picture."
             image="/6e61fd55-46fb-4711-b051-e933b22701bb.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            includes={["Custom themed backdrop panel", "Colourful balloon garland arch", "Themed props, signage & cake pedestal", "Standard warm lighting setup"]}
             rating={4.7}
             reviews={383}
             offer={<>₹3,499</>}
@@ -77,9 +170,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-premium"
             name="Premium Theme Birthday Decoration"
-            description="An upgraded theme birthday decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
+            description="An upgraded themed birthday setup with a double-arch backdrop, a denser organic balloon garland in your chosen palette, themed character cut-outs, marquee name/number lights and fairy lighting — styled like the reference photo."
             image="/7e03dbe4-3334-458e-86b5-1a89a2631696.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            includes={["Double chiara / arch themed backdrop", "Dense organic balloon garland", "Themed character cut-outs + marquee name or number", "Decorated pedestal + fairy lights"]}
             rating={4.8}
             reviews={536}
             offer={<>₹4,999</>}
@@ -90,9 +183,9 @@ function ServicePage() {
           <StaticPackageCard
             id="theme-birthday-decoration-luxury"
             name="Luxury Theme Birthday Decoration"
-            description="A full luxury theme birthday decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
+            description="A full luxury themed birthday experience with a grand custom stage backdrop, two themed arches, character cut-outs, sequin / shimmer wall, marquee name & number, personalised pedestals and themed props — recreated to match the photo."
             image="/ff1d6103-d695-41a4-96af-b20031509e2a.webp"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            includes={["Grand custom themed stage backdrop", "Twin themed arches + sequin/shimmer panel", "Themed character cut-outs + marquee name & number", "Personalised pedestals, props & uplighters"]}
             rating={4.7}
             reviews={893}
             offer={<>₹19,999</>}
@@ -100,6 +193,9 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
+          {NEW_THEME_CARDS.map((p) => (
+            <StaticPackageCard key={p.id} {...p} />
+          ))}
         </div>
       </section>
 
@@ -113,6 +209,9 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {NEW_THEME_CARDS.map((p, i) => (
+              <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
