@@ -18,6 +18,99 @@ import themeA7 from "@/assets/theme-a7.jpg.asset.json";
 import themeA8 from "@/assets/theme-a8.jpeg.asset.json";
 import themeA9 from "@/assets/theme-a9.webp.asset.json";
 import themeA10 from "@/assets/theme-a10.jpg.asset.json";
+import themeB1 from "@/assets/theme-b1.jpeg.asset.json";
+import themeB2 from "@/assets/theme-b2.jpeg.asset.json";
+import themeB3 from "@/assets/theme-b3.webp.asset.json";
+import themeB4 from "@/assets/theme-b4.jpeg.asset.json";
+import themeB5 from "@/assets/theme-b5.jpeg.asset.json";
+import themeB6 from "@/assets/theme-b6.jpeg.asset.json";
+import themeB7 from "@/assets/theme-b7.jpeg.asset.json";
+import themeB8 from "@/assets/theme-b8.jpeg.asset.json";
+import themeB9 from "@/assets/theme-b9.jpeg.asset.json";
+import themeB10 from "@/assets/theme-b10.jpeg.asset.json";
+
+const NEW_THEME_CARDS_B = [
+  {
+    id: "theme-b-cocomelon-aryaan-rainbow-arch",
+    name: "Cocomelon Aryaan Pastel Rainbow 1st Birthday Arch",
+    description: "A dreamy Cocomelon themed ring arch with personalised 'Aryaan Turns 1' rainbow photo backdrop, pastel multi-colour balloon arch, Cocomelon character cut-out, marquee number 1 and 'Happy Birthday' neon — exactly like the picture.",
+    image: themeB1.url,
+    includes: ["Pastel rainbow balloon ring arch", "Personalised photo backdrop with rainbow", "Cocomelon cut-out + marquee number 1 light", "'Happy Birthday' neon + two balloon pillars"],
+    rating: 4.9, reviews: 432, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "theme-b-blue-silver-chrome-1st-home",
+    name: "Blue & Silver Chrome 1st Birthday Home Decor",
+    description: "A neat blue, silver and white chrome balloon garland on the wall with gold foil '1', silver fringe curtain, 'Happy Birthday' bunting and two matching balloon pillars with silver stars — a perfect first-birthday home setup.",
+    image: themeB2.url,
+    includes: ["Blue, silver & white chrome wall balloon garland", "Silver fringe curtain + 'Happy Birthday' bunting", "Gold foil number 1 balloon", "Two chrome balloon pillars with silver star foils"],
+    rating: 4.7, reviews: 218, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-b-superhero-nishv-3rd",
+    name: "Tiny Hero Big Powers Superhero 3rd Birthday",
+    description: "A vibrant superhero themed ring arch with personalised 'Nishv Turns 3 — Level 3 Unlocked' backdrop, multi-colour balloon garland, Captain America, Superman, Hulk & Spider-Man cut-outs, marquee '3' and 'NISHV' name lights with themed pedestals.",
+    image: themeB3.url,
+    includes: ["Personalised superhero photo backdrop", "Red, blue, yellow & green balloon ring arch", "Four superhero life-size cut-outs", "Marquee number 3 + 'Name' marquee lights + themed pedestals"],
+    rating: 4.9, reviews: 389, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-b-mermaid-4th-birthday",
+    name: "Little Mermaid 'Happy 4th Birthday' Decor",
+    description: "A magical mermaid themed wall decor with green sheer curtain, fairy-light backdrop, 'happy birthday' silver foil letters, silver '4' foil, mermaid and seashell cut-outs and a teal, purple, gold & blue chrome balloon arch — straight from under the sea.",
+    image: themeB4.url,
+    includes: ["Green sheer curtain + fairy-light backdrop", "Teal, purple, gold & blue chrome balloon arch", "Mermaid, seashell & starfish cut-outs", "'happy birthday' silver foil + number 4 foil"],
+    rating: 4.8, reviews: 264, offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "theme-b-cocomelon-nishwanth-grand-stage",
+    name: "Cocomelon Nishwanth Grand 1st Birthday Stage",
+    description: "A full Cocomelon grand stage with twin chiara backdrops, gold sequin shimmer wall, multiple Cocomelon character cut-outs, pastel balloon garland, marquee '1' with crown, personalised 'NISHWANTH' marquee name and decorated pedestals — recreated as in the photo.",
+    image: themeB5.url,
+    includes: ["Twin chiara + gold sequin shimmer backdrop", "Pastel balloon garland with Cocomelon characters", "Marquee number 1 with crown + 'NISHWANTH' name lights", "Personalised Cocomelon pedestals + floral accents"],
+    rating: 4.9, reviews: 547, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-b-dinosaur-jungle-3rd",
+    name: "Dinosaur Jungle 'Happy Birthday' 3rd Decor",
+    description: "A wild dinosaur themed home decor with green foil fringe curtain, gold 'Happy Birthday' foil letters, gold '3' foil, green, gold and dark-green balloon garland and four dino foil balloons — perfect for a little dino fan.",
+    image: themeB6.url,
+    includes: ["Green foil fringe curtain backdrop", "Green, light-green & gold balloon garland", "Gold 'Happy Birthday' + number 3 foil", "Four assorted dinosaur foil balloons"],
+    rating: 4.7, reviews: 195, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-b-barbie-bhavya-pink",
+    name: "Barbie Bhavya Pink & Gold 1st Birthday Arch",
+    description: "A pretty Barbie themed arch in pink, white and gold balloons over a pink fringe curtain with Barbie foils, magenta heart foils, 'Happy Birthday' bunting, personalised 'BHAVYA' gold name foil and gold '1' — exactly like the picture.",
+    image: themeB7.url,
+    includes: ["Pink, white & gold balloon arch", "Pink fringe curtain + 'Happy Birthday' bunting", "Barbie foil + magenta heart foils", "Personalised 'BHAVYA' name foil + gold number 1"],
+    rating: 4.8, reviews: 241, offer: <>₹2,199</>, original: <>₹2,999</>, discountPct: 27,
+  },
+  {
+    id: "theme-b-boss-baby-blue-neon-1st",
+    name: "Boss Baby Blue Chrome 1st Birthday Arch",
+    description: "A bold Boss Baby ring arch in blue, white and silver chrome balloons over a silver fringe curtain with 'Happy Birthday' neon, Boss Baby & star foils, decorated pedestal and a glowing marquee number 1 — recreated as shown.",
+    image: themeB8.url,
+    includes: ["Blue, white & silver chrome ring arch", "Silver fringe curtain + 'Happy Birthday' neon", "Boss Baby foils + blue star foils", "Marquee number 1 + decorated gold pedestal"],
+    rating: 4.9, reviews: 358, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "theme-b-cocomelon-vivan-pastel-grand",
+    name: "Cocomelon Vivan Turns One Pastel Grand Decor",
+    description: "A luxury Cocomelon pastel rainbow grand stage with gold sequin shimmer panel, custom 'Vivan Turns One' backdrop, big pastel balloon arch, multiple Cocomelon cut-outs, marquee '1' with crown, 'One' neon, 'VIVAN' name lights and a wooden picket fence prop.",
+    image: themeB9.url,
+    includes: ["Pastel rainbow grand balloon arch", "Gold sequin shimmer + custom 'Turns One' backdrop", "Multiple Cocomelon character cut-outs", "'One' neon + marquee '1' + 'VIVAN' name lights + picket fence"],
+    rating: 4.9, reviews: 612, offer: <>₹27,999</>, original: <>₹34,999</>, discountPct: 20, bestSeller: true,
+  },
+  {
+    id: "theme-b-boss-baby-outdoor-deck-arch",
+    name: "Boss Baby Outdoor Deck Black & Blue Arch",
+    description: "A premium Boss Baby outdoor balloon arch in black, blue chrome and silver over a 'Boss Baby' chiara backdrop with star foils, a tall Boss Baby cut-out and a white pedestal — perfect for outdoor and rooftop celebrations.",
+    image: themeB10.url,
+    includes: ["Black, blue chrome & silver organic balloon arch", "'Boss Baby' personalised chiara backdrop", "Blue star foils + tall Boss Baby cut-out", "White cylinder pedestal for cake"],
+    rating: 4.8, reviews: 297, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+  },
+];
 
 const NEW_THEME_CARDS = [
   {
@@ -193,7 +286,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {NEW_THEME_CARDS.map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -209,7 +302,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {NEW_THEME_CARDS.map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
