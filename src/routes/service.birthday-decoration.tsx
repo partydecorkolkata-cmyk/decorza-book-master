@@ -1780,6 +1780,136 @@ function ServicePage() {
             discountPct={29}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-h1-purple-13-teenager"
+            name="13th Official Teenager Purple Balloon Arch"
+            description="A glamorous 13th 'Official Teenager' birthday backdrop with a chrome purple, lilac and white organic balloon garland, butterfly cutouts, a silver foil fringe curtain, a black & gold Happy Birthday bunting with 'Official Teenager' banner, plus chrome purple balloon pillars topped with giant silver foil number 1 and 3."
+            image={pkgH1Purple13.url}
+            includes={["Chrome purple, lilac & white balloon arch with butterflies", "Silver foil fringe curtain + Happy Birthday 'Official Teenager' banner", "Twin balloon pillars + giant silver foil 13"]}
+            rating={4.8}
+            reviews={178}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h2-pink-silver-ceiling"
+            name="Pink & Silver Ceiling Balloon Room Surprise"
+            description="A dreamy room birthday surprise with a dense pink and silver chrome ceiling balloon scatter, swirling curling ribbons, a silver HAPPY BIRTHDAY foil wall text framed inside neat 4-balloon pink and silver flower clusters — a perfect last-minute home surprise."
+            image={pkgH2PinkSilverCeiling.url}
+            includes={["Pink & silver chrome ceiling balloons with curling ribbons", "Silver HAPPY BIRTHDAY foil wall text", "Pink & silver balloon flower clusters framing the wall"]}
+            rating={4.7}
+            reviews={142}
+            offer={<>₹1,499</>}
+            original={<>₹2,499</>}
+            discountPct={40}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h3-peppa-pastel"
+            name="Peppa Pig Pastel Theme Birthday"
+            description="A cute Peppa Pig themed pastel birthday arch with pink, mint, yellow and ivory balloons, hot pink foil star accents, gold heart foils, a silver fringe curtain, a pink HAPPY BIRTHDAY foil text and life-size Peppa & George character cutouts on balloon pillars — ideal for toddlers and pre-schoolers."
+            image={pkgH3PeppaPastel.url}
+            includes={["Pastel pink, mint, yellow & ivory balloon arch", "Silver fringe curtain + pink HAPPY BIRTHDAY foil text", "Peppa & George cutouts on balloon pillars with star foils"]}
+            rating={4.9}
+            reviews={211}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h4-gold-ivory-livingroom"
+            name="Gold & Ivory Living Room Birthday Canopy"
+            description="An elegant living room birthday setup with a gold, ivory and white chrome organic balloon canopy garland framing the seating, a glowing gold 'happy birthday' cursive foil text on the curtain wall and hanging gold ribbon streamers — a refined surprise for parents and partners."
+            image={pkgH4GoldIvoryLiving.url}
+            includes={["Gold, ivory & white chrome balloon canopy garland", "Gold 'happy birthday' cursive foil text on wall", "Hanging gold ribbon streamers + setup styling"]}
+            rating={4.8}
+            reviews={196}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h5-rosegold-sequin-6"
+            name="Rose Gold Sequin Wall 6th Birthday"
+            description="A premium 6th birthday setup with a rose gold sequin shimmer wall, a glowing 'Happy Birthday' yellow neon sign, an organic pink, purple, gold chrome and clear confetti balloon arch, a tall pink balloon bouquet centrepiece and a giant marquee light-up number 6."
+            image={pkgH5RosegoldSequin6.url}
+            includes={["8x8 rose gold sequin wall + Happy Birthday neon", "Pink, purple, gold chrome & confetti balloon arch", "Pink balloon bouquet centrepiece + marquee number 6"]}
+            rating={4.9}
+            reviews={287}
+            offer={<>₹6,499</>}
+            original={<>₹8,999</>}
+            discountPct={28}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h6-yellow-wall-pink"
+            name="Pink & Rose Gold HAPPY BIRTHDAY Hall Decor"
+            description="A warm living-hall birthday surprise on a yellow accent wall with a rose gold HAPPY BIRTHDAY foil text, pink and white pearl ceiling balloons with curling ribbons, rose gold balloon 'flowers' framing the foil text and matching balloon clusters around the sofa."
+            image={pkgH6YellowWallPink.url}
+            includes={["Rose gold HAPPY BIRTHDAY foil text on wall", "Pink & white pearl ceiling balloons with ribbons", "Rose gold balloon flowers + sofa side balloon clusters"]}
+            rating={4.7}
+            reviews={156}
+            offer={<>₹1,499</>}
+            original={<>₹2,499</>}
+            discountPct={40}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h7-frozen-mudita"
+            name="Frozen Theme Birthday for Mudita"
+            description="A Frozen-inspired birthday for Mudita with royal blue and white ceiling balloon scatter and curling ribbons, a blue HAPPY BIRTHDAY foil with character coins, a gold MUDITA name foil, pink & blue heart balloons, blue & white balloon pillars and a unicorn foil with Elsa princess cutout on a red rose petal table."
+            image={pkgH7FrozenMudita.url}
+            includes={["Royal blue & white ceiling balloons with ribbons", "Happy Birthday foil + personalised MUDITA gold name", "Balloon pillars + unicorn foil & Elsa cutout on rose petal table"]}
+            rating={4.9}
+            reviews={234}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h8-unicorn-pihu"
+            name="Unicorn Theme Birthday for Pihu"
+            description="A magical unicorn birthday for Pihu with pink and white ceiling balloon scatter, a pink and white balloon garland row, a rose gold 'happy birthday' cursive foil, a gold PIHU name foil, unicorn foil balloons, hot pink star foils and pink & white balloon pillars on either side."
+            image={pkgH8UnicornPihu.url}
+            includes={["Pink & white ceiling balloons + garland row", "Rose gold 'happy birthday' foil + gold PIHU name", "Unicorn foils, star foils & pink/white balloon pillars"]}
+            rating={4.9}
+            reviews={221}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h9-unicorn-heenal"
+            name="Unicorn Rainbow Birthday for Heenal"
+            description="A whimsical unicorn rainbow birthday for Heenal with a pink, lilac and rose gold chrome balloon cloud, a multicolour rainbow shimmer foil curtain, a pink HAPPY BIRTHDAY foil with personalised 'Heenal' decal, a milestone photo banner, a giant unicorn balloon cutout and pink number 1 foil pillar."
+            image={pkgH9UnicornHeenal.url}
+            includes={["Pink, lilac & rose gold chrome balloon cloud arch", "Rainbow shimmer curtain + Happy Birthday foil with name", "Milestone photo banner + unicorn cutout & number foil"]}
+            rating={4.9}
+            reviews={268}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-h10-princess-6th"
+            name="Princess Theme 6th Birthday Gold Curtain"
+            description="A royal princess-themed 6th birthday setup with a gold foil fringe curtain backdrop, a pastel pink, mint, lilac, peach with gold and silver chrome balloon garland, hot pink foil stars, Frozen Anna and Disney Princess round foils on twin balloon pillars and a giant gold foil number 6."
+            image={pkgH10Princess6.url}
+            includes={["Gold fringe curtain + pastel & chrome balloon arch", "Hot pink star foils + princess round foils", "Twin balloon pillars + giant gold foil number 6"]}
+            rating={4.8}
+            reviews={183}
+            offer={<>₹2,699</>}
+            original={<>₹3,499</>}
+            discountPct={23}
+            bestSeller={false}
+          />
         </div>
 
 
