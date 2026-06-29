@@ -260,6 +260,16 @@ const birthdayGalleryImages = [
   { src: pkgG8PurpleDreamsCanopy.url, alt: "Purple dreams bedroom birthday surprise with chrome purple and lilac ceiling balloons, white veil fairy-light canopy and silver Happy Birthday foil text" },
   { src: pkgG9RedHeartRoom.url, alt: "Romantic red heart birthday room decor with hanging red heart balloons, LOVE neon, rose petal heart on bed and floor petals" },
   { src: pkgG10GoldCeilingCanopy.url, alt: "Gold and silver chrome ceiling balloon surprise with white veil fairy-light canopy, gold Happy Birthday foil text and bed balloon cluster" },
+  { src: pkgH1Purple13.url, alt: "13th Official Teenager purple, lilac and white balloon arch with silver fringe curtain, butterfly accents and giant silver foil 13" },
+  { src: pkgH2PinkSilverCeiling.url, alt: "Pink and silver ceiling balloon scatter with curling ribbons and silver HAPPY BIRTHDAY foil wall text framed in pink and silver balloon clusters" },
+  { src: pkgH3PeppaPastel.url, alt: "Peppa Pig pastel birthday arch with pink, mint, yellow and ivory balloons, hot pink star foils, silver curtain and Peppa & George foils" },
+  { src: pkgH4GoldIvoryLiving.url, alt: "Living room birthday with gold, ivory and white chrome balloon canopy garland and gold happy birthday cursive foil text" },
+  { src: pkgH5RosegoldSequin6.url, alt: "6th birthday rose gold sequin shimmer wall with pink, purple and gold chrome organic balloon arch, neon Happy Birthday and marquee number 6" },
+  { src: pkgH6YellowWallPink.url, alt: "Pink and rose gold HAPPY BIRTHDAY foil text on yellow wall with pink and white ceiling balloons and rose gold balloon flowers" },
+  { src: pkgH7FrozenMudita.url, alt: "Frozen theme birthday for Mudita with royal blue and white ceiling balloons, gold MUDITA foil name, unicorn foil and Elsa cutout" },
+  { src: pkgH8UnicornPihu.url, alt: "Unicorn theme birthday for Pihu with pink and white ceiling balloons, gold PIHU foil, unicorn foils and pink star foil pillars" },
+  { src: pkgH9UnicornHeenal.url, alt: "Unicorn theme birthday for Heenal with pink, lilac and rose gold balloon cloud, rainbow shimmer curtain, unicorn cutout and photo banner" },
+  { src: pkgH10Princess6.url, alt: "Princess 6th birthday gold fringe curtain with pastel pink, mint, lilac, gold and silver balloon arch, princess foils and gold number 6" },
 ];
 
 export const Route = createFileRoute("/service/birthday-decoration")({
