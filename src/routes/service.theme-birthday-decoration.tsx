@@ -28,6 +28,99 @@ import themeB7 from "@/assets/theme-b7.jpeg.asset.json";
 import themeB8 from "@/assets/theme-b8.jpeg.asset.json";
 import themeB9 from "@/assets/theme-b9.jpeg.asset.json";
 import themeB10 from "@/assets/theme-b10.jpeg.asset.json";
+import themeC1 from "@/assets/theme-c1.jpeg.asset.json";
+import themeC2 from "@/assets/theme-c2.jpg.asset.json";
+import themeC3 from "@/assets/theme-c3.jpeg.asset.json";
+import themeC4 from "@/assets/theme-c4.jpeg.asset.json";
+import themeC5 from "@/assets/theme-c5.jpeg.asset.json";
+import themeC6 from "@/assets/theme-c6.jpeg.asset.json";
+import themeC7 from "@/assets/theme-c7.jpeg.asset.json";
+import themeC8 from "@/assets/theme-c8.jpeg.asset.json";
+import themeC9 from "@/assets/theme-c9.jpeg.asset.json";
+import themeC10 from "@/assets/theme-c10.jpeg.asset.json";
+
+const NEW_THEME_CARDS_C = [
+  {
+    id: "theme-c-cocomelon-restaurant-grand-arch",
+    name: "Cocomelon Restaurant Grand 1st Birthday Arch",
+    description: "A grand Cocomelon themed restaurant decor with a tall organic balloon arch in blue, green, yellow & chrome, custom Cocomelon sky backdrop with rainbow & character cut-outs, two 'Happy Birthday' neons, marquee number '1', personalised 'BABY' balloon blocks and decorated cake & cocktail tables.",
+    image: themeC1.url,
+    includes: ["Grand organic balloon arch (blue, green, yellow, chrome)", "Custom Cocomelon sky + rainbow chiara backdrop", "Two 'Happy Birthday' neons + marquee number 1", "'BABY' balloon blocks + decorated cake & cocktail tables"],
+    rating: 4.9, reviews: 564, offer: <>₹12,999</>, original: <>₹19,999</>, discountPct: 35, bestSeller: true,
+  },
+  {
+    id: "theme-c-aryav-13th-outdoor-ring-arch",
+    name: "Aryav 13th Outdoor Pool-Side Ring Arch",
+    description: "A bold outdoor poolside ring arch in red, blue, black, grey & white organic balloons with 'Happy Birthday' neon at the centre and personalised marquee 'ARYAV 13' name lights — perfect for lawn and rooftop teen birthdays.",
+    image: themeC2.url,
+    includes: ["Outdoor red, blue, black, grey & white ring arch", "'Happy Birthday' neon inside the ring", "Personalised 'NAME + 13' marquee letter lights", "Draped cocktail table + setup at venue"],
+    rating: 4.8, reviews: 312, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
+  },
+  {
+    id: "theme-c-jungle-1st-home-green-gold",
+    name: "Jungle Safari 1st Birthday Home Decor",
+    description: "A cute jungle themed home decor with green foil fringe curtain, 'Happy Birthday' bunting, gold foil number '1', green-gold balloon arch and animal foils — tiger, monkey, giraffe, zebra & cow — exactly like the picture.",
+    image: themeC3.url,
+    includes: ["Green, light-green & gold balloon arch", "Green foil fringe curtain + 'Happy Birthday' bunting", "Animal foil set: tiger, monkey, giraffe, zebra, cow", "Gold foil number 1 balloon"],
+    rating: 4.7, reviews: 234, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-c-ovee-animal-7th-pastel-arch",
+    name: "Ovee Animal Theme 7th Birthday Pastel Arch",
+    description: "A pretty pastel jungle arch in green, white, gold & peach over a personalised 'Happy Birthday OVEE' chiara backdrop with baby animal art, palm leaves, marquee number '7' and a cake pedestal.",
+    image: themeC4.url,
+    includes: ["Pastel green, white, gold & peach organic balloon arch", "Personalised 'Happy Birthday NAME' chiara backdrop", "Palm leaf accents + baby animal artwork", "Marquee number 7 + decorated cake pedestal"],
+    rating: 4.8, reviews: 276, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-c-unicorn-rihaviha-twin-name",
+    name: "Unicorn Riha & Viha Twin Name 1st Birthday",
+    description: "A bright twin-baby unicorn decor with multi-colour pastel balloon arch, gold foil 'RIHA + VIHA' names, pink 'Happy Birthday' bunting, unicorn foils, magenta star foils and two matching balloon pillars — recreated as in the picture.",
+    image: themeC5.url,
+    includes: ["Pastel multi-colour balloon arch", "Two gold foil personalised names", "Pink 'Happy Birthday' bunting + unicorn foils", "Two balloon pillars with star foils"],
+    rating: 4.8, reviews: 252, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-c-bossbaby-shivansh-1st-curtain",
+    name: "Boss Baby Shivansh 1st Birthday Curtain Decor",
+    description: "A Boss Baby home decor with teal curtain backdrop, blue 'happy birthday' foil letters, two Boss Baby & star foils, blue, white & black balloon arch, decorated cake table and gold 'SHIVANSH + 1' name foils on the floor.",
+    image: themeC6.url,
+    includes: ["Blue, white & black organic balloon arch", "Teal curtain backdrop + 'happy birthday' foil", "Boss Baby + blue star foils", "Personalised name & number 1 gold foils + cake table"],
+    rating: 4.8, reviews: 268, offer: <>₹2,299</>, original: <>₹3,499</>, discountPct: 34,
+  },
+  {
+    id: "theme-c-cars-shivansh-mcqueen-decor",
+    name: "Cars McQueen Shivansh Birthday Curtain Decor",
+    description: "A Disney Cars themed entrance decor with gold foil fringe curtain, 'Happy Birthday' neon, silver 'SHIVANSH' name foil, McQueen foil balloons, red star foils, gold number '1' and red, gold, black & white balloon pillars on either side.",
+    image: themeC7.url,
+    includes: ["Gold foil fringe curtain backdrop", "'Happy Birthday' neon + silver name foil", "McQueen foils + red star foils + gold number 1", "Two side balloon pillars in red, black, gold & white"],
+    rating: 4.8, reviews: 289, offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "theme-c-bossbaby-silver-3rd-fringe",
+    name: "Boss Baby Silver 3rd Birthday Fringe Arch",
+    description: "A premium Boss Baby decor in silver chrome, blue & black with silver fringe curtain, 'Happy Birthday' bunting, multiple Boss Baby & star foils, rose-gold '3' foil and a balloon pillar — straight from the picture.",
+    image: themeC8.url,
+    includes: ["Silver chrome, blue & black balloon arch", "Silver fringe curtain + 'Happy Birthday' bunting", "Multiple Boss Baby + blue star foils", "Rose-gold number 3 foil + balloon pillar"],
+    rating: 4.8, reviews: 244, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-c-frozen-mudita-ceiling-decor",
+    name: "Frozen Mudita Ceiling Balloon Surprise",
+    description: "A magical Frozen themed home decor with blue & white ceiling balloons & ribbons, 'Happy Birthday MUDITA' gold foil name, two pink & blue heart pillars, unicorn foil, Elsa standee and a rose-petal centre table.",
+    image: themeC9.url,
+    includes: ["Blue & white ceiling balloons with ribbons", "'Happy Birthday + Name' gold foil letters", "Two heart-foil balloon pillars + unicorn foil", "Elsa standee + rose-petal centre table"],
+    rating: 4.7, reviews: 213, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-c-mickey-mouse-outdoor-chiara",
+    name: "Mickey Mouse Outdoor Chiara Balloon Decor",
+    description: "A vibrant Mickey Mouse outdoor decor with white chiara backdrop, 'Happy Birthday' neon, red, yellow, black & white organic balloon garland, two Mickey-shaped balloon pillars, Mickey foil and a white cake pedestal — exactly like the picture.",
+    image: themeC10.url,
+    includes: ["White chiara backdrop + 'Happy Birthday' neon", "Red, yellow, black & white organic garland", "Two Mickey-shaped balloon pillars + Mickey foil", "White cake pedestal"],
+    rating: 4.9, reviews: 341, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_B = [
   {
@@ -286,7 +379,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -302,7 +395,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
