@@ -38,6 +38,99 @@ import themeC7 from "@/assets/theme-c7.jpeg.asset.json";
 import themeC8 from "@/assets/theme-c8.jpeg.asset.json";
 import themeC9 from "@/assets/theme-c9.jpeg.asset.json";
 import themeC10 from "@/assets/theme-c10.jpeg.asset.json";
+import themeD1 from "@/assets/theme-d1.jpeg.asset.json";
+import themeD2 from "@/assets/theme-d2.jpeg.asset.json";
+import themeD3 from "@/assets/theme-d3.jpeg.asset.json";
+import themeD4 from "@/assets/theme-d4.jpeg.asset.json";
+import themeD5 from "@/assets/theme-d5.jpeg.asset.json";
+import themeD6 from "@/assets/theme-d6.jpg.asset.json";
+import themeD7 from "@/assets/theme-d7.jpg.asset.json";
+import themeD8 from "@/assets/theme-d8.jpeg.asset.json";
+import themeD9 from "@/assets/theme-d9.jpeg.asset.json";
+import themeD10 from "@/assets/theme-d10.jpg.asset.json";
+
+const NEW_THEME_CARDS_D = [
+  {
+    id: "theme-d-bossbaby-blue-white-arch-stage",
+    name: "Boss Baby Blue & White Stage Arch Decor",
+    description: "A grand Boss Baby themed stage decor with a tall blue & white organic balloon arch, 'Happy Birthday' neon centrepiece, four life-size Boss Baby cut-outs on balloon pillars, marquee number '1' and a green carpet runway with a gold cake stand — recreated exactly like the picture.",
+    image: themeD1.url,
+    includes: ["Tall blue & white organic balloon arch", "'Happy Birthday' neon centrepiece", "4 Boss Baby cut-outs on balloon pillars", "Marquee number 1 + gold cake stand on green runway"],
+    rating: 4.9, reviews: 412, offer: <>₹4,999</>, original: <>₹6,499</>, discountPct: 23, bestSeller: true,
+  },
+  {
+    id: "theme-d-vedanth-wild-one-jungle-grand",
+    name: "Vedanth's Wild One Jungle Safari Grand Setup",
+    description: "A premium jungle safari 'Wild One' decor with personalised 'NAME's Wild ONE' triple chiara backdrop, twin yellow-green-ivory balloon arches, lion / zebra / tiger / giraffe / elephant cut-outs, marquee number '1', personalised 'VEDANTH' marquee name lights and three decorated pedestals on a red stage.",
+    image: themeD2.url,
+    includes: ["Personalised triple chiara 'Wild One' backdrop", "Twin yellow, green & ivory organic balloon arches", "Lion, tiger, zebra, giraffe & elephant cut-outs", "Marquee number 1 + personalised NAME marquee lights + 3 pedestals"],
+    rating: 4.9, reviews: 678, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-d-tom-jerry-adhyaa-turns-2",
+    name: "Tom & Jerry Adhyaa Turns 2 Pastel Arch",
+    description: "A bright Tom & Jerry themed decor with personalised 'NAME Turns 2' twin chiara backdrop, full pastel multi-colour organic balloon arch, multiple Tom & Jerry cut-outs on either side and three grey draped pedestals — exactly like the picture.",
+    image: themeD3.url,
+    includes: ["Personalised 'NAME Turns 2' twin chiara backdrop", "Pastel multi-colour organic balloon arch", "Tom & Jerry cut-outs + character pillars on both sides", "Three draped pedestals for cake & props"],
+    rating: 4.8, reviews: 489, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-d-pastel-baby-5th-glitter-curtain",
+    name: "Pastel 'Baby' 5th Birthday Glitter Curtain Decor",
+    description: "A dreamy pastel birthday decor with silver glitter fringe curtain, 'Happy Birthday' neon, pink-peach-purple-burgundy-white organic balloon garland with moon & star foils, gold 'BABY' foil letters, pastel 'BABY' balloon blocks and a marquee number '5'.",
+    image: themeD4.url,
+    includes: ["Silver glitter fringe curtain + 'Happy Birthday' neon", "Pink, peach, purple & burgundy organic garland", "Gold moon, star & 'BABY' foil letters", "Pastel 'BABY' balloon blocks + marquee number 5"],
+    rating: 4.8, reviews: 298, offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "theme-d-bossbaby-kairo-pillar-prince",
+    name: "Boss Baby Kairo 'Prince' 1st Birthday Pillar Decor",
+    description: "A stylish Boss Baby corner decor with personalised 'BOSS BABY NAME' backdrop, tall organic balloon pillar in pastel blue, silver chrome, black, white & metallic blue, Boss Baby cut-out, blue '1' crown foil and 'ONE' balloon blocks — straight from the photo.",
+    image: themeD5.url,
+    includes: ["Personalised 'BOSS BABY NAME' backdrop", "Tall pastel blue, chrome, black & white balloon pillar", "Life-size Boss Baby cut-out", "Blue '1' crown foil + 'ONE' balloon blocks"],
+    rating: 4.9, reviews: 354, offer: <>₹3,999</>, original: <>₹5,499</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-d-cars-vedaansh-mcqueen-6th-arch",
+    name: "Cars McQueen Vedaansh 6th Birthday Arch",
+    description: "A racing themed Cars decor with personalised 'Happy Birthday NAME 6' arched chiara backdrop, red-blue-black-white-checker organic balloon arch with chrome checker foils, McQueen & tyre foils, marquee number '6' and a checker-print cake pedestal.",
+    image: themeD6.url,
+    includes: ["Personalised arched Cars chiara backdrop", "Red, blue, black, white & checker organic garland", "McQueen + tyre foil balloons + checker foils", "Marquee number 6 + checker cake pedestal"],
+    rating: 4.9, reviews: 421, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-d-butterfly-twin-tharika-thanvika-grand",
+    name: "Butterfly Twin 'Tharika & Thanvika' Grand Stage",
+    description: "A luxury twin-baby butterfly themed stage with two personalised pink-purple chiara backdrops, silver sequin shimmer wall, 'Happy Birthday' neon, glowing butterfly props, pink & purple organic balloon arches, two marquee name lights, butterfly print pedestals and 'B' baby blocks.",
+    image: themeD7.url,
+    includes: ["Twin personalised pink-purple chiara backdrops", "Silver sequin shimmer wall + 'Happy Birthday' neon", "Pink & purple organic balloon arches + glowing butterflies", "Two marquee name lights + butterfly pedestals + baby blocks"],
+    rating: 4.9, reviews: 587, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-d-peppa-pig-pink-pastel-room",
+    name: "Peppa Pig Pink Pastel Room Birthday Decor",
+    description: "A cute Peppa Pig home decor with silver fringe curtain backdrop, pink 'HAPPY BIRTHDAY' foil letters, pastel pink-blue-yellow balloon arch & table garland, magenta star foils, gold & magenta heart foils and two Peppa Pig balloon stands on either side — exactly like the picture.",
+    image: themeD8.url,
+    includes: ["Silver fringe curtain + pink 'HAPPY BIRTHDAY' foil", "Pastel pink, blue & yellow balloon arch + table garland", "Magenta star foils + gold & magenta heart foils", "Two Peppa Pig balloon stands on side pillars"],
+    rating: 4.7, reviews: 234, offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
+  },
+  {
+    id: "theme-d-superhero-avengers-3rd-arch",
+    name: "Superhero Avengers 3rd Birthday Ring Arch",
+    description: "A vibrant Avengers decor with multi-colour superhero organic ring arch in red, blue, yellow, green, black & gold, Captain America shield foil top, Spider-Man / Batman / Iron Man / Hulk foils, comic 'POW! BAMM! WHAM!' cut-outs, 'Happy Birthday' neon and a marquee number '3'.",
+    image: themeD9.url,
+    includes: ["Multi-colour superhero ring balloon arch", "Captain America shield + character foils (Spider-Man, Iron Man, Batman, Hulk)", "Comic POW / BAMM / WHAM cut-outs", "'Happy Birthday' neon + marquee number 3"],
+    rating: 4.9, reviews: 446, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-d-princess-arzoyi-rapunzel-3rd",
+    name: "Princess Arzoyi Rapunzel 3rd Birthday Round Arch",
+    description: "A magical Rapunzel princess decor with personalised 'PRINCESS NAME TURNS 3' round chiara backdrop, pink-magenta-purple-peach organic balloon ring arch with Rapunzel sticker cut-outs, two Rapunzel standees, a flower castle prop and a glowing marquee number '3'.",
+    image: themeD10.url,
+    includes: ["Personalised 'PRINCESS NAME TURNS 3' round chiara backdrop", "Pink, magenta, purple & peach organic ring arch", "Two Rapunzel standees + flower castle prop", "Glowing marquee number 3 + Rapunzel sticker cut-outs"],
+    rating: 4.8, reviews: 312, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+];
 
 const NEW_THEME_CARDS_C = [
   {
