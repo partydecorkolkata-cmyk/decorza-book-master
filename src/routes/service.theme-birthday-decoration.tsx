@@ -48,6 +48,101 @@ import themeD7 from "@/assets/theme-d7.jpg.asset.json";
 import themeD8 from "@/assets/theme-d8.jpeg.asset.json";
 import themeD9 from "@/assets/theme-d9.jpeg.asset.json";
 import themeD10 from "@/assets/theme-d10.jpg.asset.json";
+import themeE1 from "@/assets/theme-e1.jpeg.asset.json";
+import themeE2 from "@/assets/theme-e2.jpeg.asset.json";
+import themeE3 from "@/assets/theme-e3.jpeg.asset.json";
+import themeE4 from "@/assets/theme-e4.webp.asset.json";
+import themeE5 from "@/assets/theme-e5.webp.asset.json";
+import themeE6 from "@/assets/theme-e6.jpeg.asset.json";
+import themeE7 from "@/assets/theme-e7.jpg.asset.json";
+import themeE8 from "@/assets/theme-e8.jpeg.asset.json";
+import themeE9 from "@/assets/theme-e9.jpg.asset.json";
+import themeE10 from "@/assets/theme-e10.jpg.asset.json";
+
+const NEW_THEME_CARDS_E = [
+  {
+    id: "theme-e-shrihan-jungle-safari-one-grand",
+    name: "Shrihan Jungle Safari Grand 1st Birthday Stage",
+    description: "A grand jungle safari themed stage with twin green-grass arch backdrops featuring personalised 'NAME Turns ONE' panels, sage-green, ivory & gold organic balloon arches, life-size lion, giraffe, tiger, zebra & elephant cut-outs, marquee number '1' and a personalised 'NAME' marquee name light — recreated exactly like the picture.",
+    image: themeE1.url,
+    includes: ["Twin grass-arch personalised 'NAME Turns ONE' backdrops", "Sage green, ivory & gold organic balloon arches", "Lion, giraffe, tiger, zebra & elephant cut-outs", "Marquee number 1 + personalised NAME marquee lights"],
+    rating: 4.9, reviews: 542, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-e-parnika-butterfly-pink-purple-one",
+    name: "Parnika Butterfly Pink & Purple 1st Birthday Arch",
+    description: "A dreamy butterfly themed decor with personalised 'NAME is One' pink chiara backdrop, pink-purple-white-chrome organic balloon arch, multiple 3D butterfly cut-outs, 'Happy Birthday' neon, silver star foil, butterfly print pedestal and marquee number '1' on a balloon pillar.",
+    image: themeE2.url,
+    includes: ["Personalised 'NAME is One' pink chiara backdrop", "Pink, purple, white & chrome organic balloon arch", "3D butterfly cut-outs + 'Happy Birthday' neon", "Butterfly print pedestal + marquee number 1 pillar"],
+    rating: 4.8, reviews: 387, offer: <>₹4,999</>, original: <>₹6,499</>, discountPct: 23, bestSeller: true,
+  },
+  {
+    id: "theme-e-bossbaby-daiwik-blue-ring",
+    name: "Boss Baby Daiwik Blue & Silver Ring Arch",
+    description: "A stylish Boss Baby decor with personalised '1st Happy Birthday NAME' Boss Baby backdrop, blue-white-black-chrome-silver organic ring arch, three Boss Baby cut-outs, star & '1' foils and a marquee number '1' on a balloon pillar — straight from the photo.",
+    image: themeE3.url,
+    includes: ["Personalised Boss Baby 1st birthday backdrop", "Blue, white, black & chrome organic ring arch", "Three Boss Baby cut-outs + star & 1 foils", "Marquee number 1 on balloon pillar"],
+    rating: 4.9, reviews: 412, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-e-yuwaan-too-wild-2-handle-jungle",
+    name: "Yuwaan 'Too Wild 2 Handle' Jungle Twin Arch",
+    description: "A premium jungle safari decor with personalised twin chiara backdrop ('Happy Birthday NAME' + 'Too Wild 2 Handle'), sage-green, mustard-yellow, ivory & olive organic balloon arches, lion cut-out & lion plush, two pedestals and a glowing marquee number '2' — recreated exactly like the picture.",
+    image: themeE4.url,
+    includes: ["Personalised twin chiara 'Too Wild 2 Handle' backdrop", "Sage green, mustard, ivory & olive organic arches", "Lion cut-out + cute lion plush prop", "Marquee number 2 + 2 decorated pedestals"],
+    rating: 4.9, reviews: 498, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-e-amayra-butterfly-pink-purple-2nd",
+    name: "Amayra Butterfly Pink & Purple 2nd Birthday Arch",
+    description: "A whimsical butterfly themed outdoor decor with personalised round 'NAME' watercolour backdrop, pastel pink, lavender, magenta & white organic balloon arch, multiple 3D pink & gold butterfly cut-outs, a flower pedestal and marquee number '2' — exactly like the picture.",
+    image: themeE5.url,
+    includes: ["Personalised round 'NAME' butterfly backdrop", "Pastel pink, lavender & white organic balloon arch", "3D pink & gold butterfly cut-outs", "Flower pedestal + marquee number 2"],
+    rating: 4.8, reviews: 356, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-e-dhriti-cocomelon-rainbow-arch",
+    name: "Dhriti Cocomelon Rainbow Square Arch",
+    description: "A bright Cocomelon themed decor with personalised 'Happy Birthday NAME' Cocomelon rainbow backdrop, square balloon arch in pastel green, blue, purple, yellow, orange, peach & gold chrome and an LED light marquee '1' — straight from the photo.",
+    image: themeE6.url,
+    includes: ["Personalised Cocomelon rainbow backdrop", "Square balloon arch (pastel + chrome gold)", "Cocomelon character cut-outs on backdrop", "Marquee number 1 LED light"],
+    rating: 4.8, reviews: 289, offer: <>₹4,699</>, original: <>₹5,999</>, discountPct: 22,
+  },
+  {
+    id: "theme-e-alaiia-berry-strawberry-1st-grand",
+    name: "Alaiia's Berry 1st Birthday Grand Strawberry Decor",
+    description: "A premium 'Berry First Birthday' strawberry themed decor with personalised twin pink chiara arched backdrop ('NAME's BERRY 1st Birthday'), red & pastel-pink organic balloon garlands, large strawberry cut-outs, a white picket fence, strawberry print pedestal and flower basket — recreated exactly like the picture.",
+    image: themeE7.url,
+    includes: ["Personalised twin 'BERRY 1st Birthday' chiara backdrop", "Red & pastel pink organic balloon garlands", "Large strawberry cut-outs + white picket fence", "Strawberry print pedestal + flower basket"],
+    rating: 4.9, reviews: 612, offer: <>₹17,999</>, original: <>₹24,999</>, discountPct: 28, bestSeller: true,
+  },
+  {
+    id: "theme-e-ira-butterfly-floral-purple-one",
+    name: "Ira Butterfly & Floral Purple 1st Birthday Arch",
+    description: "A magical butterfly & floral decor with personalised round 'NAME Turns ONE' purple floral backdrop, pastel pink, gold chrome & white organic balloon arch, multiple butterfly cut-outs, a large purple butterfly foil and a marquee number '1' on the side — exactly like the picture.",
+    image: themeE8.url,
+    includes: ["Personalised round 'NAME Turns ONE' floral backdrop", "Pastel pink, gold chrome & white organic arch", "Multiple butterfly cut-outs + large butterfly foil", "Marquee number 1 + 'Happy Birthday' foil"],
+    rating: 4.9, reviews: 478, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-e-hanvika-butterfly-pink-purple-arch-grand",
+    name: "Hanvika Butterfly Pink-Purple Grand 1st Arch Setup",
+    description: "A luxurious butterfly themed decor with personalised 'NAME's 1st Birthday' chiara backdrop, full pink-lavender-peach organic balloon arch with cherry-blossom branches, gold & purple butterflies, two beige draped pedestals, a large white butterfly prop and marquee number '1' — recreated exactly like the picture.",
+    image: themeE9.url,
+    includes: ["Personalised 'NAME's 1st Birthday' chiara backdrop", "Pink, lavender & peach organic arch with blossoms", "Gold & purple butterfly cut-outs + white butterfly prop", "Two beige pedestals + marquee number 1"],
+    rating: 4.9, reviews: 534, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-e-fairy-princess-mahek-manya-9th-stage",
+    name: "Fairy & Princess Twin 9th Birthday Stage Decor",
+    description: "A magical fairy & princess themed stage with personalised twin pink-lavender chiara backdrops ('NAME & NAME Turns 9'), pink-lilac-gold organic balloon arches, two glowing butterfly LED wings, Cinderella & Aurora princess standees, flower bouquet centre and fairy cut-outs — exactly like the picture.",
+    image: themeE10.url,
+    includes: ["Personalised twin 'NAME & NAME Turns 9' chiara backdrops", "Pink, lilac & gold organic balloon arches", "Two glowing butterfly LED wings", "Cinderella & Aurora princess standees + flower bouquet"],
+    rating: 4.9, reviews: 467, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+  },
+];
+
+
 
 const NEW_THEME_CARDS_D = [
   {
@@ -472,7 +567,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -488,7 +583,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
