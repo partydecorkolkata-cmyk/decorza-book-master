@@ -58,6 +58,99 @@ import themeE7 from "@/assets/theme-e7.jpg.asset.json";
 import themeE8 from "@/assets/theme-e8.jpeg.asset.json";
 import themeE9 from "@/assets/theme-e9.jpg.asset.json";
 import themeE10 from "@/assets/theme-e10.jpg.asset.json";
+import themeF1 from "@/assets/theme-f1.jpg.asset.json";
+import themeF2 from "@/assets/theme-f2.jpeg.asset.json";
+import themeF3 from "@/assets/theme-f3.jpeg.asset.json";
+import themeF4 from "@/assets/theme-f4.jpg.asset.json";
+import themeF5 from "@/assets/theme-f5.jpeg.asset.json";
+import themeF6 from "@/assets/theme-f6.jpeg.asset.json";
+import themeF7 from "@/assets/theme-f7.jpeg.asset.json";
+import themeF8 from "@/assets/theme-f8.jpg.asset.json";
+import themeF9 from "@/assets/theme-f9.jpeg.asset.json";
+import themeF10 from "@/assets/theme-f10.webp.asset.json";
+
+const NEW_THEME_CARDS_F = [
+  {
+    id: "theme-f-jungle-safari-restaurant-arch",
+    name: "Jungle Safari Restaurant Balloon Arch",
+    description: "A cheerful jungle safari themed restaurant arch with gold, ivory, sage-green & white organic balloon columns, a glowing 'Happy Birthday' neon centre, and four animal foil balloons — lion, tiger, monkey, zebra & cow — perched on top of balloon pillars, exactly like the picture.",
+    image: themeF1.url,
+    includes: ["Gold, ivory, sage-green & white organic balloon arch", "'Happy Birthday' neon centrepiece", "Animal foils: lion, tiger, monkey, zebra, cow", "Four balloon pillars + venue setup"],
+    rating: 4.8, reviews: 274, offer: <>₹3,299</>, original: <>₹4,999</>, discountPct: 34,
+  },
+  {
+    id: "theme-f-frozen-elsa-5th-banquet-arch",
+    name: "Frozen Elsa 5th Birthday Banquet Arch",
+    description: "A magical Frozen themed banquet decor with a round 'Happy Birthday' Elsa backdrop, blue-purple-silver-white organic balloon arch, twin Anna & Elsa cut-out pillars, three Frozen character pedestals (Elsa, Anna, Olaf) and a glowing marquee number '5' — recreated exactly like the picture.",
+    image: themeF2.url,
+    includes: ["Round personalised Elsa 'Happy Birthday' backdrop", "Blue, purple, silver & white organic balloon arch", "Twin Anna & Elsa cut-out balloon pillars", "3 Frozen character pedestals + marquee number 5"],
+    rating: 4.9, reviews: 421, offer: <>₹6,499</>, original: <>₹7,999</>, discountPct: 19, bestSeller: true,
+  },
+  {
+    id: "theme-f-bossbaby-adith-blue-white-stage",
+    name: "Boss Baby Adith Blue & White Stage Backdrop",
+    description: "A stylish Boss Baby stage decor with personalised 'Happy Birthday NAME' Boss Baby character backdrop, full blue-white organic balloon frame around it, a life-size Boss Baby standee and a decorated cake pedestal — straight from the photo.",
+    image: themeF3.url,
+    includes: ["Personalised 'Happy Birthday NAME' Boss Baby backdrop", "Blue & white organic balloon frame around backdrop", "Life-size Boss Baby standee", "Decorated cake pedestal + venue setup"],
+    rating: 4.8, reviews: 356, offer: <>₹6,499</>, original: <>₹7,999</>, discountPct: 19, bestSeller: true,
+  },
+  {
+    id: "theme-f-bossbaby-moiz-black-white-round",
+    name: "Boss Baby Moiz Black & White Round Arch",
+    description: "A chic monochrome Boss Baby decor with a round white 'BOSS BABY NAME' backdrop, black-white-silver-chrome & clear confetti organic balloon garland, life-size Boss Baby cut-out, geometric cake pedestal and a glowing marquee number '1' on a mini balloon base.",
+    image: themeF4.url,
+    includes: ["Round white 'BOSS BABY NAME' personalised backdrop", "Black, white, silver-chrome & clear confetti garland", "Life-size Boss Baby cut-out + gold geo pedestal", "Marquee number 1 on mini balloon base"],
+    rating: 4.9, reviews: 389, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-f-bossbaby-alyan-twin-blue-silver",
+    name: "Boss Baby Alyan Twin Arch Blue & Silver Grand",
+    description: "A premium Boss Baby twin arch decor with personalised 'ALYAN BOSS BABY' + 'Happy Birthday' neon chiara backdrops, blue-silver-chrome-white organic balloon arches, Boss Baby cut-outs and three tie-print pedestals for the cake and props — recreated exactly like the picture.",
+    image: themeF5.url,
+    includes: ["Personalised twin 'BOSS BABY NAME' + neon chiara backdrops", "Blue, silver-chrome & white organic balloon arches", "Boss Baby cut-outs on both sides", "Three tie-print pedestals for cake & props"],
+    rating: 4.9, reviews: 512, offer: <>₹8,999</>, original: <>₹12,999</>, discountPct: 31, bestSeller: true,
+  },
+  {
+    id: "theme-f-baby-in-bloom-butterfly-double-arch",
+    name: "'Baby in Bloom' Butterfly Double Arch Grand Decor",
+    description: "A luxurious 'Baby in Bloom' butterfly themed decor with personalised twin pink chiara backdrops, dense pink-purple-magenta-rose gold organic balloon arches with fresh flowers, two giant 3D butterfly wing props, hand-painted butterfly art and two draped pedestals — exactly like the picture.",
+    image: themeF6.url,
+    includes: ["Personalised twin pink 'Baby in Bloom' chiara backdrops", "Pink, purple, magenta & rose-gold organic arches with flowers", "Two giant 3D butterfly wing props", "Hand-painted butterfly art + two draped pedestals"],
+    rating: 4.9, reviews: 587, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-f-butterfly-esha-crown-pastel-arch",
+    name: "Butterfly 'Esha' Crown Pastel Arch Decor",
+    description: "A dreamy butterfly themed decor with personalised 'Happy Birthday NAME' floral crown-butterfly backdrop, pastel pink, peach, purple, blue & white organic balloon arch, three large 3D butterfly cut-outs and a sequin-draped gold cake stand — straight from the photo.",
+    image: themeF7.url,
+    includes: ["Personalised 'Happy Birthday NAME' crown-butterfly backdrop", "Pastel pink, peach, purple, blue & white organic arch", "Three large 3D butterfly cut-outs", "Sequin-draped cake table + gold cake stand"],
+    rating: 4.8, reviews: 342, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-f-butterfly-aarvi-princess-purple-ring",
+    name: "Butterfly 'Aarvi' Princess Purple Ring Arch",
+    description: "A cute butterfly & princess themed decor with personalised round 'Happy Birthday NAME' floral butterfly backdrop, pastel pink, lilac & purple organic ring balloon arch, butterfly stickers, Sofia & Ariel princess standees and a purple balloon floor scatter — exactly like the picture.",
+    image: themeF8.url,
+    includes: ["Personalised round butterfly floral 'NAME' backdrop", "Pink, lilac & purple organic ring balloon arch", "Sofia & Ariel princess standees + butterfly stickers", "Purple balloon floor scatter"],
+    rating: 4.8, reviews: 298, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-f-butterfly-baby-purple-grand-arch",
+    name: "Butterfly Baby Purple Grand Photo Arch",
+    description: "A grand butterfly themed banquet decor with personalised 'Happy Birthday' pink-purple chiara backdrop with baby photo, pink-purple-gold-chrome & white organic balloon arch with vines, two massive lilac butterfly wing props on either side and a butterfly-print floor mat — recreated exactly like the picture.",
+    image: themeF9.url,
+    includes: ["Personalised 'Happy Birthday' backdrop with baby photo", "Pink, purple, gold-chrome & white organic arch with vines", "Two massive lilac butterfly wing side props", "Butterfly print floor mat + venue setup"],
+    rating: 4.9, reviews: 476, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-f-amelia-pastel-butterfly-marquee-arch",
+    name: "'Amelia' Pastel Butterfly Marquee Arch Decor",
+    description: "A whimsical pastel butterfly decor with personalised 'Happy Birthday NAME' neon chiara backdrop, pink-lilac-peach-silver chrome organic balloon arch with pink butterfly props, a giant glowing yellow butterfly LED prop and a marquee number '1' — straight from the photo.",
+    image: themeF10.url,
+    includes: ["Personalised 'Happy Birthday NAME' neon chiara backdrop", "Pink, lilac, peach & silver-chrome organic balloon arch", "Giant glowing yellow butterfly LED prop", "Marquee number 1 + pink butterfly cut-outs"],
+    rating: 4.9, reviews: 398, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_E = [
   {
@@ -567,7 +660,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -583,7 +676,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
