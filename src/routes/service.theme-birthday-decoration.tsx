@@ -68,6 +68,99 @@ import themeF7 from "@/assets/theme-f7.jpeg.asset.json";
 import themeF8 from "@/assets/theme-f8.jpg.asset.json";
 import themeF9 from "@/assets/theme-f9.jpeg.asset.json";
 import themeF10 from "@/assets/theme-f10.webp.asset.json";
+import themeG1 from "@/assets/theme-g1.jpg.asset.json";
+import themeG2 from "@/assets/theme-g2.jpeg.asset.json";
+import themeG3 from "@/assets/theme-g3.jpeg.asset.json";
+import themeG4 from "@/assets/theme-g4.jpeg.asset.json";
+import themeG5 from "@/assets/theme-g5.jpeg.asset.json";
+import themeG6 from "@/assets/theme-g6.jpeg.asset.json";
+import themeG7 from "@/assets/theme-g7.jpeg.asset.json";
+import themeG8 from "@/assets/theme-g8.jpeg.asset.json";
+import themeG9 from "@/assets/theme-g9.jpeg.asset.json";
+import themeG10 from "@/assets/theme-g10.jpeg.asset.json";
+
+const NEW_THEME_CARDS_G = [
+  {
+    id: "theme-g-mishant-cocomelon-blue-melon-1st",
+    name: "Mishant Cocomelon 'In a Melon 1' Blue Arch",
+    description: "A dreamy Cocomelon 1st birthday setup with a personalised 'MISHANT is in a MELON 1' sky-blue cloud backdrop, a chiara blue-slatted side arch with cloud cut-outs, a large organic balloon garland in navy, powder-blue, ivory & clear bubble balloons, a boho rainbow prop and a life-size JJ Cocomelon standee — recreated exactly like the picture.",
+    image: themeG1.url,
+    includes: ["Personalised 'In a Melon 1' cloud backdrop + slatted chiara arch", "Navy, blue, ivory & bubble balloon organic garland", "Cloud cut-outs + boho rainbow prop", "Life-size JJ Cocomelon standee + venue setup"],
+    rating: 4.9, reviews: 512, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-g-karl-cocomelon-rainbow-arch",
+    name: "Karl Cocomelon Rainbow Balloon Arch",
+    description: "A colourful outdoor Cocomelon arch with a personalised 'Happy Birthday KARL' watermelon-sky backdrop, a rainbow organic balloon arch in green, yellow, orange, red & sky-blue, watermelon Cocomelon face cut-outs, a school bus prop and a life-size JJ standee — styled exactly like the photo.",
+    image: themeG2.url,
+    includes: ["Personalised Cocomelon watermelon backdrop", "Rainbow (green/yellow/orange/red/blue) organic balloon arch", "Watermelon Cocomelon face cut-outs + school bus prop", "Life-size JJ standee + outdoor setup"],
+    rating: 4.8, reviews: 388, offer: <>₹8,499</>, original: <>₹12,999</>, discountPct: 35,
+  },
+  {
+    id: "theme-g-matias-boss-baby-blue-white-arch",
+    name: "Matias Boss Baby Blue & White Chiara Arch",
+    description: "A classy Boss Baby decor with a tall white chiara backdrop, personalised 'BOSS BABY MATIAS' cut-out logo, blue-white-black organic balloon garland cascading down one side, life-size Boss Baby standee, tuxedo cake pedestal with black bow-tie and a glowing marquee number '1' — recreated from the reference photo.",
+    image: themeG3.url,
+    includes: ["White chiara backdrop + 'Boss Baby NAME' cut-out logo", "Blue, white & black organic balloon garland", "Life-size Boss Baby standee + tuxedo cake pedestal", "Marquee number '1' light + venue setup"],
+    rating: 4.9, reviews: 446, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-g-rian-turns-one-jungle-grass-arch",
+    name: "Rian Turns One Jungle Grass Outdoor Arch",
+    description: "A grand outdoor jungle 1st birthday with a personalised 'RIAN TURNS ONE' backdrop, central green grass wall with 'Happy Birthday' neon, a lush organic balloon arch in peach, sage, ivory & chrome-gold, giraffe & bunny cut-out standees, squirrel prop and a glowing marquee number '1' on grass — exactly like the picture.",
+    image: themeG4.url,
+    includes: ["Personalised 'NAME Turns One' backdrop + grass wall", "'Happy Birthday' neon centrepiece", "Peach, sage, ivory & chrome-gold organic balloon arch", "Giraffe, bunny & squirrel cut-outs + marquee '1' light"],
+    rating: 4.9, reviews: 617, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-g-pastel-unicorn-rainbow-4th-arch",
+    name: "Pastel Unicorn Rainbow 4th Birthday Arch",
+    description: "A dreamy pastel unicorn arch with a mint-green round backdrop, 'Happy Birthday' neon sign, a pastel organic balloon ring in pink, lilac, mint, sky-blue & yellow, a large unicorn foil balloon and a rose-gold number '4' foil column — styled exactly like the reference photo.",
+    image: themeG5.url,
+    includes: ["Mint round backdrop + 'Happy Birthday' neon", "Pastel pink/lilac/mint/blue/yellow balloon ring", "Large unicorn foil balloon", "Rose-gold number '4' foil column + setup"],
+    rating: 4.8, reviews: 298, offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "theme-g-natan-jahdiel-boss-baby-blue-gold",
+    name: "Natan Jahdiel Boss Baby Blue & Gold Arch",
+    description: "A stylish Boss Baby setup with a personalised sky-blue 'NATAN JAHDIEL' backdrop featuring milk-bottle, tie & moustache motifs, a metallic blue, chrome-gold, white & clear organic balloon arch, life-size Boss Baby standee and a tuxedo cake pedestal with black bow-tie — exactly like the picture.",
+    image: themeG6.url,
+    includes: ["Personalised Boss Baby 'NAME' blue backdrop", "Metallic blue, gold, white & clear balloon arch", "Life-size Boss Baby standee", "Tuxedo cake pedestal + venue setup"],
+    rating: 4.8, reviews: 341, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-g-raelynn-unicorn-pastel-restaurant",
+    name: "Raelynn Pastel Unicorn 1st Restaurant Arch",
+    description: "A charming pastel unicorn 1st birthday restaurant decor with a lilac chiara backdrop personalised 'Happy First Birthday NAME', a lush pastel & chrome-gold organic balloon arch with flower clusters, a large unicorn cut-out standee and a giant clear bubble balloon — recreated from the photo.",
+    image: themeG7.url,
+    includes: ["Lilac chiara backdrop personalised 'Happy First Birthday NAME'", "Pastel + chrome-gold organic balloon arch with flowers", "Large unicorn cut-out standee", "Giant bubble balloon + restaurant setup"],
+    rating: 4.9, reviews: 402, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-g-happy-birthday-rosegold-room-simple",
+    name: "Happy Birthday Rose-Gold Simple Room Decor",
+    description: "A simple, budget-friendly room decor with a rose-gold 'HAPPY BIRTHDAY' foil banner on a yellow wall, pastel pink & white flower balloon clusters on the sides, ceiling helium balloons and small balloon bouquets on the sofa & table — exactly like the reference photo.",
+    image: themeG8.url,
+    includes: ["Rose-gold 'Happy Birthday' foil banner", "Pastel pink & white flower balloon clusters", "Ceiling helium balloons", "Sofa & table balloon accents"],
+    rating: 4.7, reviews: 224, offer: <>₹1,499</>, original: <>₹2,499</>, discountPct: 40,
+  },
+  {
+    id: "theme-g-anfa-frozen-elsa-twin-chiara",
+    name: "Anfa Frozen Elsa Twin Chiara Arch",
+    description: "A magical Frozen twin-chiara birthday setup with a personalised 'Happy Birthday ANFA' Anna & Elsa backdrop, a purple, lavender, white & silver organic balloon garland flowing across both arches, three Frozen character standees (Anna, Elsa, Elsa in blue gown), an Olaf-wrapped pedestal, personalised 'ANFA' name light and a marquee number light — recreated from the photo.",
+    image: themeG9.url,
+    includes: ["Twin chiara personalised Anna & Elsa backdrop", "Purple, lavender, white & silver organic balloon garland", "3 Frozen character standees + Olaf cake pedestal", "Personalised 'NAME' light + marquee number light"],
+    rating: 4.9, reviews: 528, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-g-mudita-frozen-ceiling-blue-white-room",
+    name: "Mudita Frozen Ceiling Blue & White Room Decor",
+    description: "A cheerful room decor with a blue & white ceiling balloon canopy with hanging ribbons, personalised gold 'HAPPY BIRTHDAY MUDITA' foil letters, twin balloon pillars with pink & blue heart foils, a unicorn foil balloon, an Elsa cut-out and a red rose-petal cake table — exactly like the picture.",
+    image: themeG10.url,
+    includes: ["Blue & white ceiling balloon canopy with ribbons", "Personalised gold 'HAPPY BIRTHDAY NAME' foils", "Twin balloon pillars + heart foils + unicorn balloon", "Elsa cut-out + rose-petal cake table"],
+    rating: 4.8, reviews: 271, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+];
 
 const NEW_THEME_CARDS_F = [
   {
