@@ -78,6 +78,54 @@ import themeG7 from "@/assets/theme-g7.jpeg.asset.json";
 import themeG8 from "@/assets/theme-g8.jpeg.asset.json";
 import themeG9 from "@/assets/theme-g9.jpeg.asset.json";
 import themeG10 from "@/assets/theme-g10.jpeg.asset.json";
+import themeH1 from "@/assets/theme-h1.webp.asset.json";
+import themeH2 from "@/assets/theme-h2.webp.asset.json";
+import themeH3 from "@/assets/theme-h3.jpg.asset.json";
+import themeH4 from "@/assets/theme-h4.jpg.asset.json";
+import themeH5 from "@/assets/theme-h5.jpg.asset.json";
+
+const NEW_THEME_CARDS_H = [
+  {
+    id: "theme-h-gustu-dana-jungle-sage-gold-1st",
+    name: "Gustu Dana Jungle Sage & Gold 1st Arch",
+    description: "A charming jungle 1st birthday arch with a personalised ivory arched backdrop reading 'GUSTU DANA is turning 1', a lush organic balloon garland in sage-green, chrome-gold, white & clear balloons with tropical palm & ivy leaves, a cute baby-lion cut-out standee and a tall white cake pedestal — recreated from the reference photo.",
+    image: themeH1.url,
+    includes: ["Personalised 'NAME is turning 1' ivory arched backdrop", "Sage green, chrome-gold, white & clear balloon garland", "Palm + ivy tropical leaf accents", "Baby lion cut-out standee + white cake pedestal"],
+    rating: 4.8, reviews: 312, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-h-anaaya-reddy-jungle-safari-arch",
+    name: "Anaaya Reddy Jungle Safari Grand 1st Arch",
+    description: "A lavish jungle safari 1st birthday setup with a personalised mint chiara backdrop featuring the baby's photo and 'Anaaya Reddy Turns 1', a lush green, gold & ivory organic balloon arch, life-size giraffe, monkey, lion & lioness cut-out standees, marquee '1' light, mini ferris-wheel cake stand, printed cake pedestals and a green grass floor — recreated from the picture.",
+    image: themeH2.url,
+    includes: ["Personalised photo backdrop 'NAME Turns 1'", "Green, chrome-gold, ivory & clear jungle balloon arch", "Giraffe, monkey, lion & lioness standees + marquee '1' light", "Ferris-wheel cake stand + printed pedestals + grass floor"],
+    rating: 4.9, reviews: 574, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-h-navya-onederful-grand-stage",
+    name: "Navya 'Isn't She ONEderful' Grand Stage Decor",
+    description: "A grand banquet stage setup with a personalised pink 'isn't she ONEderful — Navya' twin backdrop, boho arched side props, a lush pastel peach, coral, rose-gold, cream & chrome organic balloon garland with palm-leaf paper fans, tall printed cake pedestals with retro daisies, wooden 'ONE' blocks, boho rainbow, giant marquee 'NAVYA' name light and a neon '1' light — recreated from the reference photo.",
+    image: themeH3.url,
+    includes: ["Personalised twin 'ONEderful' + NAME backdrop with boho arches", "Peach, coral, rose-gold & cream organic balloon garland + palm fans", "Wooden 'ONE' blocks + boho rainbow + printed cake pedestals", "Giant marquee 'NAME' letters light + neon '1' light + full stage styling"],
+    rating: 5.0, reviews: 892, offer: <>₹34,999</>, original: <>₹44,999</>, discountPct: 22, bestSeller: true,
+  },
+  {
+    id: "theme-h-jisnu-cocomelon-banquet-grand",
+    name: "Jisnu Cocomelon Banquet Grand 1st Decor",
+    description: "A grand banquet Cocomelon 1st birthday with a personalised 'JISNU Turns One' yellow backdrop, silver sequin shimmer wall with 'Happy Birthday' neon, rainbow Cocomelon character backdrop, pastel rainbow (mint, peach, lilac, sky, yellow) & chrome-gold organic balloon arch across the stage, life-size JJ, Bingo, Cody & Nina Cocomelon standees, a Cocomelon school-bus prop and a personalised marquee '#JISNU1#' picket-fence name light — exactly like the picture.",
+    image: themeH4.url,
+    includes: ["Personalised Cocomelon 'NAME Turns One' backdrop + silver shimmer wall + neon", "Pastel rainbow + chrome-gold organic balloon garland across stage", "4 Cocomelon character standees + school-bus prop", "Marquee '#NAME1#' picket-fence name light + full banquet setup"],
+    rating: 5.0, reviews: 731, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-h-cocomelon-sequin-neon-arch",
+    name: "Cocomelon Rose-Gold Sequin & Neon Arch",
+    description: "A stunning Cocomelon arch with a rose-gold sequin shimmer wall, glowing 'Happy Birthday' pink neon centrepiece, a rainbow organic balloon arch in pink, blue, peach, lilac, cream & chrome-gold, Cocomelon family topper cut-out, watermelon logo, sunshine prop, JJ & Cody standees, artificial grass floor and a marquee number '1' light — recreated from the reference photo.",
+    image: themeH5.url,
+    includes: ["Rose-gold sequin shimmer wall + 'Happy Birthday' pink neon", "Rainbow + chrome-gold organic balloon arch", "Cocomelon family topper + watermelon + sunshine cut-outs", "JJ & Cody standees + grass floor + marquee '1' light"],
+    rating: 4.9, reviews: 486, offer: <>₹7,499</>, original: <>₹9,999</>, discountPct: 25, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_G = [
   {
