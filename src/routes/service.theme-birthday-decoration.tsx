@@ -83,6 +83,100 @@ import themeH2 from "@/assets/theme-h2.webp.asset.json";
 import themeH3 from "@/assets/theme-h3.jpg.asset.json";
 import themeH4 from "@/assets/theme-h4.jpg.asset.json";
 import themeH5 from "@/assets/theme-h5.jpg.asset.json";
+import themeI1 from "@/assets/theme-i1.jpg.asset.json";
+import themeI2 from "@/assets/theme-i2.jpg.asset.json";
+import themeI3 from "@/assets/theme-i3.jpg.asset.json";
+import themeI4 from "@/assets/theme-i4.jpg.asset.json";
+import themeI5 from "@/assets/theme-i5.jpg.asset.json";
+import themeI6 from "@/assets/theme-i6.jpg.asset.json";
+import themeI7 from "@/assets/theme-i7.jpg.asset.json";
+import themeI8 from "@/assets/theme-i8.jpg.asset.json";
+import themeI9 from "@/assets/theme-i9.jpg.asset.json";
+import themeI10 from "@/assets/theme-i10.webp.asset.json";
+
+const NEW_THEME_CARDS_I = [
+  {
+    id: "theme-i-hridaan-hritika-jungle-twin-1st",
+    name: "Hridaan & Hritika Jungle Twin 1st Arch",
+    description: "A cheerful jungle-theme twin 1st birthday arch with a personalised round teal 'Happy Birthday Hridaan & Hritika' backdrop featuring paper-cut palm leaves and cute bear, bunny & kangaroo cut-outs, a lush organic balloon garland in white cloud, chrome-gold & red balloons, a marquee '1' light and a small balloon accented cocktail table — recreated from the reference photo.",
+    image: themeI1.url,
+    includes: ["Personalised round teal jungle 'Happy Birthday NAMES' backdrop", "White cloud + chrome-gold + red organic balloon garland", "Bear, bunny & kangaroo animal cut-out standees", "Marquee '1' light + balloon-styled cocktail table"],
+    rating: 4.8, reviews: 264, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "theme-i-faiza-zara-frozen-twin-arch",
+    name: "Faiza & Zara Frozen Elsa Twin Arch",
+    description: "A magical Frozen twin birthday setup with a round Elsa 'Happy Birthday' snowflake backdrop, an organic balloon arch in lilac, blue, chrome-silver, chrome-purple & ivory, twin Elsa & Anna life-size character standees, matching balloon columns, an Olaf-printed cake pedestal and personalised 'FAIZA ZARA' marquee light-up letters — recreated from the picture.",
+    image: themeI2.url,
+    includes: ["Round Elsa 'Happy Birthday' snowflake backdrop", "Lilac, blue, chrome-silver & purple organic balloon arch", "Elsa & Anna twin character standees + balloon columns", "Olaf printed cake pedestal + personalised 'NAMES' marquee letters"],
+    rating: 4.9, reviews: 402, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "theme-i-viraj-space-astronaut-5th",
+    name: "Viraj Space Astronaut Twin-Chiara 5th Arch",
+    description: "A stunning space-theme 5th birthday setup with a personalised navy 'VIRAJ' astronaut chiara backdrop paired with a starry pastel-blue chiara arch, an organic balloon garland in navy, orange, sky-blue, chrome-silver & ivory with planet, rocket & UFO foil balloons, a starry printed cake pedestal, a giant marquee number '5' light and a chevron floor runner — recreated from the reference image.",
+    image: themeI3.url,
+    includes: ["Personalised 'NAME' astronaut + starry twin chiara backdrops", "Navy, orange, sky-blue & chrome-silver organic balloon garland", "Planet, rocket, astronaut & UFO foil balloons + cake pedestal", "Giant marquee '5' light + chevron floor runner"],
+    rating: 4.9, reviews: 348, offer: <>₹8,999</>, original: <>₹14,999</>, discountPct: 40, bestSeller: true,
+  },
+  {
+    id: "theme-i-agasthya-cocomelon-stage-1st",
+    name: "Agasthya Cocomelon Rainbow Stage 1st Decor",
+    description: "A vibrant Cocomelon 1st birthday stage with a personalised 'Agasthya Turns 1' rainbow arched backdrop, twin balloon pillars in mint, peach, yellow, coral & sky-blue framing the stage, a rainbow organic balloon garland on top, JJ, TomTom, YoYo & Cody Cocomelon standees, a 'Happy Birthday' neon side sign, marquee '1' light and personalised gold-foil 'AGASTHYA' letters on a pastel balloon wall — recreated from the picture.",
+    image: themeI4.url,
+    includes: ["Personalised Cocomelon 'NAME Turns 1' rainbow arched backdrop", "Twin balloon pillars + rainbow organic balloon arch", "4 Cocomelon character standees + 'Happy Birthday' neon", "Marquee '1' light + gold-foil 'NAME' letters on pastel balloon wall"],
+    rating: 4.8, reviews: 391, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-i-mermaid-under-the-sea-6th",
+    name: "Mermaid Under-the-Sea 6th Birthday Arch",
+    description: "A dreamy under-the-sea mermaid 6th birthday setup with a round 'Happy Birthday' coral-reef backdrop, an organic balloon arch in pastel pink, purple, mint, peach & chrome-silver, a giant mermaid-tail foil balloon on top, mermaid & tail cut-out standees, a pink coral-printed cake pedestal, a marquee '6' light and scattered pastel balloons on the floor — recreated from the reference photo.",
+    image: themeI5.url,
+    includes: ["Round mermaid 'Happy Birthday' coral-reef backdrop", "Pastel pink, purple, mint & chrome-silver organic balloon arch", "Mermaid + mermaid-tail cut-out standees + tail foil balloon", "Coral-printed cake pedestal + marquee '6' light + floor balloons"],
+    rating: 4.9, reviews: 318, offer: <>₹5,499</>, original: <>₹6,999</>, discountPct: 21, bestSeller: true,
+  },
+  {
+    id: "theme-i-omansh-cars-mcqueen-8th",
+    name: "Omansh Cars Lightning McQueen 8th Arch",
+    description: "A racing-fast Disney Cars 8th birthday arch with a silver sequin shimmer wall and personalised gold-foil 'HAPPY BIRTHDAY OMANSH', a bold organic balloon arch in red, royal-blue, black & chrome-silver, Lightning McQueen life-size standee, McQueen foil balloons, red foil-star balloons and a large gold number '8' foil balloon — recreated from the picture.",
+    image: themeI6.url,
+    includes: ["Silver sequin shimmer wall + personalised gold-foil 'HBD NAME'", "Red, royal-blue, black & chrome-silver organic balloon arch", "Lightning McQueen standee + McQueen foil balloons + red star foils", "Gold number '8' foil balloon + full styling"],
+    rating: 4.8, reviews: 276, offer: <>₹4,499</>, original: <>₹6,499</>, discountPct: 31, bestSeller: true,
+  },
+  {
+    id: "theme-i-zayan-lego-5th",
+    name: "Zayan Lego 'Happy Birthday' 5th Arch",
+    description: "A playful Lego-theme 5th birthday setup with a personalised round 'Happy Birthday Zayan' Lego-scene backdrop, a colourful organic balloon arch in primary red, yellow, blue & green, a glowing 'Happy Birthday' neon sign, a marquee number '5' light and a fun Lego balloon sculpture on the floor — recreated from the reference photo.",
+    image: themeI7.url,
+    includes: ["Personalised Lego 'Happy Birthday NAME' round backdrop", "Red, yellow, blue & green primary organic balloon arch", "'Happy Birthday' neon sign + marquee '5' light", "Lego-style balloon floor sculpture"],
+    rating: 4.7, reviews: 214, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-i-aariv-dinosaur-4th",
+    name: "Aariv Dinosaur Jungle 4th Arch",
+    description: "A roaring dinosaur-theme 4th birthday arch with a personalised round 'HAPPY BIRTHDAY Aariv' dino jungle backdrop, a lush organic balloon garland in shades of green, chrome-gold, brown, orange & ivory, a giant T-Rex foil balloon, an inflatable palm-tree prop and a giant marquee number '4' light — recreated from the picture.",
+    image: themeI8.url,
+    includes: ["Personalised dino jungle 'HBD NAME' round backdrop", "Green, chrome-gold, brown & orange organic balloon garland", "Giant T-Rex foil balloon + inflatable palm-tree prop", "Marquee number '4' light + full styling"],
+    rating: 4.8, reviews: 302, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-i-adam-jungle-hanging-vine-1st",
+    name: "Adam Jungle Hanging-Vine Grand 1st Setup",
+    description: "A grand jungle 1st birthday stage on artificial-grass wall with cascading vine & fairy-light ceiling, a personalised sage twin chiara backdrop reading 'ADAM Turns ONE' with a neon '1', a lush organic balloon garland in sage-green, ivory, cream & chrome-gold with gold palm-leaf accents, life-size lion, tiger, zebra, giraffe & elephant safari animal standees and ribbed cake pedestals with a gold ferris-wheel cake stand — recreated from the reference photo.",
+    image: themeI9.url,
+    includes: ["Artificial grass wall + hanging vine & fairy-light ceiling", "Personalised sage twin chiara 'NAME Turns ONE' + neon '1'", "Sage, ivory, cream & chrome-gold balloon garland + gold palm leaves", "5 safari animal standees + ribbed cake pedestals + ferris-wheel cake stand"],
+    rating: 5.0, reviews: 612, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
+  },
+  {
+    id: "theme-i-zainab-jungle-safari-arch",
+    name: "Zainab Jungle Safari Twin-Chiara 1st Arch",
+    description: "A grand jungle safari 1st birthday setup with a personalised twin chiara backdrop — a pink 'Giraffe' arch and a green 'Zainab Turns ONE' elephant arch, an organic balloon arch in green, chrome-gold, peach, white & ivory, life-size lion, Simba, giraffe, elephant, zebra & crocodile safari standees, ivy vine accents, a printed cake pedestal, a large marquee 'HBD' light and personalised marquee 'ZAINAB' letters on the floor — recreated from the picture.",
+    image: themeI10.url,
+    includes: ["Personalised pink + green twin chiara safari backdrops", "Green, chrome-gold, peach, white & ivory organic balloon arch", "6 safari animal standees + ivy vine accents + printed pedestal", "Marquee 'HBD' light + personalised marquee 'NAME' letters"],
+    rating: 4.9, reviews: 458, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+  },
+];
+
 
 const NEW_THEME_CARDS_H = [
   {
