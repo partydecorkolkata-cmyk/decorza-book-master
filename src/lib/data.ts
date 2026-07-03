@@ -457,6 +457,16 @@ export const REVIEWS = [
   ["Anirban Saha", "Siliguri", "Anniversary Decoration", "Booked last minute, team still pulled off a magical setup. 10/10.", 5],
   ["Lakshmi Menon", "Bengaluru", "Engagement Decoration", "Stage decor was elegant and floral arrangements were fresh. Highly recommended.", 5],
   ["Rahul Bhattacharya", "Pune", "Birthday Decoration", "Best birthday surprise for my mom's 60th. Professional team, beautiful work.", 5],
+  ["Sanjana Chatterjee", "Kolkata", "Theme Birthday Decoration", "Booked the Cocomelon theme for my daughter's 2nd birthday. JJ standee, balloon arch and marquee light were exactly like the picture. Guests were amazed!", 5],
+  ["Mohit Agrawal", "Delhi", "Theme Birthday Decoration", "Went for the jungle safari setup for my son's 1st birthday. The animal cut-outs and grass wall looked so real. Fully worth the price.", 5],
+  ["Deepika Subramanian", "Bengaluru", "Theme Birthday Decoration", "Frozen theme for my little princess turned out magical. Elsa standee, snowflake backdrop, pastel balloons \u2014 everything perfect. Setup was done in 2 hours.", 5],
+  ["Farhan Khan", "Hyderabad", "Theme Birthday Decoration", "We had booked the Spiderman theme. Team reached on time, quality of balloons and cut-outs was top-notch. My nephew is still talking about it.", 5],
+  ["Ritu Malhotra", "Mumbai", "Theme Birthday Decoration", "Unicorn pastel theme for my daughter\u2019s 5th birthday looked exactly like the reference photo I shared. Even the cake pedestal matched. Highly recommended!", 5],
+  ["Suresh Pillai", "Pune", "Theme Birthday Decoration", "Booked the space astronaut theme for my son. Planet balloons, marquee number 5, rocket cut-outs \u2014 kids were super excited. Great value for money.", 5],
+  ["Ankita Dutta", "Siliguri", "Theme Birthday Decoration", "Boss Baby theme for my little one\u2019s 1st birthday. Coordinator on WhatsApp was very patient and understood all my requirements. Setup was flawless.", 5],
+  ["Vivek Nair", "Bengaluru", "Theme Birthday Decoration", "The Cars Lightning McQueen decor was superb. Silver shimmer wall, McQueen standee, red-blue balloons \u2014 everything on point. Team packed up neatly too.", 5],
+  ["Poulami Ganguly", "Kolkata", "Theme Birthday Decoration", "Booked the mermaid under-the-sea theme for my daughter\u2019s 6th birthday. Coral-reef backdrop and pastel balloons were breathtaking. Bhalo laglo!", 5],
+  ["Nikhil Reddy", "Hyderabad", "Theme Birthday Decoration", "Went with the dinosaur jungle theme for my 4-year-old. T-Rex foil balloon and palm tree props were a huge hit. Team was punctual and very professional.", 5],
 ] as const;
 
 export const GALLERY = Array.from(
