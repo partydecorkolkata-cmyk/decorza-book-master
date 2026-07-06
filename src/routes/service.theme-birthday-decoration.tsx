@@ -983,7 +983,7 @@ function ServicePage() {
             includes={["Grand custom themed stage backdrop", "Twin themed arches + sequin/shimmer panel", "Themed character cut-outs + marquee name & number", "Personalised pedestals, props & uplighters"]}
             rating={4.7}
             reviews={893}
-            offer={<>₹19,999</>}
+            offer={<>₹29,999</>}
             original={<>₹34,999</>}
             discountPct={43}
             bestSeller={false}
