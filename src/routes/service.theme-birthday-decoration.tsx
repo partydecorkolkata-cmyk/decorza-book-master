@@ -93,6 +93,99 @@ import themeI7 from "@/assets/theme-i7.jpg.asset.json";
 import themeI8 from "@/assets/theme-i8.jpg.asset.json";
 import themeI9 from "@/assets/theme-i9.jpg.asset.json";
 import themeI10 from "@/assets/theme-i10.webp.asset.json";
+import themeJ1 from "@/assets/theme-j1.jpg.asset.json";
+import themeJ2 from "@/assets/theme-j2.jpg.asset.json";
+import themeJ3 from "@/assets/theme-j3.jpg.asset.json";
+import themeJ4 from "@/assets/theme-j4.jpg.asset.json";
+import themeJ5 from "@/assets/theme-j5.jpg.asset.json";
+import themeJ6 from "@/assets/theme-j6.jpg.asset.json";
+import themeJ7 from "@/assets/theme-j7.jpg.asset.json";
+import themeJ8 from "@/assets/theme-j8.jpg.asset.json";
+import themeJ9 from "@/assets/theme-j9.jpg.asset.json";
+import themeJ10 from "@/assets/theme-j10.jpg.asset.json";
+
+const NEW_THEME_CARDS_J = [
+  {
+    id: "theme-j-maheen-unicorn-rainbow-arch",
+    name: "Maheen Unicorn Pastel Rainbow Arch",
+    description: "A dreamy unicorn birthday setup with a personalised 'HAPPY BIRTHDAY MAHEEN' gold foil letter backdrop over a shimmer curtain, a huge pastel rainbow half-arch in pink, peach, yellow, mint, blue & lilac balloons, a giant rainbow-mane unicorn foil balloon, a matching balloon column and a candy pastel balloon skirt around the cake table — recreated from the reference photo.",
+    image: themeJ1.url,
+    includes: ["Personalised gold foil 'HAPPY BIRTHDAY NAME' backdrop + shimmer curtain", "Pastel rainbow half-arch balloon garland", "Giant rainbow-mane unicorn foil balloon + matching column", "Balloon-decorated cake table + venue styling"],
+    rating: 4.8, reviews: 312, offer: <>₹2,999</>, original: <>₹4,999</>, discountPct: 40, bestSeller: true,
+  },
+  {
+    id: "theme-j-iyla-minions-turns-two-banquet",
+    name: "Iyla Minions 'Turns Two' Banquet Stage",
+    description: "A grand banquet Minions 2nd birthday stage with a giant Minion-face chiara centrepiece, twin arched backdrops with 'IYLA TURNS TWO!' signage, blue & yellow organic balloon clusters, life-size Minion cut-out standees, a banana-print pillar and Minion cake pedestal, personalised 'IYLA' marquee light-up letters, a giant marquee '2' and a white picket-fence stage border — recreated exactly like the photo.",
+    image: themeJ2.url,
+    includes: ["Giant Minion-face chiara + twin 'NAME TURNS TWO' backdrops", "Blue & yellow organic balloon clusters across the stage", "Life-size Minion standees + banana-print cake pedestal", "Marquee 'NAME' letters + giant marquee '2' + picket-fence border"],
+    rating: 5.0, reviews: 724, offer: <>₹29,999</>, original: <>₹34,999</>, discountPct: 14, bestSeller: true,
+  },
+  {
+    id: "theme-j-meerwardhaan-boss-baby-1st",
+    name: "Meerwardhaan Boss Baby Blue Chrome Arch",
+    description: "A classy Boss Baby 1st birthday arch with a personalised round sky-blue 'BOSS BABY MEERWARDHAAN' backdrop, a lush organic balloon garland in sky-blue, white, navy & chrome-silver, twin life-size Boss Baby standees in suits, a tuxedo bow-tie cake pedestal and a glowing marquee number '1' light — recreated from the reference photo.",
+    image: themeJ3.url,
+    includes: ["Personalised round 'BOSS BABY NAME' backdrop", "Sky-blue, white, navy & chrome-silver organic balloon garland", "Twin life-size Boss Baby standees + tuxedo cake pedestal", "Marquee number '1' light + venue setup"],
+    rating: 4.9, reviews: 468, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-j-hanika-fairy-butterfly-outdoor",
+    name: "Hanika Fairy Butterfly Outdoor Grand Arch",
+    description: "A magical outdoor fairy 1st birthday setup with a personalised triple-panel 'HANIKA turns one' backdrop featuring a butterfly-wing fairy princess, cat and castle art, a huge organic balloon arch in lilac, pink, white & rose-gold chrome, giant laser-cut purple butterfly wing props on both sides and a pastel bow topper — recreated from the reference photo.",
+    image: themeJ4.url,
+    includes: ["Personalised triple-panel fairy + castle 'NAME turns one' backdrop", "Lilac, pink, white & rose-gold chrome organic balloon arch", "Giant laser-cut purple butterfly wing props (pair)", "Pastel bow topper + full outdoor stage styling"],
+    rating: 5.0, reviews: 583, offer: <>₹19,999</>, original: <>₹24,999</>, discountPct: 20, bestSeller: true,
+  },
+  {
+    id: "theme-j-mickey-mouse-1st-shimmer-banquet",
+    name: "Baby Mickey Blue Shimmer 1st Banquet Stage",
+    description: "A stunning baby Mickey 1st birthday banquet stage with twin chiara Mickey backdrops, a central silver sequin shimmer wall with pink 'Happy Birthday' neon, a grand organic balloon arch in sky-blue, white, chrome-silver & teal, four life-size baby Mickey cut-outs, printed hot-air-balloon cake pedestals and a glowing marquee '1' — recreated exactly like the picture.",
+    image: themeJ5.url,
+    includes: ["Twin baby Mickey chiara backdrops + silver sequin shimmer wall", "'Happy Birthday' pink neon centrepiece", "Sky-blue, white, chrome-silver & teal organic balloon arch", "Four baby Mickey standees + printed cake pedestals + marquee '1'"],
+    rating: 4.9, reviews: 641, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "theme-j-mickey-mouse-5th-red-yellow-arch",
+    name: "Mickey Mouse Classic 5th Red-Yellow Arch",
+    description: "A classic Mickey Mouse 5th birthday arch with a round white backdrop, a 'HAPPY BIRTHDAY' Mickey bunting, an organic balloon garland in red, yellow, black, white polka-dot & chrome-silver with Mickey-ear balloon clusters, a Mickey standee, a giant red foil number '5' and Mickey-inspired painted cake pedestals — styled exactly like the photo.",
+    image: themeJ6.url,
+    includes: ["Round white backdrop + 'HAPPY BIRTHDAY' Mickey bunting", "Red, yellow, black, polka-dot & chrome-silver organic balloon garland", "Mickey ear balloon clusters + Mickey standee", "Giant red foil '5' + Mickey painted cake pedestals"],
+    rating: 4.7, reviews: 289, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+  },
+  {
+    id: "theme-j-rubin-miraculous-ladybug-5th",
+    name: "Rubin Miraculous Ladybug 5th Arch",
+    description: "A bold Miraculous Ladybug 5th birthday frame arch with a personalised 'RUBIN' Cat Noir & Ladybug Eiffel-Tower backdrop, a rectangular organic balloon arch in red, royal-blue, chrome-gold & black balloons, matching Mickey-cluster balloon columns on both sides and a giant white marquee '5' light with Mickey balloon accents on the floor — recreated from the reference photo.",
+    image: themeJ7.url,
+    includes: ["Personalised 'NAME' Cat Noir & Ladybug Eiffel-Tower backdrop", "Rectangular red, royal-blue, chrome-gold & black balloon frame arch", "Matching cluster balloon columns (pair)", "Giant marquee '5' light + floor balloon clusters"],
+    rating: 4.9, reviews: 356, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-j-lilac-chrome-bow-5th-arch",
+    name: "Lilac Chrome Bow 5th Birthday Chiara Arch",
+    description: "An elegant pastel 5th birthday chiara arch with a hand-painted watercolour pink '5' with bow & 'Happy Birthday' script on an ivory chiara panel, a lush organic balloon garland in ivory, white & chrome-lilac balloons with soft moss accents, matching balloon columns at both feet and warm ground uplighters — styled exactly like the picture.",
+    image: themeJ8.url,
+    includes: ["Ivory chiara backdrop with hand-painted '5' + bow + 'Happy Birthday' script", "Ivory, white & chrome-lilac organic balloon garland with moss accents", "Matching lilac & white balloon columns (pair)", "Warm ground uplighters + venue styling"],
+    rating: 4.9, reviews: 274, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-j-ameis-aurora-princess-5th-arch",
+    name: "Ameis Aurora Princess 5th Balloon Arch",
+    description: "A pretty pink & purple Princess Aurora 5th birthday arch with a personalised round 'Ameis Happy Birthday' Aurora backdrop, a lush organic balloon garland in pink, purple & yellow with butterfly cut-out accents, a printed Aurora cake pedestal, scattered floor balloons and a glowing marquee number '5' light — recreated exactly like the reference photo.",
+    image: themeJ9.url,
+    includes: ["Personalised round 'NAME Happy Birthday' Aurora princess backdrop", "Pink, purple & yellow organic balloon garland with butterfly cut-outs", "Printed Aurora cake pedestal + scattered floor balloons", "Glowing marquee number '5' light + venue styling"],
+    rating: 4.8, reviews: 342, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "theme-j-aarvi-disney-princess-5th-grand",
+    name: "Aarvi Disney Princess 5th Grand Arch",
+    description: "A grand Disney Princess 5th birthday arch with a personalised 'Princess AARVI is Turning Five' castle backdrop featuring Cinderella, Ariel, Belle, Snow White, Jasmine & Tiana, a lush organic balloon arch in pastel yellow, ivory & chrome-gold with butterfly accents, life-size Princess character standees (Aurora, Belle, Rapunzel, Sofia, Cinderella & Ariel) and warm stage uplighters — recreated from the reference photo.",
+    image: themeJ10.url,
+    includes: ["Personalised 'Princess NAME is Turning FIVE' castle backdrop", "Pastel yellow, ivory & chrome-gold organic balloon arch with butterflies", "6 life-size Disney Princess character standees", "Warm stage uplighters + full venue setup"],
+    rating: 5.0, reviews: 491, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_I = [
   {
@@ -890,12 +983,12 @@ function ServicePage() {
             includes={["Grand custom themed stage backdrop", "Twin themed arches + sequin/shimmer panel", "Themed character cut-outs + marquee name & number", "Personalised pedestals, props & uplighters"]}
             rating={4.7}
             reviews={893}
-            offer={<>₹19,999</>}
+            offer={<>₹29,999</>}
             original={<>₹34,999</>}
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -911,7 +1004,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
