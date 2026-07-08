@@ -103,6 +103,99 @@ import themeJ7 from "@/assets/theme-j7.jpg.asset.json";
 import themeJ8 from "@/assets/theme-j8.jpg.asset.json";
 import themeJ9 from "@/assets/theme-j9.jpg.asset.json";
 import themeJ10 from "@/assets/theme-j10.jpg.asset.json";
+import themeK1 from "@/assets/theme-k1.webp.asset.json";
+import themeK2 from "@/assets/theme-k2.webp.asset.json";
+import themeK3 from "@/assets/theme-k3.jpeg.asset.json";
+import themeK4 from "@/assets/theme-k4.jpeg.asset.json";
+import themeK5 from "@/assets/theme-k5.jpeg.asset.json";
+import themeK6 from "@/assets/theme-k6.jpeg.asset.json";
+import themeK7 from "@/assets/theme-k7.jpeg.asset.json";
+import themeK8 from "@/assets/theme-k8.jpg.asset.json";
+import themeK9 from "@/assets/theme-k9.jpeg.asset.json";
+import themeK10 from "@/assets/theme-k10.jpg.asset.json";
+
+const NEW_THEME_CARDS_K = [
+  {
+    id: "theme-k-avantika-radha-krishna-annaprashan",
+    name: "Avantika Radha-Krishna Annaprashan Grand Stage",
+    description: "A regal Radha-Krishna themed half-birthday & Annaprashan stage with a purple & gold arched temple backdrop, hand-painted Radha-Krishna mural, giant marquee 'AVANTIKA' light-up letters, ornate gold jhoola swing for baby, lush pink & white floral garlands, brass diya pedestals, gold-fringed drapes and warm mandap lighting — recreated exactly from the reference photo.",
+    image: themeK1.url,
+    includes: ["Purple & gold arched temple backdrop with Radha-Krishna mural", "Giant marquee 'NAME' light-up letters", "Ornate gold jhoola swing + brass diya pedestals", "Pink & white floral garlands + fringed drapes + warm uplighters"],
+    rating: 5.0, reviews: 612, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-k-mihir-jungle-safari-indoor-arch",
+    name: "Mihir Jungle Safari Indoor Arch",
+    description: "An adventurous indoor jungle 1st birthday arch with a personalised 'HAPPY BIRTHDAY MIHIR' safari backdrop, a lush organic balloon garland in forest-green, lime, brown, orange & cream with palm-leaf accents, life-size giraffe, monkey, lion & tiger standees, jungle-print cake pedestals and hanging vine drops — styled exactly like the reference photo.",
+    image: themeK2.url,
+    includes: ["Personalised safari 'HAPPY BIRTHDAY NAME' backdrop", "Forest-green, lime, brown & orange organic balloon garland with palm leaves", "Giraffe, monkey, lion & tiger standees", "Jungle-print cake pedestals + hanging vine drops"],
+    rating: 4.9, reviews: 428, offer: <>₹11,999</>, original: <>₹14,999</>, discountPct: 20, bestSeller: true,
+  },
+  {
+    id: "theme-k-luna-unicorn-3-magical-years",
+    name: "Luna Unicorn '3 Magical Years' Pastel Arch",
+    description: "A dreamy pastel unicorn 3rd birthday arch with a curved pink chiara backdrop featuring 'Luna 3 Magical Years', a rainbow balloon fan tail, a giant unicorn cut-out with gold horn, a lush organic balloon garland in pink, peach, mint, lilac & rose-gold chrome and unicorn cake pedestals — styled to match the reference picture.",
+    image: themeK3.url,
+    includes: ["Curved pink chiara 'NAME – X Magical Years' backdrop", "Rainbow balloon fan tail + giant unicorn cut-out with gold horn", "Pink, peach, mint, lilac & rose-gold organic balloon garland", "Unicorn cake pedestals + venue styling"],
+    rating: 4.9, reviews: 356, offer: <>₹4,999</>, original: <>₹5,999</>, discountPct: 17, bestSeller: true,
+  },
+  {
+    id: "theme-k-spiderman-web-marquee-5-arch",
+    name: "Spider-Man Web '5' Marquee Grand Arch",
+    description: "A crowd-favourite Spider-Man 5th birthday arch with a red spider-web backdrop, giant Spider-Man cut-out, dense organic balloon garland in red, black, royal-blue & chrome-silver, spider-print balloon clusters on both columns, a huge marquee number '5' light and a Spider-Man cake pedestal — recreated exactly like the picture.",
+    image: themeK4.url,
+    includes: ["Red spider-web backdrop + giant Spider-Man standee", "Red, black, royal-blue & chrome-silver organic balloon garland", "Twin spider-print balloon columns", "Giant marquee '5' light + Spider-Man cake pedestal"],
+    rating: 5.0, reviews: 587, offer: <>₹11,499</>, original: <>₹14,999</>, discountPct: 23, bestSeller: true,
+  },
+  {
+    id: "theme-k-khevansh-spiderman-foil-simple",
+    name: "Khevansh Spider-Man Foil Letter Setup",
+    description: "A crisp starter Spider-Man birthday setup with a personalised 'KHEVANSH' gold foil letter backdrop over a red curtain, a Spider-Man face foil balloon centrepiece, blue & red spiral tinsel curtain accents and a matching balloon cluster on the cake table — perfect for compact home celebrations, styled like the reference.",
+    image: themeK5.url,
+    includes: ["Personalised 'NAME' gold foil letter backdrop + red curtain", "Spider-Man face foil balloon centrepiece", "Blue & red spiral tinsel curtains", "Balloon cluster on cake table"],
+    rating: 4.6, reviews: 198, offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
+  },
+  {
+    id: "theme-k-ayden-spiderman-4th-banquet",
+    name: "Ayden's 4th Spider-Man Banquet Arch",
+    description: "A punchy Spider-Man 4th birthday banquet arch with a personalised round 'Ayden's 4th Birthday' Spider-Man backdrop over a red satin curtain, a lush organic balloon garland in red, royal-blue, black & chrome-silver, a matching balloon column, a Spider-Man cake pedestal and a glowing marquee number '4' — recreated from the picture.",
+    image: themeK6.url,
+    includes: ["Personalised round 'NAME's Xth Birthday' Spider-Man backdrop", "Red, royal-blue, black & chrome-silver organic balloon garland", "Matching balloon column + Spider-Man cake pedestal", "Glowing marquee number light"],
+    rating: 4.9, reviews: 342, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-k-spiderman-neon-happy-birthday-arch",
+    name: "Spider-Man Neon 'Happy Birthday' Web Arch",
+    description: "A striking Spider-Man theme arch with a red spider-web backdrop, glowing pink 'Happy Birthday' neon sign, giant Spider-Man cut-out, a dense organic balloon garland in red, royal-blue, black & chrome-silver spider-print balloons and a Spider-Man cake pedestal with tabletop web accents — styled like the reference photo.",
+    image: themeK7.url,
+    includes: ["Red spider-web backdrop + pink 'Happy Birthday' neon sign", "Giant Spider-Man standee", "Red, royal-blue, black & chrome-silver spider-print balloon garland", "Spider-Man cake pedestal + tabletop web accents"],
+    rating: 4.8, reviews: 276, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "theme-k-samrat-spiderman-5th-round",
+    name: "Samrat 5th Spider-Man Round Backdrop",
+    description: "A vibrant Spider-Man 5th birthday setup with a personalised round '5th Birthday SAMRAT' Spider-Man backdrop, a lush organic balloon garland in red, royal-blue & black, matching balloon column, a Spider-Man cake pedestal and a large white marquee number '5' light — recreated exactly like the picture.",
+    image: themeK8.url,
+    includes: ["Personalised round 'Xth Birthday NAME' Spider-Man backdrop", "Red, royal-blue & black organic balloon garland", "Matching balloon column + Spider-Man cake pedestal", "White marquee number '5' light + venue styling"],
+    rating: 4.8, reviews: 245, offer: <>₹3,999</>, original: <>₹5,499</>, discountPct: 27,
+  },
+  {
+    id: "theme-k-kulshaan-superhero-comic-8th",
+    name: "Kulshaan Superhero Comic 'HBD' 8th Arch",
+    description: "A powerful superhero 8th birthday arch with a comic-style 'HBD KULSHAAN' pop-art backdrop, life-size Spider-Man, Iron Man, Captain America, Hulk, Batman & Thor cut-out standees, an organic balloon garland in red, royal-blue, yellow, black & chrome-silver with superhero-emblem balloons and a glowing marquee number '8' — recreated from the picture.",
+    image: themeK9.url,
+    includes: ["Comic-style pop-art 'HBD NAME' backdrop", "6 life-size superhero standees (Spider-Man, Iron Man, Captain America, Hulk, Batman, Thor)", "Red, royal-blue, yellow, black & chrome-silver superhero balloon garland", "Glowing marquee number light + venue styling"],
+    rating: 5.0, reviews: 468, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+  },
+  {
+    id: "theme-k-raef-mateen-teddy-bear-1st",
+    name: "Raef Mateen 'Turns 1' Teddy Bear Arch",
+    description: "An adorable teddy-bear themed 1st birthday arch with a personalised 'Raef Mateen Turns 1' script backdrop, a lush organic balloon garland in cream, ivory, caramel-brown, tan & white with polka-dot accents, two giant plush teddy-bear props flanking the stage, a bear-print cake pedestal and a soft rug — recreated exactly like the reference photo.",
+    image: themeK10.url,
+    includes: ["Personalised 'NAME Turns One' script backdrop", "Cream, ivory, caramel-brown, tan & white organic balloon garland", "Two giant plush teddy-bear props", "Bear-print cake pedestal + soft rug + venue styling"],
+    rating: 4.9, reviews: 389, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_J = [
   {
