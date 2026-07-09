@@ -1915,7 +1915,34 @@ function ServicePage() {
             discountPct={23}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="birthday-decoration-i1-yellow-black-hbd"
+            name="Yellow & Black Happy Birthday Room Decor"
+            description="A bold yellow and black balloon room decoration with gold HAPPY BIRTHDAY foil letter balloons on the wall, yellow and black balloon flower clusters, streamer swirls hanging from the ceiling, a gold star foil and a yellow, black and white balloon garland along the sofa base."
+            image={pkgYellowBlackHBD.url}
+            includes={["Gold HAPPY BIRTHDAY foil letters on wall", "Yellow & black balloon flowers + ceiling swirls", "Gold star foil + sofa base balloon garland"]}
+            rating={4.7}
+            reviews={162}
+            offer={<>₹1,499</>}
+            original={<>₹2,499</>}
+            discountPct={40}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-i2-pastel-butterfly-gold"
+            name="Pastel Butterfly & Gold Curtain 1st Birthday"
+            description="A dreamy first birthday setup with a lilac, pastel pink and white organic balloon garland, silver star foils, butterfly cutouts and photo prints along the arch, a shimmering gold foil fringe curtain with a silver Happy Birthday cursive banner, and a silver number 1 foil on a pink and white balloon base."
+            image={pkgPastelButterflyGold.url}
+            includes={["Pastel pink, lilac & white organic balloon arch", "Butterflies, silver stars + photo cutouts", "Gold foil curtain + silver number 1 balloon stand"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={false}
+          />
         </div>
+
 
 
 
