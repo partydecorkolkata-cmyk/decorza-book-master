@@ -1174,7 +1174,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K, ...NEW_THEME_CARDS_L].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -1190,7 +1190,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K, ...NEW_THEME_CARDS_L].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
