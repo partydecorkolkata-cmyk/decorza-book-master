@@ -113,6 +113,99 @@ import themeK7 from "@/assets/theme-k7.jpeg.asset.json";
 import themeK8 from "@/assets/theme-k8.jpg.asset.json";
 import themeK9 from "@/assets/theme-k9.jpeg.asset.json";
 import themeK10 from "@/assets/theme-k10.jpg.asset.json";
+import themeL1 from "@/assets/theme-l1.jpg.asset.json";
+import themeL2 from "@/assets/theme-l2.jpg.asset.json";
+import themeL3 from "@/assets/theme-l3.jpeg.asset.json";
+import themeL4 from "@/assets/theme-l4.jpeg.asset.json";
+import themeL5 from "@/assets/theme-l5.webp.asset.json";
+import themeL6 from "@/assets/theme-l6.jpeg.asset.json";
+import themeL7 from "@/assets/theme-l7.webp.asset.json";
+import themeL8 from "@/assets/theme-l8.jpg.asset.json";
+import themeL9 from "@/assets/theme-l9.jpeg.asset.json";
+import themeL10 from "@/assets/theme-l10.jpeg.asset.json";
+
+const NEW_THEME_CARDS_L = [
+  {
+    id: "theme-l-eiman-cocomelon-rainbow-arch",
+    name: "Muhammad Eiman Cocomelon Rainbow Arch",
+    description: "A bright Cocomelon 1st birthday arch with a personalised 'Cocomelon Happy Birthday' cloud backdrop featuring a rainbow, smiling sun & JJ face, a lush organic balloon garland in yellow, green, sky-blue, red & peach, twin JJ baby standees, a Cocomelon-print cake pillar and playful watermelon-ladybug cut-outs — recreated exactly from the reference photo.",
+    image: themeL1.url,
+    includes: ["Personalised Cocomelon cloud 'Happy Birthday NAME' backdrop", "Yellow, green, blue, red & peach organic balloon garland with rainbow & sun cut-outs", "Twin JJ baby standees + watermelon-ladybug cut-outs", "Cocomelon-print cake pillar + venue styling"],
+    rating: 4.9, reviews: 342, offer: <>₹5,499</>, original: <>₹6,999</>, discountPct: 21, bestSeller: true,
+  },
+  {
+    id: "theme-l-hafsa-atif-sofia-princess-arch",
+    name: "Hafsa Atif Sofia Princess Angel-Wings Arch",
+    description: "A magical Sofia the First princess 1st birthday arch with a personalised neon 'Happy Birthday HAFSA ATIF' backdrop featuring rainbow angel wings, a dense organic balloon garland in magenta chrome, blush-pink, white & gold chrome, a life-size Sofia princess foil balloon, Sofia round foil accents, a gold geometric cake pedestal and giant marquee 'HAFSA' + '1' light-up letters — recreated from the picture.",
+    image: themeL2.url,
+    includes: ["Personalised neon 'Happy Birthday NAME' backdrop with rainbow angel wings", "Magenta chrome, blush, white & gold chrome organic balloon garland", "Life-size Sofia princess foil balloon + Sofia round foils", "Marquee 'NAME' letters + giant marquee '1' + gold cake pedestal"],
+    rating: 5.0, reviews: 512, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-l-heenal-unicorn-rainbow-foil",
+    name: "Heenal Unicorn Rainbow Foil Wall",
+    description: "A cheerful unicorn birthday setup with a rainbow tinsel curtain wall, giant magenta 'HAPPY BIRTHDAY HEENAL' foil letters, a lush pastel balloon cloud canopy in pink, lilac, rose-gold & lavender, a giant unicorn head balloon prop, a photo bunting garland and matching pastel balloon columns — recreated from the reference photo.",
+    image: themeL3.url,
+    includes: ["Rainbow tinsel curtain + magenta 'HAPPY BIRTHDAY NAME' foil letters", "Pink, lilac, lavender & rose-gold pastel balloon cloud canopy", "Giant unicorn head balloon prop + photo bunting garland", "Twin pastel balloon columns + venue styling"],
+    rating: 4.7, reviews: 234, offer: <>₹2,699</>, original: <>₹3,499</>, discountPct: 23,
+  },
+  {
+    id: "theme-l-pihu-unicorn-pink-white-ceiling",
+    name: "Pihu Unicorn Pink & White Ceiling Setup",
+    description: "A sweet unicorn birthday room setup with a pink & white balloon ceiling canopy with curling ribbon streamers, silver 'happy birthday' + gold 'PIHU' foil letters, a rainbow unicorn foil balloon, pink & silver star foils, a pink & white organic balloon garland stripe and matching balloon columns flanking the seating area — recreated exactly like the picture.",
+    image: themeL4.url,
+    includes: ["Pink & white balloon ceiling canopy with ribbon streamers", "Silver 'happy birthday' + personalised gold 'NAME' foil letters", "Rainbow unicorn foil + pink & silver star foils", "Pink & white organic balloon garland + twin balloon columns"],
+    rating: 4.6, reviews: 198, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "theme-l-ridhvi-unicorn-pastel-grand-stage",
+    name: "Ridhvi Unicorn Pastel Grand Banquet Stage",
+    description: "A luxury unicorn birthday banquet stage with triple pastel arched chiara backdrops (including a personalised 'Happy Birthday RIDHVI's' cloud sign with a unicorn cut-out), a giant holographic shimmer-sequin wall, a lush organic balloon garland in pastel pink, lilac, peach, mint, chrome-gold & rose-gold, twin unicorn cut-out standees, white cake pedestals, a birdcage floral prop and a marquee 'RIDHVI' light-up nameboard — recreated from the reference photo.",
+    image: themeL5.url,
+    includes: ["Triple pastel arched chiara backdrops + personalised unicorn cloud sign", "Giant holographic shimmer-sequin wall", "Pastel pink, lilac, peach, mint & rose-gold organic balloon garland", "Twin unicorn standees + marquee 'NAME' letters + birdcage floral prop + cake pedestals"],
+    rating: 5.0, reviews: 812, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-l-daisy-boho-sage-1st-arch",
+    name: "Daisy Boho Sage & Gold 1st Birthday Arch",
+    description: "A trendy boho 1st birthday arch with a gold tinsel curtain backdrop, sage-green 'HAPPY BIRTHDAY' foil letters, a lush organic balloon garland in olive-green, white, cream & mocha with a giant white daisy flower accent, a gold marquee number '1' foil balloon on a matching balloon column — recreated exactly like the reference photo.",
+    image: themeL6.url,
+    includes: ["Gold tinsel curtain + sage 'HAPPY BIRTHDAY' foil letters", "Olive, white, cream & mocha organic balloon garland with white daisy accent", "Gold marquee number foil on balloon column", "Matching balloon column on the opposite side + venue styling"],
+    rating: 4.7, reviews: 221, offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
+  },
+  {
+    id: "theme-l-pink-rose-gold-13th-arch",
+    name: "Pink & Rose-Gold '13th' Teen Birthday Arch",
+    description: "A chic teen 13th birthday arch with a rose-gold tinsel curtain backdrop, pink script 'Happy Birthday' cut-out, a lush organic balloon garland in blush-pink, hot-pink, white & gold chrome with daisy accents, and a giant gold marquee '13' number foil column — recreated exactly like the picture.",
+    image: themeL7.url,
+    includes: ["Rose-gold tinsel curtain + pink script 'Happy Birthday' cut-out", "Blush, hot-pink, white & gold chrome organic balloon garland with daisies", "Giant gold marquee '13' (or age) foil on balloon column", "Matching side balloon column + venue styling"],
+    rating: 4.7, reviews: 256, offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
+  },
+  {
+    id: "theme-l-pravya-butterfly-princess-1st",
+    name: "Pravya Butterfly Princess 1st Birthday Ring",
+    description: "A fairytale butterfly 1st birthday setup with a personalised round 'Our Little Princess PRAVYA 1st Birthday' ring backdrop, an organic balloon garland in sky-blue & white circling the ring, giant blue butterfly wing props on both columns, colourful butterfly cut-out accents, a matching balloon carpet spill and a glowing white '1' light — recreated from the reference photo.",
+    image: themeL8.url,
+    includes: ["Personalised round 'Our Little Princess NAME – 1st Birthday' ring backdrop", "Sky-blue & white organic balloon garland with butterfly accents", "Twin giant blue butterfly wing props on balloon columns", "Balloon carpet spill + glowing '1' number light + venue styling"],
+    rating: 4.9, reviews: 468, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "theme-l-shyam-darbar-restaurant-arch",
+    name: "Restaurant Pastel 'Happy Birthday' Balloon Arch",
+    description: "A festive restaurant birthday arch with a gold tinsel curtain backdrop, gold 'HAPPY BIRTHDAY' foil letters, a lush organic balloon garland in lilac, sky-blue, white & chrome-silver-purple with silver flower-cluster accents, a red foil star and a matching balloon column — perfect for restaurant surprise setups, recreated from the picture.",
+    image: themeL9.url,
+    includes: ["Gold tinsel curtain + gold 'HAPPY BIRTHDAY' foil letters", "Lilac, sky-blue, white & chrome silver-purple organic balloon garland", "Silver flower-cluster balloon accents + red foil star", "Matching balloon column + venue styling"],
+    rating: 4.7, reviews: 268, offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "theme-l-cars-mcqueen-5th-arch",
+    name: "Cars McQueen 'Racing into 5' Birthday Arch",
+    description: "A racing-fast Disney Cars 5th birthday arch with a beige curtain backdrop, black & gold 'HAPPY BIRTHDAY' bunting, a lush organic balloon garland in red, black & gold chrome, a giant Lightning McQueen car foil, McQueen round foil accents, red foil stars, a giant gold marquee '5' foil on a matching column and a Cars-themed side column — recreated exactly like the reference photo.",
+    image: themeL10.url,
+    includes: ["Beige curtain + black & gold 'HAPPY BIRTHDAY' bunting", "Red, black & gold chrome organic balloon garland", "Giant Lightning McQueen car foil + McQueen round foils + red star foils", "Giant gold marquee '5' foil on balloon column + matching side column"],
+    rating: 4.8, reviews: 312, offer: <>₹2,799</>, original: <>₹3,499</>, discountPct: 20, bestSeller: true,
+  },
+];
 
 const NEW_THEME_CARDS_K = [
   {
@@ -1081,7 +1174,7 @@ function ServicePage() {
             discountPct={43}
             bestSeller={false}
           />
-          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K].map((p) => (
+          {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K, ...NEW_THEME_CARDS_L].map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
@@ -1097,7 +1190,7 @@ function ServicePage() {
             <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Theme Birthday Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Theme Birthday Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Theme Birthday Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K].map((p, i) => (
+            {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K, ...NEW_THEME_CARDS_L].map((p, i) => (
               <img key={p.id} src={p.image} alt={`Theme Birthday Decoration ${7 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
