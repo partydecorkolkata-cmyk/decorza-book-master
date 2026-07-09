@@ -272,7 +272,10 @@ const birthdayGalleryImages = [
   { src: pkgH8UnicornPihu.url, alt: "Unicorn theme birthday for Pihu with pink and white ceiling balloons, gold PIHU foil, unicorn foils and pink star foil pillars" },
   { src: pkgH9UnicornHeenal.url, alt: "Unicorn theme birthday for Heenal with pink, lilac and rose gold balloon cloud, rainbow shimmer curtain, unicorn cutout and photo banner" },
   { src: pkgH10Princess6.url, alt: "Princess 6th birthday gold fringe curtain with pastel pink, mint, lilac, gold and silver balloon arch, princess foils and gold number 6" },
+  { src: pkgYellowBlackHBD.url, alt: "Yellow and black balloon ceiling and wall decoration with gold HAPPY BIRTHDAY foil letters and gold star" },
+  { src: pkgPastelButterflyGold.url, alt: "Pastel pink, lilac and white balloon arch with butterflies, silver stars and gold foil curtain first birthday setup" },
 ];
+
 
 export const Route = createFileRoute("/service/birthday-decoration")({
   loader: () => {
