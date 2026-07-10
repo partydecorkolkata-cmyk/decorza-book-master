@@ -206,6 +206,14 @@ const NEW_THEME_CARDS_L = [
     includes: ["Beige curtain + black & gold 'HAPPY BIRTHDAY' bunting", "Red, black & gold chrome organic balloon garland", "Giant Lightning McQueen car foil + McQueen round foils + red star foils", "Giant gold marquee '5' foil on balloon column + matching side column"],
     rating: 4.8, reviews: 312, offer: <>₹2,799</>, original: <>₹3,499</>, discountPct: 20, bestSeller: true,
   },
+  {
+    id: "theme-m-purple-butterfly-1st-arch",
+    name: "Purple Butterfly Fairy 1st Birthday Arch",
+    description: "A magical purple butterfly 1st birthday arch with a white shimmer curtain backdrop lit by warm fairy lights, a glowing neon 'Happy Birthday' sign, a giant purple butterfly centrepiece, a lush organic balloon garland in chrome-purple, lavender, white & confetti balloons with 3D butterfly cut-outs, twin tall balloon columns topped with oversized purple butterfly wing standees, a balloon-clad cake table crowned with gold butterfly props and a marquee light-up '1' — recreated exactly like the reference photo.",
+    image: themeM1.url,
+    includes: ["White shimmer fairy-light curtain + neon 'Happy Birthday' sign", "Giant purple butterfly centrepiece + 3D butterfly cut-out accents", "Chrome-purple, lavender, white & confetti organic balloon arch", "Twin butterfly-wing balloon columns + balloon-clad cake table + marquee '1' light"],
+    rating: 4.9, reviews: 276, offer: <>₹8,499</>, original: <>₹12,999</>, discountPct: 35, bestSeller: true,
+  },
 ];
 
 const NEW_THEME_CARDS_K = [
