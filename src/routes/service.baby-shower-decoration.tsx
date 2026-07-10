@@ -69,9 +69,9 @@ function ServicePage() {
             includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
             rating={4.800000000000001}
             reviews={249}
-            offer={<>₹2,499</>}
-            original={<>₹10,499</>}
-            discountPct={76}
+            offer={<>₹3499</>}
+            original={<>₹4999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -82,9 +82,9 @@ function ServicePage() {
             includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
             rating={4.9}
             reviews={348}
-            offer={<>₹5,999</>}
-            original={<>₹12,500</>}
-            discountPct={52}
+            offer={<>₹7,999</>}
+            original={<>₹14999</>}
+            discountPct={47}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -95,9 +95,9 @@ function ServicePage() {
             includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
             rating={4.800000000000001}
             reviews={580}
-            offer={<>₹7,999</>}
-            original={<>₹11,999</>}
-            discountPct={33}
+            offer={<>₹11999</>}
+            original={<>15999</>}
+            discountPct={25}
             bestSeller={false}
           />
         </div>
