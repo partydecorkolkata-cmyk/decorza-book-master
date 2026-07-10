@@ -254,6 +254,16 @@ function ServicePage() {
             <img src="/611a101e-21ad-44d4-b9df-2995798cd982.jpg" alt="Baby Shower Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/3e650746-51ce-4c70-bbab-c733c2f8b532.jpg" alt="Baby Shower Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/b3318de7-5a76-4dad-b0f6-4f752365071d.jpg" alt="Baby Shower Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB1.url} alt="Pastel Pampas Ring Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB2.url} alt="Boy or Girl Neon Ring Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB3.url} alt="Blush Pink Custom Name Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB4.url} alt="Baby in Bloom Floral Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB5.url} alt="Neon Baby Shower Pink & White Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB6.url} alt="Mommy-to-Be Cuter Banquet Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB7.url} alt="Oh Baby Foil & Tassel Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB8.url} alt="Baby in Bloom Nude Arch Outdoor" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB9.url} alt="Sage & Gold Oh Baby Balloon Wreath" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyB10.url} alt="Bearly Wait Teddy Baby Shower Grand" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
