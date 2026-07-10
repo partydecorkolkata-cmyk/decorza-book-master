@@ -123,6 +123,7 @@ import themeL7 from "@/assets/theme-l7.webp.asset.json";
 import themeL8 from "@/assets/theme-l8.jpg.asset.json";
 import themeL9 from "@/assets/theme-l9.jpeg.asset.json";
 import themeL10 from "@/assets/theme-l10.jpeg.asset.json";
+import themeM1 from "@/assets/theme-m1.jpeg.asset.json";
 
 const NEW_THEME_CARDS_L = [
   {
