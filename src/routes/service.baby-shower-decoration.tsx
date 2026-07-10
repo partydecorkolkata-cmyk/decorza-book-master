@@ -110,6 +110,136 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
+          <StaticPackageCard
+            id="baby-b1"
+            name="Pastel Pampas Ring Baby Shower"
+            description="A dreamy circular baby shower ring in pastel pink, lilac and baby blue balloons, accented with pampas grass, gold dried palms and a shimmering 'Baby Shower' signage — recreated as shown."
+            image={babyB1.url}
+            includes={["Pastel pink, lilac & blue balloon ring","Pampas & dried palm florals","'Baby Shower' gold cutout signage"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b2"
+            name="Boy or Girl Neon Ring Baby Shower"
+            description="A gender-neutral round backdrop with pink & baby-blue balloon garland, chrome copper accents, foil baby figures, neon 'Baby Shower' sign, 'Baby' blocks and 'It's a Boy/Girl' bottle balloons."
+            image={babyB2.url}
+            includes={["Pink & blue balloon ring backdrop","Neon 'Baby Shower' sign","Foil baby & bottle balloons + BABY blocks"]}
+            rating={4.9}
+            reviews={302}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="baby-b3"
+            name="Blush Pink Arch Custom Name Baby Shower"
+            description="An elegant white arched backdrop personalised with the mommy-to-be's name in gold, dressed with a lush blush & nude organic balloon garland and fresh-look pink roses & hydrangeas."
+            image={babyB3.url}
+            includes={["Personalised name on white arch","Blush & nude organic balloon garland","Rose & hydrangea floral clusters"]}
+            rating={4.9}
+            reviews={188}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b4"
+            name="Baby in Bloom Floral Garden Baby Shower"
+            description="A luxury 'Baby in Bloom' twin-arch setup with a floral wall, pastel rainbow balloon garland and grand floral bases in pink, sage, yellow and lilac — a full garden-themed baby shower experience."
+            image={babyB4.url}
+            includes={["Twin white arches with 'Baby in Bloom' signage","Floral wall + pastel balloon garland","Grand ground floral bases"]}
+            rating={5.0}
+            reviews={126}
+            offer={<>₹11,999</>}
+            original={<>₹14,999</>}
+            discountPct={20}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="baby-b5"
+            name="Neon 'Baby Shower' Pink & White Ring"
+            description="A round ring backdrop with pastel pink & white balloons, gold chrome cluster accents, foil baby boy/girl balloons, 'It's a Boy' & 'It's a Girl' props and a warm-glow neon 'Baby Shower' centrepiece."
+            image={babyB5.url}
+            includes={["Pink, white & gold chrome balloon ring","Foil baby + 'It's a Boy/Girl' props","Neon 'Baby Shower' sign"]}
+            rating={4.9}
+            reviews={264}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b6"
+            name="Mommy-to-Be 'Cuter' Banquet Baby Shower"
+            description="A grand hotel-style baby shower with twin white arched panels showing a mommy-to-be silhouette and 'Our Family is About to Get Even Cuter' — dressed with gold chrome, mauve, ivory & peach balloons and floral accents."
+            image={babyB6.url}
+            includes={["Twin custom arched panels","Gold, mauve & peach organic balloon garland","Floral accents + pillar"]}
+            rating={5.0}
+            reviews={148}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="baby-b7"
+            name="Oh Baby Foil & Tassel Baby Shower"
+            description="A quick, budget-friendly baby shower setup with pink & blue balloon garland, pink & blue tassel curtains, silver 'OH BABY' foil letters, bottle & moon-baby foil balloons and fairy-light backdrop."
+            image={babyB7.url}
+            includes={["Pink & blue balloon garland with foil stars","Silver 'OH BABY' foil letters","Tassel curtain + fairy lights"]}
+            rating={4.8}
+            reviews={412}
+            offer={<>₹1,999</>}
+            original={<>₹2,999</>}
+            discountPct={33}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b8"
+            name="Baby in Bloom Nude Arch Outdoor"
+            description="An outdoor-ready 'Baby in Bloom' setup with a white arched backdrop, nude, blush & white organic balloon garland, greenery & pink florals and a transparent BABY block tower on the side."
+            image={babyB8.url}
+            includes={["'Baby in Bloom' white arch backdrop","Nude & blush organic balloon garland","BABY transparent block tower"]}
+            rating={4.9}
+            reviews={176}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b9"
+            name="Sage & Gold 'Oh Baby' Balloon Wreath"
+            description="A stunning full-round balloon wreath in sage green, ivory white and mirror-gold chrome with tropical monstera & palm leaves, centred by a glowing 'Oh Baby' neon sign — nature meets luxury."
+            image={babyB9.url}
+            includes={["Sage, ivory & chrome-gold balloon wreath","Monstera & palm leaf accents","'Oh Baby' neon centrepiece"]}
+            rating={5.0}
+            reviews={132}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="baby-b10"
+            name="'Bearly Wait' Teddy Baby Shower Grand"
+            description="A grand luxury 'We Can Bearly Wait / Baby in Bloom' teddy-themed baby shower with dual custom prints, rainbow pastel & gold chrome balloon arch, giant teddy bear, BABY box tower and floral wall backdrop."
+            image={babyB10.url}
+            includes={["Dual custom 'Bearly Wait / Baby in Bloom' prints","Pastel rainbow + gold chrome balloon arch","Giant teddy + BABY block tower + floral wall"]}
+            rating={5.0}
+            reviews={98}
+            offer={<>₹12,999</>}
+            original={<>₹17,999</>}
+            discountPct={28}
+            bestSeller={true}
+          />
         </div>
       </section>
 
