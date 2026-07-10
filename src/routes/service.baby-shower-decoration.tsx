@@ -8,6 +8,16 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import babyB1 from "@/assets/baby-b1.jpg.asset.json";
+import babyB2 from "@/assets/baby-b2.jpg.asset.json";
+import babyB3 from "@/assets/baby-b3.jpg.asset.json";
+import babyB4 from "@/assets/baby-b4.jpg.asset.json";
+import babyB5 from "@/assets/baby-b5.jpg.asset.json";
+import babyB6 from "@/assets/baby-b6.jpg.asset.json";
+import babyB7 from "@/assets/baby-b7.jpg.asset.json";
+import babyB8 from "@/assets/baby-b8.jpg.asset.json";
+import babyB9 from "@/assets/baby-b9.jpg.asset.json";
+import babyB10 from "@/assets/baby-b10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
