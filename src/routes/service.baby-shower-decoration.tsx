@@ -28,6 +28,11 @@ import babyC7 from "@/assets/baby-c7.jpg.asset.json";
 import babyC8 from "@/assets/baby-c8.jpg.asset.json";
 import babyC9 from "@/assets/baby-c9.jpg.asset.json";
 import babyC10 from "@/assets/baby-c10.jpg.asset.json";
+import babyD1 from "@/assets/baby-d1.jpg.asset.json";
+import babyD2 from "@/assets/baby-d2.jpg.asset.json";
+import babyD3 from "@/assets/baby-d3.jpg.asset.json";
+import babyD4 from "@/assets/baby-d4.jpg.asset.json";
+import babyD5 from "@/assets/baby-d5.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -342,13 +347,55 @@ function ServicePage() {
             rating={5.0} reviews={109}
             offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
           />
+          <StaticPackageCard
+            id="baby-d1" name="Bundle of Joy Blue & Gold Baby Boy Arch"
+            description="Elegant white arch with blue, ivory and chrome-gold balloon garland, palm spear leaves, giant teddy and BABY blocks — perfect for a baby boy shower."
+            image={babyD1.url}
+            includes={["Custom 'Bundle of Joy' printed arch backdrop","Blue, ivory & chrome-gold organic garland","Palm-spear leaves + BABY blocks + teddy prop"]}
+            rating={5.0} reviews={132}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-d2" name="Oh Baby Gender Reveal Pink & Blue Setup"
+            description="Playful 'OH BABY' gold foil wall with pink & blue pastel garland, daisy foils, BOY/GIRL blocks and It's a Boy/Girl foot balloons — ideal for a gender reveal."
+            image={babyD2.url}
+            includes={["Gold 'OH BABY' foil letters with star balloons","Pink & blue pastel garland + gold confetti balloons","BOY & GIRL blocks + feet foil balloons"]}
+            rating={4.9} reviews={98}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-d3" name="Oh Baby Blue Neon Ring with Teddy Bears"
+            description="Dreamy round ring backdrop in dusty blue, nude and chrome gold with pampas grass, big teddy bears and glowing 'Oh Baby' neon sign."
+            image={babyD3.url}
+            includes={["White ring stand with 'Oh Baby' neon sign","Dusty blue, nude & chrome gold balloon garland","Pampas grass + jumbo teddy bear props"]}
+            rating={5.0} reviews={121}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-d4" name="Oh Baby Pastel Rainbow Ring Baby Shower"
+            description="Sage, blush, peach and silver chrome balloon garland on a white round backdrop with 'Oh Baby' gold script, floral accents and teddy prop."
+            image={babyD4.url}
+            includes={["Round white backdrop with 'Oh Baby' gold script","Sage, blush, peach & silver chrome garland","Pink fillers + gold table + teddy prop"]}
+            rating={4.9} reviews={104}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-d5" name="A Little Butterfly Purple Grand Baby Shower"
+            description="Luxury triple arch backdrop in lilac & purple with 'A Little Butterfly Is On The Way' and 'Boy? or Girl?' printed panels, silver butterflies and BABY blocks."
+            image={babyD5.url}
+            includes={["3-panel 'Little Butterfly' printed arch backdrop","Lilac, purple, white & silver chrome garland","Silver butterfly cutouts + BABY block boxes + carpet"]}
+            rating={5.0} reviews={87} bestSeller
+            offer={<>₹16,999</>} original={<>₹24,999</>} discountPct={32}
+          />
         </div>
       </section>
 
       <section className="bg-secondary/40 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
           <SectionHeader eyebrow="Gallery" title="Baby Shower Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
+
             <img src="/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg" alt="Baby Shower Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/38135b41-25f2-4c2f-a08f-cac6575c3b12.jpg" alt="Baby Shower Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/6fec18e9-7b78-42b6-9764-cbb3037878e1.jpg" alt="Baby Shower Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
@@ -376,6 +423,11 @@ function ServicePage() {
             <img src={babyC8.url} alt="Twinkle Twinkle Little Star Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyC9.url} alt="Bundle of Joy Rose-Gold Luxury Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyC10.url} alt="A Little Butterfly Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD1.url} alt="Bundle of Joy Blue Gold Baby Boy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD2.url} alt="Oh Baby Gender Reveal Pink Blue" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD3.url} alt="Oh Baby Blue Neon Ring Teddy Bears" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD4.url} alt="Oh Baby Pastel Rainbow Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD5.url} alt="A Little Butterfly Purple Grand Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
