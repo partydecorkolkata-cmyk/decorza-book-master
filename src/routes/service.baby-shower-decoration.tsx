@@ -347,10 +347,6 @@ function ServicePage() {
             rating={5.0} reviews={109}
             offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
           />
-        </div>
-      </section>
-
-      <section className="bg-secondary/40 py-14">
           <StaticPackageCard
             id="baby-d1" name="Bundle of Joy Blue & Gold Baby Boy Arch"
             description="Elegant white arch with blue, ivory and chrome-gold balloon garland, palm spear leaves, giant teddy and BABY blocks — perfect for a baby boy shower."
@@ -396,6 +392,7 @@ function ServicePage() {
 
       <section className="bg-secondary/40 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
           <SectionHeader eyebrow="Gallery" title="Baby Shower Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
 
