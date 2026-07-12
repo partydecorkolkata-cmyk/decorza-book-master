@@ -423,6 +423,11 @@ function ServicePage() {
             <img src={babyC8.url} alt="Twinkle Twinkle Little Star Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyC9.url} alt="Bundle of Joy Rose-Gold Luxury Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyC10.url} alt="A Little Butterfly Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD1.url} alt="Bundle of Joy Blue Gold Baby Boy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD2.url} alt="Oh Baby Gender Reveal Pink Blue" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD3.url} alt="Oh Baby Blue Neon Ring Teddy Bears" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD4.url} alt="Oh Baby Pastel Rainbow Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyD5.url} alt="A Little Butterfly Purple Grand Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
