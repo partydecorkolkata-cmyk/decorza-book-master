@@ -18,6 +18,16 @@ import babyB7 from "@/assets/baby-b7.jpg.asset.json";
 import babyB8 from "@/assets/baby-b8.jpg.asset.json";
 import babyB9 from "@/assets/baby-b9.jpg.asset.json";
 import babyB10 from "@/assets/baby-b10.jpg.asset.json";
+import babyC1 from "@/assets/baby-c1.jpg.asset.json";
+import babyC2 from "@/assets/baby-c2.jpg.asset.json";
+import babyC3 from "@/assets/baby-c3.jpg.asset.json";
+import babyC4 from "@/assets/baby-c4.jpg.asset.json";
+import babyC5 from "@/assets/baby-c5.jpg.asset.json";
+import babyC6 from "@/assets/baby-c6.jpg.asset.json";
+import babyC7 from "@/assets/baby-c7.jpg.asset.json";
+import babyC8 from "@/assets/baby-c8.jpg.asset.json";
+import babyC9 from "@/assets/baby-c9.jpg.asset.json";
+import babyC10 from "@/assets/baby-c10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -240,6 +250,98 @@ function ServicePage() {
             discountPct={28}
             bestSeller={true}
           />
+          <StaticPackageCard
+            id="baby-c1"
+            name="Lilac, Pink & Rose-Gold 'Little Miss' Arch"
+            description="A dreamy pastel lilac, blush pink and rose-gold chrome balloon garland cascading over a curved lilac arch with custom name print, floral accents and a matching cake pedestal setup."
+            image={babyC1.url}
+            includes={["Custom lilac curved arch with name print","Lilac, pink & rose-gold chrome balloon garland","Floral accents + acrylic cake pedestal"]}
+            rating={4.9} reviews={132}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-c2"
+            name="'Baby in Bloom' Peach & Cream Rooftop Arch"
+            description="An elegant outdoor 'Baby in Bloom' arch in peach, cream and ivory pastels with fresh floral tucks, a curved ivory backdrop and BABY box tower — perfect for a rooftop or garden baby shower."
+            image={babyC2.url}
+            includes={["Curved ivory 'Baby in Bloom' backdrop","Peach, nude & white organic garland","Fresh floral tucks + BABY block tower"]}
+            rating={4.9} reviews={118}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-c3"
+            name="'Boy or Girl' Gender Reveal Grand Banquet Stage"
+            description="A grand banquet-hall gender reveal setup with dual blue & pink foot-print backdrops, gold-pink-blue balloon arches, shimmer wall, 'It's a Boy/Girl' bottle pillars, foil baby figures and neon 'Baby Shower' sign."
+            image={babyC3.url}
+            includes={["Dual blue & pink 'Boy or Girl' arch backdrops","Shimmer wall + neon 'Baby Shower' sign","'It's a Boy/Girl' bottle pillars + foil baby cutouts"]}
+            rating={5.0} reviews={104}
+            offer={<>₹14,999</>} original={<>₹24,999</>} discountPct={40}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="baby-c4"
+            name="'Oh Baby' Pink, Blue & Gold Balloon Ring"
+            description="A cheerful pastel pink, baby blue and gold chrome balloon ring with a neon 'Oh Baby' sign, twin baby foil balloons and a light-up BABY block tower — ideal for restaurant or hall baby showers."
+            image={babyC4.url}
+            includes={["Pink, blue & gold balloon ring backdrop","Neon 'Oh Baby' sign + twin baby foil balloons","Light-up BABY block tower"]}
+            rating={4.8} reviews={96}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-c5"
+            name="'Oh Baby' Nude, White & Gold Butterfly Ring"
+            description="A soft nude, white and gold chrome balloon ring on a wall panel with a neon 'Oh Baby' sign, delicate gold butterflies and two baby foil pillars for a boutique in-home baby shower look."
+            image={babyC5.url}
+            includes={["Nude, white & gold chrome balloon ring","Neon 'Oh Baby' sign + gold butterfly accents","Twin baby foil balloon pillars"]}
+            rating={4.9} reviews={87}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-c6"
+            name="Mauve, Rose & Blush Custom Name Baby Shower"
+            description="A luxurious dusty rose, mauve chrome and blush pastel balloon garland framing a fluted white arch with custom 'Baby Shower' name print, lush pink & mauve florals and matching side column."
+            image={babyC6.url}
+            includes={["Fluted white arch with custom name print","Mauve, dusty rose & blush balloon garland","Fresh rose & eucalyptus floral cluster"]}
+            rating={4.9} reviews={128}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-c7"
+            name="'Oh Baby' Boho Nude, Brown & Pampas Arch"
+            description="A boho baby shower with a nude ivory curved arch, chocolate brown, cream and white organic balloon garland, dry pampas plumes and matching floor cluster — earthy, minimal and photo-perfect."
+            image={babyC7.url}
+            includes={["Nude ivory curved 'Oh Baby' arch","Brown, cream & white organic garland","Dry pampas plumes + floor cluster"]}
+            rating={4.9} reviews={102}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-c8"
+            name="'Twinkle Twinkle Little Star' Gold & Ivory Arch"
+            description="A warm 'Twinkle Twinkle Little Star' baby shower featuring a blush arch with custom quote print, gold chrome, ivory and mocha balloon garland, giant teddy bear and cozy chair styling."
+            image={babyC8.url}
+            includes={["Blush arch with 'Twinkle Twinkle' print","Gold chrome, ivory & mocha balloon garland","Giant teddy bear + chair styling"]}
+            rating={4.9} reviews={116}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-c9"
+            name="'Our Little Bundle of Joy' Rose-Gold Luxury Arch"
+            description="An outdoor luxury baby shower with dual lilac & white arches, ivory, nude and rose-gold chrome balloon garland, giant teddy bear, BABY block tower and fluted white pedestal under fairy lights."
+            image={babyC9.url}
+            includes={["Dual lilac & white 'Bundle of Joy' arches","Rose-gold, ivory & nude balloon garland","Giant teddy + BABY tower + fluted pedestal"]}
+            rating={5.0} reviews={94}
+            offer={<>₹8,999</>} original={<>₹14,999</>} discountPct={40}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="baby-c10"
+            name="'A Little Butterfly is on Her Way' Pastel Arch"
+            description="A whimsical pastel pink and lilac butterfly-theme baby shower with custom quote arch, daisy foil flowers, neon butterfly light, bubble balloons, elephant cutout and BABY block tower."
+            image={babyC10.url}
+            includes={["Custom 'A Little Butterfly' quote arch","Pastel pink & lilac garland with daisy foils","Neon butterfly + BABY tower + elephant cutout"]}
+            rating={5.0} reviews={109}
+            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
+          />
         </div>
       </section>
 
@@ -264,6 +366,16 @@ function ServicePage() {
             <img src={babyB8.url} alt="Baby in Bloom Nude Arch Outdoor" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyB9.url} alt="Sage & Gold Oh Baby Balloon Wreath" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyB10.url} alt="Bearly Wait Teddy Baby Shower Grand" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC1.url} alt="Lilac Pink Rose-Gold Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC2.url} alt="Baby in Bloom Peach Rooftop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC3.url} alt="Boy or Girl Gender Reveal Stage" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC4.url} alt="Oh Baby Pink Blue Gold Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC5.url} alt="Oh Baby Nude Gold Butterfly Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC6.url} alt="Mauve Rose Blush Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC7.url} alt="Oh Baby Boho Nude Pampas Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC8.url} alt="Twinkle Twinkle Little Star Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC9.url} alt="Bundle of Joy Rose-Gold Luxury Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyC10.url} alt="A Little Butterfly Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
