@@ -575,6 +575,11 @@ function ServicePage() {
             <img src={babyE8.url} alt="Baby Name On The Way Boho Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyE9.url} alt="Welcoming Baby Sage Green Luxury Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyE10.url} alt="Mom to Be Terracotta Outdoor Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF1.url} alt="Oh Baby Mint Sky Blue Gold Garden Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF2.url} alt="A Berry Sweet Baby is On The Way Navy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF3.url} alt="Pink & Blue Baby Shower Foil Home Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF4.url} alt="Custom Name Babyshower Blush Teddy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF5.url} alt="Oh Baby Pastel Rainbow Ring Teddy Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
