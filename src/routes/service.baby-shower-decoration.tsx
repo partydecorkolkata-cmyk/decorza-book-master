@@ -43,6 +43,11 @@ import babyE7 from "@/assets/baby-e7.jpg.asset.json";
 import babyE8 from "@/assets/baby-e8.jpg.asset.json";
 import babyE9 from "@/assets/baby-e9.jpg.asset.json";
 import babyE10 from "@/assets/baby-e10.jpg.asset.json";
+import babyF1 from "@/assets/baby-f1.jpg.asset.json";
+import babyF2 from "@/assets/baby-f2.jpg.asset.json";
+import babyF3 from "@/assets/baby-f3.jpg.asset.json";
+import babyF4 from "@/assets/baby-f4.jpg.asset.json";
+import babyF5 from "@/assets/baby-f5.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -477,8 +482,49 @@ function ServicePage() {
             rating={4.9} reviews={78}
             offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
           />
+          <StaticPackageCard
+            id="baby-f1" name="'Oh Baby' Mint, Sky Blue & Gold Garden Arch"
+            description="Fresh outdoor baby shower arch in mint, sky blue, white and chrome-gold balloons with an 'Oh Baby' neon sign, gold palm leaves and BABY letter boxes filled with pastel balloons — as shown in the picture."
+            image={babyF1.url}
+            includes={["Mint, sky blue, white & chrome-gold organic garland","'Oh Baby' neon sign + gold palm leaf accents","BABY letter blocks + cylinder pedestal styling"]}
+            rating={4.9} reviews={112}
+            offer={<>₹3,499</>} original={<>₹5,499</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-f2" name="'A Berry Sweet Baby is On The Way' Navy Arch"
+            description="Elegant white chiara arch with 'A Berry Sweet Baby is On The Way' custom quote, navy, dusty blue, ivory & cream organic balloon garland and eucalyptus greenery — perfect indoor baby boy shower styling."
+            image={babyF2.url}
+            includes={["White chiara arch with custom 'Berry Sweet Baby' quote","Navy, dusty blue, ivory & cream organic garland","Eucalyptus greenery fillers + side balloon cluster"]}
+            rating={5.0} reviews={96} bestSeller
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-f3" name="Pink & Blue 'Baby Shower' Foil Home Setup"
+            description="Traditional home baby shower with a split pink & blue curtain wall, gold 'BABY SHOWER' foil letters, foil hearts and stars, and baby boy / baby girl foil pillars — recreated exactly like the reference."
+            image={babyF3.url}
+            includes={["Pink & blue split curtain backdrop","Gold 'BABY SHOWER' foil letters + heart & star foils","Baby boy + baby girl foil pillars with balloon columns"]}
+            rating={4.8} reviews={148}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-f4" name="Custom Name 'Babyshower' Blush Teddy Arch"
+            description="Boutique blush pink arched backdrop with personalised '(Name)'s Babyshower' script in gold, blush, ivory, nude & taupe organic garland, cherry blossom branch and a giant teddy bear cut-out with cake pedestal."
+            image={babyF4.url}
+            includes={["Blush chiara arch with custom name in gold","Blush, ivory, nude & taupe organic balloon garland","Giant teddy bear cut-out + cake pedestal + cherry blossom"]}
+            rating={5.0} reviews={132} bestSeller
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-f5" name="'Oh Baby' Pastel Rainbow Ring Teddy Setup"
+            description="Dreamy pastel rainbow balloon ring with an 'Oh Baby' neon sign, giant teddy bear cut-out, pampas grass cluster and BABY letter boxes on a round jute rug — perfect for indoor lounge baby showers."
+            image={babyF5.url}
+            includes={["Pastel rainbow balloon ring with 'Oh Baby' neon","Giant teddy bear cut-out + BABY letter boxes","Pampas grass cluster + jute rug + pedestal styling"]}
+            rating={4.9} reviews={104}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
         </div>
       </section>
+
 
 
       <section className="bg-secondary/40 py-14">
@@ -529,6 +575,11 @@ function ServicePage() {
             <img src={babyE8.url} alt="Baby Name On The Way Boho Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyE9.url} alt="Welcoming Baby Sage Green Luxury Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyE10.url} alt="Mom to Be Terracotta Outdoor Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF1.url} alt="Oh Baby Mint Sky Blue Gold Garden Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF2.url} alt="A Berry Sweet Baby is On The Way Navy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF3.url} alt="Pink & Blue Baby Shower Foil Home Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF4.url} alt="Custom Name Babyshower Blush Teddy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyF5.url} alt="Oh Baby Pastel Rainbow Ring Teddy Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
