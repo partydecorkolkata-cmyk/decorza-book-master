@@ -33,6 +33,16 @@ import babyD2 from "@/assets/baby-d2.jpg.asset.json";
 import babyD3 from "@/assets/baby-d3.jpg.asset.json";
 import babyD4 from "@/assets/baby-d4.jpg.asset.json";
 import babyD5 from "@/assets/baby-d5.jpg.asset.json";
+import babyE1 from "@/assets/baby-e1.jpg.asset.json";
+import babyE2 from "@/assets/baby-e2.jpg.asset.json";
+import babyE3 from "@/assets/baby-e3.jpg.asset.json";
+import babyE4 from "@/assets/baby-e4.jpg.asset.json";
+import babyE5 from "@/assets/baby-e5.jpg.asset.json";
+import babyE6 from "@/assets/baby-e6.jpg.asset.json";
+import babyE7 from "@/assets/baby-e7.jpg.asset.json";
+import babyE8 from "@/assets/baby-e8.jpg.asset.json";
+import babyE9 from "@/assets/baby-e9.jpg.asset.json";
+import babyE10 from "@/assets/baby-e10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
