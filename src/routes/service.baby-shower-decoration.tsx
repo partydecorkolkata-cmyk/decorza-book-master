@@ -48,6 +48,16 @@ import babyF2 from "@/assets/baby-f2.jpg.asset.json";
 import babyF3 from "@/assets/baby-f3.jpg.asset.json";
 import babyF4 from "@/assets/baby-f4.jpg.asset.json";
 import babyF5 from "@/assets/baby-f5.jpg.asset.json";
+import babyG1 from "@/assets/baby-g1.png.asset.json";
+import babyG2 from "@/assets/baby-g2.webp.asset.json";
+import babyG3 from "@/assets/baby-g3.png.asset.json";
+import babyG4 from "@/assets/baby-g4.jpg.asset.json";
+import babyG5 from "@/assets/baby-g5.jpg.asset.json";
+import babyG6 from "@/assets/baby-g6.jpg.asset.json";
+import babyG7 from "@/assets/baby-g7.png.asset.json";
+import babyG8 from "@/assets/baby-g8.png.asset.json";
+import babyG9 from "@/assets/baby-g9.png.asset.json";
+import babyG10 from "@/assets/baby-g10.png.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -522,6 +532,86 @@ function ServicePage() {
             rating={4.9} reviews={104}
             offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
           />
+          <StaticPackageCard
+            id="baby-g1" name="'Baby in Bloom' Pastel Floral Arch"
+            description="Charming pastel arched backdrop with 'Baby in Bloom' script, an organic garland of pink, sage green, butter yellow, mint and rose-gold chrome balloons, fresh floral tulip clusters and a matching pillar centrepiece."
+            image={babyG1.url}
+            includes={["Pink chiara arch with 'Baby in Bloom' script","Pastel + sage + rose-gold organic balloon garland","Floral tulip clusters + pedestal styling"]}
+            rating={5.0} reviews={148} bestSeller
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-g2" name="'A Little Cutie is on the Way' Gender Reveal Arch"
+            description="Elegant round pastel-gold backdrop with 'A Little Cutie is on the Way' script, pink & blue foot print decal, half-ring garland of pink, blue and rose-gold chrome balloons, BABY letter blocks and hanging photo memory strip."
+            image={babyG2.url}
+            includes={["Round pastel backdrop with custom script","Pink, blue & rose-gold chrome half-ring garland","BABY letter blocks + hanging photo memory strip"]}
+            rating={4.9} reviews={126}
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-g3" name="'Oh Baby' Sage Green & Gold Baby Shower Ring"
+            description="Statement ring backdrop wrapped in olive green, ivory and chrome gold balloons around an 'Oh Baby' neon sign with pram, bottle and footprint cutouts, twin baby foil pillars and a BABY letter block tower."
+            image={babyG3.url}
+            includes={["Ring backdrop with 'Oh Baby' neon + prop cluster","Olive, ivory & gold chrome garland with baby foils","Twin baby foil pillars + BABY letter blocks"]}
+            rating={4.8} reviews={112}
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+          />
+          <StaticPackageCard
+            id="baby-g4" name="Classic 'Baby Shower' Pink & Blue Home Arch"
+            description="Affordable home-style baby shower arch in pastel pink & baby blue balloons, gold 'BABY SHOWER' foil letters, 'Boy or Girl?' foil topper and 'It's a Boy' / 'It's a Girl' bottle foils with a decorated couch corner."
+            image={babyG4.url}
+            includes={["Pastel pink & blue balloon arch","'BABY SHOWER' gold foil letters","'Boy or Girl?' foil topper + boy/girl bottle foils"]}
+            rating={4.7} reviews={168}
+            offer={<>₹1,999</>} original={<>₹3,499</>} discountPct={43}
+          />
+          <StaticPackageCard
+            id="baby-g5" name="'Baby Shower' Pastel Arch with Curtain Backdrop"
+            description="Warm home baby shower arch with pink & blue pastel balloons, gold 'BABY SHOWER' foil, pink & blue tassel curtain wall, twin baby foils on top and matching 'It's a Boy' & 'It's a Girl' bottle foils on the pillars."
+            image={babyG5.url}
+            includes={["Pastel pink & blue balloon arch","'BABY SHOWER' gold foil + pink/blue tassel curtain","Twin baby foils + boy/girl bottle foils on pillars"]}
+            rating={4.8} reviews={192}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
+          />
+          <StaticPackageCard
+            id="baby-g6" name="Pink & Blue Ring Baby Shower with 'Baby Shower' Neon"
+            description="Trendy ring backdrop with pink & blue balloons and chrome gold cluster accents around a 'Baby Shower' neon sign, fairy-light net drape, 'It's a Girl' and 'Baby Boy' foils and a mint BABY letter block tower."
+            image={babyG6.url}
+            includes={["Pink & blue ring with gold chrome accents","'Baby Shower' neon + fairy-light net drape","'It's a Girl' + 'Baby Boy' foils + BABY blocks"]}
+            rating={4.9} reviews={210} bestSeller
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-g7" name="'Oh Baby' Pink, White & Silver Chrome Ring"
+            description="Photo-ready pink, white and silver chrome balloon ring around a warm 'Oh Baby' neon sign, twin baby foil pillars on pink & white balloon columns and a shimmering BABY letter block tower."
+            image={babyG7.url}
+            includes={["Pink, white & silver chrome ring backdrop","'Oh Baby' neon sign","Twin baby foil pillars + BABY letter blocks"]}
+            rating={4.8} reviews={144}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-g8" name="Teddy Bear Brown & Gold 'Baby Shower' Arch"
+            description="Rustic 'Baby Shower' arch in brown, mustard yellow and chrome gold balloons with a giant teddy bear foil, gold foil 'BABY SHOWER' letters, rose-gold tassel curtain and adorable teddy prop accents."
+            image={babyG8.url}
+            includes={["Brown, mustard & chrome gold organic garland","Giant teddy bear foil + rose-gold tassel curtain","Gold 'BABY SHOWER' foil letters + teddy props"]}
+            rating={4.9} reviews={176}
+            offer={<>₹2,999</>} original={<>₹3,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-g9" name="'Oh Baby' Blush Pink, White & Gold Ring with Giant Teddy"
+            description="Dreamy blush pink, white and chrome gold balloon ring with an 'Oh Baby' neon sign, giant plush teddy bear, silver BABY letter blocks and floor balloon spill — an elegant lounge-style baby shower setup."
+            image={babyG9.url}
+            includes={["Blush, white & gold chrome balloon ring","'Oh Baby' neon + giant plush teddy bear","Silver BABY letter blocks + floor balloon styling"]}
+            rating={5.0} reviews={158} bestSeller
+            offer={<>₹4,999</>} original={<>₹7,499</>} discountPct={33}
+          />
+          <StaticPackageCard
+            id="baby-g10" name="Luxury 'Oh Baby' Purple Butterfly Triple Arch"
+            description="Grand luxury baby shower with a triple chiara arched backdrop in lilac, 'Oh Baby' script, laser-cut butterfly panels, purple & yellow organic garland, butterfly decals and up-lights — a full banquet-style installation."
+            image={babyG10.url}
+            includes={["Triple chiara arched backdrop with 'Oh Baby' script","Laser-cut butterfly panels + butterfly decals","Purple & yellow organic garland + up-lighting"]}
+            rating={5.0} reviews={98} bestSeller
+            offer={<>₹19,999</>} original={<>₹29,999</>} discountPct={33}
+          />
         </div>
       </section>
 
@@ -580,6 +670,16 @@ function ServicePage() {
             <img src={babyF3.url} alt="Pink & Blue Baby Shower Foil Home Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyF4.url} alt="Custom Name Babyshower Blush Teddy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyF5.url} alt="Oh Baby Pastel Rainbow Ring Teddy Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG1.url} alt="Baby in Bloom Pastel Floral Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG2.url} alt="A Little Cutie is on the Way Gender Reveal Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG3.url} alt="Oh Baby Sage Green Gold Ring Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG4.url} alt="Classic Baby Shower Pink Blue Home Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG5.url} alt="Baby Shower Pastel Arch with Curtain Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG6.url} alt="Pink Blue Ring Baby Shower Neon" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG7.url} alt="Oh Baby Pink White Silver Chrome Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG8.url} alt="Teddy Bear Brown Gold Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG9.url} alt="Oh Baby Blush Pink White Gold Ring with Teddy" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG10.url} alt="Luxury Oh Baby Purple Butterfly Triple Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
