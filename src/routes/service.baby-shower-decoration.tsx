@@ -707,6 +707,9 @@ function ServicePage() {
             <img src={babyG8.url} alt="Teddy Bear Brown Gold Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyG9.url} alt="Oh Baby Blush Pink White Gold Ring with Teddy" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyG10.url} alt="Luxury Oh Baby Purple Butterfly Triple Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH1.url} alt="Luxury Oh Baby Blue Purple Moon Cloud Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH2.url} alt="Oh Baby Pastel Pink Blue Gold Floral Curtain Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH3.url} alt="Luxury Oh Baby White Copper Chiara Arch with BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
