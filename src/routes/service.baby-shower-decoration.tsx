@@ -615,6 +615,30 @@ function ServicePage() {
             rating={5.0} reviews={98} bestSeller
             offer={<>₹19,999</>} original={<>₹29,999</>} discountPct={33}
           />
+          <StaticPackageCard
+            id="baby-h1" name="Luxury 'Oh Baby' Blue & Purple Moon Cloud Arch"
+            description="Grand luxury baby shower with a crescent moon prop, blue-purple-white balloon garland arch, cloud-and-hot-air-balloon printed backdrop, 'Oh Baby' neon on a pastel blue chiara panel, plush teddy bears and a lilac hot-air-balloon side prop — a dreamy sky-themed banquet setup."
+            image={babyH1.url}
+            includes={["Crescent moon prop + cloud printed backdrop","Blue, purple & white balloon garland arch","'Oh Baby' neon on chiara + plush teddy bears"]}
+            rating={5.0} reviews={72} bestSeller
+            offer={<>₹14,999</>} original={<>₹24,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-h2" name="'Oh Baby' Pastel Pink, Blue & Gold Floral Curtain Arch"
+            description="Elegant indoor baby shower with a pastel pink, blue, peach and chrome gold balloon garland running along the top, sheer white curtain backdrop with warm fairy lights, hanging rose florals and an 'Oh Baby' neon script — perfect for cosy home setups."
+            image={babyH2.url}
+            includes={["Pastel pink, blue, peach & gold balloon garland","White sheer curtain + warm fairy lights","'Oh Baby' neon + hanging rose floral strings"]}
+            rating={4.9} reviews={128}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-h3" name="Luxury 'Oh Baby' White & Copper Chiara Arch with BABY Blocks"
+            description="Premium outdoor baby shower with a white chiara arch featuring 'Oh Baby' script and fresh floral corner, secondary white arched panel, ivory-copper-white balloon garlands, cake pedestals, plush teddy, welcome easel and BABY letter blocks — a complete photo-ready installation."
+            image={babyH3.url}
+            includes={["Twin chiara arch backdrop with floral accent","Ivory, white & copper chrome balloon garlands","Cake pedestals, BABY blocks, teddy & welcome easel"]}
+            rating={5.0} reviews={91} bestSeller
+            offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={33}
+          />
         </div>
       </section>
 
