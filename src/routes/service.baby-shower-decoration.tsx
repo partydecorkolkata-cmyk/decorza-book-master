@@ -58,6 +58,9 @@ import babyG7 from "@/assets/baby-g7.png.asset.json";
 import babyG8 from "@/assets/baby-g8.png.asset.json";
 import babyG9 from "@/assets/baby-g9.png.asset.json";
 import babyG10 from "@/assets/baby-g10.png.asset.json";
+import babyH1 from "@/assets/baby-h1.png.asset.json";
+import babyH2 from "@/assets/baby-h2.jpeg.asset.json";
+import babyH3 from "@/assets/baby-h3.png.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -612,6 +615,30 @@ function ServicePage() {
             rating={5.0} reviews={98} bestSeller
             offer={<>₹19,999</>} original={<>₹29,999</>} discountPct={33}
           />
+          <StaticPackageCard
+            id="baby-h1" name="Luxury 'Oh Baby' Blue & Purple Moon Cloud Arch"
+            description="Grand luxury baby shower with a crescent moon prop, blue-purple-white balloon garland arch, cloud-and-hot-air-balloon printed backdrop, 'Oh Baby' neon on a pastel blue chiara panel, plush teddy bears and a lilac hot-air-balloon side prop — a dreamy sky-themed banquet setup."
+            image={babyH1.url}
+            includes={["Crescent moon prop + cloud printed backdrop","Blue, purple & white balloon garland arch","'Oh Baby' neon on chiara + plush teddy bears"]}
+            rating={5.0} reviews={72} bestSeller
+            offer={<>₹14,999</>} original={<>₹24,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-h2" name="'Oh Baby' Pastel Pink, Blue & Gold Floral Curtain Arch"
+            description="Elegant indoor baby shower with a pastel pink, blue, peach and chrome gold balloon garland running along the top, sheer white curtain backdrop with warm fairy lights, hanging rose florals and an 'Oh Baby' neon script — perfect for cosy home setups."
+            image={babyH2.url}
+            includes={["Pastel pink, blue, peach & gold balloon garland","White sheer curtain + warm fairy lights","'Oh Baby' neon + hanging rose floral strings"]}
+            rating={4.9} reviews={128}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-h3" name="Luxury 'Oh Baby' White & Copper Chiara Arch with BABY Blocks"
+            description="Premium outdoor baby shower with a white chiara arch featuring 'Oh Baby' script and fresh floral corner, secondary white arched panel, ivory-copper-white balloon garlands, cake pedestals, plush teddy, welcome easel and BABY letter blocks — a complete photo-ready installation."
+            image={babyH3.url}
+            includes={["Twin chiara arch backdrop with floral accent","Ivory, white & copper chrome balloon garlands","Cake pedestals, BABY blocks, teddy & welcome easel"]}
+            rating={5.0} reviews={91} bestSeller
+            offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={33}
+          />
         </div>
       </section>
 
@@ -680,6 +707,9 @@ function ServicePage() {
             <img src={babyG8.url} alt="Teddy Bear Brown Gold Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyG9.url} alt="Oh Baby Blush Pink White Gold Ring with Teddy" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyG10.url} alt="Luxury Oh Baby Purple Butterfly Triple Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH1.url} alt="Luxury Oh Baby Blue Purple Moon Cloud Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH2.url} alt="Oh Baby Pastel Pink Blue Gold Floral Curtain Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyH3.url} alt="Luxury Oh Baby White Copper Chiara Arch with BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
