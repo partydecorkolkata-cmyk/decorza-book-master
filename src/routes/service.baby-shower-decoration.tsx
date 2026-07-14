@@ -670,6 +670,16 @@ function ServicePage() {
             <img src={babyF3.url} alt="Pink & Blue Baby Shower Foil Home Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyF4.url} alt="Custom Name Babyshower Blush Teddy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyF5.url} alt="Oh Baby Pastel Rainbow Ring Teddy Setup" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG1.url} alt="Baby in Bloom Pastel Floral Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG2.url} alt="A Little Cutie is on the Way Gender Reveal Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG3.url} alt="Oh Baby Sage Green Gold Ring Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG4.url} alt="Classic Baby Shower Pink Blue Home Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG5.url} alt="Baby Shower Pastel Arch with Curtain Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG6.url} alt="Pink Blue Ring Baby Shower Neon" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG7.url} alt="Oh Baby Pink White Silver Chrome Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG8.url} alt="Teddy Bear Brown Gold Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG9.url} alt="Oh Baby Blush Pink White Gold Ring with Teddy" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyG10.url} alt="Luxury Oh Baby Purple Butterfly Triple Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
