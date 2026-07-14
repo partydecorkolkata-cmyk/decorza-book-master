@@ -58,6 +58,9 @@ import babyG7 from "@/assets/baby-g7.png.asset.json";
 import babyG8 from "@/assets/baby-g8.png.asset.json";
 import babyG9 from "@/assets/baby-g9.png.asset.json";
 import babyG10 from "@/assets/baby-g10.png.asset.json";
+import babyH1 from "@/assets/baby-h1.png.asset.json";
+import babyH2 from "@/assets/baby-h2.jpeg.asset.json";
+import babyH3 from "@/assets/baby-h3.png.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
