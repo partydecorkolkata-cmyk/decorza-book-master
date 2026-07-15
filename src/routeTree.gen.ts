@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PackagesRouteImport } from './routes/packages'
+import { Route as McpRouteImport } from './routes/mcp'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BookRouteImport } from './routes/book'
 import { Route as BlogRouteImport } from './routes/blog'
@@ -35,10 +36,18 @@ import { Route as ServiceAnniversaryDecorationRouteImport } from './routes/servi
 import { Route as PackageIdRouteImport } from './routes/package.$id'
 import { Route as CitySlugRouteImport } from './routes/city.$slug'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
+import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
+import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 
 const PackagesRoute = PackagesRouteImport.update({
   id: '/packages',
   path: '/packages',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const McpRoute = McpRouteImport.update({
+  id: '/mcp',
+  path: '/mcp',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -181,6 +190,24 @@ const BlogSlugRoute = BlogSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => BlogRoute,
 } as any)
+const Char91DotwellKnownChar93OauthProtectedResourceRoute =
+  Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
+    id: '/.well-known/oauth-protected-resource',
+    path: '/.well-known/oauth-protected-resource',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const Char91DotmcpChar93ListToolsRoute =
+  Char91DotmcpChar93ListToolsRouteImport.update({
+    id: '/.mcp/list-tools',
+    path: '/.mcp/list-tools',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const Char91DotmcpChar93InvokeToolToolRoute =
+  Char91DotmcpChar93InvokeToolToolRouteImport.update({
+    id: '/.mcp/invoke-tool/$tool',
+    path: '/.mcp/invoke-tool/$tool',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -189,7 +216,10 @@ export interface FileRoutesByFullPath {
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
+  '/mcp': typeof McpRoute
   '/packages': typeof PackagesRoute
+  '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
+  '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -209,6 +239,7 @@ export interface FileRoutesByFullPath {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -217,7 +248,10 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
+  '/mcp': typeof McpRoute
   '/packages': typeof PackagesRoute
+  '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
+  '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -237,6 +271,7 @@ export interface FileRoutesByTo {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -246,7 +281,10 @@ export interface FileRoutesById {
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
+  '/mcp': typeof McpRoute
   '/packages': typeof PackagesRoute
+  '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
+  '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -266,6 +304,7 @@ export interface FileRoutesById {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -276,7 +315,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/book'
     | '/contact'
+    | '/mcp'
     | '/packages'
+    | '/.mcp/list-tools'
+    | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -296,6 +338,7 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.mcp/invoke-tool/$tool'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -304,7 +347,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/book'
     | '/contact'
+    | '/mcp'
     | '/packages'
+    | '/.mcp/list-tools'
+    | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -324,6 +370,7 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.mcp/invoke-tool/$tool'
   id:
     | '__root__'
     | '/'
@@ -332,7 +379,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/book'
     | '/contact'
+    | '/mcp'
     | '/packages'
+    | '/.mcp/list-tools'
+    | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -352,6 +402,7 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.mcp/invoke-tool/$tool'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -361,7 +412,10 @@ export interface RootRouteChildren {
   BlogRoute: typeof BlogRouteWithChildren
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
+  McpRoute: typeof McpRoute
   PackagesRoute: typeof PackagesRoute
+  Char91DotmcpChar93ListToolsRoute: typeof Char91DotmcpChar93ListToolsRoute
+  Char91DotwellKnownChar93OauthProtectedResourceRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   CitySlugRoute: typeof CitySlugRoute
   PackageIdRoute: typeof PackageIdRoute
   ServiceAnniversaryDecorationRoute: typeof ServiceAnniversaryDecorationRoute
@@ -380,6 +434,7 @@ export interface RootRouteChildren {
   ServiceRomanticBedroomDecorationRoute: typeof ServiceRomanticBedroomDecorationRoute
   ServiceThemeBirthdayDecorationRoute: typeof ServiceThemeBirthdayDecorationRoute
   ServiceWelcomeBabyDecorationRoute: typeof ServiceWelcomeBabyDecorationRoute
+  Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -389,6 +444,13 @@ declare module '@tanstack/react-router' {
       path: '/packages'
       fullPath: '/packages'
       preLoaderRoute: typeof PackagesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mcp': {
+      id: '/mcp'
+      path: '/mcp'
+      fullPath: '/mcp'
+      preLoaderRoute: typeof McpRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -566,6 +628,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof BlogRoute
     }
+    '/.well-known/oauth-protected-resource': {
+      id: '/.well-known/oauth-protected-resource'
+      path: '/.well-known/oauth-protected-resource'
+      fullPath: '/.well-known/oauth-protected-resource'
+      preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.mcp/list-tools': {
+      id: '/.mcp/list-tools'
+      path: '/.mcp/list-tools'
+      fullPath: '/.mcp/list-tools'
+      preLoaderRoute: typeof Char91DotmcpChar93ListToolsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.mcp/invoke-tool/$tool': {
+      id: '/.mcp/invoke-tool/$tool'
+      path: '/.mcp/invoke-tool/$tool'
+      fullPath: '/.mcp/invoke-tool/$tool'
+      preLoaderRoute: typeof Char91DotmcpChar93InvokeToolToolRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -586,7 +669,11 @@ const rootRouteChildren: RootRouteChildren = {
   BlogRoute: BlogRouteWithChildren,
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
+  McpRoute: McpRoute,
   PackagesRoute: PackagesRoute,
+  Char91DotmcpChar93ListToolsRoute: Char91DotmcpChar93ListToolsRoute,
+  Char91DotwellKnownChar93OauthProtectedResourceRoute:
+    Char91DotwellKnownChar93OauthProtectedResourceRoute,
   CitySlugRoute: CitySlugRoute,
   PackageIdRoute: PackageIdRoute,
   ServiceAnniversaryDecorationRoute: ServiceAnniversaryDecorationRoute,
@@ -605,6 +692,7 @@ const rootRouteChildren: RootRouteChildren = {
   ServiceRomanticBedroomDecorationRoute: ServiceRomanticBedroomDecorationRoute,
   ServiceThemeBirthdayDecorationRoute: ServiceThemeBirthdayDecorationRoute,
   ServiceWelcomeBabyDecorationRoute: ServiceWelcomeBabyDecorationRoute,
+  Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
