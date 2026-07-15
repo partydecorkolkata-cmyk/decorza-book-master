@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "sdk_version": "0.22.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "decorza-events-mcp",
+      "version": "0.1.0",
+      "title": "Decorza Events"
+    },
+    "tools": [
+      {
+        "name": "list_categories",
+        "title": "List decoration categories",
+        "description": "List all decoration service categories offered by Decorza Events (birthday, anniversary, haldi, baby shower, theme birthday, etc.) with starting prices, ratings and short descriptions.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_packages",
+        "title": "List decoration packages",
+        "description": "List Decorza Events decoration packages. Optionally filter by category slug (e.g. 'birthday-decoration', 'anniversary-decoration', 'baby-shower-decoration'). Returns package id, name, price, tier and short description. Use list_categories to discover valid slugs.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "categorySlug": {
+              "description": "Optional category slug to filter packages by.",
+              "type": "string"
+            },
+            "limit": {
+              "description": "Optional max number of packages to return (default 50).",
+              "type": "integer",
+              "minimum": -9007199254740991,
+              "maximum": 9007199254740991
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_package",
+        "title": "Get decoration package details",
+        "description": "Get full details for a single Decorza Events decoration package by id, including long description, what's included, pricing and duration.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Package id, e.g. 'birthday-decoration-premium'."
+            }
+          },
+          "required": [
+            "id"
+          ]
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_contact_info",
+        "title": "Get Decorza Events contact info",
+        "description": "Get Decorza Events business contact info: brand name, WhatsApp number, email, service cities and a ready-to-open WhatsApp booking link.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
