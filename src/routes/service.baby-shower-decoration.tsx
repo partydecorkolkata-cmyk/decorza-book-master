@@ -61,6 +61,16 @@ import babyG10 from "@/assets/baby-g10.png.asset.json";
 import babyH1 from "@/assets/baby-h1.png.asset.json";
 import babyH2 from "@/assets/baby-h2.jpeg.asset.json";
 import babyH3 from "@/assets/baby-h3.png.asset.json";
+import babyI1 from "@/assets/baby-i1.jpg.asset.json";
+import babyI2 from "@/assets/baby-i2.jpg.asset.json";
+import babyI3 from "@/assets/baby-i3.jpg.asset.json";
+import babyI4 from "@/assets/baby-i4.jpg.asset.json";
+import babyI5 from "@/assets/baby-i5.jpg.asset.json";
+import babyI6 from "@/assets/baby-i6.jpg.asset.json";
+import babyI7 from "@/assets/baby-i7.jpg.asset.json";
+import babyI8 from "@/assets/baby-i8.jpg.asset.json";
+import babyI9 from "@/assets/baby-i9.jpg.asset.json";
+import babyI10 from "@/assets/baby-i10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -632,6 +642,86 @@ function ServicePage() {
             offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
           />
           <StaticPackageCard
+            id="baby-i1" name="Girl or Boy Pastel Pink & Teal Curtain Arch"
+            description="Cosy home baby shower with a pink 'girl' and teal 'boy' foil script over a white shimmer curtain backdrop with fairy lights, a pastel pink, mint and white balloon arch, 'Baby Shower' bunting, an 'It's a Boy' bottle and 'It's a Girl' foot foil column and a baby-boy carriage — a lovely gender-neutral setup."
+            image={babyI1.url}
+            includes={["White shimmer curtain + fairy light backdrop","Pastel pink, mint & white balloon arch","'girl' & 'boy' foil scripts + carriage & foot foil columns"]}
+            rating={4.9} reviews={182}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-i2" name="'Boy or Girl' Pink, Blue & Chrome Gold Gender Reveal Arch"
+            description="Bold gender-reveal photo arch with a chic pink and sky-blue organic balloon garland accented with chrome gold clusters, framing a white chiara backdrop featuring an elegant 'Boy or Girl' gold script — perfect for reveal parties and studio shoots."
+            image={babyI2.url}
+            includes={["White chiara panel with 'Boy or Girl' gold script","Pink & blue organic balloon garland arch","Chrome gold accent clusters + floor styling"]}
+            rating={5.0} reviews={144} bestSeller
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-i3" name="'Oh Baby' Blue, White & Gold Ring Arch with BABY Blocks"
+            description="Banquet-style baby shower with a full circular ring covered in blue, white, pink and chrome gold balloons around a warm 'Oh Baby' neon on a white curtain backdrop, boy and girl cartoon cut-outs on the sides and BABY letter blocks with a hidden balloon reveal."
+            image={babyI3.url}
+            includes={["Circular ring arch with blue, white & gold balloons","'Oh Baby' neon on white shimmer curtain","BABY letter blocks + boy & girl cut-outs"]}
+            rating={4.9} reviews={168}
+            offer={<>₹3,999</>} original={<>₹4,999</>} discountPct={20}
+          />
+          <StaticPackageCard
+            id="baby-i4" name="Twin 'Girl' & 'Boy' Balloon Columns with Tassel Bunting"
+            description="Compact gender-reveal setup with a tall pastel pink 'GIRL' balloon column and a matching pastel blue 'BOY' column, gold 'OR' foil letters overhead, a pink-blue-gold tassel bunting and cute baby foil balloons on each side — great for small home celebrations."
+            image={babyI4.url}
+            includes={["Pastel pink 'GIRL' & blue 'BOY' balloon columns","Gold 'OR' foil letters + tassel bunting","Baby boy & baby girl foil accents"]}
+            rating={4.8} reviews={126}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-i5" name="'boy' & 'girl' Foil Silver Fringe Curtain Arch"
+            description="Sweet home baby shower with a blue and pink balloon garland arch featuring gold butterfly accents, framing a silver fringe curtain wall with pastel 'boy' and 'girl' foil scripts and cute baby boy/girl cartoon cut-outs at the base — perfect for photo booths."
+            image={babyI5.url}
+            includes={["Silver fringe curtain wall backdrop","Blue & pink balloon arch with gold butterflies","'boy' & 'girl' foil scripts + baby cut-outs"]}
+            rating={4.8} reviews={139}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-i6" name="'Boy or Girl' Pink, Blue & Gold Floral Grand Arch"
+            description="Luxury indoor gender-reveal arch with a chunky pink, sky-blue and chrome gold balloon garland climbing a white chiara backdrop, an elegant 'Boy or Girl' script and a pastel floral fan corner accent — premium finish for banquet or home setups."
+            image={babyI6.url}
+            includes={["White chiara backdrop with 'Boy or Girl' script","Pink, blue & chrome gold organic balloon garland","Pastel floral fan accent + column bases"]}
+            rating={5.0} reviews={110} bestSeller
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-i7" name="'GIRL' & 'BOY' Foil Tinsel Curtain Gender Reveal"
+            description="Fun and affordable gender-reveal setup with pink 'GIRL' and blue 'BOY' foil letters over blue and pink tinsel fringe curtains, a pastel confetti balloon top garland with 'It's a Boy' and 'It's a Girl' printed balloons — ideal for small parties."
+            image={babyI7.url}
+            includes={["Blue & pink tinsel fringe curtain wall","'GIRL' & 'BOY' foil letters","Pastel confetti balloon top garland"]}
+            rating={4.7} reviews={98}
+            offer={<>₹1,999</>} original={<>₹3,499</>} discountPct={43}
+          />
+          <StaticPackageCard
+            id="baby-i8" name="Grand 'BABY SHOWER' Pink & Blue Ceiling Arch with Silver Backdrop"
+            description="Full-room baby shower with a lush pink and blue balloon arch running along the ceiling and around the seating area, a silver shimmer wall backdrop with 'BABY SHOWER' foil letters, unicorn and baby foil accents and hanging balloon strings — a complete celebration setup."
+            image={babyI8.url}
+            includes={["Silver shimmer wall + 'BABY SHOWER' foil letters","Pink & blue ceiling balloon arch around seating","Unicorn, baby & pram foil accents + hanging balloons"]}
+            rating={4.9} reviews={156}
+            offer={<>₹2,499</>} original={<>₹4,999</>} discountPct={50}
+          />
+          <StaticPackageCard
+            id="baby-i9" name="Custom Name 'Baby Shower' Pink & Blue Moon Backdrop"
+            description="Premium banquet baby shower with a personalised round pink-and-blue moon backdrop featuring the mommy-to-be's name, a pink balloon arch across the top, a blue balloon garland base with gold chrome accents, boy & girl cartoon stands, BABY letter blocks and a red carpet stage."
+            image={babyI9.url}
+            includes={["Custom name round moon backdrop","Pink top arch + blue & gold base garland","BABY blocks, boy/girl stands & red carpet stage"]}
+            rating={5.0} reviews={132} bestSeller
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-i10" name="'GIRL or BOY' Pink & Blue Twin Column Entry Arch"
+            description="Charming entry-way baby shower with a pink and blue balloon top arch, twin balloon columns wrapped in pink and blue with gold star accents, pink and blue tassel curtains and cute foot foil balloons — 'GIRL or BOY' bunting completes the look."
+            image={babyI10.url}
+            includes={["Pink & blue balloon top arch entry","Twin balloon columns with gold star accents","Pink & blue tassel curtains + foot foils & bunting"]}
+            rating={4.7} reviews={88}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
+          />
+          <StaticPackageCard
             id="baby-h3" name="Luxury 'Oh Baby' White & Copper Chiara Arch with BABY Blocks"
             description="Premium outdoor baby shower with a white chiara arch featuring 'Oh Baby' script and fresh floral corner, secondary white arched panel, ivory-copper-white balloon garlands, cake pedestals, plush teddy, welcome easel and BABY letter blocks — a complete photo-ready installation."
             image={babyH3.url}
@@ -710,6 +800,16 @@ function ServicePage() {
             <img src={babyH1.url} alt="Luxury Oh Baby Blue Purple Moon Cloud Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyH2.url} alt="Oh Baby Pastel Pink Blue Gold Floral Curtain Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyH3.url} alt="Luxury Oh Baby White Copper Chiara Arch with BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI1.url} alt="Girl or Boy Pastel Pink Teal Curtain Arch Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI2.url} alt="Boy or Girl Pink Blue Gold Gender Reveal Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI3.url} alt="Oh Baby Blue White Gold Ring Arch BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI4.url} alt="Girl Boy Twin Balloon Columns Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI5.url} alt="boy girl Silver Fringe Curtain Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI6.url} alt="Boy or Girl Pink Blue Gold Floral Grand Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI7.url} alt="GIRL BOY Foil Tinsel Curtain Gender Reveal" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI8.url} alt="Grand BABY SHOWER Pink Blue Ceiling Arch Silver Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI9.url} alt="Custom Name Baby Shower Pink Blue Moon Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI10.url} alt="GIRL or BOY Pink Blue Twin Column Entry Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
