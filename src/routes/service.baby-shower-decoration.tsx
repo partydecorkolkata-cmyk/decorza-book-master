@@ -800,6 +800,16 @@ function ServicePage() {
             <img src={babyH1.url} alt="Luxury Oh Baby Blue Purple Moon Cloud Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyH2.url} alt="Oh Baby Pastel Pink Blue Gold Floral Curtain Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyH3.url} alt="Luxury Oh Baby White Copper Chiara Arch with BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI1.url} alt="Girl or Boy Pastel Pink Teal Curtain Arch Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI2.url} alt="Boy or Girl Pink Blue Gold Gender Reveal Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI3.url} alt="Oh Baby Blue White Gold Ring Arch BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI4.url} alt="Girl Boy Twin Balloon Columns Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI5.url} alt="boy girl Silver Fringe Curtain Baby Shower Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI6.url} alt="Boy or Girl Pink Blue Gold Floral Grand Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI7.url} alt="GIRL BOY Foil Tinsel Curtain Gender Reveal" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI8.url} alt="Grand BABY SHOWER Pink Blue Ceiling Arch Silver Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI9.url} alt="Custom Name Baby Shower Pink Blue Moon Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyI10.url} alt="GIRL or BOY Pink Blue Twin Column Entry Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
