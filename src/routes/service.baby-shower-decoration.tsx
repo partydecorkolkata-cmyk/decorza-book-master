@@ -1000,6 +1000,16 @@ function ServicePage() {
             <img src={babyJ8.url} alt="Baby Shower Purple Pink Blue Ring Gold Chrome" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyJ9.url} alt="Custom Couple Name Baby Shower Pink Blush Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyJ10.url} alt="Baby Shower Neon Purple Pink Gold Ring Twin Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK1.url} alt="Pastel Pink Blue Yellow Gold Baby Shower Neon Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK2.url} alt="Oh Baby Round Ring Pastel Butterfly Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK3.url} alt="Boy or Girl Foil Curtain Arch with Baby Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK4.url} alt="Rose Gold Curtain Baby Shower Foil Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK5.url} alt="Custom Name Round Backdrop with Moon and Baby Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK6.url} alt="Gold Baby Shower Foil Letters with Pink Blue Tinsel Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK7.url} alt="Multicolour Balloon Entry Arch with Baby Shower Banner" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK8.url} alt="Custom Name Pastel Arch Backdrop with Floral and Palm" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK9.url} alt="Oh Baby Loading Outdoor Arch with Teddy and BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK10.url} alt="Boy or Girl Pastel Gender Reveal Arch with Moon and Stars" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
