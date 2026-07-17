@@ -81,6 +81,16 @@ import babyJ7 from "@/assets/baby-j7.jpeg.asset.json";
 import babyJ8 from "@/assets/baby-j8.jpeg.asset.json";
 import babyJ9 from "@/assets/baby-j9.jpeg.asset.json";
 import babyJ10 from "@/assets/baby-j10.jpeg.asset.json";
+import babyK1 from "@/assets/baby-k1.jpeg.asset.json";
+import babyK2 from "@/assets/baby-k2.jpeg.asset.json";
+import babyK3 from "@/assets/baby-k3.jpeg.asset.json";
+import babyK4 from "@/assets/baby-k4.jpeg.asset.json";
+import babyK5 from "@/assets/baby-k5.jpeg.asset.json";
+import babyK6 from "@/assets/baby-k6.jpeg.asset.json";
+import babyK7 from "@/assets/baby-k7.jpeg.asset.json";
+import babyK8 from "@/assets/baby-k8.png.asset.json";
+import babyK9 from "@/assets/baby-k9.jpeg.asset.json";
+import babyK10 from "@/assets/baby-k10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -819,6 +829,86 @@ function ServicePage() {
             rating={4.9} reviews={121}
             offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
           />
+          <StaticPackageCard
+            id="baby-k1" name="Pastel Pink, Blue, Yellow & Gold 'Baby Shower' Neon Arch"
+            description="Charming indoor baby shower with a pastel pink, blue, yellow and gold chrome balloon arch framing a soft white sheer curtain, glowing pink & blue 'Baby Shower' neon sign and matching balloon pillars on either side."
+            image={babyK1.url}
+            includes={["Pastel + gold chrome balloon arch","'Baby Shower' pink & blue neon sign","Sheer white curtain + twin balloon columns"]}
+            rating={4.9} reviews={138} bestSeller
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-k2" name="'Oh Baby' Round Ring Pastel & Butterfly Backdrop with BABY Blocks"
+            description="Elegant indoor round ring backdrop in pastel peach, blue, gold & silver chrome balloons with silver butterfly accents, glowing 'Oh Baby' neon sign in the centre and a stack of transparent BABY letter blocks on the side."
+            image={babyK2.url}
+            includes={["Peach, blue, gold & silver chrome ring","'Oh Baby' neon + silver butterfly cutouts","Transparent BABY letter blocks stack"]}
+            rating={5.0} reviews={162} bestSeller
+            offer={<>₹3,999</>} original={<>₹4,999</>} discountPct={20}
+          />
+          <StaticPackageCard
+            id="baby-k3" name="Boy or Girl Foil Curtain Arch with Baby Cutouts & BABY Blocks"
+            description="Playful gender-reveal setup with a pink, blue, white & gold chrome balloon arch, blue & pink foil curtains, 'boy' and 'girl' foil script, baby boy/girl cutouts, a Baby Boy pram foil and transparent BABY letter blocks."
+            image={babyK3.url}
+            includes={["Pink, blue & gold arch + foil curtains","'boy' & 'girl' foils + baby cutouts","Baby pram foil + BABY letter blocks"]}
+            rating={4.8} reviews={124}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-k4" name="Rose Gold Curtain 'Baby Shower' Foil Arch with Red Couch"
+            description="Banquet-style baby shower entry with a pink & blue pastel balloon arch, shimmering rose-gold foil curtain backdrop, 'BOY' & 'BABY SHOWER' foil letters, feeding bottle foils, star balloons and a red velvet couch for the mom-to-be."
+            image={babyK4.url}
+            includes={["Pastel pink & blue balloon arch","Rose-gold foil curtain + 'Baby Shower' letters","Star & bottle foil accents"]}
+            rating={4.7} reviews={109}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-k5" name="Custom Name Round Backdrop with Moon & Baby Cutouts Pillars"
+            description="Premium banquet baby shower with a custom-printed round white backdrop (e.g. 'Nikky's Baby Shower'), soft pastel pink/blue/gold balloon garland, gold moon foil and two matching pastel balloon columns topped with adorable baby cutouts."
+            image={babyK5.url}
+            includes={["Custom-name round white backdrop","Pastel pink/blue/gold garland + gold moon","Twin balloon pillars with baby cutouts"]}
+            rating={4.9} reviews={148} bestSeller
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+          />
+          <StaticPackageCard
+            id="baby-k6" name="Gold 'BABY SHOWER' Foil Letters with Pink & Blue Tinsel Arch"
+            description="Simple banquet baby shower with a pink & blue pastel balloon arch, blue & pink tinsel foil curtain, big gold 'BABY SHOWER' foil letters, gold star balloons and baby boy/girl foil cutouts on either side."
+            image={babyK6.url}
+            includes={["Pastel pink & blue balloon arch","Gold 'BABY SHOWER' foil letters","Tinsel foil curtain + star & baby cutouts"]}
+            rating={4.6} reviews={97}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
+          />
+          <StaticPackageCard
+            id="baby-k7" name="Multicolour Balloon Entry Arch with 'Baby Shower' Banner"
+            description="Bright, budget-friendly baby shower entry arch in pink, blue, white, yellow & gold balloons with a lace curtain backdrop, gold 'Baby Shower' cursive banner and bottle, baby & butterfly foil balloon accents."
+            image={babyK7.url}
+            includes={["Pink, blue, white, yellow & gold arch","Lace curtain + 'Baby Shower' banner","Bottle, baby & butterfly foil accents"]}
+            rating={4.5} reviews={86}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
+          />
+          <StaticPackageCard
+            id="baby-k8" name="Custom Name Pastel Arch Backdrop with Floral & Palm Accents"
+            description="Luxury pastel baby shower with a personalised pink acrylic-style arched panel (e.g. 'Tasneem's Baby Shower') set on a wooden wall, framed by an oversized pink, blue & yellow balloon garland with a dried palm leaf and rose floral cluster."
+            image={babyK8.url}
+            includes={["Custom-name pink arched acrylic panel","Pink, blue & yellow pastel balloon garland","Dried palm leaf + rose floral cluster"]}
+            rating={5.0} reviews={176} bestSeller
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-k9" name="'Oh Baby Loading' Outdoor Arch with Teddy & BABY Blocks"
+            description="Dreamy outdoor baby shower with a tall white arched panel featuring glowing 'Oh Baby' neon, baby-feet 'Loading…' print, a pink, white & gold balloon garland with dried palm, a giant pink teddy bear and BABY letter blocks."
+            image={babyK9.url}
+            includes={["'Oh Baby' neon + baby-feet 'Loading' panel","Pink, gold & white balloon garland","Giant teddy bear + BABY letter blocks"]}
+            rating={4.9} reviews={154} bestSeller
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+          />
+          <StaticPackageCard
+            id="baby-k10" name="'Boy or Girl?' Pastel Gender Reveal Arch with Moon & Stars"
+            description="Outdoor gender reveal arch with a white sheer curtain backdrop, 'Boy or Girl?' cutout letters, pastel pink & blue balloon garland with silver star foils on top and a big silver crescent moon nested in a pastel balloon cluster."
+            image={babyK10.url}
+            includes={["White sheer curtain + 'Boy or Girl?' cutout","Pastel pink & blue balloon arch","Silver star foils + crescent moon cluster"]}
+            rating={4.8} reviews={131}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
         </div>
       </section>
 
@@ -910,6 +1000,16 @@ function ServicePage() {
             <img src={babyJ8.url} alt="Baby Shower Purple Pink Blue Ring Gold Chrome" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyJ9.url} alt="Custom Couple Name Baby Shower Pink Blush Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyJ10.url} alt="Baby Shower Neon Purple Pink Gold Ring Twin Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK1.url} alt="Pastel Pink Blue Yellow Gold Baby Shower Neon Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK2.url} alt="Oh Baby Round Ring Pastel Butterfly Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK3.url} alt="Boy or Girl Foil Curtain Arch with Baby Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK4.url} alt="Rose Gold Curtain Baby Shower Foil Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK5.url} alt="Custom Name Round Backdrop with Moon and Baby Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK6.url} alt="Gold Baby Shower Foil Letters with Pink Blue Tinsel Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK7.url} alt="Multicolour Balloon Entry Arch with Baby Shower Banner" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK8.url} alt="Custom Name Pastel Arch Backdrop with Floral and Palm" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK9.url} alt="Oh Baby Loading Outdoor Arch with Teddy and BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyK10.url} alt="Boy or Girl Pastel Gender Reveal Arch with Moon and Stars" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
