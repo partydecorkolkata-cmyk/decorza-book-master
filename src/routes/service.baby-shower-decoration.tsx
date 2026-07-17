@@ -739,6 +739,86 @@ function ServicePage() {
             rating={5.0} reviews={91} bestSeller
             offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={33}
           />
+          <StaticPackageCard
+            id="baby-j1" name="Custom Name Pastel Rainbow Ring Baby Shower with Baby Cartoon Cutouts"
+            description="Playful indoor baby shower featuring a pastel rainbow balloon ring backdrop with a personalised 'Oh… Baby [Name]'s Baby Shower' print, twin pastel balloon columns with cartoon baby cutouts on either side and BABY blocks — a bright, family-friendly setup."
+            image={babyJ1.url}
+            includes={["Pastel rainbow ring + custom name backdrop","Twin pastel balloon columns with baby cutouts","BABY letter blocks + floor balloon accents"]}
+            rating={4.9} reviews={142} bestSeller
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-j2" name="'Oh Baby' Neon Boy or Girl Purple Fairy Outdoor Arch"
+            description="Dreamy outdoor gender reveal with a purple printed backdrop featuring a fairy mommy illustration, glowing 'Oh baby' neon, pink and blue balloon garlands with gold chrome and confetti balloons, silver foil stars and a 'Boy or Girl' heart accent."
+            image={babyJ2.url}
+            includes={["Purple fairy backdrop + 'Oh baby' neon sign","Pink & blue garlands with gold & silver accents","Boy or Girl foil heart + red carpet base"]}
+            rating={5.0} reviews={118} bestSeller
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-j3" name="'Baby Shower' Neon Pink & Blue Ring with BABY Blocks & Bottles"
+            description="Elegant indoor baby shower with a pink and blue balloon ring backdrop, 'Baby Shower' neon sign in the centre, teddy bear foil accents, 'It's A Boy' & 'It's A Girl' bottle foils on pink and blue balloon columns and BABY letter blocks."
+            image={babyJ3.url}
+            includes={["Pink & blue balloon ring + 'Baby Shower' neon","Twin bottle foils on pink & blue columns","BABY letter blocks + teddy foil accents"]}
+            rating={4.9} reviews={126}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-j4" name="Grand 'BABY SHOWER' Multicolour Balloon Arch Room Setup"
+            description="Full-room baby shower with a vibrant multicolour balloon arch framing a sofa seating, gold 'BABY SHOWER' foil letters with a blue heart, baby bottle & teddy foils, cartoon baby stickers and warm cove lighting — a lively home celebration setup."
+            image={babyJ4.url}
+            includes={["Gold 'BABY SHOWER' foil letters + blue heart","Multicolour balloon arch around seating","Baby bottle, teddy & cartoon sticker accents"]}
+            rating={4.8} reviews={97}
+            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+          />
+          <StaticPackageCard
+            id="baby-j5" name="Simple 'BABY SHOWER' Gold Foil Letters with Pink & Blue Columns"
+            description="Sweet budget-friendly baby shower with 'BABY SHOWER' gold foil letters on a clean wall, 'It's a Boy' & 'It's a Girl' bottle foils on pink and blue balloon columns, a cute themed bunting and gold star accent — perfect for intimate home celebrations."
+            image={babyJ5.url}
+            includes={["'BABY SHOWER' gold foil letter set","Pink & blue balloon columns with bottle foils","Baby shower themed bunting + gold star"]}
+            rating={4.7} reviews={84}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
+          />
+          <StaticPackageCard
+            id="baby-j6" name="'He or She' Pastel Rainbow Gender Reveal Arch with Baby Foils"
+            description="Charming indoor gender reveal with a pastel rainbow balloon arch, silver moon and star foils on top, 'He or She' foil balloon in the centre, boy & girl baby foils, 'Baby Boy' & 'Baby Girl' round foils and pastel balloon garland at the base."
+            image={babyJ6.url}
+            includes={["Pastel rainbow balloon arch + moon & stars","'He or She' + boy & girl baby foils","Base garland with pastel balloon scatter"]}
+            rating={4.8} reviews={101}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
+          />
+          <StaticPackageCard
+            id="baby-j7" name="Luxury 'Baby Shower' Pastel Cocomelon Ring with Baby Cartoons"
+            description="Premium banquet baby shower with a pastel balloon ring backdrop framing a marble panel with 'Baby Shower' neon sign, Cocomelon baby cartoon cutouts, angel and toddler cutouts and matching pastel balloon columns — an adorable photo-ready installation."
+            image={babyJ7.url}
+            includes={["Pastel balloon ring + marble panel with neon","Cocomelon, angel & toddler cutouts","Matching pastel balloon columns"]}
+            rating={5.0} reviews={138} bestSeller
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+          />
+          <StaticPackageCard
+            id="baby-j8" name="'Baby Shower' Purple, Pink & Blue Ring with Gold Chrome Accents"
+            description="Elegant mall-style baby shower with a purple, pink and blue balloon ring backdrop with gold chrome accents, 'Baby Shower' script inside, boy & girl cartoon cutouts on pastel columns and floating balloon clusters overhead."
+            image={babyJ8.url}
+            includes={["Purple, pink & blue ring + gold chrome accents","'Baby Shower' script inside the ring","Boy & girl cutouts on pastel columns + ceiling clusters"]}
+            rating={4.9} reviews={112}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
+          <StaticPackageCard
+            id="baby-j9" name="Custom Couple Name 'Baby Shower' Pink Blush Banquet Arch"
+            description="Premium banquet baby shower with a personalised pink blush arched backdrop featuring the couple's names and 'Baby Shower' script, a lush pink and peach balloon garland with lit-up focal balloons, teddy accents, cute baby girl cutout and BABY letter blocks."
+            image={babyJ9.url}
+            includes={["Custom couple name arched backdrop","Pink & peach balloon garland with lit focals","Teddy accents, baby cutout + BABY blocks"]}
+            rating={5.0} reviews={129} bestSeller
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+          />
+          <StaticPackageCard
+            id="baby-j10" name="'Baby Shower' Neon Purple, Pink & Gold Ring with Twin Baby Cutouts"
+            description="Stylish baby shower with a purple, pink, white and gold chrome balloon ring backdrop, glowing 'Baby Shower' neon sign, twin baby (boy & girl) foil cutouts on matching balloon columns and BABY letter blocks on a carpeted stage."
+            image={babyJ10.url}
+            includes={["Purple, pink, white & gold chrome ring","'Baby Shower' neon + twin baby cutouts","Matching balloon columns + BABY blocks"]}
+            rating={4.9} reviews={121}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+          />
         </div>
       </section>
 
