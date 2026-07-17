@@ -900,6 +900,16 @@ function ServicePage() {
             <img src={babyI8.url} alt="Grand BABY SHOWER Pink Blue Ceiling Arch Silver Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyI9.url} alt="Custom Name Baby Shower Pink Blue Moon Backdrop" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyI10.url} alt="GIRL or BOY Pink Blue Twin Column Entry Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ1.url} alt="Custom Name Pastel Rainbow Ring Baby Shower" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ2.url} alt="Oh Baby Neon Boy or Girl Purple Fairy Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ3.url} alt="Baby Shower Neon Pink Blue Ring with BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ4.url} alt="Grand BABY SHOWER Multicolour Balloon Arch Room" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ5.url} alt="BABY SHOWER Gold Foil Letters Pink Blue Columns" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ6.url} alt="He or She Pastel Rainbow Gender Reveal Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ7.url} alt="Baby Shower Pastel Cocomelon Ring" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ8.url} alt="Baby Shower Purple Pink Blue Ring Gold Chrome" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ9.url} alt="Custom Couple Name Baby Shower Pink Blush Arch" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyJ10.url} alt="Baby Shower Neon Purple Pink Gold Ring Twin Cutouts" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
