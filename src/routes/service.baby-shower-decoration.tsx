@@ -829,7 +829,6 @@ function ServicePage() {
             rating={4.9} reviews={121}
             offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
           />
-        </div>
           <StaticPackageCard
             id="baby-k1" name="Pastel Pink, Blue, Yellow & Gold 'Baby Shower' Neon Arch"
             description="Charming indoor baby shower with a pastel pink, blue, yellow and gold chrome balloon arch framing a soft white sheer curtain, glowing pink & blue 'Baby Shower' neon sign and matching balloon pillars on either side."
