@@ -281,6 +281,13 @@ const birthdayGalleryImages = [
   { src: pkgH10Princess6.url, alt: "Princess 6th birthday gold fringe curtain with pastel pink, mint, lilac, gold and silver balloon arch, princess foils and gold number 6" },
   { src: pkgYellowBlackHBD.url, alt: "Yellow and black balloon ceiling and wall decoration with gold HAPPY BIRTHDAY foil letters and gold star" },
   { src: pkgPastelButterflyGold.url, alt: "Pastel pink, lilac and white balloon arch with butterflies, silver stars and gold foil curtain first birthday setup" },
+  { src: pkgM1HelloKittySweetShop.url, alt: "Hello Kitty & My Melody pastel Sweet Shop birthday backdrop with pastel balloon arch and Happy Birthday neon" },
+  { src: pkgM2MoneyFeliz.url, alt: "Black, white and rose gold money themed birthday arch with dollar cutouts and fake 100 dollar bills" },
+  { src: pkgM3MoneyLuxury.url, alt: "Luxury black, gold and silver chrome balloon arch with Happy Birthday neon, dominoes, money bag and dollar cutouts" },
+  { src: pkgM4MickeyPink.url, alt: "Mickey Mouse pink balloon arch with gold foil curtain, MICKEY foil letters and silver star foils" },
+  { src: pkgM5WhiteGoldFloral.url, alt: "Elegant white, cream and gold chrome balloon arch with fresh peach roses, greenery and gold foil curtain Happy Birthday neon" },
+  { src: pkgM6RedBlackFrame.url, alt: "Red and black balloon photo frame with silver shimmer curtain and HAPPY BIRTHDAY paper banner" },
+  { src: pkgM725thBash.url, alt: "Sonaal 25th Bday Bash black and gold sequin backdrop with champagne bottle cutouts and marquee 25 lights" },
 ];
 
 
