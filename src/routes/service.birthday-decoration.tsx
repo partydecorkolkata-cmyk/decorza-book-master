@@ -140,6 +140,13 @@ import pkgH9UnicornHeenal from "@/assets/bday-h9-unicorn-heenal.jpeg.asset.json"
 import pkgH10Princess6 from "@/assets/bday-h10-princess-6th.jpeg.asset.json";
 import pkgYellowBlackHBD from "@/assets/bday-yellow-black-happybirthday.jpeg.asset.json";
 import pkgPastelButterflyGold from "@/assets/bday-pastel-butterfly-gold-curtain.webp.asset.json";
+import pkgM1HelloKittySweetShop from "@/assets/bday-m1.jpg.asset.json";
+import pkgM2MoneyFeliz from "@/assets/bday-m2.jpg.asset.json";
+import pkgM3MoneyLuxury from "@/assets/bday-m3.jpg.asset.json";
+import pkgM4MickeyPink from "@/assets/bday-m4.jpg.asset.json";
+import pkgM5WhiteGoldFloral from "@/assets/bday-m5.jpg.asset.json";
+import pkgM6RedBlackFrame from "@/assets/bday-m6.png.asset.json";
+import pkgM725thBash from "@/assets/bday-m7.webp.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
