@@ -140,6 +140,13 @@ import pkgH9UnicornHeenal from "@/assets/bday-h9-unicorn-heenal.jpeg.asset.json"
 import pkgH10Princess6 from "@/assets/bday-h10-princess-6th.jpeg.asset.json";
 import pkgYellowBlackHBD from "@/assets/bday-yellow-black-happybirthday.jpeg.asset.json";
 import pkgPastelButterflyGold from "@/assets/bday-pastel-butterfly-gold-curtain.webp.asset.json";
+import pkgM1HelloKittySweetShop from "@/assets/bday-m1.jpg.asset.json";
+import pkgM2MoneyFeliz from "@/assets/bday-m2.jpg.asset.json";
+import pkgM3MoneyLuxury from "@/assets/bday-m3.jpg.asset.json";
+import pkgM4MickeyPink from "@/assets/bday-m4.jpg.asset.json";
+import pkgM5WhiteGoldFloral from "@/assets/bday-m5.jpg.asset.json";
+import pkgM6RedBlackFrame from "@/assets/bday-m6.png.asset.json";
+import pkgM725thBash from "@/assets/bday-m7.webp.asset.json";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -274,6 +281,13 @@ const birthdayGalleryImages = [
   { src: pkgH10Princess6.url, alt: "Princess 6th birthday gold fringe curtain with pastel pink, mint, lilac, gold and silver balloon arch, princess foils and gold number 6" },
   { src: pkgYellowBlackHBD.url, alt: "Yellow and black balloon ceiling and wall decoration with gold HAPPY BIRTHDAY foil letters and gold star" },
   { src: pkgPastelButterflyGold.url, alt: "Pastel pink, lilac and white balloon arch with butterflies, silver stars and gold foil curtain first birthday setup" },
+  { src: pkgM1HelloKittySweetShop.url, alt: "Hello Kitty & My Melody pastel Sweet Shop birthday backdrop with pastel balloon arch and Happy Birthday neon" },
+  { src: pkgM2MoneyFeliz.url, alt: "Black, white and rose gold money themed birthday arch with dollar cutouts and fake 100 dollar bills" },
+  { src: pkgM3MoneyLuxury.url, alt: "Luxury black, gold and silver chrome balloon arch with Happy Birthday neon, dominoes, money bag and dollar cutouts" },
+  { src: pkgM4MickeyPink.url, alt: "Mickey Mouse pink balloon arch with gold foil curtain, MICKEY foil letters and silver star foils" },
+  { src: pkgM5WhiteGoldFloral.url, alt: "Elegant white, cream and gold chrome balloon arch with fresh peach roses, greenery and gold foil curtain Happy Birthday neon" },
+  { src: pkgM6RedBlackFrame.url, alt: "Red and black balloon photo frame with silver shimmer curtain and HAPPY BIRTHDAY paper banner" },
+  { src: pkgM725thBash.url, alt: "Sonaal 25th Bday Bash black and gold sequin backdrop with champagne bottle cutouts and marquee 25 lights" },
 ];
 
 
@@ -1940,6 +1954,97 @@ function ServicePage() {
             original={<>₹3,499</>}
             discountPct={37}
             bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m1-hello-kitty-sweet-shop"
+            name="Hello Kitty Sweet Shop Pastel Birthday"
+            description="An adorable pastel Hello Kitty theme setup with a printed 'Happy Birthday Sweet Shop' backdrop featuring cupcakes, donuts and candies, a yellow Happy Birthday neon sign, a custom pink Vanshika neon name, a lush pastel pink, lilac, mint, yellow and confetti balloon arch, and life-size Hello Kitty & My Melody character cutouts on either side."
+            image={pkgM1HelloKittySweetShop.url}
+            includes={["Sweet Shop printed backdrop + Happy Birthday neon", "Custom pink neon name light", "Pastel balloon arch with Hello Kitty & My Melody cutouts"]}
+            rating={4.9}
+            reviews={238}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m2-money-feliz-cumpleanos"
+            name="Money Heist Black, White & Rose Gold Birthday"
+            description="A bold money themed birthday with a black arched panel personalised with 'Feliz Cumpleaños' name text in gold, a rich organic garland of black, white and rose gold chrome balloons, golden dollar sign cutouts and printed 100 dollar bill props tucked into the balloons, and a matching hexagonal gold cake stand."
+            image={pkgM2MoneyFeliz.url}
+            includes={["Custom name arched panel in black & gold", "Black, white & rose gold organic balloon garland", "Dollar sign cutouts, 100 dollar bill props + gold cake stand"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m3-money-luxury-neon"
+            name="Luxury Millionaire Money Bash Birthday"
+            description="A statement millionaire style birthday with a black round backdrop, white 'Happy Birthday' neon, a lavish garland of black, chrome gold and chrome silver balloons, oversized dominoes and golden dollar sign cutouts, a jute money bag with a dollar print, a giant 100 dollar bill prop and two gold wire cake tables with pedestals."
+            image={pkgM3MoneyLuxury.url}
+            includes={["Black round backdrop + white Happy Birthday neon", "Chrome gold, silver & black organic balloon arch", "Dominoes, dollar cutouts, money bag & 100 dollar bill props", "Gold wire cake tables with cake stands"]}
+            rating={4.9}
+            reviews={204}
+            offer={<>₹6,499</>}
+            original={<>₹8,999</>}
+            discountPct={28}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m4-mickey-mouse-pink"
+            name="Mickey Mouse Pink Balloon Arch Birthday"
+            description="A cheerful Mickey Mouse theme with a pink and silver chrome balloon arch, a large Mickey Mouse head foil balloon on top, silver MICKEY foil letters, red Mickey & Friends round foils, gold star foils, twin pink balloon pillars and a gold shimmer fringe curtain with a silver Happy Birthday cursive banner."
+            image={pkgM4MickeyPink.url}
+            includes={["Pink & silver chrome balloon arch", "Mickey Mouse head foil, silver MICKEY letters + Mickey round foils", "Gold shimmer curtain + Happy Birthday banner", "Twin pink balloon pillars"]}
+            rating={4.7}
+            reviews={158}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m5-white-gold-floral-elegant"
+            name="Elegant White & Gold Floral Birthday Arch"
+            description="An elegant, minimal birthday setup with a lush organic garland of white, ivory, nude and chrome gold balloons accented with fresh peach roses, baby's breath and greenery, a gold foil fringe curtain with a warm 'Happy Birthday' neon sign, and a small round cake table with candles, white florals and gold heart foils on either side."
+            image={pkgM5WhiteGoldFloral.url}
+            includes={["White, ivory, nude & chrome gold organic balloon arch", "Fresh peach roses, baby's breath & greenery accents", "Gold foil curtain + Happy Birthday neon sign", "Round cake table with candles & gold heart foils"]}
+            rating={4.9}
+            reviews={221}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller={true}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m6-red-black-photo-frame"
+            name="Red & Black Balloon Photo Frame Birthday"
+            description="A striking red and black balloon photo frame arch built as a bold rectangle around a silver shimmer fringe curtain, finished with a classic white 'HAPPY BIRTHDAY' paper flag banner across the middle — perfect for photos and quick home surprises."
+            image={pkgM6RedBlackFrame.url}
+            includes={["Red & black balloon photo frame arch", "Silver shimmer fringe curtain backdrop", "White HAPPY BIRTHDAY paper flag banner"]}
+            rating={4.7}
+            reviews={149}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+            bestSeller={false}
+          />
+          <StaticPackageCard
+            id="birthday-decoration-m7-25th-black-gold-sequin"
+            name="25th B'day Bash Black & Gold Sequin Luxury"
+            description="A luxury outdoor 25th birthday bash with a personalised black arched panel featuring '25th B'day Bash' in gold, a shimmering gold sequin shimmer wall with a 'Happy Birthday' neon, oversized champagne bottle cutouts, a rich black & gold chrome balloon garland, giant marquee '25' light-up numbers and matching black & gold cake pedestals."
+            image={pkgM725thBash.url}
+            includes={["Custom black arched panel with gold 25th name text", "Gold sequin shimmer wall + Happy Birthday neon", "Black & chrome gold organic balloon arch", "Champagne bottle cutouts + marquee 25 light-up numbers", "Black & gold cake pedestals"]}
+            rating={4.9}
+            reviews={287}
+            offer={<>₹11,999</>}
+            original={<>₹14,999</>}
+            discountPct={20}
+            bestSeller={true}
           />
         </div>
 
