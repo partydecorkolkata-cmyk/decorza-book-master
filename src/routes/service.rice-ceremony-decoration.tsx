@@ -8,6 +8,16 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import riceR1 from "@/assets/rice-r1.jpg.asset.json";
+import riceR2 from "@/assets/rice-r2.jpg.asset.json";
+import riceR3 from "@/assets/rice-r3.jpg.asset.json";
+import riceR4 from "@/assets/rice-r4.png.asset.json";
+import riceR5 from "@/assets/rice-r5.jpg.asset.json";
+import riceR6 from "@/assets/rice-r6.jpg.asset.json";
+import riceR7 from "@/assets/rice-r7.jpg.asset.json";
+import riceR8 from "@/assets/rice-r8.jpg.asset.json";
+import riceR9 from "@/assets/rice-r9.jpg.asset.json";
+import riceR10 from "@/assets/rice-r10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/rice-ceremony-decoration")({
   loader: () => {
@@ -18,9 +28,9 @@ export const Route = createFileRoute("/service/rice-ceremony-decoration")({
   head: () => ({
     meta: [
       { title: `Rice Ceremony Decoration in India | From ₹1999 | Decorza Events` },
-      { name: "description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby’s first rice ceremony. Book on WhatsApp.` },
+      { name: "description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby's first rice ceremony. Book on WhatsApp.` },
       { property: "og:title", content: `Rice Ceremony Decoration | Decorza Events` },
-      { property: "og:image", content: "/1e631830-5a03-4c62-9230-c36bba689802.png" },
+      { property: "og:image", content: riceR2.url },
     ],
     links: [{ rel: "canonical", href: "/service/rice-ceremony-decoration" }],
   }),
@@ -37,7 +47,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/1e631830-5a03-4c62-9230-c36bba689802.png" alt="Rice Ceremony Decoration" className="h-full w-full object-cover" />
+          <img src={riceR2.url} alt="Rice Ceremony Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -45,7 +55,7 @@ function ServicePage() {
             <Star className="mr-1 h-3 w-3 fill-gold text-gold" /> 4.8 · 410 reviews
           </Badge>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Rice Ceremony Decoration</h1>
-          <p className="mt-4 max-w-2xl text-white/85">Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby’s first rice ceremony.</p>
+          <p className="mt-4 max-w-2xl text-white/85">Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby's first rice ceremony.</p>
           <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1999</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
@@ -63,42 +73,125 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="rice-ceremony-decoration-essential"
-            name="Essential Rice Ceremony Decoration"
-            description="A clean, photo-ready rice ceremony decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.7}
-            reviews={117}
-            offer={<>₹8,999</>}
-            original={<>₹10,499</>}
-            discountPct={14}
-            bestSeller={false}
+            name="Essential Pastel Balloon Rice Ceremony"
+            description="A cheerful pastel balloon garland arch with a shimmering silver foil curtain backdrop, 'Rice Ceremony' bunting banner and cute Annaprashan themed cutouts — perfect for a home celebration."
+            image={riceR1.url}
+            includes={["Pastel balloon garland arch","Silver foil curtain backdrop","'Rice Ceremony' bunting & themed cutouts"]}
+            rating={4.6}
+            reviews={128}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-premium"
-            name="Premium Rice Ceremony Decoration"
-            description="An upgraded rice ceremony decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/1e631830-5a03-4c62-9230-c36bba689802.png"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            name="Premium Annaprashan Red & Gold Arch"
+            description="An elegant red, white and gold chrome balloon arch with white drape backdrop, glitter 'Annaprashan' banner, foil stars and traditional themed cutouts for a photo-perfect ceremony."
+            image={riceR2.url}
+            includes={["Red, white & gold chrome balloon arch","White drape backdrop with gold stars","Glitter 'Annaprashan' banner & cutouts"]}
             rating={4.8}
-            reviews={164}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
-            bestSeller={false}
+            reviews={186}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+            bestSeller
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-luxury"
-            name="Luxury Rice Ceremony Decoration"
-            description="A full luxury rice ceremony decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            name="Luxury Rice Ceremony Grass Wall Setup"
+            description="A grand multicolour pastel & chrome balloon garland framing a lush green grass wall with a 'Rice Ceremony' neon sign and glowing BABY blocks — a statement backdrop for your baby's first rice."
+            image={riceR3.url}
+            includes={["Lush green grass wall backdrop","'Rice Ceremony' neon sign","Multicolour pastel & chrome balloon garland","Glowing BABY letter blocks"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-vansh-ring"
+            name="Personalised Annaprashan Ring Backdrop"
+            description="A round white & gold chrome balloon ring with a custom 'Welcome to the Annaprashan Ceremony of [Baby's Name]' flex, twin baby cutouts and a matching welcome easel board."
+            image={riceR4.url}
+            includes={["Round balloon ring backdrop","Custom name flex with baby photo","Twin baby cutout pillars","Matching welcome easel board"]}
             rating={4.7}
-            reviews={273}
-            offer={<>₹7,698</>}
-            original={<>₹11,663</>}
-            discountPct={34}
-            bestSeller={false}
+            reviews={152}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-name-ceremony-blue"
+            name="Baby Boy Name Ceremony Blue Arch"
+            description="A blue, silver & white balloon arch with a shimmering blue foil curtain, gold 'NAME CEREMONY' foil letters, cute baby-boy foil balloons and a milk-bottle foil — ideal for a naming ceremony for boys."
+            image={riceR5.url}
+            includes={["Blue, silver & white balloon arch","Blue foil curtain backdrop","Gold 'NAME CEREMONY' foil letters","Baby boy & milk bottle foil balloons"]}
+            rating={4.6}
+            reviews={109}
+            offer={<>₹2,499</>}
+            original={<>₹3,499</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-boho-naming"
+            name="Boho Naming Ceremony Pink Arch"
+            description="A dreamy pink arched backdrop with 'Our Baby's Naming Ceremony' script, a boho garland of rust, white, green & rose-gold chrome balloons, dry palm leaves, pampas and BABY boxes."
+            image={riceR6.url}
+            includes={["Pink arched backdrop with script text","Boho balloon garland (rust, green, chrome)","Dry palm leaves & pampas grass","BABY letter boxes"]}
+            rating={4.8}
+            reviews={174}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-krishav-pastel"
+            name="Pastel Annaprashan Stage with Baby Pillars"
+            description="A soft pastel Annaprashan stage with a personalised round backdrop, cascading blue-yellow-green balloon garland, star foil pillars and a dainty gold cake table — styled beautifully for a banquet stage."
+            image={riceR7.url}
+            includes={["Personalised round Annaprashan backdrop","Pastel balloon garland (blue, yellow, green)","Twin star foil balloon pillars","Gold cake / puja table"]}
+            rating={4.9}
+            reviews={198}
+            offer={<>₹5,499</>}
+            original={<>₹7,999</>}
+            discountPct={31}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-floral-jasmine"
+            name="Traditional Floral Jasmine Annaprasan"
+            description="A classic Annaprasan backdrop with a lush top row of pastel roses, hanging jasmine floral strings, a round 'Annaprasan' name plaque and traditional themed cutouts — an elegant, traditional pick."
+            image={riceR8.url}
+            includes={["Pastel rose top floral runner","Hanging jasmine floral strings","Round 'Annaprasan' name plaque","Traditional Annaprashan cutouts"]}
+            rating={4.9}
+            reviews={216}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-divyanshi-pink-gold"
+            name="Personalised Pink & Gold Annaprashan"
+            description="A gorgeous pink & gold Annaprashan backdrop with your baby's photo flex, chrome pink-rose-gold-white balloon garland, silver star foils and pink-yellow side drapes for a princess-worthy setup."
+            image={riceR9.url}
+            includes={["Personalised baby photo flex backdrop","Pink, rose-gold & white chrome garland","Silver star foil accents","Pink & yellow side drapes"]}
+            rating={4.8}
+            reviews={167}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-mishka-neon-ring"
+            name="Neon Name Ring Annaprashan Backdrop"
+            description="A luxe round ring backdrop on a soft white drape with pink & silver chrome balloon garland, personalised pink neon name sign, butterflies, florals and heart & star foil accents."
+            image={riceR10.url}
+            includes={["Round ring on white drape backdrop","Pink & silver chrome balloon garland","Personalised pink neon name sign","Butterflies, florals & foil accents"]}
+            rating={4.9}
+            reviews={203}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
           />
         </div>
       </section>
@@ -107,13 +200,12 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Rice Ceremony Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            <img src="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg" alt="Rice Ceremony Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/1e631830-5a03-4c62-9230-c36bba689802.png" alt="Rice Ceremony Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" alt="Rice Ceremony Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg" alt="Rice Ceremony Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/haldi-ring-decoration.png" alt="Rice Ceremony Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/f584ba38-470f-4d64-944f-2383546039a1.jpg" alt="Rice Ceremony Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Rice Ceremony Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10].map((a, i) => (
+              <img key={i} src={a.url} alt={`Rice Ceremony Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
+            <img src="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg" alt="Rice Ceremony Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src="/1e631830-5a03-4c62-9230-c36bba689802.png" alt="Rice Ceremony Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" alt="Rice Ceremony Decoration 13" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
