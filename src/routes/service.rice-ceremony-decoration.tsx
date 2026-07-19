@@ -204,6 +204,138 @@ function ServicePage() {
             original={<>₹6,999</>}
             discountPct={29}
           />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-pink-floral-krishna-ring"
+            name="Pink Floral Ring Rice Ceremony with Krishna"
+            description="A dreamy round pink & white floral ring backdrop with a glowing 'Rice Ceremony' neon sign, hanging jasmine strings, cute Bal Krishna & Radha cutouts and pastel BABY blocks with balloon clusters."
+            image={riceR11.url}
+            includes={["Pink & white floral ring backdrop","'Rice Ceremony' neon sign","Bal Krishna & Radha themed cutouts","Pastel BABY letter blocks with balloons"]}
+            rating={4.9}
+            reviews={224}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-marigold-greenery"
+            name="Traditional Marigold & Greenery Rice Ceremony"
+            description="A grand traditional backdrop with a lush greenery & floral top valance, hanging marigold & mogra strings on cream drapes, a 'Rice Ceremony' neon and elegant white-gold-copper chrome balloon pillars."
+            image={riceR12.url}
+            includes={["Greenery & floral top valance","Hanging marigold & mogra strings","'Rice Ceremony' neon sign","White, gold & copper chrome balloon pillars"]}
+            rating={4.9}
+            reviews={192}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-radha-krishna-stage"
+            name="Luxury Radha Krishna Annaprashan Stage"
+            description="A luxurious stage setup with a big Radha-Krishna backdrop panel, floral top runner, pastel pink-yellow-gold-white balloon arch and Bal Krishna & Radha cutouts framing a plush couch — statement decor for banquets."
+            image={riceR13.url}
+            includes={["Radha-Krishna backdrop panel","Floral top runner with jasmine","Pastel & gold chrome balloon arch","Bal Krishna & Radha cutouts + couch"]}
+            rating={4.9}
+            reviews={268}
+            offer={<>₹14,999</>}
+            original={<>₹19,999</>}
+            discountPct={25}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-triple-arch-peacock"
+            name="Grand Triple Arch Krishna Peacock Setup"
+            description="A grand triple arched panel setup featuring Yashoda & baby Krishna centre panel with peacock and garden side arches, sky-blue & yellow balloon clusters, marigold hangings and dry floral accents."
+            image={riceR14.url}
+            includes={["Triple arched panel backdrop","Yashoda & baby Krishna centre panel","Sky-blue & yellow balloon clusters","Marigold hangings & dry floral accents"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹13,999</>}
+            original={<>₹19,999</>}
+            discountPct={30}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-aqeeqah-name-arch"
+            name="Personalised Aqeeqah Ceremony Name Arch"
+            description="An elegant Aqeeqah ceremony arched backdrop with the baby's full name in bold navy, an 'Oh Baby' neon accent panel, blue-white-silver chrome balloon garland and a cute teddy bear cutout."
+            image={riceR15.url}
+            includes={["Personalised name arched backdrop","'Oh Baby' neon accent panel","Blue, white & silver chrome garland","Teddy bear themed cutout"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹13,999</>}
+            original={<>₹18,999</>}
+            discountPct={26}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-swastik-floral-pooja"
+            name="Traditional Swastik Floral Pooja Backdrop"
+            description="A pure traditional pooja backdrop with red rose swastik centrepiece on ivory drapes, gold-yellow-white floral top valance, hanging mogra bell strings and matching flower pillars with a red rangoli mat."
+            image={riceR16.url}
+            includes={["Red rose swastik centrepiece","Ivory drape backdrop with floral top","Hanging mogra & bell strings","Flower pillars + red rangoli mat"]}
+            rating={4.8}
+            reviews={158}
+            offer={<>₹9,999</>}
+            original={<>₹12,999</>}
+            discountPct={23}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-rudra-purple-annaprashan"
+            name="Purple Personalised Annaprashan Backdrop"
+            description="A luxurious personalised Annaprashan setup with baby Krishna photo panel on purple drapes, a dreamy 'He's a little piece of magic' quote panel and a lush white-purple-silver chrome balloon garland."
+            image={riceR17.url}
+            includes={["Personalised baby Krishna photo panel","'He's a little piece of magic' quote panel","White, purple & silver chrome garland","Fairy-light purple drape backdrop"]}
+            rating={4.9}
+            reviews={231}
+            offer={<>₹11,999</>}
+            original={<>₹17,999</>}
+            discountPct={33}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-mom-krishna-round-ring"
+            name="Mom & Baby Krishna Round Ring Setup"
+            description="A joyful round ring backdrop featuring a Yashoda & baby Krishna panel framed with purple, pink & white chrome balloons, colourful butterflies and matching balloon pillars with Bal Krishna & Radha cutouts."
+            image={riceR18.url}
+            includes={["Yashoda & baby Krishna round backdrop","Purple, pink & white chrome balloons","Butterfly accents & fairy lights","Balloon pillars with themed cutouts"]}
+            rating={4.7}
+            reviews={142}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
+            discountPct={25}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-dual-arch-krishna-peacock"
+            name="Grand Dual Arch Krishna Peacock Banquet"
+            description="A grand banquet-style dual arch setup with Yashoda-Krishna big panel and peacock-garden side arch, luxe blue-gold-silver chrome garlands, a peacock feather cylinder plinth and Bal Krishna cutouts."
+            image={riceR19.url}
+            includes={["Dual arched panel backdrop","Yashoda-Krishna & peacock panels","Blue, gold & silver chrome garlands","Peacock feather plinth + cutouts"]}
+            rating={4.9}
+            reviews={246}
+            offer={<>₹14,999</>}
+            original={<>₹19,999</>}
+            discountPct={25}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-chatti-poojan-pink"
+            name="Chatti Poojan Pink Teddy Home Setup"
+            description="A cute Chatti Poojan / 6th day naming home setup with pink & white balloon half-arch, gold 'Chatti Poojan' name plaque, cream shimmer drape backdrop, dry palm leaf fans, floral pillars and teddy bear props."
+            image={riceR20.url}
+            includes={["Pink & white balloon half-arch","Gold 'Chatti Poojan' name plaque","Cream shimmer drape + palm leaf fans","Floral pillars & teddy bear props"]}
+            rating={4.7}
+            reviews={134}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
+            discountPct={25}
+          />
+        </div>
+      </section>
+
+      <section className="bg-secondary/40 py-14">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeader eyebrow="Gallery" title="Rice Ceremony Decoration Gallery" subtitle="Real setups by our decor team." />
+          <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
+            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10, riceR11, riceR12, riceR13, riceR14, riceR15, riceR16, riceR17, riceR18, riceR19, riceR20].map((a, i) => (
+
         </div>
       </section>
 
