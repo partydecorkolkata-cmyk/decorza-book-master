@@ -18,6 +18,17 @@ import riceR7 from "@/assets/rice-r7.jpg.asset.json";
 import riceR8 from "@/assets/rice-r8.jpg.asset.json";
 import riceR9 from "@/assets/rice-r9.jpg.asset.json";
 import riceR10 from "@/assets/rice-r10.jpg.asset.json";
+import riceR11 from "@/assets/rice-r11.jpg.asset.json";
+import riceR12 from "@/assets/rice-r12.jpg.asset.json";
+import riceR13 from "@/assets/rice-r13.jpg.asset.json";
+import riceR14 from "@/assets/rice-r14.jpg.asset.json";
+import riceR15 from "@/assets/rice-r15.jpg.asset.json";
+import riceR16 from "@/assets/rice-r16.jpg.asset.json";
+import riceR17 from "@/assets/rice-r17.jpg.asset.json";
+import riceR18 from "@/assets/rice-r18.jpg.asset.json";
+import riceR19 from "@/assets/rice-r19.jpg.asset.json";
+import riceR20 from "@/assets/rice-r20.jpg.asset.json";
+
 
 export const Route = createFileRoute("/service/rice-ceremony-decoration")({
   loader: () => {
