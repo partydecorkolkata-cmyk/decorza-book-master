@@ -17,7 +17,7 @@ export const Route = createFileRoute("/service/rice-ceremony-decoration")({
   },
   head: () => ({
     meta: [
-      { title: `Rice Ceremony Decoration in India | From ₹3,499 | Decorza Events` },
+      { title: `Rice Ceremony Decoration in India | From ₹1999 | Decorza Events` },
       { name: "description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby’s first rice ceremony. Book on WhatsApp.` },
       { property: "og:title", content: `Rice Ceremony Decoration | Decorza Events` },
       { property: "og:image", content: "/1e631830-5a03-4c62-9230-c36bba689802.png" },
@@ -46,7 +46,7 @@ function ServicePage() {
           </Badge>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Rice Ceremony Decoration</h1>
           <p className="mt-4 max-w-2xl text-white/85">Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby’s first rice ceremony.</p>
-          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹3,499</p>
+          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1999</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
               <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" />Book on WhatsApp</a>
