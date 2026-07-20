@@ -458,6 +458,129 @@ function ServicePage() {
             discountPct={33}
           />
           <StaticPackageCard
+            id="rice-ceremony-decoration-aditya-candyland-marquee"
+            name="'ADITYA' Candyland Rice Ceremony Grand Stage"
+            description="A spectacular candyland themed rice ceremony stage with a giant pastel purple, peach & yellow balloon arch, silver shimmer sequin wall, oversized ice-cream, cupcake, lollipop & popsicle cutouts, a golden royal sofa on a red carpet stage, wooden picket fence and a huge marquee-light 'ADITYA' name — a true celebration centrepiece."
+            image={riceR31.url}
+            includes={["Silver shimmer sequin wall with 'Rice Ceremony' script","Pastel purple, peach & yellow balloon garland arch","Giant ice-cream, cupcake, lollipop & popsicle cutouts","Golden royal sofa on red carpet stage","Custom marquee-light baby name letters","Wooden picket fence & candyland props"]}
+            rating={5.0}
+            reviews={276}
+            offer={<>₹27,999</>}
+            original={<>₹39,999</>}
+            discountPct={30}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-princess-rosegold-ring"
+            name="Princess Pink & Rose-Gold 'Rice Ceremony' Ring"
+            description="A pretty princess themed rice ceremony ring backdrop with a soft neon 'Rice Ceremony' sign, blush pink, white and rose-gold chrome balloons, confetti and heart foils and cute 'A New Little Princess' & crown foil balloons — perfect for a baby girl's naming ceremony at home."
+            image={riceR32.url}
+            includes={["Round ring balloon backdrop","'Rice Ceremony' neon sign","Pink, white & rose-gold chrome balloons","Heart, crown & 'Little Princess' foil balloons","Confetti balloons & twin balloon pillars"]}
+            rating={4.9}
+            reviews={192}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-siddhika-annaprashan-floral"
+            name="'Siddhika's Annaprashan' Traditional Pichwai Backdrop"
+            description="A serene traditional Annaprashan backdrop with a custom Pichwai style panel featuring sacred cows, lotuses and banana leaves, topped with a lush garland of blue, white and burgundy roses, hanging jasmine & rose torans, marigold rangoli borders and floral pedestal vases."
+            image={riceR33.url}
+            includes={["Custom name Pichwai printed backdrop","Fresh-look rose & jasmine floral garland","Hanging jasmine and rose torans","Marigold petal floor rangoli","Two pedestal floral vases"]}
+            rating={4.9}
+            reviews={241}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
+            discountPct={35}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-dhanvi-butterfly-fairy-luxury"
+            name="'Dhanvi' Butterfly Kisses & Fairy Wishes Luxury Stage"
+            description="A dreamy luxury stage combining a golden shimmer sequin wall, pastel peach, lilac & mint balloon arches, twin arch panels, a custom butterfly & fairy print backdrop with the child's name, glowing neon butterfly, fairy cutouts and floral chandeliers — a true magazine-worthy rice ceremony setup."
+            image={riceR34.url}
+            includes={["Gold shimmer sequin main wall","Custom butterfly print name panel","Twin pastel arch side panels","Pastel peach, lilac & mint balloon garlands","Glowing neon butterfly & fairy cutouts","Hanging floral chandeliers"]}
+            rating={5.0}
+            reviews={318}
+            offer={<>₹34,999</>}
+            original={<>₹49,999</>}
+            discountPct={30}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-marigold-greenwall-traditional"
+            name="Marigold & Green Leaf Wall Traditional Backdrop"
+            description="A classic Indian traditional backdrop featuring a lush green artificial leaf wall, cascading yellow marigold garlands draped in a swag pattern, and colourful hanging jhoomars & tassels — an evergreen, temple-inspired setup for Annaprashan and naming ceremonies."
+            image={riceR35.url}
+            includes={["Full green artificial leaf wall","Yellow marigold garlands & swags","Colourful hanging jhoomars & tassels","Warm accent floor uplighting"]}
+            rating={4.9}
+            reviews={264}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-butterfly-fairy-ring"
+            name="Butterfly & Fairy 'Rice Ceremony' Ring Setup"
+            description="A cheerful ring balloon backdrop with a pink neon 'Rice Ceremony' script, pastel peach, lilac and yellow balloons with gold chrome accents, holographic butterflies and twin fairy princess cutouts on balloon pillars — framed with a cute wooden picket fence."
+            image={riceR36.url}
+            includes={["Round ring balloon backdrop","'Rice Ceremony' neon sign","Peach, lilac, yellow & gold chrome balloons","Twin fairy princess cutouts on pillars","Holographic butterfly accents","Wooden picket fence"]}
+            rating={4.9}
+            reviews={208}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-geetisha-pastel-round"
+            name="'Geetisha Rice Ceremony' Pastel Round Backdrop"
+            description="A soft pastel round backdrop featuring a custom floral name panel with the baby's name, wrapped in a lush garland of pastel pink, purple, blue and yellow balloons with fresh-look floral clusters — a sweet at-home rice ceremony look."
+            image={riceR37.url}
+            includes={["Custom name round panel backdrop","Pastel pink, purple, blue & yellow balloon garland","Fresh-look floral cluster accents","Twin coordinated balloon pillars"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-nemo-yellow-floral-havan"
+            name="'NEMO' Yellow Floral 'Rice Ceremony' Havan Setup"
+            description="A grand yellow floral rice ceremony backdrop with a green leaf wall base, cascading yellow rose garlands, warm neon 'Rice Ceremony' script, colourful hanging jhoomars and Rajasthani gota patti kites — paired with a traditional golden urli havan setup, marquee-light child name and ethnic umbrella props."
+            image={riceR38.url}
+            includes={["Green leaf wall with yellow rose garlands","'Rice Ceremony' neon sign","Rajasthani gota kites & hanging jhoomars","Golden urli havan centrepiece","Marquee-light baby name letters","Ethnic umbrella & drape props"]}
+            rating={5.0}
+            reviews={252}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-avantika-krishna-luxury"
+            name="'AVANTIKA' Krishna Annaprashan Luxury Stage"
+            description="A show-stopping luxury Annaprashan stage with a cute Radha-Krishna printed backdrop, peacock feather centre panel, side 'Annaprashan' arch, purple, ivory & gold chrome balloon garland, oversized glowing butterfly standees, cylinder pedestals and a massive marquee-light 'AVANTIKA' name — a truly grand banquet-style setup."
+            image={riceR39.url}
+            includes={["Radha-Krishna & peacock printed backdrops","Side 'Annaprashan' arch panel","Purple, ivory & gold chrome balloon garland","Two glowing butterfly standees","Cylinder decor pedestals","Custom marquee-light baby name letters"]}
+            rating={5.0}
+            reviews={297}
+            offer={<>₹31,999</>}
+            original={<>₹44,999</>}
+            discountPct={29}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-shreyansh-green-yellow-daisy"
+            name="'Shreyansh Rice Ceremony' Green, Yellow & Blue Daisy Arch"
+            description="A fresh springtime rice ceremony arch backdrop with a custom name panel and 'Rice Ceremony' neon sign, an organic garland of green, blue, yellow and clear confetti balloons, cascading green vines and cute oversized white daisy foil balloons."
+            image={riceR40.url}
+            includes={["Custom name panel backdrop","'Rice Ceremony' neon sign","Green, blue, yellow & confetti balloon arch","Cascading green vine accents","Oversized white daisy foil balloons"]}
+            rating={4.9}
+            reviews={219}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
             id="rice-ceremony-decoration-yashoda-krishna-blue-panel"
             name="Yashoda-Krishna Blue Rice Ceremony Stage"
             description="A vibrant Yashoda & baby Krishna panel backdrop framed by a blue-white balloon arch with silver disco balls, flanked by six Bal Krishna & Radha themed cutouts on blue balloon pillars — a grand Krishna themed rice ceremony setup."
