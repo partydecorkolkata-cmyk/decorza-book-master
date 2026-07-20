@@ -337,6 +337,129 @@ function ServicePage() {
             original={<>₹7,999</>}
             discountPct={25}
           />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-annaprashan-pastel-ring"
+            name="Pastel Blue & Yellow Annaprashan Ring Arch"
+            description="A cheerful pastel Annaprashan ring arch in soft blue, mint, yellow, white and silver chrome balloons with a red 'Annaprashan Ceremony' bunting, star foils, milk-to-rice themed cutouts and a cute baby foil balloon inside the ring."
+            image={riceR21.url}
+            includes={["Pastel blue, yellow & silver ring arch","Red 'Annaprashan Ceremony' bunting","Gold star foils & Annaprashan cutouts","Baby foil balloon centrepiece"]}
+            rating={4.7}
+            reviews={148}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-swayambhi-butterfly-ring"
+            name="Purple & Pink Butterfly Rice Ceremony Ring"
+            description="A dreamy round backdrop with a personalised '[Baby's Name] Rice Ceremony' floral flex, purple-pink-white-gold chrome balloon garland, giant fairy butterflies on the sides and matching balloon pillars on a stage."
+            image={riceR22.url}
+            includes={["Personalised floral name ring backdrop","Purple, pink & gold chrome garland","Giant fairy butterfly side props","Matching balloon pillars on stage"]}
+            rating={4.8}
+            reviews={172}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-vaani-cream-pink-ring"
+            name="Cream, Pink & Silver Annaprashan Ring"
+            description="An elegant Annaprashan ring backdrop with a personalised floral photo flex, lush cream, blush pink and silver chrome balloon garland and twin silver star foil balloon pillars — perfectly styled for a chic home ceremony."
+            image={riceR23.url}
+            includes={["Personalised floral photo flex","Cream, pink & silver chrome garland","Twin silver star foil pillars","Balloon runner on floor"]}
+            rating={4.8}
+            reviews={165}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-radha-krishna-peacock-panels"
+            name="Grand Radha-Krishna Peacock Panel Stage"
+            description="A grand banquet stage with a hand-painted Yashoda & baby Krishna centre panel, peacock feather and Mughal-floral side arches, lush greenery & floral top runners, mini Bal Krishna cutouts and a green skirted pooja platform."
+            image={riceR24.url}
+            includes={["Yashoda & baby Krishna centre panel","Peacock & Mughal-floral side arches","Greenery & floral top runners","Bal Krishna cutouts + green pooja platform"]}
+            rating={4.9}
+            reviews={287}
+            offer={<>₹19,999</>}
+            original={<>₹24,999</>}
+            discountPct={20}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-nidhiya-frozen-ring"
+            name="Frozen Elsa Rice Ceremony Ring Backdrop"
+            description="A magical Frozen-themed round backdrop with personalised snowflake '[Baby's Name] Rice Ceremony' flex, blue-purple-white-silver chrome & confetti balloon garland, a giant silver starburst foil and a cute Elsa foil balloon."
+            image={riceR25.url}
+            includes={["Personalised Frozen snowflake ring flex","Blue, purple & silver chrome garland","Giant silver starburst foil","Elsa foil balloon accent"]}
+            rating={4.8}
+            reviews={181}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-unicorn-rainbow-stage"
+            name="Luxury Unicorn Rainbow Rice Ceremony Stage"
+            description="A grand unicorn rainbow themed stage with a large rainbow-cloud personalised backdrop, pastel candy balloon arch, tall unicorn cutouts on white crate pillars, gold candelabras and a carved beige couch — statement decor for a princess Annaprashan."
+            image={riceR26.url}
+            includes={["Rainbow-cloud personalised backdrop","Pastel candy balloon arch","Tall unicorn cutouts on crate pillars","Gold candelabras + carved couch"]}
+            rating={4.9}
+            reviews={296}
+            offer={<>₹19,999</>}
+            original={<>₹29,999</>}
+            discountPct={33}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-radha-krishna-purple-ring"
+            name="Radha-Krishna Purple Chrome Ring Backdrop"
+            description="A divine round Radha-Krishna backdrop panel framed with a lush purple, lilac, white and gold chrome balloon garland and matching Bal Krishna & Radha themed cutouts on the sides — a rich, traditional ring setup for Annaprashan."
+            image={riceR27.url}
+            includes={["Radha-Krishna round backdrop panel","Purple, lilac & gold chrome garland","Bal Krishna & Radha themed cutouts","Balloon base runner"]}
+            rating={4.8}
+            reviews={193}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={29}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-vani-pram-pink-arch"
+            name="'Meet Our Baby' Pink Pram Naming Arch"
+            description="A soft pink 'Meet Our Baby [Name]' arched backdrop with vintage pram artwork, pink-white-clear confetti balloon garland, rose-gold heart foils, cloud cutouts, ABC baby blocks and a cute pink butterfly & teddy hot-air balloon."
+            image={riceR28.url}
+            includes={["'Meet Our Baby' personalised pram arch","Pink, white & confetti balloon garland","Rose-gold heart foils & cloud cutouts","ABC blocks + butterfly & teddy props"]}
+            rating={4.8}
+            reviews={176}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
+            discountPct={25}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-rattan-arch-grey-pink"
+            name="Boho Rattan 'Rice Ceremony' Arch Backdrop"
+            description="A trendy boho backdrop pairing a natural rattan arched panel with a soft 'Rice Ceremony' script panel, a lush organic garland of grey, silver chrome, cream, blush pink and dusty blue balloons and delicate blue florals."
+            image={riceR29.url}
+            includes={["Rattan arched panel backdrop","'Rice Ceremony' script side panel","Grey, silver, cream & pink organic garland","Blue floral & foliage accents"]}
+            rating={4.9}
+            reviews={214}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-yashoda-krishna-blue-panel"
+            name="Yashoda-Krishna Blue Rice Ceremony Stage"
+            description="A vibrant Yashoda & baby Krishna panel backdrop framed by a blue-white balloon arch with silver disco balls, flanked by six Bal Krishna & Radha themed cutouts on blue balloon pillars — a grand Krishna themed rice ceremony setup."
+            image={riceR30.url}
+            includes={["Yashoda-Krishna centre panel backdrop","Blue & white balloon arch with disco foils","Six Bal Krishna & Radha themed cutouts","Blue balloon pillars on stage"]}
+            rating={4.9}
+            reviews={232}
+            offer={<>₹7,999</>}
+            original={<>₹11,999</>}
+            discountPct={33}
+            bestSeller
+          />
         </div>
       </section>
 
