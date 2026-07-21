@@ -206,7 +206,7 @@ export const CATEGORIES: Category[] = ([
   { slug: "welcome-baby-decoration", name: "Welcome Baby Decoration", short: "Welcome the little one home in style",
     description: "Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn\u2019s arrival.",
     hero: img(BABY_DECOR[1]), gallery: pick(BABY_DECOR),
-    rating: 4.8, reviews: 540, startsAt: 1999,
+    rating: 4.8, reviews: 540, startsAt: 1999, popular: true,
     faqs: baseFaqs("Welcome Baby Decoration") },
   { slug: "romantic-bedroom-decoration", name: "Romantic Bedroom Decoration", short: "First night & surprise room setups",
     description: "Rose petal beds, candle paths, balloons and fairy lights \u2014 perfect for honeymoons, anniversaries and surprises.",
