@@ -250,7 +250,7 @@ export const CATEGORIES: Category[] = ([
   { slug: "mehendi-decoration", name: "Mehendi Decoration", short: "Boho mehendi backdrops & seating",
     description: "Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor.",
     hero: img(TRADITIONAL_DECOR[3]), gallery: pick(TRADITIONAL_DECOR),
-    rating: 4.8, reviews: 430, startsAt: 4499,
+    rating: 4.8, reviews: 430, startsAt: 4499, popular: true,
     faqs: baseFaqs("Mehendi Decoration") },
   { slug: "bachelorette-decoration", name: "Bachelorette Decoration", short: "Glam bachelorette & bridal showers",
     description: "Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad.",
