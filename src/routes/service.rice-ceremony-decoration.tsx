@@ -7,7 +7,21 @@ import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
-import { categoryBySlug, REVIEWS } from "@/lib/data";
+import { categoryBySlug } from "@/lib/data";
+
+const RICE_REVIEWS: { name: string; city: string; service: string; text: string; rating: number }[] = [
+  { name: "Ananya & Rahul Sharma", city: "Kolkata", service: "Annaprashan Decoration", text: "Decorza made our baby Avik's Annaprashan absolutely magical. The red & gold arch was exactly like the reference picture, marigolds were fresh, and the team arrived 2 hours early. Every guest asked for their contact!", rating: 5 },
+  { name: "Priya Banerjee", city: "Siliguri", service: "Rice Ceremony Decoration", text: "Booked the Krishna themed stage for my son's mukhe bhaat. Peacock backdrop and the traditional pichwai panel looked stunning in photos. Worth every rupee — will book again for his first birthday.", rating: 5 },
+  { name: "Sneha & Karan Mehta", city: "Mumbai", service: "Rice Ceremony Decoration", text: "The pastel balloon arch package at ₹2,499 was such great value. Team was super polite, cleaned up after the event, and my mother-in-law was thrilled with the personalised name board.", rating: 5 },
+  { name: "Ritwika Ghosh", city: "Kolkata", service: "Annaprashan Decoration", text: "Ordered the Radha-Krishna purple chrome ring setup. Setup took only 90 minutes and the finish was hotel-quality. Baby's photoshoot came out gorgeous. Highly recommend for traditional Bengali families.", rating: 5 },
+  { name: "Aakash & Divya Iyer", city: "Bengaluru", service: "Rice Ceremony Decoration", text: "We wanted something modern yet traditional for our daughter's Choroonu. The boho rattan arch with marigolds was perfect. Communication on WhatsApp was quick and pricing was transparent — no hidden charges.", rating: 4 },
+  { name: "Nikita Poddar", city: "Kolkata", service: "Annaprashan Decoration", text: "Booked the luxury Radha-Krishna stage for my nephew's annaprashan at a banquet. Marquee lights, floral swing, everything was grand. Guests thought we hired a wedding decorator!", rating: 5 },
+  { name: "Sanya & Vivek Kapoor", city: "Delhi", service: "Rice Ceremony Decoration", text: "The 'Meet Our Baby' pink pram naming arch was too cute. My daughter's photos with the ABC blocks are going straight into the album. Decorza team was patient with all our last-minute changes.", rating: 5 },
+  { name: "Debasmita Roy", city: "Kolkata", service: "Annaprashan Decoration", text: "Very happy with the pastel blue & yellow annaprashan ring. Only wanted to knock off half a star because the balloons wilted a bit by evening — but for a morning event it was flawless. Great value at ₹3,499.", rating: 4 },
+  { name: "Meghna & Arjun Nair", city: "Hyderabad", service: "Rice Ceremony Decoration", text: "Got the butterfly kisses & fairy wishes luxury stage for my daughter Dhanvi's first rice ceremony. Custom name signage, giant butterflies, floral swing — cinema level setup. Videographer loved it.", rating: 5 },
+  { name: "Sohini Chatterjee", city: "Pune", service: "Annaprashan Decoration", text: "Third event I've booked with Decorza — birthday, baby shower and now annaprashan. Consistent quality, fair prices and they never say no to customisation. Genuinely trustworthy team.", rating: 5 },
+];
+
 import riceR1 from "@/assets/rice-r1.jpg.asset.json";
 import riceR2 from "@/assets/rice-r2.jpg.asset.json";
 import riceR3 from "@/assets/rice-r3.jpg.asset.json";
