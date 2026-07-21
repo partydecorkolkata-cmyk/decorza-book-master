@@ -612,13 +612,14 @@ function ServicePage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <SectionHeader eyebrow="Reviews" title="Customer Reviews" />
+        <SectionHeader eyebrow="Reviews" title="What Parents Say About Our Rice Ceremony Decor" subtitle="Real feedback from families who celebrated their baby's Annaprashan with Decorza." />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {displayReviews.map(([name, city, service, text, rating], i) => (
-            <ReviewCard key={i} name={name} city={city} service={service} text={text} rating={rating as number} />
+          {RICE_REVIEWS.map((r, i) => (
+            <ReviewCard key={i} name={r.name} city={r.city} service={r.service} text={r.text} rating={r.rating} />
           ))}
         </div>
       </section>
+
 
       <section className="bg-secondary/40 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
