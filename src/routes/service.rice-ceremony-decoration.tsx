@@ -881,7 +881,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Rice Ceremony Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10, riceR11, riceR12, riceR13, riceR14, riceR15, riceR16, riceR17, riceR18, riceR19, riceR20, riceR21, riceR22, riceR23, riceR24, riceR25, riceR26, riceR27, riceR28, riceR29, riceR30, riceR31, riceR32, riceR33, riceR34, riceR35, riceR36, riceR37, riceR38, riceR39, riceR40, riceR41, riceR42, riceR43, riceR44, riceR45, riceR46, riceR47, riceR48, riceR49, riceR50].map((a, i) => (
+            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10, riceR11, riceR12, riceR13, riceR14, riceR15, riceR16, riceR17, riceR18, riceR19, riceR20, riceR21, riceR22, riceR23, riceR24, riceR25, riceR26, riceR27, riceR28, riceR29, riceR30, riceR31, riceR32, riceR33, riceR34, riceR35, riceR36, riceR37, riceR38, riceR39, riceR40, riceR41, riceR42, riceR43, riceR44, riceR45, riceR46, riceR47, riceR48, riceR49, riceR50, riceR51, riceR52, riceR53, riceR54, riceR55, riceR56, riceR57, riceR58, riceR59, riceR60].map((a, i) => (
 
               <img key={i} src={a.url} alt={`Rice Ceremony Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
