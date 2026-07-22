@@ -616,6 +616,7 @@ function ServicePage() {
             original={<>₹11,999</>}
             discountPct={33}
             bestSeller
+          />
           <StaticPackageCard
             id="rice-ceremony-decoration-pink-purple-gold-annaprashan-arch"
             name="Pink, Purple & Rose-Gold 'Annaprashan' Neon Arch"
