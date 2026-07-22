@@ -72,6 +72,16 @@ import riceR47 from "@/assets/rice-r47.jpg.asset.json";
 import riceR48 from "@/assets/rice-r48.jpg.asset.json";
 import riceR49 from "@/assets/rice-r49.jpg.asset.json";
 import riceR50 from "@/assets/rice-r50.jpg.asset.json";
+import riceR51 from "@/assets/rice-r51.jpg.asset.json";
+import riceR52 from "@/assets/rice-r52.jpg.asset.json";
+import riceR53 from "@/assets/rice-r53.jpg.asset.json";
+import riceR54 from "@/assets/rice-r54.jpg.asset.json";
+import riceR55 from "@/assets/rice-r55.jpg.asset.json";
+import riceR56 from "@/assets/rice-r56.jpg.asset.json";
+import riceR57 from "@/assets/rice-r57.jpg.asset.json";
+import riceR58 from "@/assets/rice-r58.jpg.asset.json";
+import riceR59 from "@/assets/rice-r59.jpg.asset.json";
+import riceR60 from "@/assets/rice-r60.jpg.asset.json";
 
 
 export const Route = createFileRoute("/service/rice-ceremony-decoration")({
@@ -740,15 +750,138 @@ function ServicePage() {
             original={<>₹4,999</>}
             discountPct={30}
           />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-pastel-butterfly-annaprashan-round"
+            name="Pastel Butterfly 'Annaprashan' Round Backdrop"
+            description="A dreamy pastel Annaprashan round backdrop in lilac, sky blue, baby pink and buttery yellow balloons with butterfly cut-outs, rose florals and a personalised name print — paired with pastel balloon boxes on the side for a picture-perfect ceremony corner."
+            image={riceR51.url}
+            includes={["Pastel round backdrop with personalised name print","Lilac, blue, pink & yellow organic balloon garland","Butterfly cut-outs & rose floral clusters","Pastel balloon boxes (side stack)","On-site installation"]}
+            rating={5.0}
+            reviews={214}
+            offer={<>₹4,499</>}
+            original={<>₹6,499</>}
+            discountPct={31}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-royal-blue-gold-rice-ceremony-square"
+            name="Royal Blue, Red & Gold 'Rice Ceremony' Square Arch"
+            description="A bold royal blue, red, white and chrome-gold square balloon arch with gold foil stars, a shimmering gold fringe backdrop, cute baby & 'It's a Boy' foil balloons and a 'Rice Ceremony' bunting — a joyful traditional setup for a baby boy."
+            image={riceR52.url}
+            includes={["Royal blue, red, white & gold square balloon arch","Gold foil star balloons","Gold shimmer fringe backdrop","Baby, bottle & 'It's a Boy' foil balloons","'Rice Ceremony' printed bunting"]}
+            rating={4.9}
+            reviews={182}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-blue-white-gold-rice-ceremony-square"
+            name="Blue, White & Gold 'Rice Ceremony' Square Arch"
+            description="A clean blue, white and chrome-gold square balloon arch with gold foil stars, a gold shimmer curtain, sweet baby, bottle & 'It's a Boy' foil balloons and a 'Rice Ceremony' bunting — a bright and cheerful boy-themed setup."
+            image={riceR53.url}
+            includes={["Blue, white & chrome gold square arch","Gold foil star balloons","Gold shimmer fringe curtain","Baby, bottle & 'It's a Boy' foils","'Rice Ceremony' bunting"]}
+            rating={4.9}
+            reviews={168}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-red-sage-gold-rice-ceremony-square"
+            name="Red, Sage & Gold 'Rice Ceremony' Square Arch"
+            description="A traditional red, sage green, white and chrome-gold square balloon arch with gold foil stars, gold shimmer curtain, greenery, baby & 'It's a Boy' foil balloons and a 'Rice Ceremony' bunting — festive and ethnic in feel."
+            image={riceR54.url}
+            includes={["Red, sage, white & gold square arch","Gold foil stars & shimmer curtain","Greenery accents","Baby & 'It's a Boy' foils","'Rice Ceremony' printed bunting"]}
+            rating={4.9}
+            reviews={174}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
+            discountPct={34}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-teal-red-annaprashan-ceremony-arch"
+            name="Teal, Red & Gold 'Annaprashan Ceremony' Arch"
+            description="An elegant Annaprashan Ceremony backdrop in metallic teal, red, white and gold latex with dalmatian confetti balloons, gold star & moon foils, mint & white drapes and a printed 'Annaprashan Ceremony' banner — a rich cultural setup."
+            image={riceR55.url}
+            includes={["Teal, red, white & gold organic balloon arch","Dalmatian confetti balloons","Gold moon & star foil balloons","Mint & white cloth drapes","Printed 'Annaprashan Ceremony' banner"]}
+            rating={5.0}
+            reviews={196}
+            offer={<>₹4,499</>}
+            original={<>₹5,999</>}
+            discountPct={25}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-pastel-mint-pink-rice-feeding-arch"
+            name="Pastel Mint, Pink & Purple 'Rice Feeding' Arch"
+            description="A soft pastel Rice Feeding Ceremony arch in mint green, baby pink, lilac and chrome-gold balloons on a personalised white round backdrop, flanked by two matching balloon pillars — a fresh, joyful outdoor/mandap setup."
+            image={riceR56.url}
+            includes={["White round backdrop with personalised name","Mint, pink, purple & gold organic balloon garland","Two matching pastel balloon pillars","Chrome gold accent balloons","On-site installation"]}
+            rating={5.0}
+            reviews={158}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-pink-purple-chrome-rice-feeding-arch"
+            name="Pink, Purple & Chrome 'Rice Feeding' Arch"
+            description="A rich Rice Feeding Ceremony arch in blush pink, lilac, ivory and chrome purple & gold orb balloons with gold star foils on a personalised white round backdrop, plus two coordinating balloon pillars — regal yet warm."
+            image={riceR57.url}
+            includes={["White round backdrop with personalised name","Pink, purple, ivory & chrome balloon garland","Chrome purple & gold orb balloons","Gold star foil balloons","Two matching balloon pillars"]}
+            rating={5.0}
+            reviews={162}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-red-white-gold-rice-feeding-arch"
+            name="Traditional Red, White & Gold 'Rice Feeding' Arch"
+            description="A traditional Rice Feeding Ceremony arch in classic red, white, chrome-gold and rose-gold balloons with gold star foils and gold flower clusters on a personalised white round backdrop, plus two coordinating pillars — timeless and festive."
+            image={riceR58.url}
+            includes={["White round backdrop with personalised name","Red, white, chrome & rose gold balloon garland","Gold star foil balloons","Gold flower ball clusters","Two matching balloon pillars"]}
+            rating={5.0}
+            reviews={171}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-pastel-annaprashan-baby-foil-fairy"
+            name="Pastel 'Annaprashan Baby' Foil & Fairy-Light Setup"
+            description="A cute home Annaprashan setup with a pastel pink, lilac & gold balloon garland, 'ANNAPRASHAN BABY' gold foil letters, blue heart foils, 'It's Boy' foil rounds, baby foil balloon, tulle & fairy-light backdrop and two balloon pillars — perfect for a small in-home ceremony."
+            image={riceR59.url}
+            includes={["Pastel pink, lilac & gold garland","'ANNAPRASHAN BABY' gold foil letters","Blue heart & 'It's Boy' foil rounds","Baby foil balloon centrepiece","Tulle & fairy-light backdrop","Two balloon pillars"]}
+            rating={4.9}
+            reviews={148}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-blue-mint-annaprashan-baby-foil-fairy"
+            name="Blue, Mint & Gold 'Annaprashan Baby' Foil Setup"
+            description="A soft home Annaprashan setup in baby blue, mint, white and chrome-gold balloons with 'ANNAPRASHAN BABY' gold foil letters, teal heart foils, 'It's Boy' foil rounds, baby foil balloon and a tulle & fairy-light backdrop with two coordinating pillars."
+            image={riceR60.url}
+            includes={["Blue, mint, white & gold garland","'ANNAPRASHAN BABY' gold foil letters","Teal heart & 'It's Boy' foil rounds","Baby foil balloon centrepiece","Tulle & fairy-light backdrop","Two balloon pillars"]}
+            rating={4.9}
+            reviews={152}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+          />
         </div>
       </section>
+
 
 
       <section className="bg-secondary/40 py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Rice Ceremony Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10, riceR11, riceR12, riceR13, riceR14, riceR15, riceR16, riceR17, riceR18, riceR19, riceR20, riceR21, riceR22, riceR23, riceR24, riceR25, riceR26, riceR27, riceR28, riceR29, riceR30, riceR31, riceR32, riceR33, riceR34, riceR35, riceR36, riceR37, riceR38, riceR39, riceR40, riceR41, riceR42, riceR43, riceR44, riceR45, riceR46, riceR47, riceR48, riceR49, riceR50].map((a, i) => (
+            {[riceR1, riceR2, riceR3, riceR4, riceR5, riceR6, riceR7, riceR8, riceR9, riceR10, riceR11, riceR12, riceR13, riceR14, riceR15, riceR16, riceR17, riceR18, riceR19, riceR20, riceR21, riceR22, riceR23, riceR24, riceR25, riceR26, riceR27, riceR28, riceR29, riceR30, riceR31, riceR32, riceR33, riceR34, riceR35, riceR36, riceR37, riceR38, riceR39, riceR40, riceR41, riceR42, riceR43, riceR44, riceR45, riceR46, riceR47, riceR48, riceR49, riceR50, riceR51, riceR52, riceR53, riceR54, riceR55, riceR56, riceR57, riceR58, riceR59, riceR60].map((a, i) => (
 
               <img key={i} src={a.url} alt={`Rice Ceremony Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
