@@ -1005,6 +1005,131 @@ function ServicePage() {
             discountPct={34}
           />
           <StaticPackageCard
+            id="rice-ceremony-decoration-r71-purple-rosegold-peach-arch"
+            name="Purple, Rose-Gold & Peach 'Rice Ceremony' Arch"
+            description="A dreamy Rice Ceremony arch in lilac, ivory, peach and chrome rose-gold balloons with a gold shimmer fringe curtain, 'RICE CEREMONY' gold foil letters, gold star foils and a sweet baby-girl foil balloon — soft, feminine and photo-perfect."
+            image={riceR71.url}
+            includes={["Lilac, ivory, peach & rose-gold organic balloon arch","Gold shimmer fringe backdrop","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-girl foil balloon accent","On-site installation"]}
+            rating={5.0}
+            reviews={188}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r72-pink-purple-gold-star-curtain"
+            name="Pink, Purple & Gold Star Curtain Rice Ceremony Setup"
+            description="A cute Rice Ceremony square arch in pastel pink, lilac, white and chrome-gold balloons with a gold foil curtain, silver star foils and a baby-girl foil balloon — a warm at-home ceremony corner for baby girls."
+            image={riceR72.url}
+            includes={["Pink, lilac, white & gold square balloon arch","Gold foil fringe curtain","Silver star foil balloons","Baby-girl foil balloon","On-site installation"]}
+            rating={4.9}
+            reviews={162}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r73-blue-yellow-gold-arch"
+            name="Baby Blue, Yellow & Gold 'Rice Ceremony' Arch"
+            description="A cheerful boy's Rice Ceremony arch in baby blue, buttery yellow, white and chrome-gold balloons with a gold shimmer fringe curtain, 'RICE CEREMONY' gold foil letters, gold star foils and a baby-boy foil balloon — bright and traditional."
+            image={riceR73.url}
+            includes={["Blue, yellow, white & gold organic balloon arch","Gold shimmer fringe backdrop","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-boy foil balloon accent","On-site installation"]}
+            rating={5.0}
+            reviews={176}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r74-purple-peach-rosegold-shimmer"
+            name="Purple, Peach & Rose-Gold Shimmer 'Rice Ceremony' Arch"
+            description="An elegant Rice Ceremony arch in lilac, peach, ivory and chrome rose-gold balloons on a rose-gold shimmer fringe backdrop with 'RICE CEREMONY' gold foil letters, gold star foils and a baby-girl foil balloon — a rich pastel look for baby-girl ceremonies."
+            image={riceR74.url}
+            includes={["Lilac, peach, ivory & rose-gold balloon arch","Rose-gold shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-girl foil balloon","On-site installation"]}
+            rating={5.0}
+            reviews={181}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r75-red-white-gold-traditional-arch"
+            name="Traditional Red, White & Gold 'Rice Ceremony' Arch"
+            description="A classic traditional Rice Ceremony arch in glossy red, white and chrome-gold balloons on a gold shimmer fringe backdrop with 'RICE CEREMONY' gold foil letters, gold star foils and a baby-girl foil balloon — timeless festive charm."
+            image={riceR75.url}
+            includes={["Red, white & chrome gold balloon arch","Gold shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-girl foil balloon","On-site installation"]}
+            rating={5.0}
+            reviews={198}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r76-navy-blue-gold-arch"
+            name="Navy Blue, Sky Blue & Gold 'Rice Ceremony' Arch"
+            description="A regal boy's Rice Ceremony arch in navy blue, sky blue, white and chrome-gold balloons with a gold shimmer curtain, 'RICE CEREMONY' gold foil letters, gold star foils and a baby-boy foil balloon — bold and celebratory."
+            image={riceR76.url}
+            includes={["Navy, sky blue, white & gold balloon arch","Gold shimmer fringe backdrop","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-boy foil balloon","On-site installation"]}
+            rating={5.0}
+            reviews={186}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r77-pastel-multicolor-arch"
+            name="Pastel Multicolor 'Rice Ceremony' Arch"
+            description="A soft pastel Rice Ceremony arch in mint, lilac, peach, ivory and chrome-gold balloons on a gold shimmer fringe backdrop with 'RICE CEREMONY' gold foil letters, gold star foils and a baby-girl foil balloon — a sweet candy-colour palette."
+            image={riceR77.url}
+            includes={["Mint, lilac, peach, ivory & gold balloon arch","Gold shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-girl foil balloon","On-site installation"]}
+            rating={4.9}
+            reviews={172}
+            offer={<>₹2,799</>}
+            original={<>₹4,499</>}
+            discountPct={38}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r78-navy-sage-cream-arch"
+            name="Navy, Sage & Cream 'Rice Ceremony' Boy Arch"
+            description="A sophisticated boy's Rice Ceremony arch in navy blue, sage green, cream and chrome-gold balloons with gold-confetti balloons, a gold & silver shimmer curtain, 'RICE CEREMONY' gold foil letters and a baby-boy foil balloon — earthy, elegant and modern."
+            image={riceR78.url}
+            includes={["Navy, sage, cream & gold organic balloon arch","Gold-confetti balloons","Gold & silver shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Baby-boy foil balloon","On-site installation"]}
+            rating={5.0}
+            reviews={192}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+            bestSeller
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r79-pink-lilac-gold-confetti-arch"
+            name="Pink, Lilac & Gold Confetti 'Rice Ceremony' Arch"
+            description="A pretty Rice Ceremony arch in blush pink, lilac, ivory, peach and chrome-gold balloons with gold-confetti clear balloons on a gold shimmer fringe backdrop, 'RICE CEREMONY' gold foil letters, gold star foils and a baby-girl foil balloon — feminine and celebratory."
+            image={riceR79.url}
+            includes={["Pink, lilac, ivory, peach & gold balloon arch","Gold-confetti clear balloons","Gold shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-girl foil balloon"]}
+            rating={5.0}
+            reviews={175}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+          />
+          <StaticPackageCard
+            id="rice-ceremony-decoration-r80-royal-blue-gold-confetti-arch"
+            name="Royal Blue & Gold Confetti 'Rice Ceremony' Arch"
+            description="A rich boy's Rice Ceremony arch in royal blue, baby blue, white and chrome-gold balloons with gold-confetti clear balloons on a gold shimmer fringe backdrop, 'RICE CEREMONY' gold foil letters, gold star foils and a baby-boy foil balloon — bold, luxe and joyful."
+            image={riceR80.url}
+            includes={["Royal blue, baby blue, white & gold balloon arch","Gold-confetti clear balloons","Gold shimmer fringe curtain","'RICE CEREMONY' gold foil letters","Gold star foil balloons","Baby-boy foil balloon"]}
+            rating={5.0}
+            reviews={184}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
+            bestSeller
+          />
+          <StaticPackageCard
             id="rice-ceremony-decoration-blue-mint-annaprashan-baby-foil-fairy"
             name="Blue, Mint & Gold 'Annaprashan Baby' Foil Setup"
             description="A soft home Annaprashan setup in baby blue, mint, white and chrome-gold balloons with 'ANNAPRASHAN BABY' gold foil letters, teal heart foils, 'It's Boy' foil rounds, baby foil balloon and a tulle & fairy-light backdrop with two coordinating pillars."
