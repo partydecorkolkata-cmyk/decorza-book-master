@@ -194,7 +194,147 @@ const CARDS = [
   },
 ];
 
-const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url];
+const NEW_CARDS = [
+  {
+    id: "welcome-baby-decoration-little-princess-twin-arch",
+    name: "'Welcome Home Little Princess' Twin Arch Luxury Setup",
+    description:
+      "A luxury twin-arch welcome for baby girl — a printed pink 'Welcome Home Little Princess' panel paired with a pastel dress & rainbow arch, framed by a coral, pink, blush & silver-chrome balloon garland.",
+    image: w11.url,
+    includes: [
+      "Printed twin arch panels ('Little Princess' + baby dress art)",
+      "Coral, pink, blush & silver chrome balloon garland",
+      "Silver orb balloons & greenery accents",
+      "Floor uplights for a stage-like glow",
+    ],
+    rating: 4.9, reviews: 312,
+    offer: <>₹8,999</>, original: <>₹14,999</>, discountPct: 40,
+  },
+  {
+    id: "welcome-baby-decoration-pink-gold-foil-silver-curtain",
+    name: "Pink & Gold 'Welcome Baby' Foil on Silver Curtain",
+    description:
+      "A cheerful room welcome for baby girl with pink & gold ceiling balloons, a silver foil-curtain backdrop, pink 'Welcome Baby' star foil letters, 'It's a Girl' bottle and baby-girl foil.",
+    image: w12.url,
+    includes: [
+      "Pink, white & gold chrome ceiling balloon canopy",
+      "Silver foil fringe curtain backdrop",
+      "Pink star 'Welcome Baby' foil letters",
+      "'It's a Girl' bottle & baby-girl foil balloons",
+    ],
+    rating: 4.7, reviews: 154,
+    offer: <>₹1,999</>, original: <>₹3,499</>, discountPct: 43,
+  },
+  {
+    id: "welcome-baby-decoration-blue-welcome-baby-neon-hall",
+    name: "Blue 'Welcome Baby' Neon Hall Setup with BABY Blocks",
+    description:
+      "A grand hall welcome for baby boy — blue, white & silver-chrome balloon arch around a 'Welcome Baby' neon, with baby & moon foils, BABY blocks, 'It's A Boy' bottle and twin balloon pillars.",
+    image: w13.url,
+    includes: [
+      "Blue, white & silver chrome balloon arch",
+      "'Welcome Baby' neon sign on TV wall",
+      "BABY letter blocks + baby, moon & bottle foils",
+      "Twin balloon pillars flanking the setup",
+    ],
+    rating: 4.8, reviews: 226,
+    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-little-prince-arch-teddy",
+    name: "'Welcome Home Our Little Prince' Pastel Arch with Teddy",
+    description:
+      "A soft pastel welcome-home arch with a printed 'Welcome Home Our Little Prince' backdrop, baby-blue, grey & white balloon garland, fresh-look florals, teddy bear props and a white rose bouquet.",
+    image: w14.url,
+    includes: [
+      "Printed 'Welcome Home Our Little Prince' backdrop arch",
+      "Baby-blue, grey & white organic balloon garland",
+      "Fresh-look florals & greenery accents",
+      "Large & small teddy bear props + rose bouquet",
+    ],
+    rating: 4.9, reviews: 278,
+    offer: <>₹6,499</>, original: <>₹8,999</>, discountPct: 28,
+  },
+  {
+    id: "welcome-baby-decoration-gold-welcome-bedroom-pastels",
+    name: "Gold 'Welcome' Bedroom Setup with Pastel Balloon Bouquets",
+    description:
+      "A warm bedroom welcome for the new mom & baby with gold 'WELCOME' foil letters on the headboard wall, gold, purple, sage & peach balloon bouquets, hanging ceiling balloons and pink streamers.",
+    image: w15.url,
+    includes: [
+      "Gold 'WELCOME' foil letters + baby foil",
+      "Gold, purple, sage & peach balloon bouquets around the bed",
+      "Hanging ceiling balloons with pink streamers",
+      "Curly ribbons & fairy accents",
+    ],
+    rating: 4.7, reviews: 132,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-blue-ceiling-welcome-baby-boy",
+    name: "Blue Ceiling Balloons 'Welcome Baby' Boy Setup with Petal Path",
+    description:
+      "A big-impact home welcome for baby boy — blue, metallic-blue & white ceiling balloons with ribbons, a blue 'Welcome Baby' foil wall with baby, stars, foot & 'It's a Boy' foils, and a heart-shaped rose-petal walkway.",
+    image: w16.url,
+    includes: [
+      "Blue, metallic & white ceiling balloons with ribbons",
+      "Blue 'Welcome Baby' foil letters",
+      "Baby, star, foot & 'It's a Boy' foil balloons",
+      "Rose & marigold heart-petal walkway",
+    ],
+    rating: 4.8, reviews: 189,
+    offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-pink-door-arch-hallway-ring",
+    name: "Pink Door Arch + 'Welcome Baby' Hallway Ring Experience",
+    description:
+      "A grand entrance welcome for baby girl — a pink, white & magenta-chrome door arch with 'It's a Girl' foil, plus a hallway 'Welcome Baby' ring with GIRL foil letters and a floral 'WELCOME' rangoli path.",
+    image: w17.url,
+    includes: [
+      "Pink, white & magenta chrome door arch with 'It's a Girl' foil",
+      "Hallway balloon ring with GIRL foil letters",
+      "'Welcome Baby' hanging banner",
+      "Floral 'WELCOME' rangoli walkway",
+    ],
+    rating: 4.9, reviews: 254,
+    offer: <>₹4,999</>, original: <>₹8,999</>, discountPct: 44,
+  },
+  {
+    id: "welcome-baby-decoration-magenta-pink-ring-girl-foil",
+    name: "Magenta & Pink Ring Arch with 'GIRL' Foil Letters",
+    description:
+      "A pretty magenta, pink & white balloon ring arch with big pink 'GIRL' foil letters, a 'Welcome Baby' glitter banner, baby-girl foil and a pink heart foil — perfect for the living-room welcome.",
+    image: w18.url,
+    includes: [
+      "Magenta, pink & white balloon ring arch",
+      "Pink 'GIRL' foil letters",
+      "'Welcome Baby' glitter banner",
+      "Baby-girl round foil + pink heart foil",
+    ],
+    rating: 4.8, reviews: 197,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-decoration-baby-girl-foot-ceiling-cutout",
+    name: "'Welcome Baby' Bedroom Setup with Baby-Girl Foot Ceiling Cutout",
+    description:
+      "A cosy bedroom welcome for baby girl — pink polka 'WELCOME BABY' foil letters, magenta & pink balloon bouquets, a big 'Baby Girl' foot ceiling cutout and a pink-white balloon bed spread.",
+    image: w19.url,
+    includes: [
+      "Pink polka 'WELCOME BABY' foil letters",
+      "Magenta & pink chrome balloon bouquets",
+      "'Baby Girl' foot ceiling cutout",
+      "Pink & white balloon bed spread + baby-girl foil",
+    ],
+    rating: 4.7, reviews: 148,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+];
+
+const CARDS_ALL = [...CARDS, ...NEW_CARDS];
+
+const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url];
 
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
