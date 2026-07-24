@@ -18,6 +18,15 @@ import w7 from "@/assets/wb-w7.jpg.asset.json";
 import w8 from "@/assets/wb-w8.jpg.asset.json";
 import w9 from "@/assets/wb-w9.jpg.asset.json";
 import w10 from "@/assets/wb-w10.jpg.asset.json";
+import w11 from "@/assets/wb-w11.jpg.asset.json";
+import w12 from "@/assets/wb-w12.jpg.asset.json";
+import w13 from "@/assets/wb-w13.jpg.asset.json";
+import w14 from "@/assets/wb-w14.jpg.asset.json";
+import w15 from "@/assets/wb-w15.jpg.asset.json";
+import w16 from "@/assets/wb-w16.jpg.asset.json";
+import w17 from "@/assets/wb-w17.jpg.asset.json";
+import w18 from "@/assets/wb-w18.jpg.asset.json";
+import w19 from "@/assets/wb-w19.jpg.asset.json";
 
 export const Route = createFileRoute("/service/welcome-baby-decoration")({
   loader: () => {
