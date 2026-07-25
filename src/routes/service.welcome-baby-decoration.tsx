@@ -27,6 +27,16 @@ import w16 from "@/assets/wb-w16.jpg.asset.json";
 import w17 from "@/assets/wb-w17.jpg.asset.json";
 import w18 from "@/assets/wb-w18.jpg.asset.json";
 import w19 from "@/assets/wb-w19.jpg.asset.json";
+import w20 from "@/assets/wb-w20.jpg.asset.json";
+import w21 from "@/assets/wb-w21.jpg.asset.json";
+import w22 from "@/assets/wb-w22.jpg.asset.json";
+import w23 from "@/assets/wb-w23.jpg.asset.json";
+import w24 from "@/assets/wb-w24.jpg.asset.json";
+import w25 from "@/assets/wb-w25.jpg.asset.json";
+import w26 from "@/assets/wb-w26.jpg.asset.json";
+import w27 from "@/assets/wb-w27.jpg.asset.json";
+import w28 from "@/assets/wb-w28.jpg.asset.json";
+import w29 from "@/assets/wb-w29.jpg.asset.json";
 
 export const Route = createFileRoute("/service/welcome-baby-decoration")({
   loader: () => {
@@ -332,9 +342,162 @@ const NEW_CARDS = [
   },
 ];
 
-const CARDS_ALL = [...CARDS, ...NEW_CARDS];
+const EXTRA_CARDS = [
+  {
+    id: "welcome-baby-decoration-pink-welcome-car-baby-girl",
+    name: "Pink 'WELCOME' Car Decor with Baby-Girl Crown Foil",
+    description:
+      "A sweet car welcome for baby girl coming home — silver 'WELCOME' foil letters on the bonnet, pink & white balloon clusters, a pink crown foil on the roof and a big baby-girl foil on the grill.",
+    image: w20.url,
+    includes: [
+      "Silver 'WELCOME' foil letters on bonnet",
+      "Pink, magenta & white balloon clusters",
+      "Pink crown foil on roof + baby-girl foil on grill",
+      "Baby-girl dress & bow window stickers",
+    ],
+    rating: 4.7, reviews: 138,
+    offer: <>₹1,799</>, original: <>₹2,999</>, discountPct: 40,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-baby-girl-pink-room",
+    name: "'Welcome Baby Girl' Pink Room Setup with BABY Boxes",
+    description:
+      "A dreamy pink room welcome for baby girl — a pink & white balloon garland with silver moon & butterflies, pink 'WELCOME BABY' and silver 'GIRL' foil letters, twin balloon pillars, clear BABY boxes and a milk-bottle foil.",
+    image: w21.url,
+    includes: [
+      "Pink & white balloon garland with silver moon foil",
+      "Pink 'WELCOME BABY' + silver 'GIRL' foil letters",
+      "Twin pink & white balloon pillars",
+      "Clear BABY letter boxes + 'It's A Girl' bottle foil",
+    ],
+    rating: 4.8, reviews: 216,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-decoration-blue-silver-door-arch-its-a-boy",
+    name: "Blue & Silver Door Arch with 'It's A Boy' Foils",
+    description:
+      "A grand door-frame welcome for baby boy — dense blue, sky-blue, chrome-silver & metallic-blue balloon arch with silver moon, starburst & 'It's A Boy' foot foils framing the main entrance.",
+    image: w22.url,
+    includes: [
+      "Blue, sky-blue, silver & metallic-blue balloon door arch",
+      "Silver moon & starburst foil accents",
+      "'It's A Boy' foot & round foils",
+      "Inside 'Welcome Baby' foil banner setup",
+    ],
+    rating: 4.9, reviews: 264,
+    offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-baby-blue-fringe-room",
+    name: "'Welcome Baby' Blue Fringe Room Setup with Heart Pillars",
+    description:
+      "A full-room welcome for baby boy — a white foil-fringe backdrop with blue 'WELCOME BABY' letters, blue & silver balloon garland, moon, starburst & bottle foils, ceiling balloons and twin silver-heart balloon pillars.",
+    image: w23.url,
+    includes: [
+      "White foil-fringe backdrop with blue 'WELCOME BABY' letters",
+      "Blue & silver chrome balloon garland + moon/starburst foils",
+      "Ceiling balloon bouquets with ribbons",
+      "Twin silver-heart balloon pillars with baby-boy foils",
+    ],
+    rating: 4.8, reviews: 231,
+    offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-pink-welcome-baby-hallway-hot-air",
+    name: "Pink 'Welcome Baby' Hallway Arch with Hot-Air Balloon",
+    description:
+      "A magical hallway welcome for baby girl — a pink & silver-chrome balloon arch with a baby-girl foil, pink 'WELCOME BABY' foils, a pink hot-air balloon prop, pink foil stars, hearts and ceiling bouquets.",
+    image: w24.url,
+    includes: [
+      "Pink, silver & white balloon arch with daisy accents",
+      "Pink 'WELCOME BABY' foil letters",
+      "Pink hot-air balloon prop + baby-girl foil",
+      "Pink stars, hearts & ceiling balloon bouquets",
+    ],
+    rating: 4.8, reviews: 187,
+    offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-baby-boy-car-blue",
+    name: "'Welcome Baby Boy' Car Decor with Blue Balloon Trails",
+    description:
+      "A cheerful ride-home car welcome for baby boy — blue & silver balloon trails, a 'Hello Baby' foil, baby-boy foil at the window, gold 'BOY' letters on the windshield and a 'WELCOME BABY' bunting.",
+    image: w25.url,
+    includes: [
+      "Blue & silver balloon trails on bonnet & doors",
+      "'Hello Baby' round foil on roof",
+      "Baby-boy foil + gold 'BOY' letters on windshield",
+      "'WELCOME BABY' triangular bunting on hood",
+    ],
+    rating: 4.7, reviews: 142,
+    offer: <>₹1,799</>, original: <>₹2,999</>, discountPct: 40,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-angel-rose-gold-arch",
+    name: "'Welcome Angel' Rose-Gold Arch with Teddy & Pram",
+    description:
+      "A luxury living-room welcome for baby girl — a printed 'Welcome Angel' arched backdrop with pink, rose-gold, silver & white balloon garland, teddy prop, baby-pram foil, 'It's A Girl' bottle and BABY boxes.",
+    image: w26.url,
+    includes: [
+      "Printed 'Welcome Angel' arch backdrop",
+      "Pink, rose-gold, silver & white balloon garland",
+      "Teddy prop + baby-pram foil column",
+      "'It's A Girl' bottle foil + BABY letter boxes",
+    ],
+    rating: 4.9, reviews: 296,
+    offer: <>₹6,499</>, original: <>₹8,999</>, discountPct: 28,
+  },
+  {
+    id: "welcome-baby-decoration-blue-gold-outdoor-arch-petal-path",
+    name: "Blue & Gold Outdoor Balloon Arch with Golden Petal Path",
+    description:
+      "A traditional entrance welcome for baby boy — a blue, white & gold-chrome balloon arch with a big baby-boy foil on top, 'It's A Boy' bottle & foot foils, blue star pillars and a golden confetti petal walkway.",
+    image: w27.url,
+    includes: [
+      "Blue, white & gold-chrome balloon door arch",
+      "Baby-boy foil on top + 'It's A Boy' bottle & foot foils",
+      "Blue star foil balloon pillars",
+      "Golden confetti petal walkway inside",
+    ],
+    rating: 4.8, reviews: 174,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-baby-neon-ring-elephant",
+    name: "'Welcome Baby' Blue Neon Ring with Elephant Prop",
+    description:
+      "A charming boy welcome — a blue, sky-blue, white & silver-chrome balloon ring around a yellow 'Welcome Baby' neon, with a cute elephant cutout on one side and clear BABY boxes on the other.",
+    image: w28.url,
+    includes: [
+      "Blue, sky-blue, white & silver chrome balloon ring",
+      "Yellow 'Welcome Baby' neon sign in centre",
+      "Elephant cartoon cutout prop",
+      "Clear BABY letter boxes + balloon ceiling bouquets",
+    ],
+    rating: 4.8, reviews: 208,
+    offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+  },
+  {
+    id: "welcome-baby-decoration-welcome-baby-bed-bedroom-blue",
+    name: "'Welcome Baby' Blue Bedroom Setup with Balloon Bed Spread",
+    description:
+      "A cosy bedroom welcome for baby boy — blue & white balloon garland on the wall with blue 'WELCOME BABY' foil letters, a baby-boy foil, teddy props on bolsters and a blue balloon spread across the bed with twin bottle pillars.",
+    image: w29.url,
+    includes: [
+      "Blue, metallic & white balloon garland with 'WELCOME BABY' foils",
+      "Baby-boy foil + teddy props on bolsters",
+      "Blue balloon spread across the bed",
+      "Twin 'It's A Boy' bottle balloon pillars",
+    ],
+    rating: 4.7, reviews: 163,
+    offer: <>₹2,299</>, original: <>₹3,499</>, discountPct: 34,
+  },
+];
 
-const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url];
+const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS];
+
+const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url];
 
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
