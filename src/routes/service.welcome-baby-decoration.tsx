@@ -658,9 +658,158 @@ const BATCH_W30 = [
   },
 ];
 
-const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30];
+const BATCH_W40 = [
+  {
+    id: "welcome-baby-w40",
+    name: "'Welcome Baby' Pink & Purple Bedroom Balloon Setup",
+    description:
+      "A pretty pink, purple, white & gold balloon garland above the bed with pink foil 'WELCOME BABY' letters, 'It's A Girl' bottle and foot foil balloon pillars — a warm bedroom welcome for a baby girl.",
+    image: w40.url,
+    includes: [
+      "Pink, purple, white & gold balloon garland",
+      "Pink foil 'WELCOME BABY' letters on wall",
+      "'It's A Girl' bottle & foot foil pillars",
+    ],
+    rating: 4.7, reviews: 158,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w41",
+    name: "'Welcome Home' Rose-Gold Ceiling Balloon Living Room",
+    description:
+      "A luxurious living-room welcome with rose-gold foil 'WELCOME HOME' letters, personalised name balloons and a dreamy ceiling full of rose-gold chrome, blush, confetti balloons and gold streamers.",
+    image: w41.url,
+    includes: [
+      "Rose-gold foil 'WELCOME HOME' letters",
+      "Two personalised name balloon bouquets",
+      "Rose-gold, blush & confetti ceiling balloons with streamers",
+    ],
+    rating: 4.9, reviews: 226,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w42",
+    name: "Blue & Cream 'Baby Boy' Door Arch Welcome",
+    description:
+      "A charming door welcome with pastel blue, teal, cream & white balloon arch, baby pram foil, 'It's A Boy' bottle and feet foil balloons and a soft blue door drape with a baby cutout.",
+    image: w42.url,
+    includes: [
+      "Pastel blue, teal, cream & white door balloon arch",
+      "Baby pram, bottle & feet foil balloons",
+      "Blue tulle door drape with baby cutout",
+    ],
+    rating: 4.7, reviews: 149,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w43",
+    name: "'Welcome Little Prince' Round Arch with Elephants",
+    description:
+      "A cute pastel blue, mint, white & gold round arch backdrop reading 'Welcome To Our Family Little Prince', paired with two adorable elephant cutouts, a bubble balloon and stand pedestals.",
+    image: w43.url,
+    includes: [
+      "'Welcome Little Prince' round chiara backdrop",
+      "Blue, mint, white & gold organic balloon garland",
+      "Twin elephant cutout props & bubble balloon",
+      "Gold stand pedestals for styling",
+    ],
+    rating: 4.9, reviews: 231,
+    offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w44",
+    name: "'Welcome Home' Personalised Pink Butterfly & Bunny Arch",
+    description:
+      "A romantic personalised pink arched backdrop with 'Welcome Home ___' calligraphy, a giant butterfly cutout on top and a sweet bunny prop, framed by a pink, peach & white balloon garland.",
+    image: w44.url,
+    includes: [
+      "Personalised 'Welcome Home' pink arched backdrop",
+      "Giant butterfly & bunny cutout props",
+      "Pink, peach & white organic balloon garland",
+    ],
+    rating: 4.9, reviews: 242,
+    offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w45",
+    name: "'Welcome Baby' Blue Bedroom Setup with Fairy Lights",
+    description:
+      "A soft blue bedroom setup with pastel blue, teal, cream & white balloon garland, silver moon foil, butterfly accents, 'WELCOME BABY' bunting and warm fairy-light curtain behind the bed.",
+    image: w45.url,
+    includes: [
+      "Blue, teal, cream & white balloon garland",
+      "Silver moon foil & butterfly accents",
+      "'WELCOME BABY' bunting + fairy-light curtain",
+      "'It's A Boy' bottle, feet & 'BOY' foil props",
+    ],
+    rating: 4.8, reviews: 187,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w46",
+    name: "'Welcome Home Krishiv' Luxury Twin Arch with Teddy",
+    description:
+      "A luxury personalised welcome — a twin arched backdrop with baby name & photo panel and an 'It's A Boy' print panel, framed by blue, white & chrome-gold balloon pillars, giant teddy and 'BABY' letter boxes.",
+    image: w46.url,
+    includes: [
+      "Personalised twin arched backdrops with photo",
+      "Blue, white & chrome-gold balloon pillars",
+      "Giant teddy prop, 'BABY' letter boxes",
+      "'IT'S A BOY' bottle foil pillar",
+    ],
+    rating: 5.0, reviews: 278,
+    offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w47",
+    name: "'Welcome Baby' Pastel Purple Butterfly Outdoor Arch",
+    description:
+      "A grand outdoor pastel purple 'Welcome Baby' arched backdrop dressed with a lush pink, lavender & cream balloon garland, fresh floral clusters and colourful butterfly cutouts — a dreamy premium welcome.",
+    image: w47.url,
+    includes: [
+      "Pastel purple 'Welcome Baby' arched backdrop",
+      "Pink, lavender & cream organic balloon garland",
+      "Fresh floral clusters & butterfly cutouts",
+      "Pedestal styling with floral centrepiece",
+    ],
+    rating: 5.0, reviews: 302,
+    offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25,
+  },
+  {
+    id: "welcome-baby-w48",
+    name: "'Welcome Home Aarav' Twin Blue Arch with Elephants",
+    description:
+      "A premium personalised twin arched backdrop with 'Welcome' neon and baby name, framed by a lush blue, chrome-blue, silver & grey balloon garland and two elephant cutout props with balloon accents.",
+    image: w48.url,
+    includes: [
+      "Personalised twin arched backdrop with baby name",
+      "'Welcome' neon sign on striped arch",
+      "Blue, chrome-blue, silver & grey balloon garland",
+      "Twin elephant cutout props",
+    ],
+    rating: 4.9, reviews: 264,
+    offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w49",
+    name: "'It's A Boy' Blue & Gold Car Welcome Decoration",
+    description:
+      "A stylish baby-boy car welcome for the drive home from the hospital — blue, white & gold chrome balloon garland across the bonnet with 'It's A Boy' bottle foil and a blue tulle sash.",
+    image: w49.url,
+    includes: [
+      "Blue, white & gold chrome balloon garland on car",
+      "'It's A Boy' bottle foil balloon",
+      "Blue tulle sash across the bonnet",
+      "On-site setup at your address",
+    ],
+    rating: 4.8, reviews: 176,
+    offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+  },
+];
 
-const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url];
+const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30, ...BATCH_W40];
+
+const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url, w40.url, w41.url, w42.url, w43.url, w44.url, w45.url, w46.url, w47.url, w48.url, w49.url];
 
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
