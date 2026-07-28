@@ -57,6 +57,16 @@ import w46 from "@/assets/wb-w46.jpg.asset.json";
 import w47 from "@/assets/wb-w47.jpg.asset.json";
 import w48 from "@/assets/wb-w48.jpg.asset.json";
 import w49 from "@/assets/wb-w49.jpg.asset.json";
+import w50 from "@/assets/wb-w50.jpg.asset.json";
+import w51 from "@/assets/wb-w51.jpg.asset.json";
+import w52 from "@/assets/wb-w52.jpg.asset.json";
+import w53 from "@/assets/wb-w53.jpg.asset.json";
+import w54 from "@/assets/wb-w54.jpg.asset.json";
+import w55 from "@/assets/wb-w55.jpg.asset.json";
+import w56 from "@/assets/wb-w56.jpg.asset.json";
+import w57 from "@/assets/wb-w57.jpg.asset.json";
+import w58 from "@/assets/wb-w58.jpg.asset.json";
+import w59 from "@/assets/wb-w59.jpg.asset.json";
 
 export const Route = createFileRoute("/service/welcome-baby-decoration")({
   loader: () => {
@@ -807,9 +817,169 @@ const BATCH_W40 = [
   },
 ];
 
-const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30, ...BATCH_W40];
+const BATCH_W50 = [
+  {
+    id: "welcome-baby-w50",
+    name: "Butterfly Theme Pink & Lilac Door Welcome Arch",
+    description:
+      "A cheerful butterfly-theme entrance welcome for a baby girl — pink, lilac & gold balloon door arch with an 'It's a Girl' foil, princess foil balloon, a personalised butterfly welcome board and a fresh rose-petal walkway.",
+    image: w50.url,
+    includes: [
+      "Pink, lilac & gold balloon door arch",
+      "Personalised butterfly welcome board with baby name",
+      "'It's a Girl' & princess foil balloons",
+      "Rose petal entrance walkway",
+    ],
+    rating: 4.8, reviews: 168,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w51",
+    name: "Butterfly Bloom Personalised Welcome Backdrop",
+    description:
+      "A grand butterfly-theme indoor welcome with a personalised 'Our Precious Bundle of Joy Is Home' printed panel, pink-lilac-gold balloon garland, BABY blocks, giant butterfly cutouts, unicorn & Hello Kitty foils and ceiling balloon clusters.",
+    image: w51.url,
+    includes: [
+      "Personalised printed butterfly backdrop panel",
+      "Pink, lilac, rose-gold & gold balloon garland",
+      "Gold BABY blocks with balloons",
+      "Giant butterfly cutout props & character foils",
+      "Ceiling balloon clusters across the hall",
+    ],
+    rating: 4.9, reviews: 241,
+    offer: <>₹6,499</>, original: <>₹8,999</>, discountPct: 28,
+  },
+  {
+    id: "welcome-baby-w52",
+    name: "Royal Blue & Gold Baby Boy Room Welcome",
+    description:
+      "A luxurious bedroom welcome for a baby boy — blue, gold & white helium ceiling balloons with curling ribbons, 'Welcome Baby' bunting, 'Baby Boy' foils, navy heart balloons and floor balloon pathway.",
+    image: w52.url,
+    includes: [
+      "Blue, gold & white helium ceiling balloons",
+      "'Welcome Baby' bunting banner",
+      "'Baby Boy' & navy heart foil balloons",
+      "Floor balloon spread & photo frame stand",
+    ],
+    rating: 4.8, reviews: 197,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w53",
+    name: "Luxury 'It's A Baby Boy' Hot Air Balloon Stage",
+    description:
+      "Our signature luxury welcome stage — triple arched panels with a custom 'It's A Baby Boy' cutout, blue-gold-ivory organic balloon installation, hot air balloon and cloud cutouts, jumbo bobo balloons, cloud ceiling clusters and a giant teddy.",
+    image: w53.url,
+    includes: [
+      "Triple arched panel backdrop with custom name board",
+      "Blue, gold & ivory organic balloon installation",
+      "Hot air balloon & cloud cutout props",
+      "Jumbo bobo balloons and cloud ceiling clusters",
+      "Giant teddy bear and white cylinder plinth",
+    ],
+    rating: 5.0, reviews: 118,
+    offer: <>₹17,999</>, original: <>₹24,999</>, discountPct: 28,
+  },
+  {
+    id: "welcome-baby-w54",
+    name: "'Welcome Baby Boy' Entrance Arch with Petal Path",
+    description:
+      "A grand entrance welcome with a blue, sky-blue & gold balloon door arch, a printed 'Welcome Baby Boy' board, teddy-in-hot-air-balloon cutout, pram & baby cutouts and a rich rose-petal red carpet path.",
+    image: w54.url,
+    includes: [
+      "Blue, sky-blue & gold entrance balloon arch",
+      "Printed 'Welcome Baby Boy' board",
+      "Teddy hot air balloon & pram cutout props",
+      "Rose petal walkway to the door",
+      "Ceiling balloon clusters in the porch",
+    ],
+    rating: 4.9, reviews: 205,
+    offer: <>₹4,499</>, original: <>₹6,999</>, discountPct: 36,
+  },
+  {
+    id: "welcome-baby-w55",
+    name: "Pink Butterfly 'Welcome Baby' Neon Curtain Arch",
+    description:
+      "A soft, glowing living-room welcome — pink, white & chrome-pink balloon arch with butterfly accents and confetti balloons around a warm fairy-light curtain backdrop with a 'Welcome Baby' neon sign.",
+    image: w55.url,
+    includes: [
+      "Pink, white & chrome-pink balloon arch",
+      "'Welcome Baby' neon sign",
+      "Fairy-light curtain backdrop",
+      "Butterfly & confetti balloon accents",
+      "Ceiling balloon bunches",
+    ],
+    rating: 4.8, reviews: 189,
+    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w56",
+    name: "Pastel Rainbow Ring 'Welcome Baby' Arch",
+    description:
+      "A pretty pastel ring arch framing your hall entry — pastel blue, lilac, mint, pink & peach balloons with silver chrome clusters and a bright 'Welcome Baby!' neon at the centre.",
+    image: w56.url,
+    includes: [
+      "Pastel multi-colour balloon ring arch",
+      "'Welcome Baby!' neon sign",
+      "Silver chrome balloon clusters",
+      "Ceiling balloon bunches & floor balloons",
+    ],
+    rating: 4.8, reviews: 174,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w57",
+    name: "Blue & Grey Ring Arch with Baby Foils & BABY Blocks",
+    description:
+      "A classic baby-boy ring arch in blue, grey, white & silver chrome with a 'Welcome Baby' neon, baby, pram, bottle and 'It's a Boy' foils, silver moon and white BABY blocks.",
+    image: w57.url,
+    includes: [
+      "Blue, grey, white & silver chrome ring arch",
+      "'Welcome Baby' neon sign",
+      "Baby, pram, bottle & 'It's a Boy' foil balloons",
+      "White BABY blocks with balloons",
+      "Silver moon & star foils",
+    ],
+    rating: 4.9, reviews: 213,
+    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w58",
+    name: "Sky Blue & Silver Chrome Welcome Baby Ring",
+    description:
+      "A clean, photo-ready circular ring arch in sky blue, white & silver chrome with a warm 'Welcome Baby!' neon, hanging photo tassels, baby foil and BABY letter blocks.",
+    image: w58.url,
+    includes: [
+      "Sky blue, white & silver chrome ring arch",
+      "'Welcome Baby!' neon sign",
+      "Hanging photo & tassel string",
+      "Baby foil balloon and BABY blocks",
+      "Ceiling balloon clusters",
+    ],
+    rating: 4.8, reviews: 158,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w59",
+    name: "Personalised Name Fringe Ring Welcome (Baby Girl)",
+    description:
+      "A pink fringe-curtain ring arch personalised with your baby's name in gold foil letters, framed by pink, lilac, white & silver balloons with heart foils, pram prop, baby foil and BABY blocks.",
+    image: w59.url,
+    includes: [
+      "Pink fringe curtain ring backdrop",
+      "Gold foil baby name & WELCOME bunting",
+      "Pink, lilac, white & silver balloon garland",
+      "Heart foils, baby & pram foil props",
+      "BABY blocks and twin balloon pillars",
+    ],
+    rating: 4.9, reviews: 231,
+    offer: <>₹3,999</>, original: <>₹5,499</>, discountPct: 27,
+  },
+];
 
-const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url, w40.url, w41.url, w42.url, w43.url, w44.url, w45.url, w46.url, w47.url, w48.url, w49.url];
+const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30, ...BATCH_W40, ...BATCH_W50];
+
+const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url, w40.url, w41.url, w42.url, w43.url, w44.url, w45.url, w46.url, w47.url, w48.url, w49.url, w50.url, w51.url, w52.url, w53.url, w54.url, w55.url, w56.url, w57.url, w58.url, w59.url];
 
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
