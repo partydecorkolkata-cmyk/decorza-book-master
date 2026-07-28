@@ -1019,6 +1019,7 @@ function ServicePage() {
             <img src={babyK8.url} alt="Custom Name Pastel Arch Backdrop with Floral and Palm" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyK9.url} alt="Oh Baby Loading Outdoor Arch with Teddy and BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyK10.url} alt="Boy or Girl Pastel Gender Reveal Arch with Moon and Stars" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyL1.url} alt="Pink and blue half gender reveal arch with BABY blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
