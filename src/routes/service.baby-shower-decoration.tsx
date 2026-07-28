@@ -91,6 +91,7 @@ import babyK7 from "@/assets/baby-k7.jpeg.asset.json";
 import babyK8 from "@/assets/baby-k8.png.asset.json";
 import babyK9 from "@/assets/baby-k9.jpeg.asset.json";
 import babyK10 from "@/assets/baby-k10.jpeg.asset.json";
+import babyL1 from "@/assets/baby-l1.jpg.asset.json";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -909,6 +910,14 @@ function ServicePage() {
             rating={4.8} reviews={131}
             offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
           />
+          <StaticPackageCard
+            id="baby-l1" name="'It's a Boy or Girl?' Pink & Blue Half-Half Gender Reveal Arch"
+            description="A charming outdoor gender reveal setup with a round half pink, half blue printed panel featuring cute 'It's a Boy!' and 'It's a Girl!' baby characters, framed by a dual blue and pink balloon garland with gold chrome clusters and stacked transparent BABY blocks filled with balloons."
+            image={babyL1.url}
+            includes={["Round half pink & half blue printed baby panel","Blue and pink balloon garland with gold chrome clusters","Transparent BABY letter blocks with balloon fill","On-site setup with stand and props"]}
+            rating={4.8} reviews={124}
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+          />
         </div>
       </section>
 
@@ -1010,6 +1019,7 @@ function ServicePage() {
             <img src={babyK8.url} alt="Custom Name Pastel Arch Backdrop with Floral and Palm" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyK9.url} alt="Oh Baby Loading Outdoor Arch with Teddy and BABY Blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src={babyK10.url} alt="Boy or Girl Pastel Gender Reveal Arch with Moon and Stars" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src={babyL1.url} alt="Pink and blue half gender reveal arch with BABY blocks" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
           </div>
         </div>
       </section>
