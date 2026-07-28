@@ -910,6 +910,14 @@ function ServicePage() {
             rating={4.8} reviews={131}
             offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
           />
+          <StaticPackageCard
+            id="baby-l1" name="'It's a Boy or Girl?' Pink & Blue Half-Half Gender Reveal Arch"
+            description="A charming outdoor gender reveal setup with a round half pink, half blue printed panel featuring cute 'It's a Boy!' and 'It's a Girl!' baby characters, framed by a dual blue and pink balloon garland with gold chrome clusters and stacked transparent BABY blocks filled with balloons."
+            image={babyL1.url}
+            includes={["Round half pink & half blue printed baby panel","Blue and pink balloon garland with gold chrome clusters","Transparent BABY letter blocks with balloon fill","On-site setup with stand and props"]}
+            rating={4.8} reviews={124}
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+          />
         </div>
       </section>
 
