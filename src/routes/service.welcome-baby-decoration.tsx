@@ -1321,9 +1321,172 @@ const BATCH_W70 = [
   },
 ];
 
-const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30, ...BATCH_W40, ...BATCH_W50, ...BATCH_W60, ...BATCH_W70];
+const BATCH_W80 = [
+  {
+    id: "welcome-baby-w80",
+    name: "Pink & Silver 'Baby Girl' Ring Arch",
+    description:
+      "A full circular ring arch packed with pink, white and chrome-silver balloons, centred by a pink foil 'BABY GIRL' script, baby and milk-bottle foils, a foil baby-feet accent and a stack of clear BABY blocks filled with balloons.",
+    image: w80.url,
+    includes: [
+      "Circular ring arch in pink, white & chrome silver",
+      "Pink foil 'BABY GIRL' letters",
+      "Baby foil + milk bottle foil + baby-feet foil",
+      "Stacked BABY blocks filled with balloons",
+      "Complete setup at your venue",
+    ],
+    rating: 4.9, reviews: 212,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w81",
+    name: "Blue & Gold 'Baby Welcome' Fairy Light Wall",
+    description:
+      "A dreamy blue, white and gold garland arch with big gold foil 'BABY WELCOME' letters, warm fairy lights, an 'IT'S A BOY' bunting, gold stars, a crescent moon foil and baby, feet and bottle character foils at the base.",
+    image: w81.url,
+    includes: [
+      "Blue, white, confetti & gold balloon garland",
+      "Gold foil 'BABY WELCOME' letters",
+      "'IT'S A BOY' bunting + fairy light curtain",
+      "Moon, star & butterfly foil accents",
+      "Baby, baby-feet and milk-bottle foils",
+    ],
+    rating: 5.0, reviews: 246,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w82",
+    name: "Hot Air Balloon 'Welcome Baby' Backdrop",
+    description:
+      "A printed sky-blue cloud backdrop with 'WELCOME BABY' text, framed by a pastel blue, white and chrome-gold balloon garland, with hot air balloon props and balloon clusters at the base.",
+    image: w82.url,
+    includes: [
+      "Printed 'Welcome Baby' cloud backdrop panel",
+      "Pastel blue, white & chrome gold garland",
+      "Hot air balloon props",
+      "Base balloon clusters",
+      "On-site installation & dismantling",
+    ],
+    rating: 4.9, reviews: 158,
+    offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+  },
+  {
+    id: "welcome-baby-w83",
+    name: "Pink & Chrome Silver 'Welcome Baby' Ring Setup",
+    description:
+      "An elegant ring arch in pink, white and chrome-silver balloons with a 'Welcome Baby' cutout on a sheer curtain, butterfly accents, a baby girl foil, a personalised name board and pink BABY blocks with floor balloons.",
+    image: w83.url,
+    includes: [
+      "Ring arch in pink, white & chrome silver",
+      "'Welcome Baby' cutout on sheer curtain",
+      "Butterfly & star foil accents",
+      "Personalised name board + baby girl foil",
+      "Pink BABY blocks and floor balloon spread",
+    ],
+    rating: 5.0, reviews: 231,
+    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w84",
+    name: "Rose Gold Ceiling 'Welcome Baby' Room Decor",
+    description:
+      "A luxurious room setup with a ceiling full of pink, rose-gold and silver chrome balloons with curling ribbons, pink foil 'WELCOME BABY' letters, twin balloon pillars, a draped table with gold bow and a rose petal pathway.",
+    image: w84.url,
+    includes: [
+      "Ceiling filled with chrome & pink balloons",
+      "Pink foil 'WELCOME BABY' letters",
+      "Twin balloon pillars with bubble balloons",
+      "Draped table with gold bow",
+      "Rose petal pathway on the floor",
+    ],
+    rating: 4.8, reviews: 189,
+    offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+  },
+  {
+    id: "welcome-baby-w85",
+    name: "Twins 'Welcome Babies' Pastel Arch",
+    description:
+      "A double-delight pastel setup for twins with pink, blue, lilac and chrome-gold balloons framing a panel, gold foil 'WELCOME BABIES' letters, two baby foils, heart and star foils and baby-feet foils on both sides.",
+    image: w85.url,
+    includes: [
+      "Pastel pink, blue, lilac & gold balloon frame",
+      "Gold foil 'WELCOME BABIES' letters",
+      "Two baby character foils",
+      "Heart & star foil accents",
+      "Baby-feet foils on both sides",
+    ],
+    rating: 4.9, reviews: 143,
+    offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
+  },
+  {
+    id: "welcome-baby-w86",
+    name: "Pink Foil Curtain 'Baby Girl' Backdrop",
+    description:
+      "A shimmering pink foil fringe curtain with a 'BABY GIRL' banner, framed by a chunky pink, white and chrome-pink balloon garland, plus a baby girl foil on a side balloon pillar.",
+    image: w86.url,
+    includes: [
+      "Pink shimmer foil curtain backdrop",
+      "'BABY GIRL' paper banner",
+      "Pink, white & chrome pink balloon garland",
+      "Baby girl character foil",
+      "Side balloon pillar",
+    ],
+    rating: 4.8, reviews: 176,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w87",
+    name: "Neon 'Welcome Baby' Pastel Ring Arch",
+    description:
+      "A stylish ring arch in pastel pink, blue and chrome-gold balloons with a glowing neon 'Welcome Baby' sign, draped net with fairy lights, a baby foil, 'Baby Boy' foil and twin balloon pillars with a rose petal path.",
+    image: w87.url,
+    includes: [
+      "Pastel pink, blue & chrome gold ring arch",
+      "Neon 'Welcome Baby' sign",
+      "Draped net with fairy lights",
+      "Baby foil + 'Baby Boy' round foil",
+      "Twin balloon pillars & rose petal path",
+    ],
+    rating: 5.0, reviews: 254,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+  },
+  {
+    id: "welcome-baby-w88",
+    name: "Blue & White 'Welcome Baby Boy' Wall Arch",
+    description:
+      "A classic blue and white balloon arch with big blue foil 'WELCOME BABY BOY' letters, star foils, 'It's a Boy' foil, baby and milk-bottle foils and twin balloon pillars with balloon clusters on the floor.",
+    image: w88.url,
+    includes: [
+      "Blue & white balloon arch",
+      "Blue foil 'WELCOME BABY BOY' letters",
+      "Star foils & 'It's a Boy' foil",
+      "Baby and milk-bottle character foils",
+      "Twin pillars + floor balloon clusters",
+    ],
+    rating: 4.9, reviews: 198,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+  {
+    id: "welcome-baby-w89",
+    name: "Pink & White 'Welcome Baby' Living Room Setup",
+    description:
+      "A bright home welcome with pink foil 'WELCOME BABY' letters on the wall, a pink, white and silver balloon cloud, 'It's a Girl' foils, heart foils and ceiling-hung pink balloons with ribbons over the seating area.",
+    image: w89.url,
+    includes: [
+      "Pink foil 'WELCOME BABY' letters",
+      "Pink, white & silver balloon cloud arch",
+      "'It's a Girl' round foils",
+      "Pink heart foils",
+      "Ceiling-hung balloons with ribbons",
+    ],
+    rating: 4.8, reviews: 167,
+    offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+  },
+];
 
-const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url, w40.url, w41.url, w42.url, w43.url, w44.url, w45.url, w46.url, w47.url, w48.url, w49.url, w50.url, w51.url, w52.url, w53.url, w54.url, w55.url, w56.url, w57.url, w58.url, w59.url, w60.url, w61.url, w62.url, w63.url, w64.url, w65.url, w66.url, w67.url, w68.url, w69.url, w70.url, w71.url, w72.url, w73.url, w74.url, w75.url, w76.url, w77.url, w78.url, w79.url];
+const CARDS_ALL = [...CARDS, ...NEW_CARDS, ...EXTRA_CARDS, ...BATCH_W30, ...BATCH_W40, ...BATCH_W50, ...BATCH_W60, ...BATCH_W70, ...BATCH_W80];
+
+const GALLERY = [w1.url, w2.url, w3.url, w4.url, w5.url, w6.url, w7.url, w8.url, w9.url, w10.url, w11.url, w12.url, w13.url, w14.url, w15.url, w16.url, w17.url, w18.url, w19.url, w20.url, w21.url, w22.url, w23.url, w24.url, w25.url, w26.url, w27.url, w28.url, w29.url, w30.url, w31.url, w32.url, w33.url, w34.url, w35.url, w36.url, w37.url, w38.url, w39.url, w40.url, w41.url, w42.url, w43.url, w44.url, w45.url, w46.url, w47.url, w48.url, w49.url, w50.url, w51.url, w52.url, w53.url, w54.url, w55.url, w56.url, w57.url, w58.url, w59.url, w60.url, w61.url, w62.url, w63.url, w64.url, w65.url, w66.url, w67.url, w68.url, w69.url, w70.url, w71.url, w72.url, w73.url, w74.url, w75.url, w76.url, w77.url, w78.url, w79.url, w80.url, w81.url, w82.url, w83.url, w84.url, w85.url, w86.url, w87.url, w88.url, w89.url];
 
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
