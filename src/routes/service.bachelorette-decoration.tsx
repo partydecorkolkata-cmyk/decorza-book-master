@@ -206,43 +206,74 @@ function ServicePage() {
           <StaticPackageCard
             id="bachelorette-decoration-essential"
             name="Essential Bachelorette Decoration"
-            description="A clean, photo-ready bachelorette decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.800000000000001}
+            description="A rose-gold hotel room surprise with helium rose-gold, silver chrome and white balloons floating across the ceiling, giant rose-gold BRIDE foil letters above the headboard, a silver heart foil and bubble balloons styled on the bed."
+            image={b1.url}
+            includes={[
+              "Rose gold 'BRIDE' foil letter set",
+              "Rose gold, silver chrome & white ceiling balloons",
+              "Silver heart foil + clear bubble balloons on bed",
+              "Floor balloon spill styling",
+            ]}
+            rating={4.8}
             reviews={109}
-            offer={<>₹8,999</>}
-            original={<>₹9,999</>}
-            discountPct={10}
+            offer={<>₹1,999</>}
+            original={<>₹3,499</>}
+            discountPct={43}
             bestSeller={false}
           />
           <StaticPackageCard
             id="bachelorette-decoration-premium"
             name="Premium Bachelorette Decoration"
-            description="An upgraded bachelorette decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/48692914-e809-4527-a8d3-a55e5cb89842.webp"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            description="An elegant boho setup with a ribbed ivory arch panel, glowing 'Bride To Be' neon sign, an organic purple-cream-white balloon garland with a white cloud cluster, pampas grass starburst and a satin-draped cocktail table with candles."
+            image={b2.url}
+            includes={[
+              "Ivory ribbed arch panel backdrop",
+              "'Bride To Be' neon sign",
+              "Purple, cream & white organic balloon garland",
+              "Pampas starburst + satin cocktail table with candles",
+            ]}
             rating={4.9}
             reviews={152}
-            offer={<>₹7,999</>}
-            original={<>₹9,999</>}
-            discountPct={20}
-            bestSeller={false}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
+            bestSeller
           />
           <StaticPackageCard
             id="bachelorette-decoration-luxury"
             name="Luxury Bachelorette Decoration"
-            description="A full luxury bachelorette decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.800000000000001}
+            description="A glamorous gold shimmer-sequin wall with a 'Bride to be' neon sign, light-up marquee ring, 'She Said Yes' and heart foils, a lush rose-gold and silver chrome balloon garland with flowers and pampas, plus a floor balloon carpet."
+            image={b3.url}
+            includes={[
+              "Gold shimmer sequin wall backdrop",
+              "'Bride To Be' neon sign + light-up marquee ring",
+              "Rose gold & silver chrome balloon garland with florals",
+              "'She Said Yes', heart & champagne foil balloons",
+            ]}
+            rating={4.8}
             reviews={253}
-            offer={<>₹12,999</>}
-            original={<>₹18,999</>}
-            discountPct={32}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
+          {NEW_CARDS.map((c) => (
+            <StaticPackageCard
+              key={c.id}
+              id={c.id}
+              name={c.name}
+              description={c.description}
+              image={c.image}
+              includes={c.includes}
+              rating={c.rating}
+              reviews={c.reviews}
+              offer={<>{c.offer}</>}
+              original={<>{c.original}</>}
+              discountPct={c.discountPct}
+            />
+          ))}
         </div>
+
       </section>
 
       <section className="bg-secondary/40 py-14">
