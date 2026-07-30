@@ -8,6 +8,148 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import b1 from "@/assets/bach-b1.jpg.asset.json";
+import b2 from "@/assets/bach-b2.webp.asset.json";
+import b3 from "@/assets/bach-b3.jpg.asset.json";
+import b4 from "@/assets/bach-b4.jpg.asset.json";
+import b5 from "@/assets/bach-b5.jpg.asset.json";
+import b6 from "@/assets/bach-b6.jpg.asset.json";
+import b7 from "@/assets/bach-b7.jpg.asset.json";
+import b8 from "@/assets/bach-b8.png.asset.json";
+import b9 from "@/assets/bach-b9.png.asset.json";
+import b10 from "@/assets/bach-b10.png.asset.json";
+
+const NEW_CARDS = [
+  {
+    id: "bachelorette-pink-gold-bride-to-be-arch",
+    name: "Pink & Gold 'Bride To Be' Arch Decoration",
+    description:
+      "A blush-pink round backdrop with a gold 'Bride To Be' script, wrapped in a pink, rose-gold and chrome-gold balloon garland with fresh rose clusters, pampas and white cylinder pedestals for the cake and bouquet.",
+    image: b4.url,
+    includes: [
+      "Pink round backdrop with gold 'Bride To Be' lettering",
+      "Pink, rose gold & chrome gold balloon garland",
+      "Pink rose + pampas floral corners",
+      "2 white cylinder pedestals & pink walkway carpet",
+    ],
+    rating: 4.9,
+    reviews: 186,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-black-silver-groom-to-be",
+    name: "Black & Silver 'Groom To Be' Sequin Wall Setup",
+    description:
+      "A dapper bachelor-side setup with a shimmering silver sequin wall, black 'Groom to Be' glitter board, black-silver-chrome balloon garland, white orchid vase, welcome signage and pedestals for the cake and cupcakes.",
+    image: b5.url,
+    includes: [
+      "Silver shimmer sequin wall panel",
+      "'Groom To Be' glitter board + personalised welcome sign",
+      "Black, silver & chrome balloon garland",
+      "2 cylinder pedestals + white floral arrangement",
+    ],
+    rating: 4.8,
+    reviews: 142,
+    offer: "₹6,999",
+    original: "₹9,999",
+    discountPct: 30,
+  },
+  {
+    id: "bachelorette-black-white-neon-bride-to-be",
+    name: "Monochrome Neon 'Bride To Be' Ring Setup",
+    description:
+      "A moody black-and-white theme with a white drape backdrop, glowing 'Bride To Be' neon sign, marquee light-up ring, black & white balloon spiral with confetti balloons and a dried palm-leaf floral accent.",
+    image: b6.url,
+    includes: [
+      "White drape + black curtain backdrop",
+      "'Bride To Be' neon sign & light-up marquee ring",
+      "Black, white & confetti balloon spiral garland",
+      "Dried palm leaf and rose floral accent",
+    ],
+    rating: 4.9,
+    reviews: 121,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "bachelorette-rose-gold-ceiling-bride-room",
+    name: "Rose Gold Ceiling 'BRIDE' Hotel Room Surprise",
+    description:
+      "A dreamy hotel-room surprise with a full ceiling of helium rose-gold and blush balloons with curling ribbons, giant rose-gold BRIDE foil letters on the wall and chrome balloons scattered across the bed.",
+    image: b7.url,
+    includes: [
+      "Helium rose gold & blush ceiling balloons with ribbons",
+      "Rose gold 'BRIDE' foil letter set",
+      "Chrome balloons styled on the bed",
+      "Complete on-site setup & cleanup",
+    ],
+    rating: 4.8,
+    reviews: 168,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-bachelor-party-ring-arch",
+    name: "'Bachelor Party' Black & Silver Ring Arch",
+    description:
+      "A bold last-fling setup on a gold ring frame with a printed 'Bachelor Party' board, black-silver-white balloon garland, giant champagne bottle and Cheers glass foils plus blue hydrangea floral pops.",
+    image: b8.url,
+    includes: [
+      "Gold circular ring frame arch",
+      "'Bachelor Party' printed signage board",
+      "Black, silver & white balloon garland",
+      "Champagne bottle + 'Cheers' glass foil balloons",
+    ],
+    rating: 4.8,
+    reviews: 97,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "bachelorette-shes-tying-the-knot-bow",
+    name: "'She's Tying The Knot' Black Bow Backdrop",
+    description:
+      "A chic Parisian-style setup with a matte black round backdrop printed 'She's Tying The Knot', an all-white balloon garland tied with black satin bows and one oversized black velvet bow statement piece.",
+    image: b9.url,
+    includes: [
+      "Black round backdrop with custom quote print",
+      "All-white balloon garland with black satin bows",
+      "Oversized black velvet statement bow",
+      "Floor balloon spill styling",
+    ],
+    rating: 4.9,
+    reviews: 134,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-rose-gold-butterfly-neon-ring",
+    name: "Rose Gold Butterfly 'Bride To Be' Neon Ring",
+    description:
+      "A glamorous ring arch in rose gold, copper chrome and white balloons with paper butterflies, a glowing 'Bride to be' neon sign, light-up marquee ring, gold cocktail table and a 'Let's Party' champagne foil.",
+    image: b10.url,
+    includes: [
+      "Rose gold, copper & white ring balloon arch",
+      "'Bride To Be' neon sign + light-up marquee ring",
+      "Paper butterfly cutout styling",
+      "Gold cocktail table & champagne foil balloon",
+    ],
+    rating: 4.9,
+    reviews: 158,
+    offer: "₹4,499",
+    original: "₹6,999",
+    discountPct: 36,
+  },
+];
+
+const GALLERY = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
+
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
   loader: () => {
