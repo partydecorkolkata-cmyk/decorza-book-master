@@ -76,12 +76,13 @@ const KIDS_THEME = [
 
 // Bachelorette — neon, glam, balloon clouds
 const BACHELORETTE_DECOR = [
+  "/__l5e/assets-v1/0b70ae51-cd5f-41f3-815e-265b7c5a2f0f/bach-cover.jpg", // rose gold BRIDE hotel room
   "photo-1535378620166-273708d44e4c", // gold balloon glam decor
   "photo-1583244532610-2a234ba29bee", // balloon garland glam
   "/kids-theme-6.jpg", // pastel bachelorette
   "/kids-theme-7.jpg", // bridal number balloons
-  "/kids-theme-5.webp", // balloon arch backdrop
 ];
+
 
 // Corporate — branded backdrops, stage lighting for launches
 const CORPORATE_DECOR = [
@@ -99,7 +100,7 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
   "engagement-decoration": ["/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
   "haldi-decoration": ["/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg", "/haldi-ring-decoration.png", "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png", "/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/f0430936-2c24-4bc9-b390-1c2e533e7ec4.jpg", "/6774f332-8168-4bc0-bfa4-53c82b9ea5b1.jpg", "/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg", "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg", "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png"],
   "mehendi-decoration": ["/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
-  "bachelorette-decoration": ["/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg", "/48692914-e809-4527-a8d3-a55e5cb89842.webp", "/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg", "/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg"],
+  "bachelorette-decoration": ["/__l5e/assets-v1/0b70ae51-cd5f-41f3-815e-265b7c5a2f0f/bach-cover.jpg", "/__l5e/assets-v1/079ea744-b96b-41cc-8f90-38897fb6dff8/bach-b1.jpg", "/__l5e/assets-v1/abc1c317-8be6-42c7-a597-2ad901f76a52/bach-b2.webp", "/__l5e/assets-v1/9cb79582-2368-49a8-9c63-2879254d613c/bach-b3.jpg"],
 };
 
 const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
@@ -432,6 +433,19 @@ export const BUDGET_BUCKETS = [
 ];
 
 export const REVIEWS = [
+  ["Shreya Malhotra", "Delhi", "Bachelorette Decoration", "Booked the rose gold BRIDE hotel room surprise for my sister. We walked in and she started crying happy tears. Ceiling balloons were perfectly filled and stayed up for 2 days.", 5],
+  ["Ritu Agarwal", "Mumbai", "Bachelorette Decoration", "The Bride To Be neon sign with the ivory arch looked exactly like the photo. Team came at 6 am to set up before the brunch. Zero mess left behind.", 5],
+  ["Ayesha Khan", "Bengaluru", "Bachelorette Decoration", "We took the gold sequin wall package. Every single photo from that night looks like a magazine shoot. Coordinator kept updating on WhatsApp throughout.", 5],
+  ["Nikita Desai", "Pune", "Bachelorette Decoration", "Pink and gold arch with fresh roses \u2014 the flowers were genuinely fresh, not the plastic ones other vendors send. Slightly late by 20 mins but they made up for it.", 4],
+  ["Rahul Chowdhury", "Kolkata", "Bachelorette Decoration", "Ordered the Bachelor Party ring arch for my best friend. Champagne foils and black-silver garland were bang on. Boys loved it.", 5],
+  ["Tanya Sethi", "Delhi", "Bachelorette Decoration", "The She's Tying The Knot black bow backdrop is even prettier in person. Got it done in a rented villa and they handled everything.", 5],
+  ["Pooja Iyer", "Hyderabad", "Bachelorette Decoration", "Butterfly neon ring setup for my cousin's bach party. The light-up ring made all our night photos glow. Booked just 2 days before and they still managed.", 5],
+  ["Meghna Bose", "Siliguri", "Bachelorette Decoration", "Budget was tight so we took the essential room decor. Honestly did not expect this much for the price. Rose gold balloons were premium quality.", 5],
+  ["Sanya Kapoor", "Mumbai", "Bachelorette Decoration", "Groom to be sequin wall setup for my fianc\u00e9's party. Personalised welcome sign was a lovely touch. Team was polite and quick.", 5],
+  ["Divya Menon", "Bengaluru", "Bachelorette Decoration", "Monochrome neon setup at our Airbnb. They confirmed the venue rules beforehand and cleaned up completely after. Very professional.", 5],
+  ["Ishaani Roy", "Kolkata", "Bachelorette Decoration", "Loved the pampas and balloon combination. Only wish the cocktail table was slightly bigger, but the decor itself was flawless.", 4],
+  ["Aditi Verma", "Delhi", "Bachelorette Decoration", "Third time booking with Decorza. Bride squad was screaming when they saw the room. Payment process was simple, no hidden charges.", 5],
+
   ["Aarav Sharma", "Mumbai", "Birthday Decoration", "The setup was absolutely magical. Worth every rupee.", 5],
   ["Priya Banerjee", "Kolkata", "Anniversary Decoration", "Punctual, premium quality balloons and gorgeous flowers. Highly recommended.", 5],
   ["Rohan Mehta", "Delhi", "Proposal Decoration", "She said yes! The car boot decoration was beyond what I imagined.", 5],

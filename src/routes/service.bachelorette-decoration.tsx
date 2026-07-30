@@ -18,6 +18,7 @@ import b7 from "@/assets/bach-b7.jpg.asset.json";
 import b8 from "@/assets/bach-b8.png.asset.json";
 import b9 from "@/assets/bach-b9.png.asset.json";
 import b10 from "@/assets/bach-b10.png.asset.json";
+import cover from "@/assets/bach-cover.jpg.asset.json";
 
 const NEW_CARDS = [
   {
@@ -148,7 +149,7 @@ const NEW_CARDS = [
   },
 ];
 
-const GALLERY = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
+const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
 
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
@@ -162,7 +163,7 @@ export const Route = createFileRoute("/service/bachelorette-decoration")({
       { title: `Bachelorette Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad. Book on WhatsApp.` },
       { property: "og:title", content: `Bachelorette Decoration | Decorza Events` },
-      { property: "og:image", content: "/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" },
+      { property: "og:image", content: cover.url },
     ],
     links: [{ rel: "canonical", href: "/service/bachelorette-decoration" }],
   }),
@@ -179,7 +180,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration" className="h-full w-full object-cover" />
+          <img src={cover.url} alt="Bachelorette Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -283,11 +284,6 @@ function ServicePage() {
             {GALLERY.map((src, i) => (
               <img key={src} src={src} alt={`Bachelorette Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
-            <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Bachelorette Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Bachelorette Decoration 13" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg" alt="Bachelorette Decoration 14" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-
           </div>
         </div>
       </section>
