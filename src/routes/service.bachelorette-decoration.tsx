@@ -280,10 +280,14 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Bachelorette Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Bachelorette Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Bachelorette Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg" alt="Bachelorette Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {GALLERY.map((src, i) => (
+              <img key={src} src={src} alt={`Bachelorette Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
+            <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Bachelorette Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Bachelorette Decoration 13" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            <img src="/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg" alt="Bachelorette Decoration 14" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+
           </div>
         </div>
       </section>
