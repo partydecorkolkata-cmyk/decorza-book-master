@@ -149,7 +149,7 @@ const NEW_CARDS = [
   },
 ];
 
-const GALLERY = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
+const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
 
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
@@ -163,7 +163,7 @@ export const Route = createFileRoute("/service/bachelorette-decoration")({
       { title: `Bachelorette Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad. Book on WhatsApp.` },
       { property: "og:title", content: `Bachelorette Decoration | Decorza Events` },
-      { property: "og:image", content: "/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" },
+      { property: "og:image", content: cover.url },
     ],
     links: [{ rel: "canonical", href: "/service/bachelorette-decoration" }],
   }),
@@ -180,7 +180,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration" className="h-full w-full object-cover" />
+          <img src=cover.url alt="Bachelorette Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
