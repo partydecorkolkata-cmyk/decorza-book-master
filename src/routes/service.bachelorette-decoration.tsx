@@ -18,6 +18,7 @@ import b7 from "@/assets/bach-b7.jpg.asset.json";
 import b8 from "@/assets/bach-b8.png.asset.json";
 import b9 from "@/assets/bach-b9.png.asset.json";
 import b10 from "@/assets/bach-b10.png.asset.json";
+import cover from "@/assets/bach-cover.jpg.asset.json";
 
 const NEW_CARDS = [
   {
@@ -283,11 +284,6 @@ function ServicePage() {
             {GALLERY.map((src, i) => (
               <img key={src} src={src} alt={`Bachelorette Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
-            <img src="/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg" alt="Bachelorette Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/48692914-e809-4527-a8d3-a55e5cb89842.webp" alt="Bachelorette Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg" alt="Bachelorette Decoration 13" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/f3ab7510-f01a-43e3-8829-dee6cbe70a88.jpg" alt="Bachelorette Decoration 14" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-
           </div>
         </div>
       </section>
