@@ -451,7 +451,7 @@ function ServicePage() {
             discountPct={30}
             bestSeller={false}
           />
-          {NEW_CARDS.map((c) => (
+          {[...NEW_CARDS, ...BATCH_C].map((c) => (
             <StaticPackageCard
               key={c.id}
               id={c.id}
