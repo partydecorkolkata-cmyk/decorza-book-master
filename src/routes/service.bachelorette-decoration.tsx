@@ -342,7 +342,7 @@ const NEW_CARDS = [
   },
 ];
 
-const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
+const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10].map((a) => a.url);
 
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
