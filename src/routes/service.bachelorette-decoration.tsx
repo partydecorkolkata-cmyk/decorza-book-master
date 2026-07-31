@@ -40,6 +40,190 @@ import d8 from "@/assets/bach-d8.jpg.asset.json";
 import d9 from "@/assets/bach-d9.jpg.asset.json";
 import d10 from "@/assets/bach-d10.webp.asset.json";
 
+const BATCH_E = [
+  {
+    id: "bachelorette-mauve-ivory-floral-arch-panel",
+    name: "Mauve & Ivory Floral 'Bride To Be' Arch Panel",
+    description:
+      "An elegant ivory arch panel with a gold glitter 'Bride To Be' cutout, wrapped in a chrome-mauve and ivory organic balloon garland studded with pink rose clusters and finished with a white pedestal plinth.",
+    image: e1.url,
+    includes: [
+      "Ivory arch backdrop panel",
+      "Gold glitter 'Bride To Be' cutout",
+      "Chrome mauve & ivory organic garland",
+      "Pink rose floral clusters + white plinth",
+    ],
+    rating: 4.9,
+    reviews: 132,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-gold-ivory-lit-arch-plinth",
+    name: "Gold & Ivory 'Bride To Be' Lit Arch Setup",
+    description:
+      "A blush arch backdrop with a gold 'Bride To Be' script, hugged by a dramatic gold chrome, ivory and pastel-yellow balloon garland, corner balloon cluster and warm uplighters with a cylinder plinth.",
+    image: e2.url,
+    includes: [
+      "Blush arch backdrop with gold script",
+      "Gold chrome, ivory & pastel balloon garland",
+      "Corner balloon cluster",
+      "2 warm LED uplighters + cylinder plinth",
+    ],
+    rating: 4.8,
+    reviews: 121,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-neon-gold-white-photo-frame",
+    name: "Neon 'Bride To Be' Gold & White Photo Frame Setup",
+    description:
+      "A luxe personalised photo-frame banner with a glowing white neon 'Bride To Be' sign, a tall gold and white balloon spiral with white hydrangea florals, and a floral-topped gold pedestal for cake or gifts.",
+    image: e3.url,
+    includes: [
+      "Personalised name & date frame banner",
+      "White neon 'Bride To Be' sign",
+      "Gold & white spiral balloon garland",
+      "White hydrangea florals + gold pedestal",
+    ],
+    rating: 4.9,
+    reviews: 146,
+    offer: "₹6,499",
+    original: "₹9,999",
+    discountPct: 35,
+  },
+  {
+    id: "bachelorette-rosegold-butterfly-neon-ring-marquee",
+    name: "Rose Gold Butterfly Neon Ring & Marquee Setup",
+    description:
+      "A full rose-gold, chrome and white balloon ring covered in gold butterflies, centred on a warm neon 'Bride To Be' ring sign, with a light-up marquee ring, champagne 'Let's Party' foil and a marble cocktail table.",
+    image: e4.url,
+    includes: [
+      "Rose gold, chrome & white balloon ring",
+      "Neon 'Bride To Be' ring sign",
+      "Gold butterfly cutouts",
+      "Marquee light-up ring + cocktail table",
+    ],
+    rating: 4.8,
+    reviews: 137,
+    offer: "₹4,499",
+    original: "₹6,999",
+    discountPct: 36,
+  },
+  {
+    id: "bachelorette-pink-gold-bride-to-be-foil-curtain",
+    name: "Pink & Gold 'BRIDE TO BE' Foil Curtain Decor",
+    description:
+      "A shimmer curtain backdrop with fairy lights and silver BRIDE TO BE foil letters, framed by a bold pink, white and chrome-gold balloon garland with heart foils and a rose-gold champagne bottle balloon.",
+    image: e5.url,
+    includes: [
+      "Shimmer curtain + fairy light backdrop",
+      "Silver 'BRIDE TO BE' foil letters",
+      "Pink, white & chrome gold balloon garland",
+      "Heart foils & champagne bottle balloon",
+    ],
+    rating: 4.7,
+    reviews: 98,
+    offer: "₹2,799",
+    original: "₹3,999",
+    discountPct: 30,
+  },
+  {
+    id: "bachelorette-gold-palm-leaf-neon-ring-arch",
+    name: "Gold Palm Leaf Neon Ring 'Bride To Be' Arch",
+    description:
+      "A fairy-lit round backdrop with a neon 'Bride to be' sign, dressed in gold palm-leaf fans and magenta florals, surrounded by a gold and white balloon ring with ring-box and heart foils and two balloon pillars.",
+    image: e6.url,
+    includes: [
+      "Fairy-light round backdrop + neon sign",
+      "Gold palm leaf fans & magenta florals",
+      "Gold & white balloon ring",
+      "Ring box & heart foils + 2 balloon pillars",
+    ],
+    rating: 4.9,
+    reviews: 128,
+    offer: "₹4,999",
+    original: "₹6,999",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-boho-rainbow-arch-pampas-neon",
+    name: "Boho Rainbow Arch Pampas Neon 'Bride To Be'",
+    description:
+      "A chic line-art rainbow arch panel with a warm neon 'Bride to be' sign, styled with a mauve, peach and ivory balloon cascade, a giant clear bubble balloon and a gold palm fan with white rose pampas spray.",
+    image: e7.url,
+    includes: [
+      "Line-art rainbow arch panel",
+      "Neon 'Bride to be' sign",
+      "Mauve, peach & ivory balloon cascade",
+      "Bubble balloon + gold fan & pampas florals",
+    ],
+    rating: 4.8,
+    reviews: 115,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-outdoor-fairy-light-cabana-bride",
+    name: "Outdoor Fairy Light Cabana 'Bride To Be' Party",
+    description:
+      "A magical garden cabana wrapped in curtain fairy lights with a pink 'Bride to be' arch panel, red and white balloon garland, floral ring stand and low mattress-style lounge seating with a lit centre table.",
+    image: e8.url,
+    includes: [
+      "Outdoor cabana frame with curtain fairy lights",
+      "Pink 'Bride to be' arch panel",
+      "Red & white balloon garland",
+      "Floral ring stand + lounge seating & low table",
+    ],
+    rating: 5,
+    reviews: 164,
+    offer: "₹12,499",
+    original: "₹17,999",
+    discountPct: 31,
+    bestSeller: true,
+  },
+  {
+    id: "bachelorette-pink-grey-rosegold-living-room",
+    name: "Pink, Grey & Rose Gold 'Bride To Be' Room Decor",
+    description:
+      "A white arch panel with a bold 'Bride To Be' print, framed by a pink, grey, white and rose-gold chrome balloon garland, floor balloon scatter, paper fan pedestals and ceiling helium balloon clusters.",
+    image: e9.url,
+    includes: [
+      "White 'Bride To Be' arch panel",
+      "Pink, grey & rose gold balloon garland",
+      "Ceiling helium balloon clusters",
+      "Paper fan pedestals + floor balloon scatter",
+    ],
+    rating: 4.7,
+    reviews: 109,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-white-gold-neon-dessert-arch",
+    name: "White & Gold Neon 'Bride To Be' Dessert Arch",
+    description:
+      "A premium white arch backdrop with a neon 'Bride to be' sign and giant gold chrome and white balloon arch dressed in baby's breath, styled with gold cake and dessert plinths trailing cherry-blossom vines.",
+    image: e10.url,
+    includes: [
+      "White arch backdrop + neon 'Bride to be' sign",
+      "Giant gold chrome & white balloon arch",
+      "Baby's breath floral accents",
+      "3 gold dessert/cake plinths with blossom vines",
+    ],
+    rating: 4.9,
+    reviews: 152,
+    offer: "₹6,499",
+    original: "₹9,999",
+    discountPct: 35,
+  },
+];
+
 const BATCH_D = [
   {
     id: "bachelorette-black-gold-cheers-fringe-arch",
