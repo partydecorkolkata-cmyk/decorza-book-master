@@ -39,6 +39,16 @@ import d7 from "@/assets/bach-d7.webp.asset.json";
 import d8 from "@/assets/bach-d8.jpg.asset.json";
 import d9 from "@/assets/bach-d9.jpg.asset.json";
 import d10 from "@/assets/bach-d10.webp.asset.json";
+import e1 from "@/assets/bach-e1.jpg.asset.json";
+import e2 from "@/assets/bach-e2.jpg.asset.json";
+import e3 from "@/assets/bach-e3.jpg.asset.json";
+import e4 from "@/assets/bach-e4.jpg.asset.json";
+import e5 from "@/assets/bach-e5.webp.asset.json";
+import e6 from "@/assets/bach-e6.webp.asset.json";
+import e7 from "@/assets/bach-e7.webp.asset.json";
+import e8 from "@/assets/bach-e8.jpg.asset.json";
+import e9 from "@/assets/bach-e9.jpg.asset.json";
+import e10 from "@/assets/bach-e10.jpg.asset.json";
 
 const BATCH_E = [
   {
