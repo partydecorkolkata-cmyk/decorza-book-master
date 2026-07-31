@@ -29,6 +29,199 @@ import c7 from "@/assets/bach-c7.jpg.asset.json";
 import c8 from "@/assets/bach-c8.jpg.asset.json";
 import c9 from "@/assets/bach-c9.jpg.asset.json";
 import c10 from "@/assets/bach-c10.jpg.asset.json";
+import d1 from "@/assets/bach-d1.jpg.asset.json";
+import d2 from "@/assets/bach-d2.jpg.asset.json";
+import d3 from "@/assets/bach-d3.jpg.asset.json";
+import d4 from "@/assets/bach-d4.webp.asset.json";
+import d5 from "@/assets/bach-d5.webp.asset.json";
+import d6 from "@/assets/bach-d6.jpg.asset.json";
+import d7 from "@/assets/bach-d7.webp.asset.json";
+import d8 from "@/assets/bach-d8.jpg.asset.json";
+import d9 from "@/assets/bach-d9.jpg.asset.json";
+import d10 from "@/assets/bach-d10.webp.asset.json";
+
+const BATCH_D = [
+  {
+    id: "bachelorette-black-gold-cheers-fringe-arch",
+    name: "Black & Gold 'BRIDE TO BE' Cheers Fringe Arch",
+    description:
+      "A glam black fringe curtain backdrop with gold BRIDE TO BE foil letters, framed by a lush black, chrome-gold and confetti balloon arch with rose-gold champagne bottle, 'Cheers' glass, star and crown foil balloons.",
+    image: d1.url,
+    includes: [
+      "Black fringe curtain backdrop",
+      "Gold 'BRIDE TO BE' foil letters",
+      "Black, chrome gold & confetti balloon arch",
+      "Champagne, 'Cheers' glass, star & crown foils",
+    ],
+    rating: 4.8,
+    reviews: 118,
+    offer: "₹2,799",
+    original: "₹3,999",
+    discountPct: 30,
+  },
+  {
+    id: "bachelorette-rosegold-silver-fringe-bride-to-be",
+    name: "Rose Gold & White 'BRIDE TO BE' Silver Fringe Setup",
+    description:
+      "A soft rose-gold and white balloon garland arch over a shimmering silver fringe curtain with gold BRIDE TO BE foil letters, a rose-gold heart foil, diamond ring balloon and a champagne bottle foil accent.",
+    image: d2.url,
+    includes: [
+      "Silver fringe curtain backdrop",
+      "Gold 'BRIDE TO BE' foil letters",
+      "Rose gold, white & confetti balloon garland",
+      "Heart, diamond ring & champagne bottle foils",
+    ],
+    rating: 4.7,
+    reviews: 104,
+    offer: "₹2,699",
+    original: "₹3,499",
+    discountPct: 23,
+  },
+  {
+    id: "bachelorette-ivory-white-chrome-arch-panel",
+    name: "Ivory & Chrome 'Bride to Be' Arch Panel",
+    description:
+      "An understated luxe setup with a cream arch panel printed 'Bride to Be' in elegant script, wrapped in an organic white, chrome-silver and gold balloon garland with clear bubble balloons and a matching floor cluster.",
+    image: d3.url,
+    includes: [
+      "Ivory arch panel with 'Bride to Be' script",
+      "White, chrome silver & gold organic garland",
+      "Clear bubble balloon accents",
+      "Matching floor balloon cluster",
+    ],
+    rating: 4.9,
+    reviews: 137,
+    offer: "₹4,499",
+    original: "₹6,999",
+    discountPct: 36,
+  },
+  {
+    id: "bachelorette-sunflower-yellow-bride-to-be",
+    name: "Sunflower Yellow 'Bride To Be' Floral Arch",
+    description:
+      "A bright sunflower theme with a white arch panel, black 'Bride To Be' lettering, a yellow, mustard, white and chrome-silver balloon garland loaded with fresh sunflowers, daisies and eucalyptus plus two floor balloon columns.",
+    image: d4.url,
+    includes: [
+      "White arch panel with 'Bride To Be' decal",
+      "Yellow, mustard, white & chrome balloon garland",
+      "Sunflower, daisy & eucalyptus florals",
+      "2 matching floor balloon columns",
+    ],
+    rating: 4.9,
+    reviews: 162,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-black-silver-neon-arch-panel",
+    name: "Black & Silver Neon 'Bride To Be' Arch",
+    description:
+      "A moody black arch panel lit by a pink 'Bride To Be' neon sign, dressed with a bold black, chrome-silver and clear bubble balloon garland, oversized orbz balloons and a blush cylinder pedestal for the cake.",
+    image: d5.url,
+    includes: [
+      "Black arch panel with pink 'Bride To Be' neon",
+      "Black, chrome silver & bubble balloon garland",
+      "Giant chrome orbz balloon accents",
+      "Blush cylinder pedestal for cake",
+    ],
+    rating: 4.8,
+    reviews: 126,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-poolside-groom-to-be-arch",
+    name: "Poolside 'Groom To Be' Cream & Black Arch",
+    description:
+      "A stylish poolside bachelor setup with a ribbed cream arch panel, a glowing 'Groom To Be' neon sign, a flowing black, cream and chrome-silver balloon garland and a matching fluted pedestal under hanging lanterns.",
+    image: d6.url,
+    includes: [
+      "Ribbed cream arch panel backdrop",
+      "'Groom To Be' neon sign",
+      "Black, cream & chrome silver balloon garland",
+      "Fluted cream pedestal + outdoor setup",
+    ],
+    rating: 4.8,
+    reviews: 89,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-garden-pink-white-bride-panel",
+    name: "Garden Pink & White 'Bride To Be' Panel Setup",
+    description:
+      "An outdoor lawn setup with a lilac printed bride-illustration arch panel, a pink and white balloon garland with clear bubble balloons, a giant champagne bottle foil, gold side table and a dried pampas floral arrangement.",
+    image: d7.url,
+    includes: [
+      "Printed bride-illustration arch panel",
+      "Pink & white balloon garland with bubbles",
+      "Giant champagne bottle foil balloon",
+      "Gold side table + pampas floral spray",
+    ],
+    rating: 4.9,
+    reviews: 143,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-blush-gold-rose-arch-panel",
+    name: "Blush & Gold 'Bride To Be' Rose Arch",
+    description:
+      "A romantic lilac-blush arch panel with gold cursive 'Bride To Be' lettering, a chrome-gold, rose-gold and blush balloon garland cascading down both sides and a fresh rose corner spray against black drapes.",
+    image: d8.url,
+    includes: [
+      "Blush arch panel with gold 'Bride To Be' script",
+      "Chrome gold, rose gold & blush balloon garland",
+      "Fresh rose floral corner spray",
+      "Black drape backdrop framing",
+    ],
+    rating: 4.9,
+    reviews: 171,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-fairy-light-purple-pink-bride",
+    name: "Fairy Light Purple & Pink 'BRIDE TO BE' Wall",
+    description:
+      "A dreamy home setup with a sheer curtain wall lit by warm fairy lights, gold BRIDE TO BE foil letters, a purple, pink and chrome-gold balloon garland on top, two balloon flowers and a floor balloon spill.",
+    image: d9.url,
+    includes: [
+      "Sheer curtain wall with fairy lights",
+      "Gold 'BRIDE TO BE' foil letters",
+      "Purple, pink & chrome gold balloon garland",
+      "2 balloon flowers + floor balloon spill",
+    ],
+    rating: 4.8,
+    reviews: 132,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-hot-pink-coral-neon-arch",
+    name: "Hot Pink & Coral Neon 'Bride To Be' Arch",
+    description:
+      "A vibrant hot-pink arch panel with a yellow 'Bride To Be' neon sign, a coral, ivory and copper-chrome organic balloon garland with dried palm fans and a gold cocktail table for the cake.",
+    image: d10.url,
+    includes: [
+      "Hot pink arch panel with yellow neon sign",
+      "Coral, ivory & copper chrome balloon garland",
+      "Dried palm fan styling",
+      "Gold cocktail table for cake",
+    ],
+    rating: 4.9,
+    reviews: 154,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+];
 
 const BATCH_C = [
   {
