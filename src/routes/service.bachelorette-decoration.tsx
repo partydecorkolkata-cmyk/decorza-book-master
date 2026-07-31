@@ -19,6 +19,199 @@ import b8 from "@/assets/bach-b8.png.asset.json";
 import b9 from "@/assets/bach-b9.png.asset.json";
 import b10 from "@/assets/bach-b10.png.asset.json";
 import cover from "@/assets/bach-cover.jpg.asset.json";
+import c1 from "@/assets/bach-c1.jpg.asset.json";
+import c2 from "@/assets/bach-c2.jpg.asset.json";
+import c3 from "@/assets/bach-c3.jpg.asset.json";
+import c4 from "@/assets/bach-c4.jpg.asset.json";
+import c5 from "@/assets/bach-c5.jpg.asset.json";
+import c6 from "@/assets/bach-c6.jpg.asset.json";
+import c7 from "@/assets/bach-c7.jpg.asset.json";
+import c8 from "@/assets/bach-c8.jpg.asset.json";
+import c9 from "@/assets/bach-c9.jpg.asset.json";
+import c10 from "@/assets/bach-c10.jpg.asset.json";
+
+const BATCH_C = [
+  {
+    id: "bachelorette-rose-gold-fringe-bride-room",
+    name: "Rose Gold Fringe 'BRIDE' Hotel Room Setup",
+    description:
+      "A rose-gold hotel room surprise with a shimmering fringe curtain backdrop, rose-gold BRIDE foil letters, a diamond ring and champagne bottle foil, a full helium ceiling of chrome, white and confetti balloons and a bed covered in balloons.",
+    image: c1.url,
+    includes: [
+      "Rose gold fringe curtain backdrop",
+      "Rose gold 'BRIDE' foil letters + ring & champagne foils",
+      "Helium rose gold, white & confetti ceiling balloons",
+      "Balloon-covered bed styling",
+    ],
+    rating: 4.8,
+    reviews: 128,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-rooftop-cabana-bride-to-be",
+    name: "Rooftop Cabana 'Bride To Be' Ring Arch Party",
+    description:
+      "A full rooftop bachelorette cabana with fairy-light curtain walls, hanging paper lanterns and greenery, a rose-gold and white ring balloon arch with a 'Bride To Be' neon sign, floor mattress seating with cushions and floral table styling.",
+    image: c2.url,
+    includes: [
+      "Rooftop cabana frame with fairy light curtains",
+      "Rose gold & white ring balloon arch + 'Bride To Be' neon",
+      "Hanging lanterns, greenery & 4 balloon pillars",
+      "Floor mattress seating, cushions & floral table runner",
+    ],
+    rating: 4.9,
+    reviews: 96,
+    offer: "₹11,999",
+    original: "₹14,999",
+    discountPct: 20,
+  },
+  {
+    id: "bachelorette-gold-black-groom-to-be-room",
+    name: "Gold & Black 'GROOM TO BE' Living Room Setup",
+    description:
+      "A bold bachelor party setup with giant gold GROOM TO BE foil letters on the wall, a gold ring and champagne bottle foil, a full ceiling of gold, black and silver helium balloons and balloons scattered across the floor.",
+    image: c3.url,
+    includes: [
+      "Gold 'GROOM TO BE' foil letter set",
+      "Gold diamond ring + champagne bottle foil balloons",
+      "Gold, black & silver helium ceiling balloons",
+      "Floor balloon spill styling",
+    ],
+    rating: 4.8,
+    reviews: 112,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-black-gold-bride-to-be-fringe",
+    name: "Black & Gold 'BRIDE TO BE' Fringe Arch",
+    description:
+      "A glam black fringe curtain backdrop with gold BRIDE TO BE foil letters, a heart foil and diamond ring balloon, framed by a dramatic black and chrome-gold balloon arch with a champagne bottle foil accent.",
+    image: c4.url,
+    includes: [
+      "Black fringe curtain backdrop",
+      "Gold 'BRIDE TO BE' foil letters + heart & ring foils",
+      "Black & chrome gold balloon arch",
+      "Champagne bottle foil balloon",
+    ],
+    rating: 4.9,
+    reviews: 141,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-blush-chrome-bride-to-be-wall",
+    name: "Blush Chrome 'BRIDE TO BE' Wall & Ceiling",
+    description:
+      "A soft blush and white theme with rose-gold BRIDE TO BE foil letters on the wall, heart and diamond-ring foils, a chrome and white helium ceiling with curling ribbons and a floor carpet of confetti balloons.",
+    image: c5.url,
+    includes: [
+      "Rose gold 'BRIDE TO BE' foil lettering",
+      "Heart + diamond ring foil balloons",
+      "Chrome, white & blush helium ceiling with ribbons",
+      "Confetti balloon floor carpet",
+    ],
+    rating: 4.8,
+    reviews: 104,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "bachelorette-peach-gold-boho-neon-arch",
+    name: "Peach & Gold Boho 'Bride To Be' Neon Arch",
+    description:
+      "An elegant boho arch panel with a glowing 'Bride to be' neon sign, an organic peach, white and chrome-gold balloon garland with dried palm fans, pampas accents and a silver cocktail table for the cake.",
+    image: c6.url,
+    includes: [
+      "Ivory arch panel with 'Bride To Be' neon sign",
+      "Peach, white & chrome gold organic balloon garland",
+      "Dried palm fan & pampas styling",
+      "Silver cocktail table for cake",
+    ],
+    rating: 4.9,
+    reviews: 173,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-pink-white-foil-curtain-arch",
+    name: "Pink & White 'Bride to be' Foil Curtain Arch",
+    description:
+      "A budget-friendly home setup with a pink and white balloon square arch, a shimmering magenta and silver foil curtain backdrop, a gold 'Bride to be' cursive cutout and a styled side table for cake and gifts.",
+    image: c7.url,
+    includes: [
+      "Pink & white balloon square arch",
+      "Magenta + silver foil curtain backdrop",
+      "Gold 'Bride to be' cursive cutout",
+      "Side table styling for cake",
+    ],
+    rating: 4.7,
+    reviews: 118,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-garden-pastel-neon-arch",
+    name: "Garden Pastel Neon 'Bride To Be' Arch Setup",
+    description:
+      "An outdoor garden setup with a lilac arch panel lit by a pink 'Bride to be' neon sign, a vibrant pink, peach and yellow balloon garland with fresh florals, hanging star lights and confetti balloon pillars.",
+    image: c8.url,
+    includes: [
+      "Lilac arch panel with pink 'Bride To Be' neon",
+      "Pink, peach & yellow balloon garland with florals",
+      "Hanging star fairy lights",
+      "2 confetti balloon pillars + cake table",
+    ],
+    rating: 4.9,
+    reviews: 149,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-pink-ribbon-ceiling-bride-to-be",
+    name: "Pink Ribbon Ceiling 'BRIDE TO BE' Room Decor",
+    description:
+      "A pretty-in-pink room surprise with a full ceiling of pink and white balloons trailing curling ribbons, silver-pink BRIDE TO BE foil letters on the wall, a heart-with-ring foil and matching balloon pillars.",
+    image: c9.url,
+    includes: [
+      "Pink & white ceiling balloons with curling ribbons",
+      "Silver-pink 'BRIDE TO BE' foil letters",
+      "Heart + diamond ring foil balloons",
+      "2 pink & white balloon pillars",
+    ],
+    rating: 4.8,
+    reviews: 132,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-magenta-rosegold-bride-to-be-arch",
+    name: "Magenta & Rose Gold 'BRIDE TO BE' Arch",
+    description:
+      "A vibrant magenta, rose-gold and white balloon arch with confetti balloons around a black fringe curtain backdrop, rose-gold BRIDE TO BE foil letters and a 'Let's Party' champagne bottle foil.",
+    image: c10.url,
+    includes: [
+      "Magenta, rose gold & white balloon arch",
+      "Black fringe curtain backdrop",
+      "Rose gold 'BRIDE TO BE' foil letters",
+      "'Let's Party' champagne foil balloon",
+    ],
+    rating: 4.8,
+    reviews: 126,
+    offer: "₹2,799",
+    original: "₹3,999",
+    discountPct: 30,
+  },
+];
 
 const NEW_CARDS = [
   {
@@ -149,7 +342,7 @@ const NEW_CARDS = [
   },
 ];
 
-const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10].map((a) => a.url);
+const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10].map((a) => a.url);
 
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
@@ -258,7 +451,7 @@ function ServicePage() {
             discountPct={30}
             bestSeller={false}
           />
-          {NEW_CARDS.map((c) => (
+          {[...NEW_CARDS, ...BATCH_C].map((c) => (
             <StaticPackageCard
               key={c.id}
               id={c.id}
