@@ -59,8 +59,205 @@ import f7 from "@/assets/bach-f7.jpg.asset.json";
 import f8 from "@/assets/bach-f8.jpg.asset.json";
 import f9 from "@/assets/bach-f9.webp.asset.json";
 import f10 from "@/assets/bach-f10.webp.asset.json";
+import g1 from "@/assets/bach-g1.jpg.asset.json";
+import g2 from "@/assets/bach-g2.jpg.asset.json";
+import g3 from "@/assets/bach-g3.jpg.asset.json";
+import g4 from "@/assets/bach-g4.webp.asset.json";
+import g5 from "@/assets/bach-g5.jpg.asset.json";
+import g6 from "@/assets/bach-g6.jpg.asset.json";
+import g7 from "@/assets/bach-g7.jpg.asset.json";
+import g8 from "@/assets/bach-g8.jpg.asset.json";
+import g9 from "@/assets/bach-g9.jpg.asset.json";
+import g10 from "@/assets/bach-g10.jpg.asset.json";
+
+const BATCH_G = [
+  {
+    id: "bachelorette-rosegold-peach-ring-room-arch",
+    name: "Rose Gold & Peach 'Bride To Be' Room Ring Arch",
+    description:
+      "A cosy at-home bedroom surprise built around a full ring arch of peach, ivory, rose gold and silver chrome balloons, with rose gold 'BRIDE TO BE' foil letters, a diamond ring foil, champagne bottle foil, hearts and palm leaf accents.",
+    image: g1.url,
+    includes: [
+      "Peach, ivory, rose gold & silver chrome ring arch",
+      "Rose gold 'BRIDE TO BE' foil letters",
+      "Diamond ring, champagne bottle & heart foils",
+      "Palm leaf accents + floor balloon spread",
+    ],
+    rating: 4.7,
+    reviews: 96,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "bachelorette-copper-butterfly-neon-ring-terrace",
+    name: "Copper Butterfly Neon 'Bride To Be' Terrace Arch",
+    description:
+      "A glowing terrace setup with a warm 'Bride To Be' neon on a green leaf wall, a copper, chrome brown and white balloon ring garland dotted with butterflies, a light-up ring prop, gold champagne bottle foil and a styled cocktail table.",
+    image: g2.url,
+    includes: [
+      "Green leaf wall with 'Bride To Be' neon sign",
+      "Copper, chrome & white ring balloon garland",
+      "Butterfly cutouts + light-up ring prop",
+      "Gold champagne foil & styled cocktail table",
+    ],
+    rating: 4.9,
+    reviews: 152,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+    bestSeller: true,
+  },
+  {
+    id: "bachelorette-silver-gold-wall-bride-hotel",
+    name: "Silver & Gold 'Bride To Be' Wall Cluster Setup",
+    description:
+      "A neat hotel-room wall decor with rose gold 'BRIDE TO BE' foil letters flanked by silver, gold and peach chrome balloon clusters, finished with heart foils, a diamond ring foil and a pink champagne bottle balloon.",
+    image: g3.url,
+    includes: [
+      "Rose gold 'BRIDE TO BE' foil letters",
+      "Silver, gold & peach chrome balloon clusters",
+      "Rose gold heart foils",
+      "Diamond ring + champagne bottle foil balloons",
+    ],
+    rating: 4.6,
+    reviews: 84,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "bachelorette-red-chrome-silver-butterfly-arch",
+    name: "Red Chrome & Silver Butterfly 'Bride To Be' Arch",
+    description:
+      "An elegant entryway arch panel printed with gold 'BRIDE to Be' lettering, cascaded with red chrome and silver balloons, silver butterflies and dried floral touches, plus a draped cocktail table with candle holders.",
+    image: g4.url,
+    includes: [
+      "Arch panel with gold 'Bride To Be' print",
+      "Red chrome & silver balloon cascade",
+      "Silver butterfly and dried floral accents",
+      "Draped cocktail table + 2 candle holders",
+    ],
+    rating: 4.8,
+    reviews: 127,
+    offer: "₹5,999",
+    original: "₹8,999",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-beach-floral-drape-bride-arch",
+    name: "Beach Floral & Drape 'Bride To Be' Arch",
+    description:
+      "A destination-style beach setup with a square frame arch heaped in red, coral and ivory roses, flowing white drapes on both pillars, a round 'Bride To Be' acrylic neon sign and a gold cake stand.",
+    image: g5.url,
+    includes: [
+      "Square frame arch with red & ivory rose runner",
+      "Flowing white drapes on both pillars",
+      "Round 'Bride To Be' acrylic neon sign",
+      "Gold spiral cake stand + on-site setup",
+    ],
+    rating: 4.9,
+    reviews: 168,
+    offer: "₹7,499",
+    original: "₹9,999",
+    discountPct: 25,
+    bestSeller: true,
+  },
+  {
+    id: "bachelorette-purple-pastel-floral-neon-arch",
+    name: "Purple Pastel Floral Neon 'Bride To Be' Arch",
+    description:
+      "A dreamy pastel arch backdrop with a glowing 'Bride to be' neon script, wrapped in lavender, butter yellow and plum chrome balloons studded with blush paper roses, plus a matching corner cluster, gold plinth and rattan pendant light.",
+    image: g6.url,
+    includes: [
+      "Pastel arch panel with 'Bride to be' neon script",
+      "Lavender, butter & plum chrome balloon garland",
+      "Blush paper rose floral studding",
+      "Gold plinth, corner cluster & rattan pendant",
+    ],
+    rating: 4.9,
+    reviews: 141,
+    offer: "₹5,499",
+    original: "₹7,999",
+    discountPct: 31,
+  },
+  {
+    id: "bachelorette-lilac-silver-neon-cakespot",
+    name: "Lilac & Silver Neon 'Bride To Be' Cake Corner",
+    description:
+      "A compact corner setup with a warm 'Bride to be' neon, a lilac, white and silver chrome balloon arch sweep, a silver balloon flower prop and a gold cake stand holding the celebration cake.",
+    image: g7.url,
+    includes: [
+      "'Bride to be' warm neon sign",
+      "Lilac, white & silver chrome balloon arch",
+      "Silver balloon flower prop",
+      "Gold cake stand + floor balloon cluster",
+    ],
+    rating: 4.7,
+    reviews: 102,
+    offer: "₹4,499",
+    original: "₹6,999",
+    discountPct: 36,
+  },
+  {
+    id: "bachelorette-lilac-pink-butter-panel-arch",
+    name: "Lilac Panel with Pink & Butter Balloon Cascade",
+    description:
+      "A clean lilac arch panel printed with a white 'Bride To Be' script, edged by a full-height organic cascade of butter yellow, cream and hot pink balloons for a bright, photo-ready backdrop.",
+    image: g8.url,
+    includes: [
+      "Lilac arch panel with white 'Bride To Be' print",
+      "Butter, cream & pink organic balloon cascade",
+      "Full-height side garland styling",
+      "Setup & same-day dismantling",
+    ],
+    rating: 4.6,
+    reviews: 78,
+    offer: "₹4,499",
+    original: "₹7,499",
+    discountPct: 40,
+  },
+  {
+    id: "bachelorette-silver-sequin-disco-bride-wall",
+    name: "Silver Sequin Disco 'Bride To Be' Shimmer Wall",
+    description:
+      "A luxe party-ready silver sequin shimmer wall with a glowing 'Bride To Be' neon, framed by towering white and silver chrome balloon columns, disco ball foils, mirror balls and a giant silver starburst.",
+    image: g9.url,
+    includes: [
+      "Silver sequin shimmer wall backdrop",
+      "'Bride To Be' warm neon sign",
+      "White & silver chrome balloon columns",
+      "Disco ball foils, mirror balls & starburst prop",
+    ],
+    rating: 5.0,
+    reviews: 189,
+    offer: "₹7,499",
+    original: "₹11,999",
+    discountPct: 38,
+    bestSeller: true,
+  },
+  {
+    id: "bachelorette-soon-to-be-mr-mrs-pastel-arch",
+    name: "'Soon To Be Mr & Mrs' Personalised Pastel Arch",
+    description:
+      "A romantic personalised arch backdrop printed with 'Soon to be Mr & Mrs' and your surname, dressed in a rose gold chrome, baby blue and white balloon cascade with ceiling helium balloons, floor balloons and warm uplighters.",
+    image: g10.url,
+    includes: [
+      "Personalised 'Soon to be Mr & Mrs' arch print",
+      "Rose gold, baby blue & white balloon cascade",
+      "Ceiling helium balloons with ribbons",
+      "Floor balloon spread + 3 warm uplighters",
+    ],
+    rating: 4.8,
+    reviews: 133,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+];
 
 const BATCH_F = [
+
   {
     id: "bachelorette-butter-yellow-gold-bride-arch",
     name: "Butter Yellow & Gold 'Bride To Be' Arch",
@@ -923,7 +1120,7 @@ const NEW_CARDS = [
   },
 ];
 
-const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10].map((a) => a.url);
+const GALLERY = [cover, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10].map((a) => a.url);
 
 
 export const Route = createFileRoute("/service/bachelorette-decoration")({
@@ -1032,7 +1229,7 @@ function ServicePage() {
             discountPct={30}
             bestSeller={false}
           />
-          {[...NEW_CARDS, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F].map((c) => (
+          {[...NEW_CARDS, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F, ...BATCH_G].map((c) => (
             <StaticPackageCard
               key={c.id}
               id={c.id}
