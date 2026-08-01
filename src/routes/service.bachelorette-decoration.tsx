@@ -49,6 +49,200 @@ import e7 from "@/assets/bach-e7.webp.asset.json";
 import e8 from "@/assets/bach-e8.jpg.asset.json";
 import e9 from "@/assets/bach-e9.jpg.asset.json";
 import e10 from "@/assets/bach-e10.jpg.asset.json";
+import f1 from "@/assets/bach-f1.jpg.asset.json";
+import f2 from "@/assets/bach-f2.png.asset.json";
+import f3 from "@/assets/bach-f3.png.asset.json";
+import f4 from "@/assets/bach-f4.webp.asset.json";
+import f5 from "@/assets/bach-f5.webp.asset.json";
+import f6 from "@/assets/bach-f6.jpg.asset.json";
+import f7 from "@/assets/bach-f7.jpg.asset.json";
+import f8 from "@/assets/bach-f8.jpg.asset.json";
+import f9 from "@/assets/bach-f9.webp.asset.json";
+import f10 from "@/assets/bach-f10.webp.asset.json";
+
+const BATCH_F = [
+  {
+    id: "bachelorette-butter-yellow-gold-bride-arch",
+    name: "Butter Yellow & Gold 'Bride To Be' Arch",
+    description:
+      "A soft blush arch panel with a hand-lettered gold 'Bride To Be' script, wrapped in a lush butter-yellow, ivory and gold chrome organic balloon garland with a matching corner cluster, plinth and floor uplighters.",
+    image: f1.url,
+    includes: [
+      "Blush arch panel with gold 'Bride To Be' script",
+      "Butter yellow, ivory & gold chrome garland",
+      "Corner balloon cluster",
+      "Cylinder plinth + 2 floor uplighters",
+    ],
+    rating: 4.8,
+    reviews: 118,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-black-silver-shimmer-groom-neon",
+    name: "Black & Silver Shimmer 'Groom To Be' Neon Wall",
+    description:
+      "A statement black sequin shimmer wall with a warm glowing 'Groom To Be' neon sign, framed by towering black and silver chrome balloon columns, a gold cocktail table and dramatic floor spotlights.",
+    image: f2.url,
+    includes: [
+      "Black sequin shimmer wall backdrop",
+      "Warm 'Groom To Be' neon sign",
+      "Black & silver chrome balloon columns",
+      "Gold cocktail table + 2 spotlights",
+    ],
+    rating: 4.9,
+    reviews: 146,
+    offer: "₹6,999",
+    original: "₹9,999",
+    discountPct: 30,
+    bestSeller: true,
+  },
+  {
+    id: "bachelorette-rosegold-silver-fringe-bride-foil",
+    name: "Rose Gold & Silver Fringe 'BRIDE TO BE' Setup",
+    description:
+      "A budget-friendly home setup with a silver foil fringe curtain, rose gold 'BRIDE TO BE' foil letters, ring and champagne balloons, plus a rose gold, white and silver balloon arch with star and heart foils.",
+    image: f3.url,
+    includes: [
+      "Silver foil fringe curtain backdrop",
+      "Rose gold 'BRIDE TO BE' foil letters",
+      "Ring, cheers glass & champagne foil balloons",
+      "Rose gold, white & silver balloon arch",
+    ],
+    rating: 4.7,
+    reviews: 203,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-pastel-lilac-floral-round-panel",
+    name: "Pastel Lilac Floral Personalised Bachelorette Panel",
+    description:
+      "A dreamy round blush panel with the bride's personalised name, encircled by a pastel lilac, mint and white balloon garland dressed with fresh-look florals, flower vases on white plinths and colour lighting.",
+    image: f4.url,
+    includes: [
+      "Round panel with personalised bride name",
+      "Pastel lilac, mint & white balloon garland",
+      "Mixed floral accents throughout",
+      "2 white plinths with flower vases + light",
+    ],
+    rating: 4.9,
+    reviews: 137,
+    offer: "₹5,999",
+    original: "₹8,499",
+    discountPct: 29,
+  },
+  {
+    id: "bachelorette-ivory-black-bow-groom-arch",
+    name: "Ivory & Black Bow 'Groom In The Making' Arch",
+    description:
+      "A chic outdoor ivory arch backdrop styled with an oversized black satin bow and an ivory-black balloon garland tied with tiny ribbon bows, set beside a gold cake stand under warm festoon lights.",
+    image: f5.url,
+    includes: [
+      "Ivory arch backdrop panel",
+      "Oversized black satin bow drape",
+      "Ivory & black balloon garland with ribbon bows",
+      "Gold cake stand + festoon light styling",
+    ],
+    rating: 4.8,
+    reviews: 109,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-black-silver-floral-groom-arch",
+    name: "Black & Silver Floral 'Groom To Be' Arch",
+    description:
+      "A classy black arch panel with white 'Groom To Be' lettering, wrapped in a black, silver chrome and white balloon garland accented with pink and red roses, plus two gold pedestals with balloon toppers.",
+    image: f6.url,
+    includes: [
+      "Black arch panel with white lettering",
+      "Black, silver chrome & white garland",
+      "Pink and red rose floral accents",
+      "2 gold pedestals with balloon clusters",
+    ],
+    rating: 4.8,
+    reviews: 124,
+    offer: "₹4,499",
+    original: "₹7,499",
+    discountPct: 40,
+  },
+  {
+    id: "bachelorette-rustic-groom-backdrop-props",
+    name: "Rustic 'Groom To Be' Backdrop with Props",
+    description:
+      "A moody charcoal arch backdrop with white script lettering, a black, ivory and silver chrome balloon garland on both sides, and rustic groom props — vintage trunk, cigar box and a 'Best Groom' hip flask on a gold table.",
+    image: f7.url,
+    includes: [
+      "Charcoal arch backdrop with white script",
+      "Black, ivory & silver chrome garlands",
+      "Gold pedestal table with cake riser",
+      "Rustic groom prop styling + uplighter",
+    ],
+    rating: 4.9,
+    reviews: 141,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-monochrome-floral-groom-arch",
+    name: "Monochrome Floral 'Groom To Be' Arch",
+    description:
+      "A tall black arch with silver 'Groom To Be' lettering against ivory drapes, dressed with a black-and-white balloon garland, blush and lilac rose clusters, a white flower spray and a gold pedestal stand.",
+    image: f8.url,
+    includes: [
+      "Black arch panel with silver lettering",
+      "Ivory drape backdrop",
+      "Black & white balloon garland",
+      "Blush/white floral sprays + gold pedestal",
+    ],
+    rating: 4.8,
+    reviews: 116,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+  },
+  {
+    id: "bachelorette-black-white-neon-groom-columns",
+    name: "Black & White Neon 'Groom To Be' Column Setup",
+    description:
+      "A bold black round backdrop with a hanging warm neon 'Groom To Be' sign, flanked by two towering black and white balloon columns and a fluted ivory pedestal — perfect for indoor home celebrations.",
+    image: f9.url,
+    includes: [
+      "Black round backdrop panel",
+      "Hanging warm neon 'Groom To Be' sign",
+      "2 tall black & white balloon columns",
+      "Fluted ivory pedestal stand",
+    ],
+    rating: 4.8,
+    reviews: 128,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "bachelorette-navy-sage-groom-arch-hyd",
+    name: "Navy & Sage Chrome 'GROOM TO BE' Arch",
+    description:
+      "A white arch backdrop with gold-black 'GROOM TO BE' cutouts, framed by an elegant navy, sage, silver chrome and white balloon garland with jumbo balloon accents, a gold wire table and warm uplighting.",
+    image: f10.url,
+    includes: [
+      "White arch backdrop panel",
+      "Gold & black 'GROOM TO BE' cutout letters",
+      "Navy, sage, silver chrome & white garland",
+      "Gold wire table + 2 warm uplighters",
+    ],
+    rating: 4.9,
+    reviews: 134,
+    offer: "₹5,599",
+    original: "₹7,999",
+    discountPct: 30,
+  },
+];
 
 const BATCH_E = [
   {
