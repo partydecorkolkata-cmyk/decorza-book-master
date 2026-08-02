@@ -216,7 +216,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Romantic Bedroom Decoration") },
   { slug: "car-boot-decoration", name: "Car Boot Decoration", short: "Surprise her with a car-boot proposal",
     description: "Roses, balloons, candles and LED setups inside your car boot \u2014 the most-loved surprise of the year.",
-    hero: img(ROMANTIC_DECOR[3]), gallery: pick(ROMANTIC_DECOR),
+    hero: "/__l5e/assets-v1/ad9f1e62-af27-4153-a9d3-4541718ae3f7/car-c8.jpg", gallery: pick(ROMANTIC_DECOR),
     rating: 4.9, reviews: 780, startsAt: 1999, popular: true, trending: true,
     faqs: baseFaqs("Car Boot Decoration") },
   { slug: "rice-ceremony-decoration", name: "Rice Ceremony / Annaprashan Decoration", short: "Traditional Annaprashan setups",
