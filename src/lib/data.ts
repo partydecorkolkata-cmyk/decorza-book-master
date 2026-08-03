@@ -433,6 +433,19 @@ export const BUDGET_BUCKETS = [
 ];
 
 export const REVIEWS = [
+  ["Arindam Ghosh", "Kolkata", "Car Boot Decoration", "Did the red heart and rose car boot surprise for our 5th anniversary. They reached the parking lot 40 minutes early and finished before she came down. Boot looked unreal at night with the fairy lights.", 5],
+  ["Sneha Pandey", "Delhi", "Car Boot Decoration", "Booked the photo string boot setup for my husband's birthday. They printed all 20 polaroids I sent on WhatsApp and clipped them neatly. He was speechless.", 5],
+  ["Vikram Reddy", "Hyderabad", "Car Boot Decoration", "Champagne bottle and gold balloon boot decor for a proposal. Team asked for my car model in advance so the arrangement fit the boot perfectly. Worth every rupee.", 5],
+  ["Priyanka Nair", "Bengaluru", "Car Boot Decoration", "The LOVE marquee light boot package was gorgeous. Only issue was they came 20 minutes late because of traffic, but the setup took just half an hour.", 4],
+  ["Rohit Sharma", "Mumbai", "Car Boot Decoration", "Number 21 balloons with red and gold fringe in the boot for my sister. Balloons stayed inflated the whole night even in the heat. Very neat work.", 5],
+  ["Ankita Das", "Siliguri", "Car Boot Decoration", "Ordered the teddy and rose bouquet boot surprise late at night. They confirmed on WhatsApp within minutes and delivered next morning outside our society gate.", 5],
+  ["Sourav Mitra", "Kolkata", "Car Boot Decoration", "Got the Oh Baby boot decoration for our baby announcement. Simple, clean and no glue marks or tape on the car interior. That mattered a lot to me.", 5],
+  ["Nidhi Joshi", "Pune", "Car Boot Decoration", "Pink and silver ribbon drop setup with cake in the boot. The cake was fresh and they carried a small stand so it did not tilt while opening the boot.", 5],
+  ["Imran Sheikh", "Delhi", "Car Boot Decoration", "Valentine LOVE petals setup. Genuinely romantic and the LED candles were battery ones, so no risk inside the car. Team also helped click a few photos.", 5],
+  ["Kavya Krishnan", "Bengaluru", "Car Boot Decoration", "Boot surprise for my mom's birthday in the mall parking. They handled the security permission part themselves. Very smooth experience.", 5],
+  ["Deepak Verma", "Hyderabad", "Car Boot Decoration", "Blue and gold gift hamper boot setup. Slightly fewer balloons than the picture, but they added extra fairy lights when I pointed it out. Good service.", 4],
+  ["Ruchi Bansal", "Mumbai", "Car Boot Decoration", "Chrome gold I Love You boot decor for our first date anniversary. Set up in a quiet spot near Marine Drive. Coordinator stayed on call the entire time.", 5],
+
   ["Shreya Malhotra", "Delhi", "Bachelorette Decoration", "Booked the rose gold BRIDE hotel room surprise for my sister. We walked in and she started crying happy tears. Ceiling balloons were perfectly filled and stayed up for 2 days.", 5],
   ["Ritu Agarwal", "Mumbai", "Bachelorette Decoration", "The Bride To Be neon sign with the ivory arch looked exactly like the photo. Team came at 6 am to set up before the brunch. Zero mess left behind.", 5],
   ["Ayesha Khan", "Bengaluru", "Bachelorette Decoration", "We took the gold sequin wall package. Every single photo from that night looks like a magazine shoot. Coordinator kept updating on WhatsApp throughout.", 5],
