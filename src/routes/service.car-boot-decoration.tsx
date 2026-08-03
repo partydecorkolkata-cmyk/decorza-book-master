@@ -638,7 +638,202 @@ const BATCH_E = [
   },
 ];
 
-const GALLERY = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10].map((a) => a.url);
+const BATCH_F = [
+  {
+    id: "car-boot-black-gold-photo-string-number",
+    name: "Black & Gold Photo String Number Car Boot Decoration",
+    description:
+      "A night-time car-boot surprise with a black and gold 'HAPPY BIRTHDAY' flag banner wrapped in warm fairy lights, two rows of your printed photos clipped across the boot, gold number foil balloons on both sides, red heart foils, a teddy and a bed of red rose petals.",
+    image: f1.url,
+    includes: [
+      "Black & gold 'HAPPY BIRTHDAY' flag banner",
+      "Two photo strings with your printed pictures (up to 16)",
+      "Gold number foil balloons (any age)",
+      "Red heart foils, black balloons & cute teddy",
+      "Rose petal bed with warm fairy lights",
+    ],
+    rating: 4.9,
+    reviews: 176,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+    bestSeller: true,
+  },
+  {
+    id: "car-boot-silver-champagne-memory-clips",
+    name: "Silver Champagne & Memory Clip Car Boot Decoration",
+    description:
+      "An elegant silver-themed boot setup with a glitter 'HAPPY BIRTHDAY' banner, colourful clothes-peg photo clips strung across the rear glass, silver number foil balloons, a giant champagne bottle foil, silver fringe curtain, star foils and a soft white base.",
+    image: f2.url,
+    includes: [
+      "Glitter 'HAPPY BIRTHDAY' banner",
+      "Colourful peg photo clip strings with fairy lights",
+      "Silver number foil balloons (any age)",
+      "Giant champagne bottle foil & silver star balloons",
+      "Silver fringe curtain with soft white base cloth",
+    ],
+    rating: 4.8,
+    reviews: 142,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "car-boot-red-yellow-fringe-balloon-pit",
+    name: "Red & Yellow Fringe Balloon Pit Car Boot Decoration",
+    description:
+      "A vibrant boot setup with a red foil fringe curtain backdrop, a white and gold 'HAPPY BIRTHDAY' banner, red and yellow helium balloons floating above the boot lid, mini photo prints pinned on top, red foil hearts and a full pit of red, pink and gold balloons with gold number foils.",
+    image: f3.url,
+    includes: [
+      "Red foil fringe curtain backdrop",
+      "White & gold 'HAPPY BIRTHDAY' banner",
+      "Floating red & yellow helium balloons",
+      "Mini photo prints & red heart foil balloons",
+      "Full balloon pit with gold number foils (any age)",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "car-boot-red-banner-polaroid-heart-clips",
+    name: "Red Banner Polaroid & Rose Bouquet Car Boot Decoration",
+    description:
+      "A romantic boot surprise with a large red and gold 'HAPPY BIRTHDAY' banner on the open lid, polaroid-style photos clipped with tiny red hearts, gold number foil balloons, a black-wrapped red rose bouquet, a gift box and a bed of red, maroon and chrome balloons with fairy lights.",
+    image: f4.url,
+    includes: [
+      "Big red & gold 'HAPPY BIRTHDAY' banner",
+      "Polaroid photo string with red heart clips",
+      "Gold number foil balloons (any age)",
+      "Black-wrapped red rose bouquet & gift box",
+      "Red, maroon & chrome balloon bed with fairy lights",
+    ],
+    rating: 4.9,
+    reviews: 167,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "car-boot-white-banner-led-champagne",
+    name: "White Banner LED Balloon & Champagne Car Boot Decoration",
+    description:
+      "A classy white and gold boot setup with a crisp white 'HAPPY BIRTHDAY' banner, a silver fringe curtain behind, glowing LED white balloons, gold number foil balloons, a giant champagne bottle foil and a pretty wrapped flower bouquet.",
+    image: f5.url,
+    includes: [
+      "White & gold 'HAPPY BIRTHDAY' banner",
+      "Silver fringe curtain backdrop",
+      "Glowing LED white balloons",
+      "Gold number foil balloons (any age)",
+      "Giant champagne bottle foil & wrapped flower bouquet",
+    ],
+    rating: 4.8,
+    reviews: 133,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "car-boot-blue-gold-gift-hamper-daylight",
+    name: "Blue & Gold Gift Hamper Car Boot Decoration",
+    description:
+      "A bright daytime boot setup with a gold cursive 'Happy Birthday' cutout, blue and gold helium balloons floating above with curling ribbons, hanging photo prints, a wall of blue and gold balloons inside, party hat, gift bags and shiny blue foil base.",
+    image: f6.url,
+    includes: [
+      "Gold cursive 'Happy Birthday' cutout",
+      "Floating blue & gold helium balloons with ribbons",
+      "Hanging photo prints on ribbons",
+      "Blue & gold balloon wall inside the boot",
+      "Party hat, gift bags & blue foil base styling",
+    ],
+    rating: 4.7,
+    reviews: 121,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "car-boot-gold-cursive-champagne-roses",
+    name: "Gold Cursive Champagne & Red Roses Car Boot Decoration",
+    description:
+      "A premium night boot setup with a gold cursive 'Happy Birthday' cutout, a photo string above, gold, black and clear confetti balloons, a giant champagne bottle foil, LED bottle lamps, a red rose bouquet and a red petal bed lit with candles and fairy lights.",
+    image: f7.url,
+    includes: [
+      "Gold cursive 'Happy Birthday' cutout",
+      "Photo string with your printed pictures",
+      "Gold, black & clear confetti balloon styling",
+      "Giant champagne bottle foil with LED bottle lamps",
+      "Red rose bouquet, petal bed & fairy lights",
+    ],
+    rating: 4.9,
+    reviews: 174,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "car-boot-red-love-balloon-pit-hearts",
+    name: "Red 'I Love You' Heart Balloon Pit Car Boot Decoration",
+    description:
+      "A love-themed boot surprise with a red and gold 'HAPPY BIRTHDAY' banner on the lid, a big 'I Love You' heart foil with pink and purple heart foils, a full pit of red LOVE-print balloons and photo clips glowing on warm fairy light strings.",
+    image: f8.url,
+    includes: [
+      "Red & gold 'HAPPY BIRTHDAY' banner",
+      "'I Love You' heart foil with pink & purple hearts",
+      "Full pit of red LOVE-print balloons",
+      "Photo clip fairy light strings with your pictures",
+      "Complete setup & styling by our team",
+    ],
+    rating: 4.9,
+    reviews: 181,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "car-boot-all-black-teddy-rose-bouquet",
+    name: "All Black Teddy & Rose Bouquet Car Boot Decoration",
+    description:
+      "A sleek all-black boot setup with a black and gold 'HAPPY BIRTHDAY' flag banner, a boot filled with matte black balloons, a cheerful soft teddy, a red rose and white chrysanthemum bouquet and a neat cake spot at the centre.",
+    image: f9.url,
+    includes: [
+      "Black & gold 'HAPPY BIRTHDAY' flag banner",
+      "Boot filled with matte black balloons",
+      "Soft cute teddy bear",
+      "Red rose & white chrysanthemum bouquet",
+      "Centre cake table setup & styling",
+    ],
+    rating: 4.8,
+    reviews: 149,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "car-boot-pink-silver-ribbon-photo-drop",
+    name: "Pink & Silver Ribbon Photo Drop Car Boot Decoration",
+    description:
+      "A pretty pink and silver boot setup with photos hanging on blush ribbons from the boot lid, a pink glitter 'BIRTHDAY' pennant banner with curling ribbons, chrome pink and silver balloons, heart foils and a pink base with a cake spot in the middle.",
+    image: f10.url,
+    includes: [
+      "Blush ribbon photo drop with your printed pictures",
+      "Pink glitter 'BIRTHDAY' pennant banner",
+      "Chrome pink & silver balloon bed",
+      "Pink & silver heart foil balloons",
+      "Pink base styling with centre cake spot",
+    ],
+    rating: 4.8,
+    reviews: 138,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+];
+
+const GALLERY = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10].map((a) => a.url);
+
 
 
 export const Route = createFileRoute("/service/car-boot-decoration")({
