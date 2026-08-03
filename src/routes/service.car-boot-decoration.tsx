@@ -28,6 +28,16 @@ import d7 from "@/assets/car-d7.jpg.asset.json";
 import d8 from "@/assets/car-d8.webp.asset.json";
 import d9 from "@/assets/car-d9.png.asset.json";
 import d10 from "@/assets/car-d10.png.asset.json";
+import e1 from "@/assets/car-e1.png.asset.json";
+import e2 from "@/assets/car-e2.jpg.asset.json";
+import e3 from "@/assets/car-e3.jpg.asset.json";
+import e4 from "@/assets/car-e4.jpg.asset.json";
+import e5 from "@/assets/car-e5.jpeg.asset.json";
+import e6 from "@/assets/car-e6.jpeg.asset.json";
+import e7 from "@/assets/car-e7.jpeg.asset.json";
+import e8 from "@/assets/car-e8.jpeg.asset.json";
+import e9 from "@/assets/car-e9.jpeg.asset.json";
+import e10 from "@/assets/car-e10.jpeg.asset.json";
 
 const CORE = [
   {
