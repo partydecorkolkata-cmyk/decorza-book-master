@@ -471,7 +471,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Proposal Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {PACKAGES.map((p) => (
+          {ALL_PACKAGES.map((p) => (
             <StaticPackageCard key={p.id} {...p} />
           ))}
         </div>
