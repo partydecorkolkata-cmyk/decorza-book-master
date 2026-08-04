@@ -18,6 +18,16 @@ import p7 from "@/assets/prop-p7.jpeg.asset.json";
 import p8 from "@/assets/prop-p8.jpeg.asset.json";
 import p9 from "@/assets/prop-p9.jpeg.asset.json";
 import p10 from "@/assets/prop-p10.jpeg.asset.json";
+import q1 from "@/assets/prop-q1.jpg.asset.json";
+import q2 from "@/assets/prop-q2.jpg.asset.json";
+import q3 from "@/assets/prop-q3.jpg.asset.json";
+import q4 from "@/assets/prop-q4.jpg.asset.json";
+import q5 from "@/assets/prop-q5.jpg.asset.json";
+import q6 from "@/assets/prop-q6.jpg.asset.json";
+import q7 from "@/assets/prop-q7.jpg.asset.json";
+import q8 from "@/assets/prop-q8.jpg.asset.json";
+import q9 from "@/assets/prop-q9.jpg.asset.json";
+import q10 from "@/assets/prop-q10.jpg.asset.json";
 
 const PACKAGES = [
   {
