@@ -61,46 +61,11 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Proposal Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          <StaticPackageCard
-            id="proposal-decoration-essential"
-            name="Essential Proposal Decoration"
-            description="A clean, photo-ready proposal decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/anniversary-1.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.9}
-            reviews={275}
-            offer={<>₹8,999</>}
-            original={<>₹10,499</>}
-            discountPct={14}
-            bestSeller={false}
-          />
-          <StaticPackageCard
-            id="proposal-decoration-premium"
-            name="Premium Proposal Decoration"
-            description="An upgraded proposal decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/anniversary-2.webp"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
-            rating={5}
-            reviews={385}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
-            bestSeller={false}
-          />
-          <StaticPackageCard
-            id="proposal-decoration-luxury"
-            name="Luxury Proposal Decoration"
-            description="A full luxury proposal decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/anniversary-3.webp"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.9}
-            reviews={641}
-            offer={<>₹19,999</>}
-            original={<>₹34,481</>}
-            discountPct={42}
-            bestSeller={false}
-          />
+          {PACKAGES.map((p) => (
+            <StaticPackageCard key={p.id} {...p} />
+          ))}
         </div>
+
       </section>
 
       <section className="bg-secondary/40 py-14">
