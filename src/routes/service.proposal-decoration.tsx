@@ -38,6 +38,16 @@ import r7 from "@/assets/prop-r7.jpeg.asset.json";
 import r8 from "@/assets/prop-r8.png.asset.json";
 import r9 from "@/assets/prop-r9.jpeg.asset.json";
 import r10 from "@/assets/prop-r10.jpeg.asset.json";
+import s1 from "@/assets/prop-s1.jpeg.asset.json";
+import s2 from "@/assets/prop-s2.jpeg.asset.json";
+import s3 from "@/assets/prop-s3.jpeg.asset.json";
+import s4 from "@/assets/prop-s4.jpeg.asset.json";
+import s5 from "@/assets/prop-s5.jpeg.asset.json";
+import s6 from "@/assets/prop-s6.jpeg.asset.json";
+import s7 from "@/assets/prop-s7.jpeg.asset.json";
+import s8 from "@/assets/prop-s8.jpeg.asset.json";
+import s9 from "@/assets/prop-s9.jpeg.asset.json";
+import s10 from "@/assets/prop-s10.jpeg.asset.json";
 
 const PACKAGES = [
   {
@@ -617,7 +627,201 @@ const BATCH_R = [
   },
 ];
 
-const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R];
+const BATCH_S = [
+  {
+    id: "proposal-pink-gold-ceiling-i-love-you",
+    name: "Pink & Gold Ceiling 'I Love You' Room Décor",
+    description:
+      "A cheerful bedroom surprise with a full pink and gold chrome ceiling balloon spread, red foil 'I LOVE YOU' wall lettering flanked by pink heart foils, balloon flowers on the wardrobes and a balloon cluster on the bed.",
+    image: s1.url,
+    includes: [
+      "Pink & gold chrome ceiling balloons with ribbons",
+      "Red foil 'I LOVE YOU' wall lettering",
+      "Pink heart foil balloons on both sides",
+      "Balloon flower wall accents",
+      "Bed balloon cluster styling",
+    ],
+    rating: 4.8,
+    reviews: 164,
+    offer: <>₹2,499</>,
+    original: <>₹3,499</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-sequin-marry-me-neon",
+    name: "Red Sequin Wall 'Will You Marry Me?' Neon Setup",
+    description:
+      "A premium shimmer-wall proposal featuring a red sequin backdrop with a glowing 'Will you marry me?' neon sign, an organic red, white and silver chrome balloon garland and white faux florals.",
+    image: s2.url,
+    includes: [
+      "Red shimmer sequin backdrop wall",
+      "'Will you marry me?' neon sign",
+      "Red, white & silver chrome organic balloon garland",
+      "White faux floral vase styling",
+      "Complete on-site setup & dismantle",
+    ],
+    rating: 5,
+    reviews: 132,
+    offer: <>₹7,499</>,
+    original: <>₹9,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-rose-gold-marry-me-bedroom",
+    name: "Rose Gold 'Will You Marry Me' Bedroom Surprise",
+    description:
+      "A dreamy bedroom proposal with rose gold foil 'WILL YOU MARRY ME' letters above the headboard, pink and rose gold heart balloons on the ceiling, a floral garland across the bed and balloons scattered on the floor.",
+    image: s3.url,
+    includes: [
+      "Rose gold foil 'WILL YOU MARRY ME' letters",
+      "Pink & rose gold heart ceiling balloons",
+      "Artificial rose garland across the bed",
+      "Floor balloon scatter",
+      "Rose petal bed styling",
+    ],
+    rating: 4.9,
+    reviews: 148,
+    offer: <>₹2,999</>,
+    original: <>₹3,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-pink-girlfriend-teddy-suite",
+    name: "'Will You Be My Girlfriend' Pink Heart Suite",
+    description:
+      "A soft pink proposal room with foil 'WILL YOU BE MY GIRLFRIEND?' lettering, floating pink heart balloons, a rose bouquet hoop and teddy on the bed, petal heart art and balloons across the floor.",
+    image: s4.url,
+    includes: [
+      "Pink foil 'WILL YOU BE MY GIRLFRIEND?' lettering",
+      "Floating pink heart foil balloons",
+      "Rose bouquet ring & teddy bear on bed",
+      "Rose petal bed art & floor petals",
+      "Floor balloon scatter with LED candles",
+    ],
+    rating: 4.9,
+    reviews: 171,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rose-gold-letters-petal-heart",
+    name: "Rose Gold Letters & Rose Petal Heart Proposal",
+    description:
+      "An elegant daylight proposal with rose gold foil 'WILL YOU MARRY ME' letters strung across sheer curtains, a large red rose petal heart on the floor ringed with candles and tulle puffs at the base.",
+    image: s5.url,
+    includes: [
+      "Rose gold foil 'WILL YOU MARRY ME' letters",
+      "Large rose petal heart on the floor",
+      "LED candle ring around the heart",
+      "Pink tulle puff accents",
+      "Fresh-look rose vase styling",
+    ],
+    rating: 4.8,
+    reviews: 126,
+    offer: <>₹1,999</>,
+    original: <>₹3,499</>,
+    discountPct: 43,
+  },
+  {
+    id: "proposal-red-heart-arch-neon-candles",
+    name: "Red Heart Balloon Arch with Neon & Candle Aisle",
+    description:
+      "A classic red heart-shaped balloon arch framing a glowing 'Will You Marry Me?' neon sign, with pillar candles, rose vases and a thick red petal carpet in front for the big moment.",
+    image: s6.url,
+    includes: [
+      "Red heart-shaped balloon arch",
+      "'Will You Marry Me?' neon sign",
+      "LED pillar candles around the setup",
+      "Red rose vases & bouquet",
+      "Red rose petal floor carpet",
+    ],
+    rating: 5,
+    reviews: 209,
+    offer: <>₹4,999</>,
+    original: <>₹6,999</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-ring-arch-roses-neon",
+    name: "Red Ring Balloon Arch with Roses & Neon Sign",
+    description:
+      "A grand circular red balloon ring arch dressed with red rose clusters, a 'Will You Marry Me?' neon sign in the centre, candle stands and a petal-covered carpet for the proposal.",
+    image: s7.url,
+    includes: [
+      "Circular red balloon ring arch",
+      "Red rose cluster accents on the ring",
+      "'Will You Marry Me?' neon sign",
+      "LED candle stands & rose vases",
+      "Red petal carpet walkway",
+    ],
+    rating: 4.9,
+    reviews: 187,
+    offer: <>₹4,499</>,
+    original: <>₹6,499</>,
+    discountPct: 31,
+  },
+  {
+    id: "proposal-red-ceiling-gold-letters-room",
+    name: "Red Ceiling Balloons & Gold 'Marry Me' Room",
+    description:
+      "A romantic hotel-room proposal with a dense red ceiling balloon cloud with trailing ribbons, gold foil 'WILL YOU MARRY ME' wall letters and a red rose petal heart on the white bed.",
+    image: s8.url,
+    includes: [
+      "Red ceiling balloon cloud with ribbons",
+      "Gold foil 'WILL YOU MARRY ME' letters",
+      "Red rose petal heart on the bed",
+      "Red heart foil accents",
+      "Floor balloon scatter",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: <>₹2,799</>,
+    original: <>₹3,999</>,
+    discountPct: 30,
+  },
+  {
+    id: "proposal-just-married-love-canopy-room",
+    name: "'Just Married' Red Canopy Love Room Décor",
+    description:
+      "A festive first-night room with gold 'JUST MARRIED' foil letters, a white net canopy lit with fairy lights, a red foil 'love' script, red balloon flowers on the walls and a red balloon bed base.",
+    image: s9.url,
+    includes: [
+      "Gold foil 'JUST MARRIED' lettering",
+      "White net canopy with fairy lights",
+      "Red foil 'love' script",
+      "Red & white balloon flower wall accents",
+      "Red balloon bed base & ceiling balloons",
+    ],
+    rating: 4.9,
+    reviews: 214,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rooftop-red-heart-sunset",
+    name: "Rooftop Red Heart Arch Sunset Proposal",
+    description:
+      "An open-air rooftop proposal with a giant red heart balloon arch, a 'Will You Marry Me?' neon sign in the centre, tall pillar candles and rose vases lining a petal-strewn deck.",
+    image: s10.url,
+    includes: [
+      "Giant red heart balloon arch",
+      "'Will You Marry Me?' neon sign",
+      "Tall pillar candle arrangement",
+      "Red rose vases along the aisle",
+      "Rose petal scatter on the deck",
+    ],
+    rating: 5,
+    reviews: 143,
+    offer: <>₹4,999</>,
+    original: <>₹7,999</>,
+    discountPct: 38,
+  },
+];
+
+const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S];
+
 
 const GALLERY = ALL_PACKAGES.map((p) => ({ src: p.image, alt: p.name }));
 
