@@ -28,6 +28,16 @@ import q7 from "@/assets/prop-q7.jpg.asset.json";
 import q8 from "@/assets/prop-q8.jpg.asset.json";
 import q9 from "@/assets/prop-q9.jpg.asset.json";
 import q10 from "@/assets/prop-q10.jpg.asset.json";
+import r1 from "@/assets/prop-r1.png.asset.json";
+import r2 from "@/assets/prop-r2.png.asset.json";
+import r3 from "@/assets/prop-r3.jpeg.asset.json";
+import r4 from "@/assets/prop-r4.jpeg.asset.json";
+import r5 from "@/assets/prop-r5.jpeg.asset.json";
+import r6 from "@/assets/prop-r6.jpeg.asset.json";
+import r7 from "@/assets/prop-r7.jpeg.asset.json";
+import r8 from "@/assets/prop-r8.png.asset.json";
+import r9 from "@/assets/prop-r9.jpeg.asset.json";
+import r10 from "@/assets/prop-r10.jpeg.asset.json";
 
 const PACKAGES = [
   {
