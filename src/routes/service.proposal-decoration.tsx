@@ -424,7 +424,200 @@ const BATCH_Q = [
   },
 ];
 
-const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q];
+const BATCH_R = [
+  {
+    id: "proposal-will-you-be-my-girlfriend-red",
+    name: "'Will You Be My Girlfriend' Red Balloon Room",
+    description:
+      "A bold red proposal room with a giant red ceiling balloon cloud with curling ribbons, red foil 'WILL YOU BE MY GIRLFRIEND' wall lettering, heart foil bunches on both sides and a rose petal diamond on the bed.",
+    image: r1.url,
+    includes: [
+      "Red ceiling balloon cloud with curling ribbons",
+      "Red foil 'WILL YOU BE MY GIRLFRIEND' lettering",
+      "Red heart foil balloon bunches",
+      "Rose petal diamond bed art with red balloons",
+      "Petal scatter on the floor",
+    ],
+    rating: 4.9,
+    reviews: 186,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rose-gold-heart-petal-room",
+    name: "Rose Gold Heart Balloons & Petal Heart Room",
+    description:
+      "A soft, elegant room set-up with floating rose gold heart foil balloons, a curtain of warm fairy lights on the wall, blush fur cushions and a large pink rose petal heart across the bed.",
+    image: r2.url,
+    includes: [
+      "Floating rose gold heart foil balloons with ribbons",
+      "Warm fairy light curtain wall styling",
+      "Blush fur cushions on the bed",
+      "Large pink rose petal heart bed art",
+      "Fresh rose pots on the side tables",
+    ],
+    rating: 4.8,
+    reviews: 142,
+    offer: <>₹2,199</>,
+    original: <>₹3,499</>,
+    discountPct: 37,
+  },
+  {
+    id: "proposal-red-balloon-heart-neon-aisle",
+    name: "Red Balloon Heart Arch with Neon & Candle Aisle",
+    description:
+      "A dramatic red balloon heart arch built against a soft drape backdrop with a glowing cursive 'Will You Marry Me?' neon at the centre, a red carpet aisle, LED pillar candles and rose petals.",
+    image: r3.url,
+    includes: [
+      "Giant red balloon heart arch",
+      "Cursive 'Will You Marry Me?' neon sign",
+      "Ivory fabric drape backdrop",
+      "Red carpet aisle with rose petals",
+      "Rows of LED pillar candles",
+    ],
+    rating: 5,
+    reviews: 203,
+    offer: <>₹4,499</>,
+    original: <>₹6,499</>,
+    discountPct: 31,
+  },
+  {
+    id: "proposal-pink-gold-i-love-you-room",
+    name: "Pink & Gold 'I Love You' Balloon Room",
+    description:
+      "A glamorous hotel room surprise with gold 'I LOVE YOU' foil lettering, a pink and gold chrome ceiling balloon canopy, pink heart foils and balloons filling the bed and the floor.",
+    image: r4.url,
+    includes: [
+      "Gold 'I LOVE YOU' foil wall lettering",
+      "Pink & gold chrome ceiling balloon canopy",
+      "Pink heart foil balloons",
+      "Bed & floor filled with pink and gold balloons",
+      "Curling ribbon styling throughout",
+    ],
+    rating: 4.9,
+    reviews: 158,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-red-white-i-love-you-bed-balloons",
+    name: "Red & White 'I Love You' Bedroom Surprise",
+    description:
+      "A cheerful home set-up with red 'I LOVE YOU' foil lettering flanked by heart foils, red and white balloons floating on the ceiling with spiral streamers and the whole bed filled with balloons.",
+    image: r5.url,
+    includes: [
+      "Red 'I LOVE YOU' foil wall lettering",
+      "Two red heart foil balloons",
+      "Red & white ceiling balloons with spiral streamers",
+      "Bed filled with red, pink & white balloons",
+      "Ribbon curtain styling",
+    ],
+    rating: 4.7,
+    reviews: 121,
+    offer: <>₹2,499</>,
+    original: <>₹3,499</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-silver-girlfriend-pink-floor",
+    name: "Silver 'Will You Be My Girlfriend' Pink Floor Room",
+    description:
+      "A night-view suite set-up with silver foil 'WILL YOU BE MY GIRLFRIEND' lettering, a pink ceiling balloon cloud with long ribbons, LED candles in a petal heart on the bed and the entire floor covered in pink balloons.",
+    image: r6.url,
+    includes: [
+      "Silver 'WILL YOU BE MY GIRLFRIEND' foil lettering",
+      "Pink ceiling balloon cloud with hanging ribbons",
+      "LED candle & petal heart on the bed",
+      "Floor filled with pink balloons",
+      "Rose gold heart foil balloon stands",
+    ],
+    rating: 4.9,
+    reviews: 167,
+    offer: <>₹3,499</>,
+    original: <>₹4,999</>,
+    discountPct: 30,
+  },
+  {
+    id: "proposal-i-love-you-petal-heart-you",
+    name: "'I Love You' Heart Foil & Petal 'YOU' Bed Decor",
+    description:
+      "A romantic room with a big red heart foil centred between silver 'I LOVE YOU' lettering, red and white ceiling balloons with spiral hangings, fairy lights on the headboard and a deep red petal heart with 'YOU' on the bed.",
+    image: r7.url,
+    includes: [
+      "Red heart foil with silver 'I LOVE YOU' lettering",
+      "Red & white ceiling balloons with spiral streamers",
+      "Fairy light headboard styling",
+      "Rose petal heart bed art with 'YOU'",
+      "Balloon pillars on both sides of the bed",
+    ],
+    rating: 4.9,
+    reviews: 176,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-gold-marry-me-red-heart-ceiling",
+    name: "Gold 'Will You Marry Me' Red Heart Ceiling Room",
+    description:
+      "A warm-lit room proposal with gold foil 'WILL YOU MARRY ME' lettering above the headboard, dozens of red heart foil balloons floating on the ceiling with gold ribbons and red-gold balloons across the floor.",
+    image: r8.url,
+    includes: [
+      "Gold 'WILL YOU MARRY ME' foil lettering",
+      "Red heart foil balloon ceiling with gold ribbons",
+      "Fairy lights along the headboard wall",
+      "Rose petal heart on the bed",
+      "Red & gold balloons scattered on the floor",
+    ],
+    rating: 4.8,
+    reviews: 149,
+    offer: <>₹3,499</>,
+    original: <>₹4,999</>,
+    discountPct: 30,
+  },
+  {
+    id: "proposal-hotel-i-love-you-candle-heart",
+    name: "Hotel 'I Love You' Candle Heart Room Set-up",
+    description:
+      "A classy hotel room surprise with red 'I LOVE YOU' foil lettering across the headboard, red heart foil clusters on both sides, jumbo red ceiling balloons, ribbon-tied cushions and an LED candle petal heart on the bed.",
+    image: r9.url,
+    includes: [
+      "Red 'I LOVE YOU' foil headboard lettering",
+      "Red heart foil balloon clusters both sides",
+      "Jumbo red ceiling balloons with ribbons",
+      "LED candle & rose petal heart on the bed",
+      "Red ribbon cushion styling with petal scatter",
+    ],
+    rating: 4.8,
+    reviews: 133,
+    offer: <>₹2,499</>,
+    original: <>₹3,499</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-white-gold-marry-me-arch",
+    name: "White & Gold 'Will You Marry Me?' Arch Proposal",
+    description:
+      "A refined indoor proposal with a tall white arch board lettered 'Will You Marry Me?' in gold script, dressed with a cascading white, gold chrome and confetti balloon garland on both sides.",
+    image: r10.url,
+    includes: [
+      "Tall white arch board with gold 'Will You Marry Me?' script",
+      "White, gold chrome & confetti balloon garland",
+      "Jumbo balloon clusters at the base",
+      "Balanced double-side garland styling",
+      "On-site setup & styling",
+    ],
+    rating: 5,
+    reviews: 154,
+    offer: <>₹4,499</>,
+    original: <>₹6,499</>,
+    discountPct: 31,
+  },
+];
+
+const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R];
 
 const GALLERY = ALL_PACKAGES.map((p) => ({ src: p.image, alt: p.name }));
 
