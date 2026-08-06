@@ -1248,7 +1248,8 @@ export const Route = createFileRoute("/service/proposal-decoration")({
       { title: `Proposal Decoration in India | From ₹2,499 | Decorza Events` },
       { name: "description", content: `Romantic proposal decor with candles, rose paths, ring props, LED “Marry Me” lights and dreamy ambient setups. Book on WhatsApp.` },
       { property: "og:title", content: `Proposal Decoration | Decorza Events` },
-      { property: "og:image", content: "/anniversary-gallery-1.jpg" },
+      { property: "og:image", content: t7.url },
+      { name: "twitter:image", content: t7.url },
     ],
     links: [{ rel: "canonical", href: "/service/proposal-decoration" }],
   }),
@@ -1265,7 +1266,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/anniversary-gallery-1.jpg" alt="Proposal Decoration" className="h-full w-full object-cover" />
+          <img src={t7.url} alt="Luxury rooftop red rose heart proposal decoration setup" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
