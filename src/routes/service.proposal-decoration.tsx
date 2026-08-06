@@ -1035,7 +1035,203 @@ const BATCH_T = [
   },
 ];
 
-const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T];
+const BATCH_U = [
+  {
+    id: "proposal-burgundy-cream-arch-personalised",
+    name: "Burgundy & Cream Balloon Arch with Personalised Name Board",
+    description:
+      "A tall white arch board hand-lettered in gold with your partner's name and 'Will you Marry Me?', framed by an organic burgundy, wine and cream balloon garland with a matching floor cluster.",
+    image: u1.url,
+    includes: [
+      "White arch backdrop panel",
+      "Gold hand-lettered personalised name & proposal text",
+      "Organic burgundy, wine and cream balloon garland",
+      "Matching balloon floor cluster",
+      "On-site setup & styling",
+    ],
+    rating: 4.9,
+    reviews: 164,
+    offer: <>₹4,999</>,
+    original: <>₹6,999</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-rose-heart-neon-candle-floor",
+    name: "Red Rose Heart Arch with 'Will You Marry Me?' Neon",
+    description:
+      "A giant heart-shaped arch packed edge to edge with red roses, glowing with a warm 'Will You Marry Me?' neon sign at its centre and a floor of pillar candles, tealights and a red petal carpet.",
+    image: u2.url,
+    includes: [
+      "Heart-shaped arch with dense red rose flower runners",
+      "'Will You Marry Me?' neon sign",
+      "Pillar candles & tealight arrangement",
+      "Red rose petal carpet",
+      "Rose vase accents on both sides",
+    ],
+    rating: 5.0,
+    reviews: 231,
+    offer: <>₹7,499</>,
+    original: <>₹9,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-beach-fairy-light-canopy-sunset",
+    name: "Beachside Fairy-Light Canopy Sunset Proposal",
+    description:
+      "Our signature seaside setup — a golden cabana frame curtained in thousands of warm fairy lights, blush and white floral corners, a candle-lined white aisle and a private table for two as the sun sets over the waves.",
+    image: u3.url,
+    includes: [
+      "Metal cabana canopy with dense fairy-light curtain",
+      "Blush & white floral corner arrangements",
+      "White aisle runner with lanterns and candles",
+      "Private table for two with 'Love' light and chairs",
+      "Hundreds of candles scattered across the sand",
+      "Complete on-location setup & teardown",
+    ],
+    rating: 5.0,
+    reviews: 96,
+    offer: <>₹21,999</>,
+    original: <>₹29,999</>,
+    discountPct: 27,
+  },
+  {
+    id: "proposal-beach-floral-drape-bride-to-be",
+    name: "Beach Floral Arch with 'Bride To Be' Neon & Cake Table",
+    description:
+      "An open-sky beach arch dressed in coral, pink and ivory roses with a flowing white drape, a round 'Bride To Be' neon board at the centre and a gold spiral pedestal for the cake.",
+    image: u4.url,
+    includes: [
+      "Square arch frame with coral, pink & ivory rose runners",
+      "Flowing white fabric drape",
+      "Round 'Bride To Be' neon signage",
+      "Gold spiral cake pedestal table",
+      "Beach location setup & styling",
+    ],
+    rating: 4.8,
+    reviews: 88,
+    offer: <>₹8,499</>,
+    original: <>₹14,999</>,
+    discountPct: 43,
+  },
+  {
+    id: "proposal-luxury-rose-heart-candle-hall",
+    name: "Luxury Rose Heart Proposal Hall Setup",
+    description:
+      "A full-height red rose heart standing on a rose base, lit by a script 'Will You Marry Me?' neon, with symmetrical candle clusters, rose vases and a wide petal pathway across the wooden floor.",
+    image: u5.url,
+    includes: [
+      "Full-height red rose heart structure on rose base",
+      "Script 'Will You Marry Me?' neon sign",
+      "Symmetrical pillar candle & tealight clusters",
+      "Rose bouquet vases",
+      "Wide rose petal pathway",
+    ],
+    rating: 4.9,
+    reviews: 143,
+    offer: <>₹7,999</>,
+    original: <>₹11,999</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-indoor-marry-me-marquee-red-carpet",
+    name: "Indoor 'MARRY ME' Marquee & Red Carpet Aisle",
+    description:
+      "A cinematic living-room proposal with giant illuminated MARRY ME marquee letters flanking a red rose heart backdrop, a red carpet aisle strewn with petals and dozens of glass candles and rose vases along both sides.",
+    image: u6.url,
+    includes: [
+      "Giant illuminated 'MARRY ME' marquee letters",
+      "Red rose heart backdrop with neon sign",
+      "Red carpet aisle with rose petals",
+      "Glass pillar candles lining the walkway",
+      "Red rose bouquet vases",
+      "Full indoor setup & lighting",
+    ],
+    rating: 5.0,
+    reviews: 118,
+    offer: <>₹11,999</>,
+    original: <>₹17,999</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rooftop-ring-pampas-marry-me-neon",
+    name: "Rooftop Ring Arch with Pampas & 'Marry Me' Neon",
+    description:
+      "A gold circular ring backdrop on the terrace, dressed with pampas grass, cherry blossom and mixed florals, a hanging fairy-light curtain and a glowing cursive 'Marry Me' neon, finished with candles and lanterns at the base.",
+    image: u7.url,
+    includes: [
+      "Gold circular ring backdrop",
+      "Pampas grass, blossom & mixed floral corners",
+      "Hanging fairy-light curtain",
+      "Cursive 'Marry Me' neon sign",
+      "Greenery base with candles & gold lanterns",
+    ],
+    rating: 4.8,
+    reviews: 127,
+    offer: <>₹6,499</>,
+    original: <>₹9,999</>,
+    discountPct: 35,
+  },
+  {
+    id: "proposal-white-rose-heart-love-terrace",
+    name: "White Rose Heart Terrace Proposal with LOVE Letters",
+    description:
+      "An elegant white rose heart arch with a 'Will You Marry Me?' neon panel, illuminated LOVE letters at its base, tall blossom vases and a maroon petal aisle with a candle-lit heart at the centre.",
+    image: u8.url,
+    includes: [
+      "White rose heart arch structure",
+      "'Will You Marry Me?' neon panel",
+      "Illuminated 'LOVE' marquee letters",
+      "Tall gold vases with white blossom",
+      "Maroon petal aisle with LED candle heart",
+      "Terrace setup & styling",
+    ],
+    rating: 4.9,
+    reviews: 154,
+    offer: <>₹11,999</>,
+    original: <>₹17,999</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rosegold-ceiling-marry-me-candle-heart",
+    name: "Rose Gold Ceiling Balloons with 'MARRY ME' Candle Heart",
+    description:
+      "A dreamy lounge proposal with a ceiling full of blush, pearl and rose gold balloons and floating heart foils, a fairy-light curtain backdrop and glowing MARRY ME letters above a candle-and-petal heart on the floor.",
+    image: u9.url,
+    includes: [
+      "Blush, pearl & rose gold ceiling balloons with ribbons",
+      "Rose gold heart foil balloon cluster",
+      "Fairy-light curtain backdrop",
+      "Illuminated 'MARRY ME' letters",
+      "Candle & petal heart on the floor",
+    ],
+    rating: 4.8,
+    reviews: 139,
+    offer: <>₹6,499</>,
+    original: <>₹9,999</>,
+    discountPct: 35,
+  },
+  {
+    id: "proposal-red-rose-heart-mirror-bedroom",
+    name: "Red Rose Heart Mirror Bedroom Proposal",
+    description:
+      "A deep-red bedroom setup where a lush rose heart frames a mirror with a 'Will You Marry Me?' neon inside, surrounded by red heart foil balloons, warm candles and a thick petal spread across the floor and bed.",
+    image: u10.url,
+    includes: [
+      "Rose heart frame around mirror wall",
+      "'Will You Marry Me?' neon sign",
+      "Red heart foil balloon clusters",
+      "LED pillar candles & rose vases",
+      "Rose petal spread on floor and bed",
+    ],
+    rating: 4.9,
+    reviews: 176,
+    offer: <>₹9,999</>,
+    original: <>₹14,999</>,
+    discountPct: 33,
+  },
+];
+
+const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U];
 
 
 const GALLERY = ALL_PACKAGES.map((p) => ({ src: p.image, alt: p.name }));
