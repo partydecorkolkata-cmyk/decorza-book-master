@@ -58,6 +58,16 @@ import t7 from "@/assets/prop-t7.webp.asset.json";
 import t8 from "@/assets/prop-t8.png.asset.json";
 import t9 from "@/assets/prop-t9.png.asset.json";
 import t10 from "@/assets/prop-t10.png.asset.json";
+import u1 from "@/assets/prop-u1.png.asset.json";
+import u2 from "@/assets/prop-u2.png.asset.json";
+import u3 from "@/assets/prop-u3.jpg.asset.json";
+import u4 from "@/assets/prop-u4.jpg.asset.json";
+import u5 from "@/assets/prop-u5.jpg.asset.json";
+import u6 from "@/assets/prop-u6.jpg.asset.json";
+import u7 from "@/assets/prop-u7.jpg.asset.json";
+import u8 from "@/assets/prop-u8.jpg.asset.json";
+import u9 from "@/assets/prop-u9.jpg.asset.json";
+import u10 from "@/assets/prop-u10.jpg.asset.json";
 
 const PACKAGES = [
   {
