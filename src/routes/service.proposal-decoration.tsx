@@ -48,6 +48,16 @@ import s7 from "@/assets/prop-s7.jpeg.asset.json";
 import s8 from "@/assets/prop-s8.jpeg.asset.json";
 import s9 from "@/assets/prop-s9.jpeg.asset.json";
 import s10 from "@/assets/prop-s10.jpeg.asset.json";
+import t1 from "@/assets/prop-t1.jpg.asset.json";
+import t2 from "@/assets/prop-t2.jpeg.asset.json";
+import t3 from "@/assets/prop-t3.jpeg.asset.json";
+import t4 from "@/assets/prop-t4.jpeg.asset.json";
+import t5 from "@/assets/prop-t5.jpeg.asset.json";
+import t6 from "@/assets/prop-t6.jpg.asset.json";
+import t7 from "@/assets/prop-t7.webp.asset.json";
+import t8 from "@/assets/prop-t8.png.asset.json";
+import t9 from "@/assets/prop-t9.png.asset.json";
+import t10 from "@/assets/prop-t10.png.asset.json";
 
 const PACKAGES = [
   {
@@ -820,7 +830,202 @@ const BATCH_S = [
   },
 ];
 
-const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S];
+const BATCH_T = [
+  {
+    id: "proposal-silver-marry-me-red-ceiling",
+    name: "Silver 'Will You Marry Me' Foil & Red Ceiling Room",
+    description:
+      "A classic hotel-room proposal with a dense red ceiling balloon cloud trailing curling ribbons, silver foil 'WILL YOU MARRY ME' letters on the headboard wall with a red heart foil, and a rose-petal heart on the bed.",
+    image: t1.url,
+    includes: [
+      "Red helium ceiling balloons with curling ribbons",
+      "Silver foil 'WILL YOU MARRY ME' wall lettering",
+      "Red heart foil accent balloon",
+      "Rose petal heart & petal scatter on bed",
+      "Rose bouquet placement",
+    ],
+    rating: 4.8,
+    reviews: 172,
+    offer: <>₹2,999</>,
+    original: <>₹3,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-red-heart-arch-neon-candle-aisle",
+    name: "Red Balloon Heart Arch with Neon & Candle Aisle",
+    description:
+      "A show-stopping red balloon heart arch framing a glowing 'Will You Marry Me?' neon sign, with red heart foils floating on either side and a candle-lined rose petal aisle leading to the proposal spot.",
+    image: t2.url,
+    includes: [
+      "Large red balloon heart arch",
+      "'Will You Marry Me?' neon sign",
+      "Red heart foil balloons",
+      "LED pillar candle aisle",
+      "Rose petal walkway",
+    ],
+    rating: 4.9,
+    reviews: 208,
+    offer: <>₹4,999</>,
+    original: <>₹6,999</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-ceiling-i-love-you-hotel",
+    name: "Red Ceiling Balloons & 'I LOVE YOU' Hotel Surprise",
+    description:
+      "A romantic hotel-suite surprise with red helium balloons covering the ceiling, long satin ribbon curtains falling over the bed, red foil 'I LOVE YOU' lettering behind the headboard and rose petals with LED candles on the bed.",
+    image: t3.url,
+    includes: [
+      "Red helium ceiling balloons with long ribbons",
+      "Red foil 'I LOVE YOU' wall lettering",
+      "Rose petal scatter on bed",
+      "LED tealight candles",
+      "Rose bouquet & wine-style prop styling",
+    ],
+    rating: 4.7,
+    reviews: 149,
+    offer: <>₹2,499</>,
+    original: <>₹3,499</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-gold-heart-arch-pillars",
+    name: "Red & Gold Heart Arch with Balloon Pillars",
+    description:
+      "A grand indoor heart-shaped red balloon arch with chrome gold and red balloon pillars on both sides, red heart foils and a lit 'Will You Marry Me?' neon board at the centre.",
+    image: t4.url,
+    includes: [
+      "Heart-shaped red balloon arch on stand",
+      "Chrome gold & red balloon pillars (2)",
+      "Red heart foil balloons",
+      "'Will You Marry Me?' neon sign",
+      "On-site setup & styling",
+    ],
+    rating: 4.8,
+    reviews: 186,
+    offer: <>₹3,999</>,
+    original: <>₹5,999</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-red-white-gold-ceiling-marry-me",
+    name: "Red, White & Gold Ceiling 'Will You Marry Me' Room",
+    description:
+      "A full-room proposal with red, white and gold chrome balloons blanketing the ceiling, red foil 'WILL YOU MARRY ME' letters on a sheer curtain wall, heart foils and a rose-petal heart on the floor.",
+    image: t5.url,
+    includes: [
+      "Red, white & gold chrome ceiling balloons",
+      "Red foil 'WILL YOU MARRY ME' wall lettering",
+      "Balloon garland over the curtain wall",
+      "Red heart foil balloons",
+      "Rose petal heart on floor",
+    ],
+    rating: 4.8,
+    reviews: 163,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rooftop-heart-arch-i-love-you-marquee",
+    name: "Rooftop Heart Arch with 'I LOVE YOU' Marquee Letters",
+    description:
+      "An open-air terrace proposal with a red and silver chrome balloon heart arch, glowing 'I LOVE YOU' marquee letters, a fairy-lit backdrop and a thick rose petal path lit with candles.",
+    image: t6.url,
+    includes: [
+      "Red & silver chrome balloon heart arch",
+      "Illuminated 'I LOVE YOU' marquee letters",
+      "'It Was Always You' neon accent",
+      "Fairy light styling",
+      "Rose petal path with candles",
+    ],
+    rating: 4.9,
+    reviews: 221,
+    offer: <>₹6,999</>,
+    original: <>₹9,999</>,
+    discountPct: 30,
+  },
+  {
+    id: "proposal-luxury-rose-heart-red-carpet-terrace",
+    name: "Luxury Red Rose Heart Arch & Red Carpet Proposal",
+    description:
+      "Our signature luxury proposal: a towering heart arch covered entirely in fresh-look red roses with a 'Will you marry me?' neon at the centre, gold pedestal florals, a red carpet aisle and dozens of glass pillar candles.",
+    image: t7.url,
+    includes: [
+      "Full red rose heart arch (premium build)",
+      "'Will you marry me?' neon sign",
+      "Gold pedestal stands with rose arrangements",
+      "Red carpet aisle runner",
+      "Glass pillar candles & rose stem styling",
+      "Dedicated setup & teardown team",
+    ],
+    rating: 5,
+    reviews: 264,
+    offer: <>₹9,999</>,
+    original: <>₹14,999</>,
+    discountPct: 33,
+    bestSeller: true,
+  },
+  {
+    id: "proposal-gold-be-my-girlfriend-red-room",
+    name: "Gold 'Will You Be My Girlfriend' Red Balloon Room",
+    description:
+      "A dramatic red-and-gold bedroom proposal with red ceiling balloons dropping long ribbons, gold foil 'WILL YOU BE MY GIRLFRIEND' lettering, a red and black balloon floor border and a rose-petal heart on the bed.",
+    image: t8.url,
+    includes: [
+      "Red helium ceiling balloons with ribbon drops",
+      "Gold foil 'WILL YOU BE MY GIRLFRIEND' lettering",
+      "Red & black balloon floor border",
+      "Rose petal heart on bed",
+      "Rose bouquet & gift box styling",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: <>₹2,999</>,
+    original: <>₹4,499</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-pink-silver-ceiling-i-love-u-petals",
+    name: "Pink & Silver Ceiling with 'I LOVE U' Petal Letters",
+    description:
+      "A soft, pretty room surprise with pink, white and silver balloons filling the ceiling, long silver curling ribbons and 'I LOVE U' spelt out in rose petals above a big petal heart on the bed.",
+    image: t9.url,
+    includes: [
+      "Pink, white & silver ceiling balloons",
+      "Silver curling ribbon drops",
+      "'I LOVE U' rose petal lettering",
+      "Rose petal heart on bed",
+      "Bedside balloon cluster styling",
+    ],
+    rating: 4.7,
+    reviews: 141,
+    offer: <>₹2,699</>,
+    original: <>₹3,499</>,
+    discountPct: 23,
+  },
+  {
+    id: "proposal-i-love-you-love-foil-red-white-room",
+    name: "'I LOVE YOU' Foil Wall & Red-White Balloon Room",
+    description:
+      "A cosy red and white bedroom set-up with ceiling balloons on ribbons, red foil 'I LOVE YOU' wall letters, heart foils, a script 'love' foil on the headboard and a rose-petal swirl heart on the bed.",
+    image: t10.url,
+    includes: [
+      "Red & white ceiling balloons with ribbons",
+      "Red foil 'I LOVE YOU' wall lettering",
+      "Script 'love' foil balloon",
+      "Red heart foil balloons",
+      "Rose petal swirl heart & petal scatter",
+    ],
+    rating: 4.8,
+    reviews: 152,
+    offer: <>₹3,499</>,
+    original: <>₹4,999</>,
+    discountPct: 30,
+  },
+];
+
+const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T];
 
 
 const GALLERY = ALL_PACKAGES.map((p) => ({ src: p.image, alt: p.name }));

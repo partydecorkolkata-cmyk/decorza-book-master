@@ -65,8 +65,7 @@ export function Header() {
                 {CATEGORIES.slice(0, 10).map((c) => (
                   <Link
                     key={c.slug}
-                    to="/service/$slug"
-                    params={{ slug: c.slug }}
+                    to={`/service/${c.slug}` as never}
                     onClick={() => setOpen(false)}
                     className="py-1.5 text-sm text-muted-foreground"
                   >

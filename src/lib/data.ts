@@ -196,7 +196,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Theme Birthday Decoration") },
   { slug: "proposal-decoration", name: "Proposal Decoration", short: "Say it with a magical surprise",
     description: "Romantic proposal decor with candles, rose paths, ring props, LED \u201CMarry Me\u201D lights and dreamy ambient setups.",
-    hero: img(ROMANTIC_DECOR[3]), gallery: pick(ROMANTIC_DECOR),
+    hero: "/__l5e/assets-v1/71b3ef2d-6afe-43a4-a748-294b8bc7dc80/prop-t7.webp", gallery: pick(ROMANTIC_DECOR),
     rating: 5.0, reviews: 962, startsAt: 2499, popular: true, trending: true,
     faqs: baseFaqs("Proposal Decoration") },
   { slug: "baby-shower-decoration", name: "Baby Shower Decoration", short: "Soft, dreamy baby shower setups",

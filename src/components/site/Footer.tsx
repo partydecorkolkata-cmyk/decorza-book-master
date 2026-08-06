@@ -44,7 +44,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             {CATEGORIES.slice(0, 8).map((c) => (
               <li key={c.slug}>
-                <Link to="/service/$slug" params={{ slug: c.slug }} className="hover:text-gold">{c.name}</Link>
+                <Link to={`/service/${c.slug}` as never} className="hover:text-gold">{c.name}</Link>
               </li>
             ))}
           </ul>

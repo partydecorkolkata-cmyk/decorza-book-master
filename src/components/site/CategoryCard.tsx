@@ -9,8 +9,7 @@ export function CategoryCard({ c }: { c: Category }) {
   return (
     <div className="group relative overflow-hidden rounded-2xl border bg-card shadow-sm transition-all hover:-translate-y-1 hover:shadow-luxury">
       <Link
-        to="/service/$slug"
-        params={{ slug: c.slug }}
+        to={`/service/${c.slug}` as never}
         className="block aspect-[5/4] overflow-hidden"
       >
         <img
@@ -47,8 +46,7 @@ export function CategoryCard({ c }: { c: Category }) {
           <Phone className="h-3 w-3" /> WhatsApp
         </a>
         <Link
-          to="/service/$slug"
-          params={{ slug: c.slug }}
+          to={`/service/${c.slug}` as never}
           className="flex items-center justify-center bg-primary py-2.5 text-xs font-semibold text-primary-foreground"
         >
           View Packages
