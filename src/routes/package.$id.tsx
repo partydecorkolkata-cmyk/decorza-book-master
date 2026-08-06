@@ -109,7 +109,7 @@ function PackageDetailPage() {
           <span className="mx-2">/</span>
           <Link to="/packages" className="hover:text-primary">Packages</Link>
           <span className="mx-2">/</span>
-          <Link to="/service/$slug" params={{ slug: category.slug }} className="hover:text-primary">{category.name}</Link>
+          <Link to={`/service/${category.slug}` as never} className="hover:text-primary">{category.name}</Link>
           <span className="mx-2">/</span>
           <span className="text-foreground font-medium">{pkg.name}</span>
         </div>
