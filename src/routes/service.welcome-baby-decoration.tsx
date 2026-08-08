@@ -8,6 +8,7 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import cover from "@/assets/welcome-baby-cover.jpg.asset.json";
 import w1 from "@/assets/wb-w1.jpg.asset.json";
 import w2 from "@/assets/wb-w2.jpg.asset.json";
 import w3 from "@/assets/wb-w3.png.asset.json";
@@ -119,7 +120,7 @@ export const Route = createFileRoute("/service/welcome-baby-decoration")({
       { title: `Welcome Baby Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn’s arrival. Book on WhatsApp.` },
       { property: "og:title", content: `Welcome Baby Decoration | Decorza Events` },
-      { property: "og:image", content: w1.url },
+      { property: "og:image", content: cover.url },
     ],
     links: [{ rel: "canonical", href: "/service/welcome-baby-decoration" }],
   }),
@@ -1681,7 +1682,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={w2.url} alt="Welcome Baby Decoration" className="h-full w-full object-cover" />
+          <img src={cover.url} alt="Welcome Baby Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
