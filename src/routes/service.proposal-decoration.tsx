@@ -68,6 +68,16 @@ import u7 from "@/assets/prop-u7.jpg.asset.json";
 import u8 from "@/assets/prop-u8.jpg.asset.json";
 import u9 from "@/assets/prop-u9.jpg.asset.json";
 import u10 from "@/assets/prop-u10.jpg.asset.json";
+import v1 from "@/assets/prop-v1.jpg.asset.json";
+import v2 from "@/assets/prop-v2.jpeg.asset.json";
+import v3 from "@/assets/prop-v3.jpeg.asset.json";
+import v4 from "@/assets/prop-v4.jpg.asset.json";
+import v5 from "@/assets/prop-v5.jpeg.asset.json";
+import v6 from "@/assets/prop-v6.jpeg.asset.json";
+import v7 from "@/assets/prop-v7.jpeg.asset.json";
+import v8 from "@/assets/prop-v8.jpeg.asset.json";
+import v9 from "@/assets/prop-v9.png.asset.json";
+import v10 from "@/assets/prop-v10.png.asset.json";
 
 const PACKAGES = [
   {
