@@ -1231,7 +1231,200 @@ const BATCH_U = [
   },
 ];
 
-const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U];
+const BATCH_V = [
+  {
+    id: "proposal-beach-sunset-drape-rose-neon",
+    name: "Beach Sunset Drape Arch with Rose Aisle Proposal",
+    description:
+      "A seaside square arch dressed in flowing white drapes with red rose corner blooms, a warm 'Will You Marry Me?' neon glowing against the sunset, and a carpet of fresh red roses, petals and glass candles on the sand.",
+    image: v1.url,
+    includes: [
+      "Square metal arch with white flowing drapes",
+      "Red rose & eucalyptus corner floral clusters",
+      "Warm white 'Will You Marry Me?' neon sign",
+      "Fresh red rose stems with glass candle holders",
+      "Rose petal scatter on sand & on-site setup",
+    ],
+    rating: 4.9,
+    reviews: 187,
+    offer: <>₹6,499</>,
+    original: <>₹9,999</>,
+    discountPct: 35,
+  },
+  {
+    id: "proposal-round-arch-pastel-chrome-feather",
+    name: "Round Ring Arch with Pastel & Chrome Balloon Garland",
+    description:
+      "A bold round metal ring wrapped in an organic garland of mustard, blush, nude and rose-gold chrome balloons with dried palm and feather accents, centred by a cool white 'Will You Marry Me?' neon.",
+    image: v2.url,
+    includes: [
+      "Round metal ring arch",
+      "Pastel, nude & rose-gold chrome balloon garland",
+      "Dried palm leaf and feather accents",
+      "White 'Will You Marry Me?' neon sign",
+      "On-site setup & styling",
+    ],
+    rating: 4.8,
+    reviews: 142,
+    offer: <>₹4,499</>,
+    original: <>₹6,499</>,
+    discountPct: 31,
+  },
+  {
+    id: "proposal-skyline-candle-heart-sparkler",
+    name: "Skyline Candle Heart Proposal with Sparkler Towers",
+    description:
+      "An open-air terrace proposal with a glowing 'Will you Marry Me?' neon on the railing, a heart drawn in pillar candles and red roses on the floor, cold sparkler fountains on both sides and city lights behind.",
+    image: v3.url,
+    includes: [
+      "'Will you Marry Me?' neon sign on stand",
+      "Pillar candle & red rose floor heart",
+      "Two cold sparkler fountain towers",
+      "Red rose flower baskets",
+      "On-site setup & styling",
+    ],
+    rating: 4.9,
+    reviews: 156,
+    offer: <>₹4,499</>,
+    original: <>₹5,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-giant-red-rose-heart-better-together",
+    name: "Giant Red Rose Heart Arch with 'Better Together' Neon",
+    description:
+      "A larger-than-life red flower heart arch on a rooftop, with a 'Better Together' neon in the centre, gold lamp posts on both sides and a thick red petal carpet leading up to it.",
+    image: v4.url,
+    includes: [
+      "Giant red artificial rose heart arch",
+      "'Better Together' neon sign",
+      "Gold LED lamp post line-up on both sides",
+      "Red carpet with dense rose petal walkway",
+      "Wooden crates, floral baskets & LED candles",
+    ],
+    rating: 5,
+    reviews: 173,
+    offer: <>₹8,499</>,
+    original: <>₹11,999</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-white-mustard-round-board-marquee",
+    name: "White & Mustard Round Board with 'I LOVE YOU' Marquee",
+    description:
+      "An outdoor round white board printed with 'WILL YOU Marry Me?', wrapped in a mustard and white balloon garland, finished with glowing 'I LOVE YOU' marquee letters and a big petal heart on the floor.",
+    image: v5.url,
+    includes: [
+      "Round white printed proposal board",
+      "Mustard, white & gold balloon garland",
+      "Light-up 'I LOVE YOU' marquee letters",
+      "Rose petal heart on floor",
+      "On-site setup & styling",
+    ],
+    rating: 4.8,
+    reviews: 128,
+    offer: <>₹4,999</>,
+    original: <>₹6,999</>,
+    discountPct: 29,
+  },
+  {
+    id: "proposal-red-rose-frame-forever-red-carpet",
+    name: "Red Rose Frame Arch with 'Will You Be My Forever?' Neon",
+    description:
+      "A garden setup with a square frame packed in red roses, a golden 'Will you be my Forever?' neon in the centre, a red carpet runner and pillar candles surrounded by a thick sea of rose petals.",
+    image: v6.url,
+    includes: [
+      "Square red rose frame arch",
+      "Golden 'Will you be my Forever?' neon sign",
+      "Red carpet runner",
+      "Pillar candle cluster styling",
+      "Heavy rose petal scatter & setup",
+    ],
+    rating: 4.9,
+    reviews: 161,
+    offer: <>₹7,999</>,
+    original: <>₹11,999</>,
+    discountPct: 33,
+  },
+  {
+    id: "proposal-rosegold-ring-marryme-bouquet",
+    name: "Rose Gold Ring Arch 'Marry Me' with Rose Bouquet",
+    description:
+      "An indoor ring arch loaded with blush, ivory, chrome rose-gold balloons and fresh-look carnations, a white 'Marry me' neon in the middle, a giant red rose bouquet on the floor and a candle-lit petal heart.",
+    image: v7.url,
+    includes: [
+      "Round ring arch with blush & chrome balloon garland",
+      "Floral accents in the garland",
+      "'Marry me' neon sign",
+      "Large red rose bouquet centrepiece",
+      "LED candle & petal heart on floor",
+    ],
+    rating: 4.9,
+    reviews: 149,
+    offer: <>₹5,999</>,
+    original: <>₹7,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-red-balloon-gate-fairy-curtain",
+    name: "Red Balloon Gate Arch with Fairy Light Curtain",
+    description:
+      "A chunky red balloon gate framing a white fairy-light curtain, an orange 'Will You Marry Me?' neon in the centre, heart foil balloons floating on top and tealights scattered across the floor.",
+    image: v8.url,
+    includes: [
+      "Red balloon gate arch",
+      "White curtain backdrop with fairy lights",
+      "'Will You Marry Me?' neon sign",
+      "Red & rose-gold heart foil balloons",
+      "Tealight floor scatter & setup",
+    ],
+    rating: 4.8,
+    reviews: 134,
+    offer: <>₹4,499</>,
+    original: <>₹6,499</>,
+    discountPct: 31,
+  },
+  {
+    id: "proposal-lawn-triangle-arch-petal-heart",
+    name: "Lawn Triangle Arch Proposal with Giant Petal Heart",
+    description:
+      "A waterfront lawn proposal with a black triangular arch topped in red roses and greenery, a glowing 'Will You Marry Me?' neon, tall pillar candles and an oversized rose petal heart on the grass.",
+    image: v9.url,
+    includes: [
+      "Black triangular metal arch",
+      "Red rose & greenery floral clusters",
+      "'Will You Marry Me?' neon sign",
+      "Tall pillar candles with glass holders",
+      "Oversized rose petal heart on lawn",
+    ],
+    rating: 5,
+    reviews: 168,
+    offer: <>₹7,499</>,
+    original: <>₹9,999</>,
+    discountPct: 25,
+  },
+  {
+    id: "proposal-white-heart-balloon-poolside",
+    name: "White Heart Balloon Arch Poolside Proposal",
+    description:
+      "A dreamy poolside setup with a big white balloon heart arch draped in soft tulle, a white 'Will You Marry Me?' neon inside it, white rose vases and a white petal pathway with glass candles.",
+    image: v10.url,
+    includes: [
+      "White heart-shaped balloon arch",
+      "Soft tulle drape base",
+      "'Will You Marry Me?' neon sign",
+      "White rose vase arrangements",
+      "White petal pathway with glass candles",
+    ],
+    rating: 4.9,
+    reviews: 152,
+    offer: <>₹5,999</>,
+    original: <>₹7,999</>,
+    discountPct: 25,
+  },
+];
+
+const ALL_PACKAGES = [...PACKAGES, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V];
 
 
 const GALLERY = ALL_PACKAGES.map((p) => ({ src: p.image, alt: p.name }));
