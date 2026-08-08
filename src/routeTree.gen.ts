@@ -26,6 +26,7 @@ import { Route as ServiceMehendiDecorationRouteImport } from './routes/service.m
 import { Route as ServiceKidsThemeDecorationRouteImport } from './routes/service.kids-theme-decoration'
 import { Route as ServiceHousewarmingDecorationRouteImport } from './routes/service.housewarming-decoration'
 import { Route as ServiceHaldiDecorationRouteImport } from './routes/service.haldi-decoration'
+import { Route as ServiceEntranceGateDecorationRouteImport } from './routes/service.entrance-gate-decoration'
 import { Route as ServiceEngagementDecorationRouteImport } from './routes/service.engagement-decoration'
 import { Route as ServiceCorporateEventDecorationRouteImport } from './routes/service.corporate-event-decoration'
 import { Route as ServiceCarBootDecorationRouteImport } from './routes/service.car-boot-decoration'
@@ -133,6 +134,12 @@ const ServiceHaldiDecorationRoute = ServiceHaldiDecorationRouteImport.update({
   path: '/service/haldi-decoration',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ServiceEntranceGateDecorationRoute =
+  ServiceEntranceGateDecorationRouteImport.update({
+    id: '/service/entrance-gate-decoration',
+    path: '/service/entrance-gate-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ServiceEngagementDecorationRoute =
   ServiceEngagementDecorationRouteImport.update({
     id: '/service/engagement-decoration',
@@ -230,6 +237,7 @@ export interface FileRoutesByFullPath {
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
   '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
   '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/entrance-gate-decoration': typeof ServiceEntranceGateDecorationRoute
   '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
   '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
   '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
@@ -262,6 +270,7 @@ export interface FileRoutesByTo {
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
   '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
   '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/entrance-gate-decoration': typeof ServiceEntranceGateDecorationRoute
   '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
   '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
   '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
@@ -295,6 +304,7 @@ export interface FileRoutesById {
   '/service/car-boot-decoration': typeof ServiceCarBootDecorationRoute
   '/service/corporate-event-decoration': typeof ServiceCorporateEventDecorationRoute
   '/service/engagement-decoration': typeof ServiceEngagementDecorationRoute
+  '/service/entrance-gate-decoration': typeof ServiceEntranceGateDecorationRoute
   '/service/haldi-decoration': typeof ServiceHaldiDecorationRoute
   '/service/housewarming-decoration': typeof ServiceHousewarmingDecorationRoute
   '/service/kids-theme-decoration': typeof ServiceKidsThemeDecorationRoute
@@ -329,6 +339,7 @@ export interface FileRouteTypes {
     | '/service/car-boot-decoration'
     | '/service/corporate-event-decoration'
     | '/service/engagement-decoration'
+    | '/service/entrance-gate-decoration'
     | '/service/haldi-decoration'
     | '/service/housewarming-decoration'
     | '/service/kids-theme-decoration'
@@ -361,6 +372,7 @@ export interface FileRouteTypes {
     | '/service/car-boot-decoration'
     | '/service/corporate-event-decoration'
     | '/service/engagement-decoration'
+    | '/service/entrance-gate-decoration'
     | '/service/haldi-decoration'
     | '/service/housewarming-decoration'
     | '/service/kids-theme-decoration'
@@ -393,6 +405,7 @@ export interface FileRouteTypes {
     | '/service/car-boot-decoration'
     | '/service/corporate-event-decoration'
     | '/service/engagement-decoration'
+    | '/service/entrance-gate-decoration'
     | '/service/haldi-decoration'
     | '/service/housewarming-decoration'
     | '/service/kids-theme-decoration'
@@ -425,6 +438,7 @@ export interface RootRouteChildren {
   ServiceCarBootDecorationRoute: typeof ServiceCarBootDecorationRoute
   ServiceCorporateEventDecorationRoute: typeof ServiceCorporateEventDecorationRoute
   ServiceEngagementDecorationRoute: typeof ServiceEngagementDecorationRoute
+  ServiceEntranceGateDecorationRoute: typeof ServiceEntranceGateDecorationRoute
   ServiceHaldiDecorationRoute: typeof ServiceHaldiDecorationRoute
   ServiceHousewarmingDecorationRoute: typeof ServiceHousewarmingDecorationRoute
   ServiceKidsThemeDecorationRoute: typeof ServiceKidsThemeDecorationRoute
@@ -558,6 +572,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceHaldiDecorationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/service/entrance-gate-decoration': {
+      id: '/service/entrance-gate-decoration'
+      path: '/service/entrance-gate-decoration'
+      fullPath: '/service/entrance-gate-decoration'
+      preLoaderRoute: typeof ServiceEntranceGateDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/service/engagement-decoration': {
       id: '/service/engagement-decoration'
       path: '/service/engagement-decoration'
@@ -683,6 +704,7 @@ const rootRouteChildren: RootRouteChildren = {
   ServiceCarBootDecorationRoute: ServiceCarBootDecorationRoute,
   ServiceCorporateEventDecorationRoute: ServiceCorporateEventDecorationRoute,
   ServiceEngagementDecorationRoute: ServiceEngagementDecorationRoute,
+  ServiceEntranceGateDecorationRoute: ServiceEntranceGateDecorationRoute,
   ServiceHaldiDecorationRoute: ServiceHaldiDecorationRoute,
   ServiceHousewarmingDecorationRoute: ServiceHousewarmingDecorationRoute,
   ServiceKidsThemeDecorationRoute: ServiceKidsThemeDecorationRoute,
