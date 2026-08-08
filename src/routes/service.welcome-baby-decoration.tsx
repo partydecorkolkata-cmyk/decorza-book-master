@@ -8,6 +8,7 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import cover from "@/assets/welcome-baby-cover.jpg.asset.json";
 import w1 from "@/assets/wb-w1.jpg.asset.json";
 import w2 from "@/assets/wb-w2.jpg.asset.json";
 import w3 from "@/assets/wb-w3.png.asset.json";
