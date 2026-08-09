@@ -18,6 +18,189 @@ import rbdN4 from "@/assets/rbd-n4.jpg.asset.json";
 import rbdN5 from "@/assets/rbd-n5.webp.asset.json";
 import rbdN6 from "@/assets/rbd-n6.jpg.asset.json";
 import rbdN7 from "@/assets/rbd-n7.webp.asset.json";
+import rbdO1 from "@/assets/rbd-o1.jpg.asset.json";
+import rbdO2 from "@/assets/rbd-o2.jpg.asset.json";
+import rbdO3 from "@/assets/rbd-o3.jpg.asset.json";
+import rbdO4 from "@/assets/rbd-o4.jpg.asset.json";
+import rbdO5 from "@/assets/rbd-o5.webp.asset.json";
+import rbdO6 from "@/assets/rbd-o6.jpg.asset.json";
+import rbdO7 from "@/assets/rbd-o7.jpg.asset.json";
+import rbdO8 from "@/assets/rbd-o8.jpg.asset.json";
+import rbdO9 from "@/assets/rbd-o9.jpg.asset.json";
+import rbdO10 from "@/assets/rbd-o10.jpg.asset.json";
+
+const BATCH_O = [
+  {
+    id: "rbd-o1-red-black-silver-birthday-room",
+    name: "Red & Black Chrome Birthday Room Decoration",
+    description:
+      "A bold black, silver and chrome ceiling balloon spread with a red foil 'HAPPY BIRTHDAY' banner and heart foils on the wall, silver balloons on the bed and a red 'I ❤ you' foil script at the bed foot with tealight candles.",
+    image: rbdO1.url,
+    includes: [
+      "Black, silver & chrome ceiling balloons with ribbons",
+      "Red foil 'HAPPY BIRTHDAY' banner with heart foils",
+      "Red 'I love you' foil script & LED tealight candles",
+    ],
+    rating: 4.8,
+    reviews: 342,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-o2-red-rose-canopy-birthday-room",
+    name: "Red Rose Net Canopy Birthday Room Surprise",
+    description:
+      "A full red balloon ceiling with hanging roses and photo clips, gold 'HAPPY BIRTHDAY' foil letters, a fairy-lit net canopy over the bed with a rose petal heart and a long petal walkway with red heart balloon pillars.",
+    image: rbdO2.url,
+    includes: [
+      "Red ceiling balloons, hanging roses & photo clips",
+      "Fairy-lit net canopy with rose petal heart on bed",
+      "Petal walkway with red heart balloon pillars",
+    ],
+    rating: 4.9,
+    reviews: 468,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-o3-rooftop-floral-cabana-sunset",
+    name: "Rooftop Floral Cabana Sunset Date Setup",
+    description:
+      "A premium rooftop cabana wrapped in fresh pink and white florals and dense fairy lights, cosy cushion seating, marquee LOVE letters, a custom name board, teddy, gift boxes, lanterns and a full rose petal floor with candles.",
+    image: rbdO3.url,
+    includes: [
+      "Fresh floral cabana with fairy lights & cushions",
+      "Custom name board, marquee LOVE letters & teddy",
+      "Rose petal floor art, lanterns, candles & gift boxes",
+    ],
+    rating: 5,
+    reviews: 187,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-o4-red-white-gold-cabana-room",
+    name: "Red White & Gold Cabana Room Decoration",
+    description:
+      "An indoor sheer cabana tent lit with fairy lights and a glitter 'Happy Birthday' cutout, framed by a red, white and gold chrome balloon garland, red heart foils and a bed of pink and white balloons inside.",
+    image: rbdO4.url,
+    includes: [
+      "Sheer cabana tent with fairy lights & glitter banner",
+      "Red, white & gold chrome balloon garland with heart foils",
+      "Balloon bed inside with cushions & side balloon pillars",
+    ],
+    rating: 4.8,
+    reviews: 263,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-o5-just-married-pink-gold-first-night",
+    name: "Just Married Pink & Gold First Night Room",
+    description:
+      "A first-night room in pink and gold balloon clusters across the ceiling and walls, a red 'love' script balloon over a fairy-lit net canopy, gold 'JUST MARRIED' foils and a fresh rose petal heart on the bed.",
+    image: rbdO5.url,
+    includes: [
+      "Pink & gold balloon clusters with hanging ribbons",
+      "Net canopy with fairy lights & red 'love' script balloon",
+      "Gold 'JUST MARRIED' foils & rose petal heart on bed",
+    ],
+    rating: 4.9,
+    reviews: 391,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-o6-golden-gazebo-teepee-milestone",
+    name: "Golden Gazebo Teepee Milestone Celebration",
+    description:
+      "A white gazebo teepee glowing with fairy lights, a cursive 'Happy Birthday' cutout with green vines and a paper fan top, rose gold number balloons with a crown, yellow-white balloon clusters, heart foils and a cake table.",
+    image: rbdO6.url,
+    includes: [
+      "Fairy-lit teepee with cursive banner, vines & fan top",
+      "Rose gold number balloons with crown foil",
+      "Yellow-white balloon clusters, heart foils & cake table styling",
+    ],
+    rating: 4.7,
+    reviews: 208,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-o7-golden-night-flower-mandap-bed",
+    name: "Golden Night Fresh Flower Mandap Bed Decoration",
+    description:
+      "A four-pillar fresh flower mandap over the bed built with white, purple and red chrysanthemums, roses and palm-leaf weaves, hanging mogra strings with red net bows and a thick rose petal carpet on the floor.",
+    image: rbdO7.url,
+    includes: [
+      "Four-pillar fresh flower mandap with palm-leaf weaves",
+      "Hanging mogra strings with red net bows",
+      "Rose petal carpet & complete bed styling",
+    ],
+    rating: 5,
+    reviews: 176,
+    offer: "₹11,999",
+    original: "₹14,999",
+    discountPct: 20,
+  },
+  {
+    id: "rbd-o8-golden-night-drape-flower-canopy",
+    name: "Golden Night Drape & Flower Canopy Room",
+    description:
+      "A grand fairy-lit white drape canopy pulled from the ceiling to the bed corners, topped with a heavy fresh flower garland of white, orange and purple blooms running down the centre, over a red velvet bed and petal floor.",
+    image: rbdO8.url,
+    includes: [
+      "Fairy-lit white drape canopy over the bed",
+      "Heavy fresh flower garland with centre floral fall",
+      "Red velvet bed styling with full rose petal floor",
+    ],
+    rating: 5,
+    reviews: 164,
+    offer: "₹11,999",
+    original: "₹14,999",
+    discountPct: 20,
+  },
+  {
+    id: "rbd-o9-rose-garden-canopy-first-night",
+    name: "Rose Garden Canopy First Night Decoration",
+    description:
+      "A luxury four-post canopy topped with a dense pink rose, baby's breath and chrysanthemum garden, sheer fairy-lit drapes falling to the bed, full floral pillars on both sides and a rich rose petal floor.",
+    image: rbdO9.url,
+    includes: [
+      "Four-post canopy with pink rose & baby's breath top",
+      "Sheer fairy-lit drapes with full floral corner pillars",
+      "Rose petal floor spread & bed styling",
+    ],
+    rating: 5,
+    reviews: 198,
+    offer: "₹11,999",
+    original: "₹14,999",
+    discountPct: 20,
+  },
+  {
+    id: "rbd-o10-pink-silver-number-birthday-room",
+    name: "Pink & Silver Number Birthday Room Decoration",
+    description:
+      "A pretty pink and silver chrome ceiling balloon canopy with hanging ribbons and roses, gold 'HAPPY BIRTHDAY' foils with a red 'love' script, giant magenta heart foils, silver number balloons and rose petal hearts on the floor.",
+    image: rbdO10.url,
+    includes: [
+      "Pink & silver chrome ceiling balloons with hanging roses",
+      "Gold 'HAPPY BIRTHDAY' foils, 'love' script & heart foils",
+      "Silver number balloons with balloon base & petal hearts",
+    ],
+    rating: 4.9,
+    reviews: 305,
+    offer: "₹3,999",
+    original: "₹5,499",
+    discountPct: 27,
+  },
+];
 
 const NEW_PACKAGES = [
   {
@@ -233,7 +416,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {NEW_PACKAGES.map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -256,7 +439,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
