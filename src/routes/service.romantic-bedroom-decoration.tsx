@@ -196,43 +196,59 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="romantic-bedroom-decoration-essential"
-            name="Essential Romantic Bedroom Decoration"
-            description="A clean, photo-ready romantic bedroom decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/anniversary-1.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.800000000000001}
+            name="Essential Rose Gold Balloon Bedroom Decoration"
+            description="A pretty bedroom surprise with a full rose gold and pink ceiling balloon cover, rose gold 'HAPPY BIRTHDAY' foil letters with heart accents on the wall and balloons scattered across the bed."
+            image={rbdE1.url}
+            includes={["Rose gold & pink ceiling balloons with ribbons","Rose gold foil letters with heart foils","Balloon spread on bed & wall balloon flowers"]}
+            rating={4.8}
             reviews={414}
-            offer={<>₹8,999</>}
-            original={<>₹9,999</>}
-            discountPct={10}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
             id="romantic-bedroom-decoration-premium"
-            name="Premium Romantic Bedroom Decoration"
-            description="An upgraded romantic bedroom decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/anniversary-2.webp"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            name="Premium Just Married Love Room Decoration"
+            description="A complete red and white love room with hanging heart foils and roses from the ceiling, gold 'JUST MARRIED' letters, a rose petal heart on the bed and a big 'I LOVE YOU' petal message on the floor."
+            image={rbdP1.url}
+            includes={["Red & white ceiling balloons with hanging heart foils","Gold 'JUST MARRIED' foil letters & hanging roses","Rose petal heart on bed + 'I LOVE YOU' petal floor art"]}
             rating={4.9}
             reviews={580}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
             id="romantic-bedroom-decoration-luxury"
-            name="Luxury Romantic Bedroom Decoration"
-            description="A full luxury romantic bedroom decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/anniversary-3.webp"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.800000000000001}
+            name="Luxury Fairy Light Cabana Bedroom Decoration"
+            description="A luxury cabana canopy over the bed in sheer white drapes packed with fairy lights, hanging white florals and red rose bunches, finished with a candle-lit rose petal walkway."
+            image={rbdL1.url}
+            includes={["Four-post cabana canopy with dense fairy lights","Hanging white floral vines & red rose bunches","Rose petal aisle with LED candles & bed styling"]}
+            rating={5}
             reviews={967}
-            offer={<>₹6,598</>}
-            original={<>₹9,997</>}
-            discountPct={34}
+            offer={<>₹7,499</>}
+            original={<>₹9,999</>}
+            discountPct={25}
             bestSeller={false}
           />
+          {NEW_PACKAGES.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>{p.offer}</>}
+              original={<>{p.original}</>}
+              discountPct={p.discountPct}
+              bestSeller={p.bestSeller}
+            />
+          ))}
         </div>
       </section>
 
@@ -240,15 +256,13 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            <img src="/anniversary-1.jpg" alt="Romantic Bedroom Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-2.webp" alt="Romantic Bedroom Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-3.webp" alt="Romantic Bedroom Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-1.jpg" alt="Romantic Bedroom Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-2.jpg" alt="Romantic Bedroom Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-3.webp" alt="Romantic Bedroom Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-4.jpg" alt="Romantic Bedroom Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-5.jpg" alt="Romantic Bedroom Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image)].map((src, i) => (
+              <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
+        </div>
+      </section>
+
         </div>
       </section>
 
