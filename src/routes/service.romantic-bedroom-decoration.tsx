@@ -8,6 +8,139 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import rbdE1 from "@/assets/rbd-e1.jpg.asset.json";
+import rbdP1 from "@/assets/rbd-p1.jpg.asset.json";
+import rbdL1 from "@/assets/rbd-l1.jpg.asset.json";
+import rbdN1 from "@/assets/rbd-n1.jpg.asset.json";
+import rbdN2 from "@/assets/rbd-n2.jpg.asset.json";
+import rbdN3 from "@/assets/rbd-n3.jpg.asset.json";
+import rbdN4 from "@/assets/rbd-n4.jpg.asset.json";
+import rbdN5 from "@/assets/rbd-n5.webp.asset.json";
+import rbdN6 from "@/assets/rbd-n6.jpg.asset.json";
+import rbdN7 from "@/assets/rbd-n7.webp.asset.json";
+
+const NEW_PACKAGES = [
+  {
+    id: "rbd-cabana-pink-birthday",
+    name: "Pink Cabana Romantic Room Decoration",
+    description:
+      "A dreamy white net cabana glowing with fairy lights, topped with a silver star and a hand-lettered 'Happy Birthday' banner, framed by pink and pearl balloon pillars with red foil hearts and a rose petal walkway.",
+    image: rbdN1.url,
+    includes: [
+      "White net cabana with fairy light curtain",
+      "Pink & pearl balloon pillars with red foil hearts",
+      "Rose petal aisle, petal hearts & tealight candles",
+    ],
+    rating: 4.9,
+    reviews: 512,
+    offer: "₹3,999",
+    original: "₹6,499",
+    discountPct: 38,
+    bestSeller: true,
+  },
+  {
+    id: "rbd-rooftop-love-tent",
+    name: "Rooftop Love Tent Romantic Setup",
+    description:
+      "An open-air rooftop teepee draped in sheer net and warm fairy lights, crowned with red foil 'love' balloons, a bed of red heart balloons inside and lantern cages glowing on both sides.",
+    image: rbdN2.url,
+    includes: [
+      "Sheer teepee tent with warm fairy lights",
+      "Red foil 'LOVE' balloons & heart balloon bed",
+      "Lantern cages and LED candles",
+    ],
+    rating: 4.8,
+    reviews: 388,
+    offer: "₹3,999",
+    original: "₹5,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-candlelit-terrace-canopy",
+    name: "Candlelit Terrace Canopy Date Setup",
+    description:
+      "A night-time terrace canopy lit with twinkling lights, red heart balloons on a white mattress, gold star balloon pillars and a long candle-lined rose petal pathway leading to the tent.",
+    image: rbdN3.url,
+    includes: [
+      "Canopy tent with fairy lights & heart balloons",
+      "Gold star balloon pillars on both sides",
+      "Long rose petal pathway with LED candles",
+    ],
+    rating: 4.9,
+    reviews: 296,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-just-married-balloon-room",
+    name: "Just Married Balloon Room Decoration",
+    description:
+      "A full red and white balloon room with a fairy-lit net canopy over the bed, gold 'JUST MARRIED' foils, a red 'love' script balloon and hanging heart foils — made for the first night home.",
+    image: rbdN4.url,
+    includes: [
+      "Net canopy over bed with fairy lights",
+      "Gold 'JUST MARRIED' & red 'love' foil balloons",
+      "Red-white floor and ceiling balloon spread",
+    ],
+    rating: 4.8,
+    reviews: 431,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-happy-honeymoon-room",
+    name: "Happy Honeymoon Balloon Room",
+    description:
+      "A honeymoon suite styled with a red and pink ceiling balloon cloud, personalised silver foil message on the wall, floating heart balloons and a rose petal heart on the bed.",
+    image: rbdN5.url,
+    includes: [
+      "Red & pink ceiling balloon cloud with ribbons",
+      "Personalised silver foil name/message",
+      "Heart foil balloons & rose petal heart on bed",
+    ],
+    rating: 4.9,
+    reviews: 356,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-boho-picnic-teepee",
+    name: "Boho Picnic Teepee Romantic Date",
+    description:
+      "A soft ivory teepee wrapped in warm fairy lights with cosy cushions, a white rose posy, pampas grass, marquee 'LOVE' letters and white balloons — a calm, aesthetic indoor date setup.",
+    image: rbdN6.url,
+    includes: [
+      "Ivory teepee with fairy lights & cushion seating",
+      "Pampas grass, white florals & marquee LOVE light",
+      "White balloon accents and cosy rug styling",
+    ],
+    rating: 4.8,
+    reviews: 274,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-luxury-floral-canopy-bed",
+    name: "Luxury Floral Canopy Bed Decoration",
+    description:
+      "A grand four-pillar bed canopy in shimmer drapes and fairy lights, topped with a thick red and white flower garland, corner floral bouquets and hanging hearts — our most premium first-night setup.",
+    image: rbdN7.url,
+    includes: [
+      "Four-pillar canopy with shimmer drapes & lights",
+      "Full flower garland top with corner bouquets",
+      "Hanging hearts, mood lighting & bed styling",
+    ],
+    rating: 5,
+    reviews: 218,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
+  },
+];
 
 export const Route = createFileRoute("/service/romantic-bedroom-decoration")({
   loader: () => {
