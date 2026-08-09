@@ -8,6 +8,139 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import rbdE1 from "@/assets/rbd-e1.jpg.asset.json";
+import rbdP1 from "@/assets/rbd-p1.jpg.asset.json";
+import rbdL1 from "@/assets/rbd-l1.jpg.asset.json";
+import rbdN1 from "@/assets/rbd-n1.jpg.asset.json";
+import rbdN2 from "@/assets/rbd-n2.jpg.asset.json";
+import rbdN3 from "@/assets/rbd-n3.jpg.asset.json";
+import rbdN4 from "@/assets/rbd-n4.jpg.asset.json";
+import rbdN5 from "@/assets/rbd-n5.webp.asset.json";
+import rbdN6 from "@/assets/rbd-n6.jpg.asset.json";
+import rbdN7 from "@/assets/rbd-n7.webp.asset.json";
+
+const NEW_PACKAGES = [
+  {
+    id: "rbd-cabana-pink-birthday",
+    name: "Pink Cabana Romantic Room Decoration",
+    description:
+      "A dreamy white net cabana glowing with fairy lights, topped with a silver star and a hand-lettered 'Happy Birthday' banner, framed by pink and pearl balloon pillars with red foil hearts and a rose petal walkway.",
+    image: rbdN1.url,
+    includes: [
+      "White net cabana with fairy light curtain",
+      "Pink & pearl balloon pillars with red foil hearts",
+      "Rose petal aisle, petal hearts & tealight candles",
+    ],
+    rating: 4.9,
+    reviews: 512,
+    offer: "₹3,999",
+    original: "₹6,499",
+    discountPct: 38,
+    bestSeller: true,
+  },
+  {
+    id: "rbd-rooftop-love-tent",
+    name: "Rooftop Love Tent Romantic Setup",
+    description:
+      "An open-air rooftop teepee draped in sheer net and warm fairy lights, crowned with red foil 'love' balloons, a bed of red heart balloons inside and lantern cages glowing on both sides.",
+    image: rbdN2.url,
+    includes: [
+      "Sheer teepee tent with warm fairy lights",
+      "Red foil 'LOVE' balloons & heart balloon bed",
+      "Lantern cages and LED candles",
+    ],
+    rating: 4.8,
+    reviews: 388,
+    offer: "₹3,999",
+    original: "₹5,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-candlelit-terrace-canopy",
+    name: "Candlelit Terrace Canopy Date Setup",
+    description:
+      "A night-time terrace canopy lit with twinkling lights, red heart balloons on a white mattress, gold star balloon pillars and a long candle-lined rose petal pathway leading to the tent.",
+    image: rbdN3.url,
+    includes: [
+      "Canopy tent with fairy lights & heart balloons",
+      "Gold star balloon pillars on both sides",
+      "Long rose petal pathway with LED candles",
+    ],
+    rating: 4.9,
+    reviews: 296,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-just-married-balloon-room",
+    name: "Just Married Balloon Room Decoration",
+    description:
+      "A full red and white balloon room with a fairy-lit net canopy over the bed, gold 'JUST MARRIED' foils, a red 'love' script balloon and hanging heart foils — made for the first night home.",
+    image: rbdN4.url,
+    includes: [
+      "Net canopy over bed with fairy lights",
+      "Gold 'JUST MARRIED' & red 'love' foil balloons",
+      "Red-white floor and ceiling balloon spread",
+    ],
+    rating: 4.8,
+    reviews: 431,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-happy-honeymoon-room",
+    name: "Happy Honeymoon Balloon Room",
+    description:
+      "A honeymoon suite styled with a red and pink ceiling balloon cloud, personalised silver foil message on the wall, floating heart balloons and a rose petal heart on the bed.",
+    image: rbdN5.url,
+    includes: [
+      "Red & pink ceiling balloon cloud with ribbons",
+      "Personalised silver foil name/message",
+      "Heart foil balloons & rose petal heart on bed",
+    ],
+    rating: 4.9,
+    reviews: 356,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-boho-picnic-teepee",
+    name: "Boho Picnic Teepee Romantic Date",
+    description:
+      "A soft ivory teepee wrapped in warm fairy lights with cosy cushions, a white rose posy, pampas grass, marquee 'LOVE' letters and white balloons — a calm, aesthetic indoor date setup.",
+    image: rbdN6.url,
+    includes: [
+      "Ivory teepee with fairy lights & cushion seating",
+      "Pampas grass, white florals & marquee LOVE light",
+      "White balloon accents and cosy rug styling",
+    ],
+    rating: 4.8,
+    reviews: 274,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-luxury-floral-canopy-bed",
+    name: "Luxury Floral Canopy Bed Decoration",
+    description:
+      "A grand four-pillar bed canopy in shimmer drapes and fairy lights, topped with a thick red and white flower garland, corner floral bouquets and hanging hearts — our most premium first-night setup.",
+    image: rbdN7.url,
+    includes: [
+      "Four-pillar canopy with shimmer drapes & lights",
+      "Full flower garland top with corner bouquets",
+      "Hanging hearts, mood lighting & bed styling",
+    ],
+    rating: 5,
+    reviews: 218,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
+  },
+];
 
 export const Route = createFileRoute("/service/romantic-bedroom-decoration")({
   loader: () => {
@@ -63,43 +196,59 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="romantic-bedroom-decoration-essential"
-            name="Essential Romantic Bedroom Decoration"
-            description="A clean, photo-ready romantic bedroom decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/anniversary-1.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.800000000000001}
+            name="Essential Rose Gold Balloon Bedroom Decoration"
+            description="A pretty bedroom surprise with a full rose gold and pink ceiling balloon cover, rose gold 'HAPPY BIRTHDAY' foil letters with heart accents on the wall and balloons scattered across the bed."
+            image={rbdE1.url}
+            includes={["Rose gold & pink ceiling balloons with ribbons","Rose gold foil letters with heart foils","Balloon spread on bed & wall balloon flowers"]}
+            rating={4.8}
             reviews={414}
-            offer={<>₹8,999</>}
-            original={<>₹9,999</>}
-            discountPct={10}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
             id="romantic-bedroom-decoration-premium"
-            name="Premium Romantic Bedroom Decoration"
-            description="An upgraded romantic bedroom decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/anniversary-2.webp"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            name="Premium Just Married Love Room Decoration"
+            description="A complete red and white love room with hanging heart foils and roses from the ceiling, gold 'JUST MARRIED' letters, a rose petal heart on the bed and a big 'I LOVE YOU' petal message on the floor."
+            image={rbdP1.url}
+            includes={["Red & white ceiling balloons with hanging heart foils","Gold 'JUST MARRIED' foil letters & hanging roses","Rose petal heart on bed + 'I LOVE YOU' petal floor art"]}
             rating={4.9}
             reviews={580}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
             id="romantic-bedroom-decoration-luxury"
-            name="Luxury Romantic Bedroom Decoration"
-            description="A full luxury romantic bedroom decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/anniversary-3.webp"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.800000000000001}
+            name="Luxury Fairy Light Cabana Bedroom Decoration"
+            description="A luxury cabana canopy over the bed in sheer white drapes packed with fairy lights, hanging white florals and red rose bunches, finished with a candle-lit rose petal walkway."
+            image={rbdL1.url}
+            includes={["Four-post cabana canopy with dense fairy lights","Hanging white floral vines & red rose bunches","Rose petal aisle with LED candles & bed styling"]}
+            rating={5}
             reviews={967}
-            offer={<>₹6,598</>}
-            original={<>₹9,997</>}
-            discountPct={34}
+            offer={<>₹7,499</>}
+            original={<>₹9,999</>}
+            discountPct={25}
             bestSeller={false}
           />
+          {NEW_PACKAGES.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>{p.offer}</>}
+              original={<>{p.original}</>}
+              discountPct={p.discountPct}
+              bestSeller={p.bestSeller}
+            />
+          ))}
         </div>
       </section>
 
@@ -107,17 +256,14 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            <img src="/anniversary-1.jpg" alt="Romantic Bedroom Decoration 1" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-2.webp" alt="Romantic Bedroom Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-3.webp" alt="Romantic Bedroom Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-1.jpg" alt="Romantic Bedroom Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-2.jpg" alt="Romantic Bedroom Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-3.webp" alt="Romantic Bedroom Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-4.jpg" alt="Romantic Bedroom Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            <img src="/anniversary-gallery-5.jpg" alt="Romantic Bedroom Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image)].map((src, i) => (
+              <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
+
+
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Reviews" title="Customer Reviews" />
