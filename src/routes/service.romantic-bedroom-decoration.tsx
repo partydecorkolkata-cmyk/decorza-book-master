@@ -731,7 +731,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/anniversary-2.webp" alt="Romantic Bedroom Decoration" className="h-full w-full object-cover" />
+          <img src={rbdR5.url} alt="Romantic Bedroom Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -794,7 +794,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -817,7 +817,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
