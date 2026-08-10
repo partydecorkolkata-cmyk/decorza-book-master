@@ -3,6 +3,8 @@
 // — balloon arches, candle rooms, mandap stages, marigold haldi setups,
 // baby shower backdrops, kids theme parties. No generic cakes, banquet
 // tables, abstract roses or stock food photos.
+import rbdR5 from "@/assets/rbd-r5.jpg.asset.json";
+
 const img = (id: string, w = 1200) =>
   id.startsWith("/") || id.startsWith("http") ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
 
@@ -211,7 +213,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Welcome Baby Decoration") },
   { slug: "romantic-bedroom-decoration", name: "Romantic Bedroom Decoration", short: "First night & surprise room setups",
     description: "Rose petal beds, candle paths, balloons and fairy lights \u2014 perfect for honeymoons, anniversaries and surprises.",
-    hero: img(ROMANTIC_DECOR[1]), gallery: pick(ROMANTIC_DECOR),
+    hero: rbdR5.url, gallery: pick(ROMANTIC_DECOR),
     rating: 4.9, reviews: 1450, startsAt: 2999, popular: true, bestSeller: true, trending: true,
     faqs: baseFaqs("Romantic Bedroom Decoration") },
   { slug: "entrance-gate-decoration", name: "Entrance Gate Decoration", short: "Grand welcome gates & balloon arches",
