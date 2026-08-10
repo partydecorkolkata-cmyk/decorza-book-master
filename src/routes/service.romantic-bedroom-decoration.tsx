@@ -28,6 +28,189 @@ import rbdO7 from "@/assets/rbd-o7.jpg.asset.json";
 import rbdO8 from "@/assets/rbd-o8.jpg.asset.json";
 import rbdO9 from "@/assets/rbd-o9.jpg.asset.json";
 import rbdO10 from "@/assets/rbd-o10.jpg.asset.json";
+import rbdQ1 from "@/assets/rbd-q1.jpg.asset.json";
+import rbdQ2 from "@/assets/rbd-q2.jpg.asset.json";
+import rbdQ3 from "@/assets/rbd-q3.jpg.asset.json";
+import rbdQ4 from "@/assets/rbd-q4.jpg.asset.json";
+import rbdQ5 from "@/assets/rbd-q5.jpg.asset.json";
+import rbdQ6 from "@/assets/rbd-q6.jpg.asset.json";
+import rbdQ7 from "@/assets/rbd-q7.jpg.asset.json";
+import rbdQ8 from "@/assets/rbd-q8.jpg.asset.json";
+import rbdQ9 from "@/assets/rbd-q9.jpg.asset.json";
+import rbdQ10 from "@/assets/rbd-q10.jpg.asset.json";
+
+const BATCH_Q = [
+  {
+    id: "rbd-q1-pink-silver-love-balloon-room",
+    name: "Pink & Silver Love Balloon Room Decoration",
+    description:
+      "A soft pink and pearl white ceiling balloon cover with long ribbons and hanging roses, silver heart foils around the room, a silver 'love' script balloon on the bed with a pink net heart, LED tealights and a paper rose bouquet.",
+    image: rbdQ1.url,
+    includes: [
+      "Pink & pearl ceiling balloons with hanging roses",
+      "Silver heart foils & 'love' script balloon",
+      "Net heart on bed with LED tealight candles",
+    ],
+    rating: 4.9,
+    reviews: 384,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-q2-will-you-be-my-girlfriend-red-black",
+    name: "Will You Be My Girlfriend Red & Black Room",
+    description:
+      "A bold red and black room proposal with big red foil letters spelling 'WILL YOU BE MY GIRLFRIEND' on the wall, red heart foils on both sides, a bed full of red and black balloons and a thick rose petal spread with candles.",
+    image: rbdQ2.url,
+    includes: [
+      "Red foil 'WILL YOU BE MY GIRLFRIEND' letters",
+      "Red & black ceiling and bed balloons with heart foils",
+      "Rose petal spread, rose vases & LED candles",
+    ],
+    rating: 4.8,
+    reviews: 297,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-q3-gold-silver-canopy-birthday-room",
+    name: "Gold & Silver Net Canopy Birthday Room",
+    description:
+      "A warm golden room with a gold and silver chrome balloon ceiling, a fairy-lit net canopy pulled over the bed, gold 'HAPPY BIRTHDAY' foil letters on the wall, a teddy and a bed filled with metallic balloons.",
+    image: rbdQ3.url,
+    includes: [
+      "Gold & silver chrome ceiling balloons",
+      "Fairy-lit net canopy over the bed",
+      "Gold 'HAPPY BIRTHDAY' foils, teddy & balloon bed",
+    ],
+    rating: 4.8,
+    reviews: 331,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-q4-red-heart-ceiling-love-you-petal-bed",
+    name: "Red Heart Ceiling & 'Love You' Petal Bed Room",
+    description:
+      "A dense red heart balloon ceiling with curling ribbons, fairy light curtains and a glowing light heart on the wall, finished with a big rose petal heart on the bed spelling 'love you' and red balloons across the floor.",
+    image: rbdQ4.url,
+    includes: [
+      "Full red heart balloon ceiling with ribbons",
+      "Fairy light curtains with wall light heart",
+      "Rose petal 'love you' heart on bed & floor balloons",
+    ],
+    rating: 4.9,
+    reviews: 412,
+    offer: "₹4,499",
+    original: "₹6,499",
+    discountPct: 31,
+  },
+  {
+    id: "rbd-q5-just-married-red-white-petal-heart",
+    name: "Just Married Red & White Petal Heart Room",
+    description:
+      "A red and white balloon room with gold 'JUST MARRIED' foil letters and a red 'love' script over the headboard, red-white balloon pillars with heart foils and a rich rose petal heart on the bed with a petal-covered floor.",
+    image: rbdQ5.url,
+    includes: [
+      "Red & white ceiling balloons with ribbons",
+      "Gold 'JUST MARRIED' foils & red 'love' script",
+      "Balloon pillars, rose petal heart on bed & petal floor",
+    ],
+    rating: 4.8,
+    reviews: 358,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-q6-red-gold-fairy-canopy-first-night",
+    name: "Red & Gold Fairy Canopy First Night Room",
+    description:
+      "A red and gold chrome ceiling balloon spread with curling ribbons, a fairy-lit net canopy tented over the bed, red heart foil balloon pillars and gold 'JUST MARRIED' foil letters on the side wall.",
+    image: rbdQ6.url,
+    includes: [
+      "Red & gold chrome ceiling balloons",
+      "Fairy-lit net canopy tent over the bed",
+      "Heart foil balloon pillars & gold 'JUST MARRIED' foils",
+    ],
+    rating: 4.8,
+    reviews: 276,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-q7-just-married-love-marquee-canopy",
+    name: "Just Married LOVE Marquee Canopy Room",
+    description:
+      "A pink and red ceiling balloon cover with hanging rose strings, a beautifully fairy-lit sheer canopy over the bed, gold 'JUST MARRIED' foil letters and glowing marquee LOVE letters on a fresh rose petal bed.",
+    image: rbdQ7.url,
+    includes: [
+      "Pink & red ceiling balloons with hanging rose strings",
+      "Fairy-lit sheer canopy over the bed",
+      "Gold 'JUST MARRIED' foils & marquee LOVE letters on petal bed",
+    ],
+    rating: 5,
+    reviews: 246,
+    offer: "₹4,499",
+    original: "₹5,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-q8-black-gold-silver-canopy-birthday",
+    name: "Black Gold & Silver Canopy Birthday Room",
+    description:
+      "A classy black, gold and silver chrome balloon ceiling with a fairy-lit white net canopy over the bed, a black backdrop with gold 'HAPPY BIRTHDAY' foils and green vines, balloons on the bed and rose petals on the floor.",
+    image: rbdQ8.url,
+    includes: [
+      "Black, gold & silver chrome ceiling balloons",
+      "Fairy-lit net canopy with backdrop curtain",
+      "Gold 'HAPPY BIRTHDAY' foils, vines & rose petals",
+    ],
+    rating: 4.8,
+    reviews: 302,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-q9-happy-valentines-day-heart-foil-room",
+    name: "Happy Valentine's Day Heart Foil Room",
+    description:
+      "A ceiling filled with red heart foil balloons and ribbons, red foil 'HAPPY VALENTINE'S DAY' and 'I LOVE YOU' letters on the walls with a red 'love' script, and a candle-lit rose petal heart on the bed.",
+    image: rbdQ9.url,
+    includes: [
+      "Red heart foil balloon ceiling with ribbons",
+      "'HAPPY VALENTINE'S DAY' & 'I LOVE YOU' foil letters",
+      "Rose petal heart on bed with candles & floor balloons",
+    ],
+    rating: 4.9,
+    reviews: 367,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-q10-pastel-bobo-balloon-birthday-room",
+    name: "Pastel Bobo Balloon Birthday Room Decoration",
+    description:
+      "A dreamy pastel ceiling balloon cover with long ribbons, colourful 'HAPPY BIRTHDAY' foil letters with a butterfly, silver number balloons, fairy-lit bobo balloons on stands and a rose petal carpet at the bedside.",
+    image: rbdQ10.url,
+    includes: [
+      "Pastel ceiling balloons with hanging ribbons",
+      "Colourful 'HAPPY BIRTHDAY' foils, butterfly & number balloons",
+      "Fairy-lit bobo balloon stands, flowers & rose petal carpet",
+    ],
+    rating: 4.9,
+    reviews: 288,
+    offer: "₹4,499",
+    original: "₹5,999",
+    discountPct: 25,
+  },
+];
 
 const BATCH_O = [
   {
