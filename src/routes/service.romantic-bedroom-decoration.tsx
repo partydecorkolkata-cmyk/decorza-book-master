@@ -612,7 +612,7 @@ function ServicePage() {
               offer={<>{p.offer}</>}
               original={<>{p.original}</>}
               discountPct={p.discountPct}
-              bestSeller={"bestSeller" in p ? p.bestSeller : false}
+              bestSeller={(p as { bestSeller?: boolean }).bestSeller ?? false}
             />
           ))}
         </div>
