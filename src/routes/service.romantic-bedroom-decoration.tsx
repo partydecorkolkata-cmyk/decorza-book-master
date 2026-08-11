@@ -48,6 +48,16 @@ import rbdR7 from "@/assets/rbd-r7.webp.asset.json";
 import rbdR8 from "@/assets/rbd-r8.jpg.asset.json";
 import rbdR9 from "@/assets/rbd-r9.jpg.asset.json";
 import rbdR10 from "@/assets/rbd-r10.jpg.asset.json";
+import rbdS1 from "@/assets/rbd-s1.jpg.asset.json";
+import rbdS2 from "@/assets/rbd-s2.jpg.asset.json";
+import rbdS3 from "@/assets/rbd-s3.jpg.asset.json";
+import rbdS4 from "@/assets/rbd-s4.jpg.asset.json";
+import rbdS5 from "@/assets/rbd-s5.jpg.asset.json";
+import rbdS6 from "@/assets/rbd-s6.jpg.asset.json";
+import rbdS7 from "@/assets/rbd-s7.jpg.asset.json";
+import rbdS8 from "@/assets/rbd-s8.jpg.asset.json";
+import rbdS9 from "@/assets/rbd-s9.jpg.asset.json";
+import rbdS10 from "@/assets/rbd-s10.jpg.asset.json";
 
 const BATCH_R = [
   {
@@ -232,6 +242,190 @@ const BATCH_R = [
     discountPct: 29,
   },
 ];
+
+const BATCH_S = [
+  {
+    id: "rbd-s1-pink-silver-18-birthday-room",
+    name: "Pink & Silver Chrome 18th Birthday Bedroom",
+    description:
+      "A dense pink balloon ceiling with curling silver ribbons, giant silver 'HAPPY BIRTHDAY' foil letters and a big number foil beside the bed, with pink & silver chrome balloons and a ruffled petal border on the bed.",
+    image: rbdS1.url,
+    includes: [
+      "Pink balloon ceiling with silver curling ribbons",
+      "Silver 'HAPPY BIRTHDAY' + number foil balloons",
+      "Pink & silver chrome balloon cluster on the bed",
+      "Petal ruffle border on bed & floor balloon spread",
+    ],
+    rating: 4.9,
+    reviews: 264,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
+  },
+  {
+    id: "rbd-s2-red-heart-strings-hotel-room",
+    name: "Red Heart Balloon & Heart Curtain Hotel Room",
+    description:
+      "Floating red heart foil balloons with long hanging heart-string curtains over a red-draped bed, styled with red fur cushions, a gift box, chocolates and a carpet of red balloons on the floor.",
+    image: rbdS2.url,
+    includes: [
+      "Floating red heart foil balloons with heart strings",
+      "Red bed runner drape & red cushion styling",
+      "Gift box placement & chocolate plate setup",
+      "Red latex balloon floor carpet",
+    ],
+    rating: 4.8,
+    reviews: 218,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
+  },
+  {
+    id: "rbd-s3-can-i-be-your-boyfriend-proposal-room",
+    name: "'Can I Be Your Boyfriend' Rose Gold Proposal Room",
+    description:
+      "A warm candle-lit room with rose gold 'CAN I BE YOUR BOYFRIEND' foil letters on the wall, rose gold heart balloons on the ceiling and pink balloons with petals scattered around the bed.",
+    image: rbdS3.url,
+    includes: [
+      "Rose gold proposal foil letters on the wall",
+      "Rose gold heart balloons on the ceiling",
+      "Pink latex balloons on bed & floor with petals",
+      "LED candle path & soft fairy light glow",
+    ],
+    rating: 4.8,
+    reviews: 152,
+    offer: "₹1,999",
+    original: "₹2,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-s4-rosegold-happy-birthday-bow-room",
+    name: "Rose Gold 'Happy Birthday' Bow Pillow Room",
+    description:
+      "An elegant hotel-style setup with rose gold 'HAPPY BIRTHDAY' foil letters above the headboard, a pink and chrome balloon ceiling, ribbon-bow pillows and a petal border framing the bed.",
+    image: rbdS4.url,
+    includes: [
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Pink & chrome balloon ceiling with ribbons",
+      "Ribbon bow pillow styling",
+      "Petal border on bed & floor petal scatter",
+    ],
+    rating: 4.9,
+    reviews: 189,
+    offer: "₹1,999",
+    original: "₹2,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-s5-i-love-you-red-ceiling-bouquet",
+    name: "'I Love You' Red Balloon Ceiling & Bouquet Room",
+    description:
+      "A packed red balloon ceiling with curly ribbons, 'I LOVE YOU' red foil letters over the headboard, red heart balloon pillars on the bed and a rose bouquet placed on a bed of petals.",
+    image: rbdS5.url,
+    includes: [
+      "Full red balloon ceiling with curling ribbons",
+      "'I LOVE YOU' red foil letters",
+      "Red heart balloon pillars on the bed",
+      "Rose bouquet & rose petal scatter",
+    ],
+    rating: 4.9,
+    reviews: 303,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-s6-pink-gold-21-birthday-room",
+    name: "Pink & Gold Number Birthday Bedroom Surprise",
+    description:
+      "A bright pink and gold chrome balloon ceiling with gold 'HAPPY BIRTHDAY' foil letters, giant glitter number balloons on the bed and a full pink-gold balloon bed spread.",
+    image: rbdS6.url,
+    includes: [
+      "Pink & gold chrome balloon ceiling",
+      "Gold 'HAPPY BIRTHDAY' foil letters",
+      "Glitter number foil balloons of your choice",
+      "Pink & gold balloon spread across the bed",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹2,499",
+    original: "₹4,499",
+    discountPct: 44,
+  },
+  {
+    id: "rbd-s7-i-love-you-marble-wall-hearts",
+    name: "'I Love You' Heart Ceiling Marble Wall Room",
+    description:
+      "Red heart foil balloons floating across the ceiling with glowing 'I LOVE YOU' foil letters on the feature wall, plus red and white balloons scattered over the bed with a gift and drinks setup.",
+    image: rbdS7.url,
+    includes: [
+      "Red heart foil balloons on the ceiling with ribbons",
+      "Backlit 'I LOVE YOU' foil letters on the wall",
+      "Red & white balloons across the bed",
+      "Gift and drink table styling",
+    ],
+    rating: 4.9,
+    reviews: 241,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
+  },
+  {
+    id: "rbd-s8-pink-heart-ceiling-birthday-petals",
+    name: "Pink Heart Ceiling Birthday Petal Bed Room",
+    description:
+      "A ceiling packed with pink heart foil balloons trailing long ribbons, magenta 'HAPPY BIRTHDAY' and 'love' foil letters on the wall and a bed dressed with rose petals and a surprise gift.",
+    image: rbdS8.url,
+    includes: [
+      "Pink heart foil balloon ceiling with ribbon trails",
+      "Magenta 'HAPPY BIRTHDAY' + 'love' foil letters",
+      "Rose petal scatter on the bed",
+      "Gift & surprise fan placement on bed",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-s9-purple-led-pink-balloon-room",
+    name: "Purple LED Glow Pink Balloon Birthday Room",
+    description:
+      "A dramatic purple LED-lit room with pink balloons on the ceiling, pink 'HAPPY BIRTHDAY' foil letters, heart balloon bunches and a rose petal heart on the bed with a floor full of pink balloons.",
+    image: rbdS9.url,
+    includes: [
+      "Purple LED ambience lighting",
+      "Pink balloon ceiling with curling ribbons",
+      "Pink 'HAPPY BIRTHDAY' foil letters & heart bunch",
+      "Rose petal heart on bed & pink balloon floor",
+    ],
+    rating: 4.9,
+    reviews: 205,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "rbd-s10-red-black-love-you-pillars",
+    name: "Red & Black 'I Love You' Balloon Pillar Room",
+    description:
+      "A bold red and black setup with hanging heart balloons from the ceiling, 'I LOVE YOU' red foil letters on the headboard wall, tall red-black balloon pillars and a red bed drape.",
+    image: rbdS10.url,
+    includes: [
+      "Hanging red heart balloons from the ceiling",
+      "'I LOVE YOU' red foil letters on the wall",
+      "Two red & black balloon pillars with heart toppers",
+      "Red bed drape & floor balloon styling",
+    ],
+    rating: 4.8,
+    reviews: 167,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
+  },
+];
+
 
 
 const BATCH_Q = [
@@ -794,7 +988,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -817,7 +1011,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
