@@ -426,6 +426,190 @@ const BATCH_S = [
   },
 ];
 
+const BATCH_T = [
+  {
+    id: "rbd-t1-hot-pink-happy-birthday-i-love-you-room",
+    name: "Hot Pink 'Happy Birthday' & I Love You Bedroom",
+    description:
+      "A hot pink balloon ceiling with long ribbon tails, bold pink 'HAPPY BIRTHDAY' foil letters over the headboard, pink heart foils and an 'I ♥ U' petal message on the bed, finished with pink balloon pillars around the floor.",
+    image: rbdT1.url,
+    includes: [
+      "Hot pink balloon ceiling with ribbon tails",
+      "Pink 'HAPPY BIRTHDAY' foil letters + heart foils",
+      "'I ♥ U' rose petal message on the bed",
+      "Pink balloon pillars & floor cluster styling",
+    ],
+    rating: 4.9,
+    reviews: 218,
+    offer: "₹3,199",
+    original: "₹4,999",
+    discountPct: 36,
+  },
+  {
+    id: "rbd-t2-i-love-you-red-white-balloon-room",
+    name: "'I LOVE YOU' Red & White Balloon Room",
+    description:
+      "A full ceiling of red and white balloons with black curling ribbons, big red 'I LOVE YOU' foil letters on the wall and a rose petal heart on the bed with petals scattered across the floor.",
+    image: rbdT2.url,
+    includes: [
+      "Red & white ceiling balloons with curling ribbons",
+      "Red 'I LOVE YOU' foil letters on the wall",
+      "Rose petal heart on the bed",
+      "Petal scatter on the floor & side balloon clusters",
+    ],
+    rating: 4.8,
+    reviews: 193,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
+  },
+  {
+    id: "rbd-t3-love-neon-candle-heart-room",
+    name: "Red 'love' Script & Candle Heart Bedroom",
+    description:
+      "A rich red balloon ceiling with cascading ribbons, a glowing red 'love' script foil above the headboard, red heart foils on both sides and a candle-lit rose petal heart on the bed.",
+    image: rbdT3.url,
+    includes: [
+      "Red balloon ceiling with long ribbon curls",
+      "Red 'love' script foil with warm backlighting",
+      "Heart foil balloons on both bedsides",
+      "Candle-lit rose petal heart & petal scatter",
+    ],
+    rating: 4.9,
+    reviews: 241,
+    offer: "₹3,199",
+    original: "₹4,999",
+    discountPct: 36,
+  },
+  {
+    id: "rbd-t4-happy-anniversary-gold-love-room",
+    name: "Happy Anniversary Red & Gold 'love' Room",
+    description:
+      "Red 'HAPPY ANNIVERSARY' foil letters with a gold 'love' script and heart foils floating above the headboard, a rose petal heart on the bed with a bouquet, roses and tealight candles all around.",
+    image: rbdT4.url,
+    includes: [
+      "Red 'HAPPY ANNIVERSARY' foil letter set",
+      "Gold 'love' script + red heart foil balloons",
+      "Rose petal heart on the bed with rose bouquet",
+      "Tealight candle styling around the bed",
+    ],
+    rating: 4.9,
+    reviews: 276,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-t5-im-sorry-heart-apology-room",
+    name: "'I'M SORRY' Red & Gold Apology Room",
+    description:
+      "A heartfelt apology setup with a red balloon ceiling, red 'I'M SORRY' foil letters, gold and red heart foils, hanging roses and a big rose petal heart with a single rose on the bed.",
+    image: rbdT5.url,
+    includes: [
+      "Red balloon ceiling with hanging rose stems",
+      "Red 'I'M SORRY' foil letters on the wall",
+      "Gold & red heart foil balloons",
+      "Rose petal heart on the bed + floor balloons",
+    ],
+    rating: 4.8,
+    reviews: 154,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-t6-will-you-be-my-girlfriend-silver-room",
+    name: "'Will You Be My Girlfriend' Silver Foil Room",
+    description:
+      "A soft proposal setup with silver 'WILL YOU BE MY GIRLFRIEND' foil letters, blush pink ceiling balloons, rose gold heart foils, a teddy on the pillows and a candle-lit petal heart on the bed.",
+    image: rbdT6.url,
+    includes: [
+      "Silver 'WILL YOU BE MY GIRLFRIEND' foil letters",
+      "Blush pink ceiling balloons + rose gold heart foils",
+      "Candle-lit rose petal heart on the bed",
+      "Teddy bear & petal scatter styling",
+    ],
+    rating: 4.9,
+    reviews: 208,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
+  },
+  {
+    id: "rbd-t7-pink-silver-i-love-u-luxury-room",
+    name: "Pink & Silver 'I ♥ U' Luxury Bedroom",
+    description:
+      "A luxe pink and silver chrome balloon ceiling, giant 'I ♥ U' foil letters on the wall, a pink 'love' script on the bed and a full pink petal heart with gift boxes and heart balloon pillars on both sides.",
+    image: rbdT7.url,
+    includes: [
+      "Pink & silver chrome ceiling balloon canopy",
+      "Giant 'I ♥ U' foil letters + pink 'love' script",
+      "Pink rose petal heart on the bed",
+      "Heart balloon pillars & gift box styling",
+    ],
+    rating: 5.0,
+    reviews: 289,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-t8-pink-silver-number-birthday-room",
+    name: "Pink & Silver Number Birthday Bedroom",
+    description:
+      "Bright pink ceiling balloons with silver ribbon tails, silver 'HAPPY BIRTHDAY' letters and big number foils flanking the bed, plus a pink feather heart, gift box and a floor filled with pink & white balloons.",
+    image: rbdT8.url,
+    includes: [
+      "Pink ceiling balloons with silver ribbon curtain",
+      "Silver 'HAPPY BIRTHDAY' + number foil balloons",
+      "Pink balloon pillars on both bedsides",
+      "Feather heart on bed & floor balloon carpet",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-t9-will-you-be-my-valentine-pink-room",
+    name: "'Will You Be My Valentine' Pink Room",
+    description:
+      "A dreamy pink balloon ceiling with silver ribbon curls, silver 'WILL YOU BE MY VALENTINE' foil letters, silver heart foils, a pink 'love' script on the pillows and a petal square frame on the bed.",
+    image: rbdT9.url,
+    includes: [
+      "Pink balloon ceiling with silver curling ribbons",
+      "Silver 'WILL YOU BE MY VALENTINE' foil letters",
+      "Silver & pink heart foil clusters",
+      "Petal frame on bed + pink 'love' script foil",
+    ],
+    rating: 4.9,
+    reviews: 231,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-t10-will-you-marry-me-gold-heart-room",
+    name: "'Will You Marry Me' Gold & Red Heart Room",
+    description:
+      "A grand proposal room with red heart foils covering the ceiling, gold 'WILL YOU MARRY ME' letters lit with fairy lights, a fairy-lit rose petal heart on the bed and red & gold balloons across the floor.",
+    image: rbdT10.url,
+    includes: [
+      "Red heart foil balloon ceiling with gold ribbons",
+      "Gold 'WILL YOU MARRY ME' letters with fairy lights",
+      "Fairy-lit rose petal heart on the bed",
+      "Red & gold floor balloon carpet",
+    ],
+    rating: 5.0,
+    reviews: 302,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+];
+
+
 
 
 const BATCH_Q = [
