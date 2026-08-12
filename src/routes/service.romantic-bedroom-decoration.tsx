@@ -824,6 +824,191 @@ const BATCH_U = [
   },
 ];
 
+const BATCH_V = [
+  {
+    id: "rbd-v1-feliz-aniversario-red-heart-room",
+    name: "Feliz Aniversario Red Heart Room",
+    description:
+      "A warm anniversary surprise with red heart foil balloons floating across the ceiling, gold 'Feliz Aniversario' script on the wall, a red 'love' marquee on the headboard and a candle-lit rose petal heart with a number light on the bed.",
+    image: rbdV1.url,
+    includes: [
+      "Red heart foil balloons with ribbon tails",
+      "Gold 'Feliz Aniversario' script & red 'love' marquee",
+      "Rose petal heart on bed with LED candles",
+      "Number light, chocolates & mini cake styling",
+    ],
+    rating: 4.9,
+    reviews: 214,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v2-pink-rosegold-50-birthday-room",
+    name: "Pink & Rose Gold Milestone Birthday Room",
+    description:
+      "A soft pink, white and rose gold hotel room surprise with a ceiling balloon cluster, 'HAPPY BIRTHDAY' foil letters on the headboard, a giant age number pillar and a bed full of chrome balloons with a rose gold heart.",
+    image: rbdV2.url,
+    includes: [
+      "Pink, white & rose gold ceiling balloon cluster",
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Giant age number balloon pillar",
+      "Bed balloon bed with rose gold heart foil",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-v3-will-you-be-my-girl-pink-luxury-room",
+    name: "'Will You Be My Girl' Blush Luxury Room",
+    description:
+      "A show-stopping blush proposal room with a dense pink balloon ceiling cloud, silver 'WILL YOU BE MY GIRL' letters, tall pink heart balloon bouquets around the bed and a glowing petal walkway with LED lights on the floor.",
+    image: rbdV3.url,
+    includes: [
+      "Dense pink balloon ceiling cloud with tails",
+      "Silver 'WILL YOU BE MY GIRL' foil letters",
+      "Pink heart balloon bouquets around the room",
+      "LED-lit rose petal walkway & bed heart",
+    ],
+    rating: 5.0,
+    reviews: 341,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v4-will-you-be-my-girlfriend-red-gold-room",
+    name: "'Will You Be My Girlfriend' Red & Gold Room",
+    description:
+      "A bold red proposal setup with a red balloon ceiling and long ribbon tails, gold 'WILL YOU BE MY GIRLFRIEND' letters on the headboard, a rose petal heart on the bed and red balloons lining the floor with a bouquet and gift box.",
+    image: rbdV4.url,
+    includes: [
+      "Red balloon ceiling with flowing ribbon tails",
+      "Gold 'WILL YOU BE MY GIRLFRIEND' foil letters",
+      "Rose petal heart & petal scatter on bed",
+      "Floor balloon border, bouquet & gift box",
+    ],
+    rating: 4.9,
+    reviews: 268,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v5-gold-silver-30-birthday-room",
+    name: "Gold & Silver Milestone Birthday Suite",
+    description:
+      "A classy hotel suite surprise in gold, silver and white with a ceiling balloon cluster, giant gold age numbers, 'HAPPY BIRTHDAY' foil letters, star foils and a bed covered in chrome gold and white balloons.",
+    image: rbdV5.url,
+    includes: [
+      "Gold, silver & white ceiling balloon cluster",
+      "Giant gold age number balloons on pillars",
+      "'HAPPY BIRTHDAY' foil letters & star foils",
+      "Chrome balloon bed styling",
+    ],
+    rating: 4.8,
+    reviews: 193,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v6-i-love-you-rosegold-hanging-roses-room",
+    name: "'I Love You' Rose Gold Hanging Roses Room",
+    description:
+      "A dreamy rose gold room with a pink and gold balloon ceiling, big 'I LOVE YOU' foil letters on the headboard, fresh roses hanging from ribbons, heart foils and a bed scattered with petals, candles and a flower bouquet.",
+    image: rbdV6.url,
+    includes: [
+      "Pink & gold balloon ceiling with ribbon tails",
+      "Rose gold 'I LOVE YOU' foil letters",
+      "Hanging fresh roses on ribbons",
+      "Petal & candle bed styling with bouquet",
+    ],
+    rating: 5.0,
+    reviews: 287,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-v7-golden-happy-birthday-cake-room",
+    name: "Golden 'Happy Birthday' Cake Surprise Room",
+    description:
+      "An all-gold birthday room with a full gold and ivory balloon ceiling, gold 'HAPPY BIRTHDAY' foil letters glowing on the headboard, gold heart balloon bunches on both sides and a cake set on a rose petal bed.",
+    image: rbdV7.url,
+    includes: [
+      "Gold & ivory balloon ceiling with curling ribbons",
+      "Gold 'HAPPY BIRTHDAY' foil letters",
+      "Gold heart balloon bunches on both sides",
+      "Cake table styling with red petal bed",
+    ],
+    rating: 4.9,
+    reviews: 231,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-v8-royal-red-rose-canopy-first-night-room",
+    name: "Royal Red Rose Canopy First Night Room",
+    description:
+      "Our grandest wedding-night setup: a four-post canopy heavy with red roses and greenery, sheer white drapes wrapped in fairy lights, rose garlands on every pillar and a rose petal floor around the bed.",
+    image: rbdV8.url,
+    includes: [
+      "Four-post canopy with red rose & greenery clusters",
+      "Sheer white drapes with dense fairy lights",
+      "Rose garland pillar wraps",
+      "Rose petal floor & full bed styling",
+    ],
+    rating: 5.0,
+    reviews: 402,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v9-navy-silver-happy-birthday-room",
+    name: "Navy & Silver Chrome Birthday Room",
+    description:
+      "A modern city-view birthday room with a navy blue balloon ceiling, silver 'HAPPY BIRTHDAY' letters, twin silver heart balloon stacks on the bed, navy petal scatter and silver chrome balloons spread across the floor.",
+    image: rbdV9.url,
+    includes: [
+      "Navy blue balloon ceiling with silver ribbons",
+      "Silver 'HAPPY BIRTHDAY' foil letters",
+      "Twin silver chrome heart balloon stacks",
+      "Navy petal scatter & floor chrome balloons",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-v10-rosegold-24-love-birthday-room",
+    name: "Rose Gold 'Love' Age Number Birthday Room",
+    description:
+      "A polished rose gold birthday room with a chrome balloon ceiling, 'HAPPY BIRTHDAY' foil letters, a 'love' script balloon on the pillows, twin age number pillars and a pink petal heart on the bed with a petal walkway.",
+    image: rbdV10.url,
+    includes: [
+      "Rose gold chrome balloon ceiling",
+      "'HAPPY BIRTHDAY' foil letters & 'love' script balloon",
+      "Twin age number balloon pillars",
+      "Pink petal heart on bed & floor petal walkway",
+    ],
+    rating: 4.9,
+    reviews: 205,
+    offer: "₹3,499",
+    original: "₹4,499",
+    discountPct: 22,
+  },
+];
+
+
+
 
 
 
