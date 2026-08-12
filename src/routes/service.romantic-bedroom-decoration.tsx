@@ -78,6 +78,18 @@ import rbdU7 from "@/assets/rbd-u7.jpg.asset.json";
 import rbdU8 from "@/assets/rbd-u8.jpg.asset.json";
 import rbdU9 from "@/assets/rbd-u9.jpg.asset.json";
 import rbdU10 from "@/assets/rbd-u10.jpg.asset.json";
+import rbdV1 from "@/assets/rbd-v1.jpeg.asset.json";
+import rbdV2 from "@/assets/rbd-v2.jpeg.asset.json";
+import rbdV3 from "@/assets/rbd-v3.jpeg.asset.json";
+import rbdV4 from "@/assets/rbd-v4.jpeg.asset.json";
+import rbdV5 from "@/assets/rbd-v5.jpeg.asset.json";
+import rbdV6 from "@/assets/rbd-v6.jpeg.asset.json";
+import rbdV7 from "@/assets/rbd-v7.jpeg.asset.json";
+import rbdV8 from "@/assets/rbd-v8.jpeg.asset.json";
+import rbdV9 from "@/assets/rbd-v9.png.asset.json";
+import rbdV10 from "@/assets/rbd-v10.png.asset.json";
+
+
 
 const BATCH_R = [
   {
