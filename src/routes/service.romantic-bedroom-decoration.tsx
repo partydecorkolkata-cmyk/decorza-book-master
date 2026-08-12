@@ -68,6 +68,16 @@ import rbdT7 from "@/assets/rbd-t7.jpeg.asset.json";
 import rbdT8 from "@/assets/rbd-t8.jpeg.asset.json";
 import rbdT9 from "@/assets/rbd-t9.png.asset.json";
 import rbdT10 from "@/assets/rbd-t10.png.asset.json";
+import rbdU1 from "@/assets/rbd-u1.jpg.asset.json";
+import rbdU2 from "@/assets/rbd-u2.jpg.asset.json";
+import rbdU3 from "@/assets/rbd-u3.jpg.asset.json";
+import rbdU4 from "@/assets/rbd-u4.jpg.asset.json";
+import rbdU5 from "@/assets/rbd-u5.jpg.asset.json";
+import rbdU6 from "@/assets/rbd-u6.jpg.asset.json";
+import rbdU7 from "@/assets/rbd-u7.jpg.asset.json";
+import rbdU8 from "@/assets/rbd-u8.jpg.asset.json";
+import rbdU9 from "@/assets/rbd-u9.jpg.asset.json";
+import rbdU10 from "@/assets/rbd-u10.jpg.asset.json";
 
 const BATCH_R = [
   {
@@ -616,6 +626,189 @@ const BATCH_T = [
     offer: "₹3,499",
     original: "₹4,999",
     discountPct: 30,
+  },
+];
+
+const BATCH_U = [
+  {
+    id: "rbd-u1-gold-happy-birthday-ceiling-hotel-room",
+    name: "Golden Glow 'Happy Birthday' Hotel Room",
+    description:
+      "A luxe hotel surprise with a full gold balloon ceiling and curling ribbon tails, gold 'HAPPY BIRTHDAY' foil letters on the wall, and a towel heart filled with gold petals on the bed with gift boxes.",
+    image: rbdU1.url,
+    includes: [
+      "Gold balloon ceiling with curling ribbon tails",
+      "Gold 'HAPPY BIRTHDAY' foil letters on the wall",
+      "Towel heart with gold petal fill on the bed",
+      "Gold petal scatter + gift box styling",
+    ],
+    rating: 4.9,
+    reviews: 214,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-u2-pink-milestone-number-birthday-room",
+    name: "Pink Milestone Number Birthday Room",
+    description:
+      "A pretty-in-pink bedroom with a pink balloon ceiling, rose gold 'HAPPY BIRTHDAY' letters and giant rose gold milestone number balloons on an organic pink balloon base over the bed.",
+    image: rbdU2.url,
+    includes: [
+      "Pink balloon ceiling with ribbon tails",
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Giant rose gold milestone number balloons",
+      "Organic pink balloon base + petal scatter",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-u3-red-rose-mandap-first-night-room",
+    name: "Red Rose Mandap First Night Room",
+    description:
+      "A traditional first-night setup with a red and white rose flower mandap over the bed, sheer net drapes, hanging jasmine strings and fairy lights, finished with a rose petal pathway on the floor.",
+    image: rbdU3.url,
+    includes: [
+      "Red & white rose flower mandap frame over the bed",
+      "Sheer net drapes with fairy lights",
+      "Hanging jasmine & floral strings",
+      "Rose petal floor pathway & bed styling",
+    ],
+    rating: 5.0,
+    reviews: 268,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-u4-pink-balloon-flood-birthday-suite",
+    name: "Pink Balloon Flood Birthday Suite",
+    description:
+      "A fun pink takeover with a dense pink balloon ceiling, rose gold 'HAPPY BIRTHDAY' foil letters on the glass and dozens of pink balloons scattered across the floor of the room.",
+    image: rbdU4.url,
+    includes: [
+      "Dense pink balloon ceiling with ribbons",
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Floor-flood pink balloon scatter",
+      "On-site setup & clean finish",
+    ],
+    rating: 4.7,
+    reviews: 154,
+    offer: "₹1,999",
+    original: "₹2,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-u5-gold-chrome-age-number-birthday-room",
+    name: "Gold Chrome Age Number Birthday Room",
+    description:
+      "A rich gold chrome celebration with a floating gold balloon cloud, gold 'HAPPY BIRTHDAY' letters, giant age number balloons with a heart foil, a gold petal towel heart on the bed and a gold balloon floor carpet.",
+    image: rbdU5.url,
+    includes: [
+      "Gold chrome balloon ceiling cloud with ribbons",
+      "Gold 'HAPPY BIRTHDAY' letters + age numbers",
+      "Gold heart foil & towel heart with petals",
+      "Gold balloon floor carpet",
+    ],
+    rating: 4.9,
+    reviews: 197,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-u6-luxury-floral-canopy-love-petal-room",
+    name: "Luxury Floral Canopy 'LOVE' Petal Room",
+    description:
+      "Our grandest romantic suite — a pink and white rose flower canopy over the bed with fairy-lit white drapes, matching floral pedestals on both sides and a giant 'LOVE' petal carpet on the floor.",
+    image: rbdU6.url,
+    includes: [
+      "Pink & white rose flower canopy over the bed",
+      "Fairy-lit sheer white drapes",
+      "Two matching floral pedestal arrangements",
+      "Giant 'LOVE' rose petal floor carpet + bed petals",
+    ],
+    rating: 5.0,
+    reviews: 341,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-u7-silver-led-glow-birthday-room",
+    name: "Silver Chrome & Blue LED Birthday Room",
+    description:
+      "A moody luxury look with silver chrome balloons floating over the headboard, silver 'HAPPY BIRTHDAY' letters with a heart foil, blue LED tea lights and silver-black balloons across the floor.",
+    image: rbdU7.url,
+    includes: [
+      "Silver chrome balloon cluster over the bed",
+      "Silver 'HAPPY BIRTHDAY' letters + heart foil",
+      "Blue LED glow lights & petal scatter",
+      "Silver & black floor balloon styling",
+    ],
+    rating: 4.8,
+    reviews: 168,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-u8-hanging-rose-fairy-light-canopy-room",
+    name: "Hanging Rose & Fairy Light Canopy Room",
+    description:
+      "A warm traditional canopy with sheer drapes wrapped in fairy lights, red roses hanging from the top, a rose petal design on the bed and a petal pathway leading up to it.",
+    image: rbdU8.url,
+    includes: [
+      "Four-side fairy-lit sheer drape canopy",
+      "Hanging red rose & vine styling",
+      "Rose petal design on the bed",
+      "Rose petal floor pathway",
+    ],
+    rating: 4.9,
+    reviews: 224,
+    offer: "₹7,499",
+    original: "₹9,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-u9-white-floral-chandelier-love-suite",
+    name: "White Floral Chandelier 'LOVE' Suite",
+    description:
+      "A premium bridal suite with a lush pink and white rose arch over a fairy-lit white drape canopy, tall floral urns on both sides, petals on the bed and a big 'LOVE' petal carpet on the floor.",
+    image: rbdU9.url,
+    includes: [
+      "Lush pink & white rose arch over the bed",
+      "Fairy-lit white drape canopy",
+      "Two tall floral pedestal urns",
+      "'LOVE' petal floor carpet + full petal scatter",
+    ],
+    rating: 5.0,
+    reviews: 386,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-u10-black-gold-happy-birthday-heart-room",
+    name: "Black & Gold 'Happy Birthday' Heart Room",
+    description:
+      "A bold black and gold bedroom with a full balloon ceiling and streamers, gold 'HAPPY BIRTHDAY' letters lit with fairy lights, red heart foils, black-gold balloon flowers and a red rose petal heart on the bed.",
+    image: rbdU10.url,
+    includes: [
+      "Black & gold balloon ceiling with streamers",
+      "Fairy-lit gold 'HAPPY BIRTHDAY' letters",
+      "Red heart foils & balloon flower wall accents",
+      "Red rose petal heart on the bed",
+    ],
+    rating: 4.8,
+    reviews: 189,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
   },
 ];
 
@@ -1182,7 +1375,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -1205,7 +1398,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image), ...BATCH_U.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
