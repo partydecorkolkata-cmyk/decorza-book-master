@@ -98,6 +98,199 @@ import rbdW7 from "@/assets/rbd-w7.jpeg.asset.json";
 import rbdW8 from "@/assets/rbd-w8.jpeg.asset.json";
 import rbdW9 from "@/assets/rbd-w9.jpeg.asset.json";
 import rbdW10 from "@/assets/rbd-w10.png.asset.json";
+import rbdX1 from "@/assets/rbd-x1.jpeg.asset.json";
+import rbdX2 from "@/assets/rbd-x2.jpeg.asset.json";
+import rbdX3 from "@/assets/rbd-x3.jpeg.asset.json";
+import rbdX4 from "@/assets/rbd-x4.jpeg.asset.json";
+import rbdX5 from "@/assets/rbd-x5.jpeg.asset.json";
+import rbdX6 from "@/assets/rbd-x6.jpeg.asset.json";
+import rbdX7 from "@/assets/rbd-x7.jpeg.asset.json";
+import rbdX8 from "@/assets/rbd-x8.jpeg.asset.json";
+import rbdX9 from "@/assets/rbd-x9.jpeg.asset.json";
+import rbdX10 from "@/assets/rbd-x10.jpeg.asset.json";
+
+const BATCH_X = [
+  {
+    id: "rbd-x1-red-heart-ceiling-silver-love",
+    name: "Red Heart Ceiling & Silver 'Love' Room",
+    description:
+      "A dense ceiling of red heart foil balloons with long ribbon tails, big silver-and-red 'love' script foils above the headboard and a thick carpet of red, white and pearl balloons flooding the floor around the bed.",
+    image: rbdX1.url,
+    includes: [
+      "Red heart foil balloon ceiling with ribbon tails",
+      "Silver & red 'love' script foil letters on wall",
+      "Red, white & pearl balloon floor flooding",
+      "Warm bedside lamp ambience styling",
+    ],
+    rating: 4.9,
+    reviews: 246,
+    offer: "\u20b93,499",
+    original: "\u20b94,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-x2-red-happy-anniversary-petal-heart",
+    name: "Red 'Happy Anniversary' Petal Heart Room",
+    description:
+      "Classic red anniversary suite with floating red heart balloons, a full red 'HAPPY ANNIVERSARY' foil banner across the headboard, hanging heart foils and a rose petal heart on the bed ringed with LED candles and fresh roses.",
+    image: rbdX2.url,
+    includes: [
+      "Red 'HAPPY ANNIVERSARY' foil banner on headboard",
+      "Floating red heart foil balloons with ribbons",
+      "Rose petal heart on bed with fresh roses",
+      "LED tea-light candle ring & bedside petal styling",
+    ],
+    rating: 4.9,
+    reviews: 289,
+    offer: "\u20b93,499",
+    original: "\u20b94,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-x3-just-married-gold-silver",
+    name: "'Just Married' Gold & Silver First-Night Room",
+    description:
+      "An elegant first-night setup with a ceiling of gold and pearl white balloons, silver 'JUST MARRIED' foil letters on the wall and a golden petal heart with scattered petals across the bed.",
+    image: rbdX3.url,
+    includes: [
+      "Gold & pearl white ceiling balloons with ribbons",
+      "Silver 'JUST MARRIED' foil letters on wall",
+      "Golden petal heart on bed with petal scatter",
+      "Hanging ribbon tassels over the bed",
+    ],
+    rating: 4.8,
+    reviews: 174,
+    offer: "\u20b92,199",
+    original: "\u20b93,499",
+    discountPct: 37,
+  },
+  {
+    id: "rbd-x4-black-gold-happy-anniversary",
+    name: "Black & Gold 'Happy Anniversary' Room",
+    description:
+      "A bold black and gold anniversary room with a full ceiling of black and gold balloons and shimmering ribbon streamers, gold 'HAPPY ANNIVERSARY' foil letters on a gold balloon wall panel, and rose petals spread across the bed.",
+    image: rbdX4.url,
+    includes: [
+      "Black & gold ceiling balloons with shimmer streamers",
+      "Gold 'HAPPY ANNIVERSARY' foil letters",
+      "Gold balloon wall panel behind headboard",
+      "Rose petal scatter & heart on bed",
+    ],
+    rating: 4.8,
+    reviews: 208,
+    offer: "\u20b92,799",
+    original: "\u20b94,499",
+    discountPct: 38,
+  },
+  {
+    id: "rbd-x5-all-gold-chrome-anniversary",
+    name: "All-Gold Chrome Anniversary Hotel Room",
+    description:
+      "A luxe hotel-style surprise with a chrome gold balloon ceiling and long curling ribbons, gold 'HAPPY ANNIVERSARY' foil letters on the wall and a big cluster of gold balloons and heart foils piled on the bed with gold confetti.",
+    image: rbdX5.url,
+    includes: [
+      "Chrome gold ceiling balloons with curling ribbons",
+      "Gold 'HAPPY ANNIVERSARY' foil letters",
+      "Gold balloon & heart foil cluster on bed",
+      "Gold confetti scatter styling",
+    ],
+    rating: 4.9,
+    reviews: 196,
+    offer: "\u20b92,499",
+    original: "\u20b93,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-x6-red-white-heart-ceiling-rose-trail",
+    name: "Red & White Heart Ceiling Rose Trail Room",
+    description:
+      "A romantic hotel room filled with red and white heart foil balloons across the ceiling, long red and white ribbon curtains cascading down, and a rose petal heart with long-stem roses and candles laid out on the bed.",
+    image: rbdX6.url,
+    includes: [
+      "Red & white heart foil balloon ceiling",
+      "Cascading red & white ribbon curtain effect",
+      "Rose petal heart with long-stem roses on bed",
+      "LED candle placement on bed",
+    ],
+    rating: 4.9,
+    reviews: 233,
+    offer: "\u20b92,999",
+    original: "\u20b94,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-x7-forever-us-love-petal-heart",
+    name: "'Forever Us' Love Balloon Petal Heart Room",
+    description:
+      "A statement red room with a packed red balloon ceiling, gold 'FOREVER US' foil letters, a big red 'love' script balloon on the headboard, heart foils all around and a lush rose petal heart on the bed lined with LED candles.",
+    image: rbdX7.url,
+    includes: [
+      "Red balloon ceiling with heart foil clusters",
+      "Gold 'FOREVER US' foil letters on wall",
+      "Red 'love' script balloon over headboard",
+      "Rose petal heart on bed with LED candle ring",
+    ],
+    rating: 5,
+    reviews: 262,
+    offer: "\u20b93,499",
+    original: "\u20b94,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-x8-pink-pastel-happy-anniversary",
+    name: "Pastel Pink 'Happy Anniversary' Room",
+    description:
+      "A soft pastel surprise with a pink and blush balloon ceiling, rose gold 'HAPPY ANNIVERSARY' foil letters on a white shimmer curtain backdrop, floor balloon clusters and a candle-lit dinner table setup.",
+    image: rbdX8.url,
+    includes: [
+      "Pink & blush ceiling balloons",
+      "Rose gold 'HAPPY ANNIVERSARY' foil letters",
+      "White shimmer curtain backdrop",
+      "Floor balloon clusters & candle-lit table styling",
+    ],
+    rating: 4.7,
+    reviews: 158,
+    offer: "\u20b91,999",
+    original: "\u20b93,499",
+    discountPct: 43,
+  },
+  {
+    id: "rbd-x9-rosegold-silver-anniversary-hotel",
+    name: "Rose Gold & Silver Anniversary Suite",
+    description:
+      "A chic minimal hotel setup with rose gold, white and chrome balloons floating on ribbons, silver 'HAPPY ANNIVERSARY' foil letters with heart foils on the wall panel and soft balloon styling on a crisp white bed.",
+    image: rbdX9.url,
+    includes: [
+      "Rose gold, white & chrome ceiling balloons",
+      "Silver 'HAPPY ANNIVERSARY' foil letters",
+      "Silver heart foil accents on both sides",
+      "Balloon styling on bed with warm light setup",
+    ],
+    rating: 4.8,
+    reviews: 181,
+    offer: "\u20b92,499",
+    original: "\u20b93,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-x10-red-rosegold-initials-petal-heart",
+    name: "Red & Rose Gold Initials Petal Heart Room",
+    description:
+      "A personalised anniversary room with red and rose gold ceiling balloons, a rose gold 'HAPPY ANNIVERSARY' foil banner, heart foil bunches on both sides and a big rose petal heart on the bed with your initials and candles.",
+    image: rbdX10.url,
+    includes: [
+      "Red & rose gold ceiling balloons",
+      "Rose gold 'HAPPY ANNIVERSARY' foil banner",
+      "Rose petal heart with custom initials on bed",
+      "Ribbon-tied pillow styling & LED candle border",
+    ],
+    rating: 4.9,
+    reviews: 219,
+    offer: "\u20b92,999",
+    original: "\u20b94,499",
+    discountPct: 33,
+  },
+];
 
 const BATCH_W = [
   {
@@ -1765,7 +1958,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V, ...BATCH_W].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V, ...BATCH_W, ...BATCH_X].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -1788,7 +1981,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image), ...BATCH_U.map((p) => p.image), ...BATCH_V.map((p) => p.image), ...BATCH_W.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image), ...BATCH_U.map((p) => p.image), ...BATCH_V.map((p) => p.image), ...BATCH_W.map((p) => p.image), ...BATCH_X.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
