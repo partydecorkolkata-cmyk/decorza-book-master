@@ -1765,7 +1765,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V, ...BATCH_W].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -1788,7 +1788,7 @@ function ServicePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader eyebrow="Gallery" title="Romantic Bedroom Decoration Gallery" subtitle="Real setups by our decor team." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-3">
-            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image), ...BATCH_U.map((p) => p.image), ...BATCH_V.map((p) => p.image)].map((src, i) => (
+            {[rbdE1.url, rbdP1.url, rbdL1.url, ...NEW_PACKAGES.map((p) => p.image), ...BATCH_O.map((p) => p.image), ...BATCH_Q.map((p) => p.image), ...BATCH_R.map((p) => p.image), ...BATCH_S.map((p) => p.image), ...BATCH_T.map((p) => p.image), ...BATCH_U.map((p) => p.image), ...BATCH_V.map((p) => p.image), ...BATCH_W.map((p) => p.image)].map((src, i) => (
               <img key={src} src={src} alt={`Romantic Bedroom Decoration ${i + 1}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
