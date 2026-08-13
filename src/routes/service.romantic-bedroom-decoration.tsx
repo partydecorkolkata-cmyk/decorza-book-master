@@ -88,6 +88,199 @@ import rbdV7 from "@/assets/rbd-v7.jpeg.asset.json";
 import rbdV8 from "@/assets/rbd-v8.jpeg.asset.json";
 import rbdV9 from "@/assets/rbd-v9.png.asset.json";
 import rbdV10 from "@/assets/rbd-v10.png.asset.json";
+import rbdW1 from "@/assets/rbd-w1.jpeg.asset.json";
+import rbdW2 from "@/assets/rbd-w2.jpeg.asset.json";
+import rbdW3 from "@/assets/rbd-w3.jpeg.asset.json";
+import rbdW4 from "@/assets/rbd-w4.jpeg.asset.json";
+import rbdW5 from "@/assets/rbd-w5.jpeg.asset.json";
+import rbdW6 from "@/assets/rbd-w6.jpg.asset.json";
+import rbdW7 from "@/assets/rbd-w7.jpeg.asset.json";
+import rbdW8 from "@/assets/rbd-w8.jpeg.asset.json";
+import rbdW9 from "@/assets/rbd-w9.jpeg.asset.json";
+import rbdW10 from "@/assets/rbd-w10.png.asset.json";
+
+const BATCH_W = [
+  {
+    id: "rbd-w1-floral-fairy-canopy-petal-bed",
+    name: "Blush Floral Fairy-Light Canopy Room",
+    description:
+      "A dreamy four-poster canopy wrapped in sheer white drapes, pink roses and trailing greenery, lit with warm fairy lights, with a thick blush petal spread across the bed and a petal-strewn floor.",
+    image: rbdW1.url,
+    includes: [
+      "Four-poster sheer drape canopy with fairy lights",
+      "Pink rose & greenery garland on canopy frame",
+      "Blush rose petal spread on bed",
+      "Petal-scattered floor & warm ambient lamps",
+    ],
+    rating: 4.9,
+    reviews: 268,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-w2-red-balloon-ceiling-black-birthday",
+    name: "Red Balloon Ceiling & Black Birthday Foil Room",
+    description:
+      "A full ceiling of red helium balloons with curling ribbons, bold black 'HAPPY BIRTHDAY' foil letters above the headboard, red heart balloons on the bed and a rose petal heart at the centre.",
+    image: rbdW2.url,
+    includes: [
+      "Ceiling filled with red helium balloons & ribbons",
+      "Black 'HAPPY BIRTHDAY' foil letters on wall",
+      "Red heart foil balloons on bed",
+      "Rose petal heart & floor balloon accents",
+    ],
+    rating: 4.8,
+    reviews: 231,
+    offer: "₹2,999",
+    original: "₹4,499",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-w3-floral-mandap-love-petal-floor",
+    name: "Grand Floral Mandap & LOVE Petal Floor Suite",
+    description:
+      "Our signature first-night setup — a flower-arched mandap canopy over the bed with hanging jasmine strings, red balloon ceiling drops, an illuminated LOVE marquee and an elaborate rose petal LOVE pathway on the floor.",
+    image: rbdW3.url,
+    includes: [
+      "Fresh-look floral arch mandap over bed with drapes",
+      "Hanging jasmine strings & fairy lights inside canopy",
+      "Red & white ceiling balloons with ribbon spirals",
+      "LOVE marquee light + full petal LOVE floor art",
+    ],
+    rating: 5,
+    reviews: 187,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-w4-red-ceiling-silver-number-petal-walkway",
+    name: "Red Ceiling & Silver Number Petal Walkway Room",
+    description:
+      "A dense red balloon ceiling with silver giant age number balloons on the headboard, a silver heart floater, rose petals scattered over the bed and a candle-lined rose petal walkway leading to it.",
+    image: rbdW4.url,
+    includes: [
+      "Red & pink ceiling balloon cloud",
+      "Giant silver age number balloons + heart foils",
+      "Rose petals on bed & floor balloon scatter",
+      "Candle-lined rose petal entry walkway",
+    ],
+    rating: 4.9,
+    reviews: 204,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-w5-happy-anniversary-red-gold-balloon-bed",
+    name: "Happy Anniversary Red & Gold Balloon Bed",
+    description:
+      "A romantic anniversary room with a red, gold and chrome balloon cloud floating over the bed, gold 'HAPPY ANNIVERSARY' foil letters, message cards hanging from the balloons and petals with tea lights across the bed.",
+    image: rbdW5.url,
+    includes: [
+      "Red, gold & chrome balloon cloud over the bed",
+      "Gold 'HAPPY ANNIVERSARY' foil letters",
+      "Hanging love-note message cards",
+      "Rose petals, tea lights & heart balloon stand",
+    ],
+    rating: 4.8,
+    reviews: 158,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+  {
+    id: "rbd-w6-white-flower-fairy-canopy-heart-bed",
+    name: "Just Married White Flower & Fairy Light Canopy",
+    description:
+      "A wedding-night favourite — a sheer canopy dripping with white hanging florals and fairy lights over the bed, a red rose petal heart on the mattress and a rich petal carpet running across the floor.",
+    image: rbdW6.url,
+    includes: [
+      "Sheer canopy with dense fairy lights over bed",
+      "Hanging white florals & greenery vines",
+      "Red rose petal heart on bed",
+      "Petal floor carpet & lit corner flower vases",
+    ],
+    rating: 4.9,
+    reviews: 296,
+    offer: "₹7,499",
+    original: "₹9,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-w7-red-rose-masehri-bridal-canopy",
+    name: "Royal Red Rose Masehri Bridal Canopy",
+    description:
+      "A luxury bridal room setup with a full red rose and greenery covered four-poster masehri frame, cascading rose pillars, sheer curtains woven with warm fairy lights and an elegantly styled bed.",
+    image: rbdW7.url,
+    includes: [
+      "Full red rose & greenery covered canopy frame",
+      "Cascading rose flower pillars on all four posts",
+      "Sheer curtain drapes with warm fairy lights",
+      "Premium bed styling & room ambient lighting",
+    ],
+    rating: 5,
+    reviews: 142,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "rbd-w8-pink-rosegold-happy-birthday-number",
+    name: "Pink & Rose Gold Birthday Balloon Room",
+    description:
+      "A bright, cheerful room surprise with pink and magenta balloons floating on the ceiling, rose gold 'HAPPY BIRTHDAY' foil letters on the wall and giant rose gold age number balloons at the headboard.",
+    image: rbdW8.url,
+    includes: [
+      "Pink & magenta ceiling helium balloons",
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Giant rose gold age number balloons",
+      "Balloon scatter on bed & gift styling",
+    ],
+    rating: 4.7,
+    reviews: 312,
+    offer: "₹1,999",
+    original: "₹2,999",
+    discountPct: 33,
+  },
+  {
+    id: "rbd-w9-pink-white-balloon-ceiling-heart-foils",
+    name: "Pink & White Balloon Ceiling Birthday Surprise",
+    description:
+      "A classic hotel-style surprise with a thick pink and white balloon ceiling, rose gold 'HAPPY BIRTHDAY' foil letters flanked by two heart foils and matching balloons scattered over the bed.",
+    image: rbdW9.url,
+    includes: [
+      "Pink & white balloon ceiling with ribbons",
+      "Rose gold 'HAPPY BIRTHDAY' foil letters",
+      "Two rose gold heart foil balloons",
+      "Balloon scatter on bed & floor",
+    ],
+    rating: 4.7,
+    reviews: 274,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
+  },
+  {
+    id: "rbd-w10-peach-silver-22-candle-heart-room",
+    name: "Peach Balloon Cloud & Silver Number Candle Room",
+    description:
+      "A soft peach balloon cloud on the ceiling with silver 'HAPPY BIRTHDAY' letters, a giant silver age number pillar, a candle heart on the bed and a petal-and-candle spread on the floor.",
+    image: rbdW10.url,
+    includes: [
+      "Peach balloon cloud ceiling with ribbon tails",
+      "Silver 'HAPPY BIRTHDAY' foil letters",
+      "Giant silver number balloon pillar with chrome base",
+      "Candle heart on bed & floor petal candle spread",
+    ],
+    rating: 4.8,
+    reviews: 193,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
+  },
+];
 
 
 
