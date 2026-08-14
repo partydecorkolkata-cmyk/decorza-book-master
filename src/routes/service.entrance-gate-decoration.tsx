@@ -18,6 +18,16 @@ import gateA7 from "@/assets/gate-a7.jpeg.asset.json";
 import gateA8 from "@/assets/gate-a8.jpeg.asset.json";
 import gateA9 from "@/assets/gate-a9.jpeg.asset.json";
 import gateA10 from "@/assets/gate-a10.jpeg.asset.json";
+import gateC1 from "@/assets/gate-c1.jpeg.asset.json";
+import gateC2 from "@/assets/gate-c2.jpeg.asset.json";
+import gateC3 from "@/assets/gate-c3.jpeg.asset.json";
+import gateC4 from "@/assets/gate-c4.jpeg.asset.json";
+import gateC5 from "@/assets/gate-c5.jpeg.asset.json";
+import gateC6 from "@/assets/gate-c6.jpeg.asset.json";
+import gateC7 from "@/assets/gate-c7.jpeg.asset.json";
+import gateC8 from "@/assets/gate-c8.jpeg.asset.json";
+import gateC9 from "@/assets/gate-c9.jpeg.asset.json";
+import gateC10 from "@/assets/gate-c10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -175,7 +185,100 @@ const BATCH_B = [
   },
 ];
 
+const BATCH_C = [
+  {
+    id: "gate-c1",
+    name: "Purple & Pink Fairy Theme Welcome Gate",
+    description: "A lavish purple, lilac and pink balloon gate framing the venue entrance with silver starburst foils, fairy character cut-outs and a 'Welcome' banner — made for princess and fairy theme birthdays.",
+    image: gateC1.url,
+    includes: ["Purple, lilac & pink balloon gate", "Silver starburst foil accents", "Fairy character cut-outs", "'Welcome' banner & side balloon stands"],
+    rating: 4.9, reviews: 274, offer: "₹3,999", original: "₹5,499", discountPct: 27, bestSeller: true,
+  },
+  {
+    id: "gate-c2",
+    name: "Pastel & Rose Gold Chrome Arch Gate",
+    description: "A tall pastel pink and lilac arch mixed with rose gold chrome balloons over the banquet doorway, paired with matching balloon pillars — elegant for first birthdays and naming ceremonies.",
+    image: gateC2.url,
+    includes: ["Pastel pink & lilac balloon arch", "Rose gold chrome balloon clusters", "2 matching balloon pillars", "Doorway frame installation"],
+    rating: 4.8, reviews: 231, offer: "₹3,499", original: "₹4,999", discountPct: 30, bestSeller: false,
+  },
+  {
+    id: "gate-c3",
+    name: "Black & Gold Spiral Staircase Arch",
+    description: "A striking black and gold spiral balloon arch built over a staircase or hall entry — a smart, dramatic look for milestone birthdays, farewells and corporate nights.",
+    image: gateC3.url,
+    includes: ["Black & gold spiral balloon arch", "Free-standing weighted frame", "Metallic gold balloon finish", "On-site setup & dismantling"],
+    rating: 4.7, reviews: 168, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-c4",
+    name: "Black & Yellow Grand Hall Arch",
+    description: "A wide black and yellow-gold spiral balloon arch spanning the hall aisle, built on a strong free-standing frame — ideal for school functions, award nights and stage entries.",
+    image: gateC4.url,
+    includes: ["Black & yellow spiral balloon arch", "Wide free-standing frame", "Aisle or stage entry placement", "Complete setup by our team"],
+    rating: 4.7, reviews: 142, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-c5",
+    name: "Red & White Classic Shop Opening Arch",
+    description: "A crisp red and white classic spiral balloon arch on twin stands — the go-to welcome gate for shop launches, inaugurations and grand opening promotions.",
+    image: gateC5.url,
+    includes: ["Red & white spiral balloon arch", "Twin stands with weighted bases", "Storefront-width sizing", "Quick on-site installation"],
+    rating: 4.6, reviews: 196, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-c6",
+    name: "Multicolour Rainbow Welcome Gate",
+    description: "A cheerful multicolour balloon gate in blue, purple, white, pink and peach at the venue entrance, finished with a photo welcome board on a decorated easel.",
+    image: gateC6.url,
+    includes: ["Multicolour classic balloon gate", "Colour-block balloon pillars", "Photo welcome board easel styling", "Entrance fitting & setup"],
+    rating: 4.8, reviews: 203, offer: "₹2,999", original: "₹4,499", discountPct: 33, bestSeller: false,
+  },
+  {
+    id: "gate-c7",
+    name: "Blue & White Cloud Theme Entrance Arch",
+    description: "A soft blue, white and silver organic balloon arch around the main door with chrome accents and a photo welcome board — a lovely fit for hot air balloon and cloud theme birthdays.",
+    image: gateC7.url,
+    includes: ["Blue, white & silver organic arch", "Chrome balloon accents", "Photo welcome board easel", "Doorway wrap installation"],
+    rating: 4.8, reviews: 217, offer: "₹2,999", original: "₹4,499", discountPct: 33, bestSeller: false,
+  },
+  {
+    id: "gate-c8",
+    name: "Gold & White Grand Opening Gate",
+    description: "A premium chrome gold and white spiral balloon arch framing your shutter or shopfront — a bright, classy welcome for inaugurations and housewarmings.",
+    image: gateC8.url,
+    includes: ["Chrome gold & white spiral arch", "Full doorway framing", "Weighted base supports", "On-site setup"],
+    rating: 4.7, reviews: 184, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-c9",
+    name: "Royal Blue Baby Boy Grand Gate",
+    description: "A grand blue and white organic balloon gate with 'BABY BOY' letter balloons, silver orb and star foils and teddy cut-outs guarding the pathway — a show-stopping welcome for naming ceremonies.",
+    image: gateC9.url,
+    includes: ["Blue & white organic balloon gate", "'BABY BOY' letter balloons", "Silver orb & star foil accents", "Teddy cut-outs & pathway clusters"],
+    rating: 4.9, reviews: 258, offer: "₹4,499", original: "₹5,999", discountPct: 25, bestSeller: true,
+  },
+  {
+    id: "gate-c10",
+    name: "Signature Black, Gold & White Organic Gate",
+    description: "Our signature organic balloon gate in black, chrome gold and white cascading over a double doorway — an understated, luxurious welcome for anniversaries, receptions and corporate galas.",
+    image: gateC10.url,
+    includes: ["Black, gold & white organic garland", "Jumbo & chrome balloon mix", "Double-door full frame wrap", "Weighted base columns & setup"],
+    rating: 4.9, reviews: 291, offer: "₹3,499", original: "₹4,999", discountPct: 30, bestSeller: false,
+  },
+];
+
 const GALLERY = [
+  gateC10.url,
+  gateC1.url,
+  gateC2.url,
+  gateC3.url,
+  gateC4.url,
+  gateC5.url,
+  gateC6.url,
+  gateC7.url,
+  gateC8.url,
+  gateC9.url,
   gateA1.url,
   gateA2.url,
   gateA3.url,
@@ -190,8 +293,19 @@ const GALLERY = [
   "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg",
   "/1e631830-5a03-4c62-9230-c36bba689802.png",
   "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg",
-  "/haldi-ring-decoration.png",
-  "/stage-floral-arch.png",
+];
+
+const GATE_REVIEWS: [string, string, string, string, number][] = [
+  ["Ankita Mohanty", "Bhubaneswar", "Entrance Gate Decoration", "The purple fairy theme gate was the first thing every guest photographed. Team reached 3 hours early and finished neatly.", 5],
+  ["Rahul Sethi", "Cuttack", "Entrance Gate Decoration", "Booked the gold and white arch for our shop opening. Looked premium in every photo and the price was very fair.", 5],
+  ["Sneha Patnaik", "Puri", "Entrance Gate Decoration", "Blue baby boy gate for our son's naming ceremony — the teddy cut-outs and letter balloons were exactly like the picture.", 5],
+  ["Debasish Nayak", "Rourkela", "Entrance Gate Decoration", "Black and gold organic gate at the banquet door. Guests kept clicking selfies there the whole evening.", 5],
+  ["Priyanka Das", "Bhubaneswar", "Entrance Gate Decoration", "Very responsive on WhatsApp, shared design options within minutes and set up the pastel arch beautifully.", 5],
+  ["Manoj Behera", "Berhampur", "Entrance Gate Decoration", "Red and white arch for our showroom inauguration. Balloons stayed perfect the entire day in the sun.", 4],
+  ["Ritu Agarwal", "Sambalpur", "Entrance Gate Decoration", "The cloud theme entrance with the welcome board made my daughter's first birthday entry so special.", 5],
+  ["Sourav Mishra", "Balasore", "Entrance Gate Decoration", "Staircase arch in black and gold for my 30th. Neat frame, no mess, and they cleared everything after the party.", 5],
+  ["Jyoti Rani Sahu", "Angul", "Entrance Gate Decoration", "Multicolour welcome gate looked so cheerful. Reasonable pricing and the team was polite and punctual.", 5],
+  ["Amit Kumar Jena", "Jajpur", "Entrance Gate Decoration", "Ordered last minute for a housewarming and they still delivered a lovely gold arch on time. Highly recommended.", 5],
 ];
 
 function ServicePage() {
