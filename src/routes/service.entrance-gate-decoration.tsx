@@ -8,6 +8,16 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import gateA1 from "@/assets/gate-a1.jpeg.asset.json";
+import gateA2 from "@/assets/gate-a2.jpeg.asset.json";
+import gateA3 from "@/assets/gate-a3.png.asset.json";
+import gateA4 from "@/assets/gate-a4.jpeg.asset.json";
+import gateA5 from "@/assets/gate-a5.jpeg.asset.json";
+import gateA6 from "@/assets/gate-a6.jpeg.asset.json";
+import gateA7 from "@/assets/gate-a7.jpeg.asset.json";
+import gateA8 from "@/assets/gate-a8.jpeg.asset.json";
+import gateA9 from "@/assets/gate-a9.jpeg.asset.json";
+import gateA10 from "@/assets/gate-a10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
