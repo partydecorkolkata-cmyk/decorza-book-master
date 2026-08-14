@@ -218,7 +218,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Romantic Bedroom Decoration") },
   { slug: "entrance-gate-decoration", name: "Entrance Gate Decoration", short: "Grand welcome gates & balloon arches",
     description: "Balloon gate arches, marigold torans, floral pillars and welcome pathways that make the entrance the first wow moment of your event.",
-    hero: img(TRADITIONAL_DECOR[0]), gallery: pick(TRADITIONAL_DECOR),
+    hero: "/__l5e/assets-v1/PLACEHOLDER_C10", gallery: pick(TRADITIONAL_DECOR),
     rating: 4.8, reviews: 460, startsAt: 1999, popular: true, trending: true,
     faqs: baseFaqs("Entrance Gate Decoration") },
   { slug: "car-boot-decoration", name: "Car Boot Decoration", short: "Surprise her with a car-boot proposal",
