@@ -38,6 +38,16 @@ import gateD7 from "@/assets/gate-d7.jpeg.asset.json";
 import gateD8 from "@/assets/gate-d8.jpeg.asset.json";
 import gateD9 from "@/assets/gate-d9.jpeg.asset.json";
 import gateD10 from "@/assets/gate-d10.jpeg.asset.json";
+import gateE1 from "@/assets/gate-e1.jpeg.asset.json";
+import gateE2 from "@/assets/gate-e2.jpeg.asset.json";
+import gateE3 from "@/assets/gate-e3.jpeg.asset.json";
+import gateE4 from "@/assets/gate-e4.jpeg.asset.json";
+import gateE5 from "@/assets/gate-e5.jpeg.asset.json";
+import gateE6 from "@/assets/gate-e6.jpeg.asset.json";
+import gateE7 from "@/assets/gate-e7.jpeg.asset.json";
+import gateE8 from "@/assets/gate-e8.jpeg.asset.json";
+import gateE9 from "@/assets/gate-e9.jpeg.asset.json";
+import gateE10 from "@/assets/gate-e10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -361,9 +371,103 @@ const BATCH_D = [
   },
 ];
 
+const BATCH_E = [
+  {
+    id: "gate-e1",
+    name: "Orange & White Shop Opening Balloon Gate",
+    description: "A cheerful orange and white spiral balloon arch framing a shop entrance — the classic grand-opening welcome gate that pulls attention straight from the street.",
+    image: gateE1.url,
+    includes: ["Orange & white spiral balloon arch", "Twin balloon pillars with weighted bases", "Full shop doorway span", "On-site setup & dismantling"],
+    rating: 4.7, reviews: 186, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-e2",
+    name: "Blue & Yellow Corporate Welcome Arch",
+    description: "A glossy blue and yellow metallic spiral balloon arch built across an office lobby doorway — smart, corporate-ready branding colours for launches and office events.",
+    image: gateE2.url,
+    includes: ["Blue & yellow metallic spiral arch", "Corporate lobby doorway sizing", "Twin twisted balloon columns", "Setup by trained crew"],
+    rating: 4.8, reviews: 164, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-e3",
+    name: "Blue & White Organic Cloud Gate",
+    description: "A soft blue and white organic balloon arch with jumbo cloud clusters wrapping a wide glass entrance — perfect for baby boy welcomes and store launches.",
+    image: gateE3.url,
+    includes: ["Blue & white organic balloon garland", "Jumbo cloud balloon clusters", "Wide doorway full-frame styling", "Complete installation on site"],
+    rating: 4.9, reviews: 221, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: true,
+  },
+  {
+    id: "gate-e4",
+    name: "Red & Chrome Gold Classic Gate",
+    description: "A striking red and chrome gold classic balloon arch on twin columns at the main entry door — festive, rich and ideal for inaugurations and anniversary functions.",
+    image: gateE4.url,
+    includes: ["Red & chrome gold classic arch", "Twin balloon columns on stands", "Cluster crown at arch centre", "Setup & dismantling included"],
+    rating: 4.8, reviews: 178, offer: "₹2,199", original: "₹3,499", discountPct: 37, bestSeller: false,
+  },
+  {
+    id: "gate-e5",
+    name: "Gold, White & Bronze Grand Opening Gate",
+    description: "A rich gold, white and bronze spiral balloon gate around a boutique glass entrance, finished with a ribbon across the doorway for the cutting ceremony.",
+    image: gateE5.url,
+    includes: ["Gold, white & bronze spiral arch", "Full shopfront doorway wrap", "Inauguration ribbon with bow", "Evening-ready glossy chrome finish"],
+    rating: 4.9, reviews: 203, offer: "₹2,799", original: "₹4,499", discountPct: 38, bestSeller: false,
+  },
+  {
+    id: "gate-e6",
+    name: "Jungle Safari Animal Face Gate",
+    description: "A playful jungle theme balloon arch in green, brown and cream with lion, zebra, giraffe and cow face foils peeping out — a kids' favourite entrance setup.",
+    image: gateE6.url,
+    includes: ["Green, brown & cream jungle balloon arch", "Animal face foil balloons", "Twin themed balloon pillars", "Outdoor-ready weighted frame"],
+    rating: 4.8, reviews: 246, offer: "₹2,499", original: "₹4,499", discountPct: 44, bestSeller: false,
+  },
+  {
+    id: "gate-e7",
+    name: "Pink Drape & Fresh Rose Entrance Gate",
+    description: "An elegant blush pink drape gate with lush pink and ivory rose clusters cascading down both pillars and a name board on top — a wedding-grade welcome entrance.",
+    image: gateE7.url,
+    includes: ["Blush pink fabric drape canopy", "Pink & ivory rose flower clusters", "Two decorated entrance pillars", "Customised name board on top"],
+    rating: 4.9, reviews: 292, offer: "₹4,999", original: "₹7,999", discountPct: 38, bestSeller: true,
+  },
+  {
+    id: "gate-e8",
+    name: "Olive Green & White Walk-Through Arch",
+    description: "A designer olive green and white organic walk-through balloon arch standing free in front of the entrance — trendy, minimal and made for cafe and boutique launches.",
+    image: gateE8.url,
+    includes: ["Olive green & white organic garland", "Free-standing walk-through arch", "Jumbo & micro balloon mix", "Weighted base plates with setup"],
+    rating: 4.9, reviews: 214, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-e9",
+    name: "Sage Green & Gold Baby Shower Gate",
+    description: "A serene sage green, white and gold balloon arch framing the banquet doorway with a printed welcome easel board — a graceful entry for baby showers and godh bharai.",
+    image: gateE9.url,
+    includes: ["Sage green, white & gold balloon arch", "Gold cluster accents", "Printed welcome easel board", "Venue doorway installation"],
+    rating: 4.9, reviews: 258, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-e10",
+    name: "Yellow & White Ribbon-Cutting Gate",
+    description: "A sunny yellow and white organic balloon arch spanning the storefront doors with hanging round signage — bright, happy styling for ribbon-cutting ceremonies.",
+    image: gateE10.url,
+    includes: ["Yellow & white organic balloon garland", "Full double-door span", "Hanging round sign accents", "Outdoor weighted stands & setup"],
+    rating: 4.8, reviews: 172, offer: "₹2,799", original: "₹4,499", discountPct: 38, bestSeller: false,
+  },
+];
+
 const GALLERY = [
+  gateE1.url,
+  gateE2.url,
+  gateE3.url,
+  gateE4.url,
+  gateE5.url,
+  gateE6.url,
+  gateE7.url,
+  gateE8.url,
+  gateE9.url,
+  gateE10.url,
   gateC10.url,
   gateD1.url,
+
   gateD2.url,
   gateD3.url,
   gateD4.url,
