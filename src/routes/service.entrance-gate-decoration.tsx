@@ -28,6 +28,16 @@ import gateC7 from "@/assets/gate-c7.jpeg.asset.json";
 import gateC8 from "@/assets/gate-c8.jpeg.asset.json";
 import gateC9 from "@/assets/gate-c9.jpeg.asset.json";
 import gateC10 from "@/assets/gate-c10.jpeg.asset.json";
+import gateD1 from "@/assets/gate-d1.jpeg.asset.json";
+import gateD2 from "@/assets/gate-d2.jpeg.asset.json";
+import gateD3 from "@/assets/gate-d3.jpeg.asset.json";
+import gateD4 from "@/assets/gate-d4.jpeg.asset.json";
+import gateD5 from "@/assets/gate-d5.jpeg.asset.json";
+import gateD6 from "@/assets/gate-d6.jpeg.asset.json";
+import gateD7 from "@/assets/gate-d7.jpeg.asset.json";
+import gateD8 from "@/assets/gate-d8.jpeg.asset.json";
+import gateD9 from "@/assets/gate-d9.jpeg.asset.json";
+import gateD10 from "@/assets/gate-d10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -437,7 +447,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Entrance Gate Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[...CARDS, ...BATCH_B, ...BATCH_C].map((p) => (
+          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
