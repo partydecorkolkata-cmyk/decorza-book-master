@@ -28,6 +28,16 @@ import gateC7 from "@/assets/gate-c7.jpeg.asset.json";
 import gateC8 from "@/assets/gate-c8.jpeg.asset.json";
 import gateC9 from "@/assets/gate-c9.jpeg.asset.json";
 import gateC10 from "@/assets/gate-c10.jpeg.asset.json";
+import gateD1 from "@/assets/gate-d1.jpeg.asset.json";
+import gateD2 from "@/assets/gate-d2.jpeg.asset.json";
+import gateD3 from "@/assets/gate-d3.jpeg.asset.json";
+import gateD4 from "@/assets/gate-d4.jpeg.asset.json";
+import gateD5 from "@/assets/gate-d5.jpeg.asset.json";
+import gateD6 from "@/assets/gate-d6.jpeg.asset.json";
+import gateD7 from "@/assets/gate-d7.jpeg.asset.json";
+import gateD8 from "@/assets/gate-d8.jpeg.asset.json";
+import gateD9 from "@/assets/gate-d9.jpeg.asset.json";
+import gateD10 from "@/assets/gate-d10.jpeg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -268,8 +278,102 @@ const BATCH_C = [
   },
 ];
 
+const BATCH_D = [
+  {
+    id: "gate-d1",
+    name: "Red, White & Silver Chrome Tower Gate",
+    description: "A bold red, white and silver chrome organic balloon arch built as twin towers over the hall doorway — a high-impact welcome for birthdays, receptions and corporate events.",
+    image: gateD1.url,
+    includes: ["Red, white & silver chrome organic garland", "Twin balloon tower columns", "Jumbo & cluster balloon mix", "Full doorway span with setup"],
+    rating: 4.9, reviews: 246, offer: "₹3,499", original: "₹4,999", discountPct: 30, bestSeller: true,
+  },
+  {
+    id: "gate-d2",
+    name: "Black & Gold Classic Pillar Arch",
+    description: "A tall classic black and gold spiral balloon arch on twin pillars framing the main lobby entrance — sharp, formal and perfect for milestone birthdays and office celebrations.",
+    image: gateD2.url,
+    includes: ["Black & gold classic spiral arch", "Twin balloon pillars with bases", "Full-height lobby sizing", "On-site setup & dismantling"],
+    rating: 4.8, reviews: 189, offer: "₹2,199", original: "₹3,499", discountPct: 37, bestSeller: false,
+  },
+  {
+    id: "gate-d3",
+    name: "Gold & Silver Chrome Luxe Gate",
+    description: "A luxe chrome gold and silver balloon arch over the corridor entry, mixing jumbo and small metallic balloons for a rich mirror-finish welcome at parties and hotel events.",
+    image: gateD3.url,
+    includes: ["Chrome gold & silver balloon arch", "Jumbo metallic balloon accents", "Corridor / doorway full frame", "Weighted base supports"],
+    rating: 4.8, reviews: 212, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-d4",
+    name: "Rose Gold & Champagne Storefront Arch",
+    description: "A glossy rose gold and champagne chrome balloon arch framing a glass shopfront — an elegant grand-opening welcome that photographs beautifully in daylight.",
+    image: gateD4.url,
+    includes: ["Rose gold & champagne chrome arch", "Full storefront doorway framing", "Cluster & jumbo balloon mix", "Weighted stands with setup"],
+    rating: 4.8, reviews: 174, offer: "₹2,799", original: "₹4,499", discountPct: 38, bestSeller: false,
+  },
+  {
+    id: "gate-d5",
+    name: "Blue, Navy & Silver Organic Gate",
+    description: "A square-framed organic balloon gate in baby blue, navy and silver chrome wrapping the doorway with blossom accents — a favourite for baby boy welcomes and naming ceremonies.",
+    image: gateD5.url,
+    includes: ["Blue, navy & silver organic garland", "Square doorway frame wrap", "Chrome & pastel balloon mix", "Complete on-site installation"],
+    rating: 4.8, reviews: 198, offer: "₹2,499", original: "₹4,499", discountPct: 44, bestSeller: false,
+  },
+  {
+    id: "gate-d6",
+    name: "Green & Gold Starburst Celebration Arch",
+    description: "A vibrant green, white and gold organic balloon arch studded with large gold starburst foils — a spirited entry for school events, sports nights and festive functions.",
+    image: gateD6.url,
+    includes: ["Green, white & gold organic arch", "Large gold starburst foil balloons", "Free-standing weighted frame", "Setup & dismantling included"],
+    rating: 4.8, reviews: 163, offer: "₹3,199", original: "₹4,999", discountPct: 36, bestSeller: false,
+  },
+  {
+    id: "gate-d7",
+    name: "Black, Gold & Ivory Boutique Gate",
+    description: "A designer organic balloon gate in black, chrome gold and ivory cascading around the entry door — refined styling for boutique launches, anniversaries and elegant house parties.",
+    image: gateD7.url,
+    includes: ["Black, gold & ivory organic garland", "Asymmetric designer cascade", "Doorway full frame wrap", "On-site professional setup"],
+    rating: 4.9, reviews: 221, offer: "₹2,999", original: "₹4,499", discountPct: 33, bestSeller: false,
+  },
+  {
+    id: "gate-d8",
+    name: "Jungle Safari Grand Entrance Gate",
+    description: "A grand jungle safari gate with a giraffe face centrepiece, animal print balloons, character cut-outs, white picket fencing and a lit welcome frame — a complete themed entry experience.",
+    image: gateD8.url,
+    includes: ["Safari theme balloon gate with giraffe centrepiece", "Animal print & jungle colour balloons", "Character cut-out standees", "White picket fencing & lit welcome frame"],
+    rating: 4.9, reviews: 287, offer: "₹4,999", original: "₹7,999", discountPct: 38, bestSeller: true,
+  },
+  {
+    id: "gate-d9",
+    name: "Rainbow Kids Party Balloon Gate",
+    description: "A bright green, blue and yellow classic balloon arch over the banquet doorway with matching flower balloon pillars along the walkway — pure fun for kids' birthdays.",
+    image: gateD9.url,
+    includes: ["Green, blue & yellow classic arch", "Matching balloon pillars", "Flower balloon walkway accents", "Venue entrance installation"],
+    rating: 4.7, reviews: 209, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-d10",
+    name: "Purple & Gold Royal Square Gate",
+    description: "A royal purple, lilac and chrome gold organic balloon gate built as a square frame around the entrance doors — a rich, premium welcome for salon launches and grand celebrations.",
+    image: gateD10.url,
+    includes: ["Purple, lilac & gold organic garland", "Square doorway frame styling", "Chrome gold balloon clusters", "Full setup & dismantling"],
+    rating: 4.9, reviews: 234, offer: "₹2,499", original: "₹4,499", discountPct: 44, bestSeller: false,
+  },
+];
+
 const GALLERY = [
   gateC10.url,
+  gateD1.url,
+  gateD2.url,
+  gateD3.url,
+  gateD4.url,
+  gateD5.url,
+  gateD6.url,
+  gateD7.url,
+  gateD8.url,
+  gateD9.url,
+  gateD10.url,
+
   gateC1.url,
   gateC2.url,
   gateC3.url,
@@ -343,7 +447,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Entrance Gate Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[...CARDS, ...BATCH_B, ...BATCH_C].map((p) => (
+          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
