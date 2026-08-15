@@ -7,7 +7,7 @@ import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
-import { categoryBySlug, REVIEWS } from "@/lib/data";
+import { categoryBySlug } from "@/lib/data";
 import gateA1 from "@/assets/gate-a1.jpeg.asset.json";
 import gateA2 from "@/assets/gate-a2.jpeg.asset.json";
 import gateA3 from "@/assets/gate-a3.png.asset.json";
@@ -311,7 +311,7 @@ const GATE_REVIEWS: [string, string, string, string, number][] = [
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Entrance Gate Decoration" }));
-  const displayReviews = REVIEWS.slice(0, 6);
+  const displayReviews = GATE_REVIEWS;
 
   return (
     <>
@@ -343,7 +343,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Entrance Gate Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[...CARDS, ...BATCH_B].map((p) => (
+          {[...CARDS, ...BATCH_B, ...BATCH_C].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
