@@ -48,6 +48,16 @@ import gateE7 from "@/assets/gate-e7.jpeg.asset.json";
 import gateE8 from "@/assets/gate-e8.jpeg.asset.json";
 import gateE9 from "@/assets/gate-e9.jpeg.asset.json";
 import gateE10 from "@/assets/gate-e10.jpeg.asset.json";
+import gateF1 from "@/assets/gate-f1.jpg.asset.json";
+import gateF2 from "@/assets/gate-f2.jpg.asset.json";
+import gateF3 from "@/assets/gate-f3.jpg.asset.json";
+import gateF4 from "@/assets/gate-f4.jpg.asset.json";
+import gateF5 from "@/assets/gate-f5.jpg.asset.json";
+import gateF6 from "@/assets/gate-f6.jpg.asset.json";
+import gateF7 from "@/assets/gate-f7.jpg.asset.json";
+import gateF8 from "@/assets/gate-f8.jpg.asset.json";
+import gateF9 from "@/assets/gate-f9.jpg.asset.json";
+import gateF10 from "@/assets/gate-f10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
