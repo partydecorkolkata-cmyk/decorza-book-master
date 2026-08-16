@@ -48,6 +48,16 @@ import gateE7 from "@/assets/gate-e7.jpeg.asset.json";
 import gateE8 from "@/assets/gate-e8.jpeg.asset.json";
 import gateE9 from "@/assets/gate-e9.jpeg.asset.json";
 import gateE10 from "@/assets/gate-e10.jpeg.asset.json";
+import gateF1 from "@/assets/gate-f1.jpg.asset.json";
+import gateF2 from "@/assets/gate-f2.jpg.asset.json";
+import gateF3 from "@/assets/gate-f3.jpg.asset.json";
+import gateF4 from "@/assets/gate-f4.jpg.asset.json";
+import gateF5 from "@/assets/gate-f5.jpg.asset.json";
+import gateF6 from "@/assets/gate-f6.jpg.asset.json";
+import gateF7 from "@/assets/gate-f7.jpg.asset.json";
+import gateF8 from "@/assets/gate-f8.jpg.asset.json";
+import gateF9 from "@/assets/gate-f9.jpg.asset.json";
+import gateF10 from "@/assets/gate-f10.jpg.asset.json";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -454,7 +464,100 @@ const BATCH_E = [
   },
 ];
 
+const BATCH_F = [
+  {
+    id: "gate-f1",
+    name: "Blue, Royal Blue & Silver Ribbon-Cutting Gate",
+    description: "A classic twin-pillar balloon arch in sky blue, royal blue chrome, silver and white framing glass doors, finished with a satin ribbon and bow for the inauguration cut.",
+    image: gateF1.url,
+    includes: ["Blue, royal blue, silver & white classic arch", "Twin balloon pillars with weighted bases", "Satin ribbon with bow for cutting", "On-site setup & dismantling"],
+    rating: 4.9, reviews: 214, offer: "₹2,199", original: "₹3,499", discountPct: 37, bestSeller: true,
+  },
+  {
+    id: "gate-f2",
+    name: "Yellow & Black Chrome Shopfront Gate",
+    description: "A striking yellow and black chrome balloon gate wrapping a retail storefront, softened with fresh flower clusters on the pillars — bold, brand-forward styling for shop openings.",
+    image: gateF2.url,
+    includes: ["Yellow & black chrome balloon garland", "Twin pillar shopfront framing", "Fresh flower cluster accents", "Complete installation at venue"],
+    rating: 4.8, reviews: 188, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-f3",
+    name: "Gold & White Traditional Opening Arch",
+    description: "A gold and white balloon arch over the main entry with matching balloon flower wall accents and marigold-and-rose petal pathway — a warm traditional welcome for inaugurations and pujas.",
+    image: gateF3.url,
+    includes: ["Gold & white balloon arch over entry", "Balloon flower wall accents", "Marigold & rose petal pathway", "Setup and finishing on site"],
+    rating: 4.8, reviews: 176, offer: "₹2,199", original: "₹3,499", discountPct: 37, bestSeller: false,
+  },
+  {
+    id: "gate-f4",
+    name: "Pastel Blue & Gold Organic Cafe Gate",
+    description: "A free-standing organic balloon arch in pastel blue, butter yellow, white and chrome gold with jumbo balloon highlights — an inviting entry statement for cafes and boutique launches.",
+    image: gateF4.url,
+    includes: ["One arch gate decoration"],
+    rating: 4.9, reviews: 231, offer: "₹2,499", original: "₹3,499", discountPct: 29, bestSeller: false,
+  },
+  {
+    id: "gate-f5",
+    name: "Purple & White Home Gate Arch",
+    description: "A cheerful purple and white spiral balloon arch built over the house gate — a simple, budget-friendly welcome for birthdays, homecomings and family functions.",
+    image: gateF5.url,
+    includes: ["Purple & white spiral balloon arch", "Full gate span coverage", "Outdoor frame with supports", "Setup at your doorstep"],
+    rating: 4.7, reviews: 164, offer: "₹1,999", original: "₹3,499", discountPct: 43, bestSeller: false,
+  },
+  {
+    id: "gate-f6",
+    name: "Sage Green, White & Gold Luxe Entry Arch",
+    description: "A designer organic balloon arch in sage green, ivory white, blush and chrome gold cascading around the doorway along a red-carpet entry — elegant styling for premium launches and receptions.",
+    image: gateF6.url,
+    includes: ["Sage, white, blush & gold organic garland", "Asymmetric designer cascade", "Jumbo & chrome balloon mix", "Professional on-site installation"],
+    rating: 4.9, reviews: 243, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: true,
+  },
+  {
+    id: "gate-f7",
+    name: "Cocomelon Rainbow First Birthday Gate",
+    description: "A rainbow pastel balloon arch with Cocomelon character foils, gold clusters and blue star balloons, paired with a personalised photo welcome board on an easel — made for first birthdays.",
+    image: gateF7.url,
+    includes: ["Rainbow pastel balloon arch", "Cocomelon character foil balloons", "Gold cluster & star foil accents", "Personalised photo welcome board on easel"],
+    rating: 4.9, reviews: 268, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-f8",
+    name: "Boss Baby Blue & Black Welcome Gate",
+    description: "A banquet-entry balloon arch in royal blue, powder blue, black and white with Boss Baby character foils, blue star balloons and a custom name welcome board.",
+    image: gateF8.url,
+    includes: ["Blue, black & white balloon arch", "Boss Baby character foil balloons", "Blue star foil accents", "Custom name welcome board on stand"],
+    rating: 4.9, reviews: 252, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-f9",
+    name: "Frozen Blue & Gold Staircase Gate",
+    description: "A blue, white and chrome gold twin-pillar arch over the staircase entry with Elsa and Frozen character foils — a princess-perfect welcome for themed birthdays.",
+    image: gateF9.url,
+    includes: ["Blue, white & gold chrome pillar arch", "Frozen character foil balloons", "Staircase entry framing", "Setup & dismantling included"],
+    rating: 4.8, reviews: 207, offer: "₹2,999", original: "₹4,999", discountPct: 40, bestSeller: false,
+  },
+  {
+    id: "gate-f10",
+    name: "It's A Boy Blue & White Welcome Gate",
+    description: "A sky blue and white spiral balloon arch across the main door with 'It's A Boy' feeding bottle and 'Baby Boy' round foils — a sweet homecoming welcome for the newborn.",
+    image: gateF10.url,
+    includes: ["Blue & white spiral balloon arch", "'It's A Boy' & 'Baby Boy' foil balloons", "Full main-door span", "Home installation included"],
+    rating: 4.8, reviews: 195, offer: "₹2,199", original: "₹3,499", discountPct: 37, bestSeller: false,
+  },
+];
+
 const GALLERY = [
+  gateF1.url,
+  gateF2.url,
+  gateF3.url,
+  gateF4.url,
+  gateF5.url,
+  gateF6.url,
+  gateF7.url,
+  gateF8.url,
+  gateF9.url,
+  gateF10.url,
   gateE1.url,
   gateE2.url,
   gateE3.url,
@@ -551,7 +654,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Entrance Gate Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D, ...BATCH_E].map((p) => (
+          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
