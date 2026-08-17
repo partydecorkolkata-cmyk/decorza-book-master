@@ -48,6 +48,16 @@ import gateE7 from "@/assets/gate-e7.jpeg.asset.json";
 import gateE8 from "@/assets/gate-e8.jpeg.asset.json";
 import gateE9 from "@/assets/gate-e9.jpeg.asset.json";
 import gateE10 from "@/assets/gate-e10.jpeg.asset.json";
+import gateG1 from "@/assets/gate-g1.jpg.asset.json";
+import gateG2 from "@/assets/gate-g2.jpg.asset.json";
+import gateG3 from "@/assets/gate-g3.jpg.asset.json";
+import gateG4 from "@/assets/gate-g4.jpg.asset.json";
+import gateG5 from "@/assets/gate-g5.jpg.asset.json";
+import gateG6 from "@/assets/gate-g6.jpg.asset.json";
+import gateG7 from "@/assets/gate-g7.jpg.asset.json";
+import gateG8 from "@/assets/gate-g8.jpg.asset.json";
+import gateG9 from "@/assets/gate-g9.jpg.asset.json";
+import gateG10 from "@/assets/gate-g10.jpg.asset.json";
 import gateF1 from "@/assets/gate-f1.jpg.asset.json";
 import gateF2 from "@/assets/gate-f2.jpg.asset.json";
 import gateF3 from "@/assets/gate-f3.jpg.asset.json";
@@ -748,7 +758,7 @@ function ServicePage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Packages" title="Entrance Gate Decoration Packages" subtitle="Pick from Essential, Premium and Luxury — or customise on WhatsApp." />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F].map((p) => (
+          {[...CARDS, ...BATCH_B, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F, ...BATCH_G].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
