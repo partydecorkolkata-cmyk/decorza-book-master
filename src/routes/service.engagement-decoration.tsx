@@ -8,6 +8,145 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import engN1 from "@/assets/eng-n1.jpg.asset.json";
+import engN2 from "@/assets/eng-n2.png.asset.json";
+import engN3 from "@/assets/eng-n3.png.asset.json";
+import engN4 from "@/assets/eng-n4.png.asset.json";
+import engN5 from "@/assets/eng-n5.jpg.asset.json";
+import engN6 from "@/assets/eng-n6.jpg.asset.json";
+import engN7 from "@/assets/eng-n7.jpg.asset.json";
+import engN8 from "@/assets/eng-n8.jpg.asset.json";
+import engN9 from "@/assets/eng-n9.jpg.asset.json";
+import engN10 from "@/assets/eng-n10.jpg.asset.json";
+
+const NEW_CARDS = [
+  {
+    id: "engagement-maroon-neon-drape",
+    name: "Better Together Maroon Drape Engagement Decor",
+    description:
+      "A maroon and ivory drape backdrop crowned with a red-and-white rose garland, a glowing 'Better Together' neon sign, matching floral corner bouquets and a draped ring ceremony table.",
+    image: engN4.url,
+    includes: [
+      "Maroon & ivory pleated drape backdrop",
+      "Red and white rose garland with greenery",
+      "'Better Together' neon sign",
+      "Floral corner stands & draped ceremony table",
+    ],
+    rating: 4.9,
+    reviews: 214,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-pastel-round-board",
+    name: "Pastel Cloud Round Board Engagement Decor",
+    description:
+      "A custom printed round board with the couple's names in pastel cloud art, framed by tropical greenery and cream-blush flower clusters with tall floral pillar stands on both sides.",
+    image: engN5.url,
+    includes: [
+      "Custom printed round name board",
+      "Tropical leaf & blush rose floral frame",
+      "4 tall metal floral pillar stands",
+      "Warm backlight setup",
+    ],
+    rating: 4.9,
+    reviews: 168,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-white-floral-hoop-stage",
+    name: "White Floral Hoop Engagement Stage",
+    description:
+      "A classic white curtain stage with a full white chrysanthemum and rose hoop arch, hanging pendant bulbs and matching white floral corner clusters with urn arrangements.",
+    image: engN6.url,
+    includes: [
+      "White pleated curtain backdrop",
+      "White flower hoop arch with hanging bulbs",
+      "Corner floral clusters & pedestal urns",
+      "Floral pillar stands with greenery",
+    ],
+    rating: 4.8,
+    reviews: 193,
+    offer: "₹11,999",
+    original: "₹19,999",
+    discountPct: 40,
+  },
+  {
+    id: "engagement-rustic-neon-floral-frame",
+    name: "Rustic Neon Floral Frame Engagement Decor",
+    description:
+      "A rustic wooden frame wrapped in pink, lilac and white roses with baby's breath, hanging rope edison bulbs and a 'Better Together' neon sign — perfect for compact home engagements.",
+    image: engN7.url,
+    includes: [
+      "Rustic wooden frame structure",
+      "Pink, lilac & white rose floral runners",
+      "Hanging rope edison bulbs",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 142,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-grand-greenery-hoop-stage",
+    name: "Grand Greenery Hoop Banquet Engagement Stage",
+    description:
+      "A grand banquet stage with white fairy-light drapes, twin greenery hoop arches, hanging ring lanterns, a white rose crown and rows of golden candle pillars along the stage.",
+    image: engN8.url,
+    includes: [
+      "Full-width fairy light drape backdrop",
+      "Twin greenery hoop arches with white roses",
+      "Hanging ring lanterns with edison bulbs",
+      "Golden candle pillar rows & stage skirting",
+    ],
+    rating: 4.9,
+    reviews: 231,
+    offer: "₹19,999",
+    original: "₹29,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-blush-circle-drape",
+    name: "Blush Circle Drape Engagement Backdrop",
+    description:
+      "A gold circular ring backdrop with cascading blush, mauve and white roses, soft white cross drapes, fairy lights and a 'Better Together' neon sign over a pleated curtain wall.",
+    image: engN9.url,
+    includes: [
+      "Pleated white curtain wall with fairy lights",
+      "Gold circular ring with blush floral cascade",
+      "Soft white cross drape styling",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹7,499",
+    original: "₹11,999",
+    discountPct: 38,
+  },
+  {
+    id: "engagement-vibrant-floral-ring",
+    name: "Vibrant Floral Ring Engagement Decor",
+    description:
+      "A bright ring backdrop covered in magenta, peach and white blossoms with trailing greenery, a soft cream drape centre, fairy lights and matching floor flower pots.",
+    image: engN10.url,
+    includes: [
+      "Ring backdrop with magenta & peach florals",
+      "Cream centre drape with fairy lights",
+      "Matching floor floral pots",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.7,
+    reviews: 158,
+    offer: "₹7,499",
+    original: "₹11,999",
+    discountPct: 38,
+  },
+];
 
 export const Route = createFileRoute("/service/engagement-decoration")({
   loader: () => {
