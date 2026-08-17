@@ -229,16 +229,31 @@ function ServicePage() {
           <StaticPackageCard
             id="engagement-decoration-luxury"
             name="Luxury Engagement Decoration"
-            description="A full luxury engagement decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.800000000000001}
+            description="A grand banquet-style engagement stage with a full white shimmer drape wall, triple gold ring arches, pastel yellow swag drapes and lavish pink-and-white rose installations with floor floral vases."
+            image={engN3.url}
+            includes={["Full-width white shimmer drape wall","Triple gold ring arch structure","Pastel yellow swag drapes with fairy lights","Lavish pink & white rose installations","Floor floral vases and stage carpet"]}
+            rating={4.9}
             reviews={460}
-            offer={<>₹12,999</>}
-            original={<>₹18,999</>}
-            discountPct={32}
-            bestSeller={false}
+            offer={<>₹14,999</>}
+            original={<>₹24,999</>}
+            discountPct={40}
+            bestSeller
           />
+          {NEW_CARDS.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>{p.offer}</>}
+              original={<>{p.original}</>}
+              discountPct={p.discountPct}
+            />
+          ))}
         </div>
       </section>
 
