@@ -203,27 +203,27 @@ function ServicePage() {
           <StaticPackageCard
             id="engagement-decoration-essential"
             name="Essential Engagement Decoration"
-            description="A clean, photo-ready engagement decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/bd0376ae-9b5b-4709-b15a-e12b400d023d.png"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.800000000000001}
+            description="A soft white engagement setup with a fairy-light curtain wall, a gold circular ring draped in flowing white cloth and pastel rose clusters on both corners — elegant and photo-ready."
+            image={engN1.url}
+            includes={["White fairy-light curtain backdrop","Gold ring with flowing white drape","Pastel rose & greenery clusters","Warm ambient lighting"]}
+            rating={4.8}
             reviews={197}
-            offer={<>₹6,999</>}
-            original={<>₹10,499</>}
-            discountPct={33}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
             id="engagement-decoration-premium"
             name="Premium Engagement Decoration"
-            description="An upgraded engagement decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            description="A maroon and ivory drape backdrop with a red-and-white rose crown, glowing 'Better Together' neon sign, floral side clusters and a draped ring ceremony table."
+            image={engN2.url}
+            includes={["Maroon & ivory drape backdrop","Red and white rose crown garland","'Better Together' neon sign","Draped ring ceremony table & floral stand"]}
             rating={4.9}
             reviews={276}
-            offer={<>₹7,999</>}
-            original={<>₹12,500</>}
-            discountPct={36}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
