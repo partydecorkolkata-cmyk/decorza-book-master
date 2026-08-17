@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
 
 function HomePage() {
   const wa = waLink(waBookingMessage({}));
-  const popularCats = CATEGORIES.filter((c) => c.popular).slice(0, 12);
+  const popularCats = CATEGORIES;
 
   return (
     <>
@@ -133,9 +133,9 @@ function HomePage() {
       {/* POPULAR CATEGORIES */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader
-          eyebrow="Popular Categories"
-          title="Find the Perfect Decoration"
-          subtitle="From intimate surprises to grand celebrations — curated, premium, and conversion-tested."
+          eyebrow="All Categories"
+          title="Explore Every Decoration Category"
+          subtitle="From intimate surprises to grand celebrations — browse all our decoration services."
         />
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {popularCats.map((c) => <CategoryCard key={c.slug} c={c} />)}
