@@ -28,6 +28,199 @@ import engO7 from "@/assets/eng-o7.jpg.asset.json";
 import engO8 from "@/assets/eng-o8.jpg.asset.json";
 import engO9 from "@/assets/eng-o9.jpg.asset.json";
 import engO10 from "@/assets/eng-o10.jpg.asset.json";
+import engP1 from "@/assets/eng-p1.jpg.asset.json";
+import engP2 from "@/assets/eng-p2.jpg.asset.json";
+import engP3 from "@/assets/eng-p3.jpg.asset.json";
+import engP4 from "@/assets/eng-p4.jpg.asset.json";
+import engP5 from "@/assets/eng-p5.jpg.asset.json";
+import engP6 from "@/assets/eng-p6.jpg.asset.json";
+import engP7 from "@/assets/eng-p7.jpg.asset.json";
+import engP8 from "@/assets/eng-p8.jpg.asset.json";
+import engP9 from "@/assets/eng-p9.jpg.asset.json";
+import engP10 from "@/assets/eng-p10.jpg.asset.json";
+
+const BATCH_P = [
+  {
+    id: "engagement-shimmer-curtain-rose-frame",
+    name: "Shimmer Curtain Rose Frame Engagement Decor",
+    description:
+      "A shimmering white curtain centre framed by a bold L-shaped garland of pink, magenta and white roses, a glowing 'Better Together' neon heart sign and twin pink rose bouquets on tall gold stands.",
+    image: engP1.url,
+    includes: [
+      "White shimmer fairy-light curtain backdrop",
+      "Pink, magenta & white rose frame garland",
+      "'Better Together' neon heart sign",
+      "Twin rose bouquets on tall gold stands",
+    ],
+    rating: 4.9,
+    reviews: 212,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-fairy-drape-floral-arch",
+    name: "Fairy Drape Floral Arch Engagement Setup",
+    description:
+      "An ivory fairy-light drape wall with a soft white swag canopy, a curved arch of pink carnations, roses and greenery on both sides and a bright 'Better Together' neon sign at the centre.",
+    image: engP2.url,
+    includes: [
+      "Ivory fairy-light drape wall",
+      "White swag canopy drape",
+      "Pink carnation & rose curved arch",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 174,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-pink-lily-doorway-arch",
+    name: "Pink Lily Doorway Engagement Entrance",
+    description:
+      "A welcoming doorway dressed with a lush pink lily, hydrangea and rose corner garland, flowing white satin drapes and a sequin tie-back — ideal for home roka and engagement entrances.",
+    image: engP3.url,
+    includes: [
+      "Pink lily, hydrangea & rose door garland",
+      "Flowing white satin side drapes",
+      "Sequin drape tie-back styling",
+      "Floral corner cluster detailing",
+    ],
+    rating: 4.7,
+    reviews: 131,
+    offer: "₹4,999",
+    original: "₹7,999",
+    discountPct: 38,
+  },
+  {
+    id: "engagement-powder-blue-ring-arch",
+    name: "Powder Blue Ring Arch Engagement Decor",
+    description:
+      "A dreamy gold ring arch with powder-blue tulle drapes over a twinkling fairy-light wall, dressed with blue hydrangea and white rose clusters, fern greenery and tall taper candle stands.",
+    image: engP4.url,
+    includes: [
+      "Fairy-light curtain wall with blue tulle drapes",
+      "Gold ring arch structure",
+      "Blue hydrangea & white rose clusters",
+      "Tall taper candle stands & floor florals",
+    ],
+    rating: 4.9,
+    reviews: 205,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-pampas-ring-better-together",
+    name: "Pampas Ring Better Together Engagement Backdrop",
+    description:
+      "A golden shimmer fringe curtain wall with a large metal ring wrapped in blush and ivory hydrangeas, dried pampas plumes and greenery, lit with warm fairy lights and a 'Better Together' neon.",
+    image: engP5.url,
+    includes: [
+      "Golden shimmer fringe curtain wall",
+      "Ring arch with blush & ivory hydrangea",
+      "Dried pampas plume styling",
+      "'Better Together' neon sign with fairy lights",
+    ],
+    rating: 4.8,
+    reviews: 189,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-traditional-tassel-floral-top",
+    name: "Traditional Tassel Floral Top Engagement Decor",
+    description:
+      "A traditional ruffled drape backdrop in pink and cream with a thick top garland of marigold-style blooms and roses, hanging bead-and-bell tassel strings and colourful uplighting.",
+    image: engP6.url,
+    includes: [
+      "Pink & cream ruffled drape backdrop",
+      "Thick mixed floral top garland",
+      "Hanging bead & bell tassel strings",
+      "Coloured uplights with fairy lighting",
+    ],
+    rating: 4.8,
+    reviews: 167,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-double-arch-chandelier-stage",
+    name: "Double Arch Chandelier Engagement Stage",
+    description:
+      "A grand cream pleated stage wall with twin floral arches of white and pink roses, crystal chandeliers, a golden candelabra row and lush floral floor beds across the platform.",
+    image: engP7.url,
+    includes: [
+      "Full-width cream pleated stage wall",
+      "Twin white & pink rose floral arches",
+      "Crystal chandeliers with hanging centrepiece",
+      "Golden candelabra row & floral floor beds",
+    ],
+    rating: 4.9,
+    reviews: 268,
+    offer: "₹24,999",
+    original: "₹29,999",
+    discountPct: 17,
+  },
+  {
+    id: "engagement-outdoor-vow-entrance-arch",
+    name: "Outdoor Vow Entrance Engagement Arch",
+    description:
+      "An open-air entrance arch with cream pole drapes, tied white curtains and a top garland of pink and white roses with palm and greenery, styled with a welcome sign and pampas floor florals.",
+    image: engP8.url,
+    includes: [
+      "Cream draped entrance arch structure",
+      "Pink & white rose top garland with palms",
+      "Tied white curtain swags",
+      "Welcome signage styling with floor florals",
+    ],
+    rating: 4.8,
+    reviews: 146,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-ivory-white-rose-minimal",
+    name: "Ivory White Rose Minimal Engagement Backdrop",
+    description:
+      "A soft ivory pleated drape wall with a corner cascade of white roses and green foliage, a delicate 'Better Together' neon sign and twin gold frame stands with floral accents.",
+    image: engP9.url,
+    includes: [
+      "Ivory pleated drape wall with centre swag",
+      "White rose & foliage corner cascade",
+      "'Better Together' neon sign",
+      "Twin gold frame stands with floral accents",
+    ],
+    rating: 4.9,
+    reviews: 201,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-peach-drape-rose-border",
+    name: "Peach Drape Rose Border Engagement Backdrop",
+    description:
+      "A lilac and peach double drape backdrop with a full top border of peach, pink and ivory roses, a matching side rose column, hanging fairy lights and a golden 'Better Together' neon.",
+    image: engP10.url,
+    includes: [
+      "Lilac & peach double drape backdrop",
+      "Full rose top border with side column",
+      "Hanging fairy light strings",
+      "Golden 'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 183,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+];
 
 const BATCH_O = [
   {
