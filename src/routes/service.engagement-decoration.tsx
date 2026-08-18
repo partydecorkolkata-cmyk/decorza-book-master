@@ -18,6 +18,202 @@ import engN7 from "@/assets/eng-n7.jpg.asset.json";
 import engN8 from "@/assets/eng-n8.jpg.asset.json";
 import engN9 from "@/assets/eng-n9.jpg.asset.json";
 import engN10 from "@/assets/eng-n10.jpg.asset.json";
+import engO1 from "@/assets/eng-o1.jpg.asset.json";
+import engO2 from "@/assets/eng-o2.jpg.asset.json";
+import engO3 from "@/assets/eng-o3.jpg.asset.json";
+import engO4 from "@/assets/eng-o4.jpg.asset.json";
+import engO5 from "@/assets/eng-o5.jpg.asset.json";
+import engO6 from "@/assets/eng-o6.jpg.asset.json";
+import engO7 from "@/assets/eng-o7.jpg.asset.json";
+import engO8 from "@/assets/eng-o8.jpg.asset.json";
+import engO9 from "@/assets/eng-o9.jpg.asset.json";
+import engO10 from "@/assets/eng-o10.jpg.asset.json";
+
+const BATCH_O = [
+  {
+    id: "engagement-forever-always-pampas-ring",
+    name: "Forever & Always Pampas Ring Engagement Decor",
+    description:
+      "A soft ivory fairy-light curtain wall with a metal ring arch dressed in blush, mauve and white roses, dried pampas and palm fans, glowing 'Forever and Always' neon and golden candle pillars with cherry-blossom stands.",
+    image: engO1.url,
+    includes: [
+      "Ivory fairy-light curtain backdrop",
+      "Ring arch with blush & white rose clusters",
+      "Dried pampas and palm leaf styling",
+      "'Forever and Always' neon sign",
+      "Golden candle pillars & cherry blossom stands",
+    ],
+    rating: 4.9,
+    reviews: 221,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-purple-velvet-better-together",
+    name: "Purple Velvet Better Together Engagement Backdrop",
+    description:
+      "Rich purple velvet side curtains framing a cream drape centre, with a floral crescent of peach, lilac and white roses, a golden fan drape and a warm 'Better Together' neon sign.",
+    image: engO2.url,
+    includes: [
+      "Purple velvet side curtains with cream centre drape",
+      "Peach, lilac & white rose crescent garland",
+      "Golden fan drape styling",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 176,
+    offer: "₹8,499",
+    original: "₹13,999",
+    discountPct: 39,
+  },
+  {
+    id: "engagement-blush-cross-drape-rose-canopy",
+    name: "Blush Cross Drape Rose Canopy Engagement Stage",
+    description:
+      "A blush-pink cross drape backdrop over ivory curtains, topped with a full canopy of cream and pink roses with eucalyptus, fairy lights and matching floral urns on gold pedestals.",
+    image: engO3.url,
+    includes: [
+      "Ivory curtain wall with blush cross drapes",
+      "Full rose & eucalyptus top canopy",
+      "Twin floral urns on gold pedestal stands",
+      "Warm fairy light layering",
+    ],
+    rating: 4.9,
+    reviews: 198,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-pink-drape-lily-corner-arch",
+    name: "Pink Drape Lily Corner Engagement Arch",
+    description:
+      "A shimmering white fairy-light backdrop with a bold pink side drape and an L-shaped garland of pink roses, white daisies and baby's breath, finished with fresh lily vases on the floor.",
+    image: engO4.url,
+    includes: [
+      "White fairy-light shimmer backdrop",
+      "Pink drape swag with floral tie-back",
+      "L-shaped rose, daisy & baby's breath garland",
+      "Fresh lily floor vases",
+    ],
+    rating: 4.8,
+    reviews: 164,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-round-ring-pink-cascade",
+    name: "Round Ring Pink Cascade Engagement Backdrop",
+    description:
+      "A white pleated curtain wall studded with warm lights, centred on a round ring wrapped in vibrant pink roses and trailing greenery, with a soft white centre drape and 'Better Together' neon.",
+    image: engO5.url,
+    includes: [
+      "White pleated curtain wall with warm bulbs",
+      "Round ring with pink rose & vine cascade",
+      "Soft white centre drape",
+      "'Better Together' neon sign",
+    ],
+    rating: 4.8,
+    reviews: 187,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-baat-pakki-floral-frame",
+    name: "Baat Pakki Floral Frame Engagement Decor",
+    description:
+      "A traditional roka-style setup with a white fairy-light curtain, pink side drape and a thick mixed rose garland frame, crowned by a glittering gold 'Baat Pakki' ring cutout and floor flower vases.",
+    image: engO6.url,
+    includes: [
+      "White fairy-light curtain with pink drape",
+      "Mixed pink, white & blue rose frame garland",
+      "Gold glitter 'Baat Pakki' ring cutout",
+      "Floral floor vases both sides",
+    ],
+    rating: 4.9,
+    reviews: 209,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-grand-banquet-tropical-stage",
+    name: "Grand Banquet Tropical Green Engagement Stage",
+    description:
+      "A full banquet stage with a white shimmer drape wall, a lush tropical palm and white rose top garland, hanging edison bulbs, custom couple name neon, golden candle towers and a printed aisle runner with floral pedestals.",
+    image: engO7.url,
+    includes: [
+      "Full-width white shimmer drape stage wall",
+      "Tropical palm & white rose top garland",
+      "Custom couple name neon with hanging bulbs",
+      "Golden candle tower rows",
+      "Printed aisle runner with floral pedestals",
+    ],
+    rating: 4.9,
+    reviews: 288,
+    offer: "₹24,999",
+    original: "₹34,999",
+    discountPct: 29,
+  },
+  {
+    id: "engagement-white-rose-entrance-canopy",
+    name: "White Rose Entrance Canopy Engagement Decor",
+    description:
+      "A grand venue entrance dressed in white roses and mixed greenery with flowing white drapes, a crystal chandelier at the centre and matching welcome-sign floral styling.",
+    image: engO8.url,
+    includes: [
+      "White rose & greenery entrance garland",
+      "Flowing white side drapes with tie-backs",
+      "Crystal chandelier at entry centre",
+      "Floral welcome signage styling",
+    ],
+    rating: 4.8,
+    reviews: 152,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
+  },
+  {
+    id: "engagement-outdoor-mauve-chandelier",
+    name: "Outdoor Mauve Chandelier Engagement Setup",
+    description:
+      "A dreamy open-air setup with an ivory fairy-light drape wall, mauve side curtain, an L-shaped blush rose garland, a glowing crystal chandelier, 'Better Together' neon and gold pillar stands with lanterns on a lace floor rug.",
+    image: engO9.url,
+    includes: [
+      "Ivory fairy-light drape wall with mauve curtain",
+      "L-shaped blush rose garland",
+      "Hanging crystal chandelier",
+      "'Better Together' neon sign",
+      "Gold pillar stands, lanterns & lace floor rug",
+    ],
+    rating: 4.9,
+    reviews: 243,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-ivory-peach-corner-arch",
+    name: "Ivory & Peach Corner Arch Engagement Decor",
+    description:
+      "A clean ivory curtain backdrop with a dusty-pink side drape and an L-shaped garland of white roses, peach carnations and fresh greenery — simple, bright and perfect for compact venues.",
+    image: engO10.url,
+    includes: [
+      "Ivory pleated curtain backdrop",
+      "Dusty pink side drape with floral tie-back",
+      "White rose & peach carnation L-garland",
+      "Greenery detailing with floral stand",
+    ],
+    rating: 4.7,
+    reviews: 138,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+];
 
 const NEW_CARDS = [
   {
@@ -239,7 +435,7 @@ function ServicePage() {
             discountPct={40}
             bestSeller
           />
-          {NEW_CARDS.map((p) => (
+          {[...NEW_CARDS, ...BATCH_O].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -270,6 +466,9 @@ function ServicePage() {
             <img src="/e91b4943-ba81-4542-aefe-adaf303d70b5.png" alt="Engagement Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg" alt="Engagement Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/96ca5637-e2c0-441b-9518-18461f2248e7.jpg" alt="Engagement Decoration 9" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10].map((a, i) => (
+              <img key={a.url} src={a.url} alt={`Engagement Decoration ${i + 10}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-secondary/50 object-contain transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
