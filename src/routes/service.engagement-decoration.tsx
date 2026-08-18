@@ -628,7 +628,7 @@ function ServicePage() {
             discountPct={40}
             bestSeller
           />
-          {[...NEW_CARDS, ...BATCH_O].map((p) => (
+          {[...NEW_CARDS, ...BATCH_O, ...BATCH_P].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -659,7 +659,7 @@ function ServicePage() {
             <img src="/e91b4943-ba81-4542-aefe-adaf303d70b5.png" alt="Engagement Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg" alt="Engagement Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/96ca5637-e2c0-441b-9518-18461f2248e7.jpg" alt="Engagement Decoration 9" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10].map((a, i) => (
+            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10, engP1, engP2, engP3, engP4, engP5, engP6, engP7, engP8, engP9, engP10].map((a, i) => (
               <img key={a.url} src={a.url} alt={`Engagement Decoration ${i + 10}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-secondary/50 object-contain transition-transform hover:scale-[1.02]" />
             ))}
           </div>
