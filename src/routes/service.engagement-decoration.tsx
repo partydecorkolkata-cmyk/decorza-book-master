@@ -38,6 +38,208 @@ import engP7 from "@/assets/eng-p7.jpg.asset.json";
 import engP8 from "@/assets/eng-p8.jpg.asset.json";
 import engP9 from "@/assets/eng-p9.jpg.asset.json";
 import engP10 from "@/assets/eng-p10.jpg.asset.json";
+import engQ1 from "@/assets/eng-q1.jpg.asset.json";
+import engQ2 from "@/assets/eng-q2.jpg.asset.json";
+import engQ3 from "@/assets/eng-q3.jpg.asset.json";
+import engQ4 from "@/assets/eng-q4.jpg.asset.json";
+import engQ5 from "@/assets/eng-q5.jpg.asset.json";
+import engQ6 from "@/assets/eng-q6.jpg.asset.json";
+import engQ7 from "@/assets/eng-q7.jpg.asset.json";
+import engQ8 from "@/assets/eng-q8.jpg.asset.json";
+import engQ9 from "@/assets/eng-q9.jpg.asset.json";
+import engQ10 from "@/assets/eng-q10.jpg.asset.json";
+
+const BATCH_Q = [
+  {
+    id: "engagement-we-decided-on-forever-outdoor",
+    name: "We Decided On Forever Outdoor Engagement Stage",
+    description:
+      "An open-air stage with a fairy-light shimmer wall, a pastel floral arch of blush roses, hydrangeas and dried palm leaves, a cursive 'We Decided On Forever' neon sign and tall gold floral stands on either side.",
+    image: engQ1.url,
+    includes: [
+      "Fairy-light shimmer backdrop wall",
+      "Blush rose, hydrangea & dried palm arch",
+      "'We Decided On Forever' cursive neon sign",
+      "Tall gold pedestal floral arrangements",
+      "Fur rug flooring & stage lighting",
+    ],
+    rating: 4.9,
+    reviews: 238,
+    offer: "₹14,999",
+    original: "₹24,999",
+    discountPct: 40,
+  },
+  {
+    id: "engagement-better-together-blush-indoor",
+    name: "Better Together Blush Indoor Engagement Decor",
+    description:
+      "A criss-cross white drape wall lit with warm fairy lights, twin corner clusters of blush and ivory roses cascading down, a golden 'Better Together' neon sign and a dainty white centre table.",
+    image: engQ2.url,
+    includes: [
+      "Criss-cross white drape & fairy-light wall",
+      "Blush and ivory rose corner cascades",
+      "'Better Together' warm neon sign",
+      "White round centre table styling",
+      "Chrome balloon ceiling cluster",
+    ],
+    rating: 4.9,
+    reviews: 196,
+    offer: "₹14,999",
+    original: "₹24,999",
+    discountPct: 40,
+  },
+  {
+    id: "engagement-pink-lily-drape-corner",
+    name: "Pink Lily Drape Corner Engagement Backdrop",
+    description:
+      "A luminous fairy-light curtain with a soft pink chiffon swag across the centre and lush corner clusters of pink lilies, roses, white hydrangeas and trailing eucalyptus on gold frames.",
+    image: engQ3.url,
+    includes: [
+      "Fairy-light curtain backdrop",
+      "Pink chiffon swag drape",
+      "Lily, rose & hydrangea corner clusters",
+      "Gold frame stands with trailing greenery",
+    ],
+    rating: 4.8,
+    reviews: 164,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-gold-ring-white-canopy",
+    name: "Gold Ring White Canopy Engagement Setup",
+    description:
+      "A gold circular ring backdrop with a soft white canopy drape falling from the top, framed by pink and white rose garlands on both curves against a glittering fairy-light curtain wall.",
+    image: engQ4.url,
+    includes: [
+      "Gold circular ring frame backdrop",
+      "White canopy drape from ring top",
+      "Pink & white rose garlands on both curves",
+      "Full-width fairy-light curtain wall",
+    ],
+    rating: 4.8,
+    reviews: 152,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-grand-white-gold-candle-stage",
+    name: "Grand White & Gold Candle Engagement Stage",
+    description:
+      "A grand banquet setup with pleated white drapes, tall gold frames wrapped in white roses and eucalyptus, a 'Better Together' neon sign at the centre and glowing candle pillars lining the entire stage.",
+    image: engQ5.url,
+    includes: [
+      "Pleated white drape backdrop wall",
+      "Tall gold frames with white rose garlands",
+      "'Better Together' neon sign",
+      "Candle pillar towers along the stage",
+      "Floor candle cluster styling",
+    ],
+    rating: 5,
+    reviews: 274,
+    offer: "₹21,999",
+    original: "₹29,999",
+    discountPct: 27,
+  },
+  {
+    id: "engagement-just-engaged-lilac-ring",
+    name: "Just Engaged Lilac Ring Engagement Decor",
+    description:
+      "A gold ring backdrop with a dramatic white net drape fanning across the centre, lilac and white floral clusters on the curves, a 'Just Engaged' cut-out sign and golden curtain lights glowing behind.",
+    image: engQ6.url,
+    includes: [
+      "Gold ring frame with fanned net drape",
+      "Lilac & white floral clusters",
+      "'Just Engaged' cut-out signage",
+      "Golden curtain light backdrop",
+      "Small floral pedestal table",
+    ],
+    rating: 4.8,
+    reviews: 178,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-pink-drape-rose-ring-lawn",
+    name: "Pink Drape Rose Ring Lawn Engagement Backdrop",
+    description:
+      "A gold ring wrapped in a flowing pink chiffon drape, corner bunches of pink, peach and white roses with fresh green foliage, set against a warm fairy-light curtain wall on a lawn.",
+    image: engQ7.url,
+    includes: [
+      "Gold ring frame with pink chiffon drape",
+      "Pink, peach & white rose corner bunches",
+      "Warm fairy-light curtain wall",
+      "Lawn-ready setup with grounding stands",
+    ],
+    rating: 4.8,
+    reviews: 141,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-emerald-drape-white-rose-ring",
+    name: "Emerald Drape White Rose Ring Engagement Decor",
+    description:
+      "A gold ring backdrop styled with a rich emerald green swag drape, white roses, hydrangeas and eucalyptus clusters on the curves, finished with a candle lantern beside the ivory drape wall.",
+    image: engQ8.url,
+    includes: [
+      "Gold ring frame backdrop",
+      "Emerald green swag drape",
+      "White rose & hydrangea floral clusters",
+      "Ivory pleated drape wall",
+      "Gold candle lantern accent",
+    ],
+    rating: 4.9,
+    reviews: 167,
+    offer: "₹8,499",
+    original: "₹12,999",
+    discountPct: 35,
+  },
+  {
+    id: "engagement-red-white-rose-square-arch",
+    name: "Red & White Rose Square Arch Engagement Setup",
+    description:
+      "A classic square arch dressed in red and white roses with green foliage, a bold red velvet side drape sweeping down and a shimmering fairy-light curtain wall behind for a rich traditional look.",
+    image: engQ9.url,
+    includes: [
+      "Square arch with red & white rose garland",
+      "Red velvet side drape styling",
+      "Fairy-light curtain backdrop wall",
+      "Floor floral corner arrangements",
+      "White floor sheet setup",
+    ],
+    rating: 4.9,
+    reviews: 203,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-custom-name-blush-ring",
+    name: "Custom Name Blush Ring Engagement Backdrop",
+    description:
+      "A gold ring backdrop with a blush chiffon drape, personalised gold cut-out couple names, and abundant clusters of pink roses, white hydrangeas and baby's breath with cascading greenery.",
+    image: engQ10.url,
+    includes: [
+      "Gold ring frame with blush chiffon drape",
+      "Personalised gold couple-name cut-out",
+      "Pink rose, hydrangea & baby's breath clusters",
+      "Ivory pleated drape backdrop",
+      "White carpet floor styling",
+    ],
+    rating: 4.9,
+    reviews: 221,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+];
+
+
 
 const BATCH_P = [
   {
@@ -628,7 +830,7 @@ function ServicePage() {
             discountPct={40}
             bestSeller
           />
-          {[...NEW_CARDS, ...BATCH_O, ...BATCH_P].map((p) => (
+          {[...NEW_CARDS, ...BATCH_O, ...BATCH_P, ...BATCH_Q].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -659,7 +861,7 @@ function ServicePage() {
             <img src="/e91b4943-ba81-4542-aefe-adaf303d70b5.png" alt="Engagement Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg" alt="Engagement Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/96ca5637-e2c0-441b-9518-18461f2248e7.jpg" alt="Engagement Decoration 9" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10, engP1, engP2, engP3, engP4, engP5, engP6, engP7, engP8, engP9, engP10].map((a, i) => (
+            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10, engP1, engP2, engP3, engP4, engP5, engP6, engP7, engP8, engP9, engP10, engQ1, engQ2, engQ3, engQ4, engQ5, engQ6, engQ7, engQ8, engQ9, engQ10].map((a, i) => (
               <img key={a.url} src={a.url} alt={`Engagement Decoration ${i + 10}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-secondary/50 object-contain transition-transform hover:scale-[1.02]" />
             ))}
           </div>
