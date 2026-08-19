@@ -233,7 +233,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Rice Ceremony Decoration") },
   { slug: "engagement-decoration", name: "Engagement Decoration", short: "Elegant engagement stages & backdrops",
     description: "Premium engagement stage decor, ring exchange backdrops, floral arches and lounge seating arrangements.",
-    hero: img(STAGE_DECOR[0]), gallery: pick(STAGE_DECOR),
+    hero: "/__l5e/assets-v1/4ab93cb3-8df0-4378-a5d4-22dd921efee9/eng-r10.jpg", gallery: pick(STAGE_DECOR),
     rating: 4.9, reviews: 690, startsAt: 4999, popular: true,
     faqs: baseFaqs("Engagement Decoration") },
   { slug: "haldi-decoration", name: "Haldi Decoration", short: "Vibrant yellow haldi ceremony decor",
