@@ -48,6 +48,209 @@ import engQ7 from "@/assets/eng-q7.jpg.asset.json";
 import engQ8 from "@/assets/eng-q8.jpg.asset.json";
 import engQ9 from "@/assets/eng-q9.jpg.asset.json";
 import engQ10 from "@/assets/eng-q10.jpg.asset.json";
+import engR1 from "@/assets/eng-r1.jpg.asset.json";
+import engR2 from "@/assets/eng-r2.jpg.asset.json";
+import engR3 from "@/assets/eng-r3.jpg.asset.json";
+import engR4 from "@/assets/eng-r4.jpg.asset.json";
+import engR5 from "@/assets/eng-r5.jpg.asset.json";
+import engR6 from "@/assets/eng-r6.jpg.asset.json";
+import engR7 from "@/assets/eng-r7.jpg.asset.json";
+import engR8 from "@/assets/eng-r8.jpg.asset.json";
+import engR9 from "@/assets/eng-r9.jpg.asset.json";
+import engR10 from "@/assets/eng-r10.jpg.asset.json";
+
+const BATCH_R = [
+  {
+    id: "engagement-pastel-chandelier-criss-cross-stage",
+    name: "Pastel Chandelier Criss-Cross Engagement Stage",
+    description:
+      "A grand criss-cross drape stage in white, lilac and blue uplighting, crowned with a full-width ivory and peach rose valance and a glowing gold chandelier at the centre.",
+    image: engR1.url,
+    includes: [
+      "Criss-cross white & pastel drape backdrop",
+      "Full-width ivory and peach rose top valance",
+      "Hanging gold chandelier centrepiece",
+      "Lilac and blue mood uplighting",
+      "Twin white pedestal floral urns",
+    ],
+    rating: 4.9,
+    reviews: 274,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-fairy-light-name-arch-pink-white",
+    name: "Fairy-Light Name Arch Engagement Backdrop",
+    description:
+      "A softly lit white curtain wall packed with warm fairy lights, framed by a pink and ivory floral arch garland, personalised gold cut-out couple names and gold geometric floral stands.",
+    image: engR2.url,
+    includes: [
+      "White curtain wall with dense fairy lights",
+      "Pink & ivory floral arch garland",
+      "Personalised gold couple name cut-outs",
+      "Two gold geometric pedestal stands with florals",
+      "Soft white floor covering",
+    ],
+    rating: 4.9,
+    reviews: 221,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-better-together-pink-rose-arch",
+    name: "Better Together Pink Rose Arch Setup",
+    description:
+      "Twin cascading pink and white rose pillars curve into a soft arch around a blush chiffon drape, finished with a warm-glow 'Better Together' neon sign.",
+    image: engR3.url,
+    includes: [
+      "Twin cascading pink & white rose pillars",
+      "Blush chiffon centre drape",
+      "'Better Together' warm neon sign",
+      "Greenery and foliage detailing",
+      "Floor floral accents",
+    ],
+    rating: 4.8,
+    reviews: 196,
+    offer: "₹7,999",
+    original: "₹11,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-together-forever-square-floral-frame",
+    name: "Together Forever Square Floral Frame Decor",
+    description:
+      "A white drape backdrop with an L-shaped square frame of peach, lilac and ivory roses, a glowing 'Together Forever' neon sign and a rust-brown side drape with a floral tie-back.",
+    image: engR4.url,
+    includes: [
+      "White pleated drape backdrop",
+      "Square floral frame in peach, lilac & ivory",
+      "'Together Forever' neon sign",
+      "Rust side drape with floral tie-back",
+      "White floor sheet and corner floral pile",
+    ],
+    rating: 4.9,
+    reviews: 205,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-tropical-pink-rose-neon-stage",
+    name: "Tropical Pink Rose Neon Engagement Stage",
+    description:
+      "A lush arch of pink hydrangeas, roses and tropical palm leaves over a white drape wall, lit by a 'Better Together' neon sign with white pillar plinths and candelabras on both sides.",
+    image: engR5.url,
+    includes: [
+      "White drape wall with gold frame",
+      "Pink rose, hydrangea & palm leaf arch",
+      "'Better Together' neon sign",
+      "White pillar plinths with candelabras",
+      "Small white centre table with florals",
+    ],
+    rating: 4.9,
+    reviews: 248,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-luxury-champagne-blush-cascade",
+    name: "Luxury Champagne Blush Cascade Stage",
+    description:
+      "A champagne-gold shimmer drape wall with a dramatic blush and ivory rose cascade down one side, a dusty pink velvet curtain, gold wall sconce lighting and tall pillar candle stands.",
+    image: engR6.url,
+    includes: [
+      "Champagne-gold shimmer drape wall",
+      "Blush & ivory rose cascade installation",
+      "Dusty pink velvet side curtain",
+      "Gold candelabra wall lighting effect",
+      "Tall gold pillar candle stands",
+    ],
+    rating: 5.0,
+    reviews: 312,
+    offer: "₹14,999",
+    original: "₹19,999",
+    discountPct: 25,
+  },
+  {
+    id: "engagement-blush-peach-rose-fairy-curtain",
+    name: "Blush Peach Rose Fairy Curtain Backdrop",
+    description:
+      "A sheer fairy-light curtain framed by a peach drape swag and a rich rose garland of coral, blush and ivory blooms, with matching silver vase arrangements on the floor.",
+    image: engR7.url,
+    includes: [
+      "Sheer fairy-light curtain backdrop",
+      "Peach chiffon drape swag",
+      "Coral, blush & ivory rose garland arch",
+      "Silver vase floor floral arrangements",
+      "White floor sheet setup",
+    ],
+    rating: 4.8,
+    reviews: 178,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-white-tulle-swag-greenery-ring",
+    name: "White Tulle Swag & Greenery Ring Decor",
+    description:
+      "A pure white tulle backdrop with a sweeping centre swag, warm fairy lights behind, ivory rose and eucalyptus corner clusters and a gold circular name plaque at the centre.",
+    image: engR8.url,
+    includes: [
+      "White tulle drape wall with centre swag",
+      "Warm fairy-light curtain layer",
+      "Ivory rose & eucalyptus corner clusters",
+      "Gold circular customised name plaque",
+      "Full installation and dismantling",
+    ],
+    rating: 4.8,
+    reviews: 165,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-dusty-pink-chandelier-canopy",
+    name: "Dusty Pink Chandelier Canopy Engagement Decor",
+    description:
+      "A dreamy canopy of dusty pink chiffon swags over a white drape wall with a crystal chandelier, a blush rose corner cascade, pampas accents and rose-lined floor stands.",
+    image: engR9.url,
+    includes: [
+      "White drape wall with dusty pink chiffon swags",
+      "Crystal chandelier centrepiece",
+      "Blush rose corner cascade & pampas accents",
+      "Gold rose-topped floor stands",
+      "Warm ambient uplighting",
+    ],
+    rating: 4.9,
+    reviews: 231,
+    offer: "₹11,999",
+    original: "₹17,999",
+    discountPct: 33,
+  },
+  {
+    id: "engagement-engaged-gold-ring-grand-stage",
+    name: "Engaged Gold Ring Grand Engagement Stage",
+    description:
+      "Our signature stage: a giant gold ring wrapped in pastel roses against a shimmering fairy-light wall, an 'Engaged' neon sign, hanging edison bulbs, tall floral risers, a quote frame and a candle-lit floral floor runner.",
+    image: engR10.url,
+    includes: [
+      "Fairy-light shimmer curtain wall",
+      "Giant gold ring arch with pastel rose installation",
+      "'Engaged' neon sign & hanging edison bulbs",
+      "Tall gold floral riser stands",
+      "Candle-lit floral floor runner & quote frame",
+    ],
+    rating: 5.0,
+    reviews: 386,
+    offer: "₹19,999",
+    original: "₹29,999",
+    discountPct: 33,
+  },
+];
 
 const BATCH_Q = [
   {
