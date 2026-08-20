@@ -8,6 +8,101 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import haldiN1 from "@/assets/haldi-n1.jpg.asset.json";
+import haldiN2 from "@/assets/haldi-n2.png.asset.json";
+import haldiN3 from "@/assets/haldi-n3.jpg.asset.json";
+import haldiN4 from "@/assets/haldi-n4.jpg.asset.json";
+import haldiN5 from "@/assets/haldi-n5.jpg.asset.json";
+import haldiN6 from "@/assets/haldi-n6.jpg.asset.json";
+import haldiN7 from "@/assets/haldi-n7.jpg.asset.json";
+import haldiN8 from "@/assets/haldi-n8.jpg.asset.json";
+
+const NEW_PACKAGES = [
+  {
+    id: "haldi-decoration-royal-ring",
+    name: "Grand Marigold Ring Haldi Backdrop",
+    description:
+      "A grand outdoor haldi stage with a giant yellow floral ring, sheer white drapes, a pink-purple flower valance, hanging marigold strings with pearl tassels and a golden haldi urli in front.",
+    image: haldiN2.url,
+    includes: ["Giant yellow floral ring backdrop", "White sheer drapes with pink flower valance", "Hanging marigold strings & pearl tassels", "Golden urli with vases and haldi lettering"],
+    rating: 5,
+    reviews: 168,
+    original: 19999,
+    offer: 14999,
+  },
+  {
+    id: "haldi-decoration-grass-gate",
+    name: "Green Grass Haldi & Mehendi Gate",
+    description:
+      "A vibrant entrance-style setup with a green grass panel centre, yellow gota drapes, deep green pleated pillars, a lush red-orange floral top row and colourful tassels.",
+    image: haldiN3.url,
+    includes: ["Artificial grass centre panel with name cut-out", "Yellow drapes with green pleated pillars", "Red & orange floral top row", "Hanging tassels and floral corner stands"],
+    rating: 4.9,
+    reviews: 142,
+    original: 19999,
+    offer: 14999,
+  },
+  {
+    id: "haldi-decoration-dreamcatcher",
+    name: "Dreamcatcher Haldi Backdrop",
+    description:
+      "A soft white draped backdrop styled with handmade dreamcatchers, a sunflower and rose corner arrangement, one bold yellow drape swag and mustard cushions for the ceremony seating.",
+    image: haldiN4.url,
+    includes: ["White & yellow draped backdrop", "Handmade dreamcatcher hangings", "Sunflower and mixed rose corner florals", "Yellow drape seating with cushions"],
+    rating: 4.8,
+    reviews: 121,
+    original: 14999,
+    offer: 9999,
+  },
+  {
+    id: "haldi-decoration-pink-yellow-canopy",
+    name: "Pink & Yellow Genda Canopy Haldi",
+    description:
+      "An open-air haldi canopy in bright pink, yellow and ivory drapes with hanging marigold and mogra strings, a white-yellow rose top cluster and a haldi thali corner setup.",
+    image: haldiN5.url,
+    includes: ["Pink, yellow & ivory drape canopy", "Hanging marigold and mogra strings", "White-yellow rose top floral cluster", "Draped platform with printed cushions & haldi thali table"],
+    rating: 4.9,
+    reviews: 196,
+    original: 11999,
+    offer: 8499,
+  },
+  {
+    id: "haldi-decoration-sunflower-arch",
+    name: "Sunflower Fairy-Light Haldi Arch",
+    description:
+      "An indoor haldi corner with a full sunflower and white rose arch, shimmer gold and yellow curtains, delicate fairy-light strings and mogra hangings for a warm glow.",
+    image: haldiN6.url,
+    includes: ["Sunflower & white rose arch", "Gold shimmer and yellow curtain backdrop", "Warm fairy-light and mogra strings", "Draped platform with cushions"],
+    rating: 5,
+    reviews: 154,
+    original: 14999,
+    offer: 9999,
+  },
+  {
+    id: "haldi-decoration-umbrella-drape",
+    name: "Rajasthani Umbrella Haldi-Mehendi Wall",
+    description:
+      "A festive green and yellow net drape wall topped with mixed roses, decorated with embroidered Rajasthani umbrellas, haldi-mehendi name cut-outs, a bright rangoli disc and bell hangings.",
+    image: haldiN7.url,
+    includes: ["Green & yellow net drape wall", "Rose top row with hanging vines", "Embroidered Rajasthani umbrellas", "Haldi-Mehendi name cut-outs, rangoli disc & bell strings"],
+    rating: 4.8,
+    reviews: 133,
+    original: 14999,
+    offer: 9999,
+  },
+  {
+    id: "haldi-decoration-fiesta-stage",
+    name: "Marigold Fiesta Haldi Stage",
+    description:
+      "A colourful haldi stage with orange, pink and yellow drapes, dense hanging genda phool strings, a full rose top row, fairy-lit ivory backdrop and fun photo-prop signage.",
+    image: haldiN8.url,
+    includes: ["Orange, pink & yellow drape frame", "Dense hanging marigold strings", "Mixed rose top row with floral pillars", "Fairy-lit ivory backdrop, haldi props & fun signage"],
+    rating: 4.9,
+    reviews: 187,
+    original: 19999,
+    offer: 14999,
+  },
+];
 
 export const Route = createFileRoute("/service/haldi-decoration")({
   loader: () => {
@@ -17,7 +112,7 @@ export const Route = createFileRoute("/service/haldi-decoration")({
   },
   head: () => ({
     meta: [
-      { title: `Haldi Decoration in India | From ₹1,999 | Decorza Events` },
+      { title: `Haldi Decoration in India | From ₹4,999 | Decorza Events` },
       { name: "description", content: `Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function. Book on WhatsApp.` },
       { property: "og:title", content: `Haldi Decoration | Decorza Events` },
       { property: "og:image", content: "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg" },
