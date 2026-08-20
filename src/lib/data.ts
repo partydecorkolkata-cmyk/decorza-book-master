@@ -110,7 +110,7 @@ const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
   "birthday-decoration": 1499,
   "anniversary-decoration": 1499,
   "baby-shower-decoration": 1999,
-  "haldi-decoration": 1999,
+  "haldi-decoration": 4999,
   "bachelorette-decoration": 1999,
 };
 
@@ -120,7 +120,7 @@ const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number 
   "theme-birthday-decoration": [{ original: 9999, offer: 3499 }, { original: 12500, offer: 4999 }, { original: 34999, offer: 19999 }],
   "baby-shower-decoration": [{ original: 10499, offer: 2499 }, { original: 12500, offer: 5999 }, { original: 11999, offer: 7999 }],
   "engagement-decoration": [{ original: 10499, offer: 6999 }, { original: 12500, offer: 7999 }, { original: 18999, offer: 12999 }],
-  "haldi-decoration": [{ original: 9999, offer: 4999 }, { original: 11999, offer: 8500 }, { original: 9999, offer: 5999 }],
+  "haldi-decoration": [{ original: 7999, offer: 4999 }, { original: 14999, offer: 9999 }, { original: 14999, offer: 9999 }],
   "mehendi-decoration": [{ original: 9999, offer: 3999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
   "bachelorette-decoration": [{ original: 9999, offer: 8999 }, { original: 9999, offer: 7999 }, { original: 18999, offer: 12999 }],
 };
