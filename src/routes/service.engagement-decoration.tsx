@@ -953,7 +953,7 @@ export const Route = createFileRoute("/service/engagement-decoration")({
       { title: `Engagement Decoration in India | From ₹4,999 | Decorza Events` },
       { name: "description", content: `Premium engagement stage decor, ring exchange backdrops, floral arches and lounge seating arrangements. Book on WhatsApp.` },
       { property: "og:title", content: `Engagement Decoration | Decorza Events` },
-      { property: "og:image", content: "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png" },
+      { property: "og:image", content: engR10.url },
     ],
     links: [{ rel: "canonical", href: "/service/engagement-decoration" }],
   }),
@@ -970,7 +970,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/bd0376ae-9b5b-4709-b15a-e12b400d023d.png" alt="Engagement Decoration" className="h-full w-full object-cover" />
+          <img src={engR10.url} alt="Engagement Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -1033,7 +1033,7 @@ function ServicePage() {
             discountPct={40}
             bestSeller
           />
-          {[...NEW_CARDS, ...BATCH_O, ...BATCH_P, ...BATCH_Q].map((p) => (
+          {[...NEW_CARDS, ...BATCH_O, ...BATCH_P, ...BATCH_Q, ...BATCH_R].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -1064,7 +1064,7 @@ function ServicePage() {
             <img src="/e91b4943-ba81-4542-aefe-adaf303d70b5.png" alt="Engagement Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg" alt="Engagement Decoration 8" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/96ca5637-e2c0-441b-9518-18461f2248e7.jpg" alt="Engagement Decoration 9" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10, engP1, engP2, engP3, engP4, engP5, engP6, engP7, engP8, engP9, engP10, engQ1, engQ2, engQ3, engQ4, engQ5, engQ6, engQ7, engQ8, engQ9, engQ10].map((a, i) => (
+            {[engN1, engN2, engN3, engN4, engN5, engN6, engN7, engN8, engN9, engN10, engO1, engO2, engO3, engO4, engO5, engO6, engO7, engO8, engO9, engO10, engP1, engP2, engP3, engP4, engP5, engP6, engP7, engP8, engP9, engP10, engQ1, engQ2, engQ3, engQ4, engQ5, engQ6, engQ7, engQ8, engQ9, engQ10, engR1, engR2, engR3, engR4, engR5, engR6, engR7, engR8, engR9, engR10].map((a, i) => (
               <img key={a.url} src={a.url} alt={`Engagement Decoration ${i + 10}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-secondary/50 object-contain transition-transform hover:scale-[1.02]" />
             ))}
           </div>
