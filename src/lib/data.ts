@@ -4,6 +4,7 @@
 // baby shower backdrops, kids theme parties. No generic cakes, banquet
 // tables, abstract roses or stock food photos.
 import rbdR5 from "@/assets/rbd-r5.jpg.asset.json";
+import engR10 from "@/assets/eng-r10.jpg.asset.json";
 
 const img = (id: string, w = 1200) =>
   id.startsWith("/") || id.startsWith("http") ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
@@ -99,7 +100,7 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
   "anniversary-decoration": ["/745b9998-0fb1-4a81-a2cf-6f3870657562.jpg", "/9a913431-969c-4e55-998a-a7bba80c991b.webp", "/b0418de5-2b26-48c7-bb26-a32effdfe487.webp", "/f509339e-766d-4a5d-9ced-5167e8717f52.jpg", "/71f437ab-4685-46d6-a645-79a6d4757424.jpg", "/36260f0d-da30-4ba0-aa88-bac67d178bed.webp", "/4665153c-3e8b-4ba8-9a93-f357082df038.jpg", "/54013206-8c95-465c-a4ad-05daa25f6a56.jpg"],
   "theme-birthday-decoration": ["/6e61fd55-46fb-4711-b051-e933b22701bb.jpg", "/7e03dbe4-3334-458e-86b5-1a89a2631696.jpg", "/ff1d6103-d695-41a4-96af-b20031509e2a.webp", "/4d42c4f0-d677-46b7-b753-3a7931e097e5.jpg", "/48692914-e809-4527-a8d3-a55e5cb89842.webp", "/893cdd5d-ba31-485a-a0ca-fbe8d1990fc7.jpg"],
   "baby-shower-decoration": ["/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg", "/38135b41-25f2-4c2f-a08f-cac6575c3b12.jpg", "/6fec18e9-7b78-42b6-9764-cbb3037878e1.jpg", "/cefa309d-aa34-467c-aa1d-a6503bc509a8.webp", "/611a101e-21ad-44d4-b9df-2995798cd982.jpg", "/3e650746-51ce-4c70-bbab-c733c2f8b532.jpg", "/b3318de7-5a76-4dad-b0f6-4f752365071d.jpg"],
-  "engagement-decoration": ["/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
+  "engagement-decoration": [engR10.url, "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
   "haldi-decoration": ["/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg", "/haldi-ring-decoration.png", "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png", "/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/f0430936-2c24-4bc9-b390-1c2e533e7ec4.jpg", "/6774f332-8168-4bc0-bfa4-53c82b9ea5b1.jpg", "/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg", "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg", "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png"],
   "mehendi-decoration": ["/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
   "bachelorette-decoration": ["/__l5e/assets-v1/0b70ae51-cd5f-41f3-815e-265b7c5a2f0f/bach-cover.jpg", "/__l5e/assets-v1/079ea744-b96b-41cc-8f90-38897fb6dff8/bach-b1.jpg", "/__l5e/assets-v1/abc1c317-8be6-42c7-a597-2ad901f76a52/bach-b2.webp", "/__l5e/assets-v1/9cb79582-2368-49a8-9c63-2879254d613c/bach-b3.jpg"],
@@ -474,6 +475,13 @@ export const REVIEWS = [
   ["Kavya Nair", "Pune", "Romantic Bedroom Decoration", "Surprised my husband on our anniversary. The room looked like a fairytale.", 5],
   ["Ishita Sen", "Siliguri", "Welcome Baby Decoration", "Cradle decoration with name signage was beautiful. Got so many compliments.", 5],
   ["Vikram Singh", "Delhi", "Engagement Decoration", "Engagement decor was perfect as we expected and beautifully crafted by the team, Top class service. Highly recommended.", 5],
+  ["Ananya Sharma", "Mumbai", "Engagement Decoration", "The floral ring arch with the 'Better Together' neon looked exactly like a Pinterest board. Our engagement photos came out stunning.", 5],
+  ["Rohit Mehra", "Bengaluru", "Engagement Decoration", "Booked the grand gold ring stage at the last minute and the team delivered flawlessly. The fairy lights and rose cascade were breathtaking.", 5],
+  ["Priya Nair", "Hyderabad", "Engagement Decoration", "Loved the white tulle backdrop with our names in gold. Elegant, classy and totally worth the price. Guests kept asking for the vendor name.", 5],
+  ["Karan Khanna", "Pune", "Engagement Decoration", "The champagne shimmer wall with blush roses was beyond beautiful. Setup was on time and the team was super professional throughout.", 5],
+  ["Sneha Verma", "Kolkata", "Engagement Decoration", "We wanted a simple yet royal look and Decorza nailed it. The pastel drapes and floral valance made the stage look dreamy.", 5],
+  ["Amit Roy", "Chennai", "Engagement Decoration", "From the WhatsApp booking to the final cleanup, everything was smooth. The engagement stage looked like a luxury hotel setup.", 5],
+  ["Neha Gupta", "Delhi", "Engagement Decoration", "The dusty pink chiffon canopy with hanging bulbs created the perfect romantic vibe. Best decision for our engagement decor.", 5],
   ["Neha Kapoor", "Mumbai", "Bachelorette Decoration", "Neon signs and balloon cloud were Insta gold. Loved every minute.", 5],
   ["Arjun Das", "Kolkata", "Rice Ceremony Decoration", "Traditional yet modern. Our baby\u2019s annaprashan looked stunning.", 5],
   ["Riya Ghosh", "Kolkata", "Haldi Decoration", "Best decoration, highly professional team, haldi decoration was so beautifully crafted by them. Thank you.", 5],
