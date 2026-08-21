@@ -16,6 +16,141 @@ import haldiN5 from "@/assets/haldi-n5.jpg.asset.json";
 import haldiN6 from "@/assets/haldi-n6.jpg.asset.json";
 import haldiN7 from "@/assets/haldi-n7.jpg.asset.json";
 import haldiN8 from "@/assets/haldi-n8.jpg.asset.json";
+import haldiP1 from "@/assets/haldi-p1.jpg.asset.json";
+import haldiP2 from "@/assets/haldi-p2.jpg.asset.json";
+import haldiP3 from "@/assets/haldi-p3.jpg.asset.json";
+import haldiP4 from "@/assets/haldi-p4.jpg.asset.json";
+import haldiP5 from "@/assets/haldi-p5.jpg.asset.json";
+import haldiP6 from "@/assets/haldi-p6.jpg.asset.json";
+import haldiP7 from "@/assets/haldi-p7.jpg.asset.json";
+import haldiP8 from "@/assets/haldi-p8.jpg.asset.json";
+import haldiP9 from "@/assets/haldi-p9.jpg.asset.json";
+import haldiP10 from "@/assets/haldi-p10.jpg.asset.json";
+
+const BATCH_P = [
+  {
+    id: "haldi-decoration-p1",
+    name: "Golden Glow Haldi Ring Backdrop",
+    description:
+      "An indoor haldi corner with a yellow and ivory shimmer drape wall, a full yellow-white rose ring, warm fairy-light curtains, a glowing 'Haldi' neon and a carved yellow urli with a traditional low stool.",
+    image: haldiP1.url,
+    includes: ["Yellow & ivory shimmer drape wall", "Yellow-white rose ring arch with greens", "Fairy-light curtain layering", "Haldi neon sign", "Carved yellow urli styling"],
+    rating: 4.9,
+    reviews: 176,
+    original: 14999,
+    offer: 9999,
+  },
+  {
+    id: "haldi-decoration-p2",
+    name: "Sunflower Multicolour Haldi Stage",
+    description:
+      "A rich multicolour pleated drape wall in pink, green, orange and yellow with a heavy sunflower and rose top row, corner floral cascades, hanging rangoli discs with red tassels and a glowing 'Haldi' neon.",
+    image: haldiP2.url,
+    includes: ["Multicolour pleated drape wall", "Sunflower & rose top row with corner cascades", "Hanging rangoli discs and red tassels", "Fairy-light backlighting", "Haldi neon sign"],
+    rating: 4.8,
+    reviews: 148,
+    original: 12999,
+    offer: 8499,
+  },
+  {
+    id: "haldi-decoration-p3",
+    name: "Rajasthani Umbrella Haldi Setup",
+    description:
+      "A bright outdoor setup with pink, purple and yellow drape panels crowned by five embroidered Rajasthani umbrellas, colourful gota hangings with bells, marigold-draped brass matkas and a yellow frilled ceremony table.",
+    image: haldiP3.url,
+    includes: ["Pink, purple & yellow drape panels", "Five embroidered Rajasthani umbrellas", "Colourful gota hangings with bells & tassels", "Marigold-draped brass matkas on stands", "Yellow frilled ceremony table"],
+    rating: 4.8,
+    reviews: 139,
+    original: 11999,
+    offer: 7999,
+  },
+  {
+    id: "haldi-decoration-p4",
+    name: "Yellow Rose Canopy Haldi Mandap",
+    description:
+      "A grand outdoor haldi canopy with a dense yellow rose top frame, swooping yellow net drapes, pink gota diamond hangings with floral tassels, decorative umbrellas and a golden urli with a wooden ceremony crate.",
+    image: haldiP4.url,
+    includes: ["Dense yellow rose canopy frame", "Swooping yellow net drape backdrop", "Pink gota diamond hangings with tassels", "Decorative yellow & green umbrellas", "Golden urli with wooden ceremony crate"],
+    rating: 5,
+    reviews: 192,
+    original: 19999,
+    offer: 14999,
+  },
+  {
+    id: "haldi-decoration-p5",
+    name: "Marigold Basket Haldi Backdrop",
+    description:
+      "A warm indoor haldi frame with a criss-cross wooden lattice centre, sunflower and marigold floral pillars, hanging genda phool strings with cane flower baskets, ivory-orange ceiling drapes and a golden haldi urli.",
+    image: haldiP5.url,
+    includes: ["Criss-cross wooden lattice centre panel", "Sunflower & marigold floral frame", "Hanging genda strings with cane flower baskets", "Ivory-orange ceiling drape layering", "Golden urli with marigold border"],
+    rating: 4.9,
+    reviews: 164,
+    original: 19999,
+    offer: 14999,
+  },
+  {
+    id: "haldi-decoration-p6",
+    name: "Grand Genda Phool Haldi Mandap",
+    description:
+      "A festive open-air haldi mandap with yellow and pink curtain layers, a green centre drape, a lush marigold-rose top valance, hanging phool latkans with rangoli discs, colourful umbrellas, brass matkas and a floral floor ring.",
+    image: haldiP6.url,
+    includes: ["Yellow-pink curtain layering with green centre", "Marigold & rose top valance", "Hanging phool latkans and rangoli discs", "Colourful umbrellas with brass matkas", "Marigold floor ring and Haldi neon"],
+    rating: 5,
+    reviews: 205,
+    original: 19999,
+    offer: 14999,
+  },
+  {
+    id: "haldi-decoration-p7",
+    name: "Mehndi Tassel Haldi Backdrop",
+    description:
+      "An elegant indoor mehndi-haldi corner with pink, yellow, mint and white drape strips, a sunflower and hydrangea top row, yellow-pink cloth tassel hangings, marigold vertical strings, fairy lights, gold flower vases and a 'Mehndi' neon.",
+    image: haldiP7.url,
+    includes: ["Multi-tone drape strip backdrop", "Sunflower & hydrangea top row", "Yellow-pink cloth tassel hangings", "Marigold vertical strings with fairy lights", "Gold pedestal flower vases", "Mehndi neon sign"],
+    rating: 4.9,
+    reviews: 158,
+    original: 17999,
+    offer: 11999,
+  },
+  {
+    id: "haldi-decoration-p8",
+    name: "Marigold Curtain Haldi Frame",
+    description:
+      "A traditional haldi backdrop built from dense yellow and orange marigold curtain strings inside a mixed-flower and fern frame, warm fairy lights, a glowing 'Haldi' neon and a yellow floor sheet finish.",
+    image: haldiP8.url,
+    includes: ["Yellow & orange marigold curtain strings", "Mixed flower and fern frame border", "Warm fairy-light layering", "Haldi neon sign", "Yellow floor sheet styling"],
+    rating: 4.8,
+    reviews: 143,
+    original: 14999,
+    offer: 9999,
+  },
+  {
+    id: "haldi-decoration-p9",
+    name: "Gold Shimmer Haldi Ring Stage",
+    description:
+      "A luxe banquet haldi stage with gold shimmer and ivory drapes, a peach-cream rose ring arch, beaded gold latkans with tassels, twinkling fairy lights, a 'Haldi' neon and a gold sequin ceremony table.",
+    image: haldiP9.url,
+    includes: ["Gold shimmer & ivory drape wall", "Peach-cream rose ring arch", "Beaded gold latkans with tassels", "Fairy-light backlighting", "Haldi neon sign", "Gold sequin ceremony table setup"],
+    rating: 5,
+    reviews: 171,
+    original: 12999,
+    offer: 8499,
+  },
+  {
+    id: "haldi-decoration-p10",
+    name: "Ivory & Yellow Minimal Haldi Backdrop",
+    description:
+      "A clean pastel haldi backdrop with white sheer drapes, mustard-yellow side sashes, a full yellow-white rose top row, hanging marigold florets, brass urns with genda baskets and floral pedestals.",
+    image: haldiP10.url,
+    includes: ["White sheer drapes with mustard sashes", "Yellow & white rose top row", "Hanging marigold floret strings", "Brass urns with genda baskets", "Floral pedestal styling"],
+    rating: 4.9,
+    reviews: 152,
+    original: 14999,
+    offer: 9999,
+  },
+];
+
+
 
 const NEW_PACKAGES = [
   {
