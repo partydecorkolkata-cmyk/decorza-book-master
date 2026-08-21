@@ -141,7 +141,7 @@ function ServicePage() {
           </Badge>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Haldi Decoration</h1>
           <p className="mt-4 max-w-2xl text-white/85">Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function.</p>
-          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1,999</p>
+          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹4,999</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
               <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" />Book on WhatsApp</a>
