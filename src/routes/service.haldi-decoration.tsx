@@ -141,7 +141,7 @@ function ServicePage() {
           </Badge>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-6xl">Haldi Decoration</h1>
           <p className="mt-4 max-w-2xl text-white/85">Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function.</p>
-          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹1,999</p>
+          <p className="mt-4 font-display text-2xl text-gold">Starting from ₹4,999</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
               <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" />Book on WhatsApp</a>
@@ -158,41 +158,41 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="haldi-decoration-essential"
-            name="Essential Haldi Decoration"
-            description="A clean, photo-ready haldi decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
-            rating={4.800000000000001}
+            name="Rajasthani Umbrella Haldi Backdrop"
+            description="A colourful haldi corner with a printed umbrella wall, hanging yellow genda strings and bright drapes — a lively traditional setup just like the picture."
+            image={haldiN1.url}
+            includes={["Printed Rajasthani umbrella wall", "Hanging yellow genda phool strings", "Colourful drape panels", "Warm ambient lighting"]}
+            rating={4.8}
             reviews={160}
             offer={<>₹4,999</>}
-            original={<>₹9,999</>}
-            discountPct={50}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
             id="haldi-decoration-premium"
-            name="Premium Haldi Decoration"
-            description="An upgraded haldi decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
+            name="Premium Floral Ring Haldi Decoration"
+            description="An upgraded haldi setup with a floral ring backdrop, draped cloth panels, fresh flower accents and ambient fairy lights — styled like the reference photo."
             image="/haldi-ring-decoration.png"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            includes={["Premium artificial flower ring backdrop", "Draped cloth panels with fairy lights", "Fresh flower accents", "Haldi urli & thali styling"]}
             rating={4.9}
             reviews={224}
-            offer={<>₹8,500</>}
-            original={<>₹11,999</>}
-            discountPct={29}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
             id="haldi-decoration-luxury"
-            name="Luxury Haldi Decoration"
-            description="A full luxury haldi decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
+            name="Luxury Haldi Floral Stage"
+            description="A grand haldi decoration with a large floral installation, layered drapes, styled haldi corner and props — recreated to match the photo."
             image="/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
-            rating={4.800000000000001}
+            includes={["Grand floral installation", "Layered drape backdrop", "Styled haldi corner with urli & props", "Decorative lighting setup"]}
+            rating={4.8}
             reviews={373}
-            offer={<>₹5,999</>}
-            original={<>₹9,999</>}
-            discountPct={40}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -200,40 +200,56 @@ function ServicePage() {
             name="Marigold Cascade Haldi Setup"
             description="A vibrant haldi backdrop layered with cascading marigold strings, yellow drapes and a wooden swing — bringing a traditional courtyard feel to your celebration."
             image="/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg"
-            includes={["Marigold cascade backdrop","Yellow & orange drapes","Wooden swing or low seating"]}
+            includes={["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing styling", "Floral corner arrangement"]}
             rating={4.9}
             reviews={210}
-            offer={<>₹7,999</>}
-            original={<>₹7,999</>}
-            discountPct={0}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
             id="haldi-decoration-floral-jhoola"
             name="Floral Jhoola Haldi Special"
-            description="A photogenic floral jhoola seating crafted with fresh yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits."
+            description="A photogenic floral jhoola crafted with yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits."
             image="/f584ba38-470f-4d64-944f-2383546039a1.jpg"
-            includes={["Floral jhoola swing seating","Pastel yellow draped backdrop","Hanging genda phool strings"]}
+            includes={["Floral jhoola swing", "Pastel yellow draped backdrop", "Hanging genda phool strings", "Mango leaf toran accents"]}
             rating={4.9}
             reviews={175}
-            offer={<>₹5,999</>}
-            original={<>₹11,999</>}
-            discountPct={50}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
             id="haldi-decoration-royal-courtyard"
             name="Royal Courtyard Haldi Mandap"
-            description="A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony."
+            description="A luxury haldi mandap with floral pillars and a draped canopy — recreating a royal Indian courtyard for your ceremony."
             image="/e4da38f3-73cd-470c-885d-c617777fa1eb.jpg"
-            includes={["Four-pillar floral mandap","Draped canopy ceiling","Sweetheart lounge seating"]}
+            includes={["Four-pillar floral mandap", "Draped canopy ceiling", "Floral pathway styling", "Premium lighting setup"]}
             rating={5}
             reviews={132}
-            offer={<>₹12,999</>}
-            original={<>₹15,999</>}
-            discountPct={19}
+            offer={<>₹19,999</>}
+            original={<>₹29,999</>}
+            discountPct={33}
             bestSeller={false}
           />
+          {NEW_PACKAGES.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>₹{p.offer.toLocaleString("en-IN")}</>}
+              original={<>₹{p.original.toLocaleString("en-IN")}</>}
+              discountPct={Math.round(((p.original - p.offer) / p.original) * 100)}
+              bestSeller={false}
+            />
+          ))}
         </div>
       </section>
 
@@ -253,6 +269,9 @@ function ServicePage() {
             <img src="/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg" alt="Haldi Decoration 10" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg" alt="Haldi Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/abe2c18c-0300-48e2-b4ca-652e95789ac2.png" alt="Haldi Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[haldiN1, haldiN2, haldiN3, haldiN4, haldiN5, haldiN6, haldiN7, haldiN8].map((a, i) => (
+              <img key={a.url} src={a.url} alt={`Haldi Decoration ${13 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
