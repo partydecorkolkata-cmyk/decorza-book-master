@@ -269,6 +269,9 @@ function ServicePage() {
             <img src="/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg" alt="Haldi Decoration 10" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg" alt="Haldi Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/abe2c18c-0300-48e2-b4ca-652e95789ac2.png" alt="Haldi Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {[haldiN1, haldiN2, haldiN3, haldiN4, haldiN5, haldiN6, haldiN7, haldiN8].map((a, i) => (
+              <img key={a.url} src={a.url} alt={`Haldi Decoration ${13 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
