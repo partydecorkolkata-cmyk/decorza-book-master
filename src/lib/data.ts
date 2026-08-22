@@ -442,6 +442,17 @@ export const BUDGET_BUCKETS = [
 ];
 
 export const REVIEWS = [
+  ["Ankita Bhattacharya", "Kolkata", "Haldi Decoration", "Took the sunflower ring mandap for my brother's haldi. Setup started at 6 am and was ready before the guests arrived. Every photo came out bright and beautiful.", 5],
+  ["Manish Agarwal", "Siliguri", "Haldi Decoration", "The marigold cascade terrace setup was stunning. Flowers were fresh and the golden urli they brought was huge. Family kept asking for the vendor number.", 5],
+  ["Sushmita Roy", "Kolkata", "Haldi Decoration", "Booked the Rajasthani umbrella corner for a home haldi in a small flat. They managed the space so well and packed up quietly after the ceremony.", 5],
+  ["Rakesh Yadav", "Delhi", "Haldi Decoration", "Full marigold ceiling room decor for my daughter's haldi. Honestly looked like a wedding venue. Slightly over my budget but no regrets at all.", 5],
+  ["Priti Sahu", "Bhubaneswar", "Haldi Decoration", "Green grass wall setup with marigold drops. Very fresh look and the price was genuinely reasonable compared to other quotes I got.", 5],
+  ["Debjani Sen", "Howrah", "Haldi Decoration", "The Haldi neon sign with yellow rose ring was the highlight. Team came a day early to check the room measurements. Very professional approach.", 5],
+  ["Arjun Pillai", "Bengaluru", "Haldi Decoration", "Garden tent canopy in yellow net for our outdoor haldi. Held up perfectly even in the afternoon breeze. Coordinator was on call throughout.", 5],
+  ["Nusrat Jahan", "Kolkata", "Haldi Decoration", "Yellow rose valance backdrop looked exactly like the website photo. Only small delay in starting but they finished on time anyway.", 4],
+  ["Vivek Mishra", "Patna", "Haldi Decoration", "Festive tent canopy with gota hangings. Loved that everything was traditional and not the usual balloon stuff. Elders in the family were very happy.", 5],
+  ["Shalini Gupta", "Ranchi", "Haldi Decoration", "Ivory marigold ring stage for my haldi. The lighting they added made a huge difference in the evening photos. Highly recommend Decorza.", 5],
+
   ["Arindam Ghosh", "Kolkata", "Car Boot Decoration", "Did the red heart and rose car boot surprise for our 5th anniversary. They reached the parking lot 40 minutes early and finished before she came down. Boot looked unreal at night with the fairy lights.", 5],
   ["Sneha Pandey", "Delhi", "Car Boot Decoration", "Booked the photo string boot setup for my husband's birthday. They printed all 20 polaroids I sent on WhatsApp and clipped them neatly. He was speechless.", 5],
   ["Vikram Reddy", "Hyderabad", "Car Boot Decoration", "Champagne bottle and gold balloon boot decor for a proposal. Team asked for my car model in advance so the arrangement fit the boot perfectly. Worth every rupee.", 5],
