@@ -26,6 +26,16 @@ import haldiP7 from "@/assets/haldi-p7.jpg.asset.json";
 import haldiP8 from "@/assets/haldi-p8.jpg.asset.json";
 import haldiP9 from "@/assets/haldi-p9.jpg.asset.json";
 import haldiP10 from "@/assets/haldi-p10.jpg.asset.json";
+import haldiQ1 from "@/assets/haldi-q1.jpg.asset.json";
+import haldiQ2 from "@/assets/haldi-q2.png.asset.json";
+import haldiQ3 from "@/assets/haldi-q3.png.asset.json";
+import haldiQ4 from "@/assets/haldi-q4.jpg.asset.json";
+import haldiQ5 from "@/assets/haldi-q5.jpg.asset.json";
+import haldiQ6 from "@/assets/haldi-q6.jpg.asset.json";
+import haldiQ7 from "@/assets/haldi-q7.jpg.asset.json";
+import haldiQ8 from "@/assets/haldi-q8.jpg.asset.json";
+import haldiQ9 from "@/assets/haldi-q9.jpeg.asset.json";
+import haldiQ10 from "@/assets/haldi-q10.jpeg.asset.json";
 
 const BATCH_P = [
   {
@@ -152,6 +162,19 @@ const BATCH_P = [
 
 
 
+const BATCH_Q = [
+  { id: "haldi-decoration-q1", name: "Sunflower Ring Haldi Mandap", description: "A grand golden haldi stage with a full sunflower ring arch over pleated yellow satin drapes, white rose corner pillars, hanging jasmine strings, a Hindi 'Haldi' neon and tall gold spiral props.", image: haldiQ1.url, includes: ["Pleated golden satin drape wall", "Full sunflower ring arch", "White rose corner pillars", "Hanging jasmine & floral strings", "Hindi Haldi neon sign", "Tall gold spiral props with uplights"], rating: 4.9, reviews: 184, original: 17999, offer: 11999 },
+  { id: "haldi-decoration-q2", name: "Rajasthani Umbrella Haldi Corner", description: "A vibrant indoor haldi corner with yellow and pink drape panels, four embroidered Rajasthani umbrellas, marigold strings, colourful gota hangings with bells and a golden urli with a decorative platform.", image: haldiQ2.url, includes: ["Yellow & pink drape backdrop", "Four embroidered Rajasthani umbrellas", "Fresh-look marigold strings", "Gota hangings with bells & tassels", "Golden urli setup"], rating: 4.8, reviews: 141, original: 9999, offer: 7499 },
+  { id: "haldi-decoration-q3", name: "Marigold Cascade Terrace Haldi", description: "An open-air terrace haldi with a white and pink drape wall, four dramatic marigold cascade curtains topped with yellow rose bunches, a marigold chakra hanging, brass matkas pouring garlands and a large golden urli.", image: haldiQ3.url, includes: ["White & pink drape wall", "Four marigold cascade curtains", "Yellow rose top bunches", "Marigold chakra hanging", "Brass matka garland props", "Large golden urli centre"], rating: 5.0, reviews: 168, original: 19999, offer: 14999 },
+  { id: "haldi-decoration-q4", name: "Festive Tent Haldi Canopy", description: "A colourful tented haldi setup with a printed canopy ceiling, orange and yellow drape sweeps, a dense yellow rose valance, diamond gota wall art, marigold streamers, a Hindi 'Haldi' cutout and golden umbrellas by a big brass urli.", image: haldiQ4.url, includes: ["Printed festive canopy ceiling", "Orange & yellow drape sweeps", "Yellow rose valance with greens", "Diamond gota wall art & marigold streamers", "Hindi Haldi cutout", "Golden umbrella props with urli"], rating: 4.8, reviews: 137, original: 17999, offer: 11999 },
+  { id: "haldi-decoration-q5", name: "Grand Marigold Ceiling Haldi Room", description: "A full-room haldi transformation with hanging marigold columns across the ceiling, pink and yellow drape walls, a mixed gerbera-rose valance, Rajasthani umbrella accents, a 'Haldi' neon, fairy lights and a draped ceremony platform.", image: haldiQ5.url, includes: ["Full ceiling marigold hangings", "Pink & yellow drape walls", "Gerbera and rose flower valance", "Rajasthani umbrella accents", "Haldi neon sign & fairy lights", "Draped ceremony platform"], rating: 5.0, reviews: 192, original: 24999, offer: 19999 },
+  { id: "haldi-decoration-q6", name: "Ivory Marigold Ring Haldi Stage", description: "An elegant banquet haldi with an ivory shimmer drape wall, marigold string dividers, a yellow-white rose ring arch, floral pedestal arrangements with warm uplights and a yellow draped ceremony platform with bolsters.", image: haldiQ6.url, includes: ["Ivory shimmer drape wall", "Marigold string dividers", "Yellow-white rose ring arch", "Floral pedestals with uplights", "Yellow draped platform with bolsters", "Hindi Haldi lettering"], rating: 4.9, reviews: 158, original: 14999, offer: 9999 },
+  { id: "haldi-decoration-q7", name: "Green Grass Wall Haldi Setup", description: "A fresh haldi backdrop built on an artificial grass wall with a peach-yellow rose top row, layered marigold garland drops with jasmine tips, a swagged marigold curve and a golden urli with a low ceremony seat.", image: haldiQ7.url, includes: ["Artificial grass wall panel", "Peach & yellow rose top row", "Layered marigold garland drops", "Jasmine string tips", "Swagged marigold curve", "Golden urli styling"], rating: 4.7, reviews: 124, original: 14999, offer: 9999 },
+  { id: "haldi-decoration-q8", name: "Umbrella Fan Haldi Backdrop", description: "A budget-friendly home haldi corner with marigold and orange garland curtains, a vibrant fan of embroidered Rajasthani umbrellas around the frame, a Hindi 'Haldi' floral cutout and printed cushion styling.", image: haldiQ8.url, includes: ["Marigold & orange garland curtains", "Embroidered Rajasthani umbrella fan", "Hindi Haldi floral cutout", "Printed cushion styling", "Setup & same-day dismantle"], rating: 4.6, reviews: 112, original: 7999, offer: 4999 },
+  { id: "haldi-decoration-q9", name: "Yellow Tent Canopy Garden Haldi", description: "A garden haldi tent canopy in flowing yellow net drapes gathered to a floral crown, with red-green gota diamond hangings, marigold tassels and a fully yellow draped seating platform with cushions and bolsters.", image: haldiQ9.url, includes: ["Yellow net tent canopy drapes", "Floral crown top arrangement", "Gota diamond hangings with tassels", "Marigold accent strings", "Yellow draped seating platform with cushions"], rating: 4.8, reviews: 133, original: 12999, offer: 8499 },
+  { id: "haldi-decoration-q10", name: "Royal Yellow Rose Valance Haldi", description: "A classic haldi stage with a smooth yellow drape wall crowned by a dense yellow rose valance, red gota diamond wall art, a marigold 'Haldi' lettering, yellow heart tassel hangings, side floral vases and a frilled yellow platform.", image: haldiQ10.url, includes: ["Smooth yellow drape wall", "Dense yellow rose valance", "Red gota diamond wall art", "Marigold Haldi lettering", "Yellow heart tassel hangings", "Side floral vases & frilled platform"], rating: 5.0, reviews: 176, original: 14999, offer: 9999 },
+];
+
 const NEW_PACKAGES = [
   {
     id: "haldi-decoration-royal-ring",
@@ -250,7 +273,7 @@ export const Route = createFileRoute("/service/haldi-decoration")({
       { title: `Haldi Decoration in India | From ₹4,999 | Decorza Events` },
       { name: "description", content: `Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function. Book on WhatsApp.` },
       { property: "og:title", content: `Haldi Decoration | Decorza Events` },
-      { property: "og:image", content: "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg" },
+      { property: "og:image", content: haldiQ10.url },
     ],
     links: [{ rel: "canonical", href: "/service/haldi-decoration" }],
   }),
@@ -267,7 +290,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg" alt="Haldi Decoration" className="h-full w-full object-cover" />
+          <img src={haldiQ10.url} alt="Haldi Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -369,7 +392,7 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
-          {[...NEW_PACKAGES, ...BATCH_P].map((p) => (
+          {[...NEW_PACKAGES, ...BATCH_P, ...BATCH_Q].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -404,7 +427,7 @@ function ServicePage() {
             <img src="/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg" alt="Haldi Decoration 10" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg" alt="Haldi Decoration 11" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/abe2c18c-0300-48e2-b4ca-652e95789ac2.png" alt="Haldi Decoration 12" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[haldiN1, haldiN2, haldiN3, haldiN4, haldiN5, haldiN6, haldiN7, haldiN8, haldiP1, haldiP2, haldiP3, haldiP4, haldiP5, haldiP6, haldiP7, haldiP8, haldiP9, haldiP10].map((a, i) => (
+            {[haldiN1, haldiN2, haldiN3, haldiN4, haldiN5, haldiN6, haldiN7, haldiN8, haldiP1, haldiP2, haldiP3, haldiP4, haldiP5, haldiP6, haldiP7, haldiP8, haldiP9, haldiP10, haldiQ1, haldiQ2, haldiQ3, haldiQ4, haldiQ5, haldiQ6, haldiQ7, haldiQ8, haldiQ9, haldiQ10].map((a, i) => (
               <img key={a.url} src={a.url} alt={`Haldi Decoration ${13 + i}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
