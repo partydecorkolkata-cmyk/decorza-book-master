@@ -22,7 +22,7 @@ export const Route = createFileRoute("/packages")({
 const VIBES = [
   { key: "premium", label: "Premium", match: (n: string) => /(premium|luxury)/i.test(n) },
   { key: "romantic", label: "Romantic", match: (n: string) => /(romantic|anniversary|proposal|bedroom)/i.test(n) },
-  { key: "kids", label: "Kids Theme", match: (n: string) => /(kid|theme birthday)/i.test(n) },
+  { key: "theme", label: "Theme Birthday", match: (n: string) => /(theme birthday)/i.test(n) },
   { key: "traditional", label: "Traditional", match: (n: string) => /(haldi|mehendi|rice|engagement|housewarm)/i.test(n) },
 ] as const;
 
