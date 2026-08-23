@@ -490,7 +490,6 @@ export const REVIEWS = [
   ["Karan Malhotra", "Pune", "Mehendi Decoration", "Bohemian umbrellas and floral setup made our function feel premium.", 5],
   ["Ananya Pillai", "Bengaluru", "Birthday Decoration", "Same-day booking, still arrived early and set up perfectly. Impressed.", 5],
   ["Meera Patel", "Mumbai", "Anniversary Decoration", "Rose petal bed and candle path \u2014 it was like a movie scene.", 4],
-  ["Devansh Roy", "Siliguri", "Kids Theme Decoration", "Spiderman theme came out exactly like the photos. Son was over the moon.", 5],
   ["Tanvi Shah", "Pune", "Housewarming Decoration", "Beautiful traditional griha pravesh decor. Everyone asked who did it.", 5],
   ["Yash Verma", "Delhi", "Romantic Bedroom Decoration", "Surprised my girlfriend \u2014 she was speechless. Setup was flawless.", 5],
   ["Pooja Reddy", "Hyderabad", "Baby Shower Decoration", "Lovely pastel pink theme. Coordinator was super responsive on WhatsApp.", 5],
@@ -615,7 +614,7 @@ export const CITY_DATA: Record<string, CityInfo> = {
     intro: "Bengaluru's premium decoration partner for birthdays, anniversaries and baby showers. Coverage across all major tech corridors.",
     areas: ["Indiranagar", "Koramangala", "HSR Layout", "Whitefield", "Marathahalli", "Electronic City", "Jayanagar", "JP Nagar", "Hebbal", "Sarjapur Road"],
     venues: ["The Leela Palace", "ITC Gardenia", "JW Marriott Bengaluru", "Sheraton Grand Whitefield", "Banquets across ORR"],
-    popular: ["birthday-decoration", "baby-shower-decoration", "anniversary-decoration", "kids-theme-decoration"],
+    popular: ["birthday-decoration", "baby-shower-decoration", "anniversary-decoration"],
     startingPrice: 2999,
   },
   hyderabad: {
