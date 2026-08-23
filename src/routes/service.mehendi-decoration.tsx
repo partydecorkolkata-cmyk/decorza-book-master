@@ -152,14 +152,14 @@ function ServicePage() {
           <StaticPackageCard
             id="mehendi-decoration-essential"
             name="Essential Mehendi Decoration"
-            description="A clean, photo-ready mehendi decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            description="A yellow and teal pleated drape backdrop with a white-orange rose valance, marigold 'मेहंदी' lettering, gota strings and tassels, finished with a yellow frilled platform and cushions."
+            image={mehN1.url}
+            includes={["Yellow & teal pleated drape backdrop", "White-orange rose valance", "Marigold 'मेहंदी' lettering", "Gota strings & tassel hangings", "Yellow frilled platform with cushions"]}
             rating={4.7}
             reviews={123}
-            offer={<>₹3,999</>}
-            original={<>₹9,999</>}
-            discountPct={60}
+            offer={<>₹8,499</>}
+            original={<>₹11,999</>}
+            discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -167,27 +167,42 @@ function ServicePage() {
             name="Premium Mehendi Decoration"
             description="An upgraded mehendi decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
             image="/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            includes={["Premium artificial flower arch", "Premium cloth drape & lighting setup", "Fresh flower accents"]}
             rating={4.8}
             reviews={172}
-            offer={<>₹7,999</>}
-            original={<>₹9,999</>}
-            discountPct={20}
+            offer={<>₹9,999</>}
+            original={<>₹14,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
             id="mehendi-decoration-luxury"
             name="Luxury Mehendi Decoration"
-            description="A full luxury mehendi decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            description="A boho luxury mehendi setup with a parrot-green teepee canopy, a marigold and pampas grass crown, tall marigold flower stands and a draped platform with cushions."
+            image={mehN2.url}
+            includes={["Parrot-green teepee drape canopy", "Marigold & pampas grass top cluster", "Tall marigold flower stands", "Draped platform with cushions & bolsters", "Ambient event lighting"]}
             rating={4.7}
             reviews={287}
-            offer={<>₹12,999</>}
-            original={<>₹18,999</>}
-            discountPct={32}
+            offer={<>₹11,999</>}
+            original={<>₹17,999</>}
+            discountPct={33}
             bestSeller={false}
           />
+          {BATCH_N.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>{p.offer}</>}
+              original={<>{p.original}</>}
+              discountPct={p.pct}
+            />
+          ))}
         </div>
       </section>
 
@@ -199,9 +214,13 @@ function ServicePage() {
             <img src="/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg" alt="Mehendi Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg" alt="Mehendi Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Mehendi Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {GALLERY_N.map((src, i) => (
+              <img key={src} src={src} alt={`Mehendi Decoration ${i + 5}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
+
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Reviews" title="Customer Reviews" />
