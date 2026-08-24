@@ -18,6 +18,101 @@ import mehN7 from "@/assets/meh-n7.jpg.asset.json";
 import mehN8 from "@/assets/meh-n8.jpg.asset.json";
 import mehN9 from "@/assets/meh-n9.jpg.asset.json";
 import mehN10 from "@/assets/meh-n10.jpg.asset.json";
+import mehP1 from "@/assets/meh-p1.jpg.asset.json";
+import mehP2 from "@/assets/meh-p2.jpg.asset.json";
+import mehP3 from "@/assets/meh-p3.jpg.asset.json";
+import mehP4 from "@/assets/meh-p4.jpg.asset.json";
+import mehP5 from "@/assets/meh-p5.jpg.asset.json";
+import mehP6 from "@/assets/meh-p6.jpg.asset.json";
+import mehP7 from "@/assets/meh-p7.jpg.asset.json";
+import mehP8 from "@/assets/meh-p8.jpg.asset.json";
+import mehP9 from "@/assets/meh-p9.jpg.asset.json";
+import mehP10 from "@/assets/meh-p10.jpg.asset.json";
+
+const BATCH_P = [
+  {
+    id: "mehendi-marigold-hanging-canopy-stage",
+    name: "Marigold Hanging Canopy Mehendi Stage",
+    description: "A festive gate-style setup with pink, orange and yellow drapes, a full mixed-rose top valance and long hanging marigold strings over a fairy-light curtain, styled with a Rajasthani umbrella, matka and haldi props.",
+    image: mehP1.url,
+    includes: ["Pink, orange & yellow pleated drape gate", "Mixed rose & carnation top valance", "Long hanging marigold garland strings", "White fairy-light curtain backdrop", "Embroidered Rajasthani umbrella prop", "Clay matka with marigold garland", "Draped platform with printed cushions", "Haldi thali & wooden tray styling"],
+    rating: 4.9, reviews: 231, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-olive-yellow-moss-letter",
+    name: "Olive & Yellow Moss Letter Mehendi",
+    description: "A bright yellow centre drape framed by olive-green side curtains, with a yellow-white rose top cluster, moss 'मेहंदी' lettering, mogra and lemon-bead hangings and gota wheel bell danglers.",
+    image: mehP2.url,
+    includes: ["Yellow centre drape with olive side curtains", "Yellow & white rose top cluster with greenery", "Moss 'मेहंदी' lettering", "Mogra strings & lemon-bead hangings", "Marigold garland swags", "Gota wheel & bell danglers"],
+    rating: 4.8, reviews: 174, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-olive-swag-white-rose-arch",
+    name: "Olive Swag White Rose Mehendi Arch",
+    description: "An elegant olive-green draped arch with layered swags, dense white rose and hydrangea corners, cascading mogra strings and a matching green draped platform with a matka and tray setup.",
+    image: mehP3.url,
+    includes: ["Olive-green draped arch with layered swags", "White rose & hydrangea corner florals", "Cascading mogra bud strings", "Green draped platform with bolster cushion", "Clay matka with mogra overflow", "Wooden tray & mehendi cone styling"],
+    rating: 4.9, reviews: 258, offer: "₹11,999", original: "₹17,999", pct: 33,
+  },
+  {
+    id: "mehendi-sunflower-green-gate",
+    name: "Sunflower & Green Drape Mehendi Gate",
+    description: "A deep green backdrop with parted yellow drapes, a full sunflower and rose top border with trailing vines, marigold pillar strings, colourful gota diamonds and lace umbrellas on matkas.",
+    image: mehP4.url,
+    includes: ["Deep green backdrop with parted yellow drapes", "Sunflower & yellow rose top border", "Trailing green vine ceiling strings", "Marigold garland pillar borders", "Colourful gota diamond hangings", "Marigold 'हल्दी' lettering", "Golden lace umbrellas with matka props"],
+    rating: 4.9, reviews: 284, offer: "₹14,999", original: "₹19,999", pct: 25,
+  },
+  {
+    id: "mehendi-neon-leafy-fairy-curtain",
+    name: "Neon Mehndi Leafy Fairy-Light Backdrop",
+    description: "A glowing pink, orange and yellow satin curtain wall studded with warm fairy lights, a lush green leaf canopy frame, 'Mehndi' neon sign and mirror-work umbrellas with marigold matkas.",
+    image: mehP5.url,
+    includes: ["Pink, orange & yellow satin curtain wall", "Warm fairy-light studded backdrop", "Green leaf canopy frame & ceiling trail", "'Mehndi' neon signage", "Mirror-work Rajasthani umbrellas", "Matka props with marigold & pom-pom garlands", "Uplighter accent lighting"],
+    rating: 4.9, reviews: 302, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-outdoor-umbrella-gota",
+    name: "Outdoor Umbrella Gota Mehendi Panel",
+    description: "A bright lawn setup with yellow, pink and purple net drape panels, five embroidered Rajasthani umbrellas on top, colourful gota diamond hangings, tassels and marigold matka stands.",
+    image: mehP6.url,
+    includes: ["Yellow, pink & purple net drape panels", "Five embroidered Rajasthani umbrellas", "Colourful gota diamond hangings", "Tassel & bell danglers", "Yellow frilled platform draping", "Marigold-draped matka stands"],
+    rating: 4.8, reviews: 166, offer: "₹8,499", original: "₹11,999", pct: 29,
+  },
+  {
+    id: "mehendi-green-kite-tassel-panel",
+    name: "Green Kite & Tassel Mehendi Panel",
+    description: "A parrot-green net panel with yellow side drapes, pink-cream rose top border, marigold 'मेहंदी' lettering, colourful kites, gota wheels, bells and yellow tassels with white floral urns.",
+    image: mehP7.url,
+    includes: ["Parrot-green net panel with yellow side drapes", "Pink & cream rose top border", "Marigold 'मेहंदी' lettering", "Colourful kite hangings", "Gota wheel, bell & tassel danglers", "White floral urn pedestals"],
+    rating: 4.8, reviews: 152, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-multicolour-drape-lounge",
+    name: "Multicolour Drape Mehendi Lounge",
+    description: "A rich pink, green and yellow drape wall with a pastel floral top garland, mogra and gold-coin strings, sparkling fairy lights, gold 'मेहंदी' signage and a carpeted floor lounge with cushions and lanterns.",
+    image: mehP8.url,
+    includes: ["Pink, green & yellow drape wall", "Pastel floral & greenery top garland", "Mogra and gold-coin hanging strings", "Fairy-light layering with uplighters", "Gold 'मेहंदी' signage", "Draped platform with velvet bolsters", "Carpeted floor seating with cushions", "Lantern, birdcage & flower vase props"],
+    rating: 4.9, reviews: 277, offer: "₹11,999", original: "₹17,999", pct: 33,
+  },
+  {
+    id: "mehendi-neon-rainbow-marigold-stage",
+    name: "Neon Rainbow Marigold Mehendi Stage",
+    description: "A rainbow drape wall in pink, green and yellow with a dense mixed-rose top border, hanging marigold strings, warm fairy lights, 'Mehndi' neon sign, gold shimmer platform and marigold pillar clusters with lanterns.",
+    image: mehP9.url,
+    includes: ["Rainbow pink, green & yellow drape wall", "Dense mixed rose top border", "Hanging marigold garland strings", "Warm fairy-light curtains", "'Mehndi' neon signage", "Gold shimmer draped platform", "Marigold pillar clusters", "Metal lantern props"],
+    rating: 4.9, reviews: 296, offer: "₹11,999", original: "₹17,999", pct: 33,
+  },
+  {
+    id: "mehendi-pompom-neon-welcome",
+    name: "Pom-Pom Neon Welcome Mehendi Setup",
+    description: "A red, orange and teal sheer drape backdrop with marigold pom-pom strings, a warm dahlia-rose top cluster, 'Mehndi' neon sign, gold sequin platform, welcome easel board and a printed mandala rug.",
+    image: mehP10.url,
+    includes: ["Red, orange & teal sheer drape backdrop", "Marigold pom-pom hanging strings", "Dahlia & rose top floral cluster", "'Mehndi' neon signage", "Gold sequin platform with frill skirt", "Personalised welcome easel board", "Rose floral easel accent", "Printed mandala floor rug"],
+    rating: 4.9, reviews: 243, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+];
+
+const GALLERY_P = [mehP1.url, mehP2.url, mehP3.url, mehP4.url, mehP5.url, mehP6.url, mehP7.url, mehP8.url, mehP9.url, mehP10.url];
 
 const BATCH_N = [
   {
@@ -188,7 +283,7 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
-          {BATCH_N.map((p) => (
+          {[...BATCH_N, ...BATCH_P].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -214,7 +309,7 @@ function ServicePage() {
             <img src="/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg" alt="Mehendi Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg" alt="Mehendi Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Mehendi Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {GALLERY_N.map((src, i) => (
+            {[...GALLERY_N, ...GALLERY_P].map((src, i) => (
               <img key={src} src={src} alt={`Mehendi Decoration ${i + 5}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
