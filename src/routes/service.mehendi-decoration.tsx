@@ -28,6 +28,101 @@ import mehP7 from "@/assets/meh-p7.jpg.asset.json";
 import mehP8 from "@/assets/meh-p8.jpg.asset.json";
 import mehP9 from "@/assets/meh-p9.jpg.asset.json";
 import mehP10 from "@/assets/meh-p10.jpg.asset.json";
+import mehR1 from "@/assets/meh-r1.jpg.asset.json";
+import mehR2 from "@/assets/meh-r2.jpg.asset.json";
+import mehR3 from "@/assets/meh-r3.jpg.asset.json";
+import mehR4 from "@/assets/meh-r4.jpeg.asset.json";
+import mehR5 from "@/assets/meh-r5.jpeg.asset.json";
+import mehR6 from "@/assets/meh-r6.jpeg.asset.json";
+import mehR7 from "@/assets/meh-r7.jpeg.asset.json";
+import mehR8 from "@/assets/meh-r8.jpg.asset.json";
+import mehR9 from "@/assets/meh-r9.jpeg.asset.json";
+import mehR10 from "@/assets/meh-r10.jpeg.asset.json";
+
+const BATCH_R = [
+  {
+    id: "mehendi-yellow-white-kite-umbrella",
+    name: "Yellow & White Kite Umbrella Mehendi",
+    description: "A soft white sheer backdrop with parted yellow net drapes, three embroidered Rajasthani umbrellas on top, pink-peach rose corner bunches and colourful kite hangings with pom-poms and bells.",
+    image: mehR1.url,
+    includes: ["White sheer backdrop with yellow net drapes", "Three embroidered Rajasthani umbrellas on top", "Pink & peach rose corner bunches", "Colourful kite & gota wheel hangings", "Yellow tassel and bell danglers", "Green draped platform with bolsters", "Decorative floor umbrellas"],
+    rating: 4.8, reviews: 171, offer: "₹8,499", original: "₹11,999", pct: 29,
+  },
+  {
+    id: "mehendi-neon-sunflower-ribbon-stage",
+    name: "Neon Sunflower Ribbon Mehendi Stage",
+    description: "A luxe indoor setup with pink, yellow, white and mint ribbon drapes, a full sunflower and white rose top border, marigold strings with fairy lights, yellow-pink tassels and a glowing 'Mehndi' neon sign.",
+    image: mehR2.url,
+    includes: ["Pink, yellow, white & mint ribbon drape wall", "Sunflower & white rose top border", "Marigold strings with warm fairy lights", "Yellow & pink tassel hangings", "'Mehndi' neon signage", "Yellow draped platform", "Gold pedestal flower vases", "Ceiling marigold hangings"],
+    rating: 4.9, reviews: 268, offer: "₹14,999", original: "₹19,999", pct: 25,
+  },
+  {
+    id: "mehendi-grass-wall-kite-lettering",
+    name: "Grass Wall Kite Mehendi Backdrop",
+    description: "A dense artificial grass wall with moss 'मेहंदी' lettering, six colourful kite hangings, a yellow-orange lily and rose top valance, yellow side drapes and gold flower stands.",
+    image: mehR3.url,
+    includes: ["Artificial grass wall panel", "Moss 'मेहंदी' lettering", "Six colourful kite hangings with bells", "Yellow-orange lily & rose top valance", "Yellow side drapes", "Gold pedestal flower stands", "Green draped platform"],
+    rating: 4.8, reviews: 194, offer: "₹11,999", original: "₹17,999", pct: 33,
+  },
+  {
+    id: "mehendi-pink-yellow-tassel-curtain",
+    name: "Pink & Yellow Tassel Curtain Mehendi",
+    description: "A magenta, yellow and cream curtain backdrop with a lavish mixed rose and baby's-breath top garland, long vertical tassel strings in coral, blue and cream, styled with marigold bunches and mirror-work umbrellas.",
+    image: mehR4.url,
+    includes: ["Magenta, yellow & cream curtain backdrop", "Mixed rose & baby's-breath top garland", "Long coral, blue & cream tassel strings", "Fresh marigold bunches in glass vases", "Mirror-work Rajasthani floor umbrellas", "Neutral area rug styling"],
+    rating: 4.9, reviews: 224, offer: "₹13,499", original: "₹17,999", pct: 25,
+  },
+  {
+    id: "mehendi-green-velvet-mogra-panel",
+    name: "Green Velvet Mogra Mehendi Panel",
+    description: "Rich green velvet drapes framing a white centre with hanging mogra garland strings, moss 'मेहंदी' lettering, a rose and greenery top box and gota fan-and-bell danglers on both sides.",
+    image: mehR5.url,
+    includes: ["Green velvet side drapes with white centre", "Hanging mogra garland strings", "Moss 'मेहंदी' lettering", "Rose & greenery top box valance", "Gota fan, pom-pom & bell danglers", "White draped platform", "Fresh gladiolus & greenery urns"],
+    rating: 4.9, reviews: 238, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-teal-green-kite-budget",
+    name: "Teal & Green Kite Mehendi Setup",
+    description: "A budget-friendly teal, yellow and green drape panel with moss 'मेहंदी' lettering, large red-yellow kite frames, marigold pillar garlands, pom-pom bell strings and painted floor umbrellas.",
+    image: mehR6.url,
+    includes: ["Teal, yellow & green drape panel", "Moss 'मेहंदी' lettering", "Large red-yellow kite frames", "Marigold pillar garlands", "Pom-pom & bell hanging strings", "Teal draped platform", "Painted Rajasthani floor umbrellas"],
+    rating: 4.7, reviews: 128, offer: "₹4,999", original: "₹8,499", pct: 41,
+  },
+  {
+    id: "mehendi-parrot-green-marigold-valance",
+    name: "Parrot Green Marigold Valance Mehendi",
+    description: "A bright parrot-green drape wall with a white centre, yellow-white marigold and leaf top valance, moss 'मेहंदी' lettering, fairy-light strings, gota kite frames and four mirror-work umbrellas.",
+    image: mehR7.url,
+    includes: ["Parrot-green drape wall with white centre", "Yellow & white marigold leaf top valance", "Moss 'मेहंदी' lettering", "Warm fairy-light strings", "Gota kite frames & bell danglers", "Four mirror-work Rajasthani umbrellas"],
+    rating: 4.8, reviews: 182, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-olive-dreamcatcher-corner",
+    name: "Olive Dreamcatcher Mehendi Corner",
+    description: "An olive-green corner drape setup with a dense multicolour paper-rose top border, moss 'मेहंदी' lettering, ring-and-bead hanging strings, tassel dreamcatchers and gota wheel danglers.",
+    image: mehR8.url,
+    includes: ["Olive-green corner drape backdrop", "Multicolour paper rose top border", "Moss 'मेहंदी' lettering", "Ring & bead hanging strings", "Tassel dreamcatcher hangings", "Gota wheel danglers", "Printed mattress styling"],
+    rating: 4.8, reviews: 159, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-five-umbrella-yellow-green-gate",
+    name: "Five Umbrella Yellow-Green Mehendi Gate",
+    description: "A striking striped yellow and green drape gate crowned with five large embroidered umbrellas, gota 'मेहंदी' lettering, bright kite hangings, bead strings and floral wall corners on a red carpet.",
+    image: mehR9.url,
+    includes: ["Striped yellow & green drape gate", "Five large embroidered umbrellas on top", "Gota 'मेहंदी' lettering", "Colourful kite hangings", "Bead & bell hanging strings", "Floral wall corner clusters", "Red carpet floor with umbrella props"],
+    rating: 4.9, reviews: 247, offer: "₹9,999", original: "₹14,999", pct: 33,
+  },
+  {
+    id: "mehendi-olive-teepee-mogra-outdoor",
+    name: "Olive Teepee Mogra Mehendi Canopy",
+    description: "An outdoor olive satin teepee canopy topped with a white rose and greenery crown, cascading mogra garland strings, a green draped platform with cushions and rustic crate, tray and mogra prop styling.",
+    image: mehR10.url,
+    includes: ["Olive satin teepee canopy", "White rose & greenery top crown", "Cascading mogra garland strings", "Green draped platform with cushions", "White sheer curtain surround", "Rustic wooden crate & tray props", "Mogra strings and floral vase accents"],
+    rating: 4.9, reviews: 262, offer: "₹13,499", original: "₹17,999", pct: 25,
+  },
+];
+
+const GALLERY_R = [mehR1.url, mehR2.url, mehR3.url, mehR4.url, mehR5.url, mehR6.url, mehR7.url, mehR8.url, mehR9.url, mehR10.url];
 
 const BATCH_P = [
   {
@@ -283,7 +378,7 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
-          {[...BATCH_N, ...BATCH_P].map((p) => (
+          {[...BATCH_N, ...BATCH_P, ...BATCH_R].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -309,7 +404,7 @@ function ServicePage() {
             <img src="/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg" alt="Mehendi Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg" alt="Mehendi Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Mehendi Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...GALLERY_N, ...GALLERY_P].map((src, i) => (
+            {[...GALLERY_N, ...GALLERY_P, ...GALLERY_R].map((src, i) => (
               <img key={src} src={src} alt={`Mehendi Decoration ${i + 5}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
