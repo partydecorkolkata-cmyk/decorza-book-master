@@ -378,7 +378,7 @@ function ServicePage() {
             discountPct={33}
             bestSeller={false}
           />
-          {[...BATCH_N, ...BATCH_P].map((p) => (
+          {[...BATCH_N, ...BATCH_P, ...BATCH_R].map((p) => (
             <StaticPackageCard
               key={p.id}
               id={p.id}
@@ -404,7 +404,7 @@ function ServicePage() {
             <img src="/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg" alt="Mehendi Decoration 2" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg" alt="Mehendi Decoration 3" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Mehendi Decoration 4" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
-            {[...GALLERY_N, ...GALLERY_P].map((src, i) => (
+            {[...GALLERY_N, ...GALLERY_P, ...GALLERY_R].map((src, i) => (
               <img key={src} src={src} alt={`Mehendi Decoration ${i + 5}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             ))}
           </div>
