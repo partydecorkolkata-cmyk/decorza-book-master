@@ -129,7 +129,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" alt="Housewarming Decoration" className="h-full w-full object-cover" />
+          <img src={hwN5.url} alt="Housewarming Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
