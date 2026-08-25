@@ -8,6 +8,98 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import hwN1 from "@/assets/hw-n1.jpeg.asset.json";
+import hwN2 from "@/assets/hw-n2.jpeg.asset.json";
+import hwN3 from "@/assets/hw-n3.jpeg.asset.json";
+import hwN4 from "@/assets/hw-n4.jpeg.asset.json";
+import hwN5 from "@/assets/hw-n5.jpeg.asset.json";
+import hwN6 from "@/assets/hw-n6.jpeg.asset.json";
+import hwN7 from "@/assets/hw-n7.jpg.asset.json";
+import hwN8 from "@/assets/hw-n8.jpg.asset.json";
+import hwN9 from "@/assets/hw-n9.jpeg.asset.json";
+import hwN10 from "@/assets/hw-n10.png.asset.json";
+
+const BATCH_N = [
+  {
+    id: "housewarming-white-gold-arch",
+    name: "Ivory & Gold Housewarming Arch Decor",
+    description: "An elegant fluted white arch board with a lush ivory, nude and chrome-gold balloon garland and baby's breath accents — perfect for a modern housewarming party photo corner.",
+    image: hwN4.url,
+    includes: ["Fluted white arch board with custom name print", "Ivory, nude & chrome gold balloon garland", "Baby's breath floral accents"],
+    rating: 4.8,
+    reviews: 74,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-new-home-new-blooms",
+    name: "New Home New Blooms Floral Arch Decor",
+    description: "A vibrant pink arch panel with 'New Home New Blooms' lettering, twin balloon cascades in pink, orange and yellow, fresh-look blooms and a matching half-moon 'New Beginnings' board.",
+    image: hwN5.url,
+    includes: ["Pink arch panel with custom lettering", "Pink, orange & yellow balloon cascade with florals", "Matching half-moon welcome board", "Greenery fillers & floor styling"],
+    rating: 4.9,
+    reviews: 118,
+    offer: 7499,
+    original: 9999,
+  },
+  {
+    id: "housewarming-home-sweet-home",
+    name: "Home Sweet Home White Balloon Decor",
+    description: "A clean all-white panel with 'Home Sweet Home' cut-out lettering, double organic balloon clusters, glow lights and eucalyptus leaf touches for a minimal, classy house warming setup.",
+    image: hwN6.url,
+    includes: ["White panel with Home Sweet Home cut-out lettering", "Organic white balloon clusters", "Warm glow lighting inside the setup", "Eucalyptus & gypsophila accents"],
+    rating: 4.8,
+    reviews: 66,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-kanku-pagla-entrance",
+    name: "Kanku Pagla Rangoli Entrance Decor",
+    description: "A traditional entrance setup with flower petal rangoli, brass kalash centre, heart foil balloons and rose-gold, white and gold balloon pillars on both sides of the main door, plus a customised welcome easel.",
+    image: hwN7.url,
+    includes: ["Fresh flower petal rangoli with brass kalash", "Rose gold, white & gold balloon pillars", "Heart foil balloon accents", "Customised welcome easel board"],
+    rating: 4.7,
+    reviews: 52,
+    offer: 2499,
+    original: 4999,
+  },
+  {
+    id: "housewarming-welcome-greenery-arch",
+    name: "Welcome Greenery Arch Housewarming Decor",
+    description: "A printed greenery 'Welcome' backdrop framed by a bold gold, rose-gold and white balloon arch with eucalyptus leaf styling — a warm indoor welcome for your new home.",
+    image: hwN8.url,
+    includes: ["Printed greenery Welcome backdrop panel", "Gold, rose gold & white balloon arch", "Eucalyptus leaf styling", "Pedestal styling beside the setup"],
+    rating: 4.8,
+    reviews: 81,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-welcome-easel-pastel",
+    name: "Pastel Welcome Easel Housewarming Decor",
+    description: "A charming budget setup with a customised 'Welcome to our New Home' easel board and a flowing blush pink, peach, white and gold balloon garland — ideal for small home celebrations.",
+    image: hwN9.url,
+    includes: ["Customised welcome easel board", "Blush pink, peach, white & gold balloon garland", "Easel stand & floor balloon cluster"],
+    rating: 4.7,
+    reviews: 44,
+    offer: 1999,
+    original: 2999,
+  },
+  {
+    id: "housewarming-grand-floral-doorway",
+    name: "Grand Fresh Floral Doorway Decor",
+    description: "A premium griha pravesh doorway fully covered in fresh roses, lilies, orchids and gypsophila with palm leaf detailing on the top valance and both pillars, finished with floor flower bases.",
+    image: hwN10.url,
+    includes: ["Full fresh flower doorway frame (top + both pillars)", "Roses, lilies, carnations & gypsophila mix", "Palm & foliage leaf detailing", "Floor flower base arrangements"],
+    rating: 4.9,
+    reviews: 137,
+    offer: 9999,
+    original: 14999,
+  },
+];
+
+const GALLERY_N = [hwN5.url, hwN2.url, hwN1.url, hwN3.url, hwN4.url, hwN6.url, hwN7.url, hwN8.url, hwN9.url, hwN10.url];
 
 export const Route = createFileRoute("/service/housewarming-decoration")({
   loader: () => {
