@@ -155,43 +155,58 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="housewarming-decoration-essential"
-            name="Essential Housewarming Decoration"
-            description="A clean, photo-ready housewarming decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            name="Essential Marigold Door Garland Decor"
+            description="A traditional griha pravesh door decoration with layered marigold and genda garlands draped across the frame, a white mogra centre valance and hanging flower bunches — just like the picture."
+            image={hwN1.url}
+            includes={["Layered orange & yellow marigold door garlands", "White mogra centre valance", "Hanging flower bunches & side pillars", "Coconut & flower floor accents"]}
             rating={4.7}
             reviews={83}
-            offer={<>₹8,999</>}
-            original={<>₹10,499</>}
-            discountPct={14}
+            offer={<>₹4,999</>}
+            original={<>₹8,499</>}
+            discountPct={41}
             bestSeller={false}
           />
           <StaticPackageCard
             id="housewarming-decoration-premium"
-            name="Premium Housewarming Decoration"
-            description="An upgraded housewarming decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/1e631830-5a03-4c62-9230-c36bba689802.png"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            name="Premium Floral Pravesh Entrance Decor"
+            description="A designer entrance with a dense pastel carnation and rose top valance, long marigold and mogra hanging strings on both sides and matching brass urn flower arrangements at the doorstep."
+            image={hwN2.url}
+            includes={["Pastel carnation & rose top valance", "Long marigold and mogra hanging strings", "Twin brass urn floral arrangements", "Foliage & leaf detailing"]}
             rating={4.8}
             reviews={116}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
-            bestSeller={false}
+            offer={<>₹8,499</>}
+            original={<>₹11,999</>}
+            discountPct={29}
+            bestSeller={true}
           />
           <StaticPackageCard
             id="housewarming-decoration-luxury"
-            name="Luxury Housewarming Decoration"
-            description="A full luxury housewarming decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            name="Luxury Blue & Silver Housewarming Party Decor"
+            description="A grand housewarming party stage with a customised printed floral backdrop and big blue, white, silver chrome balloon clusters on both sides, styled with floor balloon pools."
+            image={hwN3.url}
+            includes={["Customised printed housewarming backdrop", "Blue, white & silver chrome balloon clusters", "Floor balloon pool styling", "Full setup & on-site installation"]}
             rating={4.7}
             reviews={193}
-            offer={<>₹6,598</>}
-            original={<>₹9,997</>}
-            discountPct={34}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
+          {BATCH_N.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>₹{p.offer.toLocaleString("en-IN")}</>}
+              original={<>₹{p.original.toLocaleString("en-IN")}</>}
+              discountPct={Math.round((1 - p.offer / p.original) * 100)}
+            />
+          ))}
         </div>
       </section>
 
