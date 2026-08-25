@@ -6,6 +6,11 @@ import haldiQ10Cover from "@/assets/haldi-q10.jpeg.asset.json";
 // tables, abstract roses or stock food photos.
 import rbdR5 from "@/assets/rbd-r5.jpg.asset.json";
 import engR10 from "@/assets/eng-r10.jpg.asset.json";
+import hwN5Cover from "@/assets/hw-n5.jpeg.asset.json";
+import hwN1 from "@/assets/hw-n1.jpeg.asset.json";
+import hwN2 from "@/assets/hw-n2.jpeg.asset.json";
+import hwN3 from "@/assets/hw-n3.jpeg.asset.json";
+import hwN10 from "@/assets/hw-n10.png.asset.json";
 
 const img = (id: string, w = 1200) =>
   id.startsWith("/") || id.startsWith("http") ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
@@ -104,6 +109,7 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
   "engagement-decoration": [engR10.url, "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
   "haldi-decoration": [haldiQ10Cover.url, "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg", "/haldi-ring-decoration.png", "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png", "/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/f0430936-2c24-4bc9-b390-1c2e533e7ec4.jpg", "/6774f332-8168-4bc0-bfa4-53c82b9ea5b1.jpg", "/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg", "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg", "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png"],
   "mehendi-decoration": ["/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
+  "housewarming-decoration": [hwN5Cover.url, hwN2.url, hwN1.url, hwN3.url, hwN10.url],
   "bachelorette-decoration": ["/__l5e/assets-v1/0b70ae51-cd5f-41f3-815e-265b7c5a2f0f/bach-cover.jpg", "/__l5e/assets-v1/079ea744-b96b-41cc-8f90-38897fb6dff8/bach-b1.jpg", "/__l5e/assets-v1/abc1c317-8be6-42c7-a597-2ad901f76a52/bach-b2.webp", "/__l5e/assets-v1/9cb79582-2368-49a8-9c63-2879254d613c/bach-b3.jpg"],
 };
 
@@ -113,6 +119,7 @@ const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
   "baby-shower-decoration": 1999,
   "haldi-decoration": 4999,
   "bachelorette-decoration": 1999,
+  "housewarming-decoration": 1999,
 };
 
 const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number }[]> = {
@@ -502,6 +509,15 @@ export const REVIEWS = [
   ["Ananya Pillai", "Bengaluru", "Birthday Decoration", "Same-day booking, still arrived early and set up perfectly. Impressed.", 5],
   ["Meera Patel", "Mumbai", "Anniversary Decoration", "Rose petal bed and candle path \u2014 it was like a movie scene.", 4],
   ["Tanvi Shah", "Pune", "Housewarming Decoration", "Beautiful traditional griha pravesh decor. Everyone asked who did it.", 5],
+  ["Deepak Iyer", "Chennai", "Housewarming Decoration", "The marigold and mogra door garland for our griha pravesh was stunning. Fresh flowers, done before the muhurat time.", 5],
+  ["Shalini Rao", "Hyderabad", "Housewarming Decoration", "Booked the pastel balloon arch with the Home Sweet Home board. Guests kept clicking photos in front of it all evening.", 5],
+  ["Manish Gupta", "Delhi", "Housewarming Decoration", "Very neat floral entrance with hanging garlands and pot arrangements. Team was polite and cleaned up after the puja.", 5],
+  ["Rekha Nair", "Kochi", "Housewarming Decoration", "The rangoli with kalash and balloon pillars at the door looked so auspicious. Worth every rupee.", 5],
+  ["Aditya Joshi", "Nagpur", "Housewarming Decoration", "Got the New Home New Blooms backdrop for my sister's new flat. Bright, colourful and exactly like the picture.", 5],
+  ["Farhan Sheikh", "Mumbai", "Housewarming Decoration", "Same-day setup for our flat warming. Gold and white balloon arch with the custom name board was classy.", 5],
+  ["Swapna Das", "Kolkata", "Housewarming Decoration", "They decorated the pooja corner and main door with mango leaf toran and marigold. Truly traditional feel.", 4],
+  ["Nikhil Menon", "Bengaluru", "Housewarming Decoration", "Coordinated fully on WhatsApp, sent live photos before finishing. Great experience for our house warming.", 5],
+  ["Kavya Reddy", "Vijayawada", "Housewarming Decoration", "The welcome easel board with balloon clusters made the entrance so warm. Guests loved it.", 5],
   ["Yash Verma", "Delhi", "Romantic Bedroom Decoration", "Surprised my girlfriend \u2014 she was speechless. Setup was flawless.", 5],
   ["Pooja Reddy", "Hyderabad", "Baby Shower Decoration", "Lovely pastel pink theme. Coordinator was super responsive on WhatsApp.", 5],
   ["Ritika Bose", "Kolkata", "Birthday Decoration", "Booked at midnight, setup done by noon. Truly 24/7 service.", 5],
