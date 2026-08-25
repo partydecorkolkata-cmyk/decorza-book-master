@@ -221,6 +221,9 @@ function ServicePage() {
             <img src="/haldi-ring-decoration.png" alt="Housewarming Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/f584ba38-470f-4d64-944f-2383546039a1.jpg" alt="Housewarming Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Housewarming Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {GALLERY_N.map((src, i) => (
+              <img key={src} src={src} alt={`Housewarming Decoration ${i + 8}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
