@@ -8,6 +8,98 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug, REVIEWS } from "@/lib/data";
+import hwN1 from "@/assets/hw-n1.jpeg.asset.json";
+import hwN2 from "@/assets/hw-n2.jpeg.asset.json";
+import hwN3 from "@/assets/hw-n3.jpeg.asset.json";
+import hwN4 from "@/assets/hw-n4.jpeg.asset.json";
+import hwN5 from "@/assets/hw-n5.jpeg.asset.json";
+import hwN6 from "@/assets/hw-n6.jpeg.asset.json";
+import hwN7 from "@/assets/hw-n7.jpg.asset.json";
+import hwN8 from "@/assets/hw-n8.jpg.asset.json";
+import hwN9 from "@/assets/hw-n9.jpeg.asset.json";
+import hwN10 from "@/assets/hw-n10.png.asset.json";
+
+const BATCH_N = [
+  {
+    id: "housewarming-white-gold-arch",
+    name: "Ivory & Gold Housewarming Arch Decor",
+    description: "An elegant fluted white arch board with a lush ivory, nude and chrome-gold balloon garland and baby's breath accents — perfect for a modern housewarming party photo corner.",
+    image: hwN4.url,
+    includes: ["Fluted white arch board with custom name print", "Ivory, nude & chrome gold balloon garland", "Baby's breath floral accents"],
+    rating: 4.8,
+    reviews: 74,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-new-home-new-blooms",
+    name: "New Home New Blooms Floral Arch Decor",
+    description: "A vibrant pink arch panel with 'New Home New Blooms' lettering, twin balloon cascades in pink, orange and yellow, fresh-look blooms and a matching half-moon 'New Beginnings' board.",
+    image: hwN5.url,
+    includes: ["Pink arch panel with custom lettering", "Pink, orange & yellow balloon cascade with florals", "Matching half-moon welcome board", "Greenery fillers & floor styling"],
+    rating: 4.9,
+    reviews: 118,
+    offer: 7499,
+    original: 9999,
+  },
+  {
+    id: "housewarming-home-sweet-home",
+    name: "Home Sweet Home White Balloon Decor",
+    description: "A clean all-white panel with 'Home Sweet Home' cut-out lettering, double organic balloon clusters, glow lights and eucalyptus leaf touches for a minimal, classy house warming setup.",
+    image: hwN6.url,
+    includes: ["White panel with Home Sweet Home cut-out lettering", "Organic white balloon clusters", "Warm glow lighting inside the setup", "Eucalyptus & gypsophila accents"],
+    rating: 4.8,
+    reviews: 66,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-kanku-pagla-entrance",
+    name: "Kanku Pagla Rangoli Entrance Decor",
+    description: "A traditional entrance setup with flower petal rangoli, brass kalash centre, heart foil balloons and rose-gold, white and gold balloon pillars on both sides of the main door, plus a customised welcome easel.",
+    image: hwN7.url,
+    includes: ["Fresh flower petal rangoli with brass kalash", "Rose gold, white & gold balloon pillars", "Heart foil balloon accents", "Customised welcome easel board"],
+    rating: 4.7,
+    reviews: 52,
+    offer: 2499,
+    original: 4999,
+  },
+  {
+    id: "housewarming-welcome-greenery-arch",
+    name: "Welcome Greenery Arch Housewarming Decor",
+    description: "A printed greenery 'Welcome' backdrop framed by a bold gold, rose-gold and white balloon arch with eucalyptus leaf styling — a warm indoor welcome for your new home.",
+    image: hwN8.url,
+    includes: ["Printed greenery Welcome backdrop panel", "Gold, rose gold & white balloon arch", "Eucalyptus leaf styling", "Pedestal styling beside the setup"],
+    rating: 4.8,
+    reviews: 81,
+    offer: 4999,
+    original: 7999,
+  },
+  {
+    id: "housewarming-welcome-easel-pastel",
+    name: "Pastel Welcome Easel Housewarming Decor",
+    description: "A charming budget setup with a customised 'Welcome to our New Home' easel board and a flowing blush pink, peach, white and gold balloon garland — ideal for small home celebrations.",
+    image: hwN9.url,
+    includes: ["Customised welcome easel board", "Blush pink, peach, white & gold balloon garland", "Easel stand & floor balloon cluster"],
+    rating: 4.7,
+    reviews: 44,
+    offer: 1999,
+    original: 2999,
+  },
+  {
+    id: "housewarming-grand-floral-doorway",
+    name: "Grand Fresh Floral Doorway Decor",
+    description: "A premium griha pravesh doorway fully covered in fresh roses, lilies, orchids and gypsophila with palm leaf detailing on the top valance and both pillars, finished with floor flower bases.",
+    image: hwN10.url,
+    includes: ["Full fresh flower doorway frame (top + both pillars)", "Roses, lilies, carnations & gypsophila mix", "Palm & foliage leaf detailing", "Floor flower base arrangements"],
+    rating: 4.9,
+    reviews: 137,
+    offer: 9999,
+    original: 14999,
+  },
+];
+
+const GALLERY_N = [hwN5.url, hwN2.url, hwN1.url, hwN3.url, hwN4.url, hwN6.url, hwN7.url, hwN8.url, hwN9.url, hwN10.url];
 
 export const Route = createFileRoute("/service/housewarming-decoration")({
   loader: () => {
@@ -17,10 +109,10 @@ export const Route = createFileRoute("/service/housewarming-decoration")({
   },
   head: () => ({
     meta: [
-      { title: `Housewarming Decoration in India | From ₹2,999 | Decorza Events` },
+      { title: `Housewarming Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Traditional rangoli, floral entrances, mango leaf torans and lamp setups for housewarming ceremonies. Book on WhatsApp.` },
       { property: "og:title", content: `Housewarming Decoration | Decorza Events` },
-      { property: "og:image", content: "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" },
+      { property: "og:image", content: hwN5.url },
     ],
     links: [{ rel: "canonical", href: "/service/housewarming-decoration" }],
   }),
@@ -30,14 +122,14 @@ export const Route = createFileRoute("/service/housewarming-decoration")({
 function ServicePage() {
   const { category: c } = Route.useLoaderData();
   const wa = waLink(waBookingMessage({ packageName: "Housewarming Decoration" }));
-  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Housewarming Decoration").slice(0, 6);
-  const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 6);
+  const reviews = REVIEWS.filter(([, , s]) => (s as string) === "Housewarming Decoration").slice(0, 12);
+  const displayReviews = reviews.length ? reviews : REVIEWS.slice(0, 12);
 
   return (
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" alt="Housewarming Decoration" className="h-full w-full object-cover" />
+          <img src={hwN5.url} alt="Housewarming Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -63,43 +155,58 @@ function ServicePage() {
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           <StaticPackageCard
             id="housewarming-decoration-essential"
-            name="Essential Housewarming Decoration"
-            description="A clean, photo-ready housewarming decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
-            image="/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            name="Essential Marigold Door Garland Decor"
+            description="A traditional griha pravesh door decoration with layered marigold and genda garlands draped across the frame, a white mogra centre valance and hanging flower bunches — just like the picture."
+            image={hwN1.url}
+            includes={["Layered orange & yellow marigold door garlands", "White mogra centre valance", "Hanging flower bunches & side pillars", "Coconut & flower floor accents"]}
             rating={4.7}
             reviews={83}
-            offer={<>₹8,999</>}
-            original={<>₹10,499</>}
-            discountPct={14}
+            offer={<>₹4,999</>}
+            original={<>₹8,499</>}
+            discountPct={41}
             bestSeller={false}
           />
           <StaticPackageCard
             id="housewarming-decoration-premium"
-            name="Premium Housewarming Decoration"
-            description="An upgraded housewarming decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
-            image="/1e631830-5a03-4c62-9230-c36bba689802.png"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            name="Premium Floral Pravesh Entrance Decor"
+            description="A designer entrance with a dense pastel carnation and rose top valance, long marigold and mogra hanging strings on both sides and matching brass urn flower arrangements at the doorstep."
+            image={hwN2.url}
+            includes={["Pastel carnation & rose top valance", "Long marigold and mogra hanging strings", "Twin brass urn floral arrangements", "Foliage & leaf detailing"]}
             rating={4.8}
             reviews={116}
-            offer={<>₹6,999</>}
-            original={<>₹12,500</>}
-            discountPct={44}
-            bestSeller={false}
+            offer={<>₹8,499</>}
+            original={<>₹11,999</>}
+            discountPct={29}
+            bestSeller={true}
           />
           <StaticPackageCard
             id="housewarming-decoration-luxury"
-            name="Luxury Housewarming Decoration"
-            description="A full luxury housewarming decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
-            image="/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            name="Luxury Blue & Silver Housewarming Party Decor"
+            description="A grand housewarming party stage with a customised printed floral backdrop and big blue, white, silver chrome balloon clusters on both sides, styled with floor balloon pools."
+            image={hwN3.url}
+            includes={["Customised printed housewarming backdrop", "Blue, white & silver chrome balloon clusters", "Floor balloon pool styling", "Full setup & on-site installation"]}
             rating={4.7}
             reviews={193}
-            offer={<>₹6,598</>}
-            original={<>₹9,997</>}
-            discountPct={34}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
+          {BATCH_N.map((p) => (
+            <StaticPackageCard
+              key={p.id}
+              id={p.id}
+              name={p.name}
+              description={p.description}
+              image={p.image}
+              includes={p.includes}
+              rating={p.rating}
+              reviews={p.reviews}
+              offer={<>₹{p.offer.toLocaleString("en-IN")}</>}
+              original={<>₹{p.original.toLocaleString("en-IN")}</>}
+              discountPct={Math.round((1 - p.offer / p.original) * 100)}
+            />
+          ))}
         </div>
       </section>
 
@@ -114,6 +221,9 @@ function ServicePage() {
             <img src="/haldi-ring-decoration.png" alt="Housewarming Decoration 5" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/f584ba38-470f-4d64-944f-2383546039a1.jpg" alt="Housewarming Decoration 6" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
             <img src="/dac76f89-052b-49b0-bb30-830bf52781b7.jpg" alt="Housewarming Decoration 7" loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            {GALLERY_N.map((src, i) => (
+              <img key={src} src={src} alt={`Housewarming Decoration ${i + 8}`} loading="lazy" className="aspect-[4/3] w-full rounded-xl object-cover transition-transform hover:scale-[1.02]" />
+            ))}
           </div>
         </div>
       </section>
