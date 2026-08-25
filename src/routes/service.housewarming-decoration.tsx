@@ -109,10 +109,10 @@ export const Route = createFileRoute("/service/housewarming-decoration")({
   },
   head: () => ({
     meta: [
-      { title: `Housewarming Decoration in India | From ₹2,999 | Decorza Events` },
+      { title: `Housewarming Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Traditional rangoli, floral entrances, mango leaf torans and lamp setups for housewarming ceremonies. Book on WhatsApp.` },
       { property: "og:title", content: `Housewarming Decoration | Decorza Events` },
-      { property: "og:image", content: "/6633b342-e24c-4d6b-9ea0-7bef49f66141.jpg" },
+      { property: "og:image", content: hwN5.url },
     ],
     links: [{ rel: "canonical", href: "/service/housewarming-decoration" }],
   }),
