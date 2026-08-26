@@ -403,9 +403,9 @@ function ServicePage() {
             includes={["Jungle balloon arch with animal foil balloons", "Personalised name banner backdrop", "Gold foil number column with cylinder pedestal"]}
             rating={4.9}
             reviews={528}
-            offer={<>₹3,999</>}
-            original={<>₹6,999</>}
-            discountPct={43}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
