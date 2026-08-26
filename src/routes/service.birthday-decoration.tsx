@@ -377,8 +377,8 @@ function ServicePage() {
             includes={["Shimmer sequin wall + neon sign", "Pastel + gold chrome balloon arch", "Cocomelon character cutouts & marquee number"]}
             rating={4.800000000000001}
             reviews={1432}
-            offer={<>₹5,999</>}
-            original={<>₹8,999</>}
+            offer={<>₹6999</>}
+            original={<>₹9999</>}
             discountPct={33}
             bestSeller={false}
           />
