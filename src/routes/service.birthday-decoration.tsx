@@ -1066,9 +1066,9 @@ function ServicePage() {
             includes={["Purple, lilac, white & silver chrome frame", "Silver foil curtain + Happy Birthday bunting", "Chrome purple foil '7' side column"]}
             rating={4.8}
             reviews={142}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
