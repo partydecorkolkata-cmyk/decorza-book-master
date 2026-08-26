@@ -1508,7 +1508,7 @@ function ServicePage() {
             includes={["Pink, lilac, peach & gold chrome balloon ring + butterflies", "Gold foil-fringe curtain + neon Happy Birthday sign", "Marquee number 1 + personalised light-up name letters"]}
             rating={5.0}
             reviews={218}
-            offer={<>₹,4999</>}
+            offer={<>₹4,999</>}
             original={<>₹6,999</>}
             discountPct={30}
             bestSeller={true}
