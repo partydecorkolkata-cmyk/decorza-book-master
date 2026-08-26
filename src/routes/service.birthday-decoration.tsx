@@ -1599,9 +1599,9 @@ function ServicePage() {
             includes={["Custom hot pink chiara arch with personalised name vinyl", "Pastel pink, yellow, confetti & rose gold balloon garland", "Greenery accents + 2 warm ground spotlights"]}
             rating={5.0}
             reviews={241}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹5,999</>}
+            original={<>₹7999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
