@@ -1469,9 +1469,9 @@ function ServicePage() {
             includes={["Personalised purple backdrop + butterfly accents", "Purple, lilac, pink & rose gold chrome balloon garland", "Cherry-blossom florals + metal flower stand balloon column"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
