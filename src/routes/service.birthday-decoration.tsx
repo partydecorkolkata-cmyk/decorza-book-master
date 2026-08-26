@@ -1326,9 +1326,9 @@ function ServicePage() {
             includes={["Pink, lilac, peach & gold balloon garland", "Golden butterfly cutouts + Happy Birthday banner", "Pink shimmer foil-fringe curtain backdrop"]}
             rating={4.8}
             reviews={196}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹3,499</>}
-            discountPct={43}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
