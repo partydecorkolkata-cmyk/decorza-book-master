@@ -494,9 +494,9 @@ function ServicePage() {
             includes={["Custom 40 Look Good printed arch panel", "Ivory, sage & beige luxe balloon garland", "Pampas floral cluster + blush cylinder pedestals"]}
             rating={5}
             reviews={163}
-            offer={<>₹6,999</>}
-            original={<>₹9,999</>}
-            discountPct={30}
+            offer={<>₹9999</>}
+            original={<>₹14999</>}
+            discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
