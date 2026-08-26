@@ -559,8 +559,8 @@ function ServicePage() {
             includes={["Personalised Happy 60th Birthday arch backdrop", "Ivory, white, gold & blush balloon garland with leaves", "Giant LED marquee 60 numbers"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5999</>}
+            original={<>₹7999</>}
             discountPct={25}
             bestSeller={false}
           />
