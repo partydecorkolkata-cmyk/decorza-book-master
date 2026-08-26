@@ -520,9 +520,9 @@ function ServicePage() {
             includes={["Happy 70th Birthday calligraphy backdrop", "Black, white, silver chrome & bobo balloon garland", "Designer black bow motif accent"]}
             rating={4.9}
             reviews={216}
-            offer={<>₹3,999</>}
-            original={<>₹5,999</>}
-            discountPct={33}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
