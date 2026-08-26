@@ -379,7 +379,7 @@ function ServicePage() {
             reviews={1432}
             offer={<>₹6999</>}
             original={<>₹9999</>}
-            discountPct={33}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -390,9 +390,9 @@ function ServicePage() {
             includes={["Pastel ring balloon garland with rose & palm accents", "Shimmer curtain + Happy Birthday neon sign", "Personalised LED marquee name letters"]}
             rating={4.9}
             reviews={412}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
