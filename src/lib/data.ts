@@ -11,6 +11,7 @@ import hwN1 from "@/assets/hw-n1.jpeg.asset.json";
 import hwN2 from "@/assets/hw-n2.jpeg.asset.json";
 import hwN3 from "@/assets/hw-n3.jpeg.asset.json";
 import hwN10 from "@/assets/hw-n10.png.asset.json";
+import mehendiCover from "@/assets/meh-cover-rajasthani-umbrellas.jpeg.asset.json";
 
 const img = (id: string, w = 1200) =>
   id.startsWith("/") || id.startsWith("http") ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
@@ -108,7 +109,7 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
   "baby-shower-decoration": ["/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg", "/38135b41-25f2-4c2f-a08f-cac6575c3b12.jpg", "/6fec18e9-7b78-42b6-9764-cbb3037878e1.jpg", "/cefa309d-aa34-467c-aa1d-a6503bc509a8.webp", "/611a101e-21ad-44d4-b9df-2995798cd982.jpg", "/3e650746-51ce-4c70-bbab-c733c2f8b532.jpg", "/b3318de7-5a76-4dad-b0f6-4f752365071d.jpg"],
   "engagement-decoration": [engR10.url, "/bd0376ae-9b5b-4709-b15a-e12b400d023d.png", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/092f68ee-d169-404c-97de-a830bbd7c3e2.jpg", "/dc25d543-a4c2-4658-82c6-c01a06faf17a.jpg", "/bae35f06-2535-4318-982f-fe6bdb55f651.jpg", "/52c60fcc-e74c-44a6-bc41-839070781d6b.png", "/e91b4943-ba81-4542-aefe-adaf303d70b5.png", "/387c0a1f-1f20-432b-b58b-2993981a54b9.jpg", "/96ca5637-e2c0-441b-9518-18461f2248e7.jpg"],
   "haldi-decoration": [haldiQ10Cover.url, "/75e0da81-49b9-4d14-b41f-16c2c0751359.jpg", "/haldi-ring-decoration.png", "/ac57fefc-1c84-403f-ba4d-264bd4c0948e.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png", "/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/f0430936-2c24-4bc9-b390-1c2e533e7ec4.jpg", "/6774f332-8168-4bc0-bfa4-53c82b9ea5b1.jpg", "/46cb56f9-f2ef-4246-9575-b3ddfc0147b9.jpg", "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg", "/abe2c18c-0300-48e2-b4ca-652e95789ac2.png"],
-  "mehendi-decoration": ["/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
+  "mehendi-decoration": [mehendiCover.url, "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg", "/f3443506-ae43-4c2b-a1b0-8bf5c9cfa542.jpg", "/3b9eaec6-1f96-432f-af2d-1c0c14a2be84.jpg", "/dac76f89-052b-49b0-bb30-830bf52781b7.jpg"],
   "housewarming-decoration": [hwN5Cover.url, hwN2.url, hwN1.url, hwN3.url, hwN10.url],
   "bachelorette-decoration": ["/__l5e/assets-v1/0b70ae51-cd5f-41f3-815e-265b7c5a2f0f/bach-cover.jpg", "/__l5e/assets-v1/079ea744-b96b-41cc-8f90-38897fb6dff8/bach-b1.jpg", "/__l5e/assets-v1/abc1c317-8be6-42c7-a597-2ad901f76a52/bach-b2.webp", "/__l5e/assets-v1/9cb79582-2368-49a8-9c63-2879254d613c/bach-b3.jpg"],
 };
@@ -119,7 +120,7 @@ const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
   "baby-shower-decoration": 1999,
   "haldi-decoration": 4999,
   "bachelorette-decoration": 1999,
-  "housewarming-decoration": 1999,
+  "housewarming-decoration": 4999,
 };
 
 const RESTORED_PACKAGE_PRICES: Record<string, { original: number; offer: number }[]> = {
@@ -266,7 +267,7 @@ export const CATEGORIES: Category[] = ([
     faqs: baseFaqs("Haldi Decoration") },
   { slug: "mehendi-decoration", name: "Mehendi Decoration", short: "Boho mehendi backdrops & seating",
     description: "Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor.",
-    hero: "/__l5e/assets-v1/4ead4b22-cfd8-4b69-8515-02e127cb9942/meh-cover-rajasthani-umbrellas.jpeg", gallery: pick(TRADITIONAL_DECOR),
+    hero: mehendiCover.url, gallery: pick(TRADITIONAL_DECOR),
     rating: 4.8, reviews: 430, startsAt: 4499, popular: true,
     faqs: baseFaqs("Mehendi Decoration") },
   { slug: "bachelorette-decoration", name: "Bachelorette Decoration", short: "Glam bachelorette & bridal showers",
@@ -277,7 +278,7 @@ export const CATEGORIES: Category[] = ([
   { slug: "housewarming-decoration", name: "Housewarming Decoration", short: "Griha pravesh decor done right",
     description: "Traditional rangoli, floral entrances, mango leaf torans and lamp setups for housewarming ceremonies.",
     hero: img(TRADITIONAL_DECOR[2]), gallery: pick(TRADITIONAL_DECOR),
-    rating: 4.8, reviews: 290, startsAt: 2999,
+    rating: 4.8, reviews: 290, startsAt: 4999,
     faqs: baseFaqs("Housewarming Decoration") },
 ]).map((category) => {
   const gallery = RESTORED_CATEGORY_IMAGES[category.slug];
