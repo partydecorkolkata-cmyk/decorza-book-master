@@ -1027,8 +1027,8 @@ function ServicePage() {
             includes={["Balloon ring + veil drape backdrop", "Hot pink, blush & gold chrome garland", "Happy Birthday neon + marquee '60' numbers"]}
             rating={4.9}
             reviews={205}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4499</>}
+            original={<>₹6499</>}
             discountPct={30}
             bestSeller={false}
           />
