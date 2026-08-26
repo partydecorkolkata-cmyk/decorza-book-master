@@ -702,9 +702,9 @@ function ServicePage() {
             includes={["Personalised CoComelon arched backdrop", "Blue, ivory & sand balloon garland + bobo balloons", "JJ standee + cloud cutouts + rainbow side prop"]}
             rating={4.9}
             reviews={321}
-            offer={<>₹8,999</>}
-            original={<>₹12,999</>}
-            discountPct={31}
+            offer={<>₹14,999</>}
+            original={<>₹19999</>}
+            discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
