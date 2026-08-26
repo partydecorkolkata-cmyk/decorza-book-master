@@ -767,9 +767,9 @@ function ServicePage() {
             includes={["Elsa printed round backdrop + balloon arch", "Life-size Elsa & Anna cutouts + Olaf pedestal", "Pastel balloon pillars + personalised marquee name letters"]}
             rating={4.9}
             reviews={304}
-            offer={<>₹4,999</>}
-            original={<>₹8,999</>}
-            discountPct={44}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
