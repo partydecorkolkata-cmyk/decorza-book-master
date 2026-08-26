@@ -1391,9 +1391,9 @@ function ServicePage() {
             includes={["Black & gold ceiling balloon canopy with ribbons", "'HAPPY BIRTHDAY' foil + giant gold foil 23", "Black & gold balloon column + bed scatter"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
