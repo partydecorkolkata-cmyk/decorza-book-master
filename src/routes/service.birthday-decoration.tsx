@@ -923,9 +923,9 @@ function ServicePage() {
             includes={["Black arch + Happy Birthday yellow neon", "Black, silver & white chrome balloon garland", "Disco ball balloons + starburst foils & satin bows"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹6999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
