@@ -351,7 +351,7 @@ function ServicePage() {
             includes={["Blue, white & silver balloon frame", "Personalised name & age foil balloons", "Shimmer curtain + Happy Birthday bunting"]}
             rating={4.800000000000001}
             reviews={614}
-            offer={<>₹1,999</>}
+            offer={<>₹2499</>}
             original={<>₹3,999</>}
             discountPct={50}
             bestSeller={false}
