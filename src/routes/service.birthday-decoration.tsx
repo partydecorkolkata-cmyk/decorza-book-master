@@ -1183,7 +1183,7 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB 15' foil text", "Royal blue, sky blue, white & silver chrome arch", "Matching balloon column + ceiling bouquets"]}
             rating={4.8}
             reviews={188}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
             discountPct={33}
             bestSeller={false}
