@@ -1378,9 +1378,9 @@ function ServicePage() {
             includes={["Gold + black ceiling balloons with curling ribbons", "'HAPPY BIRTHDAY HUBBY' foil + age number balloons", "Red rose-petal table arrangement"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹1,699</>}
+            offer={<>₹1,999</>}
             original={<>₹2,999</>}
-            discountPct={43}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
