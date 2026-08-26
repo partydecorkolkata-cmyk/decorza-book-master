@@ -637,8 +637,8 @@ function ServicePage() {
             includes={["Blue, white & chrome silver moon ring arch", "Happy Birthday neon + teal chiffon drape", "Gold palm fans + pink & ivory floral garland"]}
             rating={4.800000000000001}
             reviews={356}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4999</>}
+            original={<>₹6,999</>}
             discountPct={30}
             bestSeller={false}
           />
