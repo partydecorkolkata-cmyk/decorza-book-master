@@ -1157,9 +1157,9 @@ function ServicePage() {
             includes={["Silver foil curtain + organic balloon arch", "Navy, white & chrome gold + star foils", "Gold foil '12' on twin balloon columns"]}
             rating={4.9}
             reviews={196}
-            offer={<>₹2,199</>}
+            offer={<>₹2,499</>}
             original={<>₹3,499</>}
-            discountPct={37}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
