@@ -507,9 +507,9 @@ function ServicePage() {
             includes={["Gold, black & silver ring balloon arch", "Happy Birthday neon sign + confetti balloons", "Gold foil 40 number balloons + cake pedestal"]}
             rating={4.9}
             reviews={387}
-            offer={<>₹2,999</>}
+            offer={<>₹3499</>}
             original={<>₹4,999</>}
-            discountPct={40}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
