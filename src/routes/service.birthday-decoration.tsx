@@ -624,9 +624,9 @@ function ServicePage() {
             includes={["Personalised Cars themed arched backdrop", "Red, baby blue, black & checkered balloon garland", "Lightning McQueen + tyre foil + LED marquee 6"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹3,999</>}
-            original={<>₹5,999</>}
-            discountPct={33}
+            offer={<>₹4,999</>}
+            original={<>₹7999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
