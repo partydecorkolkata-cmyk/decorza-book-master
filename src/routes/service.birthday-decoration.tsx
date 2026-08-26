@@ -1534,8 +1534,8 @@ function ServicePage() {
             includes={["Purple, lilac, chrome & white ombre balloon ring", "Silver foil-fringe curtain + neon Happy Birthday sign", "2 fairy princess cutouts + wrapped purple cake plinth"]}
             rating={4.9}
             reviews={183}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4,499</>}
+            original={<>₹6999</>}
             discountPct={30}
             bestSeller={false}
           />
