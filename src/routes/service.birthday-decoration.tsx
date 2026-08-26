@@ -364,8 +364,8 @@ function ServicePage() {
             includes={["Chrome blue & white ring balloon arch", "Happy Birthday neon sign", "Light-up marquee number + confetti balloons"]}
             rating={4.9}
             reviews={859}
-             offer={<>₹3999</>}
-            original={<>₹5999</>}
+             offer={<>₹3499</>}
+            original={<>₹4999</>}
              discountPct={33}
             bestSeller={true}
           />
