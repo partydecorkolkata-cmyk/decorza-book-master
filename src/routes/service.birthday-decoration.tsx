@@ -754,9 +754,9 @@ function ServicePage() {
             includes={["Twin galaxy & starry arched backdrop with name", "Navy, orange, silver & ivory balloon garland", "Astronaut + planet cutouts, rocket pedestals & marquee '5'"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹8,499</>}
-            original={<>₹9,999</>}
-            discountPct={15}
+            offer={<>₹14,999</>}
+            original={<>₹19,999</>}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
