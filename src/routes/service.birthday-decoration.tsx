@@ -738,12 +738,12 @@ function ServicePage() {
             name="22nd Birthday Gold & White Ring"
             description="A romantic outdoor 22nd birthday surprise with a gold and white balloon ring backdrop, fresh pink and yellow rose accents, a 'Happy Birthday' warm neon sign, a personalised 'Wife' neon side prop, a gold balloon pillar and giant marquee '22' light-up numbers."
             image={pkg22ndWifeGold.url}
-            includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon + 'Wife' neon side prop", "Gold balloon pillar + marquee '22' numbers"]}
+            includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon", "Gold balloon pillar + marquee '22' numbers"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹3,499</>}
-            original={<>₹5,999</>}
-            discountPct={42}
+            offer={<>₹,4499</>}
+            original={<>₹6,999</>}
+            discountPct={36}
             bestSeller={true}
           />
           <StaticPackageCard
