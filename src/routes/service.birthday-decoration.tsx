@@ -1170,9 +1170,9 @@ function ServicePage() {
             includes={["Navy, chrome gold & pearl white organic arch", "Gold 'Happy Birthday' foil banner", "Floating navy, gold & white ceiling balloons"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹2,199</>}
+            offer={<>₹2,499</>}
             original={<>₹3,499</>}
-            discountPct={37}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
