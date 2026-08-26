@@ -793,9 +793,9 @@ function ServicePage() {
             includes={["8x8 silver sequin shimmer wall + Happy Birthday neon", "Chrome silver, white & pearl balloon garland", "Hanging disco balls + silver starburst foil props"]}
             rating={4.9}
             reviews={212}
-            offer={<>₹6,499</>}
+            offer={<>₹6,999</>}
             original={<>₹9,999</>}
-            discountPct={35}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -819,9 +819,9 @@ function ServicePage() {
             includes={["Gold sequin shimmer wall + Happy Birthday neon", "Black, white & gold balloon garland with foil orbz", "Warm fairy lights + draped cake table setup"]}
             rating={4.9}
             reviews={278}
-            offer={<>₹6,499</>}
+            offer={<>₹6,999</>}
             original={<>₹9,999</>}
-            discountPct={35}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
