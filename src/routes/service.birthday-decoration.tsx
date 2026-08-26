@@ -1365,9 +1365,9 @@ function ServicePage() {
             includes={["Black, white & silver confetti balloon arch", "Sheer white drape + warm fairy-light curtain", "Cursive 'Happy Birthday' banner"]}
             rating={4.9}
             reviews={203}
-            offer={<>₹2,299</>}
-            original={<>₹3,499</>}
-            discountPct={34}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
+            discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
