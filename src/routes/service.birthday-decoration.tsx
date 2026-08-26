@@ -1287,9 +1287,9 @@ function ServicePage() {
             includes={["Purple, lilac, teal & white organic balloon arch", "Ariel cutout + mermaid tail foil + pink star foils", "Purple shimmer curtain + Happy Birthday banner"]}
             rating={4.9}
             reviews={182}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
+            discountPct={26}
             bestSeller={false}
           />
           <StaticPackageCard
