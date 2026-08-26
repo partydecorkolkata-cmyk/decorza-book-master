@@ -1118,9 +1118,9 @@ function ServicePage() {
             includes={["Rose gold foil curtain + chrome balloon arch", "Rose gold star foils + Happy Birthday banner", "Rose gold SAANVI 11 name & number balloons"]}
             rating={4.9}
             reviews={211}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
+            discountPct={26}
             bestSeller={true}
           />
           <StaticPackageCard
