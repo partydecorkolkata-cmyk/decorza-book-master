@@ -429,9 +429,9 @@ function ServicePage() {
             includes={["Chrome gold + white balloon arch on black panel", "Giant gold foil 50 number balloons", "Matching balloon columns with star toppers"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹4,499</>}
+            offer={<>₹4,999</>}
             original={<>₹7,999</>}
-            discountPct={44}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
