@@ -936,8 +936,8 @@ function ServicePage() {
             includes={["Ivory personalised arch backdrop", "Gold, black & white balloon garland + pampas", "Twin gold balloon columns + cake table"]}
             rating={4.9}
             reviews={156}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={false}
           />
