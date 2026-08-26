@@ -650,9 +650,9 @@ function ServicePage() {
             includes={["Rainbow balloon arch + JJ & watermelon cutouts", "Personalised CoComelon name backdrop", "Marquee number + star foil balloon"]}
             rating={4.9}
             reviews={412}
-            offer={<>₹3,999</>}
-            original={<>₹5,999</>}
-            discountPct={33}
+            offer={<>₹4,999</>}
+            original={<>₹7999</>}
+            discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
