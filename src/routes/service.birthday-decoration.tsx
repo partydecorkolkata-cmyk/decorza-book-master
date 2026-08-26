@@ -1352,9 +1352,9 @@ function ServicePage() {
             includes={["Purple, blue, lilac & silver chrome arch", "Gold 'HAPPY BIRTHDAY' foil + balloon flowers", "Gold foil-fringe curtain backdrop"]}
             rating={4.9}
             reviews={172}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹3,499</>}
-            discountPct={43}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
