@@ -353,7 +353,7 @@ function ServicePage() {
             reviews={614}
             offer={<>₹2499</>}
             original={<>₹3,999</>}
-            discountPct={50}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
