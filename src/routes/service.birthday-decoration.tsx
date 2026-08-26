@@ -1482,9 +1482,9 @@ function ServicePage() {
             includes={["Personalised peach arch backdrop + paper butterflies", "Coral, peach, lilac & rose gold chrome balloon garland", "Giant pastel butterfly foil + daisies + fairy lights"]}
             rating={5.0}
             reviews={234}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹6,999</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
