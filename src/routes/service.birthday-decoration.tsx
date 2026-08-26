@@ -1456,9 +1456,9 @@ function ServicePage() {
             includes={["Tall pastel lilac arch backdrop with crown text print", "Pink, lilac, white & rose gold luxe balloon garland + florals", "Acrylic cake plinth + balloon cluster base"]}
             rating={5.0}
             reviews={211}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹6999</>}
+            discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
