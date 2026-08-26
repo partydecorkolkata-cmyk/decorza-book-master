@@ -1339,9 +1339,9 @@ function ServicePage() {
             includes={["Personalised gold 'Happy Birthday <Name>' foil", "2 yellow, white & silver balloon columns", "Rose gold star foils + silver fringe curtain"]}
             rating={4.8}
             reviews={148}
-            offer={<>₹1,699</>}
+            offer={<>₹1,999</>}
             original={<>₹2,999</>}
-            discountPct={43}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
