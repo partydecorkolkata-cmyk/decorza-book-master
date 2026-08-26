@@ -897,9 +897,9 @@ function ServicePage() {
             includes={["Ivory backdrop + Happy Birthday neon sign", "Black, gold & white organic balloon arch", "Pampas accents + wooden cake stool & marquee '37'"]}
             rating={4.9}
             reviews={167}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={29}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
