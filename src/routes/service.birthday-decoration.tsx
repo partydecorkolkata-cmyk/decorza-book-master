@@ -1495,7 +1495,7 @@ function ServicePage() {
             includes={["Multicolor pastel + gold chrome balloon ring garland", "Neon Happy Birthday heart sign + paper butterflies", "Marquee number 1 + cocktail cake table cluster"]}
             rating={4.9}
             reviews={205}
-            offer={<>₹3,999</>}
+            offer={<>₹4,499</>}
             original={<>₹5,999</>}
             discountPct={30}
             bestSeller={true}
