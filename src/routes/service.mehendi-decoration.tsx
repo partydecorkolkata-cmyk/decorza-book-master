@@ -298,7 +298,7 @@ export const Route = createFileRoute("/service/mehendi-decoration")({
       { title: `Mehendi Decoration in India | From ₹4,499 | Decorza Events` },
       { name: "description", content: `Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor. Book on WhatsApp.` },
       { property: "og:title", content: `Mehendi Decoration | Decorza Events` },
-      { property: "og:image", content: "/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg" },
+      { property: "og:image", content: "/__l5e/assets-v1/4ead4b22-cfd8-4b69-8515-02e127cb9942/meh-cover-rajasthani-umbrellas.jpeg" },
     ],
     links: [{ rel: "canonical", href: "/service/mehendi-decoration" }],
   }),
@@ -315,7 +315,7 @@ function ServicePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/ddbbe21d-b302-41b1-b540-d96886f6934a.jpg" alt="Mehendi Decoration" className="h-full w-full object-cover" />
+          <img src="/__l5e/assets-v1/4ead4b22-cfd8-4b69-8515-02e127cb9942/meh-cover-rajasthani-umbrellas.jpeg" alt="Mehendi Decoration" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/90 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
