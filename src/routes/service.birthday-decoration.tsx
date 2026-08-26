@@ -988,9 +988,9 @@ function ServicePage() {
             includes={["Personalised Berry First arch backdrop", "Red & pink balloon garland + strawberry foils", "Leafy vines + rose accents & marquee '1'"]}
             rating={4.9}
             reviews={176}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹6,499</>}
+            discountPct={31}
             bestSeller={false}
           />
           <StaticPackageCard
