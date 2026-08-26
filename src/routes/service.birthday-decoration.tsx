@@ -1521,8 +1521,8 @@ function ServicePage() {
             includes={["Sage green, white & gold chrome jungle balloon arch", "Tiger, zebra & giraffe character foil balloons", "Neon Happy Birthday + marquee number 1 + jungle columns"]}
             rating={4.9}
             reviews={196}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
             discountPct={30}
             bestSeller={false}
           />
