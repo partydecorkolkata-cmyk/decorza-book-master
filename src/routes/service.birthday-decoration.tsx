@@ -611,9 +611,9 @@ function ServicePage() {
             includes={["Gold sequin shimmer wall + Happy Birthday neon", "Hot pink, blush, white & gold organic balloon arch", "4D gold orb balloons + cone star foil & palm fans"]}
             rating={4.9}
             reviews={612}
-            offer={<>₹6,499</>}
+            offer={<>₹6,999</>}
             original={<>₹9,999</>}
-            discountPct={35}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
