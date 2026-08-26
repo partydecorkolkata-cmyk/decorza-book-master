@@ -1131,9 +1131,9 @@ function ServicePage() {
             includes={["Silver foil curtain backdrop", "Purple, lilac, silver chrome & white arch", "Chrome HAPPY BIRTHDAY foil + giant '18'"]}
             rating={4.9}
             reviews={183}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
