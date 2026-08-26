@@ -585,7 +585,7 @@ function ServicePage() {
             includes={["Rose gold & white ring balloon arch", "Butterfly cutouts + Happy Birthday neon", "Champagne foil + gold marble pedestal table"]}
             rating={4.9}
             reviews={418}
-            offer={<>₹3,999</>}
+            offer={<>₹4499</>}
             original={<>₹5,999</>}
             discountPct={34}
             bestSeller={true}
@@ -717,7 +717,7 @@ function ServicePage() {
             reviews={176}
             offer={<>₹,3999</>}
             original={<>₹5,999</>}
-            discountPct={33}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
