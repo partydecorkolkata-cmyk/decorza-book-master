@@ -1040,9 +1040,9 @@ function ServicePage() {
             includes={["Pink, white & chrome gold balloon frame", "Silver foil curtain + Happy Birthday banner", "Rose gold name balloons + foil age number"]}
             rating={4.9}
             reviews={188}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹1999</>}
+            original={<>₹2,899</>}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
