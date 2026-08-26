@@ -962,9 +962,9 @@ function ServicePage() {
             includes={["Personalised CoComelon bus arch backdrop", "Blue, yellow & orange balloon column + bobos", "Bus & car cutouts + marquee '3' light-up number"]}
             rating={4.9}
             reviews={148}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
