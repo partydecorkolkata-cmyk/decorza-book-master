@@ -845,9 +845,9 @@ function ServicePage() {
             includes={["Gold sequin wall + Happy Birthday neon sign", "White & gold chrome organic balloon arch", "Pampas floral accent + marquee '30' numbers"]}
             rating={4.9}
             reviews={246}
-            offer={<>₹6,499</>}
-            original={<>₹9,999</>}
-            discountPct={35}
+            offer={<>₹7999</>}
+            original={<>₹11999</>}
+            discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
