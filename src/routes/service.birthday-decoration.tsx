@@ -1404,8 +1404,8 @@ function ServicePage() {
             includes={["Tall gold, silver & white balloon double-column arch", "Gold foil-fringe curtain centre panel + 2 star foils", "Personalised giant gold 'Name' balloon letters"]}
             rating={5.0}
             reviews={158}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
             discountPct={29}
             bestSeller={true}
           />
@@ -1432,7 +1432,7 @@ function ServicePage() {
             reviews={198}
             offer={<>₹3,499</>}
             original={<>₹4,999</>}
-            discountPct={30}
+            discountPct={26}
             bestSeller={false}
           />
           <StaticPackageCard
