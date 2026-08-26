@@ -1092,7 +1092,7 @@ function ServicePage() {
             includes={["Silver foil curtain + organic balloon garland", "Purple star foils + Happy Birthday bunting", "Chrome purple MANAV 15 name & number balloons"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹2,499</>}
+            offer={<>₹2,999</>}
             original={<>₹3,499</>}
             discountPct={30}
             bestSeller={true}
@@ -1302,7 +1302,7 @@ function ServicePage() {
             reviews={214}
             offer={<>₹2,499</>}
             original={<>₹3,999</>}
-            discountPct={38}
+            discountPct={26}
             bestSeller={true}
           />
           <StaticPackageCard
