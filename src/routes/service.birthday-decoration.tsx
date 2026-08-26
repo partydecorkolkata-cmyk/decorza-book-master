@@ -728,9 +728,9 @@ function ServicePage() {
             includes={["Pastel blue, white & rose gold balloon ring", "Happy Birthday neon + palm fronds", "Champagne foil + silver foil '18' numbers + floor balloons"]}
             rating={4.8}
             reviews={213}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
