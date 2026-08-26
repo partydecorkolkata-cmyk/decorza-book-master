@@ -481,8 +481,8 @@ function ServicePage() {
             includes={["Round ring frame with gold & white balloon garland", "Happy Birthday neon sign + silver star foil", "Scattered floor balloons accent"]}
             rating={4.800000000000001}
             reviews={476}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4499</>}
+            original={<>₹6499</>}
             discountPct={30}
             bestSeller={false}
           />
@@ -1027,8 +1027,8 @@ function ServicePage() {
             includes={["Balloon ring + veil drape backdrop", "Hot pink, blush & gold chrome garland", "Happy Birthday neon + marquee '60' numbers"]}
             rating={4.9}
             reviews={205}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4499</>}
+            original={<>₹6499</>}
             discountPct={30}
             bestSeller={false}
           />
