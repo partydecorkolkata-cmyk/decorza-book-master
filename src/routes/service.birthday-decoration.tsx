@@ -1417,8 +1417,8 @@ function ServicePage() {
             includes={["All-white cloud balloon arch + blush & clear bobo accents", "3 oversized rose pink satin bows + personalised acrylic backdrop", "Neon number 1 + fluted white pedestal plinth with pink bow"]}
             rating={5.0}
             reviews={246}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={true}
           />
