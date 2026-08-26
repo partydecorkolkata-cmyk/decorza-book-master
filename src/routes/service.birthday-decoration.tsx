@@ -546,9 +546,9 @@ function ServicePage() {
             includes={["Cheers To 23 white arch backdrop", "Navy, ivory & rose gold chrome balloon garland", "Pampas grass + matching side pedestal cluster"]}
             rating={4.9}
             reviews={278}
-            offer={<>₹4,299</>}
-            original={<>₹5,999</>}
-            discountPct={28}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
