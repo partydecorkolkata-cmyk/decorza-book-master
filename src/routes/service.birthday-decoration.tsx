@@ -1118,9 +1118,9 @@ function ServicePage() {
             includes={["Rose gold foil curtain + chrome balloon arch", "Rose gold star foils + Happy Birthday banner", "Rose gold SAANVI 11 name & number balloons"]}
             rating={4.9}
             reviews={211}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
+            discountPct={26}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1157,9 +1157,9 @@ function ServicePage() {
             includes={["Silver foil curtain + organic balloon arch", "Navy, white & chrome gold + star foils", "Gold foil '12' on twin balloon columns"]}
             rating={4.9}
             reviews={196}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
+            discountPct={26}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1287,9 +1287,9 @@ function ServicePage() {
             includes={["Purple, lilac, teal & white organic balloon arch", "Ariel cutout + mermaid tail foil + pink star foils", "Purple shimmer curtain + Happy Birthday banner"]}
             rating={4.9}
             reviews={182}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
+            discountPct={26}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1404,8 +1404,8 @@ function ServicePage() {
             includes={["Tall gold, silver & white balloon double-column arch", "Gold foil-fringe curtain centre panel + 2 star foils", "Personalised giant gold 'Name' balloon letters"]}
             rating={5.0}
             reviews={158}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
+            offer={<>₹2,999</>}
+            original={<>₹3,999</>}
             discountPct={29}
             bestSeller={true}
           />
@@ -1432,7 +1432,7 @@ function ServicePage() {
             reviews={198}
             offer={<>₹3,499</>}
             original={<>₹4,999</>}
-            discountPct={30}
+            discountPct={26}
             bestSeller={false}
           />
           <StaticPackageCard
