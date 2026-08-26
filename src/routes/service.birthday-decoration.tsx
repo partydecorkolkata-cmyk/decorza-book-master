@@ -1222,9 +1222,9 @@ function ServicePage() {
             includes={["Navy, gold, silver & white balloon frame", "Silver foil curtain + Happy Birthday bunting", "Personalised gold name + navy foil number"]}
             rating={4.9}
             reviews={231}
-            offer={<>₹2,199</>}
+            offer={<>₹2,499</>}
             original={<>₹3,499</>}
-            discountPct={37}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
