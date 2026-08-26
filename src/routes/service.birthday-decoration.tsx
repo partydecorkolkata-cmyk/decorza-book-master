@@ -1430,8 +1430,8 @@ function ServicePage() {
             includes={["Purple, lilac & pink organic balloon ring garland", "Personalised butterfly backdrop + paper butterflies", "Princess Sofia & Ariel cutouts + lilac balloon floor scatter"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4499</>}
+            original={<>₹5999</>}
             discountPct={26}
             bestSeller={false}
           />
