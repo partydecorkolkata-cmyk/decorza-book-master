@@ -416,9 +416,9 @@ function ServicePage() {
             includes={["Striped arch + mustard/silver balloon garland", "Golden palm fans & pampas floral cluster", "Marquee number 7 with twin cylinder pedestals"]}
             rating={4.800000000000001}
             reviews={367}
-            offer={<>₹4,499</>}
-            original={<>₹6,999</>}
-            discountPct={36}
+            offer={<>₹5,999</>}
+            original={<>₹8999</>}
+            discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
