@@ -2041,9 +2041,9 @@ function ServicePage() {
             includes={["Custom black arched panel with gold 25th name text", "Gold sequin shimmer wall + Happy Birthday neon", "Black & chrome gold organic balloon arch", "Champagne bottle cutouts + marquee 25 light-up numbers", "Black & gold cake pedestals"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹11,999</>}
-            original={<>₹14,999</>}
-            discountPct={20}
+            offer={<>₹14999</>}
+            original={<>₹19999</>}
+            discountPct={25}
             bestSeller={true}
           />
         </div>
