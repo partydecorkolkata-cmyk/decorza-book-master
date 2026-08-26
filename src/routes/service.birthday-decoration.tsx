@@ -663,8 +663,8 @@ function ServicePage() {
             includes={["Ivory arch + Happy Birthday calligraphy", "Pink, white & gold balloon garland with palm fans", "Marquee '50' light-up numbers"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={false}
           />
