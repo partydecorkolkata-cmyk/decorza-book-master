@@ -1003,7 +1003,7 @@ function ServicePage() {
             reviews={214}
             offer={<>₹5,999</>}
             original={<>₹7999</>}
-            discountPct={29}
+            discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1014,9 +1014,9 @@ function ServicePage() {
             includes={["Black & silver chrome balloon ring backdrop", "Happy Birthday neon + Cheers champagne foil", "Black pedestal table + cascading floor balloons"]}
             rating={4.8}
             reviews={132}
-            offer={<>₹2,999</>}
+            offer={<>₹3499</>}
             original={<>₹4,999</>}
-            discountPct={40}
+            discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
