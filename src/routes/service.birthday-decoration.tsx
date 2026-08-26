@@ -533,8 +533,8 @@ function ServicePage() {
             includes={["White arched backdrop + Happy Birthday neon", "Organic white, ivory & chrome gold balloon garland", "Giant LED marquee 18 + gold pedestal pillars"]}
             rating={5}
             reviews={324}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5999</>}
+            original={<>₹7999</>}
             discountPct={25}
             bestSeller={true}
           />
