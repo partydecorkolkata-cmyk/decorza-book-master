@@ -572,9 +572,9 @@ function ServicePage() {
             includes={["Gold & ivory balloon ring on bamboo wall", "Happy Birthday warm neon sign + palm fans", "Floral cluster + balloon columns and centre table"]}
             rating={4.800000000000001}
             reviews={302}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
+            discountPct={36}
             bestSeller={false}
           />
           <StaticPackageCard
