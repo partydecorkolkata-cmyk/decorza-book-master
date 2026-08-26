@@ -442,9 +442,9 @@ function ServicePage() {
             includes={["Custom Happy 75th Birthday banner", "Gold, silver & ivory balloon garland frame", "Star foil balloons + fairy lights & floral vases"]}
             rating={5}
             reviews={194}
-            offer={<>₹5,999</>}
-            original={<>₹8,999</>}
-            discountPct={33}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
