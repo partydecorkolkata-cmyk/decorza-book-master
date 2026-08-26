@@ -1105,9 +1105,9 @@ function ServicePage() {
             includes={["Emerald, sage, white & gold balloon frame", "Silver foil curtain + Happy Birthday bunting", "Chrome green foil '3' side column"]}
             rating={4.8}
             reviews={151}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
