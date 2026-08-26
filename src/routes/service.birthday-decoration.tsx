@@ -481,8 +481,8 @@ function ServicePage() {
             includes={["Round ring frame with gold & white balloon garland", "Happy Birthday neon sign + silver star foil", "Scattered floor balloons accent"]}
             rating={4.800000000000001}
             reviews={476}
-            offer={<>₹4499</>}
-            original={<>₹6499</>}
+            offer={<>₹3499</>}
+            original={<>₹4999</>}
             discountPct={30}
             bestSeller={false}
           />
