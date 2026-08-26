@@ -780,9 +780,9 @@ function ServicePage() {
             includes={["Beige arch backdrop + Happy Birthday neon sign", "Peach, ivory & rose gold organic balloon garland", "Draped cocktail table + marquee '23' light-up numbers"]}
             rating={4.8}
             reviews={156}
-            offer={<>₹4499</>}
-            original={<>₹5999</>}
-            discountPct={25}
+            offer={<>₹4999</>}
+            original={<>₹7499</>}
+            discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
