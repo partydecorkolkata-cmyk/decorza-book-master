@@ -1001,8 +1001,8 @@ function ServicePage() {
             includes={["Printed butterfly backdrop + 3D butterflies", "Purple, lilac & gold balloon garland", "Ceiling clusters + draped cake table & marquee '2'"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹7999</>}
             discountPct={29}
             bestSeller={true}
           />
