@@ -1300,7 +1300,7 @@ function ServicePage() {
             includes={["Personalised gold 'Happy Birthday <Name>' foil", "Pastel rainbow balloon arch + 2 unicorn foils", "Holographic curtain + 2 pastel balloon columns"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹2,499</>}
+            offer={<>₹2,999</>}
             original={<>₹3,999</>}
             discountPct={26}
             bestSeller={true}
