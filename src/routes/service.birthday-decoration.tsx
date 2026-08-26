@@ -1079,9 +1079,9 @@ function ServicePage() {
             includes={["Royal blue, white & gold balloon frame", "Gold foil curtain + Happy Birthday bunting", "Blue name balloons + foil age number"]}
             rating={4.9}
             reviews={164}
-            offer={<>₹1,999</>}
+            offer={<>₹2199</>}
             original={<>₹2,999</>}
-            discountPct={33}
+            discountPct={27}
             bestSeller={true}
           />
           <StaticPackageCard
