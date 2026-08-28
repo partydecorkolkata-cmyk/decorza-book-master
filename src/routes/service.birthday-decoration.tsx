@@ -1560,8 +1560,8 @@ function ServicePage() {
             includes={["Royal blue, white, gold & silver chrome balloon arch", "Sheer drape + gold Happy Birthday cursive banner", "Giant gold foil 4 column + balloon block base"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹2,499</>}
-            original={<>₹3,999</>}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
             discountPct={30}
             bestSeller={false}
           />
