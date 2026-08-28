@@ -1924,7 +1924,7 @@ function ServicePage() {
             includes={["Gold fringe curtain + pastel & chrome balloon arch", "Hot pink star foils + princess round foils", "Twin balloon pillars + giant gold foil number 6"]}
             rating={4.8}
             reviews={183}
-            offer={<>₹2,699</>}
+            offer={<>₹2,499</>}
             original={<>₹3,499</>}
             discountPct={23}
             bestSeller={false}
