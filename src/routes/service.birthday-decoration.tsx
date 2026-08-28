@@ -1859,8 +1859,8 @@ function ServicePage() {
             includes={["8x8 rose gold sequin wall + Happy Birthday neon", "Pink, purple, gold chrome & confetti balloon arch", "Pink balloon bouquet centrepiece + marquee number 6"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹6,499</>}
-            original={<>₹8,999</>}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
             discountPct={28}
             bestSeller={true}
           />
