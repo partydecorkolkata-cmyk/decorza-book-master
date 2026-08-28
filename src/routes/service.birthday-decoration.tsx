@@ -1261,7 +1261,7 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB' foil + giant foil 1", "Royal blue, white & silver chrome arch", "Matching balloon column + ceiling balloons"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹2,199</>}
+            offer={<>₹2,499</>}
             original={<>₹2,999</>}
             discountPct={33}
             bestSeller={false}
@@ -1339,8 +1339,8 @@ function ServicePage() {
             includes={["Personalised gold 'Happy Birthday <Name>' foil", "2 yellow, white & silver balloon columns", "Rose gold star foils + silver fringe curtain"]}
             rating={4.8}
             reviews={148}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
+            offer={<>₹2,199</>}
+            original={<>₹3,499</>}
             discountPct={33}
             bestSeller={false}
           />
