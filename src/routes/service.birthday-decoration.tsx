@@ -832,8 +832,8 @@ function ServicePage() {
             includes={["Silver & black chrome balloon arch + neon", "Giant champagne POP Cheers foil balloon", "Organic balloon clusters + black cake pedestal"]}
             rating={4.7}
             reviews={134}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
+            offer={<>₹3,499</>}
+            original={<>₹5,999</>}
             discountPct={30}
             bestSeller={false}
           />
