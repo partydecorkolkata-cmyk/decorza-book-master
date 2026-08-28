@@ -1612,8 +1612,8 @@ function ServicePage() {
             includes={["Ivory, gold chrome & black ballroom balloon arch", "Beige chiara backdrop + neon Happy Birthday + pampas sunburst", "Twin gold star foil balloon pillars on tri-tone bases"]}
             rating={5.0}
             reviews={273}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={true}
           />
