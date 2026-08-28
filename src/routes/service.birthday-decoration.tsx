@@ -741,8 +741,8 @@ function ServicePage() {
             includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon", "Gold balloon pillar + marquee '22' numbers"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹3,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={36}
             bestSeller={true}
           />
