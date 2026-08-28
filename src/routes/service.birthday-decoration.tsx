@@ -1638,8 +1638,8 @@ function ServicePage() {
             includes={["Custom rainbow angel wings panel with personalised name", "Hot pink, rose gold & white chrome balloon arch", "Princess Sofia cutout + marquee 1 + HAFSA marquee letters"]}
             rating={5.0}
             reviews={252}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
             discountPct={30}
             bestSeller={true}
           />
