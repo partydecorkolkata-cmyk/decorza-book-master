@@ -1313,8 +1313,8 @@ function ServicePage() {
             includes={["Gold, silver & white organic balloon arch", "Music note + treble clef cutouts", "Sheer fairy-light curtain + Happy Birthday neon"]}
             rating={5.0}
             reviews={167}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
             discountPct={33}
             bestSeller={true}
           />
