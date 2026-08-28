@@ -572,8 +572,8 @@ function ServicePage() {
             includes={["Gold & ivory balloon ring on bamboo wall", "Happy Birthday warm neon sign + palm fans", "Floral cluster + balloon columns and centre table"]}
             rating={4.800000000000001}
             reviews={302}
-            offer={<>₹4,499</>}
-            original={<>₹6,999</>}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
             discountPct={36}
             bestSeller={false}
           />
@@ -1313,8 +1313,8 @@ function ServicePage() {
             includes={["Gold, silver & white organic balloon arch", "Music note + treble clef cutouts", "Sheer fairy-light curtain + Happy Birthday neon"]}
             rating={5.0}
             reviews={167}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
             discountPct={33}
             bestSeller={true}
           />
@@ -1677,8 +1677,8 @@ function ServicePage() {
             includes={["Personalised Spider-Man web panel with name & age", "Red, blue, black & silver chrome balloon garland", "Giant silver orbz + marquee light-up number 5"]}
             rating={4.9}
             reviews={246}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹4,499</>}
+            original={<>₹6,999</>}
             discountPct={30}
             bestSeller={true}
           />
