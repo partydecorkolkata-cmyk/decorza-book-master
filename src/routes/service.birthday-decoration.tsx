@@ -624,8 +624,8 @@ function ServicePage() {
             includes={["Personalised Cars themed arched backdrop", "Red, baby blue, black & checkered balloon garland", "Lightning McQueen + tyre foil + LED marquee 6"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹4,999</>}
-            original={<>₹7999</>}
+            offer={<>₹5,999</>}
+            original={<>₹8499</>}
             discountPct={38}
             bestSeller={false}
           />
@@ -1599,7 +1599,7 @@ function ServicePage() {
             includes={["Custom hot pink chiara arch with personalised name vinyl", "Pastel pink, yellow, confetti & rose gold balloon garland", "Greenery accents + 2 warm ground spotlights"]}
             rating={5.0}
             reviews={241}
-            offer={<>₹5,999</>}
+            offer={<>₹4,999</>}
             original={<>₹7999</>}
             discountPct={30}
             bestSeller={false}
