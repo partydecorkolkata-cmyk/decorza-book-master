@@ -403,8 +403,8 @@ function ServicePage() {
             includes={["Jungle balloon arch with animal foil balloons", "Personalised name banner backdrop", "Gold foil number column with cylinder pedestal"]}
             rating={4.9}
             reviews={528}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
             discountPct={38}
             bestSeller={true}
           />
@@ -1690,8 +1690,8 @@ function ServicePage() {
             includes={["Baby blue & white pearl balloon ring with personalised photo banner", "Twin balloon pillars with giant 3D butterfly cutouts", "Marquee light-up number 1 + ceiling butterfly accents"]}
             rating={5.0}
             reviews={284}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
             discountPct={27}
             bestSeller={false}
           />
