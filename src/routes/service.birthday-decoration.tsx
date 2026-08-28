@@ -351,9 +351,7 @@ function ServicePage() {
             includes={["Blue, white & silver balloon frame", "Personalised name & age foil balloons", "Shimmer curtain + Happy Birthday bunting"]}
             rating={4.800000000000001}
             reviews={614}
-            offer={<>₹2499</>}
-            original={<>₹3,999</>}
-            discountPct={37}
+            offer={<>₹2499</>} original={<>₹3,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -364,9 +362,7 @@ function ServicePage() {
             includes={["Chrome blue & white ring balloon arch", "Happy Birthday neon sign", "Light-up marquee number + confetti balloons"]}
             rating={4.9}
             reviews={859}
-             offer={<>₹3999</>}
-            original={<>₹5999</>}
-             discountPct={33}
+             offer={<>₹3999</>} original={<>₹5999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -377,9 +373,7 @@ function ServicePage() {
             includes={["Shimmer sequin wall + neon sign", "Pastel + gold chrome balloon arch", "Cocomelon character cutouts & marquee number"]}
             rating={4.800000000000001}
             reviews={1432}
-            offer={<>₹7,499</>}
-            original={<>₹9999</>}
-            discountPct={25}
+            offer={<>₹7,499</>} original={<>₹9999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -390,9 +384,7 @@ function ServicePage() {
             includes={["Pastel ring balloon garland with rose & palm accents", "Shimmer curtain + Happy Birthday neon sign", "Personalised LED marquee name letters"]}
             rating={4.9}
             reviews={412}
-            offer={<>₹6,999</>}
-            original={<>₹9,999</>}
-            discountPct={30}
+            offer={<>₹6,999</>} original={<>₹9,999</>} discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -403,9 +395,7 @@ function ServicePage() {
             includes={["Jungle balloon arch with animal foil balloons", "Personalised name banner backdrop", "Gold foil number column with cylinder pedestal"]}
             rating={4.9}
             reviews={528}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -416,9 +406,7 @@ function ServicePage() {
             includes={["Striped arch + mustard/silver balloon garland", "Golden palm fans & pampas floral cluster", "Marquee number 7 with twin cylinder pedestals"]}
             rating={4.800000000000001}
             reviews={367}
-            offer={<>₹5,999</>}
-            original={<>₹8999</>}
-            discountPct={34}
+            offer={<>₹5,999</>} original={<>₹8999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -429,9 +417,7 @@ function ServicePage() {
             includes={["Chrome gold + white balloon arch on black panel", "Giant gold foil 50 number balloons", "Matching balloon columns with star toppers"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -442,9 +428,7 @@ function ServicePage() {
             includes={["Custom Happy 75th Birthday banner", "Gold, silver & ivory balloon garland frame", "Star foil balloons + fairy lights & floral vases"]}
             rating={5}
             reviews={194}
-            offer={<>₹7,499</>}
-            original={<>₹9,999</>}
-            discountPct={25}
+            offer={<>₹7,499</>} original={<>₹9,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -455,9 +439,7 @@ function ServicePage() {
             includes={["Personalised beige arch + chrome gold garland", "Pampas grass + gold metallic pedestal", "Giant LED marquee age numbers"]}
             rating={4.9}
             reviews={341}
-            offer={<>₹5,999</>}
-            original={<>₹7,999</>}
-            discountPct={32}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -468,9 +450,7 @@ function ServicePage() {
             includes={["Fairy light curtain + draped chiffon backdrop", "Dried palm spear fans + blush floral cluster", "LED pillar candles & rose-filled glass vases"]}
             rating={4.9}
             reviews={258}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -481,9 +461,7 @@ function ServicePage() {
             includes={["Round ring frame with gold & white balloon garland", "Happy Birthday neon sign + silver star foil", "Scattered floor balloons accent"]}
             rating={4.800000000000001}
             reviews={476}
-            offer={<>₹3499</>}
-            original={<>₹4999</>}
-            discountPct={30}
+            offer={<>₹3499</>} original={<>₹4999</>} discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -494,9 +472,7 @@ function ServicePage() {
             includes={["Custom 40 Look Good printed arch panel", "Ivory, sage & beige luxe balloon garland", "Pampas floral cluster + blush cylinder pedestals"]}
             rating={5}
             reviews={163}
-            offer={<>₹9999</>}
-            original={<>₹14999</>}
-            discountPct={33}
+            offer={<>₹9999</>} original={<>₹14999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -507,9 +483,7 @@ function ServicePage() {
             includes={["Gold, black & silver ring balloon arch", "Happy Birthday neon sign + confetti balloons", "Gold foil 40 number balloons + cake pedestal"]}
             rating={4.9}
             reviews={387}
-            offer={<>₹3499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -520,9 +494,7 @@ function ServicePage() {
             includes={["Happy 70th Birthday calligraphy backdrop", "Black, white, silver chrome & bobo balloon garland", "Designer black bow motif accent"]}
             rating={4.9}
             reviews={216}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -533,9 +505,7 @@ function ServicePage() {
             includes={["White arched backdrop + Happy Birthday neon", "Organic white, ivory & chrome gold balloon garland", "Giant LED marquee 18 + gold pedestal pillars"]}
             rating={5}
             reviews={324}
-            offer={<>₹5999</>}
-            original={<>₹7999</>}
-            discountPct={25}
+            offer={<>₹5999</>} original={<>₹7999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -546,9 +516,7 @@ function ServicePage() {
             includes={["Cheers To 23 white arch backdrop", "Navy, ivory & rose gold chrome balloon garland", "Pampas grass + matching side pedestal cluster"]}
             rating={4.9}
             reviews={278}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -559,9 +527,7 @@ function ServicePage() {
             includes={["Personalised Happy 60th Birthday arch backdrop", "Ivory, white, gold & blush balloon garland with leaves", "Giant LED marquee 60 numbers"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹5999</>}
-            original={<>₹7999</>}
-            discountPct={25}
+            offer={<>₹5999</>} original={<>₹7999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -572,9 +538,7 @@ function ServicePage() {
             includes={["Gold & ivory balloon ring on bamboo wall", "Happy Birthday warm neon sign + palm fans", "Floral cluster + balloon columns and centre table"]}
             rating={4.800000000000001}
             reviews={302}
-            offer={<>₹4,499</>}
-            original={<>₹6,999</>}
-            discountPct={36}
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -585,9 +549,7 @@ function ServicePage() {
             includes={["Rose gold & white ring balloon arch", "Butterfly cutouts + Happy Birthday neon", "Champagne foil + gold marble pedestal table"]}
             rating={4.9}
             reviews={418}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={34}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -598,9 +560,7 @@ function ServicePage() {
             includes={["Lavender, blush & chrome silver balloon arch", "Happy Birthday neon + helium ceiling balloons", "Fairy-light bed canopy + rose petal styling"]}
             rating={4.9}
             reviews={534}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -611,9 +571,7 @@ function ServicePage() {
             includes={["Gold sequin shimmer wall + Happy Birthday neon", "Hot pink, blush, white & gold organic balloon arch", "4D gold orb balloons + cone star foil & palm fans"]}
             rating={4.9}
             reviews={612}
-            offer={<>₹7,499</>}
-            original={<>₹9,999</>}
-            discountPct={25}
+            offer={<>₹7,499</>} original={<>₹9,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -624,9 +582,7 @@ function ServicePage() {
             includes={["Personalised Cars themed arched backdrop", "Red, baby blue, black & checkered balloon garland", "Lightning McQueen + tyre foil + LED marquee 6"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -637,9 +593,7 @@ function ServicePage() {
             includes={["Blue, white & chrome silver moon ring arch", "Happy Birthday neon + teal chiffon drape", "Gold palm fans + pink & ivory floral garland"]}
             rating={4.800000000000001}
             reviews={356}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={30}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -650,9 +604,7 @@ function ServicePage() {
             includes={["Rainbow balloon arch + JJ & watermelon cutouts", "Personalised CoComelon name backdrop", "Marquee number + star foil balloon"]}
             rating={4.9}
             reviews={412}
-            offer={<>₹4,999</>}
-            original={<>₹7999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -663,9 +615,7 @@ function ServicePage() {
             includes={["Ivory arch + Happy Birthday calligraphy", "Pink, white & gold balloon garland with palm fans", "Marquee '50' light-up numbers"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹5,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -676,9 +626,7 @@ function ServicePage() {
             includes={["Silver arch + giant pink satin bow", "Black & pink balloon garland with mini bow accents", "Happy Birthday neon + marquee '26' numbers"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹5999</>}
-            original={<>₹7999</>}
-            discountPct={25}
+            offer={<>₹5999</>} original={<>₹7999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -689,9 +637,7 @@ function ServicePage() {
             includes={["Pink, lilac & clear butterfly balloon arch", "Personalised floral name backdrop + cherry blossoms", "Butterfly side props + marquee '1' + 3 pedestals"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹14,999</>}
-            original={<>₹19999</>}
-            discountPct={25}
+            offer={<>₹14,999</>} original={<>₹19999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -702,9 +648,7 @@ function ServicePage() {
             includes={["Personalised CoComelon arched backdrop", "Blue, ivory & sand balloon garland + bobo balloons", "JJ standee + cloud cutouts + rainbow side prop"]}
             rating={4.9}
             reviews={321}
-            offer={<>₹14,999</>}
-            original={<>₹19999</>}
-            discountPct={25}
+            offer={<>₹14,999</>} original={<>₹19999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -715,9 +659,7 @@ function ServicePage() {
             includes={["Royal blue chrome & white balloon ring arch", "Silver & rose gold butterfly cutouts", "Happy Birthday neon + marquee '1'"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -728,9 +670,7 @@ function ServicePage() {
             includes={["Pastel blue, white & rose gold balloon ring", "Happy Birthday neon + palm fronds", "Champagne foil + silver foil '18' numbers + floor balloons"]}
             rating={4.8}
             reviews={213}
-            offer={<>₹3,999</>}
-            original={<>₹5,999</>}
-            discountPct={33}
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -741,9 +681,7 @@ function ServicePage() {
             includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon", "Gold balloon pillar + marquee '22' numbers"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={36}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -754,9 +692,7 @@ function ServicePage() {
             includes={["Twin galaxy & starry arched backdrop with name", "Navy, orange, silver & ivory balloon garland", "Astronaut + planet cutouts, rocket pedestals & marquee '5'"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹14,999</>}
-            original={<>₹19,999</>}
-            discountPct={25}
+            offer={<>₹14,999</>} original={<>₹19,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -767,9 +703,7 @@ function ServicePage() {
             includes={["Elsa printed round backdrop + balloon arch", "Life-size Elsa & Anna cutouts + Olaf pedestal", "Pastel balloon pillars + personalised marquee name letters"]}
             rating={4.9}
             reviews={304}
-            offer={<>₹6,999</>}
-            original={<>₹9,999</>}
-            discountPct={30}
+            offer={<>₹6,999</>} original={<>₹9,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -780,9 +714,7 @@ function ServicePage() {
             includes={["Beige arch backdrop + Happy Birthday neon sign", "Peach, ivory & rose gold organic balloon garland", "Draped cocktail table + marquee '23' light-up numbers"]}
             rating={4.8}
             reviews={156}
-            offer={<>₹4999</>}
-            original={<>₹7499</>}
-            discountPct={34}
+            offer={<>₹4999</>} original={<>₹7499</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -793,9 +725,7 @@ function ServicePage() {
             includes={["8x8 silver sequin shimmer wall + Happy Birthday neon", "Chrome silver, white & pearl balloon garland", "Hanging disco balls + silver starburst foil props"]}
             rating={4.9}
             reviews={212}
-            offer={<>₹7,499</>}
-            original={<>₹9,999</>}
-            discountPct={25}
+            offer={<>₹7,499</>} original={<>₹9,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -806,9 +736,7 @@ function ServicePage() {
             includes={["Round ring backdrop + personalised name plaque", "Silver chrome & pastel yellow balloon garland", "Fresh white floral accent + draped cake table"]}
             rating={4.8}
             reviews={143}
-            offer={<>₹4499</>}
-            original={<>₹5999</>}
-            discountPct={25}
+            offer={<>₹4499</>} original={<>₹5999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -819,9 +747,7 @@ function ServicePage() {
             includes={["Gold sequin shimmer wall + Happy Birthday neon", "Black, white & gold balloon garland with foil orbz", "Warm fairy lights + draped cake table setup"]}
             rating={4.9}
             reviews={278}
-            offer={<>₹6,999</>}
-            original={<>₹9,999</>}
-            discountPct={30}
+            offer={<>₹6,999</>} original={<>₹9,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -832,9 +758,7 @@ function ServicePage() {
             includes={["Silver & black chrome balloon arch + neon", "Giant champagne POP Cheers foil balloon", "Organic balloon clusters + black cake pedestal"]}
             rating={4.7}
             reviews={134}
-            offer={<>₹3,499</>}
-            original={<>₹5,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹5,999</>} discountPct={42}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -845,9 +769,7 @@ function ServicePage() {
             includes={["Gold sequin wall + Happy Birthday neon sign", "White & gold chrome organic balloon arch", "Pampas floral accent + marquee '30' numbers"]}
             rating={4.9}
             reviews={246}
-            offer={<>₹7999</>}
-            original={<>₹11999</>}
-            discountPct={33}
+            offer={<>₹7999</>} original={<>₹11999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -858,9 +780,7 @@ function ServicePage() {
             includes={["Gold sequin panel + '1 Happy Birthday' neon", "CoComelon family + Tom & Jerry cutouts", "Pastel & gold balloon arch with sunshine prop"]}
             rating={4.9}
             reviews={289}
-            offer={<>₹6,999</>}
-            original={<>₹7,499</>}
-            discountPct={7}
+            offer={<>₹6,999</>} original={<>₹7,499</>} discountPct={7}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -871,9 +791,7 @@ function ServicePage() {
             includes={["Pink & gold sequin wall + Happy Birthday neon", "Pink, blush & silver chrome balloon arch", "Ceiling helium balloons + silver '24' foil numbers"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹6,799</>}
-            original={<>₹9,999</>}
-            discountPct={32}
+            offer={<>₹6,799</>} original={<>₹9,999</>} discountPct={32}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -884,9 +802,7 @@ function ServicePage() {
             includes={["Gold sequin wall + Happy Birthday neon sign", "Black, white & gold chrome balloon garland", "Gold starburst props + '27' foil number balloons"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹6,799</>}
-            original={<>₹9,999</>}
-            discountPct={32}
+            offer={<>₹6,799</>} original={<>₹9,999</>} discountPct={32}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -897,9 +813,7 @@ function ServicePage() {
             includes={["Ivory backdrop + Happy Birthday neon sign", "Black, gold & white organic balloon arch", "Pampas accents + wooden cake stool & marquee '37'"]}
             rating={4.9}
             reviews={167}
-            offer={<>₹5,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -910,9 +824,7 @@ function ServicePage() {
             includes={["Pink & rose gold balloon ring backdrop", "Happy Birthday neon sign + heart foils", "Acrylic pedestal + rose gold '43' foil numbers"]}
             rating={4.9}
             reviews={184}
-            offer={<>₹3,199</>}
-            original={<>₹4,999</>}
-            discountPct={36}
+            offer={<>₹3,199</>} original={<>₹4,999</>} discountPct={36}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -923,9 +835,7 @@ function ServicePage() {
             includes={["Black arch + Happy Birthday yellow neon", "Black, silver & white chrome balloon garland", "Disco ball balloons + starburst foils & satin bows"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹4,999</>}
-            original={<>₹6999</>}
-            discountPct={30}
+            offer={<>₹4,999</>} original={<>₹6999</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -936,9 +846,7 @@ function ServicePage() {
             includes={["Ivory personalised arch backdrop", "Gold, black & white balloon garland + pampas", "Twin gold balloon columns + cake table"]}
             rating={4.9}
             reviews={156}
-            offer={<>₹5999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹5999</>} original={<>₹7,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -949,9 +857,7 @@ function ServicePage() {
             includes={["CoComelon rainbow printed backdrop + standees", "Pastel & silver chrome balloon arch", "Happy Birthday neon + marquee '1' number"]}
             rating={4.9}
             reviews={267}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -962,9 +868,7 @@ function ServicePage() {
             includes={["Personalised CoComelon bus arch backdrop", "Blue, yellow & orange balloon column + bobos", "Bus & car cutouts + marquee '3' light-up number"]}
             rating={4.9}
             reviews={148}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={38}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -975,9 +879,7 @@ function ServicePage() {
             includes={["Silver sequin wall + personalised neon name", "Red, blue, black & silver balloon arch", "Lightning McQueen props + gold '8' foil number"]}
             rating={4.9}
             reviews={193}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -988,9 +890,7 @@ function ServicePage() {
             includes={["Personalised Berry First arch backdrop", "Red & pink balloon garland + strawberry foils", "Leafy vines + rose accents & marquee '1'"]}
             rating={4.9}
             reviews={176}
-            offer={<>₹4,999</>}
-            original={<>₹6,499</>}
-            discountPct={31}
+            offer={<>₹4,999</>} original={<>₹6,499</>} discountPct={23}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1001,9 +901,7 @@ function ServicePage() {
             includes={["Printed butterfly backdrop + 3D butterflies", "Purple, lilac & gold balloon garland", "Ceiling clusters + draped cake table & marquee '2'"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹4,999</>}
-            original={<>₹7999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1014,9 +912,7 @@ function ServicePage() {
             includes={["Black & silver chrome balloon ring backdrop", "Happy Birthday neon + Cheers champagne foil", "Black pedestal table + cascading floor balloons"]}
             rating={4.8}
             reviews={132}
-            offer={<>₹3499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1027,9 +923,7 @@ function ServicePage() {
             includes={["Balloon ring + veil drape backdrop", "Hot pink, blush & gold chrome garland", "Happy Birthday neon + marquee '60' numbers"]}
             rating={4.9}
             reviews={205}
-            offer={<>₹4499</>}
-            original={<>₹6499</>}
-            discountPct={30}
+            offer={<>₹4499</>} original={<>₹6499</>} discountPct={31}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1040,9 +934,7 @@ function ServicePage() {
             includes={["Pink, white & chrome gold balloon frame", "Silver foil curtain + Happy Birthday banner", "Rose gold name balloons + foil age number"]}
             rating={4.9}
             reviews={188}
-            offer={<>₹1999</>}
-            original={<>₹2,899</>}
-            discountPct={30}
+            offer={<>₹1999</>} original={<>₹2,899</>} discountPct={31}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1053,9 +945,7 @@ function ServicePage() {
             includes={["Silver foil curtain backdrop", "Rose gold HAPPY BIRTHDAY foil letters", "Giant rose gold foil '5' + balloon column"]}
             rating={4.9}
             reviews={176}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1066,9 +956,7 @@ function ServicePage() {
             includes={["Purple, lilac, white & silver chrome frame", "Silver foil curtain + Happy Birthday bunting", "Chrome purple foil '7' side column"]}
             rating={4.8}
             reviews={142}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1079,9 +967,7 @@ function ServicePage() {
             includes={["Royal blue, white & gold balloon frame", "Gold foil curtain + Happy Birthday bunting", "Blue name balloons + foil age number"]}
             rating={4.9}
             reviews={164}
-            offer={<>₹1999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1092,9 +978,7 @@ function ServicePage() {
             includes={["Silver foil curtain + organic balloon garland", "Purple star foils + Happy Birthday bunting", "Chrome purple MANAV 15 name & number balloons"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1105,9 +989,7 @@ function ServicePage() {
             includes={["Emerald, sage, white & gold balloon frame", "Silver foil curtain + Happy Birthday bunting", "Chrome green foil '3' side column"]}
             rating={4.8}
             reviews={151}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1118,9 +1000,7 @@ function ServicePage() {
             includes={["Rose gold foil curtain + chrome balloon arch", "Rose gold star foils + Happy Birthday banner", "Rose gold SAANVI 11 name & number balloons"]}
             rating={4.9}
             reviews={211}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1131,9 +1011,7 @@ function ServicePage() {
             includes={["Silver foil curtain backdrop", "Purple, lilac, silver chrome & white arch", "Chrome HAPPY BIRTHDAY foil + giant '18'"]}
             rating={4.9}
             reviews={183}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1144,9 +1022,7 @@ function ServicePage() {
             includes={["Metallic green, gold & white balloon frame", "Gold foil curtain + Happy Birthday bunting", "Chrome green ARMAAN name + foil '8'"]}
             rating={4.9}
             reviews={172}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1157,9 +1033,7 @@ function ServicePage() {
             includes={["Silver foil curtain + organic balloon arch", "Navy, white & chrome gold + star foils", "Gold foil '12' on twin balloon columns"]}
             rating={4.9}
             reviews={196}
-            offer={<>₹2,299</>}
-            original={<>₹3,499</>}
-            discountPct={27}
+            offer={<>₹2,299</>} original={<>₹3,499</>} discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1170,9 +1044,7 @@ function ServicePage() {
             includes={["Navy, chrome gold & pearl white organic arch", "Gold 'Happy Birthday' foil banner", "Floating navy, gold & white ceiling balloons"]}
             rating={4.9}
             reviews={241}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1183,9 +1055,7 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB 15' foil text", "Royal blue, sky blue, white & silver chrome arch", "Matching balloon column + ceiling bouquets"]}
             rating={4.8}
             reviews={188}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1196,9 +1066,7 @@ function ServicePage() {
             includes={["Purple, lilac, gold & silver chrome balloon frame", "Silver foil fringe curtain backdrop", "Gold 'Happy Birthday' foil text"]}
             rating={4.8}
             reviews={172}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1209,9 +1077,7 @@ function ServicePage() {
             includes={["Hot pink, baby pink, white & silver chrome frame", "Silver foil curtain + Happy Birthday bunting", "Personalised name + giant foil number balloon"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={29}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1222,9 +1088,7 @@ function ServicePage() {
             includes={["Navy, gold, silver & white balloon frame", "Silver foil curtain + Happy Birthday bunting", "Personalised gold name + navy foil number"]}
             rating={4.9}
             reviews={231}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={30}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1235,9 +1099,7 @@ function ServicePage() {
             includes={["Silver foil curtain + rose gold 'HB 21' foil", "Rose gold, chrome gold & pearl white arch", "Matching balloon column + ceiling bouquets"]}
             rating={4.9}
             reviews={209}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={29}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1248,9 +1110,7 @@ function ServicePage() {
             includes={["Olive, ivory & white organic balloon arch + daisy", "Gold foil curtain + sage 'Happy Birthday' foil", "Gold foil number 1 on matching column"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1261,9 +1121,7 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB' foil + giant foil 1", "Royal blue, white & silver chrome arch", "Matching balloon column + ceiling balloons"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹2,199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1274,9 +1132,7 @@ function ServicePage() {
             includes={["Navy, sage, chrome gold & confetti garland", "Gold cursive 'Happy Birthday' banner", "Star-foil topped balloon column + 2 foil bouquets"]}
             rating={4.9}
             reviews={154}
-            offer={<>₹1,799</>}
-            original={<>₹2,999</>}
-            discountPct={40}
+            offer={<>₹1,799</>} original={<>₹2,999</>} discountPct={40}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1287,9 +1143,7 @@ function ServicePage() {
             includes={["Purple, lilac, teal & white organic balloon arch", "Ariel cutout + mermaid tail foil + pink star foils", "Purple shimmer curtain + Happy Birthday banner"]}
             rating={4.9}
             reviews={182}
-            offer={<>₹2,999</>}
-            original={<>₹3,999</>}
-            discountPct={26}
+            offer={<>₹2,999</>} original={<>₹3,999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1300,9 +1154,7 @@ function ServicePage() {
             includes={["Personalised gold 'Happy Birthday <Name>' foil", "Pastel rainbow balloon arch + 2 unicorn foils", "Holographic curtain + 2 pastel balloon columns"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹2,999</>}
-            original={<>₹3,999</>}
-            discountPct={26}
+            offer={<>₹2,999</>} original={<>₹3,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1313,9 +1165,7 @@ function ServicePage() {
             includes={["Gold, silver & white organic balloon arch", "Music note + treble clef cutouts", "Sheer fairy-light curtain + Happy Birthday neon"]}
             rating={5.0}
             reviews={167}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1326,9 +1176,7 @@ function ServicePage() {
             includes={["Pink, lilac, peach & gold balloon garland", "Golden butterfly cutouts + Happy Birthday banner", "Pink shimmer foil-fringe curtain backdrop"]}
             rating={4.8}
             reviews={196}
-            offer={<>₹2199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1339,9 +1187,7 @@ function ServicePage() {
             includes={["Personalised gold 'Happy Birthday <Name>' foil", "2 yellow, white & silver balloon columns", "Rose gold star foils + silver fringe curtain"]}
             rating={4.8}
             reviews={148}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1352,9 +1198,7 @@ function ServicePage() {
             includes={["Purple, blue, lilac & silver chrome arch", "Gold 'HAPPY BIRTHDAY' foil + balloon flowers", "Gold foil-fringe curtain backdrop"]}
             rating={4.9}
             reviews={172}
-            offer={<>₹2199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1365,9 +1209,7 @@ function ServicePage() {
             includes={["Black, white & silver confetti balloon arch", "Sheer white drape + warm fairy-light curtain", "Cursive 'Happy Birthday' banner"]}
             rating={4.9}
             reviews={203}
-            offer={<>₹2,999</>}
-            original={<>₹4,499</>}
-            discountPct={33}
+            offer={<>₹2,999</>} original={<>₹4,499</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1378,9 +1220,7 @@ function ServicePage() {
             includes={["Gold + black ceiling balloons with curling ribbons", "'HAPPY BIRTHDAY HUBBY' foil + age number balloons", "Red rose-petal table arrangement"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹1,799</>}
-            original={<>₹2,999</>}
-            discountPct={40}
+            offer={<>₹1,799</>} original={<>₹2,999</>} discountPct={40}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1391,9 +1231,7 @@ function ServicePage() {
             includes={["Black & gold ceiling balloon canopy with ribbons", "'HAPPY BIRTHDAY' foil + giant gold foil 23", "Black & gold balloon column + bed scatter"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹2199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1404,9 +1242,7 @@ function ServicePage() {
             includes={["Tall gold, silver & white balloon double-column arch", "Gold foil-fringe curtain centre panel + 2 star foils", "Personalised giant gold 'Name' balloon letters"]}
             rating={5.0}
             reviews={158}
-            offer={<>₹2,999</>}
-            original={<>₹3,999</>}
-            discountPct={29}
+            offer={<>₹2,999</>} original={<>₹3,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1417,9 +1253,7 @@ function ServicePage() {
             includes={["All-white cloud balloon arch + blush & clear bobo accents", "3 oversized rose pink satin bows + personalised acrylic backdrop", "Neon number 1 + fluted white pedestal plinth with pink bow"]}
             rating={5.0}
             reviews={246}
-            offer={<>₹5999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹5999</>} original={<>₹7,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1430,9 +1264,7 @@ function ServicePage() {
             includes={["Purple, lilac & pink organic balloon ring garland", "Personalised butterfly backdrop + paper butterflies", "Princess Sofia & Ariel cutouts + lilac balloon floor scatter"]}
             rating={4.9}
             reviews={198}
-            offer={<>₹4499</>}
-            original={<>₹5999</>}
-            discountPct={26}
+            offer={<>₹4499</>} original={<>₹5999</>} discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1443,9 +1275,7 @@ function ServicePage() {
             includes={["Chrome rose gold + white pastel balloon ring", "Rose gold paper butterflies + neon Happy Birthday sign", "Marquee light-up number 1 + cocktail cake table"]}
             rating={4.9}
             reviews={172}
-            offer={<>₹3,999</>}
-            original={<>₹5999</>}
-            discountPct={33}
+            offer={<>₹3,999</>} original={<>₹5999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1456,9 +1286,7 @@ function ServicePage() {
             includes={["Tall pastel lilac arch backdrop with crown text print", "Pink, lilac, white & rose gold luxe balloon garland + florals", "Acrylic cake plinth + balloon cluster base"]}
             rating={5.0}
             reviews={211}
-            offer={<>₹4,999</>}
-            original={<>₹6999</>}
-            discountPct={29}
+            offer={<>₹4,999</>} original={<>₹6999</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1469,9 +1297,7 @@ function ServicePage() {
             includes={["Personalised purple backdrop + butterfly accents", "Purple, lilac, pink & rose gold chrome balloon garland", "Cherry-blossom florals + metal flower stand balloon column"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={30}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1482,9 +1308,7 @@ function ServicePage() {
             includes={["Personalised peach arch backdrop + paper butterflies", "Coral, peach, lilac & rose gold chrome balloon garland", "Giant pastel butterfly foil + daisies + fairy lights"]}
             rating={5.0}
             reviews={234}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={30}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1495,9 +1319,7 @@ function ServicePage() {
             includes={["Multicolor pastel + gold chrome balloon ring garland", "Neon Happy Birthday heart sign + paper butterflies", "Marquee number 1 + cocktail cake table cluster"]}
             rating={4.9}
             reviews={205}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={30}
+            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1508,9 +1330,7 @@ function ServicePage() {
             includes={["Pink, lilac, peach & gold chrome balloon ring + butterflies", "Gold foil-fringe curtain + neon Happy Birthday sign", "Marquee number 1 + personalised light-up name letters"]}
             rating={5.0}
             reviews={218}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={30}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1521,9 +1341,7 @@ function ServicePage() {
             includes={["Sage green, white & gold chrome jungle balloon arch", "Tiger, zebra & giraffe character foil balloons", "Neon Happy Birthday + marquee number 1 + jungle columns"]}
             rating={4.9}
             reviews={196}
-            offer={<>₹3,999</>}
-            original={<>₹5,999</>}
-            discountPct={30}
+            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1534,9 +1352,7 @@ function ServicePage() {
             includes={["Purple, lilac, chrome & white ombre balloon ring", "Silver foil-fringe curtain + neon Happy Birthday sign", "2 fairy princess cutouts + wrapped purple cake plinth"]}
             rating={4.9}
             reviews={183}
-            offer={<>₹4,499</>}
-            original={<>₹6999</>}
-            discountPct={30}
+            offer={<>₹4,499</>} original={<>₹6999</>} discountPct={36}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1547,9 +1363,7 @@ function ServicePage() {
             includes={["Pastel rainbow CoComelon balloon ring with 3 JJ foil cutouts", "Sky-blue shimmer foil curtain + neon Happy Birthday sign", "Gold foil number 2 + red star foil + balloon pillars"]}
             rating={5.0}
             reviews={264}
-            offer={<>₹2,999</>}
-            original={<>₹4,499</>}
-            discountPct={33}
+            offer={<>₹2,999</>} original={<>₹4,499</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1560,9 +1374,7 @@ function ServicePage() {
             includes={["Royal blue, white, gold & silver chrome balloon arch", "Sheer drape + gold Happy Birthday cursive banner", "Giant gold foil 4 column + balloon block base"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹2,999</>}
-            original={<>₹4,499</>}
-            discountPct={30}
+            offer={<>₹2,999</>} original={<>₹4,499</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1573,9 +1385,7 @@ function ServicePage() {
             includes={["Pink, lilac, chrome purple & rose gold square balloon frame", "Golden fairy-light curtain + neon Happy Birthday sign", "2 balloon butterfly accents + wrapped log plinth"]}
             rating={4.9}
             reviews={208}
-            offer={<>₹2,999</>}
-            original={<>₹4,499</>}
-            discountPct={38}
+            offer={<>₹2,999</>} original={<>₹4,499</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1586,9 +1396,7 @@ function ServicePage() {
             includes={["Peach, pink, grey & ivory asymmetric balloon arch", "Fresh roses, hydrangeas & leafy vine garlands", "Neon Happy Birthday sign + glowing lotus light accent"]}
             rating={5.0}
             reviews={296}
-            offer={<>₹5,999</>}
-            original={<>₹8499</>}
-            discountPct={30}
+            offer={<>₹5,999</>} original={<>₹8499</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1599,9 +1407,7 @@ function ServicePage() {
             includes={["Custom hot pink chiara arch with personalised name vinyl", "Pastel pink, yellow, confetti & rose gold balloon garland", "Greenery accents + 2 warm ground spotlights"]}
             rating={5.0}
             reviews={241}
-            offer={<>₹4,999</>}
-            original={<>₹7999</>}
-            discountPct={30}
+            offer={<>₹4,999</>} original={<>₹7999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1612,9 +1418,7 @@ function ServicePage() {
             includes={["Ivory, gold chrome & black ballroom balloon arch", "Beige chiara backdrop + neon Happy Birthday + pampas sunburst", "Twin gold star foil balloon pillars on tri-tone bases"]}
             rating={5.0}
             reviews={273}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1625,9 +1429,7 @@ function ServicePage() {
             includes={["Red, silver & gold chrome Cars balloon ring", "Personalised NIYANSH banner + Happy Birthday foil + McQueen foil", "Star, heart, gift box foils + toy car props on floor"]}
             rating={4.9}
             reviews={219}
-            offer={<>₹2,999</>}
-            original={<>₹4,499</>}
-            discountPct={33}
+            offer={<>₹2,999</>} original={<>₹4,499</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1638,9 +1440,7 @@ function ServicePage() {
             includes={["Custom rainbow angel wings panel with personalised name", "Hot pink, rose gold & white chrome balloon arch", "Princess Sofia cutout + marquee 1 + HAFSA marquee letters"]}
             rating={5.0}
             reviews={252}
-            offer={<>₹5,999</>}
-            original={<>₹8,999</>}
-            discountPct={30}
+            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1651,9 +1451,7 @@ function ServicePage() {
             includes={["Custom white chiara arch with personalised name & age vinyl", "Pink, royal blue, taupe & gold chrome balloon garland", "3 oversized foil flower accents (navy, coral, white daisy)"]}
             rating={4.9}
             reviews={234}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1664,9 +1462,7 @@ function ServicePage() {
             includes={["Baby blue & white balloon arch with star & heart foils", "Silver foil curtain + giant blue foil 1 + Happy Birthday banner", "ONE balloon block cubes + 4 personalised photo cards"]}
             rating={4.9}
             reviews={187}
-            offer={<>₹2,499</>}
-            original={<>₹4,499</>}
-            discountPct={45}
+            offer={<>₹2,499</>} original={<>₹4,499</>} discountPct={44}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1677,9 +1473,7 @@ function ServicePage() {
             includes={["Personalised Spider-Man web panel with name & age", "Red, blue, black & silver chrome balloon garland", "Giant silver orbz + marquee light-up number 5"]}
             rating={4.9}
             reviews={246}
-            offer={<>₹4,499</>}
-            original={<>₹6,999</>}
-            discountPct={30}
+            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1690,9 +1484,7 @@ function ServicePage() {
             includes={["Baby blue & white pearl balloon ring with personalised photo banner", "Twin balloon pillars with giant 3D butterfly cutouts", "Marquee light-up number 1 + ceiling butterfly accents"]}
             rating={5.0}
             reviews={284}
-            offer={<>₹5,999</>}
-            original={<>₹8,999</>}
-            discountPct={27}
+            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1703,9 +1495,7 @@ function ServicePage() {
             includes={["Ivory chiara arch with hand-painted 5 & bow signage", "White, ivory & chrome lilac organic balloon garland", "Greenery accents + 2 warm ground spotlights"]}
             rating={5.0}
             reviews={231}
-            offer={<>₹4,999</>}
-            original={<>₹7,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1716,9 +1506,7 @@ function ServicePage() {
             includes={["Personalised Disney Princesses backdrop banner", "5 life-size princess cutouts + rainbow balloon arch", "500+ floor balloons + butterfly props + LED lights"]}
             rating={5.0}
             reviews={312}
-            offer={<>₹5,999</>}
-            original={<>₹8,999</>}
-            discountPct={25}
+            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1729,9 +1517,7 @@ function ServicePage() {
             includes={["Ivory, gold chrome, white & green balloon pillars", "5 jungle animal foils (tiger, lion, monkey, zebra, cow)", "Warm Happy Birthday neon sign + lush garlands"]}
             rating={4.9}
             reviews={267}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1742,9 +1528,7 @@ function ServicePage() {
             includes={["Pink & rose gold ceiling balloons with ribbons", "Rose gold HAPPY BIRTHDAY foil text wall set", "Bed balloon scatter + 2 heart foils + side clusters"]}
             rating={4.7}
             reviews={418}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={40}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1755,9 +1539,7 @@ function ServicePage() {
             includes={["Gold & white balloon arch + silver fringe curtain", "Personalised gold foil name + giant gold age numbers", "Black Happy Birthday bunting + balloon side cluster"]}
             rating={4.8}
             reviews={342}
-            offer={<>₹2,299</>}
-            original={<>₹3,499</>}
-            discountPct={33}
+            offer={<>₹2,299</>} original={<>₹3,499</>} discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1768,9 +1550,7 @@ function ServicePage() {
             includes={["Chrome purple, lilac & pink ceiling balloons with ribbons", "White veil + warm fairy-light bed canopy", "Silver HAPPY BIRTHDAY foil text + heart & star foils"]}
             rating={4.9}
             reviews={298}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1781,9 +1561,7 @@ function ServicePage() {
             includes={["Hanging red heart foil & latex balloons from ceiling", "Wall 'love' neon sign + giant red heart foil centrepiece", "Rose petal heart on bed + petal trail on floor"]}
             rating={5.0}
             reviews={386}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1794,9 +1572,7 @@ function ServicePage() {
             includes={["Gold & silver chrome ceiling balloons with ribbons", "White veil + warm fairy-light bed canopy", "Gold HAPPY BIRTHDAY foil text + bed balloon scatter + teddy"]}
             rating={4.8}
             reviews={264}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1807,9 +1583,7 @@ function ServicePage() {
             includes={["Chrome purple, lilac & white balloon arch with butterflies", "Silver foil fringe curtain + Happy Birthday 'Official Teenager' banner", "Twin balloon pillars + giant silver foil 13"]}
             rating={4.8}
             reviews={178}
-            offer={<>₹2,199</>}
-            original={<>₹2,999</>}
-            discountPct={27}
+            offer={<>₹2,199</>} original={<>₹2,999</>} discountPct={27}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1820,9 +1594,7 @@ function ServicePage() {
             includes={["Pink & silver chrome ceiling balloons with curling ribbons", "Silver HAPPY BIRTHDAY foil wall text", "Pink & silver balloon flower clusters framing the wall"]}
             rating={4.7}
             reviews={142}
-            offer={<>₹1,499</>}
-            original={<>₹2,499</>}
-            discountPct={40}
+            offer={<>₹1,499</>} original={<>₹2,499</>} discountPct={40}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1833,9 +1605,7 @@ function ServicePage() {
             includes={["Pastel pink, mint, yellow & ivory balloon arch", "Silver fringe curtain + pink HAPPY BIRTHDAY foil text", "Peppa & George cutouts on balloon pillars with star foils"]}
             rating={4.9}
             reviews={211}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1846,9 +1616,7 @@ function ServicePage() {
             includes={["Gold, ivory & white chrome balloon canopy garland", "Gold 'happy birthday' cursive foil text on wall", "Hanging gold ribbon streamers + setup styling"]}
             rating={4.8}
             reviews={196}
-            offer={<>₹2,299</>}
-            original={<>₹3,499</>}
-            discountPct={34}
+            offer={<>₹2,299</>} original={<>₹3,499</>} discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1859,9 +1627,7 @@ function ServicePage() {
             includes={["8x8 rose gold sequin wall + Happy Birthday neon", "Pink, purple, gold chrome & confetti balloon arch", "Pink balloon bouquet centrepiece + marquee number 6"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹6,999</>}
-            original={<>₹9,999</>}
-            discountPct={28}
+            offer={<>₹6,999</>} original={<>₹9,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1872,9 +1638,7 @@ function ServicePage() {
             includes={["Rose gold HAPPY BIRTHDAY foil text on wall", "Pink & white pearl ceiling balloons with ribbons", "Rose gold balloon flowers + sofa side balloon clusters"]}
             rating={4.7}
             reviews={156}
-            offer={<>₹1,499</>}
-            original={<>₹2,499</>}
-            discountPct={40}
+            offer={<>₹1,499</>} original={<>₹2,499</>} discountPct={40}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1885,9 +1649,7 @@ function ServicePage() {
             includes={["Royal blue & white ceiling balloons with ribbons", "Happy Birthday foil + personalised MUDITA gold name", "Balloon pillars + unicorn foil & Elsa cutout on rose petal table"]}
             rating={4.9}
             reviews={234}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1898,9 +1660,7 @@ function ServicePage() {
             includes={["Pink & white ceiling balloons + garland row", "Rose gold 'happy birthday' foil + gold PIHU name", "Unicorn foils, star foils & pink/white balloon pillars"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
-            discountPct={33}
+            offer={<>₹1,999</>} original={<>₹2,999</>} discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1911,9 +1671,7 @@ function ServicePage() {
             includes={["Pink, lilac & rose gold chrome balloon cloud arch", "Rainbow shimmer curtain + Happy Birthday foil with name", "Milestone photo banner + unicorn cutout & number foil"]}
             rating={4.9}
             reviews={268}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={29}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1924,9 +1682,7 @@ function ServicePage() {
             includes={["Gold fringe curtain + pastel & chrome balloon arch", "Hot pink star foils + princess round foils", "Twin balloon pillars + giant gold foil number 6"]}
             rating={4.8}
             reviews={183}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
-            discountPct={23}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1937,9 +1693,7 @@ function ServicePage() {
             includes={["Gold HAPPY BIRTHDAY foil letters on wall", "Yellow & black balloon flowers + ceiling swirls", "Gold star foil + sofa base balloon garland"]}
             rating={4.7}
             reviews={162}
-            offer={<>₹1,499</>}
-            original={<>₹2,499</>}
-            discountPct={40}
+            offer={<>₹1,499</>} original={<>₹2,499</>} discountPct={40}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1950,9 +1704,7 @@ function ServicePage() {
             includes={["Pastel pink, lilac & white organic balloon arch", "Butterflies, silver stars + photo cutouts", "Gold foil curtain + silver number 1 balloon stand"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹2,199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1963,9 +1715,7 @@ function ServicePage() {
             includes={["Sweet Shop printed backdrop + Happy Birthday neon", "Custom pink neon name light", "Pastel balloon arch with Hello Kitty & My Melody cutouts"]}
             rating={4.9}
             reviews={238}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={29}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -1976,9 +1726,7 @@ function ServicePage() {
             includes={["Custom name arched panel in black & gold", "Black, white & rose gold organic balloon garland", "Dollar sign cutouts, 100 dollar bill props + gold cake stand"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
-            discountPct={29}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1989,9 +1737,7 @@ function ServicePage() {
             includes={["Black round backdrop + white Happy Birthday neon", "Chrome gold, silver & black organic balloon arch", "Dominoes, dollar cutouts, money bag & 100 dollar bill props", "Gold wire cake tables with cake stands"]}
             rating={4.9}
             reviews={204}
-            offer={<>₹6,499</>}
-            original={<>₹8,999</>}
-            discountPct={28}
+            offer={<>₹6,499</>} original={<>₹8,999</>} discountPct={28}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -2002,9 +1748,7 @@ function ServicePage() {
             includes={["Pink & silver chrome balloon arch", "Mickey Mouse head foil, silver MICKEY letters + Mickey round foils", "Gold shimmer curtain + Happy Birthday banner", "Twin pink balloon pillars"]}
             rating={4.7}
             reviews={158}
-            offer={<>₹2,199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -2015,9 +1759,7 @@ function ServicePage() {
             includes={["White, ivory, nude & chrome gold organic balloon arch", "Fresh peach roses, baby's breath & greenery accents", "Gold foil curtain + Happy Birthday neon sign", "Round cake table with candles & gold heart foils"]}
             rating={4.9}
             reviews={221}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
-            discountPct={30}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -2028,9 +1770,7 @@ function ServicePage() {
             includes={["Red & black balloon photo frame arch", "Silver shimmer fringe curtain backdrop", "White HAPPY BIRTHDAY paper flag banner"]}
             rating={4.7}
             reviews={149}
-            offer={<>₹2,199</>}
-            original={<>₹3,499</>}
-            discountPct={37}
+            offer={<>₹2,199</>} original={<>₹3,499</>} discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -2041,9 +1781,7 @@ function ServicePage() {
             includes={["Custom black arched panel with gold 25th name text", "Gold sequin shimmer wall + Happy Birthday neon", "Black & chrome gold organic balloon arch", "Champagne bottle cutouts + marquee 25 light-up numbers", "Black & gold cake pedestals"]}
             rating={4.9}
             reviews={287}
-            offer={<>₹14999</>}
-            original={<>₹19999</>}
-            discountPct={25}
+            offer={<>₹14999</>} original={<>₹19999</>} discountPct={25}
             bestSeller={true}
           />
         </div>
