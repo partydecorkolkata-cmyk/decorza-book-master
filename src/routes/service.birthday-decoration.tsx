@@ -1586,7 +1586,7 @@ function ServicePage() {
             includes={["Peach, pink, grey & ivory asymmetric balloon arch", "Fresh roses, hydrangeas & leafy vine garlands", "Neon Happy Birthday sign + glowing lotus light accent"]}
             rating={5.0}
             reviews={296}
-            offer={<>₹5,999</>}
+            offer={<>₹4,999</>}
             original={<>₹7999</>}
             discountPct={30}
             bestSeller={true}
