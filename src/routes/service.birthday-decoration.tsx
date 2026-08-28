@@ -1703,8 +1703,8 @@ function ServicePage() {
             includes={["Ivory chiara arch with hand-painted 5 & bow signage", "White, ivory & chrome lilac organic balloon garland", "Greenery accents + 2 warm ground spotlights"]}
             rating={5.0}
             reviews={231}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={true}
           />
