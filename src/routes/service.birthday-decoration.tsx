@@ -1664,8 +1664,8 @@ function ServicePage() {
             includes={["Baby blue & white balloon arch with star & heart foils", "Silver foil curtain + giant blue foil 1 + Happy Birthday banner", "ONE balloon block cubes + 4 personalised photo cards"]}
             rating={4.9}
             reviews={187}
-            offer={<>₹2,199</>}
-            original={<>₹3,999</>}
+            offer={<>₹2,499</>}
+            original={<>₹4,499</>}
             discountPct={45}
             bestSeller={false}
           />
