@@ -949,8 +949,8 @@ function ServicePage() {
             includes={["CoComelon rainbow printed backdrop + standees", "Pastel & silver chrome balloon arch", "Happy Birthday neon + marquee '1' number"]}
             rating={4.9}
             reviews={267}
-            offer={<>₹4499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={true}
           />
