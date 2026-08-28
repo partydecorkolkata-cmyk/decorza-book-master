@@ -689,7 +689,7 @@ function ServicePage() {
             includes={["Pink, lilac & clear butterfly balloon arch", "Personalised floral name backdrop + cherry blossoms", "Butterfly side props + marquee '1' + 3 pedestals"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹1,4999</>}
+            offer={<>₹14,999</>}
             original={<>₹19999</>}
             discountPct={25}
             bestSeller={false}
