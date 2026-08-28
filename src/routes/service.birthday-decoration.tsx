@@ -455,7 +455,7 @@ function ServicePage() {
             includes={["Personalised beige arch + chrome gold garland", "Pampas grass + gold metallic pedestal", "Giant LED marquee age numbers"]}
             rating={4.9}
             reviews={341}
-            offer={<>₹5499</>}
+            offer={<>₹5,999</>}
             original={<>₹7,999</>}
             discountPct={32}
             bestSeller={false}
