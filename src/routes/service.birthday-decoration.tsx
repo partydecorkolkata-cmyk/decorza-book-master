@@ -585,8 +585,8 @@ function ServicePage() {
             includes={["Rose gold & white ring balloon arch", "Butterfly cutouts + Happy Birthday neon", "Champagne foil + gold marble pedestal table"]}
             rating={4.9}
             reviews={418}
-            offer={<>₹4499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={34}
             bestSeller={true}
           />
