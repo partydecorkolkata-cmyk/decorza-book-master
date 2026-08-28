@@ -1261,7 +1261,7 @@ function ServicePage() {
             includes={["Silver foil curtain + blue 'HB' foil + giant foil 1", "Royal blue, white & silver chrome arch", "Matching balloon column + ceiling balloons"]}
             rating={4.8}
             reviews={176}
-            offer={<>₹1,999</>}
+            offer={<>₹2,199</>}
             original={<>₹2,999</>}
             discountPct={33}
             bestSeller={false}
