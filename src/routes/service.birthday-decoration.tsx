@@ -1235,8 +1235,8 @@ function ServicePage() {
             includes={["Silver foil curtain + rose gold 'HB 21' foil", "Rose gold, chrome gold & pearl white arch", "Matching balloon column + ceiling bouquets"]}
             rating={4.9}
             reviews={209}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
             discountPct={30}
             bestSeller={false}
           />
