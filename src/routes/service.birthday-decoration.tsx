@@ -975,8 +975,8 @@ function ServicePage() {
             includes={["Silver sequin wall + personalised neon name", "Red, blue, black & silver balloon arch", "Lightning McQueen props + gold '8' foil number"]}
             rating={4.9}
             reviews={193}
-            offer={<>₹4499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={true}
           />
