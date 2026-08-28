@@ -1768,7 +1768,7 @@ function ServicePage() {
             includes={["Chrome purple, lilac & pink ceiling balloons with ribbons", "White veil + warm fairy-light bed canopy", "Silver HAPPY BIRTHDAY foil text + heart & star foils"]}
             rating={4.9}
             reviews={298}
-            offer={<>₹2,499</>}
+            offer={<>₹2,199</>}
             original={<>₹3,499</>}
             discountPct={29}
             bestSeller={true}
