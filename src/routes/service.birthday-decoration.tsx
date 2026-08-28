@@ -1651,8 +1651,8 @@ function ServicePage() {
             includes={["Custom white chiara arch with personalised name & age vinyl", "Pink, royal blue, taupe & gold chrome balloon garland", "3 oversized foil flower accents (navy, coral, white daisy)"]}
             rating={4.9}
             reviews={234}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
             discountPct={25}
             bestSeller={false}
           />
