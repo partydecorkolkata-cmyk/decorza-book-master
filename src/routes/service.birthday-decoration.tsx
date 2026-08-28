@@ -741,8 +741,8 @@ function ServicePage() {
             includes={["Gold & white balloon ring arch + fresh rose accents", "Happy Birthday neon", "Gold balloon pillar + marquee '22' numbers"]}
             rating={4.9}
             reviews={189}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
+            offer={<>₹3,499</>}
+            original={<>₹5,999</>}
             discountPct={36}
             bestSeller={true}
           />
@@ -832,8 +832,8 @@ function ServicePage() {
             includes={["Silver & black chrome balloon arch + neon", "Giant champagne POP Cheers foil balloon", "Organic balloon clusters + black cake pedestal"]}
             rating={4.7}
             reviews={134}
-            offer={<>₹4,999</>}
-            original={<>₹6,999</>}
+            offer={<>₹3,499</>}
+            original={<>₹5,999</>}
             discountPct={30}
             bestSeller={false}
           />
