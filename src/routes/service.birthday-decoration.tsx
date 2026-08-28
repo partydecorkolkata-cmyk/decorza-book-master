@@ -1755,8 +1755,8 @@ function ServicePage() {
             includes={["Gold & white balloon arch + silver fringe curtain", "Personalised gold foil name + giant gold age numbers", "Black Happy Birthday bunting + balloon side cluster"]}
             rating={4.8}
             reviews={342}
-            offer={<>₹1,999</>}
-            original={<>₹2,999</>}
+            offer={<>₹2,299</>}
+            original={<>₹3,499</>}
             discountPct={33}
             bestSeller={false}
           />
