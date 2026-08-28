@@ -1716,8 +1716,8 @@ function ServicePage() {
             includes={["Personalised Disney Princesses backdrop banner", "5 life-size princess cutouts + rainbow balloon arch", "500+ floor balloons + butterfly props + LED lights"]}
             rating={5.0}
             reviews={312}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
+            offer={<>₹5,999</>}
+            original={<>₹8,999</>}
             discountPct={25}
             bestSeller={true}
           />
