@@ -1209,8 +1209,8 @@ function ServicePage() {
             includes={["Hot pink, baby pink, white & silver chrome frame", "Silver foil curtain + Happy Birthday bunting", "Personalised name + giant foil number balloon"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹2,499</>}
-            original={<>₹3,499</>}
+            offer={<>₹3,499</>}
+            original={<>₹4,999</>}
             discountPct={30}
             bestSeller={true}
           />
