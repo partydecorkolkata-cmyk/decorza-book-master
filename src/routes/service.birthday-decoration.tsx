@@ -1742,7 +1742,7 @@ function ServicePage() {
             includes={["Pink & rose gold ceiling balloons with ribbons", "Rose gold HAPPY BIRTHDAY foil text wall set", "Bed balloon scatter + 2 heart foils + side clusters"]}
             rating={4.7}
             reviews={418}
-            offer={<>₹1,799</>}
+            offer={<>₹1,999</>}
             original={<>₹2,999</>}
             discountPct={40}
             bestSeller={true}
