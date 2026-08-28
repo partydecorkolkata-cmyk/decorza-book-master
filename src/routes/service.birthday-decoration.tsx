@@ -1573,8 +1573,8 @@ function ServicePage() {
             includes={["Pink, lilac, chrome purple & rose gold square balloon frame", "Golden fairy-light curtain + neon Happy Birthday sign", "2 balloon butterfly accents + wrapped log plinth"]}
             rating={4.9}
             reviews={208}
-            offer={<>₹2,499</>}
-            original={<>₹3,999</>}
+            offer={<>₹2,999</>}
+            original={<>₹4,499</>}
             discountPct={38}
             bestSeller={false}
           />
