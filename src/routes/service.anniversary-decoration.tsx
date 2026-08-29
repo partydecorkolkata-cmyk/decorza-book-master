@@ -390,9 +390,9 @@ function ServicePage() {
             includes={["✓\nPastel balloon arch & customisable backdrop", "\n\n\u00a0 \u00a0Palm leaves and spot light / focus light\u00a0", "✓\nNumber led light & flower stand\u00a0"]}
             rating={4.8}
             reviews={847}
-            offer={<>₹9,999</>}
-            original={<>₹14,999</>}
-            discountPct={33}
+            offer={<>₹14,999</>}
+            original={<>₹19,999</>}
+            discountPct={25}
             bestSeller={false}
           />
           {ALL_NEW_ANNIV.map((p) => (
