@@ -377,9 +377,9 @@ function ServicePage() {
             includes={["✓\nPremium chrome ballon arch\u00a0", "\u00a0\nCustomisable backdrop + neon sign light", "\n\n\u00a0Artificial flower accents + focus light\u00a0"]}
             rating={4.9}
             reviews={612}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={true}
           />
           <StaticPackageCard
