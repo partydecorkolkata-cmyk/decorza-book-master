@@ -364,9 +364,9 @@ function ServicePage() {
             includes={["✓\nRound ring balloon arch", "✓\nChrome balloon & neon sign light\u00a0", "✓\nNumber led light & cake cutting table\u00a0"]}
             rating={4.7}
             reviews={386}
-            offer={<>₹3,899</>}
-            original={<>₹4,999</>}
-            discountPct={22}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
