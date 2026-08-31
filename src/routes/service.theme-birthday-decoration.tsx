@@ -1152,9 +1152,9 @@ function ServicePage() {
             includes={["Custom themed backdrop panel", "Colourful balloon garland arch", "Themed props, signage & cake pedestal", "Standard warm lighting setup"]}
             rating={4.7}
             reviews={383}
-            offer={<>₹3,499</>}
-            original={<>₹9,999</>}
-            discountPct={65}
+            offer={<>₹4,999</>}
+            original={<>₹7,999</>}
+            discountPct={38}
             bestSeller={false}
           />
           <StaticPackageCard
