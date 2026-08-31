@@ -1072,7 +1072,7 @@ const NEW_THEME_CARDS = [
     description: "A modern organic balloon arch in shades of blue, grey, white and chrome over a striped 'Boss Baby Yaseen' twin chiara backdrop with a Boss Baby cut-out and marquee number 1.",
     image: themeA8.url,
     includes: ["Organic blue, grey, white & chrome balloon arch", "Striped 'Boss Baby' personalised twin chiara backdrop", "Boss Baby cut-out + white pedestal", "Marquee number 1 light"],
-    rating: 4.8, reviews: 263, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20,
+    rating: 4.8, reviews: 263, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
   },
   {
     id: "theme-baby-elephant-vedaant-pastel",
