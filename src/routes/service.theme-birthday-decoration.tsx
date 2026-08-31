@@ -1032,7 +1032,7 @@ const NEW_THEME_CARDS = [
     description: "A classic Boss Baby ring arch decor in sky blue, black, white and gold chrome with two Boss Baby cut-outs, marquee '1', tie-print pedestal and a 'Happy Birthday' neon — ideal first-birthday home setup.",
     image: themeA3.url,
     includes: ["Blue, black, white & gold balloon ring arch", "Two Boss Baby cut-outs + marquee number 1", "Tie-print pedestal + 'Happy Birthday' neon", "White sheer curtain backdrop"],
-    rating: 4.8, reviews: 341, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+    rating: 4.8, reviews: 341, offer: <>₹4499</>, original: <>₹6499</>, discountPct: 31,
   },
   {
     id: "theme-rudransh-boss-baby-grand",
