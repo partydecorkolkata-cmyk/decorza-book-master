@@ -1056,7 +1056,7 @@ const NEW_THEME_CARDS = [
     description: "An action-packed Spider-Man ring arch in red, blue and black balloons with Spidey foil, 'Happy Birthday' neon, marquee name, gold foil number and themed balloon pillars on either side.",
     image: themeA6.url,
     includes: ["Red, blue & black balloon ring arch + Spidey foil", "'Happy Birthday' neon + marquee name letters", "Gold foil number balloon", "Spider-Man cut-out + two balloon pillars"],
-    rating: 4.8, reviews: 372, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+    rating: 4.8, reviews: 372, offer: <>₹4,499</>, original: <>₹6499</>, discountPct: 31,
   },
   {
     id: "theme-cocomelon-dharmik-grand",
