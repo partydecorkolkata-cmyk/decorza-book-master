@@ -1165,9 +1165,9 @@ function ServicePage() {
             includes={["Double chiara / arch themed backdrop", "Dense organic balloon garland", "Themed character cut-outs + marquee name or number", "Decorated pedestal + fairy lights"]}
             rating={4.8}
             reviews={536}
-            offer={<>₹4,999</>}
-            original={<>₹12,500</>}
-            discountPct={60}
+            offer={<>₹6,999</>}
+            original={<>₹9,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           <StaticPackageCard
