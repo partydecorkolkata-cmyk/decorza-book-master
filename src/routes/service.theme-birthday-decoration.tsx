@@ -1048,7 +1048,7 @@ const NEW_THEME_CARDS = [
     description: "A whimsical fairy theme decor with arched backdrop, fairy & butterfly cut-outs, heart neon lamp, bobo bubble balloons, baby-blue & white garland and a floral pedestal base — straight out of a storybook.",
     image: themeA5.url,
     includes: ["Custom fairy & butterfly arched backdrop", "Bobo bubble + blue & white balloon garland", "Heart neon lamp + fairy and number cut-outs", "Floral pedestal base with cake-stand"],
-    rating: 4.9, reviews: 408, offer: <>₹11,999</>, original: <>₹14,999</>, discountPct: 20, bestSeller: true,
+    rating: 4.9, reviews: 408, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-spiderman-ved-ring-arch",
