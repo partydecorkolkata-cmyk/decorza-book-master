@@ -156,7 +156,7 @@ const NEW_THEME_CARDS_L = [
     description: "A sweet unicorn birthday room setup with a pink & white balloon ceiling canopy with curling ribbon streamers, silver 'happy birthday' + gold 'PIHU' foil letters, a rainbow unicorn foil balloon, pink & silver star foils, a pink & white organic balloon garland stripe and matching balloon columns flanking the seating area — recreated exactly like the picture.",
     image: themeL4.url,
     includes: ["Pink & white balloon ceiling canopy with ribbon streamers", "Silver 'happy birthday' + personalised gold 'NAME' foil letters", "Rainbow unicorn foil + pink & silver star foils", "Pink & white organic balloon garland + twin balloon columns"],
-    rating: 4.6, reviews: 198, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+    rating: 4.6, reviews: 198, offer: <>₹2199</>, original: <>₹3499</>, discountPct: 37,
   },
   {
     id: "theme-l-ridhvi-unicorn-pastel-grand-stage",
