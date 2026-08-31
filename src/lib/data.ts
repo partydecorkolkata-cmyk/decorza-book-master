@@ -116,7 +116,7 @@ const RESTORED_CATEGORY_IMAGES: Record<string, string[]> = {
 
 const RESTORED_CATEGORY_STARTS_AT: Record<string, number> = {
   "birthday-decoration": 1499,
-  "anniversary-decoration": 1499,
+  "anniversary-decoration": 1799,
   "baby-shower-decoration": 1999,
   "haldi-decoration": 4999,
   "bachelorette-decoration": 1999,
