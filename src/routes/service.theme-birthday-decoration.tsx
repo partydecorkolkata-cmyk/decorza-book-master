@@ -1064,7 +1064,7 @@ const NEW_THEME_CARDS = [
     description: "A full Cocomelon themed stage with custom 'Happy Birthday' name backdrop, pastel rainbow balloon arch, character cut-outs, school bus, marquee '1' and personalised pedestal cylinders — like the picture.",
     image: themeA7.url,
     includes: ["Triple custom Cocomelon backdrop panels", "Pastel rainbow + butterfly balloon arch", "Cocomelon character cut-outs + school bus prop", "Personalised name pedestals + marquee number 1"],
-    rating: 4.9, reviews: 478, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 478, offer: <>₹24,999</>, original: <>₹39,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-boss-baby-yaseen-organic-arch",
