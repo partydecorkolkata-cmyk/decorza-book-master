@@ -314,7 +314,7 @@ const NEW_THEME_CARDS_J = [
     description: "A grand banquet Minions 2nd birthday stage with a giant Minion-face chiara centrepiece, twin arched backdrops with 'IYLA TURNS TWO!' signage, blue & yellow organic balloon clusters, life-size Minion cut-out standees, a banana-print pillar and Minion cake pedestal, personalised 'IYLA' marquee light-up letters, a giant marquee '2' and a white picket-fence stage border — recreated exactly like the photo.",
     image: themeJ2.url,
     includes: ["Giant Minion-face chiara + twin 'NAME TURNS TWO' backdrops", "Blue & yellow organic balloon clusters across the stage", "Life-size Minion standees + banana-print cake pedestal", "Marquee 'NAME' letters + giant marquee '2' + picket-fence border"],
-    rating: 5.0, reviews: 724, offer: <>₹29,999</>, original: <>₹34,999</>, discountPct: 14, bestSeller: true,
+    rating: 5.0, reviews: 724, offer: <>₹39,999</>, original: <>₹49,999</>, discountPct: 20, bestSeller: true,
   },
   {
     id: "theme-j-meerwardhaan-boss-baby-1st",
