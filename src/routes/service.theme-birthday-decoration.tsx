@@ -746,7 +746,7 @@ const NEW_THEME_CARDS_E = [
     description: "A luxurious butterfly themed decor with personalised 'NAME's 1st Birthday' chiara backdrop, full pink-lavender-peach organic balloon arch with cherry-blossom branches, gold & purple butterflies, two beige draped pedestals, a large white butterfly prop and marquee number '1' — recreated exactly like the picture.",
     image: themeE9.url,
     includes: ["Personalised 'NAME's 1st Birthday' chiara backdrop", "Pink, lavender & peach organic arch with blossoms", "Gold & purple butterfly cut-outs + white butterfly prop", "Two beige pedestals + marquee number 1"],
-    rating: 4.9, reviews: 534, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 534, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-e-fairy-princess-mahek-manya-9th-stage",
