@@ -164,7 +164,7 @@ const NEW_THEME_CARDS_L = [
     description: "A luxury unicorn birthday banquet stage with triple pastel arched chiara backdrops (including a personalised 'Happy Birthday RIDHVI's' cloud sign with a unicorn cut-out), a giant holographic shimmer-sequin wall, a lush organic balloon garland in pastel pink, lilac, peach, mint, chrome-gold & rose-gold, twin unicorn cut-out standees, white cake pedestals, a birdcage floral prop and a marquee 'RIDHVI' light-up nameboard — recreated from the reference photo.",
     image: themeL5.url,
     includes: ["Triple pastel arched chiara backdrops + personalised unicorn cloud sign", "Giant holographic shimmer-sequin wall", "Pastel pink, lilac, peach, mint & rose-gold organic balloon garland", "Twin unicorn standees + marquee 'NAME' letters + birdcage floral prop + cake pedestals"],
-    rating: 5.0, reviews: 812, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+    rating: 5.0, reviews: 812, offer: <>₹34,999</>, original: <>₹49,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-l-daisy-boho-sage-1st-arch",
