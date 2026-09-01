@@ -722,7 +722,7 @@ const NEW_THEME_CARDS_E = [
     description: "A bright Cocomelon themed decor with personalised 'Happy Birthday NAME' Cocomelon rainbow backdrop, square balloon arch in pastel green, blue, purple, yellow, orange, peach & gold chrome and an LED light marquee '1' — straight from the photo.",
     image: themeE6.url,
     includes: ["Personalised Cocomelon rainbow backdrop", "Square balloon arch (pastel + chrome gold)", "Cocomelon character cut-outs on backdrop", "Marquee number 1 LED light"],
-    rating: 4.8, reviews: 289, offer: <>₹4,699</>, original: <>₹5,999</>, discountPct: 22,
+    rating: 4.8, reviews: 289, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
   },
   {
     id: "theme-e-alaiia-berry-strawberry-1st-grand",
