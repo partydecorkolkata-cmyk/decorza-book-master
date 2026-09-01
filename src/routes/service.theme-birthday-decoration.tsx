@@ -663,7 +663,7 @@ const NEW_THEME_CARDS_F = [
     description: "A grand butterfly themed banquet decor with personalised 'Happy Birthday' pink-purple chiara backdrop with baby photo, pink-purple-gold-chrome & white organic balloon arch with vines, two massive lilac butterfly wing props on either side and a butterfly-print floor mat — recreated exactly like the picture.",
     image: themeF9.url,
     includes: ["Personalised 'Happy Birthday' backdrop with baby photo", "Pink, purple, gold-chrome & white organic arch with vines", "Two massive lilac butterfly wing side props", "Butterfly print floor mat + venue setup"],
-    rating: 4.9, reviews: 476, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 476, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-f-amelia-pastel-butterfly-marquee-arch",
