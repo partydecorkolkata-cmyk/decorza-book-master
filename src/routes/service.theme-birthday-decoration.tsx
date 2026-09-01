@@ -839,7 +839,7 @@ const NEW_THEME_CARDS_D = [
     description: "A magical Rapunzel princess decor with personalised 'PRINCESS NAME TURNS 3' round chiara backdrop, pink-magenta-purple-peach organic balloon ring arch with Rapunzel sticker cut-outs, two Rapunzel standees, a flower castle prop and a glowing marquee number '3'.",
     image: themeD10.url,
     includes: ["Personalised 'PRINCESS NAME TURNS 3' round chiara backdrop", "Pink, magenta, purple & peach organic ring arch", "Two Rapunzel standees + flower castle prop", "Glowing marquee number 3 + Rapunzel sticker cut-outs"],
-    rating: 4.8, reviews: 312, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 312, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38,
   },
 ];
 
