@@ -850,7 +850,7 @@ const NEW_THEME_CARDS_C = [
     description: "A grand Cocomelon themed restaurant decor with a tall organic balloon arch in blue, green, yellow & chrome, custom Cocomelon sky backdrop with rainbow & character cut-outs, two 'Happy Birthday' neons, marquee number '1', personalised 'BABY' balloon blocks and decorated cake & cocktail tables.",
     image: themeC1.url,
     includes: ["Grand organic balloon arch (blue, green, yellow, chrome)", "Custom Cocomelon sky + rainbow chiara backdrop", "Two 'Happy Birthday' neons + marquee number 1", "'BABY' balloon blocks + decorated cake & cocktail tables"],
-    rating: 4.9, reviews: 564, offer: <>₹12,999</>, original: <>₹19,999</>, discountPct: 35, bestSeller: true,
+    rating: 4.9, reviews: 564, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-c-aryav-13th-outdoor-ring-arch",
