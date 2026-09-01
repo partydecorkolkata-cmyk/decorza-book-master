@@ -1005,7 +1005,7 @@ const NEW_THEME_CARDS_B = [
     description: "A premium Boss Baby outdoor balloon arch in black, blue chrome and silver over a 'Boss Baby' chiara backdrop with star foils, a tall Boss Baby cut-out and a white pedestal — perfect for outdoor and rooftop celebrations.",
     image: themeB10.url,
     includes: ["Black, blue chrome & silver organic balloon arch", "'Boss Baby' personalised chiara backdrop", "Blue star foils + tall Boss Baby cut-out", "White cylinder pedestal for cake"],
-    rating: 4.8, reviews: 297, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+    rating: 4.8, reviews: 297, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38,
   },
 ];
 
