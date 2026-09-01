@@ -599,7 +599,7 @@ const NEW_THEME_CARDS_F = [
     description: "A cheerful jungle safari themed restaurant arch with gold, ivory, sage-green & white organic balloon columns, a glowing 'Happy Birthday' neon centre, and four animal foil balloons — lion, tiger, monkey, zebra & cow — perched on top of balloon pillars, exactly like the picture.",
     image: themeF1.url,
     includes: ["Gold, ivory, sage-green & white organic balloon arch", "'Happy Birthday' neon centrepiece", "Animal foils: lion, tiger, monkey, zebra, cow", "Four balloon pillars + venue setup"],
-    rating: 4.8, reviews: 274, offer: <>₹3,299</>, original: <>₹4,999</>, discountPct: 34,
+    rating: 4.8, reviews: 274, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
   },
   {
     id: "theme-f-frozen-elsa-5th-banquet-arch",
