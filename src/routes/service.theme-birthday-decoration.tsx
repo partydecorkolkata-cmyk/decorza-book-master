@@ -461,7 +461,7 @@ const NEW_THEME_CARDS_I = [
     description: "A grand jungle safari 1st birthday setup with a personalised twin chiara backdrop — a pink 'Giraffe' arch and a green 'Zainab Turns ONE' elephant arch, an organic balloon arch in green, chrome-gold, peach, white & ivory, life-size lion, Simba, giraffe, elephant, zebra & crocodile safari standees, ivy vine accents, a printed cake pedestal, a large marquee 'HBD' light and personalised marquee 'ZAINAB' letters on the floor — recreated from the picture.",
     image: themeI10.url,
     includes: ["Personalised pink + green twin chiara safari backdrops", "Green, chrome-gold, peach, white & ivory organic balloon arch", "6 safari animal standees + ivy vine accents + printed pedestal", "Marquee 'HBD' light + personalised marquee 'NAME' letters"],
-    rating: 4.9, reviews: 458, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 458, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
   },
 ];
 
