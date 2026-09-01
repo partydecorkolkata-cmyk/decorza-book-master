@@ -646,8 +646,8 @@ const NEW_THEME_CARDS_F = [
     name: "Butterfly 'Esha' Crown Pastel Arch Decor",
     description: "A dreamy butterfly themed decor with personalised 'Happy Birthday NAME' floral crown-butterfly backdrop, pastel pink, peach, purple, blue & white organic balloon arch, three large 3D butterfly cut-outs and a sequin-draped gold cake stand — straight from the photo.",
     image: themeF7.url,
-    includes: ["Personalised 'Happy Birthday NAME' crown-butterfly backdrop", "Pastel pink, peach, purple, blue & white organic arch", "Three large 3D butterfly cut-outs", "Sequin-draped cake table + gold cake stand"],
-    rating: 4.8, reviews: 342, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    includes: ["Personalised 'Happy Birthday NAME' crown-butterfly backdrop", "Pastel pink, peach, purple, blue & white organic arch", "Three large 3D butterfly cut-outs", "Sequin-draped cake table "],
+    rating: 4.8, reviews: 342, offer: <>₹5499</>, original: <>₹7,999</>, discountPct: 25,
   },
   {
     id: "theme-f-butterfly-aarvi-princess-purple-ring",
