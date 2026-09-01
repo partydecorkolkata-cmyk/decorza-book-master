@@ -1088,7 +1088,7 @@ const NEW_THEME_CARDS = [
     description: "An outdoor pastel butterfly themed decor with custom 'Avinya Happy Birthday' twin chiara backdrop, pastel pink, mint and lavender balloon arch, big butterfly cut-out, marquee '1' and butterfly-wrapped pedestal.",
     image: themeA10.url,
     includes: ["Custom butterfly twin chiara backdrop", "Pastel pink, mint & lavender balloon arch", "Large butterfly cut-out + butterfly pedestal", "Marquee number 1 light"],
-    rating: 4.9, reviews: 297, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20, bestSeller: true,
+    rating: 4.9, reviews: 297, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
   },
 ];
 
