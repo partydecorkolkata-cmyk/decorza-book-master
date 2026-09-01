@@ -922,7 +922,7 @@ const NEW_THEME_CARDS_C = [
     description: "A vibrant Mickey Mouse outdoor decor with white chiara backdrop, 'Happy Birthday' neon, red, yellow, black & white organic balloon garland, two Mickey-shaped balloon pillars, Mickey foil and a white cake pedestal — exactly like the picture.",
     image: themeC10.url,
     includes: ["White chiara backdrop + 'Happy Birthday' neon", "Red, yellow, black & white organic garland", "Two Mickey-shaped balloon pillars + Mickey foil", "White cake pedestal"],
-    rating: 4.9, reviews: 341, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 341, offer: <>₹4,499</>, original: <>₹6,499</>, discountPct: 31, bestSeller: true,
   },
 ];
 
