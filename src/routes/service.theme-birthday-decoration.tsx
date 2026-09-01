@@ -607,7 +607,7 @@ const NEW_THEME_CARDS_F = [
     description: "A magical Frozen themed banquet decor with a round 'Happy Birthday' Elsa backdrop, blue-purple-silver-white organic balloon arch, twin Anna & Elsa cut-out pillars, three Frozen character pedestals (Elsa, Anna, Olaf) and a glowing marquee number '5' — recreated exactly like the picture.",
     image: themeF2.url,
     includes: ["Round personalised Elsa 'Happy Birthday' backdrop", "Blue, purple, silver & white organic balloon arch", "Twin Anna & Elsa cut-out balloon pillars", "3 Frozen character pedestals + marquee number 5"],
-    rating: 4.9, reviews: 421, offer: <>₹6,499</>, original: <>₹7,999</>, discountPct: 19, bestSeller: true,
+    rating: 4.9, reviews: 421, offer: <>₹7,499</>, original: <>₹9,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-f-bossbaby-adith-blue-white-stage",
