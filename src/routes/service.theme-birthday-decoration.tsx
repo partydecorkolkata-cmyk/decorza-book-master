@@ -370,7 +370,7 @@ const NEW_THEME_CARDS_J = [
     description: "A pretty pink & purple Princess Aurora 5th birthday arch with a personalised round 'Ameis Happy Birthday' Aurora backdrop, a lush organic balloon garland in pink, purple & yellow with butterfly cut-out accents, a printed Aurora cake pedestal, scattered floor balloons and a glowing marquee number '5' light — recreated exactly like the reference photo.",
     image: themeJ9.url,
     includes: ["Personalised round 'NAME Happy Birthday' Aurora princess backdrop", "Pink, purple & yellow organic balloon garland with butterfly cut-outs", "Printed Aurora cake pedestal + scattered floor balloons", "Glowing marquee number '5' light + venue styling"],
-    rating: 4.8, reviews: 342, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.8, reviews: 342, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-j-aarvi-disney-princess-5th-grand",
