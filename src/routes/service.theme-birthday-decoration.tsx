@@ -1080,7 +1080,7 @@ const NEW_THEME_CARDS = [
     description: "A sweet pastel 1st birthday arch in peach, blue, mustard, orange and grey balloons over peach & blue chiara backdrops with a custom 'Happy 1st Birthday' name and a cute baby-elephant cut-out.",
     image: themeA9.url,
     includes: ["Peach & blue twin chiara backdrop with custom name", "Pastel balloon arch with floral accents", "Baby elephant cut-out + decorated pedestal", "Fresh-look floral & balloon base"],
-    rating: 4.9, reviews: 351, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20,
+    rating: 4.9, reviews: 351, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
   },
   {
     id: "theme-avinya-butterfly-pastel-outdoor",
