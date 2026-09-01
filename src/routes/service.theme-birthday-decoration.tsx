@@ -714,7 +714,7 @@ const NEW_THEME_CARDS_E = [
     description: "A whimsical butterfly themed outdoor decor with personalised round 'NAME' watercolour backdrop, pastel pink, lavender, magenta & white organic balloon arch, multiple 3D pink & gold butterfly cut-outs, a flower pedestal and marquee number '2' — exactly like the picture.",
     image: themeE5.url,
     includes: ["Personalised round 'NAME' butterfly backdrop", "Pastel pink, lavender & white organic balloon arch", "3D pink & gold butterfly cut-outs", "Flower pedestal + marquee number 2"],
-    rating: 4.8, reviews: 356, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 356, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
   },
   {
     id: "theme-e-dhriti-cocomelon-rainbow-arch",
