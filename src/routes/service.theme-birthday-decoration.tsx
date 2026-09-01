@@ -623,7 +623,7 @@ const NEW_THEME_CARDS_F = [
     description: "A chic monochrome Boss Baby decor with a round white 'BOSS BABY NAME' backdrop, black-white-silver-chrome & clear confetti organic balloon garland, life-size Boss Baby cut-out, geometric cake pedestal and a glowing marquee number '1' on a mini balloon base.",
     image: themeF4.url,
     includes: ["Round white 'BOSS BABY NAME' personalised backdrop", "Black, white, silver-chrome & clear confetti garland", "Life-size Boss Baby cut-out + gold geo pedestal", "Marquee number 1 on mini balloon base"],
-    rating: 4.9, reviews: 389, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.9, reviews: 389, offer: <>₹6,499</>, original: <>₹8,999</>, discountPct: 28, bestSeller: true,
   },
   {
     id: "theme-f-bossbaby-alyan-twin-blue-silver",
