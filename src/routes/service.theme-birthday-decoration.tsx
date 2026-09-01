@@ -548,7 +548,7 @@ const NEW_THEME_CARDS_G = [
     description: "A dreamy pastel unicorn arch with a mint-green round backdrop, 'Happy Birthday' neon sign, a pastel organic balloon ring in pink, lilac, mint, sky-blue & yellow, a large unicorn foil balloon and a rose-gold number '4' foil column — styled exactly like the reference photo.",
     image: themeG5.url,
     includes: ["Mint round backdrop + 'Happy Birthday' neon", "Pastel pink/lilac/mint/blue/yellow balloon ring", "Large unicorn foil balloon", "Rose-gold number '4' foil column + setup"],
-    rating: 4.8, reviews: 298, offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
+    rating: 4.8, reviews: 298, offer: <>₹3499</>, original: <>₹4,999</>, discountPct: 30,
   },
   {
     id: "theme-g-natan-jahdiel-boss-baby-blue-gold",
