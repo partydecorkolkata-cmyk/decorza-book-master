@@ -807,7 +807,7 @@ const NEW_THEME_CARDS_D = [
     description: "A racing themed Cars decor with personalised 'Happy Birthday NAME 6' arched chiara backdrop, red-blue-black-white-checker organic balloon arch with chrome checker foils, McQueen & tyre foils, marquee number '6' and a checker-print cake pedestal.",
     image: themeD6.url,
     includes: ["Personalised arched Cars chiara backdrop", "Red, blue, black, white & checker organic garland", "McQueen + tyre foil balloons + checker foils", "Marquee number 6 + checker cake pedestal"],
-    rating: 4.9, reviews: 421, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 421, offer: <>₹5499</>, original: <>₹7,999</>, discountPct: 31, bestSeller: true,
   },
   {
     id: "theme-d-butterfly-twin-tharika-thanvika-grand",
