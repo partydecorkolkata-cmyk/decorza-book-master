@@ -338,7 +338,7 @@ const NEW_THEME_CARDS_J = [
     description: "A stunning baby Mickey 1st birthday banquet stage with twin chiara Mickey backdrops, a central silver sequin shimmer wall with pink 'Happy Birthday' neon, a grand organic balloon arch in sky-blue, white, chrome-silver & teal, four life-size baby Mickey cut-outs, printed hot-air-balloon cake pedestals and a glowing marquee '1' — recreated exactly like the picture.",
     image: themeJ5.url,
     includes: ["Twin baby Mickey chiara backdrops + silver sequin shimmer wall", "'Happy Birthday' pink neon centrepiece", "Sky-blue, white, chrome-silver & teal organic balloon arch", "Four baby Mickey standees + printed cake pedestals + marquee '1'"],
-    rating: 4.9, reviews: 641, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 641, offer: <>₹24,999</>, original: <>₹39,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-j-mickey-mouse-5th-red-yellow-arch",
