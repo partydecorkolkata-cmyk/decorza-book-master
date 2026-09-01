@@ -588,7 +588,7 @@ const NEW_THEME_CARDS_G = [
     description: "A cheerful room decor with a blue & white ceiling balloon canopy with hanging ribbons, personalised gold 'HAPPY BIRTHDAY MUDITA' foil letters, twin balloon pillars with pink & blue heart foils, a unicorn foil balloon, an Elsa cut-out and a red rose-petal cake table — exactly like the picture.",
     image: themeG10.url,
     includes: ["Blue & white ceiling balloon canopy with ribbons", "Personalised gold 'HAPPY BIRTHDAY NAME' foils", "Twin balloon pillars + heart foils + unicorn balloon", "Elsa cut-out + rose-petal cake table"],
-    rating: 4.8, reviews: 271, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+    rating: 4.8, reviews: 271, offer: <>₹2199</>, original: <>₹2,999</>, discountPct: 33,
   },
 ];
 
