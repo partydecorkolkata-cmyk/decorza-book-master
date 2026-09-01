@@ -889,7 +889,7 @@ const NEW_THEME_CARDS_C = [
     name: "Boss Baby Shivansh 1st Birthday Curtain Decor",
     description: "A Boss Baby home decor with teal curtain backdrop, blue 'happy birthday' foil letters, two Boss Baby & star foils, blue, white & black balloon arch, decorated cake table and gold 'SHIVANSH + 1' name foils on the floor.",
     image: themeC6.url,
-    includes: ["Blue, white & black organic balloon arch", "Teal curtain backdrop + 'happy birthday' foil", "Boss Baby + blue star foils", "Personalised name & number 1 gold foils + cake table"],
+    includes: ["Blue, white & black organic balloon arch", "Teal curtain backdrop + 'happy birthday' foil", "Boss Baby + blue star foils", "Personalised name & number 1 gold foils "],
     rating: 4.8, reviews: 268, offer: <>₹2,299</>, original: <>₹3,499</>, discountPct: 34,
   },
   {
