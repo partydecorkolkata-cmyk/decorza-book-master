@@ -655,7 +655,7 @@ const NEW_THEME_CARDS_F = [
     description: "A cute butterfly & princess themed decor with personalised round 'Happy Birthday NAME' floral butterfly backdrop, pastel pink, lilac & purple organic ring balloon arch, butterfly stickers, Sofia & Ariel princess standees and a purple balloon floor scatter — exactly like the picture.",
     image: themeF8.url,
     includes: ["Personalised round butterfly floral 'NAME' backdrop", "Pink, lilac & purple organic ring balloon arch", "Sofia & Ariel princess standees + butterfly stickers", "Purple balloon floor scatter"],
-    rating: 4.8, reviews: 298, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 298, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
   },
   {
     id: "theme-f-butterfly-baby-purple-grand-arch",
