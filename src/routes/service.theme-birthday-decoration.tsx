@@ -271,7 +271,7 @@ const NEW_THEME_CARDS_K = [
     description: "A striking Spider-Man theme arch with a red spider-web backdrop, glowing pink 'Happy Birthday' neon sign, giant Spider-Man cut-out, a dense organic balloon garland in red, royal-blue, black & chrome-silver spider-print balloons and a Spider-Man cake pedestal with tabletop web accents — styled like the reference photo.",
     image: themeK7.url,
     includes: ["Red spider-web backdrop + pink 'Happy Birthday' neon sign", "Giant Spider-Man standee", "Red, royal-blue, black & chrome-silver spider-print balloon garland", "Spider-Man cake pedestal + tabletop web accents"],
-    rating: 4.8, reviews: 276, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 276, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38,
   },
   {
     id: "theme-k-samrat-spiderman-5th-round",
