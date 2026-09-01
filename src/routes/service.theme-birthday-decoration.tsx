@@ -671,7 +671,7 @@ const NEW_THEME_CARDS_F = [
     description: "A whimsical pastel butterfly decor with personalised 'Happy Birthday NAME' neon chiara backdrop, pink-lilac-peach-silver chrome organic balloon arch with pink butterfly props, a giant glowing yellow butterfly LED prop and a marquee number '1' — straight from the photo.",
     image: themeF10.url,
     includes: ["Personalised 'Happy Birthday NAME' neon chiara backdrop", "Pink, lilac, peach & silver-chrome organic balloon arch", "Giant glowing yellow butterfly LED prop", "Marquee number 1 + pink butterfly cut-outs"],
-    rating: 4.9, reviews: 398, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 398, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 22, bestSeller: true,
   },
 ];
 
