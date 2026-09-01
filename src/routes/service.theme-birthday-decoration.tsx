@@ -874,7 +874,7 @@ const NEW_THEME_CARDS_C = [
     description: "A pretty pastel jungle arch in green, white, gold & peach over a personalised 'Happy Birthday OVEE' chiara backdrop with baby animal art, palm leaves, marquee number '7' and a cake pedestal.",
     image: themeC4.url,
     includes: ["Pastel green, white, gold & peach organic balloon arch", "Personalised 'Happy Birthday NAME' chiara backdrop", "Palm leaf accents + baby animal artwork", "Marquee number 7 + decorated cake pedestal"],
-    rating: 4.8, reviews: 276, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 276, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38,
   },
   {
     id: "theme-c-unicorn-rihaviha-twin-name",
