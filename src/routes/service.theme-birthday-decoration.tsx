@@ -698,7 +698,7 @@ const NEW_THEME_CARDS_E = [
     description: "A stylish Boss Baby decor with personalised '1st Happy Birthday NAME' Boss Baby backdrop, blue-white-black-chrome-silver organic ring arch, three Boss Baby cut-outs, star & '1' foils and a marquee number '1' on a balloon pillar — straight from the photo.",
     image: themeE3.url,
     includes: ["Personalised Boss Baby 1st birthday backdrop", "Blue, white, black & chrome organic ring arch", "Three Boss Baby cut-outs + star & 1 foils", "Marquee number 1 on balloon pillar"],
-    rating: 4.9, reviews: 412, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 412, offer: <>₹5499</>, original: <>₹7,999</>, discountPct: 31, bestSeller: true,
   },
   {
     id: "theme-e-yuwaan-too-wild-2-handle-jungle",
