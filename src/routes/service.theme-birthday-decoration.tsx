@@ -1178,9 +1178,9 @@ function ServicePage() {
             includes={["Grand custom themed stage backdrop", "Twin themed arches + sequin/shimmer panel", "Themed character cut-outs + marquee name & number", "Personalised pedestals, props & uplighters"]}
             rating={4.7}
             reviews={893}
-            offer={<>₹29,999</>}
-            original={<>₹34,999</>}
-            discountPct={43}
+            offer={<>₹34,999</>}
+            original={<>₹49,999</>}
+            discountPct={30}
             bestSeller={false}
           />
           {[...NEW_THEME_CARDS, ...NEW_THEME_CARDS_B, ...NEW_THEME_CARDS_C, ...NEW_THEME_CARDS_D, ...NEW_THEME_CARDS_E, ...NEW_THEME_CARDS_F, ...NEW_THEME_CARDS_G, ...NEW_THEME_CARDS_H, ...NEW_THEME_CARDS_I, ...NEW_THEME_CARDS_J, ...NEW_THEME_CARDS_K, ...NEW_THEME_CARDS_L].map((p) => (
