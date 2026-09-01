@@ -956,8 +956,8 @@ const NEW_THEME_CARDS_B = [
     name: "Little Mermaid 'Happy 4th Birthday' Decor",
     description: "A magical mermaid themed wall decor with green sheer curtain, fairy-light backdrop, 'happy birthday' silver foil letters, silver '4' foil, mermaid and seashell cut-outs and a teal, purple, gold & blue chrome balloon arch — straight from under the sea.",
     image: themeB4.url,
-    includes: ["Green sheer curtain + fairy-light backdrop", "Teal, purple, gold & blue chrome balloon arch", "Mermaid, seashell & starfish cut-outs", "'happy birthday' silver foil + number 4 foil"],
-    rating: 4.8, reviews: 264, offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29,
+    includes: ["Fairy-light backdrop", "Teal, purple, gold & blue chrome balloon arch", "Mermaid, seashell & starfish cut-outs", "'happy birthday' silver foil + number 4 foil"],
+    rating: 4.8, reviews: 264, offer: <>₹2,799</>, original: <>₹3,999</>, discountPct: 30,
   },
   {
     id: "theme-b-cocomelon-nishwanth-grand-stage",
