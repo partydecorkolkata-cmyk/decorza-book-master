@@ -706,7 +706,7 @@ const NEW_THEME_CARDS_E = [
     description: "A premium jungle safari decor with personalised twin chiara backdrop ('Happy Birthday NAME' + 'Too Wild 2 Handle'), sage-green, mustard-yellow, ivory & olive organic balloon arches, lion cut-out & lion plush, two pedestals and a glowing marquee number '2' — recreated exactly like the picture.",
     image: themeE4.url,
     includes: ["Personalised twin chiara 'Too Wild 2 Handle' backdrop", "Sage green, mustard, ivory & olive organic arches", "Lion cut-out + cute lion plush prop", "Marquee number 2 + 2 decorated pedestals"],
-    rating: 4.9, reviews: 498, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 498, offer: <>₹12,999</>, original: <>₹19,999</>, discountPct: 35, bestSeller: true,
   },
   {
     id: "theme-e-amayra-butterfly-pink-purple-2nd",
