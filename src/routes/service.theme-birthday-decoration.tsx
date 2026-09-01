@@ -631,7 +631,7 @@ const NEW_THEME_CARDS_F = [
     description: "A premium Boss Baby twin arch decor with personalised 'ALYAN BOSS BABY' + 'Happy Birthday' neon chiara backdrops, blue-silver-chrome-white organic balloon arches, Boss Baby cut-outs and three tie-print pedestals for the cake and props — recreated exactly like the picture.",
     image: themeF5.url,
     includes: ["Personalised twin 'BOSS BABY NAME' + neon chiara backdrops", "Blue, silver-chrome & white organic balloon arches", "Boss Baby cut-outs on both sides", "Three tie-print pedestals for cake & props"],
-    rating: 4.9, reviews: 512, offer: <>₹8,999</>, original: <>₹12,999</>, discountPct: 31, bestSeller: true,
+    rating: 4.9, reviews: 512, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-f-baby-in-bloom-butterfly-double-arch",
