@@ -690,7 +690,7 @@ const NEW_THEME_CARDS_E = [
     description: "A dreamy butterfly themed decor with personalised 'NAME is One' pink chiara backdrop, pink-purple-white-chrome organic balloon arch, multiple 3D butterfly cut-outs, 'Happy Birthday' neon, silver star foil, butterfly print pedestal and marquee number '1' on a balloon pillar.",
     image: themeE2.url,
     includes: ["Personalised 'NAME is One' pink chiara backdrop", "Pink, purple, white & chrome organic balloon arch", "3D butterfly cut-outs + 'Happy Birthday' neon", "Butterfly print pedestal + marquee number 1 pillar"],
-    rating: 4.8, reviews: 387, offer: <>₹4,999</>, original: <>₹6,499</>, discountPct: 23, bestSeller: true,
+    rating: 4.8, reviews: 387, offer: <>₹5,999</>, original: <>₹8,499</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-e-bossbaby-daiwik-blue-ring",
