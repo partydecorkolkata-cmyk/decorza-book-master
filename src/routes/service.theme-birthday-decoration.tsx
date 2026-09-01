@@ -389,7 +389,7 @@ const NEW_THEME_CARDS_I = [
     description: "A cheerful jungle-theme twin 1st birthday arch with a personalised round teal 'Happy Birthday Hridaan & Hritika' backdrop featuring paper-cut palm leaves and cute bear, bunny & kangaroo cut-outs, a lush organic balloon garland in white cloud, chrome-gold & red balloons, a marquee '1' light and a small balloon accented cocktail table — recreated from the reference photo.",
     image: themeI1.url,
     includes: ["Personalised round teal jungle 'Happy Birthday NAMES' backdrop", "White cloud + chrome-gold + red organic balloon garland", "Bear, bunny & kangaroo animal cut-out standees", "Marquee '1' light + balloon-styled cocktail table"],
-    rating: 4.8, reviews: 264, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.8, reviews: 264, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-i-faiza-zara-frozen-twin-arch",
