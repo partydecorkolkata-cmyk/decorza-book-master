@@ -997,7 +997,7 @@ const NEW_THEME_CARDS_B = [
     description: "A luxury Cocomelon pastel rainbow grand stage with gold sequin shimmer panel, custom 'Vivan Turns One' backdrop, big pastel balloon arch, multiple Cocomelon cut-outs, marquee '1' with crown, 'One' neon, 'VIVAN' name lights and a wooden picket fence prop.",
     image: themeB9.url,
     includes: ["Pastel rainbow grand balloon arch", "Gold sequin shimmer + custom 'Turns One' backdrop", "Multiple Cocomelon character cut-outs", "'One' neon + marquee '1' + 'VIVAN' name lights + picket fence"],
-    rating: 4.9, reviews: 612, offer: <>₹27,999</>, original: <>₹34,999</>, discountPct: 20, bestSeller: true,
+    rating: 4.9, reviews: 612, offer: <>₹34,999</>, original: <>₹49,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-b-boss-baby-outdoor-deck-arch",
