@@ -775,7 +775,7 @@ const NEW_THEME_CARDS_D = [
     description: "A premium jungle safari 'Wild One' decor with personalised 'NAME's Wild ONE' triple chiara backdrop, twin yellow-green-ivory balloon arches, lion / zebra / tiger / giraffe / elephant cut-outs, marquee number '1', personalised 'VEDANTH' marquee name lights and three decorated pedestals on a red stage.",
     image: themeD2.url,
     includes: ["Personalised triple chiara 'Wild One' backdrop", "Twin yellow, green & ivory organic balloon arches", "Lion, tiger, zebra, giraffe & elephant cut-outs", "Marquee number 1 + personalised NAME marquee lights + 3 pedestals"],
-    rating: 4.9, reviews: 678, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 678, offer: <>₹24,999</>, original: <>₹34,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-d-tom-jerry-adhyaa-turns-2",
