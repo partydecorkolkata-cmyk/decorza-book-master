@@ -738,7 +738,7 @@ const NEW_THEME_CARDS_E = [
     description: "A magical butterfly & floral decor with personalised round 'NAME Turns ONE' purple floral backdrop, pastel pink, gold chrome & white organic balloon arch, multiple butterfly cut-outs, a large purple butterfly foil and a marquee number '1' on the side — exactly like the picture.",
     image: themeE8.url,
     includes: ["Personalised round 'NAME Turns ONE' floral backdrop", "Pastel pink, gold chrome & white organic arch", "Multiple butterfly cut-outs + large butterfly foil", "Marquee number 1 + 'Happy Birthday' foil"],
-    rating: 4.9, reviews: 478, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 478, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-e-hanvika-butterfly-pink-purple-arch-grand",
