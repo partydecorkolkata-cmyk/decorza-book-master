@@ -799,7 +799,7 @@ const NEW_THEME_CARDS_D = [
     description: "A stylish Boss Baby corner decor with personalised 'BOSS BABY NAME' backdrop, tall organic balloon pillar in pastel blue, silver chrome, black, white & metallic blue, Boss Baby cut-out, blue '1' crown foil and 'ONE' balloon blocks — straight from the photo.",
     image: themeD5.url,
     includes: ["Personalised 'BOSS BABY NAME' backdrop", "Tall pastel blue, chrome, black & white balloon pillar", "Life-size Boss Baby cut-out", "Blue '1' crown foil + 'ONE' balloon blocks"],
-    rating: 4.9, reviews: 354, offer: <>₹3,999</>, original: <>₹5,499</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 354, offer: <>₹4999</>, original: <>₹7,499</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-d-cars-vedaansh-mcqueen-6th-arch",
