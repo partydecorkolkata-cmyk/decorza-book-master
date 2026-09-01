@@ -445,7 +445,7 @@ const NEW_THEME_CARDS_I = [
     description: "A roaring dinosaur-theme 4th birthday arch with a personalised round 'HAPPY BIRTHDAY Aariv' dino jungle backdrop, a lush organic balloon garland in shades of green, chrome-gold, brown, orange & ivory, a giant T-Rex foil balloon, an inflatable palm-tree prop and a giant marquee number '4' light — recreated from the picture.",
     image: themeI8.url,
     includes: ["Personalised dino jungle 'HBD NAME' round backdrop", "Green, chrome-gold, brown & orange organic balloon garland", "Giant T-Rex foil balloon + inflatable palm-tree prop", "Marquee number '4' light + full styling"],
-    rating: 4.8, reviews: 302, offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.8, reviews: 302, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-i-adam-jungle-hanging-vine-1st",
