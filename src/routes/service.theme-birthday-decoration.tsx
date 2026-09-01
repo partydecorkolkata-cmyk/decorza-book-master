@@ -682,7 +682,7 @@ const NEW_THEME_CARDS_E = [
     description: "A grand jungle safari themed stage with twin green-grass arch backdrops featuring personalised 'NAME Turns ONE' panels, sage-green, ivory & gold organic balloon arches, life-size lion, giraffe, tiger, zebra & elephant cut-outs, marquee number '1' and a personalised 'NAME' marquee name light — recreated exactly like the picture.",
     image: themeE1.url,
     includes: ["Twin grass-arch personalised 'NAME Turns ONE' backdrops", "Sage green, ivory & gold organic balloon arches", "Lion, giraffe, tiger, zebra & elephant cut-outs", "Marquee number 1 + personalised NAME marquee lights"],
-    rating: 4.9, reviews: 542, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 542, offer: <>₹24,999</>, original: <>₹34,999</>, discountPct: 26, bestSeller: true,
   },
   {
     id: "theme-e-parnika-butterfly-pink-purple-one",
