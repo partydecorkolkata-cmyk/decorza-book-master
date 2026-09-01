@@ -989,7 +989,7 @@ const NEW_THEME_CARDS_B = [
     description: "A bold Boss Baby ring arch in blue, white and silver chrome balloons over a silver fringe curtain with 'Happy Birthday' neon, Boss Baby & star foils, decorated pedestal and a glowing marquee number 1 — recreated as shown.",
     image: themeB8.url,
     includes: ["Blue, white & silver chrome ring arch", "Silver fringe curtain + 'Happy Birthday' neon", "Boss Baby foils + blue star foils", "Marquee number 1 + decorated gold pedestal"],
-    rating: 4.9, reviews: 358, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.9, reviews: 358, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-b-cocomelon-vivan-pastel-grand",
