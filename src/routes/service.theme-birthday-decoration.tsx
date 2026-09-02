@@ -571,7 +571,7 @@ const NEW_THEME_CARDS_G = [
     name: "Happy Birthday Rose-Gold Simple Room Decor",
     description: "A simple, budget-friendly room decor with a rose-gold 'HAPPY BIRTHDAY' foil banner on a yellow wall, pastel pink & white flower balloon clusters on the sides, ceiling helium balloons and small balloon bouquets on the sofa & table — exactly like the reference photo.",
     image: themeG8.url,
-    includes: ["Rose-gold 'Happy Birthday' foil banner", "Pastel pink & white flower balloon clusters", "Ceiling helium balloons", "Sofa & table balloon accents"],
+    includes: ["Rose-gold 'Happy Birthday' foil banner", "Pastel pink & white flower balloon clusters", "Ceiling  balloons", "Sofa & table balloon accents"],
     rating: 4.7, reviews: 224, offer: <>₹1,499</>, original: <>₹2,499</>, discountPct: 40,
   },
   {
