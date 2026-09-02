@@ -949,7 +949,7 @@ const NEW_THEME_CARDS_B = [
     description: "A vibrant superhero themed ring arch with personalised 'Nishv Turns 3 — Level 3 Unlocked' backdrop, multi-colour balloon garland, Captain America, Superman, Hulk & Spider-Man cut-outs, marquee '3' and 'NISHV' name lights with themed pedestals.",
     image: themeB3.url,
     includes: ["Personalised superhero photo backdrop", "Red, blue, yellow & green balloon ring arch", "Four superhero life-size cut-outs", "Marquee number 3 + 'Name' marquee lights + themed pedestals"],
-    rating: 4.9, reviews: 389, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.9, reviews: 389, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-b-mermaid-4th-birthday",
