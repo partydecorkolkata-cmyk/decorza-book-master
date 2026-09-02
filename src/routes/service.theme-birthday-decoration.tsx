@@ -933,7 +933,7 @@ const NEW_THEME_CARDS_B = [
     description: "A dreamy Cocomelon themed ring arch with personalised 'Aryaan Turns 1' rainbow photo backdrop, pastel multi-colour balloon arch, Cocomelon character cut-out, marquee number 1 and 'Happy Birthday' neon — exactly like the picture.",
     image: themeB1.url,
     includes: ["Pastel rainbow balloon ring arch", "Personalised photo backdrop with rainbow", "Cocomelon cut-out + marquee number 1 light", "'Happy Birthday' neon + two balloon pillars"],
-    rating: 4.9, reviews: 432, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
+    rating: 4.9, reviews: 432, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-b-blue-silver-chrome-1st-home",
