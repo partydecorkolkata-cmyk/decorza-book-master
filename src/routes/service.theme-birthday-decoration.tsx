@@ -140,7 +140,7 @@ const NEW_THEME_CARDS_L = [
     description: "A magical Sofia the First princess 1st birthday arch with a personalised neon 'Happy Birthday HAFSA ATIF' backdrop featuring rainbow angel wings, a dense organic balloon garland in magenta chrome, blush-pink, white & gold chrome, a life-size Sofia princess foil balloon, Sofia round foil accents, a gold geometric cake pedestal and giant marquee 'HAFSA' + '1' light-up letters — recreated from the picture.",
     image: themeL2.url,
     includes: ["Personalised neon 'Happy Birthday NAME' backdrop with rainbow angel wings", "Magenta chrome, blush, white & gold chrome organic balloon garland", "Life-size Sofia princess foil balloon + Sofia round foils", "Marquee 'NAME' letters + giant marquee '1' + gold cake pedestal"],
-    rating: 5.0, reviews: 512, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+    rating: 5.0, reviews: 512, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-l-heenal-unicorn-rainbow-foil",
@@ -306,7 +306,7 @@ const NEW_THEME_CARDS_J = [
     description: "A dreamy unicorn birthday setup with a personalised 'HAPPY BIRTHDAY MAHEEN' gold foil letter backdrop over a shimmer curtain, a huge pastel rainbow half-arch in pink, peach, yellow, mint, blue & lilac balloons, a giant rainbow-mane unicorn foil balloon, a matching balloon column and a candy pastel balloon skirt around the cake table — recreated from the reference photo.",
     image: themeJ1.url,
     includes: ["Personalised gold foil 'HAPPY BIRTHDAY NAME' backdrop + shimmer curtain", "Pastel rainbow half-arch balloon garland", "Giant rainbow-mane unicorn foil balloon + matching column", "Balloon-decorated cake table + venue styling"],
-    rating: 4.8, reviews: 312, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.8, reviews: 312, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-j-iyla-minions-turns-two-banquet",
@@ -322,7 +322,7 @@ const NEW_THEME_CARDS_J = [
     description: "A classy Boss Baby 1st birthday arch with a personalised round sky-blue 'BOSS BABY MEERWARDHAAN' backdrop, a lush organic balloon garland in sky-blue, white, navy & chrome-silver, twin life-size Boss Baby standees in suits, a tuxedo bow-tie cake pedestal and a glowing marquee number '1' light — recreated from the reference photo.",
     image: themeJ3.url,
     includes: ["Personalised round 'BOSS BABY NAME' backdrop", "Sky-blue, white, navy & chrome-silver organic balloon garland", "Twin life-size Boss Baby standees + tuxedo cake pedestal", "Marquee number '1' light + venue setup"],
-    rating: 4.9, reviews: 468, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 468, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-j-hanika-fairy-butterfly-outdoor",
@@ -413,7 +413,7 @@ const NEW_THEME_CARDS_I = [
     description: "A vibrant Cocomelon 1st birthday stage with a personalised 'Agasthya Turns 1' rainbow arched backdrop, twin balloon pillars in mint, peach, yellow, coral & sky-blue framing the stage, a rainbow organic balloon garland on top, JJ, TomTom, YoYo & Cody Cocomelon standees, a 'Happy Birthday' neon side sign, marquee '1' light and personalised gold-foil 'AGASTHYA' letters on a pastel balloon wall — recreated from the picture.",
     image: themeI4.url,
     includes: ["Personalised Cocomelon 'NAME Turns 1' rainbow arched backdrop", "Twin balloon pillars + rainbow organic balloon arch", "4 Cocomelon character standees + 'Happy Birthday' neon", "Marquee '1' light + gold-foil 'NAME' letters on pastel balloon wall"],
-    rating: 4.8, reviews: 391, offer: <>₹99</>, original: <>₹9,999</>, discountPct: 99, bestSeller: true,
+    rating: 4.8, reviews: 391, offer: <>₹5,999</>, original: <>₹8,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-i-mermaid-under-the-sea-6th",
@@ -437,7 +437,7 @@ const NEW_THEME_CARDS_I = [
     description: "A playful Lego-theme 5th birthday setup with a personalised round 'Happy Birthday Zayan' Lego-scene backdrop, a colourful organic balloon arch in primary red, yellow, blue & green, a glowing 'Happy Birthday' neon sign, a marquee number '5' light and a fun Lego balloon sculpture on the floor — recreated from the reference photo.",
     image: themeI7.url,
     includes: ["Personalised Lego 'Happy Birthday NAME' round backdrop", "Red, yellow, blue & green primary organic balloon arch", "'Happy Birthday' neon sign + marquee '5' light", "Lego-style balloon floor sculpture"],
-    rating: 4.7, reviews: 214, offer: <>₹3,999</>, original: <>₹4,999</>, discountPct: 20,
+    rating: 4.7, reviews: 214, offer: <>₹4,199</>, original: <>₹6,499</>, discountPct: 35,
   },
   {
     id: "theme-i-aariv-dinosaur-4th",
@@ -524,7 +524,7 @@ const NEW_THEME_CARDS_G = [
     description: "A colourful outdoor Cocomelon arch with a personalised 'Happy Birthday KARL' watermelon-sky backdrop, a rainbow organic balloon arch in green, yellow, orange, red & sky-blue, watermelon Cocomelon face cut-outs, a school bus prop and a life-size JJ standee — styled exactly like the photo.",
     image: themeG2.url,
     includes: ["Personalised Cocomelon watermelon backdrop", "Rainbow (green/yellow/orange/red/blue) organic balloon arch", "Watermelon Cocomelon face cut-outs + school bus prop", "Life-size JJ standee + outdoor setup"],
-    rating: 4.8, reviews: 388, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 29,
+    rating: 4.8, reviews: 388, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
   },
   {
     id: "theme-g-matias-boss-baby-blue-white-arch",
@@ -580,7 +580,7 @@ const NEW_THEME_CARDS_G = [
     description: "A magical Frozen twin-chiara birthday setup with a personalised 'Happy Birthday ANFA' Anna & Elsa backdrop, a purple, lavender, white & silver organic balloon garland flowing across both arches, three Frozen character standees (Anna, Elsa, Elsa in blue gown), an Olaf-wrapped pedestal, personalised 'ANFA' name light and a marquee number light — recreated from the photo.",
     image: themeG9.url,
     includes: ["Twin chiara personalised Anna & Elsa backdrop", "Purple, lavender, white & silver organic balloon garland", "3 Frozen character standees + Olaf cake pedestal", "Personalised 'NAME' light + marquee number light"],
-    rating: 4.9, reviews: 528, offer: <>₹11,999</>, original: <>₹19,999</>, discountPct: 37, bestSeller: true,
+    rating: 4.9, reviews: 528, offer: <>₹11,999</>, original: <>₹19,999</>, discountPct: 40, bestSeller: true,
   },
   {
     id: "theme-g-mudita-frozen-ceiling-blue-white-room",
@@ -631,7 +631,7 @@ const NEW_THEME_CARDS_F = [
     description: "A premium Boss Baby twin arch decor with personalised 'ALYAN BOSS BABY' + 'Happy Birthday' neon chiara backdrops, blue-silver-chrome-white organic balloon arches, Boss Baby cut-outs and three tie-print pedestals for the cake and props — recreated exactly like the picture.",
     image: themeF5.url,
     includes: ["Personalised twin 'BOSS BABY NAME' + neon chiara backdrops", "Blue, silver-chrome & white organic balloon arches", "Boss Baby cut-outs on both sides", "Three tie-print pedestals for cake & props"],
-    rating: 4.9, reviews: 512, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.9, reviews: 512, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-f-baby-in-bloom-butterfly-double-arch",
@@ -639,7 +639,7 @@ const NEW_THEME_CARDS_F = [
     description: "A luxurious 'Baby in Bloom' butterfly themed decor with personalised twin pink chiara backdrops, dense pink-purple-magenta-rose gold organic balloon arches with fresh flowers, two giant 3D butterfly wing props, hand-painted butterfly art and two draped pedestals — exactly like the picture.",
     image: themeF6.url,
     includes: ["Personalised twin pink 'Baby in Bloom' chiara backdrops", "Pink, purple, magenta & rose-gold organic arches with flowers", "Two giant 3D butterfly wing props", "Hand-painted butterfly art + two draped pedestals"],
-    rating: 4.9, reviews: 587, offer: <>₹11,999</>, original: <>₹19,999</>, discountPct: 40, bestSeller: true,
+    rating: 4.9, reviews: 587, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-f-butterfly-esha-crown-pastel-arch",
@@ -647,7 +647,7 @@ const NEW_THEME_CARDS_F = [
     description: "A dreamy butterfly themed decor with personalised 'Happy Birthday NAME' floral crown-butterfly backdrop, pastel pink, peach, purple, blue & white organic balloon arch, three large 3D butterfly cut-outs and a sequin-draped gold cake stand — straight from the photo.",
     image: themeF7.url,
     includes: ["Personalised 'Happy Birthday NAME' crown-butterfly backdrop", "Pastel pink, peach, purple, blue & white organic arch", "Three large 3D butterfly cut-outs", "Sequin-draped cake table "],
-    rating: 4.8, reviews: 342, offer: <>₹5499</>, original: <>₹7,999</>, discountPct: 25,
+    rating: 4.8, reviews: 342, offer: <>₹5499</>, original: <>₹7,999</>, discountPct: 31,
   },
   {
     id: "theme-f-butterfly-aarvi-princess-purple-ring",
@@ -671,7 +671,7 @@ const NEW_THEME_CARDS_F = [
     description: "A whimsical pastel butterfly decor with personalised 'Happy Birthday NAME' neon chiara backdrop, pink-lilac-peach-silver chrome organic balloon arch with pink butterfly props, a giant glowing yellow butterfly LED prop and a marquee number '1' — straight from the photo.",
     image: themeF10.url,
     includes: ["Personalised 'Happy Birthday NAME' neon chiara backdrop", "Pink, lilac, peach & silver-chrome organic balloon arch", "Giant glowing yellow butterfly LED prop", "Marquee number 1 + pink butterfly cut-outs"],
-    rating: 4.9, reviews: 398, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 22, bestSeller: true,
+    rating: 4.9, reviews: 398, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
   },
 ];
 
@@ -682,7 +682,7 @@ const NEW_THEME_CARDS_E = [
     description: "A grand jungle safari themed stage with twin green-grass arch backdrops featuring personalised 'NAME Turns ONE' panels, sage-green, ivory & gold organic balloon arches, life-size lion, giraffe, tiger, zebra & elephant cut-outs, marquee number '1' and a personalised 'NAME' marquee name light — recreated exactly like the picture.",
     image: themeE1.url,
     includes: ["Twin grass-arch personalised 'NAME Turns ONE' backdrops", "Sage green, ivory & gold organic balloon arches", "Lion, giraffe, tiger, zebra & elephant cut-outs", "Marquee number 1 + personalised NAME marquee lights"],
-    rating: 4.9, reviews: 542, offer: <>₹21,999</>, original: <>₹34,999</>, discountPct: 38, bestSeller: true,
+    rating: 4.9, reviews: 542, offer: <>₹21,999</>, original: <>₹34,999</>, discountPct: 37, bestSeller: true,
   },
   {
     id: "theme-e-parnika-butterfly-pink-purple-one",
@@ -767,7 +767,7 @@ const NEW_THEME_CARDS_D = [
     description: "A grand Boss Baby themed stage decor with a tall blue & white organic balloon arch, 'Happy Birthday' neon centrepiece, four life-size Boss Baby cut-outs on balloon pillars, marquee number '1' and a green carpet runway with a gold cake stand — recreated exactly like the picture.",
     image: themeD1.url,
     includes: ["Tall blue & white organic balloon arch", "'Happy Birthday' neon centrepiece", "4 Boss Baby cut-outs on balloon pillars", "Marquee number 1 + gold cake stand on green runway"],
-    rating: 4.9, reviews: 412, offer: <>₹4,999</>, original: <>₹6,499</>, discountPct: 23, bestSeller: true,
+    rating: 4.9, reviews: 412, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-d-vedanth-wild-one-jungle-grand",
@@ -799,7 +799,7 @@ const NEW_THEME_CARDS_D = [
     description: "A stylish Boss Baby corner decor with personalised 'BOSS BABY NAME' backdrop, tall organic balloon pillar in pastel blue, silver chrome, black, white & metallic blue, Boss Baby cut-out, blue '1' crown foil and 'ONE' balloon blocks — straight from the photo.",
     image: themeD5.url,
     includes: ["Personalised 'BOSS BABY NAME' backdrop", "Tall pastel blue, chrome, black & white balloon pillar", "Life-size Boss Baby cut-out", "Blue '1' crown foil + 'ONE' balloon blocks"],
-    rating: 4.9, reviews: 354, offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 38, bestSeller: true,
+    rating: 4.9, reviews: 354, offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-d-cars-vedaansh-mcqueen-6th-arch",
@@ -815,7 +815,7 @@ const NEW_THEME_CARDS_D = [
     description: "A luxury twin-baby butterfly themed stage with two personalised pink-purple chiara backdrops, silver sequin shimmer wall, 'Happy Birthday' neon, glowing butterfly props, pink & purple organic balloon arches, two marquee name lights, butterfly print pedestals and 'B' baby blocks.",
     image: themeD7.url,
     includes: ["Twin personalised pink-purple chiara backdrops", "Silver sequin shimmer wall + 'Happy Birthday' neon", "Pink & purple organic balloon arches + glowing butterflies", "Two marquee name lights + butterfly pedestals + baby blocks"],
-    rating: 4.9, reviews: 587, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 587, offer: <>₹34,999</>, original: <>₹49,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-d-peppa-pig-pink-pastel-room",
@@ -933,7 +933,7 @@ const NEW_THEME_CARDS_B = [
     description: "A dreamy Cocomelon themed ring arch with personalised 'Aryaan Turns 1' rainbow photo backdrop, pastel multi-colour balloon arch, Cocomelon character cut-out, marquee number 1 and 'Happy Birthday' neon — exactly like the picture.",
     image: themeB1.url,
     includes: ["Pastel rainbow balloon ring arch", "Personalised photo backdrop with rainbow", "Cocomelon cut-out + marquee number 1 light", "'Happy Birthday' neon + two balloon pillars"],
-    rating: 4.9, reviews: 432, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.9, reviews: 432, offer: <>₹6,499</>, original: <>₹7,999</>, discountPct: 19, bestSeller: true,
   },
   {
     id: "theme-b-blue-silver-chrome-1st-home",
@@ -949,7 +949,7 @@ const NEW_THEME_CARDS_B = [
     description: "A vibrant superhero themed ring arch with personalised 'Nishv Turns 3 — Level 3 Unlocked' backdrop, multi-colour balloon garland, Captain America, Superman, Hulk & Spider-Man cut-outs, marquee '3' and 'NISHV' name lights with themed pedestals.",
     image: themeB3.url,
     includes: ["Personalised superhero photo backdrop", "Red, blue, yellow & green balloon ring arch", "Four superhero life-size cut-outs", "Marquee number 3 + 'Name' marquee lights + themed pedestals"],
-    rating: 4.9, reviews: 389, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.9, reviews: 389, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-b-mermaid-4th-birthday",
@@ -1024,7 +1024,7 @@ const NEW_THEME_CARDS = [
     description: "A vibrant purple, lilac and white balloon garland arch over a silver foil-curtain backdrop with 'Happy Birthday Official Teenager' banner and silver foil '13' — perfect for the big teen reveal.",
     image: themeA2.url,
     includes: ["Purple, lilac & white balloon garland arch", "Silver foil-curtain backdrop", "'Official Teenager' banner + butterfly accents", "Silver foil number '13' with balloon pillars"],
-    rating: 4.7, reviews: 286, offer: <>₹1,999</>, original: <>₹2,999</>, discountPct: 33,
+    rating: 4.7, reviews: 286, offer: <>₹2,199</>, original: <>₹3,499</>, discountPct: 37,
   },
   {
     id: "theme-boss-baby-blue-arch-home",
