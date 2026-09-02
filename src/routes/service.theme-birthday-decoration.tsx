@@ -231,7 +231,7 @@ const NEW_THEME_CARDS_K = [
     description: "An adventurous indoor jungle 1st birthday arch with a personalised 'HAPPY BIRTHDAY MIHIR' safari backdrop, a lush organic balloon garland in forest-green, lime, brown, orange & cream with palm-leaf accents, life-size giraffe, monkey, lion & tiger standees, jungle-print cake pedestals and hanging vine drops — styled exactly like the reference photo.",
     image: themeK2.url,
     includes: ["Personalised safari 'HAPPY BIRTHDAY NAME' backdrop", "Forest-green, lime, brown & orange organic balloon garland with palm leaves", "Giraffe, monkey, lion & tiger standees", "Jungle-print cake pedestals + hanging vine drops"],
-    rating: 4.9, reviews: 428, offer: <>₹11,999</>, original: <>₹14,999</>, discountPct: 20, bestSeller: true,
+    rating: 4.9, reviews: 428, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-k-luna-unicorn-3-magical-years",
