@@ -580,7 +580,7 @@ const NEW_THEME_CARDS_G = [
     description: "A magical Frozen twin-chiara birthday setup with a personalised 'Happy Birthday ANFA' Anna & Elsa backdrop, a purple, lavender, white & silver organic balloon garland flowing across both arches, three Frozen character standees (Anna, Elsa, Elsa in blue gown), an Olaf-wrapped pedestal, personalised 'ANFA' name light and a marquee number light — recreated from the photo.",
     image: themeG9.url,
     includes: ["Twin chiara personalised Anna & Elsa backdrop", "Purple, lavender, white & silver organic balloon garland", "3 Frozen character standees + Olaf cake pedestal", "Personalised 'NAME' light + marquee number light"],
-    rating: 4.9, reviews: 528, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 528, offer: <>₹11,999</>, original: <>₹19,999</>, discountPct: 37, bestSeller: true,
   },
   {
     id: "theme-g-mudita-frozen-ceiling-blue-white-room",
