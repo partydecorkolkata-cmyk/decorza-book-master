@@ -516,7 +516,7 @@ const NEW_THEME_CARDS_G = [
     description: "A dreamy Cocomelon 1st birthday setup with a personalised 'MISHANT is in a MELON 1' sky-blue cloud backdrop, a chiara blue-slatted side arch with cloud cut-outs, a large organic balloon garland in navy, powder-blue, ivory & clear bubble balloons, a boho rainbow prop and a life-size JJ Cocomelon standee — recreated exactly like the picture.",
     image: themeG1.url,
     includes: ["Personalised 'In a Melon 1' cloud backdrop + slatted chiara arch", "Navy, blue, ivory & bubble balloon organic garland", "Cloud cut-outs + boho rainbow prop", "Life-size JJ Cocomelon standee + venue setup"],
-    rating: 4.9, reviews: 512, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 512, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-g-karl-cocomelon-rainbow-arch",
