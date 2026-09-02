@@ -263,7 +263,7 @@ const NEW_THEME_CARDS_K = [
     description: "A punchy Spider-Man 4th birthday banquet arch with a personalised round 'Ayden's 4th Birthday' Spider-Man backdrop over a red satin curtain, a lush organic balloon garland in red, royal-blue, black & chrome-silver, a matching balloon column, a Spider-Man cake pedestal and a glowing marquee number '4' — recreated from the picture.",
     image: themeK6.url,
     includes: ["Personalised round 'NAME's Xth Birthday' Spider-Man backdrop", "Red, royal-blue, black & chrome-silver organic balloon garland", "Matching balloon column + Spider-Man cake pedestal", "Glowing marquee number light"],
-    rating: 4.9, reviews: 342, offer: <>₹7,999</>, original: <>₹9,999</>, discountPct: 20, bestSeller: true,
+    rating: 4.9, reviews: 342, offer: <>₹5,499</>, original: <>₹7,999</>, discountPct: 31, bestSeller: true,
   },
   {
     id: "theme-k-spiderman-neon-happy-birthday-arch",
