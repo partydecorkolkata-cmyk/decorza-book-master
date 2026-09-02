@@ -132,7 +132,7 @@ const NEW_THEME_CARDS_L = [
     description: "A bright Cocomelon 1st birthday arch with a personalised 'Cocomelon Happy Birthday' cloud backdrop featuring a rainbow, smiling sun & JJ face, a lush organic balloon garland in yellow, green, sky-blue, red & peach, twin JJ baby standees, a Cocomelon-print cake pillar and playful watermelon-ladybug cut-outs — recreated exactly from the reference photo.",
     image: themeL1.url,
     includes: ["Personalised Cocomelon cloud 'Happy Birthday NAME' backdrop", "Yellow, green, blue, red & peach organic balloon garland with rainbow & sun cut-outs", "Twin JJ baby standees + watermelon-ladybug cut-outs", "Cocomelon-print cake pillar + venue styling"],
-    rating: 4.9, reviews: 342, offer: <>₹5,499</>, original: <>₹6,999</>, discountPct: 21, bestSeller: true,
+    rating: 4.9, reviews: 342, offer: <>₹6,499</>, original: <>₹9,999</>, discountPct: 35, bestSeller: true,
   },
   {
     id: "theme-l-hafsa-atif-sofia-princess-arch",
