@@ -306,7 +306,7 @@ const NEW_THEME_CARDS_J = [
     description: "A dreamy unicorn birthday setup with a personalised 'HAPPY BIRTHDAY MAHEEN' gold foil letter backdrop over a shimmer curtain, a huge pastel rainbow half-arch in pink, peach, yellow, mint, blue & lilac balloons, a giant rainbow-mane unicorn foil balloon, a matching balloon column and a candy pastel balloon skirt around the cake table — recreated from the reference photo.",
     image: themeJ1.url,
     includes: ["Personalised gold foil 'HAPPY BIRTHDAY NAME' backdrop + shimmer curtain", "Pastel rainbow half-arch balloon garland", "Giant rainbow-mane unicorn foil balloon + matching column", "Balloon-decorated cake table + venue styling"],
-    rating: 4.8, reviews: 312, offer: <>₹2,999</>, original: <>₹4,999</>, discountPct: 40, bestSeller: true,
+    rating: 4.8, reviews: 312, offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-j-iyla-minions-turns-two-banquet",
