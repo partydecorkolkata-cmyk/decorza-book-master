@@ -556,7 +556,7 @@ const NEW_THEME_CARDS_G = [
     description: "A stylish Boss Baby setup with a personalised sky-blue 'NATAN JAHDIEL' backdrop featuring milk-bottle, tie & moustache motifs, a metallic blue, chrome-gold, white & clear organic balloon arch, life-size Boss Baby standee and a tuxedo cake pedestal with black bow-tie — exactly like the picture.",
     image: themeG6.url,
     includes: ["Personalised Boss Baby 'NAME' blue backdrop", "Metallic blue, gold, white & clear balloon arch", "Life-size Boss Baby standee", "Tuxedo cake pedestal + venue setup"],
-    rating: 4.8, reviews: 341, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    rating: 4.8, reviews: 341, offer: <>₹4,999</>, original: <>₹6,499</>, discountPct: 23,
   },
   {
     id: "theme-g-raelynn-unicorn-pastel-restaurant",
