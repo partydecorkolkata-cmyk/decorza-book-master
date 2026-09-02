@@ -1040,7 +1040,7 @@ const NEW_THEME_CARDS = [
     description: "A premium hall stage Boss Baby setup with gold sequin centre panel, custom 'Rudransh Turns 1' backdrop, three Boss Baby cut-outs, white picket fence, marquee name and a red stage carpet — exactly as in the photo.",
     image: themeA4.url,
     includes: ["Stage with gold sequin + custom 'Turns 1' backdrop", "Three Boss Baby cut-outs + marquee name letters", "White picket fence + red carpet stage", "Blue, white & silver chrome balloon clusters"],
-    rating: 4.9, reviews: 524, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 524, offer: <>₹24,999</>, original: <>₹34,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-fairy-butterfly-blue-mouli",
