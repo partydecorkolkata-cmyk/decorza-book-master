@@ -524,7 +524,7 @@ const NEW_THEME_CARDS_G = [
     description: "A colourful outdoor Cocomelon arch with a personalised 'Happy Birthday KARL' watermelon-sky backdrop, a rainbow organic balloon arch in green, yellow, orange, red & sky-blue, watermelon Cocomelon face cut-outs, a school bus prop and a life-size JJ standee — styled exactly like the photo.",
     image: themeG2.url,
     includes: ["Personalised Cocomelon watermelon backdrop", "Rainbow (green/yellow/orange/red/blue) organic balloon arch", "Watermelon Cocomelon face cut-outs + school bus prop", "Life-size JJ standee + outdoor setup"],
-    rating: 4.8, reviews: 388, offer: <>₹8,499</>, original: <>₹12,999</>, discountPct: 35,
+    rating: 4.8, reviews: 388, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 29,
   },
   {
     id: "theme-g-matias-boss-baby-blue-white-arch",
