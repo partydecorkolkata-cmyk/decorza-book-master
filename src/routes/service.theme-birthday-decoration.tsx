@@ -405,7 +405,7 @@ const NEW_THEME_CARDS_I = [
     description: "A stunning space-theme 5th birthday setup with a personalised navy 'VIRAJ' astronaut chiara backdrop paired with a starry pastel-blue chiara arch, an organic balloon garland in navy, orange, sky-blue, chrome-silver & ivory with planet, rocket & UFO foil balloons, a starry printed cake pedestal, a giant marquee number '5' light and a chevron floor runner — recreated from the reference image.",
     image: themeI3.url,
     includes: ["Personalised 'NAME' astronaut + starry twin chiara backdrops", "Navy, orange, sky-blue & chrome-silver organic balloon garland", "Planet, rocket, astronaut & UFO foil balloons + cake pedestal", "Giant marquee '5' light + chevron floor runner"],
-    rating: 4.9, reviews: 348, offer: <>₹8,999</>, original: <>₹14,999</>, discountPct: 40, bestSeller: true,
+    rating: 4.9, reviews: 348, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-i-agasthya-cocomelon-stage-1st",
