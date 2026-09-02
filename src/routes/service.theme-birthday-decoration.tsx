@@ -203,8 +203,8 @@ const NEW_THEME_CARDS_L = [
     name: "Cars McQueen 'Racing into 5' Birthday Arch",
     description: "A racing-fast Disney Cars 5th birthday arch with a beige curtain backdrop, black & gold 'HAPPY BIRTHDAY' bunting, a lush organic balloon garland in red, black & gold chrome, a giant Lightning McQueen car foil, McQueen round foil accents, red foil stars, a giant gold marquee '5' foil on a matching column and a Cars-themed side column — recreated exactly like the reference photo.",
     image: themeL10.url,
-    includes: ["Beige curtain + black & gold 'HAPPY BIRTHDAY' bunting", "Red, black & gold chrome organic balloon garland", "Giant Lightning McQueen car foil + McQueen round foils + red star foils", "Giant gold marquee '5' foil on balloon column + matching side column"],
-    rating: 4.8, reviews: 312, offer: <>₹2,799</>, original: <>₹3,499</>, discountPct: 20, bestSeller: true,
+    includes: ["\u00a0Black & gold 'HAPPY BIRTHDAY' bunting", "Red, black & gold chrome organic balloon garland", "Giant Lightning McQueen car foil + McQueen round foils + red star foils", "Giant gold marquee '5' foil on balloon column + matching side column"],
+    rating: 4.8, reviews: 312, offer: <>₹2,499</>, original: <>₹3,499</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-m-purple-butterfly-1st-arch",
