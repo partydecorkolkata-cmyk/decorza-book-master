@@ -783,7 +783,7 @@ const NEW_THEME_CARDS_D = [
     description: "A bright Tom & Jerry themed decor with personalised 'NAME Turns 2' twin chiara backdrop, full pastel multi-colour organic balloon arch, multiple Tom & Jerry cut-outs on either side and three grey draped pedestals — exactly like the picture.",
     image: themeD3.url,
     includes: ["Personalised 'NAME Turns 2' twin chiara backdrop", "Pastel multi-colour organic balloon arch", "Tom & Jerry cut-outs + character pillars on both sides", "Three draped pedestals for cake & props"],
-    rating: 4.8, reviews: 489, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.8, reviews: 489, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-d-pastel-baby-5th-glitter-curtain",
