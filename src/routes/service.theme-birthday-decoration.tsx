@@ -397,7 +397,7 @@ const NEW_THEME_CARDS_I = [
     description: "A magical Frozen twin birthday setup with a round Elsa 'Happy Birthday' snowflake backdrop, an organic balloon arch in lilac, blue, chrome-silver, chrome-purple & ivory, twin Elsa & Anna life-size character standees, matching balloon columns, an Olaf-printed cake pedestal and personalised 'FAIZA ZARA' marquee light-up letters — recreated from the picture.",
     image: themeI2.url,
     includes: ["Round Elsa 'Happy Birthday' snowflake backdrop", "Lilac, blue, chrome-silver & purple organic balloon arch", "Elsa & Anna twin character standees + balloon columns", "Olaf printed cake pedestal + personalised 'NAMES' marquee letters"],
-    rating: 4.9, reviews: 402, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.9, reviews: 402, offer: <>₹7,999</>, original: <>₹11,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-i-viraj-space-astronaut-5th",
