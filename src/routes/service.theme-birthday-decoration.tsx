@@ -212,7 +212,7 @@ const NEW_THEME_CARDS_L = [
     description: "A magical purple butterfly 1st birthday arch with a white shimmer curtain backdrop lit by warm fairy lights, a glowing neon 'Happy Birthday' sign, a giant purple butterfly centrepiece, a lush organic balloon garland in chrome-purple, lavender, white & confetti balloons with 3D butterfly cut-outs, twin tall balloon columns topped with oversized purple butterfly wing standees, a balloon-clad cake table crowned with gold butterfly props and a marquee light-up '1' — recreated exactly like the reference photo.",
     image: themeM1.url,
     includes: ["White shimmer fairy-light curtain + neon 'Happy Birthday' sign", "Giant purple butterfly centrepiece + 3D butterfly cut-out accents", "Chrome-purple, lavender, white & confetti organic balloon arch", "Twin butterfly-wing balloon columns + balloon-clad cake table + marquee '1' light"],
-    rating: 4.9, reviews: 276, offer: <>₹9,499</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 276, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
   },
 ];
 
