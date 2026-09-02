@@ -564,7 +564,7 @@ const NEW_THEME_CARDS_G = [
     description: "A charming pastel unicorn 1st birthday restaurant decor with a lilac chiara backdrop personalised 'Happy First Birthday NAME', a lush pastel & chrome-gold organic balloon arch with flower clusters, a large unicorn cut-out standee and a giant clear bubble balloon — recreated from the photo.",
     image: themeG7.url,
     includes: ["Lilac chiara backdrop personalised 'Happy First Birthday NAME'", "Pastel + chrome-gold organic balloon arch with flowers", "Large unicorn cut-out standee", "Giant bubble balloon + restaurant setup"],
-    rating: 4.9, reviews: 402, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 402, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-g-happy-birthday-rosegold-room-simple",
