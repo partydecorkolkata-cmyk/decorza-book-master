@@ -505,7 +505,7 @@ const NEW_THEME_CARDS_H = [
     description: "A stunning Cocomelon arch with a rose-gold sequin shimmer wall, glowing 'Happy Birthday' pink neon centrepiece, a rainbow organic balloon arch in pink, blue, peach, lilac, cream & chrome-gold, Cocomelon family topper cut-out, watermelon logo, sunshine prop, JJ & Cody standees, artificial grass floor and a marquee number '1' light — recreated from the reference photo.",
     image: themeH5.url,
     includes: ["Rose-gold sequin shimmer wall + 'Happy Birthday' pink neon", "Rainbow + chrome-gold organic balloon arch", "Cocomelon family topper + watermelon + sunshine cut-outs", "JJ & Cody standees + grass floor + marquee '1' light"],
-    rating: 4.9, reviews: 486, offer: <>₹7,499</>, original: <>₹9,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 486, offer: <>₹8,499</>, original: <>₹11,999</>, discountPct: 29, bestSeller: true,
   },
 ];
 
