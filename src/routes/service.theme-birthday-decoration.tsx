@@ -481,7 +481,7 @@ const NEW_THEME_CARDS_H = [
     description: "A lavish jungle safari 1st birthday setup with a personalised mint chiara backdrop featuring the baby's photo and 'Anaaya Reddy Turns 1', a lush green, gold & ivory organic balloon arch, life-size giraffe, monkey, lion & lioness cut-out standees, marquee '1' light, mini ferris-wheel cake stand, printed cake pedestals and a green grass floor — recreated from the picture.",
     image: themeH2.url,
     includes: ["Personalised photo backdrop 'NAME Turns 1'", "Green, chrome-gold, ivory & clear jungle balloon arch", "Giraffe, monkey, lion & lioness standees + marquee '1' light", "Ferris-wheel cake stand + printed pedestals + grass floor"],
-    rating: 4.9, reviews: 574, offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 574, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-h-navya-onederful-grand-stage",
