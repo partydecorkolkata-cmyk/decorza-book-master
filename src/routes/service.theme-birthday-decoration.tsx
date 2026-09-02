@@ -362,7 +362,7 @@ const NEW_THEME_CARDS_J = [
     description: "An elegant pastel 5th birthday chiara arch with a hand-painted watercolour pink '5' with bow & 'Happy Birthday' script on an ivory chiara panel, a lush organic balloon garland in ivory, white & chrome-lilac balloons with soft moss accents, matching balloon columns at both feet and warm ground uplighters — styled exactly like the picture.",
     image: themeJ8.url,
     includes: ["Ivory chiara backdrop with hand-painted '5' + bow + 'Happy Birthday' script", "Ivory, white & chrome-lilac organic balloon garland with moss accents", "Matching lilac & white balloon columns (pair)", "Warm ground uplighters + venue styling"],
-    rating: 4.9, reviews: 274, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 274, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
   },
   {
     id: "theme-j-ameis-aurora-princess-5th-arch",
