@@ -279,7 +279,7 @@ const NEW_THEME_CARDS_K = [
     description: "A vibrant Spider-Man 5th birthday setup with a personalised round '5th Birthday SAMRAT' Spider-Man backdrop, a lush organic balloon garland in red, royal-blue & black, matching balloon column, a Spider-Man cake pedestal and a large white marquee number '5' light — recreated exactly like the picture.",
     image: themeK8.url,
     includes: ["Personalised round 'Xth Birthday NAME' Spider-Man backdrop", "Red, royal-blue & black organic balloon garland", "Matching balloon column + Spider-Man cake pedestal", "White marquee number '5' light + venue styling"],
-    rating: 4.8, reviews: 245, offer: <>₹3,999</>, original: <>₹5,499</>, discountPct: 27,
+    rating: 4.8, reviews: 245, offer: <>₹4499</>, original: <>₹6,499</>, discountPct: 31,
   },
   {
     id: "theme-k-kulshaan-superhero-comic-8th",
