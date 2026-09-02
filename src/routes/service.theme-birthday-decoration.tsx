@@ -639,7 +639,7 @@ const NEW_THEME_CARDS_F = [
     description: "A luxurious 'Baby in Bloom' butterfly themed decor with personalised twin pink chiara backdrops, dense pink-purple-magenta-rose gold organic balloon arches with fresh flowers, two giant 3D butterfly wing props, hand-painted butterfly art and two draped pedestals — exactly like the picture.",
     image: themeF6.url,
     includes: ["Personalised twin pink 'Baby in Bloom' chiara backdrops", "Pink, purple, magenta & rose-gold organic arches with flowers", "Two giant 3D butterfly wing props", "Hand-painted butterfly art + two draped pedestals"],
-    rating: 4.9, reviews: 587, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 587, offer: <>₹11,999</>, original: <>₹19,999</>, discountPct: 40, bestSeller: true,
   },
   {
     id: "theme-f-butterfly-esha-crown-pastel-arch",
