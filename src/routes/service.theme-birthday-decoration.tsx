@@ -532,7 +532,7 @@ const NEW_THEME_CARDS_G = [
     description: "A classy Boss Baby decor with a tall white chiara backdrop, personalised 'BOSS BABY MATIAS' cut-out logo, blue-white-black organic balloon garland cascading down one side, life-size Boss Baby standee, tuxedo cake pedestal with black bow-tie and a glowing marquee number '1' — recreated from the reference photo.",
     image: themeG3.url,
     includes: ["White chiara backdrop + 'Boss Baby NAME' cut-out logo", "Blue, white & black organic balloon garland", "Life-size Boss Baby standee + tuxedo cake pedestal", "Marquee number '1' light + venue setup"],
-    rating: 4.9, reviews: 446, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 446, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-g-rian-turns-one-jungle-grass-arch",
