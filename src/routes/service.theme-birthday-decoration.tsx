@@ -247,7 +247,7 @@ const NEW_THEME_CARDS_K = [
     description: "A crowd-favourite Spider-Man 5th birthday arch with a red spider-web backdrop, giant Spider-Man cut-out, dense organic balloon garland in red, black, royal-blue & chrome-silver, spider-print balloon clusters on both columns, a huge marquee number '5' light and a Spider-Man cake pedestal — recreated exactly like the picture.",
     image: themeK4.url,
     includes: ["Red spider-web backdrop + giant Spider-Man standee", "Red, black, royal-blue & chrome-silver organic balloon garland", "Twin spider-print balloon columns", "Giant marquee '5' light + Spider-Man cake pedestal"],
-    rating: 5.0, reviews: 587, offer: <>₹11,499</>, original: <>₹14,999</>, discountPct: 23, bestSeller: true,
+    rating: 5.0, reviews: 587, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-k-khevansh-spiderman-foil-simple",
