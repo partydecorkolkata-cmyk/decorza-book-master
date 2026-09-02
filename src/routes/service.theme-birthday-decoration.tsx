@@ -378,7 +378,7 @@ const NEW_THEME_CARDS_J = [
     description: "A grand Disney Princess 5th birthday arch with a personalised 'Princess AARVI is Turning Five' castle backdrop featuring Cinderella, Ariel, Belle, Snow White, Jasmine & Tiana, a lush organic balloon arch in pastel yellow, ivory & chrome-gold with butterfly accents, life-size Princess character standees (Aurora, Belle, Rapunzel, Sofia, Cinderella & Ariel) and warm stage uplighters — recreated from the reference photo.",
     image: themeJ10.url,
     includes: ["Personalised 'Princess NAME is Turning FIVE' castle backdrop", "Pastel yellow, ivory & chrome-gold organic balloon arch with butterflies", "6 life-size Disney Princess character standees", "Warm stage uplighters + full venue setup"],
-    rating: 5.0, reviews: 491, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+    rating: 5.0, reviews: 491, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
   },
 ];
 
