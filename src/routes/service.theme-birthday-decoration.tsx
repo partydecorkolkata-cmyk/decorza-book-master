@@ -239,7 +239,7 @@ const NEW_THEME_CARDS_K = [
     description: "A dreamy pastel unicorn 3rd birthday arch with a curved pink chiara backdrop featuring 'Luna 3 Magical Years', a rainbow balloon fan tail, a giant unicorn cut-out with gold horn, a lush organic balloon garland in pink, peach, mint, lilac & rose-gold chrome and unicorn cake pedestals — styled to match the reference picture.",
     image: themeK3.url,
     includes: ["Curved pink chiara 'NAME – X Magical Years' backdrop", "Rainbow balloon fan tail + giant unicorn cut-out with gold horn", "Pink, peach, mint, lilac & rose-gold organic balloon garland", "Unicorn cake pedestals + venue styling"],
-    rating: 4.9, reviews: 356, offer: <>₹4,999</>, original: <>₹5,999</>, discountPct: 17, bestSeller: true,
+    rating: 4.9, reviews: 356, offer: <>₹5,499</>, original: <>₹7,999</>, discountPct: 31, bestSeller: true,
   },
   {
     id: "theme-k-spiderman-web-marquee-5-arch",
