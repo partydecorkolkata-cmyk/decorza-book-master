@@ -473,7 +473,7 @@ const NEW_THEME_CARDS_H = [
     description: "A charming jungle 1st birthday arch with a personalised ivory arched backdrop reading 'GUSTU DANA is turning 1', a lush organic balloon garland in sage-green, chrome-gold, white & clear balloons with tropical palm & ivy leaves, a cute baby-lion cut-out standee and a tall white cake pedestal — recreated from the reference photo.",
     image: themeH1.url,
     includes: ["Personalised 'NAME is turning 1' ivory arched backdrop", "Sage green, chrome-gold, white & clear balloon garland", "Palm + ivy tropical leaf accents", "Baby lion cut-out standee + white cake pedestal"],
-    rating: 4.8, reviews: 312, offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.8, reviews: 312, offer: <>₹4,999</>, original: <>₹7,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-h-anaaya-reddy-jungle-safari-arch",
