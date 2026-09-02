@@ -540,7 +540,7 @@ const NEW_THEME_CARDS_G = [
     description: "A grand outdoor jungle 1st birthday with a personalised 'RIAN TURNS ONE' backdrop, central green grass wall with 'Happy Birthday' neon, a lush organic balloon arch in peach, sage, ivory & chrome-gold, giraffe & bunny cut-out standees, squirrel prop and a glowing marquee number '1' on grass — exactly like the picture.",
     image: themeG4.url,
     includes: ["Personalised 'NAME Turns One' backdrop + grass wall", "'Happy Birthday' neon centrepiece", "Peach, sage, ivory & chrome-gold organic balloon arch", "Giraffe, bunny & squirrel cut-outs + marquee '1' light"],
-    rating: 4.9, reviews: 617, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 617, offer: <>₹17,999</>, original: <>₹24,999</>, discountPct: 28, bestSeller: true,
   },
   {
     id: "theme-g-pastel-unicorn-rainbow-4th-arch",
