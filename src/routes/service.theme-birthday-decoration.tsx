@@ -413,7 +413,7 @@ const NEW_THEME_CARDS_I = [
     description: "A vibrant Cocomelon 1st birthday stage with a personalised 'Agasthya Turns 1' rainbow arched backdrop, twin balloon pillars in mint, peach, yellow, coral & sky-blue framing the stage, a rainbow organic balloon garland on top, JJ, TomTom, YoYo & Cody Cocomelon standees, a 'Happy Birthday' neon side sign, marquee '1' light and personalised gold-foil 'AGASTHYA' letters on a pastel balloon wall — recreated from the picture.",
     image: themeI4.url,
     includes: ["Personalised Cocomelon 'NAME Turns 1' rainbow arched backdrop", "Twin balloon pillars + rainbow organic balloon arch", "4 Cocomelon character standees + 'Happy Birthday' neon", "Marquee '1' light + gold-foil 'NAME' letters on pastel balloon wall"],
-    rating: 4.8, reviews: 391, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+    rating: 4.8, reviews: 391, offer: <>₹6,499</>, original: <>₹9,999</>, discountPct: 35, bestSeller: true,
   },
   {
     id: "theme-i-mermaid-under-the-sea-6th",
