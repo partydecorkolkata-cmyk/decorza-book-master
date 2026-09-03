@@ -421,7 +421,7 @@ const NEW_THEME_CARDS_I = [
     description: "A dreamy under-the-sea mermaid 6th birthday setup with a round 'Happy Birthday' coral-reef backdrop, an organic balloon arch in pastel pink, purple, mint, peach & chrome-silver, a giant mermaid-tail foil balloon on top, mermaid & tail cut-out standees, a pink coral-printed cake pedestal, a marquee '6' light and scattered pastel balloons on the floor — recreated from the reference photo.",
     image: themeI5.url,
     includes: ["Round mermaid 'Happy Birthday' coral-reef backdrop", "Pastel pink, purple, mint & chrome-silver organic balloon arch", "Mermaid + mermaid-tail cut-out standees + tail foil balloon", "Coral-printed cake pedestal + marquee '6' light + floor balloons"],
-    rating: 4.9, reviews: 318, offer: <>₹5,499</>, original: <>₹6,999</>, discountPct: 21, bestSeller: true,
+    rating: 4.9, reviews: 318, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-i-omansh-cars-mcqueen-8th",
