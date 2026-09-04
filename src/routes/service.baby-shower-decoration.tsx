@@ -166,9 +166,9 @@ function ServicePage() {
             includes={["Twin blue & pink panel backdrop","'Boy or Girl' baby-foot cutout signage","Blue-navy & pink rose-gold balloon pillars","Artificial floral crowns on both panels"]}
             rating={4.9}
             reviews={348}
-            offer={<>₹7,999</>}
+            offer={<>₹9,999</>}
             original={<>₹14999</>}
-            discountPct={47}
+            discountPct={33}
             bestSeller={true}
           />
           <StaticPackageCard
