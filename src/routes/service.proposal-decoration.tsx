@@ -993,11 +993,11 @@ const BATCH_T = [
       "A dramatic red-and-gold bedroom proposal with red ceiling balloons dropping long ribbons, gold foil 'WILL YOU BE MY GIRLFRIEND' lettering, a red and black balloon floor border and a rose-petal heart on the bed.",
     image: t8.url,
     includes: [
-      "Red helium ceiling balloons with ribbon drops",
+      "\nRed  ceiling balloons with ribbon drops",
       "Gold foil 'WILL YOU BE MY GIRLFRIEND' lettering",
       "Red & black balloon floor border",
       "Rose petal heart on bed",
-      "Rose bouquet & gift box styling",
+      "\n",
     ],
     rating: 4.8,
     reviews: 158,
