@@ -284,7 +284,7 @@ function ServicePage() {
             includes={["'Baby in Bloom' white arch backdrop","Nude & blush organic balloon garland","BABY transparent block tower"]}
             rating={4.9}
             reviews={176}
-            offer={<>₹5499</>}
+            offer={<>₹5999</>}
             original={<>₹7,999</>}
             discountPct={31}
             bestSeller={false}
