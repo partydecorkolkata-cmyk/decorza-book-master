@@ -719,6 +719,7 @@ const BATCH_S = [
     id: "proposal-pink-girlfriend-teddy-suite",
     name: "'Will You Be My Girlfriend' Pink Heart Suite",
     description:
+      "A soft pink hotel-suite surprise with foil 'WILL YOU BE MY GIRLFRIEND?' lettering, floating heart balloons, a rose petal heart on the bed and LED candles glowing across the floor.",
     image: s4.url,
     includes: [
       "Pink foil 'WILL YOU BE MY GIRLFRIEND?' lettering",
