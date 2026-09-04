@@ -453,7 +453,7 @@ const NEW_THEME_CARDS_I = [
     description: "A grand jungle 1st birthday stage on artificial-grass wall with cascading vine & fairy-light ceiling, a personalised sage twin chiara backdrop reading 'ADAM Turns ONE' with a neon '1', a lush organic balloon garland in sage-green, ivory, cream & chrome-gold with gold palm-leaf accents, life-size lion, tiger, zebra, giraffe & elephant safari animal standees and ribbed cake pedestals with a gold ferris-wheel cake stand — recreated from the reference photo.",
     image: themeI9.url,
     includes: ["Artificial grass wall + hanging vine & fairy-light ceiling", "Personalised sage twin chiara 'NAME Turns ONE' + neon '1'", "Sage, ivory, cream & chrome-gold balloon garland + gold palm leaves", "5 safari animal standees + ribbed cake pedestals + ferris-wheel cake stand"],
-    rating: 5.0, reviews: 612, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
+    rating: 5.0, reviews: 612, offer: <>₹14,999</>, original: <>₹19,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-i-zainab-jungle-safari-arch",
