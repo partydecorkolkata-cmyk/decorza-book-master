@@ -206,9 +206,9 @@ function ServicePage() {
             includes={["Pink & blue balloon ring backdrop","Neon 'Baby Shower' sign","Foil baby & bottle balloons + BABY blocks"]}
             rating={4.9}
             reviews={302}
-             offer={<>₹3999</>}
-             original={<>₹5999</>}
-             discountPct={33}
+             offer={<>₹3499</>}
+             original={<>₹5499</>}
+             discountPct={36}
             bestSeller={true}
           />
           <StaticPackageCard
