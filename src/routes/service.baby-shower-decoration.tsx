@@ -310,9 +310,9 @@ function ServicePage() {
             includes={["Dual custom 'Bearly Wait / Baby in Bloom' prints","Pastel rainbow + gold chrome balloon arch","Giant teddy + BABY block tower + floral wall"]}
             rating={5.0}
             reviews={98}
-            offer={<>₹12,999</>}
-            original={<>₹17,999</>}
-            discountPct={28}
+            offer={<>₹14,999</>}
+            original={<>₹19,999</>}
+            discountPct={26}
             bestSeller={true}
           />
           <StaticPackageCard
