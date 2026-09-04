@@ -459,8 +459,8 @@ const BATCH_Q = [
     rating: 4.9,
     reviews: 124,
     offer: <>₹7,999</>,
-    original: <>₹11,999</>,
-    discountPct: 33,
+    original: <>₹9,999</>,
+    discountPct: 20,
   },
 ];
 
