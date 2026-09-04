@@ -204,7 +204,7 @@ export const CATEGORIES: Category[] = ([
   { slug: "theme-birthday-decoration", name: "Theme Birthday Decoration", short: "Custom themed parties kids & adults love",
     description: "From jungle and unicorn to football, princess and superhero themes — fully styled with props, balloons and themed backdrops.",
     hero: img(KIDS_THEME[0]), gallery: pick(KIDS_THEME),
-    rating: 4.8, reviews: 1340, startsAt: 2499, popular: true, trending: true,
+    rating: 4.8, reviews: 1340, startsAt: 1999, popular: true, trending: true,
     faqs: baseFaqs("Theme Birthday Decoration") },
   { slug: "proposal-decoration", name: "Proposal Decoration", short: "Say it with a magical surprise",
     description: "Romantic proposal decor with candles, rose paths, ring props, LED \u201CMarry Me\u201D lights and dreamy ambient setups.",
