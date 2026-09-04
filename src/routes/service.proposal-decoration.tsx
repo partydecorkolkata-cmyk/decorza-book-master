@@ -1094,7 +1094,7 @@ const BATCH_U = [
       "Metal cabana canopy with dense fairy-light curtain",
       "Blush & white floral corner arrangements",
       "White aisle runner with lanterns and candles",
-      "Private table for two with 'Love' light and chairs",
+      "\n",
       "Hundreds of candles scattered across the sand",
       "Complete on-location setup & teardown",
     ],
