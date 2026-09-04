@@ -900,7 +900,7 @@ const BATCH_T = [
       "Red foil 'I LOVE YOU' wall lettering",
       "Rose petal scatter on bed",
       "LED tealight candles",
-      "Rose bouquet & wine-style prop styling",
+      "\n",
     ],
     rating: 4.7,
     reviews: 149,
