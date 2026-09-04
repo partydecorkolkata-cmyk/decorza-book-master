@@ -497,7 +497,7 @@ const NEW_THEME_CARDS_H = [
     description: "A grand banquet Cocomelon 1st birthday with a personalised 'JISNU Turns One' yellow backdrop, silver sequin shimmer wall with 'Happy Birthday' neon, rainbow Cocomelon character backdrop, pastel rainbow (mint, peach, lilac, sky, yellow) & chrome-gold organic balloon arch across the stage, life-size JJ, Bingo, Cody & Nina Cocomelon standees, a Cocomelon school-bus prop and a personalised marquee '#JISNU1#' picket-fence name light — exactly like the picture.",
     image: themeH4.url,
     includes: ["Personalised Cocomelon 'NAME Turns One' backdrop + silver shimmer wall + neon", "Pastel rainbow + chrome-gold organic balloon garland across stage", "4 Cocomelon character standees + school-bus prop", "Marquee '#NAME1#' picket-fence name light + full banquet setup"],
-    rating: 5.0, reviews: 731, offer: <>₹29,999</>, original: <>₹39,999</>, discountPct: 25, bestSeller: true,
+    rating: 5.0, reviews: 731, offer: <>₹29,999</>, original: <>₹29,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-h-cocomelon-sequin-neon-arch",
