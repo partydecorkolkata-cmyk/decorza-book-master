@@ -148,9 +148,9 @@ function ServicePage() {
           <StaticPackageCard
             id="baby-shower-decoration-essential"
             name="Essential Baby Shower Decoration"
-            description="A clean, photo-ready baby shower decoration setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture."
+            description="A pretty pink, blue and silver-chrome balloon ring around a pink & blue fringe curtain, glowing with a cursive 'Baby Shower' neon sign and finished with transparent gold BABY blocks — exactly as shown in the picture."
             image="/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg"
-            includes={["✓\n Designer backdrop  ","Themed props & signage","Standard lighting setup"]}
+            includes={["Pink, blue & silver-chrome balloon ring","Pink & blue fringe curtain backdrop","'Baby Shower' neon sign","Gold-framed BABY balloon blocks"]}
             rating={4.800000000000001}
             reviews={249}
             offer={<>₹3499</>}
@@ -161,9 +161,9 @@ function ServicePage() {
           <StaticPackageCard
             id="baby-shower-decoration-premium"
             name="Premium Baby Shower Decoration"
-            description="An upgraded baby shower decoration with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo."
+            description="A 'Boy or Girl' gender-reveal style twin panel backdrop — one blue, one pink — each topped with a lush artificial floral crown, framed by blue-navy and pink-rose gold balloon pillars with big baby-foot cutouts, styled just like the reference photo."
             image="/38135b41-25f2-4c2f-a08f-cac6575c3b12.jpg"
-            includes={[" \nPremium artificial flower ","✓\nPremium cloth & light setup","Fresh flower accents"]}
+            includes={["Twin blue & pink panel backdrop","'Boy or Girl' baby-foot cutout signage","Blue-navy & pink rose-gold balloon pillars","Artificial floral crowns on both panels"]}
             rating={4.9}
             reviews={348}
             offer={<>₹7,999</>}
@@ -174,9 +174,9 @@ function ServicePage() {
           <StaticPackageCard
             id="baby-shower-decoration-luxury"
             name="Luxury Baby Shower Decoration"
-            description="A full luxury baby shower decoration experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo."
+            description="A grand 'Baby in Bloom' luxury setup with printed floral arch panels, cascading fresh-look flower installations, a giant butterfly cutout, pastel butterfly balloon cluster and a woodland deer prop — recreated to match the photo."
             image="/6fec18e9-7b78-42b6-9764-cbb3037878e1.jpg"
-            includes={["Luxury floral installation","Customised stage / sweetheart corner","✓\nLight and props"]}
+            includes={["Printed 'Baby in Bloom' floral arch panels","Cascading floral & greenery installations","Giant butterfly & oversized flower cutouts","Pastel butterfly balloon cluster","Woodland deer prop with floral base"]}
             rating={4.800000000000001}
             reviews={580}
             offer={<>₹11999</>}
@@ -184,6 +184,7 @@ function ServicePage() {
             discountPct={25}
             bestSeller={false}
           />
+
           <StaticPackageCard
             id="baby-b1"
             name="Pastel Pampas Ring Baby Shower"
