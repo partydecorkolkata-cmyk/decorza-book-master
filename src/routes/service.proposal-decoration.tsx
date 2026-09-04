@@ -858,7 +858,7 @@ const BATCH_T = [
       "A classic hotel-room proposal with a dense red ceiling balloon cloud trailing curling ribbons, silver foil 'WILL YOU MARRY ME' letters on the headboard wall with a red heart foil, and a rose-petal heart on the bed.",
     image: t1.url,
     includes: [
-      "Red ceiling balloons with curling ribbons",
+      "\nRed ceiling balloons with curling ribbons",
       "Silver foil 'WILL YOU MARRY ME' wall lettering",
       "Red heart foil accent balloon",
       "Rose petal heart & petal scatter on bed",
