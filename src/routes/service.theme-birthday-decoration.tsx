@@ -247,7 +247,7 @@ const NEW_THEME_CARDS_K = [
     description: "A crowd-favourite Spider-Man 5th birthday arch with a red spider-web backdrop, giant Spider-Man cut-out, dense organic balloon garland in red, black, royal-blue & chrome-silver, spider-print balloon clusters on both columns, a huge marquee number '5' light and a Spider-Man cake pedestal — recreated exactly like the picture.",
     image: themeK4.url,
     includes: ["Red spider-web backdrop + giant Spider-Man standee", "Red, black, royal-blue & chrome-silver organic balloon garland", "Twin spider-print balloon columns", "Giant marquee '5' light + Spider-Man cake pedestal"],
-    rating: 5.0, reviews: 587, offer: <>₹11,999</>, original: <>₹17,999</>, discountPct: 33, bestSeller: true,
+    rating: 5.0, reviews: 587, offer: <>₹14,999</>, original: <>₹29,999</>, discountPct: 50, bestSeller: true,
   },
   {
     id: "theme-k-khevansh-spiderman-foil-simple",
@@ -287,7 +287,7 @@ const NEW_THEME_CARDS_K = [
     description: "A powerful superhero 8th birthday arch with a comic-style 'HBD KULSHAAN' pop-art backdrop, life-size Spider-Man, Iron Man, Captain America, Hulk, Batman & Thor cut-out standees, an organic balloon garland in red, royal-blue, yellow, black & chrome-silver with superhero-emblem balloons and a glowing marquee number '8' — recreated from the picture.",
     image: themeK9.url,
     includes: ["Comic-style pop-art 'HBD NAME' backdrop", "6 life-size superhero standees (Spider-Man, Iron Man, Captain America, Hulk, Batman, Thor)", "Red, royal-blue, yellow, black & chrome-silver superhero balloon garland", "Glowing marquee number light + venue styling"],
-    rating: 5.0, reviews: 468, offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29, bestSeller: true,
+    rating: 5.0, reviews: 468, offer: <>₹4,199</>, original: <>₹5,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-k-raef-mateen-teddy-bear-1st",
@@ -314,7 +314,7 @@ const NEW_THEME_CARDS_J = [
     description: "A grand banquet Minions 2nd birthday stage with a giant Minion-face chiara centrepiece, twin arched backdrops with 'IYLA TURNS TWO!' signage, blue & yellow organic balloon clusters, life-size Minion cut-out standees, a banana-print pillar and Minion cake pedestal, personalised 'IYLA' marquee light-up letters, a giant marquee '2' and a white picket-fence stage border — recreated exactly like the photo.",
     image: themeJ2.url,
     includes: ["Giant Minion-face chiara + twin 'NAME TURNS TWO' backdrops", "Blue & yellow organic balloon clusters across the stage", "Life-size Minion standees + banana-print cake pedestal", "Marquee 'NAME' letters + giant marquee '2' + picket-fence border"],
-    rating: 5.0, reviews: 724, offer: <>₹39,999</>, original: <>₹49,999</>, discountPct: 20, bestSeller: true,
+    rating: 5.0, reviews: 724, offer: <>₹29,999</>, original: <>₹44,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-j-meerwardhaan-boss-baby-1st",
@@ -338,7 +338,7 @@ const NEW_THEME_CARDS_J = [
     description: "A stunning baby Mickey 1st birthday banquet stage with twin chiara Mickey backdrops, a central silver sequin shimmer wall with pink 'Happy Birthday' neon, a grand organic balloon arch in sky-blue, white, chrome-silver & teal, four life-size baby Mickey cut-outs, printed hot-air-balloon cake pedestals and a glowing marquee '1' — recreated exactly like the picture.",
     image: themeJ5.url,
     includes: ["Twin baby Mickey chiara backdrops + silver sequin shimmer wall", "'Happy Birthday' pink neon centrepiece", "Sky-blue, white, chrome-silver & teal organic balloon arch", "Four baby Mickey standees + printed cake pedestals + marquee '1'"],
-    rating: 4.9, reviews: 641, offer: <>₹24,999</>, original: <>₹39,999</>, discountPct: 38, bestSeller: true,
+    rating: 4.9, reviews: 641, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
   },
   {
     id: "theme-j-mickey-mouse-5th-red-yellow-arch",
@@ -421,7 +421,7 @@ const NEW_THEME_CARDS_I = [
     description: "A dreamy under-the-sea mermaid 6th birthday setup with a round 'Happy Birthday' coral-reef backdrop, an organic balloon arch in pastel pink, purple, mint, peach & chrome-silver, a giant mermaid-tail foil balloon on top, mermaid & tail cut-out standees, a pink coral-printed cake pedestal, a marquee '6' light and scattered pastel balloons on the floor — recreated from the reference photo.",
     image: themeI5.url,
     includes: ["Round mermaid 'Happy Birthday' coral-reef backdrop", "Pastel pink, purple, mint & chrome-silver organic balloon arch", "Mermaid + mermaid-tail cut-out standees + tail foil balloon", "Coral-printed cake pedestal + marquee '6' light + floor balloons"],
-    rating: 4.9, reviews: 318, offer: <>₹5,999</>, original: <>₹7,999</>, discountPct: 25, bestSeller: true,
+    rating: 4.9, reviews: 318, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
   },
   {
     id: "theme-i-omansh-cars-mcqueen-8th",
@@ -461,7 +461,7 @@ const NEW_THEME_CARDS_I = [
     description: "A grand jungle safari 1st birthday setup with a personalised twin chiara backdrop — a pink 'Giraffe' arch and a green 'Zainab Turns ONE' elephant arch, an organic balloon arch in green, chrome-gold, peach, white & ivory, life-size lion, Simba, giraffe, elephant, zebra & crocodile safari standees, ivy vine accents, a printed cake pedestal, a large marquee 'HBD' light and personalised marquee 'ZAINAB' letters on the floor — recreated from the picture.",
     image: themeI10.url,
     includes: ["Personalised pink + green twin chiara safari backdrops", "Green, chrome-gold, peach, white & ivory organic balloon arch", "6 safari animal standees + ivy vine accents + printed pedestal", "Marquee 'HBD' light + personalised marquee 'NAME' letters"],
-    rating: 4.9, reviews: 458, offer: <>₹19,999</>, original: <>₹29,999</>, discountPct: 33, bestSeller: true,
+    rating: 4.9, reviews: 458, offer: <>₹14,999</>, original: <>₹29,999</>, discountPct: 50, bestSeller: true,
   },
 ];
 
@@ -497,7 +497,7 @@ const NEW_THEME_CARDS_H = [
     description: "A grand banquet Cocomelon 1st birthday with a personalised 'JISNU Turns One' yellow backdrop, silver sequin shimmer wall with 'Happy Birthday' neon, rainbow Cocomelon character backdrop, pastel rainbow (mint, peach, lilac, sky, yellow) & chrome-gold organic balloon arch across the stage, life-size JJ, Bingo, Cody & Nina Cocomelon standees, a Cocomelon school-bus prop and a personalised marquee '#JISNU1#' picket-fence name light — exactly like the picture.",
     image: themeH4.url,
     includes: ["Personalised Cocomelon 'NAME Turns One' backdrop + silver shimmer wall + neon", "Pastel rainbow + chrome-gold organic balloon garland across stage", "4 Cocomelon character standees + school-bus prop", "Marquee '#NAME1#' picket-fence name light + full banquet setup"],
-    rating: 5.0, reviews: 731, offer: <>₹29,999</>, original: <>₹29,999</>, discountPct: 25, bestSeller: true,
+    rating: 5.0, reviews: 731, offer: <>₹29,999</>, original: <>₹29,999</>, discountPct: 0, bestSeller: true,
   },
   {
     id: "theme-h-cocomelon-sequin-neon-arch",
@@ -949,7 +949,7 @@ const NEW_THEME_CARDS_B = [
     description: "A vibrant superhero themed ring arch with personalised 'Nishv Turns 3 — Level 3 Unlocked' backdrop, multi-colour balloon garland, Captain America, Superman, Hulk & Spider-Man cut-outs, marquee '3' and 'NISHV' name lights with themed pedestals.",
     image: themeB3.url,
     includes: ["Personalised superhero photo backdrop", "Red, blue, yellow & green balloon ring arch", "Four superhero life-size cut-outs", "Marquee number 3 + 'Name' marquee lights + themed pedestals"],
-    rating: 4.9, reviews: 389, offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30, bestSeller: true,
+    rating: 4.9, reviews: 389, offer: <>₹7,499</>, original: <>₹9,999</>, discountPct: 25, bestSeller: true,
   },
   {
     id: "theme-b-mermaid-4th-birthday",
@@ -965,7 +965,7 @@ const NEW_THEME_CARDS_B = [
     description: "A full Cocomelon grand stage with twin chiara backdrops, gold sequin shimmer wall, multiple Cocomelon character cut-outs, pastel balloon garland, marquee '1' with crown, personalised 'NISHWANTH' marquee name and decorated pedestals — recreated as in the photo.",
     image: themeB5.url,
     includes: ["Twin chiara + gold sequin shimmer backdrop", "Pastel balloon garland with Cocomelon characters", "Marquee number 1 with crown + 'NISHWANTH' name lights", "Personalised Cocomelon pedestals + floral accents"],
-    rating: 4.9, reviews: 547, offer: <>₹21,999</>, original: <>₹29,999</>, discountPct: 27, bestSeller: true,
+    rating: 4.9, reviews: 547, offer: <>₹24,999</>, original: <>₹39,999</>, discountPct: 38, bestSeller: true,
   },
   {
     id: "theme-b-dinosaur-jungle-3rd",
@@ -1016,7 +1016,7 @@ const NEW_THEME_CARDS = [
     description: "A grand Boss Baby themed twin-arch stage decor with black tie cut-outs, 'BOSS' name backdrop, marquee number 1 and name letters, balloon clusters in black, ivory and silver chrome with a 'Happy Birthday' neon — recreated as in the picture.",
     image: themeA1.url,
     includes: ["Twin chiara arches with tie & 'BOSS' name backdrop", "Boss Baby cut-outs + marquee name & number 1", "Black, ivory & silver chrome balloon garland", "'Happy Birthday' neon + decorated cake pedestal"],
-    rating: 4.9, reviews: 612, offer: <>₹17,999</>, original: <>₹24,999</>, discountPct: 28, bestSeller: true,
+    rating: 4.9, reviews: 612, offer: <>₹21,999</>, original: <>₹34,999</>, discountPct: 37, bestSeller: true,
   },
   {
     id: "theme-purple-13th-official-teenager",
