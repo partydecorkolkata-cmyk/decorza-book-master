@@ -731,7 +731,7 @@ function ServicePage() {
             id="baby-i9" name="Custom Name 'Baby Shower' Pink & Blue Moon Backdrop"
             description="Premium banquet baby shower with a personalised round pink-and-blue moon backdrop featuring the mommy-to-be's name, a pink balloon arch across the top, a blue balloon garland base with gold chrome accents, boy & girl cartoon stands, BABY letter blocks and a red carpet stage."
             image={babyI9.url}
-            includes={["Custom name round moon backdrop","Pink top arch + blue & gold base garland","BABY blocks, boy/girl stands & red carpet stage"]}
+            includes={["Custom name round moon backdrop","Pink top arch + blue & gold base garland","BABY blocks, boy/girl stands"]}
             rating={5.0} reviews={132} bestSeller
             offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
           />
