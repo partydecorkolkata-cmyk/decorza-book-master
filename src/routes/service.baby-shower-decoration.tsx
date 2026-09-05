@@ -525,7 +525,7 @@ function ServicePage() {
             image={babyE10.url}
             includes={["Round backdrop with 'Mom to Be' custom print","Terracotta, ivory, silver & gold chrome garland","Gold palm spears + floral fillers + outdoor lighting"]}
             rating={4.9} reviews={78}
-            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
           />
           <StaticPackageCard
             id="baby-f1" name="'Oh Baby' Mint, Sky Blue & Gold Garden Arch"
