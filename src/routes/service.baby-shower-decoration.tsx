@@ -493,7 +493,7 @@ function ServicePage() {
             image={babyE6.url}
             includes={["Arch fabric backdrop with 'Baby Shower' script","Mint, lilac, peach & silver pastel balloon garland","Butterfly foils + flower clusters + bottle & feet foils"]}
             rating={4.9} reviews={88}
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-e7" name="Gold 'BABY SHOWER' Black Curtain Wall Setup"
