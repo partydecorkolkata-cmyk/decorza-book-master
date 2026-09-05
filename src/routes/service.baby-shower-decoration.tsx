@@ -477,7 +477,7 @@ function ServicePage() {
             image={babyE4.url}
             includes={["Twin fabric arch backdrops with 'Boy' & 'girl' print","Blue & pink pastel garland with chrome-silver highlights","Gold pedestal + floral fillers + carpet setup"]}
             rating={5.0} reviews={81} bestSeller
-            offer={<>₹7,999</>} original={<>₹11,999</>} discountPct={33}
+            offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-e5" name="Purple 'Boy or Girl' Custom Name Baby Shower"
