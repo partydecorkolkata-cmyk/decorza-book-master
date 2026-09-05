@@ -340,7 +340,7 @@ function ServicePage() {
             image={babyC3.url}
             includes={["Dual blue & pink 'Boy or Girl' arch backdrops","Shimmer wall + neon 'Baby Shower' sign","'It's a Boy/Girl' bottle pillars + foil baby cutouts"]}
             rating={5.0} reviews={104}
-            offer={<>₹14,999</>} original={<>₹24,999</>} discountPct={40}
+            offer={<>₹17,999</>} original={<>₹24,999</>} discountPct={25}
             bestSeller
           />
           <StaticPackageCard
