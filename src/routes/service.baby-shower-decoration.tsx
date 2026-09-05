@@ -589,7 +589,7 @@ function ServicePage() {
             image={babyG3.url}
             includes={["Ring backdrop with 'Oh Baby' neon + prop cluster","Olive, ivory & gold chrome garland with baby foils","Twin baby foil pillars + BABY letter blocks"]}
             rating={4.8} reviews={112}
-            offer={<>₹3,999</>} original={<>₹5,999</>} discountPct={33}
+            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
           />
           <StaticPackageCard
             id="baby-g4" name="Classic 'Baby Shower' Pink & Blue Home Arch"
