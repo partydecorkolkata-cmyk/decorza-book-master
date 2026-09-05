@@ -368,7 +368,7 @@ function ServicePage() {
             image={babyC6.url}
             includes={["Fluted white arch with custom name print","Mauve, dusty rose & blush balloon garland","Fresh rose & eucalyptus floral cluster"]}
             rating={4.9} reviews={128}
-            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
+            offer={<>₹6,499</>} original={<>₹9999</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-c7"
