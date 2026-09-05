@@ -573,7 +573,7 @@ function ServicePage() {
             image={babyG1.url}
             includes={["Pink chiara arch with 'Baby in Bloom' script","Pastel + sage + rose-gold organic balloon garland","Floral tulip clusters + pedestal styling"]}
             rating={5.0} reviews={148} bestSeller
-            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-g2" name="'A Little Cutie is on the Way' Gender Reveal Arch"
