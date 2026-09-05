@@ -581,7 +581,7 @@ function ServicePage() {
             image={babyG2.url}
             includes={["Round pastel backdrop with custom script","Pink, blue & rose-gold chrome half-ring garland","BABY letter blocks + hanging photo memory strip"]}
             rating={4.9} reviews={126}
-            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+            offer={<>₹5,499</>} original={<>₹7,499</>} discountPct={27}
           />
           <StaticPackageCard
             id="baby-g3" name="'Oh Baby' Sage Green & Gold Baby Shower Ring"
