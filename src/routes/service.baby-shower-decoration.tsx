@@ -469,7 +469,7 @@ function ServicePage() {
             image={babyE3.url}
             includes={["Custom 'A Little Cutie' round quote backdrop","Pink, blue, white & gold chrome organic garland","Palm spears + BABY blocks + 'Oh Baby' neon + photo frame"]}
             rating={5.0} reviews={94}
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹6,499</>} original={<>₹9999</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-e4" name="'Boy or Girl' Twin Arch Gender Reveal Grand"
