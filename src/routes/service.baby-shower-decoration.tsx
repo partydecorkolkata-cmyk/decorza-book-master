@@ -245,8 +245,8 @@ function ServicePage() {
             includes={["Pink, white & gold chrome balloon ring","Foil baby + 'It's a Boy/Girl' props","Neon 'Baby Shower' sign"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹3,499</>}
-            original={<>₹4,999</>}
+            offer={<>₹3,999</>}
+            original={<>₹5,999</>}
             discountPct={30}
             bestSeller={false}
           />
