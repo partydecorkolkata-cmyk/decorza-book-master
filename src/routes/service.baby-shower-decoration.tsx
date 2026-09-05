@@ -541,7 +541,7 @@ function ServicePage() {
             image={babyF2.url}
             includes={["White chiara arch with custom 'Berry Sweet Baby' quote","Navy, dusty blue, ivory & cream organic garland","Eucalyptus greenery fillers + side balloon cluster"]}
             rating={5.0} reviews={96} bestSeller
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+             offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-f3" name="Pink & Blue 'Baby Shower' Foil Home Setup"
