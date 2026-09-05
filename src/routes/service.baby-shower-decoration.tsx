@@ -637,7 +637,7 @@ function ServicePage() {
             image={babyG9.url}
             includes={["Blush, white & gold chrome balloon ring","'Oh Baby' neon + giant plush teddy bear","Silver BABY letter blocks + floor balloon styling"]}
             rating={5.0} reviews={158} bestSeller
-            offer={<>₹4,999</>} original={<>₹7,499</>} discountPct={33}
+            offer={<>₹5,499</>} original={<>₹7,499</>} discountPct={27}
           />
           <StaticPackageCard
             id="baby-g10" name="Luxury 'Oh Baby' Purple Butterfly Triple Arch"
