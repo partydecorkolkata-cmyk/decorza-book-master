@@ -677,7 +677,7 @@ function ServicePage() {
             image={babyI2.url}
             includes={["White chiara panel with 'Boy or Girl' gold script","Pink & blue organic balloon garland arch","Chrome gold accent clusters + floor styling"]}
             rating={5.0} reviews={144} bestSeller
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+            offer={<>₹5,499</>} original={<>₹7,499</>} discountPct={27}
           />
           <StaticPackageCard
             id="baby-i3" name="'Oh Baby' Blue, White & Gold Ring Arch with BABY Blocks"
