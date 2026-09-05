@@ -350,7 +350,7 @@ function ServicePage() {
             image={babyC4.url}
             includes={["Pink, blue & gold balloon ring backdrop","Neon 'Oh Baby' sign + twin baby foil balloons","Light-up BABY block tower"]}
             rating={4.8} reviews={96}
-            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
+            offer={<>₹3,499</>} original={<>₹5,499</>} discountPct={36}
           />
           <StaticPackageCard
             id="baby-c5"
