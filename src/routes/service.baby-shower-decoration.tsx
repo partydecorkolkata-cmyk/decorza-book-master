@@ -386,7 +386,7 @@ function ServicePage() {
             image={babyC8.url}
             includes={["Blush arch with 'Twinkle Twinkle' print","Gold chrome, ivory & mocha balloon garland","Giant teddy bear + chair styling"]}
             rating={4.9} reviews={116}
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-c9"
