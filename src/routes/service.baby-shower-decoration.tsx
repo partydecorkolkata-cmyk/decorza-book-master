@@ -429,7 +429,7 @@ function ServicePage() {
             image={babyD3.url}
             includes={["White ring stand with 'Oh Baby' neon sign","Dusty blue, nude & chrome gold balloon garland","Pampas grass + jumbo teddy bear props"]}
             rating={5.0} reviews={121}
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+             offer={<>₹5,999</>} original={<>₹5,999</>} discountPct={0}
           />
           <StaticPackageCard
             id="baby-d4" name="Oh Baby Pastel Rainbow Ring Baby Shower"
