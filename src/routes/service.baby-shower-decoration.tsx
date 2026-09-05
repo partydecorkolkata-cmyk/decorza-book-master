@@ -485,7 +485,7 @@ function ServicePage() {
             image={babyE5.url}
             includes={["Custom 2-panel 'Boy or Girl' printed backdrop","Lilac, white & chrome-silver balloon garland","Baby carriage foils + BABY blocks + baby foil props"]}
             rating={5.0} reviews={76} bestSeller
-            offer={<>₹7,999</>} original={<>₹11,999</>} discountPct={33}
+            offer={<>₹8499</>} original={<>₹13,999</>} discountPct={39}
           />
           <StaticPackageCard
             id="baby-e6" name="Pastel Rainbow 'Baby Shower' Arch Setup"
