@@ -405,7 +405,7 @@ function ServicePage() {
             image={babyC10.url}
             includes={["Custom 'A Little Butterfly' quote arch","Pastel pink & lilac garland with daisy foils","Neon butterfly + BABY tower + elephant cutout"]}
             rating={5.0} reviews={109}
-            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
+            offer={<>₹6,499</>} original={<>₹9,999</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-d1" name="Bundle of Joy Blue & Gold Baby Boy Arch"
