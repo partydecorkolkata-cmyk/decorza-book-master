@@ -322,7 +322,7 @@ function ServicePage() {
             image={babyC1.url}
             includes={["Custom lilac curved arch with name print","Lilac, pink & rose-gold chrome balloon garland","Floral accents + acrylic cake pedestal"]}
             rating={4.9} reviews={132}
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-c2"
