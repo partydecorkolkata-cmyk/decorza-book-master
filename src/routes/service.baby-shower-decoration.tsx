@@ -533,7 +533,7 @@ function ServicePage() {
             image={babyF1.url}
             includes={["Mint, sky blue, white & chrome-gold organic garland","'Oh Baby' neon sign + gold palm leaf accents","BABY letter blocks + cylinder pedestal styling"]}
             rating={4.9} reviews={112}
-            offer={<>₹3,499</>} original={<>₹5,499</>} discountPct={36}
+            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
           />
           <StaticPackageCard
             id="baby-f2" name="'A Berry Sweet Baby is On The Way' Navy Arch"
