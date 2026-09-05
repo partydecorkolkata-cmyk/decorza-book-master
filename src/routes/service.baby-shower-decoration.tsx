@@ -437,7 +437,7 @@ function ServicePage() {
             image={babyD4.url}
             includes={["Round white backdrop with 'Oh Baby' gold script","Sage, blush, peach & silver chrome garland","Pink fillers + gold table + teddy prop"]}
             rating={4.9} reviews={104}
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,499</>} original={<>₹7,499</>} discountPct={27}
           />
           <StaticPackageCard
             id="baby-d5" name="A Little Butterfly Purple Grand Baby Shower"
