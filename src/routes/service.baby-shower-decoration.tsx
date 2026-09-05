@@ -395,7 +395,7 @@ function ServicePage() {
             image={babyC9.url}
             includes={["Dual lilac & white 'Bundle of Joy' arches","Rose-gold, ivory & nude balloon garland","Giant teddy + BABY tower + fluted pedestal"]}
             rating={5.0} reviews={94}
-            offer={<>₹8,999</>} original={<>₹14,999</>} discountPct={40}
+            offer={<>₹11,999</>} original={<>₹17,999</>} discountPct={33}
             bestSeller
           />
           <StaticPackageCard
