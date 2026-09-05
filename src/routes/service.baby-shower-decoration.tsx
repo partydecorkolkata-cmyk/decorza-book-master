@@ -517,7 +517,7 @@ function ServicePage() {
             image={babyE9.url}
             includes={["Fluted arch with 'Welcoming Baby Name' custom script","Sage green, ivory & chrome-gold organic garland","BABY wooden crates + teddy bears + hot-air balloon prop"]}
             rating={5.0} reviews={89} bestSeller
-            offer={<>₹7,499</>} original={<>₹9,999</>} discountPct={25}
+            offer={<>₹8,499</>} original={<>₹11,999</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-e10" name="'Mom to Be' Terracotta Outdoor Baby Shower"
