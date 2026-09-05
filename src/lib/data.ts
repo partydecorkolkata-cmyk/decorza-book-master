@@ -440,6 +440,17 @@ export const BUDGET_BUCKETS = [
 ];
 
 export const REVIEWS = [
+  ["Ritika Sen", "Kolkata", "Baby Shower Decoration", "Booked the pastel balloon ring for my sister's godh bharai. Setup was done in 90 minutes and the neon sign was the highlight of every photo.", 5],
+  ["Anjali Mehta", "Pune", "Baby Shower Decoration", "The blue and white cloud theme looked exactly like the picture on the site. Team arrived early and cleaned up everything after.", 5],
+  ["Sandeep Nair", "Bengaluru", "Baby Shower Decoration", "Surprised my wife with the boho pampas setup. She teared up when she walked in. Worth every rupee.", 5],
+  ["Payal Gupta", "Siliguri", "Baby Shower Decoration", "Pink floral arch with the swing was gorgeous. Coordinator kept sending updates on WhatsApp the whole morning.", 5],
+  ["Meghna Das", "Kolkata", "Baby Shower Decoration", "We had a small flat and they still managed a full backdrop plus photo corner. Guests could not believe it was home decor.", 5],
+  ["Vikram Shetty", "Hyderabad", "Baby Shower Decoration", "Clean work, polite team, no last minute price changes. The elephant theme was adorable.", 5],
+  ["Shreya Kapoor", "Pune", "Baby Shower Decoration", "Loved the lavender and gold setup. Balloons stayed perfect through the entire evening.", 5],
+  ["Nandini Roy", "Kolkata", "Baby Shower Decoration", "Booked just two days before and they still delivered a beautiful pastel arch. Very reliable.", 5],
+  ["Arjun Malhotra", "Bengaluru", "Baby Shower Decoration", "The Baby in Bloom panels were stunning in person. Photographer said it was the best home setup he had shot.", 5],
+  ["Ipsita Ghosh", "Siliguri", "Baby Shower Decoration", "Sweet team, fair pricing and they added a small welcome corner without extra charge. Highly recommend.", 5],
+
   ["Ankita Bhattacharya", "Kolkata", "Haldi Decoration", "Took the sunflower ring mandap for my brother's haldi. Setup started at 6 am and was ready before the guests arrived. Every photo came out bright and beautiful.", 5],
   ["Manish Agarwal", "Siliguri", "Haldi Decoration", "The marigold cascade terrace setup was stunning. Flowers were fresh and the golden urli they brought was huge. Family kept asking for the vendor number.", 5],
   ["Sushmita Roy", "Kolkata", "Haldi Decoration", "Booked the Rajasthani umbrella corner for a home haldi in a small flat. They managed the space so well and packed up quietly after the ceremony.", 5],
