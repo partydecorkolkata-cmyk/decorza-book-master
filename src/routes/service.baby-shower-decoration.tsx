@@ -805,7 +805,7 @@ function ServicePage() {
             image={babyJ7.url}
             includes={["Pastel balloon ring + marble panel with neon","Cocomelon, angel & toddler cutouts","Matching pastel balloon columns"]}
             rating={5.0} reviews={138} bestSeller
-            offer={<>₹4,499</>} original={<>₹6,999</>} discountPct={36}
+            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-j8" name="'Baby Shower' Purple, Pink & Blue Ring with Gold Chrome Accents"
