@@ -219,7 +219,7 @@ function ServicePage() {
             includes={["Personalised name on white arch","Blush & nude organic balloon garland","Rose & hydrangea floral clusters"]}
             rating={4.9}
             reviews={188}
-            offer={<>₹5,499</>}
+            offer={<>₹5,999</>}
             original={<>₹7,999</>}
             discountPct={31}
             bestSeller={false}
