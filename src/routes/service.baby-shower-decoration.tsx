@@ -195,7 +195,7 @@ function ServicePage() {
             reviews={214}
              offer={<>₹3999</>}
              original={<>₹5,999</>}
-             discountPct={31}
+             discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -221,7 +221,7 @@ function ServicePage() {
             reviews={188}
             offer={<>₹5,999</>}
             original={<>₹7,999</>}
-            discountPct={31}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -247,7 +247,7 @@ function ServicePage() {
             reviews={264}
             offer={<>₹3,999</>}
             original={<>₹5,999</>}
-            discountPct={30}
+            discountPct={33}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -286,7 +286,7 @@ function ServicePage() {
             reviews={176}
             offer={<>₹5999</>}
             original={<>₹7,999</>}
-            discountPct={31}
+            discountPct={25}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -312,7 +312,7 @@ function ServicePage() {
             reviews={98}
             offer={<>₹14,999</>}
             original={<>₹19,999</>}
-            discountPct={26}
+            discountPct={25}
             bestSeller={true}
           />
           <StaticPackageCard
@@ -322,7 +322,7 @@ function ServicePage() {
             image={babyC1.url}
             includes={["Custom lilac curved arch with name print","Lilac, pink & rose-gold chrome balloon garland","Floral accents + acrylic cake pedestal"]}
             rating={4.9} reviews={132}
-            offer={<>₹6,499</>} original={<>₹9,999</>} discountPct={28}
+            offer={<>₹6,499</>} original={<>₹9,999</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-c2"
@@ -331,7 +331,7 @@ function ServicePage() {
             image={babyC2.url}
             includes={["Curved ivory 'Baby in Bloom' backdrop","Peach, nude & white organic garland","Fresh floral tucks + BABY block tower"]}
             rating={4.9} reviews={118}
-            offer={<>₹5499</>} original={<>₹6,499</>} discountPct={25}
+            offer={<>₹5499</>} original={<>₹6,499</>} discountPct={15}
           />
           <StaticPackageCard
             id="baby-c3"
@@ -340,7 +340,7 @@ function ServicePage() {
             image={babyC3.url}
             includes={["Dual blue & pink 'Boy or Girl' arch backdrops","Shimmer wall + neon 'Baby Shower' sign","'It's a Boy/Girl' bottle pillars + foil baby cutouts"]}
             rating={5.0} reviews={104}
-            offer={<>₹17,999</>} original={<>₹24,999</>} discountPct={25}
+            offer={<>₹17,999</>} original={<>₹24,999</>} discountPct={28}
             bestSeller
           />
           <StaticPackageCard
@@ -477,7 +477,7 @@ function ServicePage() {
             image={babyE4.url}
             includes={["Twin fabric arch backdrops with 'Boy' & 'girl' print","Blue & pink pastel garland with chrome-silver highlights","Gold pedestal + floral fillers + carpet setup"]}
             rating={5.0} reviews={81} bestSeller
-            offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={29}
+            offer={<>₹9,999</>} original={<>₹14,999</>} discountPct={33}
           />
           <StaticPackageCard
             id="baby-e5" name="Purple 'Boy or Girl' Custom Name Baby Shower"
