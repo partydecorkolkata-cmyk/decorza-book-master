@@ -565,7 +565,7 @@ function ServicePage() {
             image={babyF5.url}
             includes={["Pastel rainbow balloon ring with 'Oh Baby' neon","Giant teddy bear cut-out + BABY letter boxes","Pampas grass cluster + jute rug + pedestal styling"]}
             rating={4.9} reviews={104}
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-g1" name="'Baby in Bloom' Pastel Floral Arch"
