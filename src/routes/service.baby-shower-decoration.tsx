@@ -621,7 +621,7 @@ function ServicePage() {
             image={babyG7.url}
             includes={["Pink, white & silver chrome ring backdrop","'Oh Baby' neon sign","Twin baby foil pillars + BABY letter blocks"]}
             rating={4.8} reviews={144}
-            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
           />
           <StaticPackageCard
             id="baby-g8" name="Teddy Bear Brown & Gold 'Baby Shower' Arch"
