@@ -331,7 +331,7 @@ function ServicePage() {
             image={babyC2.url}
             includes={["Curved ivory 'Baby in Bloom' backdrop","Peach, nude & white organic garland","Fresh floral tucks + BABY block tower"]}
             rating={4.9} reviews={118}
-            offer={<>₹5499</>} original={<>₹6,499</>} discountPct={15}
+            offer={<>₹5499</>} original={<>₹6,499</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-c3"
