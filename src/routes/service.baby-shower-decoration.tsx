@@ -685,7 +685,7 @@ function ServicePage() {
             image={babyI3.url}
             includes={["Circular ring arch with blue, white & gold balloons","'Oh Baby' neon on white shimmer curtain","BABY letter blocks + boy & girl cut-outs"]}
             rating={4.9} reviews={168}
-            offer={<>₹3,999</>} original={<>₹4,999</>} discountPct={20}
+            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
           />
           <StaticPackageCard
             id="baby-i4" name="Twin 'Girl' & 'Boy' Balloon Columns with Tassel Bunting"
