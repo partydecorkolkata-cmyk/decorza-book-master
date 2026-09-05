@@ -193,8 +193,8 @@ function ServicePage() {
             includes={["Pastel pink, lilac & blue balloon ring","Pampas & dried palm florals","'Baby Shower' gold cutout signage"]}
             rating={4.9}
             reviews={214}
-             offer={<>₹4,499</>}
-             original={<>₹6,499</>}
+             offer={<>₹3999</>}
+             original={<>₹5,999</>}
              discountPct={31}
             bestSeller={false}
           />
