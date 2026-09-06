@@ -245,9 +245,9 @@ function ServicePage() {
             includes={["Pink, white & gold chrome balloon ring","Foil baby + 'It's a Boy/Girl' props","Neon 'Baby Shower' sign"]}
             rating={4.9}
             reviews={264}
-            offer={<>₹3,999</>}
+            offer={<>₹3,799</>}
             original={<>₹5,999</>}
-            discountPct={33}
+            discountPct={37}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -413,7 +413,7 @@ function ServicePage() {
             image={babyD1.url}
             includes={["Custom 'Bundle of Joy' printed arch backdrop","Blue, ivory & chrome-gold organic garland","Palm-spear leaves + BABY blocks + teddy prop"]}
             rating={5.0} reviews={132}
-            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
+            offer={<>₹6,499</>} original={<>₹9,999</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-d2" name="Oh Baby Gender Reveal Pink & Blue Setup"
@@ -429,7 +429,7 @@ function ServicePage() {
             image={babyD3.url}
             includes={["White ring stand with 'Oh Baby' neon sign","Dusty blue, nude & chrome gold balloon garland","Pampas grass + jumbo teddy bear props"]}
             rating={5.0} reviews={121}
-             offer={<>₹5,999</>} original={<>₹5,999</>} discountPct={0}
+             offer={<>₹4,999</>} original={<>₹7,999</>} discountPct={38}
           />
           <StaticPackageCard
             id="baby-d4" name="Oh Baby Pastel Rainbow Ring Baby Shower"
@@ -509,7 +509,7 @@ function ServicePage() {
             image={babyE8.url}
             includes={["Custom 'Baby Name On The Way' printed arch","Peach, white & chrome gold organic garland","Daisy fillers + BABY blocks + giant clear bubble prop"]}
             rating={5.0} reviews={102}
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,999</>} original={<>₹8,999</>} discountPct={33}
           />
           <StaticPackageCard
             id="baby-e9" name="'Welcoming Baby' Sage Green Luxury Arch"
@@ -557,7 +557,7 @@ function ServicePage() {
             image={babyF4.url}
             includes={["Blush chiara arch with custom name in gold","Blush, ivory, nude & taupe organic balloon garland","Giant teddy bear cut-out + cake pedestal + cherry blossom"]}
             rating={5.0} reviews={132} bestSeller
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,999</>} original={<>₹7,999</>} discountPct={25}
           />
           <StaticPackageCard
             id="baby-f5" name="'Oh Baby' Pastel Rainbow Ring Teddy Setup"
@@ -589,7 +589,7 @@ function ServicePage() {
             image={babyG3.url}
             includes={["Ring backdrop with 'Oh Baby' neon + prop cluster","Olive, ivory & gold chrome garland with baby foils","Twin baby foil pillars + BABY letter blocks"]}
             rating={4.8} reviews={112}
-            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
+            offer={<>₹3,999</>} original={<>₹6,499</>} discountPct={38}
           />
           <StaticPackageCard
             id="baby-g4" name="Classic 'Baby Shower' Pink & Blue Home Arch"
@@ -613,7 +613,7 @@ function ServicePage() {
             image={babyG6.url}
             includes={["Pink & blue ring with gold chrome accents","'Baby Shower' neon + fairy-light net drape","'It's a Girl' + 'Baby Boy' foils + BABY blocks"]}
             rating={4.9} reviews={210} bestSeller
-            offer={<>₹3,499</>} original={<>₹4,999</>} discountPct={30}
+            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
           />
           <StaticPackageCard
             id="baby-g7" name="'Oh Baby' Pink, White & Silver Chrome Ring"
@@ -685,7 +685,7 @@ function ServicePage() {
             image={babyI3.url}
             includes={["Circular ring arch with blue, white & gold balloons","'Oh Baby' neon on white shimmer curtain","BABY letter blocks + boy & girl cut-outs"]}
             rating={4.9} reviews={168}
-            offer={<>₹4,499</>} original={<>₹6,499</>} discountPct={31}
+            offer={<>₹3,999</>} original={<>₹6,499</>} discountPct={38}
           />
           <StaticPackageCard
             id="baby-i4" name="Twin 'Girl' & 'Boy' Balloon Columns with Tassel Bunting"
@@ -693,7 +693,7 @@ function ServicePage() {
             image={babyI4.url}
             includes={["Pastel pink 'GIRL' & blue 'BOY' balloon columns","Gold 'OR' foil letters + tassel bunting","Baby boy & baby girl foil accents"]}
             rating={4.8} reviews={126}
-            offer={<>₹2,999</>} original={<>₹4,999</>} discountPct={40}
+            offer={<>₹2,499</>} original={<>₹3,499</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-i5" name="'boy' & 'girl' Foil Silver Fringe Curtain Arch"
@@ -709,7 +709,7 @@ function ServicePage() {
             image={babyI6.url}
             includes={["White chiara backdrop with 'Boy or Girl' script","Pink, blue & chrome gold organic balloon garland","Pastel floral fan accent + column bases"]}
             rating={5.0} reviews={110} bestSeller
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,999</>} original={<>₹8,499</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-i7" name="'GIRL' & 'BOY' Foil Tinsel Curtain Gender Reveal"
@@ -821,7 +821,7 @@ function ServicePage() {
             image={babyJ9.url}
             includes={["Custom couple name arched backdrop","Pink & peach balloon garland with lit focals","Teddy accents, baby cutout + BABY blocks"]}
             rating={5.0} reviews={129} bestSeller
-            offer={<>₹4,499</>} original={<>₹5,999</>} discountPct={25}
+            offer={<>₹5,499</>} original={<>₹8,499</>} discountPct={35}
           />
           <StaticPackageCard
             id="baby-j10" name="'Baby Shower' Neon Purple, Pink & Gold Ring with Twin Baby Cutouts"
@@ -893,7 +893,7 @@ function ServicePage() {
             image={babyK8.url}
             includes={["Custom-name pink arched acrylic panel","Pink, blue & yellow pastel balloon garland","Dried palm leaf + rose floral cluster"]}
             rating={5.0} reviews={176} bestSeller
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,499</>} original={<>₹7,499</>} discountPct={27}
           />
           <StaticPackageCard
             id="baby-k9" name="'Oh Baby Loading' Outdoor Arch with Teddy & BABY Blocks"
@@ -901,7 +901,7 @@ function ServicePage() {
             image={babyK9.url}
             includes={["'Oh Baby' neon + baby-feet 'Loading' panel","Pink, gold & white balloon garland","Giant teddy bear + BABY letter blocks"]}
             rating={4.9} reviews={154} bestSeller
-            offer={<>₹4,999</>} original={<>₹6,999</>} discountPct={29}
+            offer={<>₹5,999</>} original={<>₹8,499</>} discountPct={29}
           />
           <StaticPackageCard
             id="baby-k10" name="'Boy or Girl?' Pastel Gender Reveal Arch with Moon & Stars"
