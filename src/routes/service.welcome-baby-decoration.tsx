@@ -649,7 +649,7 @@ const BATCH_W30 = [
       "Fluted pedestal styling",
     ],
     rating: 4.9, reviews: 221,
-    offer: <>₹4,499</>, original: <>₹6,499</>, discountPct: 31,
+    offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 33,
   },
   {
     id: "welcome-baby-w36",
