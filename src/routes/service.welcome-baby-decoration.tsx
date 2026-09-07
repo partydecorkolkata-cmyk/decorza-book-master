@@ -1389,7 +1389,7 @@ const BATCH_W80 = [
       "On-site installation & dismantling",
     ],
     rating: 4.9, reviews: 158,
-    offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 33,
   },
   {
     id: "welcome-baby-w83",
