@@ -289,7 +289,7 @@ const NEW_CARDS = [
       "Floor uplights for a stage-like glow",
     ],
     rating: 4.9, reviews: 312,
-    offer: <>₹8,999</>, original: <>₹14,999</>, discountPct: 40,
+    offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 40,
   },
   {
     id: "welcome-baby-decoration-pink-gold-foil-silver-curtain",
