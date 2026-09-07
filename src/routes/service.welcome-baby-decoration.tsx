@@ -1401,7 +1401,7 @@ const BATCH_W80 = [
       "Ring arch in pink, white & chrome silver",
       "'Welcome Baby' cutout on sheer curtain",
       "Butterfly & star foil accents",
-      "Personalised name board + baby girl foil",
+      "Baby girl foil",
       "Pink BABY blocks and floor balloon spread",
     ],
     rating: 5.0, reviews: 231,
