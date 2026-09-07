@@ -394,7 +394,7 @@ const NEW_CARDS = [
       "Baby-girl round foil + pink heart foil",
     ],
     rating: 4.8, reviews: 197,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹4,199</>, original: <>₹6,999</>, discountPct: 40,
   },
   {
     id: "welcome-baby-decoration-baby-girl-foot-ceiling-cutout",
