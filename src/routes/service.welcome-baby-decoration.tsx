@@ -271,7 +271,7 @@ const CARDS = [
       "Clear BABY balloon boxes + teddy foils",
     ],
     rating: 4.8, reviews: 203,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹3,799</>, original: <>₹5,999</>, discountPct: 37,
   },
 ];
 
