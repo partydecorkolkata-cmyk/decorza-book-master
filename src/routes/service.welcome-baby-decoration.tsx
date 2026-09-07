@@ -154,7 +154,7 @@ const CARDS = [
       "Fairy-light curtain + 'Welcome Baby' neon",
     ],
     rating: 4.8, reviews: 232,
-    offer: <>₹3,799</>, original: <>₹5,999</>, discountPct: 37,
+    offer: <>₹3,499</>, original: <>₹5,499</>, discountPct: 36,
   },
   {
     id: "welcome-baby-decoration-luxury",
@@ -241,7 +241,7 @@ const CARDS = [
       "'It's A Boy' foil balloon pillar",
     ],
     rating: 4.8, reviews: 214,
-    offer: <>₹4,999</>, original: <>₹6,999</>, discountPct: 29,
+    offer: <>₹5,499</>, original: <>₹7,499</>, discountPct: 27,
   },
   {
     id: "welcome-baby-decoration-welcome-home-baby-khiyan",
