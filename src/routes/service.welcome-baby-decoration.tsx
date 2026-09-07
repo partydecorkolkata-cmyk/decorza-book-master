@@ -154,7 +154,7 @@ const CARDS = [
       "Fairy-light curtain + 'Welcome Baby' neon",
     ],
     rating: 4.8, reviews: 232,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹3,799</>, original: <>₹5,999</>, discountPct: 37,
   },
   {
     id: "welcome-baby-decoration-luxury",
