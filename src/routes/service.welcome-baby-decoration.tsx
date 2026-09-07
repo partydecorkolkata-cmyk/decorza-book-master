@@ -1611,7 +1611,7 @@ const BATCH_W90 = [
       "Pink & white flower balloon frame",
       "Gold foil 'WELCOME BABY' letters",
       "Pink heart foils + 'It's a Girl' bottle foil",
-      "'Baby Girl' teddy bubble balloon",
+      "\n",
       "Ceiling balloon bunches with ribbons",
     ],
     rating: 4.9, reviews: 174,
