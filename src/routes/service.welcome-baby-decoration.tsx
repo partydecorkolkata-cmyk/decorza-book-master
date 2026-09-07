@@ -457,7 +457,7 @@ const EXTRA_CARDS = [
       "Inside 'Welcome Baby' foil banner setup",
     ],
     rating: 4.9, reviews: 264,
-    offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 33,
   },
   {
     id: "welcome-baby-decoration-welcome-baby-blue-fringe-room",
