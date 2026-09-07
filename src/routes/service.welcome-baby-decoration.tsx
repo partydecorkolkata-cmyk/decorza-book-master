@@ -1647,7 +1647,7 @@ const BATCH_W90 = [
       "Pram, rattle & baby cutout props",
     ],
     rating: 4.9, reviews: 217,
-    offer: <>₹3,299</>, original: <>₹4,499</>, discountPct: 27,
+    offer: <>₹2,999</>, original: <>₹4,499</>, discountPct: 33,
   },
   {
     id: "welcome-baby-w99",
