@@ -319,7 +319,7 @@ const NEW_CARDS = [
       "Twin balloon pillars flanking the setup",
     ],
     rating: 4.8, reviews: 226,
-    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+    offer: <>₹4499</>, original: <>₹6999</>, discountPct: 33,
   },
   {
     id: "welcome-baby-decoration-little-prince-arch-teddy",
