@@ -256,7 +256,7 @@ const CARDS = [
       "Teddy bear prop with wooden BABY blocks",
     ],
     rating: 4.9, reviews: 267,
-    offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30,
+    offer: <>₹5,999</>, original: <>₹7,499</>, discountPct: 20,
   },
   {
     id: "welcome-baby-decoration-gold-baby-boxes-arch",
@@ -394,7 +394,7 @@ const NEW_CARDS = [
       "Baby-girl round foil + pink heart foil",
     ],
     rating: 4.8, reviews: 197,
-    offer: <>₹4,199</>, original: <>₹6,999</>, discountPct: 40,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
   },
   {
     id: "welcome-baby-decoration-baby-girl-foot-ceiling-cutout",
@@ -607,7 +607,7 @@ const BATCH_W30 = [
       "Baby, bottle & 'BABY' letter box props",
     ],
     rating: 4.8, reviews: 178,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹3,799</>, original: <>₹5,999</>, discountPct: 37,
   },
   {
     id: "welcome-baby-w33",
@@ -635,7 +635,7 @@ const BATCH_W30 = [
       "Setup, styling & on-site installation",
     ],
     rating: 4.8, reviews: 192,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹3,799</>, original: <>₹5,999</>, discountPct: 37,
   },
   {
     id: "welcome-baby-w35",
@@ -951,7 +951,7 @@ const BATCH_W50 = [
       "Ceiling balloon bunches",
     ],
     rating: 4.8, reviews: 189,
-    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
+    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
   },
   {
     id: "welcome-baby-w56",
@@ -1468,7 +1468,7 @@ const BATCH_W80 = [
       "Twin balloon pillars & rose petal path",
     ],
     rating: 5.0, reviews: 254,
-    offer: <>₹3,499</>, original: <>₹4,999</>, discountPct: 30,
+    offer: <>₹3,999</>, original: <>₹5,999</>, discountPct: 33,
   },
   {
     id: "welcome-baby-w88",
@@ -1551,7 +1551,7 @@ const BATCH_W90 = [
       "Setup, styling & post-event cleanup",
     ],
     rating: 5.0, reviews: 148,
-    offer: <>₹4,499</>, original: <>₹5,999</>, discountPct: 25,
+    offer: <>₹4,999</>, original: <>₹7,499</>, discountPct: 33,
   },
   {
     id: "welcome-baby-w93",
@@ -1599,7 +1599,7 @@ const BATCH_W90 = [
       "Complete installation at your home",
     ],
     rating: 4.8, reviews: 183,
-    offer: <>₹2,299</>, original: <>₹3,499</>, discountPct: 34,
+    offer: <>₹1,999</>, original: <>₹3,499</>, discountPct: 43,
   },
   {
     id: "welcome-baby-w96",
