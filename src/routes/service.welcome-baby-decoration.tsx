@@ -1417,7 +1417,6 @@ const BATCH_W80 = [
       "Ceiling filled with chrome & pink balloons",
       "Pink foil 'WELCOME BABY' letters",
       "Twin balloon pillars with bubble balloons",
-      "Draped table with gold bow",
       "Rose petal pathway on the floor",
     ],
     rating: 4.8, reviews: 189,
