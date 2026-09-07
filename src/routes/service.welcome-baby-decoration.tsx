@@ -1175,7 +1175,7 @@ const BATCH_W60 = [
       "Twin balloon plinths with baby foils",
     ],
     rating: 4.8, reviews: 190,
-    offer: <>₹2,999</>, original: <>₹3,999</>, discountPct: 25,
+    offer: <>₹2,499</>, original: <>₹3,999</>, discountPct: 38,
   },
 ];
 
