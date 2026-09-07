@@ -451,6 +451,18 @@ export const REVIEWS = [
   ["Arjun Malhotra", "Bengaluru", "Baby Shower Decoration", "The Baby in Bloom panels were stunning in person. Photographer said it was the best home setup he had shot.", 5],
   ["Ipsita Ghosh", "Siliguri", "Baby Shower Decoration", "Sweet team, fair pricing and they added a small welcome corner without extra charge. Highly recommend.", 5],
 
+  ["Rupali Kulkarni", "Pune", "Welcome Baby Decoration", "Booked the grand blue and white arch for our son's welcome home. Setup was ready before we reached from the hospital and the baby name board looked beautiful.", 5],
+  ["Tanmoy Banerjee", "Kolkata", "Welcome Baby Decoration", "Pink teddy arch for our daughter's first entry at home. Balloons were premium quality and the team finished everything within an hour.", 5],
+  ["Farah Sheikh", "Hyderabad", "Welcome Baby Decoration", "The welcome baby girl ring with floral accents was even prettier than the photo. Guests kept clicking pictures at the entrance.", 5],
+  ["Deepak Chavan", "Pune", "Welcome Baby Decoration", "Very neat pastel balloon columns and a cute name foil. They coordinated on WhatsApp and arrived right on time in the morning.", 5],
+  ["Sraboni Dutta", "Siliguri", "Welcome Baby Decoration", "We had a small living room but they created a lovely welcome corner without any mess. Elders in the family loved the traditional touch.", 5],
+  ["Mohit Verma", "Bengaluru", "Welcome Baby Decoration", "Ordered the blue and gold welcome baby arch at short notice. Confirmed within minutes and the setup quality was genuinely impressive for the price.", 5],
+  ["Anwesha Pal", "Kolkata", "Welcome Baby Decoration", "The customised name backdrop made our baby boy's welcome feel so special. Polite team, clean work, no hidden charges.", 5],
+  ["Swati Deshmukh", "Pune", "Welcome Baby Decoration", "Loved the white and gold welcome ring setup. They even adjusted the height for our low ceiling. Very professional.", 5],
+  ["Rahul Bhatt", "Delhi", "Welcome Baby Decoration", "Booked the twin balloon columns with tassel bunting for our twins' welcome home. Everything looked exactly as shown on the website.", 5],
+  ["Priyanka Mondal", "Howrah", "Welcome Baby Decoration", "Beautiful blush pink arch for our daughter's arrival. The team packed up quietly after the event and left the place spotless. Highly recommend.", 5],
+
+
   ["Ankita Bhattacharya", "Kolkata", "Haldi Decoration", "Took the sunflower ring mandap for my brother's haldi. Setup started at 6 am and was ready before the guests arrived. Every photo came out bright and beautiful.", 5],
   ["Manish Agarwal", "Siliguri", "Haldi Decoration", "The marigold cascade terrace setup was stunning. Flowers were fresh and the golden urli they brought was huge. Family kept asking for the vendor number.", 5],
   ["Sushmita Roy", "Kolkata", "Haldi Decoration", "Booked the Rajasthani umbrella corner for a home haldi in a small flat. They managed the space so well and packed up quietly after the ceremony.", 5],
