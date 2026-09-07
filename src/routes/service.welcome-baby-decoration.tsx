@@ -1062,7 +1062,7 @@ const BATCH_W60 = [
       "Personalised gold foil name + WELCOME letters",
       "Jumbo 'It's a Boy' bottle balloon pillar",
       "Baby, pram & bottle foil balloons",
-      "Ceiling helium balloons with curling ribbons",
+      "Ceiling balloons with curling ribbons",
     ],
     rating: 4.9, reviews: 204,
     offer: <>₹2,799</>, original: <>₹3,999</>, discountPct: 30,
