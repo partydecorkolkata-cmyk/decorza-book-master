@@ -256,7 +256,7 @@ const CARDS = [
       "Teddy bear prop with wooden BABY blocks",
     ],
     rating: 4.9, reviews: 267,
-    offer: <>₹6,499</>, original: <>₹8,999</>, discountPct: 28,
+    offer: <>₹6,999</>, original: <>₹9,999</>, discountPct: 30,
   },
   {
     id: "welcome-baby-decoration-gold-baby-boxes-arch",
