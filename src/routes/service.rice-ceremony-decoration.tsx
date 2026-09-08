@@ -345,11 +345,11 @@ function ServicePage() {
             name="Traditional Swastik Floral Pooja Backdrop"
             description="A pure traditional pooja backdrop with red rose swastik centrepiece on ivory drapes, gold-yellow-white floral top valance, hanging mogra bell strings and matching flower pillars with a red rangoli mat."
             image={riceR16.url}
-            includes={["Red rose swastik centrepiece","Ivory drape backdrop with floral top","Hanging mogra & bell strings","Flower pillars + red rangoli mat"]}
+             includes={["Red rose swastik centrepiece","Ivory drape backdrop with floral top","Hanging mogra & bell strings","Flower pillars "]}
             rating={4.8}
             reviews={158}
             offer={<>₹9,999</>}
-            original={<>₹12,999</>}
+             original={<>₹14,999</>}
             discountPct={23}
           />
           <StaticPackageCard
