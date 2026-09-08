@@ -516,7 +516,7 @@ function ServicePage() {
             name="'ADITYA' Candyland Rice Ceremony Grand Stage"
             description="A spectacular candyland themed rice ceremony stage with a giant pastel purple, peach & yellow balloon arch, silver shimmer sequin wall, oversized ice-cream, cupcake, lollipop & popsicle cutouts, a golden royal sofa on a red carpet stage, wooden picket fence and a huge marquee-light 'ADITYA' name — a true celebration centrepiece."
             image={riceR31.url}
-            includes={["Silver shimmer sequin wall with 'Rice Ceremony' script","Pastel purple, peach & yellow balloon garland arch","Giant ice-cream, cupcake, lollipop & popsicle cutouts","Golden royal sofa on red carpet stage","Custom marquee-light baby name letters","Wooden picket fence & candyland props"]}
+            includes={["Silver shimmer sequin wall with 'Rice Ceremony' script","Pastel purple, peach & yellow balloon garland arch","Giant ice-cream, cupcake, lollipop & popsicle cutouts","","Custom marquee-light baby name letters","Wooden picket fence & candyland props"]}
             rating={5.0}
             reviews={276}
             offer={<>₹27,999</>}
