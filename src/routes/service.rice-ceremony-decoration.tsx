@@ -553,7 +553,7 @@ function ServicePage() {
             name="'Dhanvi' Butterfly Kisses & Fairy Wishes Luxury Stage"
             description="A dreamy luxury stage combining a golden shimmer sequin wall, pastel peach, lilac & mint balloon arches, twin arch panels, a custom butterfly & fairy print backdrop with the child's name, glowing neon butterfly, fairy cutouts and floral chandeliers — a true magazine-worthy rice ceremony setup."
             image={riceR34.url}
-            includes={["Gold shimmer sequin main wall","Custom butterfly print name panel","Twin pastel arch side panels","Pastel peach, lilac & mint balloon garlands","Glowing neon butterfly & fairy cutouts","Hanging floral chandeliers"]}
+            includes={["Gold shimmer sequin main wall","Custom butterfly print name panel","Twin pastel arch side panels","Pastel peach, lilac & mint balloon garlands","Glowing neon butterfly & fairy cutouts",""]}
             rating={5.0}
             reviews={318}
             offer={<>₹34,999</>}
