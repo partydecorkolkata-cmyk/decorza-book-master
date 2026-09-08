@@ -938,7 +938,7 @@ function ServicePage() {
             includes={["Yashoda-Krishna 'Happy Annaprashan' printed backdrop","Baby blue, white & chrome gold balloon garland","Scattered floor balloon styling","Textured wall frame styling","On-site installation"]}
             rating={5.0}
             reviews={158}
-            offer={<>₹4,499</>}
+            offer={<>₹3,999</>}
             original={<>₹6,999</>}
             discountPct={36}
           />
