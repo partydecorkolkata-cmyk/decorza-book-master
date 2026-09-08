@@ -791,7 +791,7 @@ function ServicePage() {
             includes={["Royal blue, red, white & gold square balloon arch","Gold foil star balloons","Gold shimmer fringe backdrop","Baby, bottle & 'It's a Boy' foil balloons","'Rice Ceremony' printed bunting"]}
             rating={4.9}
             reviews={182}
-            offer={<>₹2,299</>}
+            offer={<>₹1999</>}
             original={<>₹3,499</>}
             discountPct={34}
           />
