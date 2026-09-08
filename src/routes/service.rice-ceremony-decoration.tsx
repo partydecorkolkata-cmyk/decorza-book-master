@@ -642,7 +642,7 @@ function ServicePage() {
             includes={["Yashoda-Krishna centre panel backdrop","Blue & white balloon arch with disco foils","Six Bal Krishna & Radha themed cutouts","Blue balloon pillars on stage"]}
             rating={4.9}
             reviews={232}
-             offer={<>₹5,499</>}
+             offer={<>₹7,499</>}
             original={<>₹11,999</>}
             discountPct={33}
             bestSeller
