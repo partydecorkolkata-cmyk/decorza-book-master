@@ -373,8 +373,8 @@ function ServicePage() {
             includes={["Yashoda & baby Krishna round backdrop","Purple, pink & white chrome balloons","Butterfly accents & fairy lights","Balloon pillars with themed cutouts"]}
             rating={4.7}
             reviews={142}
-            offer={<>₹5,999</>}
-            original={<>₹7,999</>}
+            offer={<>₹6,499</>}
+            original={<>₹9,999</>}
             discountPct={25}
           />
           <StaticPackageCard
