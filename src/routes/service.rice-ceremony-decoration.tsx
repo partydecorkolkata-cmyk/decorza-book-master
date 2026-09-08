@@ -299,12 +299,12 @@ function ServicePage() {
             includes={["Greenery & floral top valance","Hanging marigold & mogra strings","'Rice Ceremony' neon sign","White, gold & copper chrome balloon pillars"]}
             rating={4.9}
             reviews={192}
-            offer={<>₹6,499</>}
-            original={<>₹9,999</>}
-            discountPct={35}
-          />
-          <StaticPackageCard
-            id="rice-ceremony-decoration-radha-krishna-stage"
+             offer={<>₹7999</>}
+             original={<>₹11,999</>}
+             discountPct={35}
+           />
+           <StaticPackageCard
+             id="rice-ceremony-decoration-radha-krishna-stage"
             name="Luxury Radha Krishna Annaprashan Stage"
             description="A luxurious stage setup with a big Radha-Krishna backdrop panel, floral top runner, pastel pink-yellow-gold-white balloon arch and Bal Krishna & Radha cutouts framing a plush couch — statement decor for banquets."
             image={riceR13.url}
@@ -642,7 +642,7 @@ function ServicePage() {
             includes={["Yashoda-Krishna centre panel backdrop","Blue & white balloon arch with disco foils","Six Bal Krishna & Radha themed cutouts","Blue balloon pillars on stage"]}
             rating={4.9}
             reviews={232}
-            offer={<>₹7,999</>}
+             offer={<>₹5,499</>}
             original={<>₹11,999</>}
             discountPct={33}
             bestSeller
@@ -975,7 +975,7 @@ function ServicePage() {
             includes={["Purple, white, gold & lilac balloon stage arch","'Rice Ceremony' neon sign","Twin Minnie Mouse foil balloon pillars","Royal white & gold throne chair","Red stage table drape","Green carpet aisle & installation"]}
             rating={5.0}
             reviews={206}
-            offer={<>₹7,999</>}
+             offer={<>₹7999</>}
             original={<>₹9,999</>}
             discountPct={20}
             bestSeller
