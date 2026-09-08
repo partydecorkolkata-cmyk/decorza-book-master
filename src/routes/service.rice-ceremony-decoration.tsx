@@ -467,7 +467,7 @@ function ServicePage() {
             name="Luxury Unicorn Rainbow Rice Ceremony Stage"
             description="A grand unicorn rainbow themed stage with a large rainbow-cloud personalised backdrop, pastel candy balloon arch, tall unicorn cutouts on white crate pillars, gold candelabras and a carved beige couch — statement decor for a princess Annaprashan."
             image={riceR26.url}
-            includes={["Rainbow-cloud personalised backdrop","Pastel candy balloon arch","Tall unicorn cutouts on crate pillars","Gold candelabras + carved couch"]}
+            includes={["Rainbow-cloud personalised backdrop","Pastel candy balloon arch","Tall unicorn cutouts on crate pillars","Gold candelabras "]}
             rating={4.9}
             reviews={296}
             offer={<>₹19,999</>}
