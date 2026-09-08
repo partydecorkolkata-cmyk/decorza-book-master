@@ -578,7 +578,7 @@ function ServicePage() {
             name="Butterfly & Fairy 'Rice Ceremony' Ring Setup"
             description="A cheerful ring balloon backdrop with a pink neon 'Rice Ceremony' script, pastel peach, lilac and yellow balloons with gold chrome accents, holographic butterflies and twin fairy princess cutouts on balloon pillars — framed with a cute wooden picket fence."
             image={riceR36.url}
-            includes={["Round ring balloon backdrop","'Rice Ceremony' neon sign","Peach, lilac, yellow & gold chrome balloons","Twin fairy princess cutouts on pillars","Holographic butterfly accents","Wooden picket fence"]}
+            includes={["Round ring balloon backdrop","'Rice Ceremony' neon sign","Peach, lilac, yellow & gold chrome balloons","Twin fairy princess cutouts on pillars","Holographic butterfly accents",""]}
             rating={4.9}
             reviews={208}
             offer={<>₹4,999</>}
