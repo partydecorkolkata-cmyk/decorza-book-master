@@ -960,7 +960,7 @@ function ServicePage() {
             name="Princess Pink & Rose-Gold 'Rice Ceremony' Ring"
             description="A princess-themed Rice Ceremony ring backdrop with pastel pink, white and chrome rose-gold balloons, a 'Rice Ceremony' neon sign, princess crown foil, heart foil balloons and confetti orbs on a soft white curtain — dreamy and girly."
             image={riceR67.url}
-            includes={["Ring backdrop with white curtain","Pink, white & chrome rose-gold garland","'Rice Ceremony' neon sign","Princess crown foil balloon","Heart & confetti orb balloons","On-site installation"]}
+            includes={["Ring backdrop","Pink, white & chrome rose-gold garland","'Rice Ceremony' neon sign","Princess crown foil balloon","Heart & confetti orb balloons","On-site installation"]}
             rating={5.0}
             reviews={172}
             offer={<>₹3,499</>}
