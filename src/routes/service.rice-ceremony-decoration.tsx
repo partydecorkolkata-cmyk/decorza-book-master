@@ -433,9 +433,9 @@ function ServicePage() {
             includes={["Personalised floral photo flex","Cream, pink & silver chrome garland","Twin silver star foil pillars","Balloon runner on floor"]}
             rating={4.8}
             reviews={165}
-            offer={<>₹4,499</>}
-            original={<>₹5,999</>}
-            discountPct={25}
+             offer={<>₹3,999</>}
+             original={<>₹5,999</>}
+             discountPct={25}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-radha-krishna-peacock-panels"
