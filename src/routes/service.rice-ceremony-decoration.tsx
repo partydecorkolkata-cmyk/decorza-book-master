@@ -642,7 +642,7 @@ function ServicePage() {
             includes={["Yashoda-Krishna centre panel backdrop","Blue & white balloon arch with disco foils","Six Bal Krishna & Radha themed cutouts","Blue balloon pillars on stage"]}
             rating={4.9}
             reviews={232}
-             offer={<>₹7999</>}
+             offer={<>₹5,499</>}
             original={<>₹11,999</>}
             discountPct={33}
             bestSeller
@@ -975,7 +975,7 @@ function ServicePage() {
             includes={["Purple, white, gold & lilac balloon stage arch","'Rice Ceremony' neon sign","Twin Minnie Mouse foil balloon pillars","Royal white & gold throne chair","Red stage table drape","Green carpet aisle & installation"]}
             rating={5.0}
             reviews={206}
-            offer={<>₹7,999</>}
+             offer={<>₹7999</>}
             original={<>₹9,999</>}
             discountPct={20}
             bestSeller
