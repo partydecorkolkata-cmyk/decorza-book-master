@@ -324,7 +324,7 @@ function ServicePage() {
             includes={["Triple arched panel backdrop","Yashoda & baby Krishna centre panel","Sky-blue & yellow balloon clusters","Marigold hangings & dry floral accents"]}
             rating={4.9}
             reviews={214}
-            offer={<>₹13,999</>}
+             offer={<>₹14,999</>}
             original={<>₹19,999</>}
             discountPct={30}
           />
@@ -337,7 +337,7 @@ function ServicePage() {
             rating={4.8}
             reviews={176}
             offer={<>₹13,999</>}
-            original={<>₹18,999</>}
+             original={<>₹19,999</>}
             discountPct={26}
           />
           <StaticPackageCard
