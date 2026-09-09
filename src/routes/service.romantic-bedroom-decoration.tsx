@@ -688,8 +688,8 @@ const BATCH_S = [
     image: rbdS2.url,
     includes: [
       "Floating red heart foil balloons with heart strings",
-      "Red bed runner drape & red cushion styling",
-      "Red fur cushion & side table styling",
+      "",
+      "",
       "Red latex balloon floor carpet",
     ],
     rating: 4.8,
