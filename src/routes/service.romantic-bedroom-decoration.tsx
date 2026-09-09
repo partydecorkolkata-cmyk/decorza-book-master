@@ -813,7 +813,7 @@ const BATCH_S = [
       "A dramatic purple LED-lit room with pink balloons on the ceiling, pink 'HAPPY BIRTHDAY' foil letters, heart balloon bunches and a rose petal heart on the bed with a floor full of pink balloons.",
     image: rbdS9.url,
     includes: [
-      "Purple LED ambience lighting",
+      "",
       "Pink balloon ceiling with curling ribbons",
       "Pink 'HAPPY BIRTHDAY' foil letters & heart bunch",
       "Rose petal heart on bed & pink balloon floor",
@@ -821,8 +821,8 @@ const BATCH_S = [
     rating: 4.9,
     reviews: 205,
     offer: "₹2,199",
-    original: "₹3,499",
-    discountPct: 37,
+    original: "₹3,999",
+    discountPct: 45,
   },
   {
     id: "rbd-s10-red-black-love-you-pillars",
