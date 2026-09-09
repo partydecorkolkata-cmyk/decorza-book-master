@@ -1953,8 +1953,8 @@ function ServicePage() {
             includes={["Four-post cabana canopy with dense fairy lights","Hanging white floral vines & red rose bunches","Rose petal aisle with LED candles & bed styling"]}
             rating={5}
             reviews={967}
-            offer={<>₹7,499</>}
-            original={<>₹9,999</>}
+            offer={<>₹8,499</>}
+            original={<>₹11,999</>}
             discountPct={25}
             bestSeller={false}
           />
