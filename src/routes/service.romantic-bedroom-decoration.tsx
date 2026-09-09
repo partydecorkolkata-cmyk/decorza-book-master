@@ -1838,7 +1838,7 @@ const NEW_PACKAGES = [
       "A soft ivory teepee wrapped in warm fairy lights with cosy cushions, a white rose posy, pampas grass, marquee 'LOVE' letters and white balloons — a calm, aesthetic indoor date setup.",
     image: rbdN6.url,
     includes: [
-      "Ivory teepee with fairy lights & cushion seating",
+      "Ivory teepee with fairy lights ",
       "Pampas grass, white florals & marquee LOVE light",
       "White balloon accents and cosy rug styling",
     ],
