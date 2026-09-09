@@ -784,9 +784,9 @@ const BATCH_S = [
     ],
     rating: 4.9,
     reviews: 241,
-    offer: "₹2,499",
-    original: "₹3,999",
-    discountPct: 38,
+    offer: "₹2,199",
+    original: "₹3,499",
+    discountPct: 37,
   },
   {
     id: "rbd-s8-pink-heart-ceiling-birthday-petals",
