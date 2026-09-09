@@ -307,8 +307,8 @@ const BATCH_W = [
     ],
     rating: 4.9,
     reviews: 268,
-    offer: "₹8,499",
-    original: "₹11,999",
+    offer: "₹9,999",
+    original: "₹14,999",
     discountPct: 29,
   },
   {
