@@ -651,7 +651,7 @@ const BATCH_R = [
       "Cloud of red heart foil balloons above the bed",
       "'I LOVE YOU' + 'love' red foil letters",
       "Rose petal heart on the bed with petal scatter",
-      "Ribbon-tied pillows & rose bouquet styling",
+      "\n",
     ],
     rating: 4.8,
     reviews: 197,
