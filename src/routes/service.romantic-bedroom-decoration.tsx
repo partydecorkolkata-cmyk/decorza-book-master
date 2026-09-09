@@ -1585,9 +1585,9 @@ const BATCH_O = [
     ],
     rating: 4.8,
     reviews: 342,
-    offer: "₹2,799",
-    original: "₹3,999",
-    discountPct: 30,
+    offer: "₹2,499",
+    original: "₹3,499",
+    discountPct: 29,
   },
   {
     id: "rbd-o2-red-rose-canopy-birthday-room",
