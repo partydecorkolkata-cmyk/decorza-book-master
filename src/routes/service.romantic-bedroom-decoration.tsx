@@ -583,9 +583,9 @@ const BATCH_R = [
     ],
     rating: 4.8,
     reviews: 264,
-    offer: "₹2,999",
-    original: "₹4,999",
-    discountPct: 40,
+    offer: "₹2,499",
+    original: "₹3,999",
+    discountPct: 38,
   },
   {
     id: "rbd-r7-fresh-flower-canopy-mandap-bed",
