@@ -820,9 +820,9 @@ const BATCH_S = [
     ],
     rating: 4.9,
     reviews: 205,
-    offer: "₹2,199",
-    original: "₹3,999",
-    discountPct: 45,
+    offer: "₹2,499",
+    original: "₹3,799",
+    discountPct: 34,
   },
   {
     id: "rbd-s10-red-black-love-you-pillars",
