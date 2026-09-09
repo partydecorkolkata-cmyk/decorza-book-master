@@ -972,7 +972,7 @@ function ServicePage() {
             name="Minnie Mouse 'Rice Ceremony' Grand Stage Arch"
             description="A grand banquet stage Rice Ceremony setup with a purple, white, gold & lilac balloon arch, 'Rice Ceremony' neon sign, twin Minnie Mouse foil pillars, a royal white & gold throne chair with red table drape and green carpet aisle — perfect for large family functions."
             image={riceR68.url}
-            includes={["Purple, white, gold & lilac balloon stage arch","'Rice Ceremony' neon sign","Twin Minnie Mouse foil balloon pillars","Royal wir","",""]}
+            includes={["Purple, white, gold & lilac balloon stage arch","'Rice Ceremony' neon sign","Twin Minnie Mouse foil balloon pillars","\n","",""]}
             rating={5.0}
             reviews={206}
              offer={<>₹7999</>}
