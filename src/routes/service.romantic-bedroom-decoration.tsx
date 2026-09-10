@@ -601,9 +601,9 @@ const BATCH_R = [
     ],
     rating: 5,
     reviews: 418,
-    offer: "₹8,499",
-    original: "₹11,999",
-    discountPct: 29,
+    offer: "₹9,999",
+    original: "₹14,999",
+    discountPct: 33,
   },
   {
     id: "rbd-r8-red-gold-love-you-room",
