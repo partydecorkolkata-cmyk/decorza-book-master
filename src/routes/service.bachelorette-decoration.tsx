@@ -1042,8 +1042,8 @@ const NEW_CARDS = [
     ],
     rating: 4.9,
     reviews: 121,
-    offer: "₹4,499",
-    original: "₹6,499",
+    offer: "₹4,999",
+    original: "₹7,499",
     discountPct: 31,
   },
   {
