@@ -120,7 +120,6 @@ const BATCH_X = [
       "Red heart foil balloon ceiling with ribbon tails",
       "Silver & red 'love' script foil letters on wall",
       "Red, white & pearl balloon floor flooding",
-      "Warm bedside lamp ambience styling",
     ],
     rating: 4.9,
     reviews: 246,
@@ -214,9 +213,9 @@ const BATCH_X = [
     ],
     rating: 4.9,
     reviews: 233,
-    offer: "\u20b92,999",
-    original: "\u20b94,499",
-    discountPct: 33,
+    offer: "\u20b92,499",
+    original: "\u20b93,999",
+    discountPct: 38,
   },
   {
     id: "rbd-x7-forever-us-love-petal-heart",
@@ -246,7 +245,7 @@ const BATCH_X = [
       "Pink & blush ceiling balloons",
       "Rose gold 'HAPPY ANNIVERSARY' foil letters",
       "White shimmer curtain backdrop",
-      "Floor balloon clusters & candle-lit table styling",
+      "Floor balloon clusters",
     ],
     rating: 4.7,
     reviews: 158,
@@ -268,9 +267,9 @@ const BATCH_X = [
     ],
     rating: 4.8,
     reviews: 181,
-    offer: "\u20b92,499",
-    original: "\u20b93,499",
-    discountPct: 29,
+    offer: "\u20b91,999",
+    original: "\u20b92,999",
+    discountPct: 33,
   },
   {
     id: "rbd-x10-red-rosegold-initials-petal-heart",
@@ -309,25 +308,25 @@ const BATCH_W = [
     reviews: 268,
     offer: "₹9,999",
     original: "₹14,999",
-    discountPct: 29,
+    discountPct: 33,
   },
   {
     id: "rbd-w2-red-balloon-ceiling-black-birthday",
     name: "Red Balloon Ceiling & Black Birthday Foil Room",
     description:
-      "A full ceiling of red helium balloons with curling ribbons, bold black 'HAPPY BIRTHDAY' foil letters above the headboard, red heart balloons on the bed and a rose petal heart at the centre.",
+      "A full ceiling of red balloons with curling ribbons, bold black 'HAPPY BIRTHDAY' foil letters above the headboard, red heart balloons on the bed and a rose petal heart at the centre.",
     image: rbdW2.url,
     includes: [
-      "Ceiling filled with red helium balloons & ribbons",
+      "Ceiling filled with red balloons & ribbons",
       "Black 'HAPPY BIRTHDAY' foil letters on wall",
       "Red heart foil balloons on bed",
       "Rose petal heart & floor balloon accents",
     ],
     rating: 4.8,
     reviews: 231,
-    offer: "₹2,999",
-    original: "₹4,499",
-    discountPct: 33,
+    offer: "₹2,499",
+    original: "₹3,999",
+    discountPct: 38,
   },
   {
     id: "rbd-w3-floral-mandap-love-petal-floor",
@@ -397,9 +396,9 @@ const BATCH_W = [
     ],
     rating: 4.9,
     reviews: 296,
-    offer: "₹7,499",
-    original: "₹9,999",
-    discountPct: 25,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
   },
   {
     id: "rbd-w7-red-rose-masehri-bridal-canopy",
@@ -426,7 +425,7 @@ const BATCH_W = [
       "A bright, cheerful room surprise with pink and magenta balloons floating on the ceiling, rose gold 'HAPPY BIRTHDAY' foil letters on the wall and giant rose gold age number balloons at the headboard.",
     image: rbdW8.url,
     includes: [
-      "Pink & magenta ceiling helium balloons",
+      "Pink & magenta ceiling balloons",
       "Rose gold 'HAPPY BIRTHDAY' foil letters",
       "Giant rose gold age number balloons",
       "Balloon scatter styling on bed",
@@ -451,7 +450,7 @@ const BATCH_W = [
     ],
     rating: 4.7,
     reviews: 274,
-    offer: "₹2,199",
+    offer: "₹2,499",
     original: "₹3,499",
     discountPct: 29,
   },
@@ -512,7 +511,7 @@ const BATCH_R = [
     reviews: 226,
     offer: "₹3,499",
     original: "₹4,999",
-    discountPct: 40,
+    discountPct: 30,
   },
   {
     id: "rbd-r3-purple-dreams-canopy-room",
@@ -784,9 +783,9 @@ const BATCH_S = [
     ],
     rating: 4.9,
     reviews: 241,
-    offer: "₹2,199",
+    offer: "₹2,499",
     original: "₹3,499",
-    discountPct: 37,
+    discountPct: 29,
   },
   {
     id: "rbd-s8-pink-heart-ceiling-birthday-petals",
@@ -895,9 +894,9 @@ const BATCH_T = [
     ],
     rating: 4.9,
     reviews: 241,
-    offer: "₹3,199",
+    offer: "₹2,999",
     original: "₹4,999",
-    discountPct: 36,
+    discountPct: 40,
   },
   {
     id: "rbd-t4-happy-anniversary-gold-love-room",
@@ -939,19 +938,19 @@ const BATCH_T = [
     id: "rbd-t6-will-you-be-my-girlfriend-silver-room",
     name: "'Will You Be My Girlfriend' Silver Foil Room",
     description:
-      "A soft proposal setup with silver 'WILL YOU BE MY GIRLFRIEND' foil letters, blush pink ceiling balloons, rose gold heart foils, a teddy on the pillows and a candle-lit petal heart on the bed.",
+      "A soft proposal setup with silver 'WILL YOU BE MY GIRLFRIEND' foil letters, blush pink ceiling balloons, rose gold heart foils, a candle-lit petal heart and petal scatter on the bed.",
     image: rbdT6.url,
     includes: [
       "Silver 'WILL YOU BE MY GIRLFRIEND' foil letters",
       "Blush pink ceiling balloons + rose gold heart foils",
       "Candle-lit rose petal heart on the bed",
-      "Teddy bear & petal scatter styling",
+      "Petal scatter on the bed",
     ],
     rating: 4.9,
     reviews: 208,
-    offer: "₹2,199",
+    offer: "₹2,499",
     original: "₹3,499",
-    discountPct: 37,
+    discountPct: 29,
   },
   {
     id: "rbd-t7-pink-silver-i-love-u-luxury-room",
@@ -1078,8 +1077,8 @@ const BATCH_U = [
     ],
     rating: 5.0,
     reviews: 268,
-    offer: "₹7,999",
-    original: "₹11,999",
+    offer: "₹9,999",
+    original: "₹14,999",
     discountPct: 33,
   },
   {
@@ -1168,9 +1167,9 @@ const BATCH_U = [
     ],
     rating: 4.9,
     reviews: 224,
-    offer: "₹7,499",
-    original: "₹9,999",
-    discountPct: 25,
+    offer: "₹8,499",
+    original: "₹11,999",
+    discountPct: 29,
   },
   {
     id: "rbd-u9-white-floral-chandelier-love-suite",
@@ -1213,13 +1212,13 @@ const BATCH_U = [
 const BATCH_V = [
   {
     id: "rbd-v1-feliz-aniversario-red-heart-room",
-    name: "Feliz Aniversario Red Heart Room",
+    name: "Happy Anniversary Red Heart Room",
     description:
-      "A warm anniversary surprise with red heart foil balloons floating across the ceiling, gold 'Feliz Aniversario' script on the wall, a red 'love' marquee on the headboard and a candle-lit rose petal heart with a number light on the bed.",
+      "A warm anniversary surprise with red heart foil balloons floating across the ceiling, gold 'Happy Anniversary' script on the wall, a red 'love' marquee on the headboard and a candle-lit rose petal heart with a number light on the bed.",
     image: rbdV1.url,
     includes: [
       "Red heart foil balloons with ribbon tails",
-      "Gold 'Feliz Aniversario' script & red 'love' marquee",
+      "Gold 'Happy Anniversary' script & red love foil",
       "Rose petal heart on bed with LED candles",
       "Number light & side table styling",
     ],
@@ -1333,9 +1332,9 @@ const BATCH_V = [
     ],
     rating: 4.9,
     reviews: 231,
-    offer: "₹3,499",
+    offer: "₹2,999",
     original: "₹4,999",
-    discountPct: 30,
+    discountPct: 40,
   },
   {
     id: "rbd-v8-royal-red-rose-canopy-first-night-room",
@@ -1387,9 +1386,9 @@ const BATCH_V = [
     ],
     rating: 4.9,
     reviews: 205,
-    offer: "₹3,499",
-    original: "₹4,499",
-    discountPct: 22,
+    offer: "₹2,999",
+    original: "₹4,999",
+    discountPct: 40,
   },
 ];
 
@@ -1955,7 +1954,7 @@ function ServicePage() {
             reviews={967}
             offer={<>₹8,499</>}
             original={<>₹11,999</>}
-            discountPct={25}
+            discountPct={29}
             bestSeller={false}
           />
           {[...NEW_PACKAGES, ...BATCH_O, ...BATCH_Q, ...BATCH_R, ...BATCH_S, ...BATCH_T, ...BATCH_U, ...BATCH_V, ...BATCH_W, ...BATCH_X].map((p) => (
