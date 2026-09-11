@@ -1188,7 +1188,7 @@ function ServicePage() {
             ]}
             rating={4.8}
             reviews={109}
-            offer={<>₹1,999</>}
+            offer={<>₹2299</>}
             original={<>₹3,499</>}
             discountPct={43}
             bestSeller={false}
