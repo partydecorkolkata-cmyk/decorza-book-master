@@ -854,7 +854,7 @@ const BATCH_C = [
     includes: [
       "Gold 'GROOM TO BE' foil letter set",
       "Gold diamond ring + champagne bottle foil balloons",
-      "Gold, black & silver helium ceiling balloons",
+      "Gold, black & silver  ceiling balloons",
       "Floor balloon spill styling",
     ],
     rating: 4.8,
