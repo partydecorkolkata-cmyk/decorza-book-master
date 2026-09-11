@@ -818,7 +818,7 @@ const BATCH_C = [
     includes: [
       "Rose gold fringe curtain backdrop",
       "Rose gold 'BRIDE' foil letters + ring & champagne foils",
-      "Helium rose gold, white & confetti ceiling balloons",
+      " Rose gold, white & confetti ceiling balloons",
       "Balloon-covered bed styling",
     ],
     rating: 4.8,
