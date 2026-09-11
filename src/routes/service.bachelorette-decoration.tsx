@@ -1053,7 +1053,7 @@ const NEW_CARDS = [
       "A dreamy hotel-room surprise with a full ceiling of helium rose-gold and blush balloons with curling ribbons, giant rose-gold BRIDE foil letters on the wall and chrome balloons scattered across the bed.",
     image: b7.url,
     includes: [
-      "Helium rose gold & blush ceiling balloons with ribbons",
+      " Rose gold & blush ceiling balloons with ribbons",
       "Rose gold 'BRIDE' foil letter set",
       "Chrome balloons styled on the bed",
       "Complete on-site setup & cleanup",
