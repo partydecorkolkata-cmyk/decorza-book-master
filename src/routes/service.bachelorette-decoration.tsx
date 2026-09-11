@@ -944,13 +944,13 @@ const BATCH_C = [
     includes: [
       "Lilac arch panel with pink 'Bride To Be' neon",
       "Pink, peach & yellow balloon garland with florals",
-      "Hanging star fairy lights",
+      "Spot / focus lights",
       "2 confetti balloon pillars + cake table",
     ],
     rating: 4.9,
     reviews: 149,
-    offer: "₹4,999",
-    original: "₹7,999",
+    offer: "₹5,999",
+    original: "₹8,499",
     discountPct: 38,
   },
   {
