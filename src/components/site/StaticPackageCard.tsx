@@ -53,7 +53,7 @@ export function StaticPackageCard({
         <h3 className="font-display text-lg leading-tight">{name}</h3>
         <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
         <ul className="space-y-1 text-xs text-muted-foreground">
-          {includes.map((i) => (
+          {includes.filter((i) => i.trim()).map((i) => (
             <li key={i} className="flex gap-1.5"><span className="text-gold">✓</span> {i}</li>
           ))}
         </ul>
@@ -149,7 +149,7 @@ function PackageDetailsDialog({
           <div>
             <p className="text-sm font-semibold">What's included</p>
             <ul className="mt-1.5 space-y-1 text-sm text-muted-foreground">
-              {includes.map((i) => (
+              {includes.filter((i) => i.trim()).map((i) => (
                 <li key={i} className="flex gap-1.5"><Check className="h-4 w-4 shrink-0 text-gold mt-0.5" /> {i}</li>
               ))}
             </ul>
