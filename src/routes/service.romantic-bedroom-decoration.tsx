@@ -725,14 +725,14 @@ const BATCH_S = [
     includes: [
       "Rose gold 'HAPPY BIRTHDAY' foil letters",
       "Pink & chrome balloon ceiling with ribbons",
-      "Ribbon bow pillow styling",
+      "",
       "Petal border on bed & floor petal scatter",
     ],
     rating: 4.9,
     reviews: 189,
-    offer: "₹2199",
-    original: "₹2,999",
-    discountPct: 33,
+    offer: "₹2499",
+    original: "₹3,999",
+    discountPct: 38,
   },
   {
     id: "rbd-s5-i-love-you-red-ceiling-bouquet",
