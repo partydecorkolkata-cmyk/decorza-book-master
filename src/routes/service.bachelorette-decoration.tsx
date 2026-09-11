@@ -890,7 +890,7 @@ const BATCH_C = [
     includes: [
       "Rose gold 'BRIDE TO BE' foil lettering",
       "Heart + diamond ring foil balloons",
-      "Chrome, white & blush helium ceiling with ribbons",
+      "Chrome, white & blush  ceiling with ribbons",
       "Confetti balloon floor carpet",
     ],
     rating: 4.8,
