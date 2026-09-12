@@ -245,8 +245,8 @@ const BATCH_G = [
     includes: [
       "Personalised 'Soon to be Mr & Mrs' arch print",
       "Rose gold, baby blue & white balloon cascade",
-      "Ceiling helium balloons with ribbons",
-      "Floor balloon spread + 3 warm uplighters",
+      "Ceiling  balloons with ribbons",
+      "Floor balloon spread +  warm uplighters",
     ],
     rating: 4.8,
     reviews: 133,
