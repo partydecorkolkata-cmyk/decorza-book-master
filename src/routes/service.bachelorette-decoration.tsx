@@ -122,9 +122,9 @@ const BATCH_G = [
     ],
     rating: 4.6,
     reviews: 84,
-    offer: "₹2,199",
-    original: "₹3,499",
-    discountPct: 37,
+    offer: "₹1,999",
+    original: "₹2,999",
+    discountPct: 33,
   },
   {
     id: "bachelorette-red-chrome-silver-butterfly-arch",
