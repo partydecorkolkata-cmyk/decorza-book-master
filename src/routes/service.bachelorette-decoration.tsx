@@ -596,14 +596,14 @@ const BATCH_E = [
     includes: [
       "White 'Bride To Be' arch panel",
       "Pink, grey & rose gold balloon garland",
-      "Ceiling helium balloon clusters",
+      "Ceiling  balloon clusters",
       "Paper fan pedestals + floor balloon scatter",
     ],
     rating: 4.7,
     reviews: 109,
-    offer: "₹4,999",
-    original: "₹7,999",
-    discountPct: 38,
+    offer: "₹5,499",
+    original: "₹8,499",
+    discountPct: 35,
   },
   {
     id: "bachelorette-white-gold-neon-dessert-arch",
