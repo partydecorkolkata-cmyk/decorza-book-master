@@ -381,9 +381,9 @@ const BATCH_F = [
     ],
     rating: 4.9,
     reviews: 141,
-    offer: "₹4,999",
-    original: "₹7,999",
-    discountPct: 38,
+    offer: "₹5,999",
+    original: "₹8,499",
+    discountPct: 29,
   },
   {
     id: "bachelorette-monochrome-floral-groom-arch",
