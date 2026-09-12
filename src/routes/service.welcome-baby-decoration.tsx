@@ -120,8 +120,10 @@ export const Route = createFileRoute("/service/welcome-baby-decoration")({
       { title: `Welcome Baby Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn’s arrival. Book on WhatsApp.` },
       { property: "og:title", content: `Welcome Baby Decoration | Decorza Events` },
-      { property: "og:image", content: cover.url },
-    ],
+    
+      { property: "og:description", content: `Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn’s arrival. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/welcome-baby-decoration" }],
   }),
   component: ServicePage,

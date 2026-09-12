@@ -273,8 +273,10 @@ export const Route = createFileRoute("/service/haldi-decoration")({
       { title: `Haldi Decoration in India | From ₹4,999 | Decorza Events` },
       { name: "description", content: `Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function. Book on WhatsApp.` },
       { property: "og:title", content: `Haldi Decoration | Decorza Events` },
-      { property: "og:image", content: haldiQ10.url },
-    ],
+    
+      { property: "og:description", content: `Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/haldi-decoration" }],
   }),
   component: ServicePage,

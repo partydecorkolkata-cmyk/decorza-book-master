@@ -1450,9 +1450,10 @@ export const Route = createFileRoute("/service/proposal-decoration")({
       { title: `Proposal Decoration in India | From ₹2,499 | Decorza Events` },
       { name: "description", content: `Romantic proposal decor with candles, rose paths, ring props, LED “Marry Me” lights and dreamy ambient setups. Book on WhatsApp.` },
       { property: "og:title", content: `Proposal Decoration | Decorza Events` },
-      { property: "og:image", content: t7.url },
-      { name: "twitter:image", content: t7.url },
-    ],
+    
+      { property: "og:description", content: `Romantic proposal decor with candles, rose paths, ring props, LED “Marry Me” lights and dreamy ambient setups. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/proposal-decoration" }],
   }),
   component: ServicePage,

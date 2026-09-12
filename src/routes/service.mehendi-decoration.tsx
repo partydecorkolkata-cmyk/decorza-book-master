@@ -298,8 +298,10 @@ export const Route = createFileRoute("/service/mehendi-decoration")({
       { title: `Mehendi Decoration in India | From ₹4,499 | Decorza Events` },
       { name: "description", content: `Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor. Book on WhatsApp.` },
       { property: "og:title", content: `Mehendi Decoration | Decorza Events` },
-      { property: "og:image", content: "/__l5e/assets-v1/4ead4b22-cfd8-4b69-8515-02e127cb9942/meh-cover-rajasthani-umbrellas.jpeg" },
-    ],
+    
+      { property: "og:description", content: `Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/mehendi-decoration" }],
   }),
   component: ServicePage,

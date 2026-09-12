@@ -45,9 +45,10 @@ export const Route = createFileRoute("/$seoSlug")({
         { name: "keywords", content: `${category.name.toLowerCase()} ${city.name}, ${category.slug.replace(/-/g, " ")} in ${city.name}, decorators ${city.name}, ${category.name.toLowerCase()} near me` },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
-        { property: "og:image", content: category.hero },
         { property: "og:url", content: `/${params.seoSlug}` },
-      ],
+      
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
       links: [{ rel: "canonical", href: `/${params.seoSlug}` }],
       scripts: [{
         type: "application/ld+json",

@@ -302,8 +302,10 @@ export const Route = createFileRoute("/service/birthday-decoration")({
       { title: `Birthday Decoration in India | From ₹1,499 | Decorza Events` },
       { name: "description", content: `Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable. Book on WhatsApp.` },
       { property: "og:title", content: `Birthday Decoration | Decorza Events` },
-      { property: "og:image", content: "/5619dd16-b57c-4707-9f6b-b37ae79bb3de.jpg" },
-    ],
+    
+      { property: "og:description", content: `Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/birthday-decoration" }],
   }),
   component: ServicePage,

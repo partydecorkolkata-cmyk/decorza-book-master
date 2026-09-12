@@ -12,7 +12,11 @@ export const Route = createFileRoute("/book")({
     meta: [
       { title: "Book Online | Decorza Events" },
       { name: "description", content: "Book your event decoration online with Decorza Events. We confirm via WhatsApp within minutes." },
-    ],
+    
+      { property: "og:title", content: "Book Event Decoration Online | Decorza Events" },
+      { property: "og:description", content: "Book your event decoration online with Decorza Events and receive confirmation through WhatsApp." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/book" }],
   }),
   component: BookPage,

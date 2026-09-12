@@ -21,7 +21,9 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Book premium birthday, anniversary, proposal, baby shower, haldi & engagement decorations in Kolkata, Mumbai, Delhi, Bengaluru, Hyderabad, Pune & Siliguri. Same-day setup. WhatsApp +91 86378 70742." },
       { property: "og:title", content: "Decorza Events | Premium Event Decoration" },
       { property: "og:description", content: "Crafting memorable celebrations across India. Book on WhatsApp." },
-    ],
+    
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     scripts: [
       {
         type: "application/ld+json",

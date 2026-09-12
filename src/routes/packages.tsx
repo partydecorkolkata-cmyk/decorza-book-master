@@ -13,7 +13,11 @@ export const Route = createFileRoute("/packages")({
     meta: [
       { title: "All Decoration Packages | Decorza Events" },
       { name: "description", content: "Browse all premium event decoration packages from Decorza Events — birthday, anniversary, proposal, baby shower, haldi, mehendi, engagement and more. Filter by city, budget and occasion." },
-    ],
+    
+      { property: "og:title", content: "Decoration Packages for Every Occasion | Decorza Events" },
+      { property: "og:description", content: "Browse Decorza Events packages for birthdays, anniversaries, proposals, baby showers, haldi and more." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/packages" }],
   }),
   component: PackagesPage,

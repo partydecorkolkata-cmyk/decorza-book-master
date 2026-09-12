@@ -28,9 +28,9 @@ export const Route = createFileRoute("/package/$id")({
         { name: "description", content: `${p.name} — starting at ₹${p.offer.toLocaleString()}. Includes ${p.includes.slice(0, 3).join(", ")}. Book on WhatsApp ${BRAND.whatsappDisplay}.` },
         { property: "og:title", content: `${p.name} | Decorza Events` },
         { property: "og:description", content: p.description },
-        { property: "og:image", content: p.image },
         { property: "og:type", content: "product" },
-      ],
+      
+      { name: "twitter:card", content: "summary_large_image" },],
       links: [{ rel: "canonical", href: `/package/${p.id}` }],
       scripts: [{
         type: "application/ld+json",

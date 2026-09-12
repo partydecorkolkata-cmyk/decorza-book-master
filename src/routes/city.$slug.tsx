@@ -27,7 +27,9 @@ export const Route = createFileRoute("/city/$slug")({
         { name: "keywords", content: `event decoration ${i.name}, birthday decoration ${i.name}, anniversary decoration ${i.name}, balloon decoration ${i.name}, baby shower decorators ${i.name}, proposal decoration ${i.name}` },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
-      ],
+      
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
       links: [{ rel: "canonical", href: `/city/${i.slug}` }],
       scripts: [{
         type: "application/ld+json",

@@ -9,7 +9,11 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About Decorza Events | Premium Event Decorators in India" },
       { name: "description", content: "Decorza Events specializes in premium event decoration and celebration experiences across Kolkata, Siliguri, Delhi, Mumbai, Bengaluru, Hyderabad and Pune." },
-    ],
+    
+      { property: "og:title", content: "About Decorza Events | Premium Event Decorators in India" },
+      { property: "og:description", content: "Learn about Decorza Events and our premium celebration decoration services across seven Indian cities." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/about" }],
   }),
   component: AboutPage,

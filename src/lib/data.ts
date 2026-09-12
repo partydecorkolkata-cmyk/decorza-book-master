@@ -224,7 +224,7 @@ export const CATEGORIES: Category[] = ([
   { slug: "romantic-bedroom-decoration", name: "Romantic Bedroom Decoration", short: "First night & surprise room setups",
     description: "Rose petal beds, candle paths, balloons and fairy lights \u2014 perfect for honeymoons, anniversaries and surprises.",
     hero: rbdR5.url, gallery: pick(ROMANTIC_DECOR),
-    rating: 4.9, reviews: 1450, startsAt: 2999, popular: true, bestSeller: true, trending: true,
+    rating: 4.9, reviews: 1450, startsAt: 1999, popular: true, bestSeller: true, trending: true,
     faqs: baseFaqs("Romantic Bedroom Decoration") },
   { slug: "entrance-gate-decoration", name: "Entrance Gate Decoration", short: "Grand welcome gates & balloon arches",
     description: "Balloon gate arches, marigold torans, floral pillars and welcome pathways that make the entrance the first wow moment of your event.",
