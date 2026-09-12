@@ -103,7 +103,7 @@ const BATCH_G = [
     ],
     rating: 4.9,
     reviews: 152,
-    offer: "₹4,499",
+    offer: "₹4,999",
     original: "₹6,999",
     discountPct: 33,
     bestSeller: true,
@@ -215,7 +215,7 @@ const BATCH_G = [
     reviews: 78,
     offer: "₹4,499",
     original: "₹7,499",
-    discountPct: 40,
+    discountPct: 33,
   },
   {
     id: "bachelorette-silver-sequin-disco-bride-wall",
