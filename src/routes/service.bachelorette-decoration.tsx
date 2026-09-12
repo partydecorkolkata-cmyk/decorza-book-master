@@ -393,7 +393,7 @@ const BATCH_F = [
     image: f8.url,
     includes: [
       "Black arch panel with silver lettering",
-      "Ivory drape backdrop",
+      "",
       "Black & white balloon garland",
       "Blush/white floral sprays + gold pedestal",
     ],
