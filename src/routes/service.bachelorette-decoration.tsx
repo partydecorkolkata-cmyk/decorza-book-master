@@ -417,9 +417,9 @@ const BATCH_F = [
     ],
     rating: 4.8,
     reviews: 128,
-    offer: "₹4,999",
-    original: "₹7,999",
-    discountPct: 38,
+    offer: "₹5,499",
+    original: "₹8,499",
+    discountPct: 35,
   },
   {
     id: "bachelorette-navy-sage-groom-arch-hyd",
