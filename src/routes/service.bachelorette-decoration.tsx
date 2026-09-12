@@ -510,9 +510,9 @@ const BATCH_E = [
     ],
     rating: 4.8,
     reviews: 137,
-    offer: "₹4,499",
-    original: "₹6,999",
-    discountPct: 36,
+    offer: "₹4,999",
+    original: "₹7,499",
+    discountPct: 33,
   },
   {
     id: "bachelorette-pink-gold-bride-to-be-foil-curtain",
