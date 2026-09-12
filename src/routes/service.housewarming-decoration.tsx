@@ -28,8 +28,8 @@ const BATCH_N = [
     includes: ["Fluted white arch board with custom name print", "Ivory, nude & chrome gold balloon garland", "Baby's breath floral accents"],
     rating: 4.8,
     reviews: 74,
-    offer: 4999,
-    original: 7999,
+    offer: 5999,
+    original: 8499,
   },
   {
     id: "housewarming-new-home-new-blooms",
