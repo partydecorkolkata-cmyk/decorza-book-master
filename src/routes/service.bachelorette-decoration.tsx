@@ -309,7 +309,7 @@ const BATCH_F = [
     ],
     rating: 4.7,
     reviews: 203,
-    offer: "₹2,499",
+    offer: "₹2,699",
     original: "₹3,499",
     discountPct: 29,
   },
