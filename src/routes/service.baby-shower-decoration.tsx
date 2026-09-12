@@ -104,8 +104,10 @@ export const Route = createFileRoute("/service/baby-shower-decoration")({
       { title: `Baby Shower Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Pastel balloon arches, floral backdrops and elegant baby shower setups for the mommy-to-be. Book on WhatsApp.` },
       { property: "og:title", content: `Baby Shower Decoration | Decorza Events` },
-      { property: "og:image", content: "/2f34d637-44bd-46dd-8753-d31930cc31b6.jpg" },
-    ],
+    
+      { property: "og:description", content: `Pastel balloon arches, floral backdrops and elegant baby shower setups for the mommy-to-be. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/baby-shower-decoration" }],
   }),
   component: ServicePage,

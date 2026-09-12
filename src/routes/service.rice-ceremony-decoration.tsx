@@ -115,8 +115,10 @@ export const Route = createFileRoute("/service/rice-ceremony-decoration")({
       { title: `Rice Ceremony Decoration in India | From ₹1999 | Decorza Events` },
       { name: "description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby's first rice ceremony. Book on WhatsApp.` },
       { property: "og:title", content: `Rice Ceremony Decoration | Decorza Events` },
-      { property: "og:image", content: riceR2.url },
-    ],
+    
+      { property: "og:description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby's first rice ceremony. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/rice-ceremony-decoration" }],
   }),
   component: ServicePage,

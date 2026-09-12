@@ -953,8 +953,10 @@ export const Route = createFileRoute("/service/engagement-decoration")({
       { title: `Engagement Decoration in India | From ₹4,999 | Decorza Events` },
       { name: "description", content: `Premium engagement stage decor, ring exchange backdrops, floral arches and lounge seating arrangements. Book on WhatsApp.` },
       { property: "og:title", content: `Engagement Decoration | Decorza Events` },
-      { property: "og:image", content: engR10.url },
-    ],
+    
+      { property: "og:description", content: `Premium engagement stage decor, ring exchange backdrops, floral arches and lounge seating arrangements. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/engagement-decoration" }],
   }),
   component: ServicePage,

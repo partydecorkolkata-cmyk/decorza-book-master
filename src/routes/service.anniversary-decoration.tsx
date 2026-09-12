@@ -315,8 +315,10 @@ export const Route = createFileRoute("/service/anniversary-decoration")({
       { title: `Anniversary Decoration in India | From ₹1,499 | Decorza Events` },
       { name: "description", content: `Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries. Book on WhatsApp.` },
       { property: "og:title", content: `Anniversary Decoration | Decorza Events` },
-      { property: "og:image", content: "/745b9998-0fb1-4a81-a2cf-6f3870657562.jpg" },
-    ],
+    
+      { property: "og:description", content: `Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/anniversary-decoration" }],
   }),
   component: ServicePage,

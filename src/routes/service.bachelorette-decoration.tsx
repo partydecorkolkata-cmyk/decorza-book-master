@@ -1134,8 +1134,10 @@ export const Route = createFileRoute("/service/bachelorette-decoration")({
       { title: `Bachelorette Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad. Book on WhatsApp.` },
       { property: "og:title", content: `Bachelorette Decoration | Decorza Events` },
-      { property: "og:image", content: cover.url },
-    ],
+    
+      { property: "og:description", content: `Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad. Book on WhatsApp.` },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/service/bachelorette-decoration" }],
   }),
   component: ServicePage,
