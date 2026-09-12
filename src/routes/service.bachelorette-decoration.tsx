@@ -327,9 +327,9 @@ const BATCH_F = [
     ],
     rating: 4.9,
     reviews: 137,
-    offer: "₹5,999",
+    offer: "₹5,499",
     original: "₹8,499",
-    discountPct: 29,
+    discountPct: 35,
   },
   {
     id: "bachelorette-ivory-black-bow-groom-arch",
