@@ -272,9 +272,9 @@ const BATCH_F = [
     ],
     rating: 4.8,
     reviews: 118,
-    offer: "₹4,999",
-    original: "₹7,499",
-    discountPct: 33,
+    offer: "₹5,999",
+    original: "₹8,499",
+    discountPct: 29,
   },
   {
     id: "bachelorette-black-silver-shimmer-groom-neon",
