@@ -359,7 +359,7 @@ const BATCH_F = [
       "Black arch panel with white lettering",
       "Black, silver chrome & white garland",
       "Pink and red rose floral accents",
-      "2 gold pedestals with balloon clusters",
+      " Gold pedestals with balloon clusters",
     ],
     rating: 4.8,
     reviews: 124,
