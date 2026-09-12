@@ -158,7 +158,7 @@ const BATCH_G = [
     ],
     rating: 4.9,
     reviews: 168,
-    offer: "₹7,499",
+    offer: "₹8,499",
     original: "₹9,999",
     discountPct: 25,
     bestSeller: true,
@@ -233,7 +233,7 @@ const BATCH_G = [
     reviews: 189,
     offer: "₹7,499",
     original: "₹11,999",
-    discountPct: 38,
+    discountPct: 29,
     bestSeller: true,
   },
   {
