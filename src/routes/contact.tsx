@@ -16,7 +16,11 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact Decorza Events | WhatsApp +91 86378 70742" },
       { name: "description", content: "Get in touch with Decorza Events on WhatsApp +91 86378 70742 for premium event decoration across Kolkata, Mumbai, Delhi, Bengaluru, Hyderabad, Pune and Siliguri." },
-    ],
+    
+      { property: "og:title", content: "Contact Decorza Events | Decoration Enquiries" },
+      { property: "og:description", content: "Contact Decorza Events for premium birthday, anniversary and celebration decoration across India." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/contact" }],
   }),
   component: ContactPage,

@@ -9,7 +9,10 @@ export const Route = createFileRoute("/blog")({
       { title: "Event Decoration Blog & Ideas | Decorza Events" },
       { name: "description", content: "Birthday, anniversary, baby shower and proposal decoration ideas, planning tips and trends from the Decorza Events decor team." },
       { property: "og:title", content: "Decoration Ideas & Guides | Decorza Events" },
-    ],
+    
+      { property: "og:description", content: "Explore birthday, anniversary, baby shower and proposal decoration ideas from Decorza Events." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },],
     links: [{ rel: "canonical", href: "/blog" }],
   }),
   component: BlogIndex,

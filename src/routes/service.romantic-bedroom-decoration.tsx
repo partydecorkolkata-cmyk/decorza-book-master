@@ -1874,7 +1874,7 @@ export const Route = createFileRoute("/service/romantic-bedroom-decoration")({
   },
   head: () => ({
     meta: [
-      { title: `Romantic Bedroom Decoration in India | From ₹2,999 | Decorza Events` },
+      { title: `Romantic Bedroom Decoration in India | From ₹1,999 | Decorza Events` },
       { name: "description", content: `Rose petal beds, candle paths, balloons and fairy lights — perfect for honeymoons, anniversaries and surprises. Book on WhatsApp.` },
       { property: "og:title", content: `Romantic Bedroom Decoration | Decorza Events` },
       { property: "og:image", content: "/anniversary-2.webp" },
