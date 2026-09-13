@@ -303,7 +303,7 @@ function ServicePage() {
             reviews={192}
              offer={<>₹7999</>}
              original={<>₹11,999</>}
-             discountPct={35}
+             discountPct={33}
            />
            <StaticPackageCard
              id="rice-ceremony-decoration-radha-krishna-stage"
@@ -328,7 +328,7 @@ function ServicePage() {
             reviews={214}
              offer={<>₹14,999</>}
             original={<>₹19,999</>}
-            discountPct={30}
+            discountPct={25}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-aqeeqah-name-arch"
@@ -340,7 +340,7 @@ function ServicePage() {
             reviews={176}
             offer={<>₹13,999</>}
              original={<>₹19,999</>}
-            discountPct={26}
+            discountPct={30}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-swastik-floral-pooja"
@@ -352,7 +352,7 @@ function ServicePage() {
             reviews={158}
             offer={<>₹9,999</>}
              original={<>₹14,999</>}
-            discountPct={23}
+            discountPct={33}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-rudra-purple-annaprashan"
@@ -377,7 +377,7 @@ function ServicePage() {
             reviews={142}
             offer={<>₹6,499</>}
             original={<>₹9,999</>}
-            discountPct={25}
+            discountPct={35}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-dual-arch-krishna-peacock"
@@ -437,7 +437,7 @@ function ServicePage() {
             reviews={165}
              offer={<>₹3,999</>}
              original={<>₹5,999</>}
-             discountPct={25}
+             discountPct={33}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-radha-krishna-peacock-panels"
@@ -646,7 +646,7 @@ function ServicePage() {
             reviews={232}
              offer={<>₹7,499</>}
             original={<>₹11,999</>}
-            discountPct={33}
+            discountPct={38}
             bestSeller
           />
           <StaticPackageCard
@@ -795,7 +795,7 @@ function ServicePage() {
             reviews={182}
             offer={<>₹1999</>}
             original={<>₹3,499</>}
-            discountPct={34}
+            discountPct={43}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-blue-white-gold-rice-ceremony-square"
@@ -942,7 +942,7 @@ function ServicePage() {
             reviews={158}
             offer={<>₹3,999</>}
             original={<>₹6,999</>}
-            discountPct={36}
+            discountPct={43}
           />
           <StaticPackageCard
             id="rice-ceremony-decoration-pranav-annaprashan-krishna-luxury-arch"

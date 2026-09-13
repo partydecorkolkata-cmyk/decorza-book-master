@@ -291,7 +291,7 @@ const NEW_CARDS = [
       "Floor uplights for a stage-like glow",
     ],
     rating: 4.9, reviews: 312,
-    offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 40,
+    offer: <>₹9,999</>, original: <>₹14,999</>, discountPct: 33,
   },
   {
     id: "welcome-baby-decoration-pink-gold-foil-silver-curtain",
@@ -321,7 +321,7 @@ const NEW_CARDS = [
       "Twin balloon pillars flanking the setup",
     ],
     rating: 4.8, reviews: 226,
-    offer: <>₹4499</>, original: <>₹6999</>, discountPct: 33,
+    offer: <>₹4499</>, original: <>₹6999</>, discountPct: 36,
   },
   {
     id: "welcome-baby-decoration-little-prince-arch-teddy",
