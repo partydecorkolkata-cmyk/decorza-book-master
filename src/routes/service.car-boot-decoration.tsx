@@ -67,9 +67,9 @@ const CORE = [
     ],
     rating: 4.8,
     reviews: 214,
-    offer: "₹2,499",
-    original: "₹3,499",
-    discountPct: 29,
+    offer: "₹3,499",
+    original: "₹4,999",
+    discountPct: 30,
   },
   {
     id: "car-boot-premium-black-gold-bday",
