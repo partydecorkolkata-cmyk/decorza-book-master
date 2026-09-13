@@ -713,8 +713,8 @@ const BATCH_F = [
     rating: 4.9,
     reviews: 167,
     offer: "₹2,499",
-    original: "₹4,499",
-    discountPct: 44,
+    original: "₹3,499",
+    discountPct: 29,
   },
   {
     id: "car-boot-white-banner-led-champagne",
