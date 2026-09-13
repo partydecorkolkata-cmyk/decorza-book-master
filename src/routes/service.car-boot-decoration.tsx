@@ -495,7 +495,7 @@ const BATCH_E = [
       "Large red heart foil balloons with photo prints",
       "Gold foil fringe curtain backdrop",
       "Hanging message cards & photo prints",
-      "Peach, white & red balloon bed with rose petals",
+      "Peach, white & red balloon bed",
     ],
     rating: 4.8,
     reviews: 162,
