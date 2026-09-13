@@ -391,7 +391,7 @@ const BATCH_D = [
       "A rich all-gold boot setup with chrome gold helium balloons on the lid, a gold foil fringe curtain, two white and gold 'HAPPY BIRTHDAY' banners, hanging printed photo memories, a rose gold heart foil and gold balloons with shredded foil confetti.",
     image: d8.url,
     includes: [
-      "Chrome gold helium balloons on the boot lid",
+      "Chrome gold  balloons on the boot lid",
       "Gold foil fringe curtain",
       "Double white & gold 'HAPPY BIRTHDAY' banners",
       "Hanging printed photo memories",
