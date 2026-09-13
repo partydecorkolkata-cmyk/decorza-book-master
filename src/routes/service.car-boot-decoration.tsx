@@ -647,9 +647,9 @@ const BATCH_F = [
     image: f1.url,
     includes: [
       "Black & gold 'HAPPY BIRTHDAY' flag banner",
-      "Two photo strings with your printed pictures (up to 16)",
+      " Photo strings with your printed pictures",
       "Gold number foil balloons (any age)",
-      "Red heart foils, black balloons & cute teddy",
+      "\n\nRed heart foils, black balloons ",
       "Rose petal bed with warm fairy lights",
     ],
     rating: 4.9,
