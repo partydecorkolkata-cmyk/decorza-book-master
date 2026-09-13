@@ -296,11 +296,11 @@ const BATCH_D = [
       "A soft pastel boot surprise with helium balloons in blush, mint, lilac and chrome gold floating from the boot lid on gold ribbons, a silver fringe curtain, a white and gold 'HAPPY BIRTHDAY' banner and giant gold number foil balloons for the age.",
     image: d3.url,
     includes: [
-      "Pastel & chrome gold helium balloons with gold ribbons",
+      "Pastel & chrome gold balloons with gold ribbons",
       "Silver foil fringe curtain",
       "White & gold 'HAPPY BIRTHDAY' banner",
       "Gold number foil balloons (any age)",
-      "Fairy lights & paper flower accent",
+      "Fairy lights ",
     ],
     rating: 4.6,
     reviews: 98,
