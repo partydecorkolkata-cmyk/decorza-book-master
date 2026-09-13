@@ -106,9 +106,9 @@ const CORE = [
     ],
     rating: 4.9,
     reviews: 268,
-    offer: "₹3,499",
+    offer: "₹3,999",
     original: "₹4,999",
-    discountPct: 30,
+    discountPct: 20,
   },
 ];
 
