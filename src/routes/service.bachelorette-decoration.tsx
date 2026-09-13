@@ -105,7 +105,7 @@ const BATCH_G = [
     reviews: 152,
     offer: "₹4,999",
     original: "₹6,999",
-    discountPct: 33,
+    discountPct: 29,
     bestSeller: true,
   },
   {
@@ -160,7 +160,7 @@ const BATCH_G = [
     reviews: 168,
     offer: "₹8,499",
     original: "₹9,999",
-    discountPct: 25,
+    discountPct: 15,
     bestSeller: true,
   },
   {
@@ -215,7 +215,7 @@ const BATCH_G = [
     reviews: 78,
     offer: "₹4,499",
     original: "₹7,499",
-    discountPct: 33,
+    discountPct: 40,
   },
   {
     id: "bachelorette-silver-sequin-disco-bride-wall",
@@ -233,7 +233,7 @@ const BATCH_G = [
     reviews: 189,
     offer: "₹7,499",
     original: "₹11,999",
-    discountPct: 29,
+    discountPct: 38,
     bestSeller: true,
   },
   {
@@ -252,7 +252,7 @@ const BATCH_G = [
     reviews: 133,
     offer: "₹5,499",
     original: "₹7,999",
-    discountPct: 38,
+    discountPct: 31,
   },
 ];
 
@@ -311,7 +311,7 @@ const BATCH_F = [
     reviews: 203,
     offer: "₹2,699",
     original: "₹3,499",
-    discountPct: 29,
+    discountPct: 23,
   },
   {
     id: "bachelorette-pastel-lilac-floral-round-panel",
@@ -383,7 +383,7 @@ const BATCH_F = [
     reviews: 141,
     offer: "₹4,999",
     original: "₹8,499",
-    discountPct: 29,
+    discountPct: 41,
   },
   {
     id: "bachelorette-monochrome-floral-groom-arch",
@@ -678,7 +678,7 @@ const BATCH_D = [
     reviews: 137,
     offer: "₹4,999",
     original: "₹7,499",
-    discountPct: 36,
+    discountPct: 33,
   },
   {
     id: "bachelorette-sunflower-yellow-bride-to-be",
@@ -696,7 +696,7 @@ const BATCH_D = [
     reviews: 162,
     offer: "₹5,999",
     original: "₹8,499",
-    discountPct: 38,
+    discountPct: 29,
   },
   {
     id: "bachelorette-black-silver-neon-arch-panel",
@@ -714,7 +714,7 @@ const BATCH_D = [
     reviews: 126,
     offer: "₹5,499",
     original: "₹7,499",
-    discountPct: 33,
+    discountPct: 27,
   },
   {
     id: "bachelorette-poolside-groom-to-be-arch",
@@ -915,7 +915,7 @@ const BATCH_C = [
     reviews: 173,
     offer: "₹5,499",
     original: "₹7,999",
-    discountPct: 38,
+    discountPct: 31,
   },
   {
     id: "bachelorette-pink-white-foil-curtain-arch",
@@ -951,7 +951,7 @@ const BATCH_C = [
     reviews: 149,
     offer: "₹5,999",
     original: "₹8,499",
-    discountPct: 38,
+    discountPct: 29,
   },
   {
     id: "bachelorette-pink-ribbon-ceiling-bride-to-be",
@@ -1008,7 +1008,7 @@ const NEW_CARDS = [
     reviews: 186,
     offer: "₹5,999",
     original: "₹8,499",
-    discountPct: 38,
+    discountPct: 29,
   },
   {
     id: "bachelorette-black-silver-groom-to-be",
@@ -1026,7 +1026,7 @@ const NEW_CARDS = [
     reviews: 142,
     offer: "₹7,999",
     original: "₹9,999",
-    discountPct: 30,
+    discountPct: 20,
   },
   {
     id: "bachelorette-black-white-neon-bride-to-be",
@@ -1044,7 +1044,7 @@ const NEW_CARDS = [
     reviews: 121,
     offer: "₹4,999",
     original: "₹7,499",
-    discountPct: 31,
+    discountPct: 33,
   },
   {
     id: "bachelorette-rose-gold-ceiling-bride-room",
@@ -1192,7 +1192,7 @@ function ServicePage() {
             reviews={109}
             offer={<>₹2299</>}
             original={<>₹3,499</>}
-            discountPct={43}
+            discountPct={34}
             bestSeller={false}
           />
           <StaticPackageCard
@@ -1210,7 +1210,7 @@ function ServicePage() {
             reviews={152}
             offer={<>₹5,999</>}
             original={<>₹8,499</>}
-            discountPct={38}
+            discountPct={29}
             bestSeller
           />
           <StaticPackageCard
@@ -1228,7 +1228,7 @@ function ServicePage() {
             reviews={253}
             offer={<>₹8,499</>}
             original={<>₹11,999</>}
-            discountPct={30}
+            discountPct={29}
             bestSeller={false}
           />
           {[...NEW_CARDS, ...BATCH_C, ...BATCH_D, ...BATCH_E, ...BATCH_F, ...BATCH_G].map((c) => (
