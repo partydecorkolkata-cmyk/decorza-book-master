@@ -158,7 +158,7 @@ const BATCH_C = [
       "A sunny romantic boot setup with yellow, white and gold helium balloons on the lid, a big red 'Happy Valentine's Day' heart, a red 'I LOVE you' polka heart with silver LOVE foil letters, a chalkboard message, a rustic bouquet and a glowing LOVE marquee light.",
     image: c6.url,
     includes: [
-      "Yellow, white & gold helium balloon ceiling",
+      "Yellow, white & gold  balloon ceiling",
       "Red 'Happy Valentine's Day' heart foil",
       "Red polka heart + silver 'LOVE' foil letters",
       "Chalkboard message frame & rustic dried bouquet",
