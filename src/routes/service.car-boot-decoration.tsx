@@ -239,7 +239,7 @@ const BATCH_C = [
       "Rose gold foil fringe curtain",
       "Rose gold 'love' foil letters",
       "Blush, grey & pastel balloon bed",
-      "Themed cake topper picks & props",
+      "",
     ],
     rating: 4.7,
     reviews: 127,
