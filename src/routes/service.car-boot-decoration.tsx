@@ -802,7 +802,7 @@ const BATCH_F = [
       "Black & gold 'HAPPY BIRTHDAY' flag banner",
       "Boot filled with matte black balloons",
       "",
-      "Red rose & white chrysanthemum bouquet",
+      "Red rose & white flower bouquet",
       "",
     ],
     rating: 4.8,
