@@ -102,7 +102,7 @@ const CORE = [
       "Fairy light outline around the boot & lid",
       "Two 'I love you' heart foil balloons",
       "Photo clip string with your pictures",
-      "Red rose bouquet, teddy bear & gift box",
+      "Red rose bouquet & teddy bear ",
     ],
     rating: 4.9,
     reviews: 268,
