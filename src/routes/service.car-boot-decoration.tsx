@@ -315,7 +315,7 @@ const BATCH_D = [
       "A premium night boot setup with maroon and white helium balloons on rose gold ribbons, hanging photo prints, a gold glitter 'Happy Birthday' banner, glowing LOVE and initial marquee lights, a lit butterfly lamp, paper fans and a decorative birdcage.",
     image: d4.url,
     includes: [
-      "Maroon & white helium balloons with rose gold ribbons",
+      "Maroon & white  balloons with rose gold ribbons",
       "Hanging photo print string",
       "Gold glitter 'Happy Birthday' banner",
       "LED 'LOVE' marquee + initial letter light",
