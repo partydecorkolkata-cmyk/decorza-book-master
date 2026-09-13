@@ -589,7 +589,7 @@ const BATCH_E = [
       "Clip photo string with your printed pictures",
       "Handmade 'Happy Valentine's Day My Love' poster",
       "Red 'LOVE' foil letters & giant heart foils",
-      "Red rose petal carpet with chocolates",
+      "Red rose petal carpet",
       "Fresh flower bouquet & fairy lights",
     ],
     rating: 4.9,
