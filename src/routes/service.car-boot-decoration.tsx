@@ -608,7 +608,7 @@ const BATCH_E = [
       "Pink & gold 'HAPPY BIRTHDAY' banner with fairy lights",
       "Pink heart foil balloon",
       "Flower vase centrepiece",
-      "Soft toy & gift hamper styling",
+      "",
       "Blush & peach balloon bed with warm LED glow",
     ],
     rating: 4.8,
