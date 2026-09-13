@@ -687,7 +687,7 @@ const BATCH_F = [
     includes: [
       "Red foil fringe curtain backdrop",
       "White & gold 'HAPPY BIRTHDAY' banner",
-      "Floating red & yellow helium balloons",
+      "Floating red & yellow balloons",
       "Mini photo prints & red heart foil balloons",
       "Full balloon pit with gold number foils (any age)",
     ],
