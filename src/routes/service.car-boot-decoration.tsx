@@ -670,7 +670,7 @@ const BATCH_F = [
       "Colourful peg photo clip strings with fairy lights",
       "Silver number foil balloons (any age)",
       "Giant champagne bottle foil & silver star balloons",
-      "Silver fringe curtain with soft white base cloth",
+      "Silver fringe curtain ",
     ],
     rating: 4.8,
     reviews: 142,
