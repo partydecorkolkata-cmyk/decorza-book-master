@@ -822,7 +822,7 @@ const BATCH_F = [
       "Pink glitter 'BIRTHDAY' pennant banner",
       "Chrome pink & silver balloon bed",
       "Pink & silver heart foil balloons",
-      "Pink base styling ",
+      " ",
     ],
     rating: 4.8,
     reviews: 138,
