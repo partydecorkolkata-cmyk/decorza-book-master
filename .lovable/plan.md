@@ -1,17 +1,18 @@
-## Fixes
+# Correct and expand homepage package collections
 
-**1. Image not showing — root cause**
-In `src/lib/data.ts`, the Birthday hero is set via `img(BALLOON_DECOR[0])`. The `img()` helper prepends `https://images.unsplash.com/`, which corrupts the local path into `https://images.unsplash.com//images/balloon-decoration-hero-v2.jpg`.
+## What will change
+- Replace the automatically generated Trending Decorations cards with a curated set of real packages whose names, photos, descriptions, inclusions, and pricing agree.
+- Replace the Most-Loved Packages cards with a separate curated set, using no package that appears in Trending Decorations.
+- Expand both homepage sections from their current selection to 12 cards each so more options appear without overwhelming the page.
+- Keep every card linked to its correct package details page and WhatsApp booking flow.
 
-**Fix:** Make the `img()` helper pass through any value that starts with `/` (local public asset). One-line change so both the hero and gallery entries render the uploaded photo correctly across the homepage, category cards, service page, and package cards.
+## Content approach
+- Reuse the project's uploaded, clearly named event photos rather than generic or unrelated category gallery images.
+- Give each card a specific, photo-led package name and matching details instead of broad “Premium Category” labels.
+- Cover a balanced mix of birthdays, anniversaries, proposals, baby celebrations, traditional ceremonies, romantic rooms, car boot surprises, and bachelorette setups.
 
-**2. Homepage Birthday Decoration "Starting from" price → ₹1,499**
-Change `startsAt: 2999` → `startsAt: 1499` for the `birthday-decoration` category in `src/lib/data.ts`. This updates the "From ₹1,499" text on the homepage category card and anywhere `c.startsAt` is displayed for Birthday Decoration.
-
-**3. Essential Birthday Decoration package stays at ₹2,999**
-The package-offer code already hardcodes `2999` for the Essential tier when the slug is `birthday-decoration`, so the Essential package card price is preserved automatically. The Premium tier (also hardcoded 4499) is unaffected. Only the Luxury offer (which uses `startsAt × multOffer`) will recompute — I'll pin it to a sensible fixed price so the discount math still looks clean.
-
-## Files to edit
-- `src/lib/data.ts` — `img()` helper passthrough, Birthday `startsAt`, Luxury offer pin.
-
-No image re-upload needed — the file `public/images/balloon-decoration-hero-v2.jpg` is already in place.
+## Technical details
+- Define two explicit `Package[]` collections in `src/lib/data.ts`, each with unique IDs and no overlap.
+- Use existing local asset metadata URLs for reliable image display.
+- Preserve the existing `PackageCard`, detail route, discount calculation, and homepage grid behavior.
+- Validate collection uniqueness, image availability, links, desktop/mobile presentation, and the final app build.
