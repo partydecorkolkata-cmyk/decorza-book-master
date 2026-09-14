@@ -108,7 +108,7 @@ const CORE = [
     reviews: 268,
     offer: "₹3,999",
     original: "₹5,999",
-    discountPct: 20,
+    discountPct: 33,
   },
 ];
 
@@ -130,7 +130,7 @@ const BATCH_C = [
     reviews: 132,
     offer: "₹2199",
     original: "₹2,999",
-    discountPct: 33,
+    discountPct: 27,
   },
   {
     id: "car-boot-anniversary-number-silver-fringe",
@@ -206,7 +206,7 @@ const BATCH_C = [
     reviews: 236,
     offer: "₹2199",
     original: "₹3,999",
-    discountPct: 36,
+    discountPct: 45,
     bestSeller: true,
   },
   {
@@ -323,9 +323,9 @@ const BATCH_D = [
     ],
     rating: 4.9,
     reviews: 187,
-    offer: "₹3,499",
-    original: "₹4,999",
-    discountPct: 30,
+    offer: "₹3,999",
+    original: "₹5,999",
+    discountPct: 33,
   },
   {
     id: "car-boot-pink-white-cloud-gold-fringe",
@@ -771,7 +771,7 @@ const BATCH_F = [
     reviews: 174,
     offer: "₹3,499",
     original: "₹4999",
-    discountPct: 29,
+    discountPct: 30,
   },
   {
     id: "car-boot-red-love-balloon-pit-hearts",
