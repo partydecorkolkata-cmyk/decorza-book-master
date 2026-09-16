@@ -12,12 +12,14 @@ export function PackageCard({ pkg }: { pkg: Package }) {
   return (
     <Card className="group overflow-hidden border-border/60 p-0 transition-all hover:-translate-y-1 hover:shadow-luxury">
       <div className="relative aspect-[4/3] overflow-hidden bg-secondary/50">
-        <img
-          src={pkg.image}
-          alt={pkg.name}
-          loading="lazy"
-          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
-        />
+        <Link to="/package/$id" params={{ id: pkg.id }} aria-label={`View details for ${pkg.name}`}>
+          <img
+            src={pkg.image}
+            alt={pkg.name}
+            loading="lazy"
+            className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
+          />
+        </Link>
         {discount > 0 && (
           <Badge className="absolute left-3 top-3 bg-rose-brand text-white">
             {discount}% OFF
