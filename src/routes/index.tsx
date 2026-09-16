@@ -11,7 +11,7 @@ import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
-  REVIEWS, HOMEPAGE_GALLERY_PACKAGES, HOMEPAGE_FAQS,
+  REVIEWS, GALLERY, PACKAGES, HOMEPAGE_FAQS,
 } from "@/lib/data";
 
 export const Route = createFileRoute("/")({
@@ -236,8 +236,41 @@ function HomePage() {
       {/* GALLERY */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Our Work" title="Decoration Gallery" subtitle="Real setups from real celebrations." />
-        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {HOMEPAGE_GALLERY_PACKAGES.map((p) => <PackageCard key={p.id} pkg={p} />)}
+        <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
+          {GALLERY.map((image, i) => {
+            const pkg = PACKAGES.find((candidate) => candidate.image === image);
+            const photo = (
+              <>
+                <img
+                  src={image}
+                  alt={pkg?.name ?? `Decorza Events decoration setup ${i + 1}`}
+                  loading="lazy"
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                {pkg && (
+                  <span className="absolute inset-0 flex items-end bg-gradient-to-t from-foreground/70 via-transparent to-transparent p-3 opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
+                    <span className="text-sm font-semibold text-background">View Package</span>
+                  </span>
+                )}
+              </>
+            );
+
+            return pkg ? (
+              <Link
+                key={image}
+                to="/package/$id"
+                params={{ id: pkg.id }}
+                aria-label={`View package details for ${pkg.name}`}
+                className="group relative block min-h-24 overflow-hidden rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
+                {photo}
+              </Link>
+            ) : (
+              <div key={image} className="group relative min-h-24 overflow-hidden rounded-xl">
+                {photo}
+              </div>
+            );
+          })}
         </div>
       </section>
 
