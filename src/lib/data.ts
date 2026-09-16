@@ -1,3 +1,4 @@
+import { CATEGORY_PACKAGES } from "@/lib/category-packages";
 import haldiQ10Cover from "@/assets/haldi-q10.jpeg.asset.json";
 // Curated Unsplash photo IDs of REAL event decoration setups.
 // Hand-picked from photographer portfolios shooting actual decorated events
@@ -12,30 +13,6 @@ import hwN2 from "@/assets/hw-n2.jpeg.asset.json";
 import hwN3 from "@/assets/hw-n3.jpeg.asset.json";
 import hwN10 from "@/assets/hw-n10.png.asset.json";
 import mehendiCover from "@/assets/meh-cover-rajasthani-umbrellas.jpeg.asset.json";
-import trendThemeCocomelon from "@/assets/theme-l1.jpg.asset.json";
-import trendProposalRoom from "@/assets/prop-p1.png.asset.json";
-import trendCarBoot from "@/assets/car-c2.png.asset.json";
-import trendHaldiRing from "@/assets/haldi-p1.jpg.asset.json";
-import trendBachelorette from "@/assets/bach-b1.jpg.asset.json";
-import trendBirthdayJungle from "@/assets/birthday-pkg-jungle-parv.webp.asset.json";
-import trendRiceCeremony from "@/assets/rice-r2.jpg.asset.json";
-import trendWelcomeBaby from "@/assets/wb-w2.jpg.asset.json";
-import trendEngagement from "@/assets/eng-r1.jpg.asset.json";
-import trendRomanticRoom from "@/assets/rbd-x1.jpeg.asset.json";
-import trendBabyShower from "@/assets/baby-b2.jpg.asset.json";
-import trendAnniversary from "@/assets/anniv-a10-rosegold-ring-photo.webp.asset.json";
-import lovedBirthday from "@/assets/birthday-pkg-40-goldblack.jpg.asset.json";
-import lovedAnniversary from "@/assets/anniv-a1-25y-sequin-red-gold.jpg.asset.json";
-import lovedBabyShower from "@/assets/baby-b1.jpg.asset.json";
-import lovedProposal from "@/assets/prop-p3.jpg.asset.json";
-import lovedCarBoot from "@/assets/car-c1.jpg.asset.json";
-import lovedHaldi from "@/assets/haldi-p3.jpg.asset.json";
-import lovedRiceCeremony from "@/assets/rice-r1.jpg.asset.json";
-import lovedWelcomeBaby from "@/assets/wb-w3.png.asset.json";
-import lovedRomanticRoom from "@/assets/rbd-x2.jpeg.asset.json";
-import lovedThemeBirthday from "@/assets/theme-l2.jpg.asset.json";
-import lovedBachelorette from "@/assets/bach-b2.webp.asset.json";
-import lovedEngagement from "@/assets/eng-r3.jpg.asset.json";
 
 const img = (id: string, w = 1200) =>
   id.startsWith("/") || id.startsWith("http") ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
@@ -314,184 +291,44 @@ export const CATEGORIES: Category[] = ([
   };
 });
 
-// Generate 3 packages per category — Essential / Premium / Luxury
-export const PACKAGES: Package[] = CATEGORIES.flatMap((c) => {
-  const tiers = [
-    { tier: "Essential", multOrig: 1, multOffer: 1.5,
-      includes: ["✓\n Designer backdrop  ", "Themed props & signage", "Standard lighting setup", "On-time setup & cleanup"],
-      duration: "2-3 hours of celebration", setupTime: "45-60 min setup" },
-    { tier: "Premium", multOrig: 1.9, multOffer: 1.3,
-      includes: [" \nPremium artificial flower ", "✓\nPremium cloth & light setup", "Fresh flower accents", "Personalised name signage", "Fairy lights & ambient mood lighting"],
-      duration: "3-4 hours of celebration", setupTime: "60-90 min setup" },
-    { tier: "Luxury", multOrig: 3.2, multOffer: 2.2,
-      includes: ["Luxury floral installation", "Customised stage / sweetheart corner", "✓\nLight and props", "Premium props, lights & drapes", "Photographer-ready lounge styling", "Dedicated decor manager"],
-      duration: "Full event styling", setupTime: "90-150 min setup" },
+// Use the exact packages displayed on category pages everywhere else in the app.
+export const PACKAGES: Package[] = CATEGORY_PACKAGES;
 
-  ];
-  return tiers.map((t, i) => ({
-    id: `${c.slug}-${t.tier.toLowerCase()}`,
-    categorySlug: c.slug,
-    name: `${t.tier} ${c.name}`,
-    description: i === 0
-      ? `A clean, photo-ready ${c.name.toLowerCase()} setup with a designer backdrop, themed props and warm lighting — exactly as shown in the picture.`
-      : i === 1
-      ? `An upgraded ${c.name.toLowerCase()} with a premium artificial flower arch, draped cloth backdrop, fresh floral accents and ambient fairy lights — styled like the reference photo.`
-      : `A full luxury ${c.name.toLowerCase()} experience with a grand floral installation, sweetheart lounge seating, drapes and props — recreated to match the photo.`,
-    longDescription: `Our ${t.tier} ${c.name} is one of our most-booked setups, recreated faithfully to match the photo on this card. Designed end-to-end by Decorza Events' in-house team, this package brings together premium balloons, fresh and artificial florals, draped backdrops, designer lighting and themed props to create a celebration moment your guests will remember and your phone camera will love. Every element is handpicked and installed on-site by trained decorators.`,
-    includes: t.includes,
-    image: c.gallery[i % c.gallery.length],
-    gallery: c.gallery,
-    rating: Math.min(5, c.rating + (i === 1 ? 0 : -0.1)),
-    reviews: Math.round(c.reviews / (3 - i + 0.5)),
-    original: RESTORED_PACKAGE_PRICES[c.slug]?.[i]?.original ?? Math.round(
-      i === 0 ? (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" || c.slug === "haldi-decoration" ? 9999 : 10499) :
-      i === 1 ? (
-        (c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 10499 :
-        c.slug === "anniversary-decoration" ? 10329 :
-        c.slug === "haldi-decoration" ? 6999 :
-        12500
-      ) :
-      i === 2 ? (
-        c.slug === "birthday-decoration" ? 9999 :
-        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 34481 : 
-        c.slug === "anniversary-decoration" ? 22726 :
-        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 9999 :
-        c.startsAt === 3999 ? 9999 : // New: Original for Haldi/Bachelorette Luxury
-        (c.startsAt * t.multOffer) / 0.66
-      ) : (c.startsAt * t.multOffer) / 0.66
-    ),
-    offer: RESTORED_PACKAGE_PRICES[c.slug]?.[i]?.offer ?? (
-      i === 0 ? (
-        c.slug === "baby-shower-decoration" ? 2499 :
-        c.slug === "haldi-decoration" ? 4999 :
-        (c.slug === "birthday-decoration" || c.slug === "romantic-bedroom-decoration" ? 8999 : 8999)
-      ) :
-      i === 1 ? (
-        c.slug === "baby-shower-decoration" ? 5999 :
-        c.slug === "haldi-decoration" ? 8500 :
-        ((c.slug === "birthday-decoration" || c.slug === "theme-birthday-decoration") ? 7999 :
-        c.slug === "anniversary-decoration" ? 7999 :
-        6999) // Changed from 12999 to 6999
-      ) :
-      i === 2 ? (
-        c.slug === "birthday-decoration" ? 4999 :
-        (c.slug === "theme-birthday-decoration" || c.slug === "proposal-decoration") ? 19999 :
-        c.slug === "anniversary-decoration" ? 9999 :
-        (c.slug === "baby-shower-decoration" || c.slug === "welcome-baby-decoration" || c.slug === "car-boot-decoration") ? 18999 :
-        c.slug === "haldi-decoration" ? 5999 :
-        c.startsAt === 3999 ? 6999 : // New: Offer for Haldi/Bachelorette Luxury (from 12999)
-        Math.round(c.startsAt * t.multOffer)
-      ) : Math.round(c.startsAt * t.multOffer)
-    ),
-
-
-
-
-
-
-    duration: t.duration,
-    setupTime: t.setupTime,
-    trending: i === 1 && c.trending,
-    bestSeller: i === 1 && c.bestSeller,
-  }));
-});
-
-// Additional Haldi Decoration packages — extra cards so more haldi images can be showcased
-const HALDI_EXTRA: Package[] = [
-  {
-    id: "haldi-decoration-marigold-cascade",
-    categorySlug: "haldi-decoration",
-    name: "Marigold Cascade Haldi Setup",
-    description: "A vibrant haldi backdrop layered with cascading marigold strings, yellow drapes and a wooden swing — bringing a traditional courtyard feel to your celebration.",
-    longDescription: "The Marigold Cascade setup transforms any space into a sun-soaked haldi mandap. Our team layers fresh and artificial marigold garlands across a draped yellow backdrop, adds a swing or low seating for the bride/groom, and finishes with brass diyas, copper urlis and floating petals. Ideal for daytime haldi ceremonies that need that warm, traditional look.",
-    includes: ["Marigold cascade backdrop", "Yellow & orange drapes", "Wooden swing or low seating", "Brass diyas & urli with petals", "Setup, styling & teardown"],
-    image: "/cf7339f7-010d-43fa-b60a-9bf45b9a7760.jpg",
-    gallery: ["/4a188f79-7932-4b6a-916e-3473f5876d90.jpg", "/7dcff27b-5a03-4801-8ad6-2c43f1a35a9c.jpg", "/f584ba38-470f-4d64-944f-2383546039a1.jpg"],
-    rating: 4.9,
-    reviews: 210,
-    original: 7999,
-    offer: 7999,
-    duration: "3-4 hours of celebration",
-    setupTime: "75-90 min setup",
-  },
-  {
-    id: "haldi-decoration-floral-jhoola",
-    categorySlug: "haldi-decoration",
-    name: "Floral Jhoola Haldi Special",
-    description: "A photogenic floral jhoola seating crafted with fresh yellow blooms, mango leaves and pastel drapes — perfect for those traditional haldi portraits.",
-    longDescription: "Built around a hand-decorated floral jhoola, this setup pairs a swing seat with a soft pastel-yellow backdrop, hanging genda phool strings and a styled props corner with haldi pots, coconuts and bangles. A favourite for clients who want a clean, elegant look that photographs beautifully from every angle.",
-    includes: ["Floral jhoola swing seating", "Pastel yellow draped backdrop", "Hanging genda phool strings", "Styled haldi props corner", "Dedicated decor manager on site"],
-    image: "/f584ba38-470f-4d64-944f-2383546039a1.jpg",
-    gallery: ["/f584ba38-470f-4d64-944f-2383546039a1.jpg", "/b167380d-72d4-4a9f-a036-aa6d35bbf9af.jpg", "/1e631830-5a03-4c62-9230-c36bba689802.png"],
-    rating: 4.9,
-    reviews: 175,
-    original: 11999,
-    offer: 5999,
-    duration: "Half-day event styling",
-    setupTime: "90-120 min setup",
-  },
-  {
-    id: "haldi-decoration-royal-courtyard",
-    categorySlug: "haldi-decoration",
-    name: "Royal Courtyard Haldi Mandap",
-    description: "A luxury haldi mandap with floral pillars, draped canopy and a sweetheart lounge — recreating a royal Indian courtyard for your ceremony.",
-    longDescription: "Our most premium haldi offering. A four-pillar floral mandap is built with fresh marigold and chrysanthemum, topped with a soft draped canopy and surrounded by a styled lounge for family and the couple. We layer in brass props, traditional rangoli, ambient lighting and a photogenic entry arch so every corner of your venue looks ceremony-ready.",
-    includes: ["Four-pillar floral mandap", "Draped canopy ceiling", "Sweetheart lounge seating", "Entry floral arch & rangoli", "Ambient warm lighting", "Photographer-ready styling"],
-    image: "/e4da38f3-73cd-470c-885d-c617777fa1eb.jpg",
-    gallery: ["/e4da38f3-73cd-470c-885d-c617777fa1eb.jpg", "/942d57ec-d885-471e-bd0d-3bae09b3ea63.jpg", "/9abe96e3-34df-4feb-ba27-24dbfcb07801.jpg"],
-    rating: 5,
-    reviews: 132,
-    original: 15999,
-    offer: 12999,
-    duration: "Full event styling",
-    setupTime: "120-180 min setup",
-  },
-];
-
-PACKAGES.push(...HALDI_EXTRA);
-
-type HomepagePackageInput = Omit<Package, "longDescription" | "gallery" | "duration" | "setupTime">;
-
-const homepagePackage = (item: HomepagePackageInput): Package => ({
-  ...item,
-  longDescription: `${item.description} Decorza Events recreates the pictured design with careful colour matching, balanced styling and a professional on-site setup.`,
-  gallery: [item.image],
-  duration: "3-4 hours of celebration",
-  setupTime: "60-90 min setup",
-});
+const featuredPackage = (id: string, flag: "trending" | "bestSeller"): Package => {
+  const pkg = PACKAGES.find((candidate) => candidate.id === id);
+  if (!pkg) throw new Error(`Missing category package: ${id}`);
+  return { ...pkg, [flag]: true };
+};
 
 export const TRENDING_PACKAGES: Package[] = [
-  homepagePackage({ id: "home-trending-cocomelon-rainbow", categorySlug: "theme-birthday-decoration", name: "Cocomelon Rainbow Birthday Arch", description: "A bright Cocomelon setup with a rainbow balloon arch, themed character panels and personalised birthday signage matching the photo.", includes: ["Rainbow balloon arch", "Cocomelon character panels", "Personalised birthday signage"], image: trendThemeCocomelon.url, rating: 4.9, reviews: 342, original: 9999, offer: 6499, trending: true }),
-  homepagePackage({ id: "home-trending-marry-me-room", categorySlug: "proposal-decoration", name: "Will You Marry Me Room Proposal", description: "A romantic room proposal with glowing letter lights, a heart-shaped balloon arrangement and a rose-petal pathway.", includes: ["Glowing proposal letters", "Heart balloon arrangement", "Rose-petal pathway"], image: trendProposalRoom.url, rating: 4.9, reviews: 286, original: 3499, offer: 2499, trending: true }),
-  homepagePackage({ id: "home-trending-black-gold-car-boot", categorySlug: "car-boot-decoration", name: "Black & Gold Happy Birthday Car Boot", description: "A bold black-and-gold birthday surprise styled inside the car boot with coordinated balloons, foil lettering and warm lights.", includes: ["Black & gold balloon styling", "Happy Birthday foil lettering", "Warm fairy lights"], image: trendCarBoot.url, rating: 4.8, reviews: 214, original: 4499, offer: 2999, trending: true }),
-  homepagePackage({ id: "home-trending-golden-haldi-ring", categorySlug: "haldi-decoration", name: "Golden Glow Haldi Ring Backdrop", description: "A festive yellow floral ring framed with marigold details, matching drapes and traditional decorative accents.", includes: ["Yellow floral ring backdrop", "Marigold details", "Traditional decorative accents"], image: trendHaldiRing.url, rating: 4.9, reviews: 321, original: 14999, offer: 9999, trending: true }),
-  homepagePackage({ id: "home-trending-bride-room", categorySlug: "bachelorette-decoration", name: "Rose-Gold Bride-To-Be Room Setup", description: "A glamorous rose-gold bride-to-be room with metallic balloons, letter foils and coordinated wall styling.", includes: ["Rose-gold balloon styling", "Bride-to-be letter foils", "Photo-ready wall arrangement"], image: trendBachelorette.url, rating: 4.8, reviews: 198, original: 4999, offer: 3499, trending: true }),
-  homepagePackage({ id: "home-trending-jungle-birthday", categorySlug: "birthday-decoration", name: "Jungle Safari Birthday Backdrop", description: "A playful jungle birthday scene with safari character cut-outs, leafy details and an organic green balloon garland.", includes: ["Safari character cut-outs", "Green organic balloon garland", "Personalised name panel"], image: trendBirthdayJungle.url, rating: 4.9, reviews: 407, original: 6999, offer: 4999, trending: true }),
-  homepagePackage({ id: "home-trending-annaprashan-stage", categorySlug: "rice-ceremony-decoration", name: "Traditional Annaprashan Celebration Stage", description: "A warm traditional rice-ceremony backdrop with floral detailing, ceremonial motifs and personalised baby signage.", includes: ["Traditional ceremony backdrop", "Floral detailing", "Personalised baby signage"], image: trendRiceCeremony.url, rating: 4.8, reviews: 174, original: 6999, offer: 4499, trending: true }),
-  homepagePackage({ id: "home-trending-pink-welcome-baby", categorySlug: "welcome-baby-decoration", name: "Pink Welcome Baby Neon Arch", description: "A soft pink balloon arch with a glowing Welcome Baby sign and delicate floral accents for a joyful homecoming.", includes: ["Pink balloon arch", "Welcome Baby neon sign", "Delicate floral accents"], image: trendWelcomeBaby.url, rating: 4.9, reviews: 265, original: 5499, offer: 3499, trending: true }),
-  homepagePackage({ id: "home-trending-pastel-engagement", categorySlug: "engagement-decoration", name: "Pastel Chandelier Engagement Stage", description: "An elegant engagement stage with pastel floral styling, layered drapes and chandelier lighting arranged like the photo.", includes: ["Pastel floral backdrop", "Layered fabric drapes", "Chandelier lighting"], image: trendEngagement.url, rating: 4.9, reviews: 229, original: 19999, offer: 14999, trending: true }),
-  homepagePackage({ id: "home-trending-red-heart-room", categorySlug: "romantic-bedroom-decoration", name: "Red Heart Ceiling & Love Room", description: "A dramatic romantic room with suspended red hearts, silver love lettering and warm ambient lighting.", includes: ["Suspended red heart balloons", "Silver love lettering", "Warm ambient lights"], image: trendRomanticRoom.url, rating: 4.9, reviews: 354, original: 4999, offer: 3499, trending: true }),
-  homepagePackage({ id: "home-trending-gender-reveal-ring", categorySlug: "baby-shower-decoration", name: "Boy or Girl Neon Baby Shower Ring", description: "A blue-and-pink baby shower ring with a glowing Boy or Girl sign, balanced balloon clusters and floral accents.", includes: ["Blue & pink balloon ring", "Boy or Girl neon sign", "Floral accents"], image: trendBabyShower.url, rating: 4.9, reviews: 316, original: 6499, offer: 4499, trending: true }),
-  homepagePackage({ id: "home-trending-rosegold-photo-anniversary", categorySlug: "anniversary-decoration", name: "Rose-Gold Anniversary Ring with Photos", description: "A rose-gold anniversary ring with personalised photo strings, starry lights and a romantic neon centrepiece.", includes: ["Rose-gold balloon ring", "Personalised photo strings", "Star lights & neon sign"], image: trendAnniversary.url, rating: 4.9, reviews: 389, original: 5999, offer: 3999, trending: true }),
-];
+  "theme-l-eiman-cocomelon-rainbow-arch",
+  "proposal-decoration-essential",
+  "car-boot-premium-black-gold-bday",
+  "haldi-decoration-p1",
+  "bachelorette-decoration-essential",
+  "birthday-decoration-jungle-theme",
+  "rice-ceremony-decoration-premium",
+  "welcome-baby-decoration-premium",
+  "engagement-pastel-chandelier-criss-cross-stage",
+  "rbd-x1-red-heart-ceiling-silver-love",
+  "baby-b2",
+  "anniversary-a10-rosegold-photo",
+].map((id) => featuredPackage(id, "trending"));
 
 export const BEST_SELLERS: Package[] = [
-  homepagePackage({ id: "home-loved-black-gold-40th", categorySlug: "birthday-decoration", name: "Black & Gold 40th Birthday Arch", description: "A sophisticated black-and-gold milestone backdrop with a statement balloon arch, number feature and matching metallic accents.", includes: ["Black & gold balloon arch", "Milestone number feature", "Metallic decorative accents"], image: lovedBirthday.url, rating: 4.9, reviews: 528, original: 6999, offer: 4999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-25th-sequin", categorySlug: "anniversary-decoration", name: "25 Years Red & Gold Sequin Wall", description: "A sparkling sequin wall with red, ivory and gold balloons plus illuminated 25 milestone numbers.", includes: ["Sparkling sequin wall", "Red, ivory & gold garland", "Illuminated 25 numbers"], image: lovedAnniversary.url, rating: 4.9, reviews: 612, original: 11999, offer: 7499, bestSeller: true }),
-  homepagePackage({ id: "home-loved-pastel-pampas-baby", categorySlug: "baby-shower-decoration", name: "Pastel Pampas Baby Shower Arch", description: "A soft pastel baby shower arch layered with pampas textures, floral accents and elegant personalised signage.", includes: ["Pastel balloon arch", "Pampas & floral accents", "Personalised baby signage"], image: lovedBabyShower.url, rating: 4.9, reviews: 477, original: 7499, offer: 4999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-red-gold-proposal", categorySlug: "proposal-decoration", name: "Red & Gold Heart Arch Proposal", description: "A luxurious proposal scene featuring a red-and-gold heart arch, glowing proposal letters and a romantic petal pathway.", includes: ["Red & gold heart arch", "Glowing proposal letters", "Romantic petal pathway"], image: lovedProposal.url, rating: 5, reviews: 431, original: 7499, offer: 4999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-oh-baby-car-boot", categorySlug: "car-boot-decoration", name: "Oh Baby Gold Butterfly Car Boot", description: "A charming baby celebration inside the car boot with gold butterfly accents, warm lights and coordinated balloon styling.", includes: ["Gold butterfly accents", "Coordinated balloon styling", "Warm fairy lights"], image: lovedCarBoot.url, rating: 4.9, reviews: 246, original: 4999, offer: 2999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-rajasthani-haldi", categorySlug: "haldi-decoration", name: "Rajasthani Umbrella Haldi Setup", description: "A colourful traditional haldi backdrop with decorative umbrellas, marigold strands and vibrant draped fabrics.", includes: ["Decorative Rajasthani umbrellas", "Marigold strands", "Vibrant draped backdrop"], image: lovedHaldi.url, rating: 4.9, reviews: 376, original: 11999, offer: 7999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-rice-ceremony", categorySlug: "rice-ceremony-decoration", name: "Floral First Rice Ceremony Backdrop", description: "A graceful first-rice ceremony setup with a floral feature wall, traditional details and custom child-name signage.", includes: ["Floral feature backdrop", "Traditional decorative details", "Custom child-name signage"], image: lovedRiceCeremony.url, rating: 4.9, reviews: 293, original: 6499, offer: 3999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-little-prince", categorySlug: "welcome-baby-decoration", name: "Little Prince Welcome Home Setup", description: "A royal blue welcome-home display with Little Prince styling, layered balloons and personalised arrival lettering.", includes: ["Royal blue balloon styling", "Little Prince theme elements", "Personalised arrival lettering"], image: lovedWelcomeBaby.url, rating: 4.9, reviews: 338, original: 8999, offer: 5999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-anniversary-petal-room", categorySlug: "romantic-bedroom-decoration", name: "Anniversary Petal Heart Room", description: "A romantic anniversary room with a rose-petal heart arrangement, celebratory wall lettering and warm mood lighting.", includes: ["Rose-petal heart arrangement", "Anniversary wall lettering", "Warm mood lighting"], image: lovedRomanticRoom.url, rating: 4.9, reviews: 486, original: 4999, offer: 3499, bestSeller: true }),
-  homepagePackage({ id: "home-loved-princess-wings", categorySlug: "theme-birthday-decoration", name: "Princess Angel-Wings Birthday Arch", description: "A dreamy princess birthday backdrop with angel wings, pastel balloon clusters and personalised name styling.", includes: ["Princess angel-wings backdrop", "Pastel balloon clusters", "Personalised name styling"], image: lovedThemeBirthday.url, rating: 5, reviews: 512, original: 9999, offer: 6999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-bride-canopy", categorySlug: "bachelorette-decoration", name: "Bride-To-Be Balloon Canopy Room", description: "A celebratory bride-to-be room with a cascading balloon canopy, metallic accents and statement bridal lettering.", includes: ["Balloon canopy installation", "Metallic party accents", "Bride-to-be lettering"], image: lovedBachelorette.url, rating: 4.9, reviews: 304, original: 5999, offer: 3999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-better-together", categorySlug: "engagement-decoration", name: "Better Together Pink Rose Arch", description: "A romantic engagement backdrop framed by pink roses, coordinated balloons and a glowing Better Together sign.", includes: ["Pink rose arch", "Coordinated balloon clusters", "Better Together light sign"], image: lovedEngagement.url, rating: 4.9, reviews: 417, original: 11999, offer: 7999, bestSeller: true }),
-];
-
-PACKAGES.push(...TRENDING_PACKAGES, ...BEST_SELLERS);
+  "birthday-decoration-40-gold-black-silver",
+  "anniversary-a1-25y-sequin",
+  "baby-b1",
+  "proposal-decoration-luxury",
+  "car-boot-essential-oh-baby-gold-butterfly",
+  "haldi-decoration-p3",
+  "rice-ceremony-decoration-essential",
+  "welcome-baby-decoration-luxury",
+  "rbd-x2-red-happy-anniversary-petal-heart",
+  "theme-l-hafsa-atif-sofia-princess-arch",
+  "bachelorette-decoration-premium",
+  "engagement-better-together-pink-rose-arch",
+].map((id) => featuredPackage(id, "bestSeller"));
 
 export const BUDGET_BUCKETS = [
   { label: "Under \u20B92,000", max: 1999, slug: "under-2000" },

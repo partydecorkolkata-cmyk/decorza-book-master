@@ -1,4 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { zodValidator, fallback } from "@tanstack/zod-adapter";
+import { z } from "zod";
 import { useMemo, useState } from "react";
 import { Filter, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,7 +10,12 @@ import { PackageCard } from "@/components/site/PackageCard";
 import { BRAND } from "@/lib/brand";
 import { CATEGORIES, PACKAGES, BUDGET_BUCKETS } from "@/lib/data";
 
+const packageSearchSchema = z.object({
+  budget: fallback(z.string(), "all").default("all"),
+});
+
 export const Route = createFileRoute("/packages")({
+  validateSearch: zodValidator(packageSearchSchema),
   head: () => ({
     meta: [
       { title: "All Decoration Packages | Decorza Events" },
@@ -31,8 +38,10 @@ const VIBES = [
 ] as const;
 
 function PackagesPage() {
+  const { budget: requestedBudget } = Route.useSearch();
+  const initialBudget = BUDGET_BUCKETS.some((bucket) => bucket.slug === requestedBudget) ? requestedBudget : "all";
   const [category, setCategory] = useState<string>("all");
-  const [budget, setBudget] = useState<string>("all");
+  const [budget, setBudget] = useState<string>(initialBudget);
   const [city, setCity] = useState<string>("all");
   const [vibe, setVibe] = useState<string>("all");
 
