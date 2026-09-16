@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
+import { PackageSearch } from "@/components/site/PackageSearch";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -35,6 +36,7 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
+          <PackageSearch />
           <Button asChild variant="outline" size="sm">
             <Link to="/book">Book Online</Link>
           </Button>
@@ -45,13 +47,17 @@ export function Header() {
           </Button>
         </div>
 
-        <button
-          aria-label="Toggle menu"
-          className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-md border"
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+        <div className="ml-auto flex items-center gap-1 lg:hidden">
+          <PackageSearch />
+          <Button
+            variant="outline"
+            size="icon"
+            aria-label="Toggle menu"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </Button>
+        </div>
       </div>
 
       {open && (
