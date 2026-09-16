@@ -11,12 +11,12 @@ export function PackageCard({ pkg }: { pkg: Package }) {
   const wa = waLink(waBookingMessage({ packageName: pkg.name }));
   return (
     <Card className="group overflow-hidden border-border/60 p-0 transition-all hover:-translate-y-1 hover:shadow-luxury">
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative aspect-[4/3] overflow-hidden bg-secondary/50">
         <img
           src={pkg.image}
           alt={pkg.name}
           loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
         />
         {discount > 0 && (
           <Badge className="absolute left-3 top-3 bg-rose-brand text-white">

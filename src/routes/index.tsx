@@ -11,7 +11,7 @@ import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
-  REVIEWS, GALLERY, HOMEPAGE_FAQS,
+  REVIEWS, HOMEPAGE_GALLERY_PACKAGES, HOMEPAGE_FAQS,
 } from "@/lib/data";
 
 export const Route = createFileRoute("/")({
@@ -236,16 +236,8 @@ function HomePage() {
       {/* GALLERY */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader eyebrow="Our Work" title="Decoration Gallery" subtitle="Real setups from real celebrations." />
-        <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
-          {GALLERY.map((g, i) => (
-            <img
-              key={i}
-              src={g}
-              alt={`Decoration ${i + 1}`}
-              loading="lazy"
-              className="aspect-square w-full rounded-xl object-cover transition-transform hover:scale-[1.03]"
-            />
-          ))}
+        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {HOMEPAGE_GALLERY_PACKAGES.map((p) => <PackageCard key={p.id} pkg={p} />)}
         </div>
       </section>
 

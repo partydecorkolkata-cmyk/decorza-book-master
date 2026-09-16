@@ -494,9 +494,9 @@ export const BEST_SELLERS: Package[] = [
 PACKAGES.push(...TRENDING_PACKAGES, ...BEST_SELLERS);
 
 export const BUDGET_BUCKETS = [
-  { label: "Under \u20B97,999", max: 7999, slug: "under-7999" },
-  { label: "\u20B93,000 \u2013 \u20B95,999", min: 3000, max: 5999, slug: "3000-5999" },
-  { label: "\u20B96,000 \u2013 \u20B99,999", min: 6000, max: 9999, slug: "6000-9999" },
+  { label: "Under \u20B92,000", max: 1999, slug: "under-2000" },
+  { label: "\u20B92,000 to \u20B95,000", min: 2000, max: 4999, slug: "2000-5000" },
+  { label: "\u20B95,000 to \u20B910,000", min: 5000, max: 9999, slug: "5000-10000" },
   { label: "\u20B910,000 & above", min: 10000, slug: "10000-plus" },
 ];
 
@@ -702,6 +702,11 @@ export const REVIEWS = [
 export const GALLERY = Array.from(
   new Set(CATEGORIES.flatMap((c) => c.gallery))
 ).slice(0, 18);
+
+export const HOMEPAGE_GALLERY_PACKAGES: Package[] = [
+  ...TRENDING_PACKAGES.slice(0, 6),
+  ...BEST_SELLERS.slice(0, 6),
+];
 
 export const HOMEPAGE_FAQS = [
   { q: "Which cities does Decorza Events operate in?", a: "We provide premium event decoration services in Kolkata, Siliguri, Delhi, Mumbai, Bengaluru, Hyderabad and Pune \u2014 at homes, banquet halls, hotels, farmhouses and offices." },
