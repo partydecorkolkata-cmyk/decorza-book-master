@@ -540,11 +540,6 @@ export const GALLERY = Array.from(
   new Set(CATEGORIES.flatMap((c) => c.gallery))
 ).slice(0, 18);
 
-export const HOMEPAGE_GALLERY_PACKAGES: Package[] = [
-  ...TRENDING_PACKAGES.slice(0, 6),
-  ...BEST_SELLERS.slice(0, 6),
-];
-
 export const HOMEPAGE_FAQS = [
   { q: "Which cities does Decorza Events operate in?", a: "We provide premium event decoration services in Kolkata, Siliguri, Delhi, Mumbai, Bengaluru, Hyderabad and Pune \u2014 at homes, banquet halls, hotels, farmhouses and offices." },
   { q: "How do I book a decoration?", a: "The fastest way is to message us on WhatsApp at +91 86378 70742. You can also use the Book Online form on this site and our team will confirm within minutes." },

@@ -176,6 +176,7 @@ function HomePage() {
               <Link
                 key={b.slug}
                 to="/packages"
+                search={{ budget: b.slug }}
                 className="group relative overflow-hidden rounded-2xl border bg-card p-6 text-center transition-all hover:-translate-y-1 hover:shadow-luxury"
               >
                 <IndianRupee className="mx-auto h-7 w-7 text-gold" />
