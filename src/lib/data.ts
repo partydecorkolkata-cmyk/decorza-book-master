@@ -478,7 +478,7 @@ export const TRENDING_PACKAGES: Package[] = [
 
 export const BEST_SELLERS: Package[] = [
   homepagePackage({ id: "home-loved-black-gold-40th", categorySlug: "birthday-decoration", name: "Black & Gold 40th Birthday Arch", description: "A sophisticated black-and-gold milestone backdrop with a statement balloon arch, number feature and matching metallic accents.", includes: ["Black & gold balloon arch", "Milestone number feature", "Metallic decorative accents"], image: lovedBirthday.url, rating: 4.9, reviews: 528, original: 6999, offer: 4999, bestSeller: true }),
-  homepagePackage({ id: "home-loved-25th-sequin", categorySlug: "anniversary-decoration", name: "25 Years Rose-Gold Sequin Wall", description: "A sparkling rose-gold sequin wall with maroon, ivory and gold balloons plus illuminated 25 milestone numbers.", includes: ["Rose-gold sequin wall", "Maroon, ivory & gold garland", "Illuminated 25 numbers"], image: lovedAnniversary.url, rating: 4.9, reviews: 612, original: 11999, offer: 7499, bestSeller: true }),
+  homepagePackage({ id: "home-loved-25th-sequin", categorySlug: "anniversary-decoration", name: "25 Years Red & Gold Sequin Wall", description: "A sparkling sequin wall with red, ivory and gold balloons plus illuminated 25 milestone numbers.", includes: ["Sparkling sequin wall", "Red, ivory & gold garland", "Illuminated 25 numbers"], image: lovedAnniversary.url, rating: 4.9, reviews: 612, original: 11999, offer: 7499, bestSeller: true }),
   homepagePackage({ id: "home-loved-pastel-pampas-baby", categorySlug: "baby-shower-decoration", name: "Pastel Pampas Baby Shower Arch", description: "A soft pastel baby shower arch layered with pampas textures, floral accents and elegant personalised signage.", includes: ["Pastel balloon arch", "Pampas & floral accents", "Personalised baby signage"], image: lovedBabyShower.url, rating: 4.9, reviews: 477, original: 7499, offer: 4999, bestSeller: true }),
   homepagePackage({ id: "home-loved-red-gold-proposal", categorySlug: "proposal-decoration", name: "Red & Gold Heart Arch Proposal", description: "A luxurious proposal scene featuring a red-and-gold heart arch, glowing proposal letters and a romantic petal pathway.", includes: ["Red & gold heart arch", "Glowing proposal letters", "Romantic petal pathway"], image: lovedProposal.url, rating: 5, reviews: 431, original: 7499, offer: 4999, bestSeller: true }),
   homepagePackage({ id: "home-loved-oh-baby-car-boot", categorySlug: "car-boot-decoration", name: "Oh Baby Gold Butterfly Car Boot", description: "A charming baby celebration inside the car boot with gold butterfly accents, warm lights and coordinated balloon styling.", includes: ["Gold butterfly accents", "Coordinated balloon styling", "Warm fairy lights"], image: lovedCarBoot.url, rating: 4.9, reviews: 246, original: 4999, offer: 2999, bestSeller: true }),
@@ -494,9 +494,9 @@ export const BEST_SELLERS: Package[] = [
 PACKAGES.push(...TRENDING_PACKAGES, ...BEST_SELLERS);
 
 export const BUDGET_BUCKETS = [
-  { label: "Under \u20B97,999", max: 7999, slug: "under-7999" },
-  { label: "\u20B93,000 \u2013 \u20B95,999", min: 3000, max: 5999, slug: "3000-5999" },
-  { label: "\u20B96,000 \u2013 \u20B99,999", min: 6000, max: 9999, slug: "6000-9999" },
+  { label: "Under \u20B92,000", max: 1999, slug: "under-2000" },
+  { label: "\u20B92,000 to \u20B95,000", min: 2000, max: 4999, slug: "2000-5000" },
+  { label: "\u20B95,000 to \u20B910,000", min: 5000, max: 9999, slug: "5000-10000" },
   { label: "\u20B910,000 & above", min: 10000, slug: "10000-plus" },
 ];
 
@@ -702,6 +702,11 @@ export const REVIEWS = [
 export const GALLERY = Array.from(
   new Set(CATEGORIES.flatMap((c) => c.gallery))
 ).slice(0, 18);
+
+export const HOMEPAGE_GALLERY_PACKAGES: Package[] = [
+  ...TRENDING_PACKAGES.slice(0, 6),
+  ...BEST_SELLERS.slice(0, 6),
+];
 
 export const HOMEPAGE_FAQS = [
   { q: "Which cities does Decorza Events operate in?", a: "We provide premium event decoration services in Kolkata, Siliguri, Delhi, Mumbai, Bengaluru, Hyderabad and Pune \u2014 at homes, banquet halls, hotels, farmhouses and offices." },

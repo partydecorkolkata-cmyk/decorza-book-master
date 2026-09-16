@@ -114,11 +114,10 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
         <Select value={form.budget} onValueChange={(v) => update("budget", v)}>
           <SelectTrigger><SelectValue placeholder="Select budget range" /></SelectTrigger>
           <SelectContent>
-            <SelectItem value="Under ₹7,999">Under ₹7,999</SelectItem>
-            <SelectItem value="₹3,000 – ₹5,999">₹3,000 – ₹5,999</SelectItem>
-            <SelectItem value="₹6,000 – ₹9,999">₹6,000 – ₹9,999</SelectItem>
-            <SelectItem value="₹10,000 – ₹19,999">₹10,000 – ₹19,999</SelectItem>
-            <SelectItem value="₹20,000+">₹20,000 & above</SelectItem>
+            <SelectItem value="Under ₹2,000">Under ₹2,000</SelectItem>
+            <SelectItem value="₹2,000 to ₹5,000">₹2,000 to ₹5,000</SelectItem>
+            <SelectItem value="₹5,000 to ₹10,000">₹5,000 to ₹10,000</SelectItem>
+            <SelectItem value="₹10,000 & above">₹10,000 & above</SelectItem>
           </SelectContent>
         </Select>
       </div>
