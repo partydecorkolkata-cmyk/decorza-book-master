@@ -139,7 +139,7 @@ export function PackageEnquiryDialog({
           {triggerLabel}
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-h-[92vh] max-w-3xl overflow-y-auto">
+      <DialogContent className="max-h-[92vh] w-[calc(100%-1rem)] max-w-3xl overflow-y-auto rounded-lg p-4 sm:p-6">
         <DialogHeader>
           <DialogTitle className="font-display text-2xl">WhatsApp Enquiry</DialogTitle>
           <DialogDescription>Your details are remembered on this browser for your next enquiry.</DialogDescription>
