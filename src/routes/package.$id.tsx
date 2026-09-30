@@ -9,7 +9,8 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { BookingForm } from "@/components/site/BookingForm";
-import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
+import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
+import { BRAND } from "@/lib/brand";
 import { packageById, categoryBySlug, REVIEWS, PACKAGES } from "@/lib/data";
 
 export const Route = createFileRoute("/package/$id")({
@@ -94,7 +95,6 @@ const ADDONS = [
 
 function PackageDetailPage() {
   const { pkg, category } = Route.useLoaderData();
-  const wa = waLink(waBookingMessage({ packageName: pkg.name }));
   const discount = Math.round(((pkg.original - pkg.offer) / pkg.original) * 100);
   const reviews = REVIEWS.filter(([, , s]) => s === category.name).slice(0, 6);
   const display = reviews.length ? reviews : REVIEWS.slice(0, 6);
@@ -150,9 +150,19 @@ function PackageDetailPage() {
             <p className="mt-5 text-sm text-muted-foreground">{pkg.longDescription}</p>
 
             <div className="mt-5 flex flex-wrap gap-3">
-              <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
-                <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> Book on WhatsApp</a>
-              </Button>
+              <PackageEnquiryDialog
+                packageId={pkg.id}
+                name={pkg.name}
+                description={pkg.description}
+                image={pkg.image}
+                includes={pkg.includes}
+                offer={`₹${pkg.offer.toLocaleString()}`}
+                original={`₹${pkg.original.toLocaleString()}`}
+                triggerLabel="Book on WhatsApp"
+                triggerSize="lg"
+                triggerClassName="bg-whatsapp text-white hover:opacity-90"
+                triggerIcon={<Phone className="mr-2 h-4 w-4" />}
+              />
               <Button asChild size="lg" className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90">
                 <Link to="/book" search={{ pkg: pkg.id }}><CalendarCheck className="mr-2 h-4 w-4" /> Book Online</Link>
               </Button>
@@ -348,9 +358,21 @@ function PackageDetailPage() {
             <div className="mt-4 rounded-xl bg-whatsapp/10 p-4 text-sm">
               <p className="font-semibold text-whatsapp">Prefer WhatsApp?</p>
               <p className="mt-1 text-xs text-muted-foreground">Chat with our decor specialist now — share your date, city & vision.</p>
-              <Button asChild className="mt-3 w-full bg-whatsapp hover:opacity-90 text-white">
-                <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> WhatsApp {BRAND.whatsappDisplay}</a>
-              </Button>
+              <div className="mt-3">
+                <PackageEnquiryDialog
+                  packageId={pkg.id}
+                  name={pkg.name}
+                  description={pkg.description}
+                  image={pkg.image}
+                  includes={pkg.includes}
+                  offer={`₹${pkg.offer.toLocaleString()}`}
+                  original={`₹${pkg.original.toLocaleString()}`}
+                  triggerLabel={`WhatsApp ${BRAND.whatsappDisplay}`}
+                  triggerSize="default"
+                  triggerClassName="w-full bg-whatsapp text-white hover:opacity-90"
+                  triggerIcon={<Phone className="mr-2 h-4 w-4" />}
+                />
+              </div>
             </div>
           </div>
         </div>

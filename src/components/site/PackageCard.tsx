@@ -3,12 +3,11 @@ import { Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { waLink, waBookingMessage } from "@/lib/brand";
+import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import type { Package } from "@/lib/data";
 
 export function PackageCard({ pkg }: { pkg: Package }) {
   const discount = Math.round(((pkg.original - pkg.offer) / pkg.original) * 100);
-  const wa = waLink(waBookingMessage({ packageName: pkg.name }));
   return (
     <Card className="group overflow-hidden border-border/60 p-0 transition-all hover:-translate-y-1 hover:shadow-luxury">
       <div className="relative aspect-[4/3] overflow-hidden bg-secondary/50">
@@ -54,11 +53,17 @@ export function PackageCard({ pkg }: { pkg: Package }) {
           </span>
         </div>
         <div className="mt-1 grid grid-cols-2 gap-2">
-          <Button asChild size="sm" className="bg-whatsapp hover:opacity-90 text-white">
-            <a href={wa} target="_blank" rel="noopener">
-              <Phone className="mr-1 h-3.5 w-3.5" /> WhatsApp
-            </a>
-          </Button>
+          <PackageEnquiryDialog
+            packageId={pkg.id}
+            name={pkg.name}
+            description={pkg.description}
+            image={pkg.image}
+            includes={pkg.includes}
+            offer={`₹${pkg.offer.toLocaleString()}`}
+            original={`₹${pkg.original.toLocaleString()}`}
+            triggerClassName="bg-whatsapp text-white hover:opacity-90"
+            triggerIcon={<Phone className="mr-1 h-3.5 w-3.5" />}
+          />
           <Button asChild size="sm" variant="outline">
             <Link to="/package/$id" params={{ id: pkg.id }}>
               <CalendarCheck className="mr-1 h-3.5 w-3.5" /> View Details
