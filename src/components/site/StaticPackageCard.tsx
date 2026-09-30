@@ -9,7 +9,8 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
+import { BRAND, waLink } from "@/lib/brand";
+import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import { toast } from "sonner";
 import type { ReactNode } from "react";
 
@@ -29,8 +30,9 @@ export function StaticPackageCard({
   discountPct: number;
   bestSeller?: boolean;
 }) {
-  const wa = waLink(waBookingMessage({ packageName: name }));
   const [open, setOpen] = useState(false);
+  const offerText = reactNodeText(offer);
+  const originalText = reactNodeText(original);
 
   return (
     <Card className="group overflow-hidden border-border/60 p-0 transition-all hover:-translate-y-1 hover:shadow-luxury">
@@ -62,9 +64,17 @@ export function StaticPackageCard({
           <span className="text-sm text-muted-foreground line-through">{original}</span>
         </div>
         <div className="mt-1 grid grid-cols-2 gap-2">
-          <Button asChild size="sm" className="bg-whatsapp hover:opacity-90 text-white">
-            <a href={wa} target="_blank" rel="noopener"><Phone className="mr-1 h-3.5 w-3.5" /> WhatsApp</a>
-          </Button>
+          <PackageEnquiryDialog
+            packageId={id}
+            name={name}
+            description={description}
+            image={image}
+            includes={includes}
+            offer={offerText}
+            original={originalText}
+            triggerClassName="bg-whatsapp text-white hover:opacity-90"
+            triggerIcon={<Phone className="mr-1 h-3.5 w-3.5" />}
+          />
           <Dialog open={open} onOpenChange={setOpen}>
             <DialogTrigger asChild>
               <Button size="sm" variant="outline">
@@ -80,7 +90,7 @@ export function StaticPackageCard({
               offer={offer}
               original={original}
               discountPct={discountPct}
-              wa={wa}
+              id={id}
             />
           </Dialog>
         </div>
@@ -90,7 +100,7 @@ export function StaticPackageCard({
 }
 
 function PackageDetailsDialog({
-  name, description, image, includes, offer, original, discountPct, wa,
+  id, name, description, image, includes, offer, original, discountPct,
 }: {
   id: string;
   name: string;
@@ -100,7 +110,6 @@ function PackageDetailsDialog({
   offer: ReactNode;
   original: ReactNode;
   discountPct: number;
-  wa: string;
 }) {
   const [form, setForm] = useState({ name: "", mobile: "", date: "", city: "", notes: "" });
 
@@ -154,11 +163,19 @@ function PackageDetailsDialog({
               ))}
             </ul>
           </div>
-          <Button asChild className="w-full bg-whatsapp hover:opacity-90 text-white">
-            <a href={wa} target="_blank" rel="noopener">
-              <Phone className="mr-2 h-4 w-4" /> Chat on WhatsApp ({BRAND.whatsappDisplay})
-            </a>
-          </Button>
+          <PackageEnquiryDialog
+            packageId={id}
+            name={name}
+            description={description}
+            image={image}
+            includes={includes}
+            offer={reactNodeText(offer)}
+            original={reactNodeText(original)}
+            triggerLabel={`WhatsApp ${BRAND.whatsappDisplay}`}
+            triggerSize="default"
+            triggerClassName="w-full bg-whatsapp text-white hover:opacity-90"
+            triggerIcon={<Phone className="mr-2 h-4 w-4" />}
+          />
         </div>
 
         <form onSubmit={submit} className="space-y-3 rounded-xl border bg-card p-4">
@@ -191,4 +208,14 @@ function PackageDetailsDialog({
       </div>
     </DialogContent>
   );
+}
+
+function reactNodeText(node: ReactNode): string {
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(reactNodeText).join("");
+  if (node && typeof node === "object" && "props" in node) {
+    const element = node as { props?: { children?: ReactNode } };
+    return reactNodeText(element.props?.children);
+  }
+  return "";
 }
