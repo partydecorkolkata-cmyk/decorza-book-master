@@ -90,7 +90,6 @@ export function StaticPackageCard({
               offer={offer}
               original={original}
               discountPct={discountPct}
-              id={id}
             />
           </Dialog>
         </div>
