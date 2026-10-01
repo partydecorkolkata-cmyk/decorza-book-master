@@ -16,6 +16,7 @@ import { TopBar } from "@/components/site/TopBar";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
 import { StickyMobileCTA } from "@/components/site/StickyMobileCTA";
 import { Toaster } from "@/components/ui/sonner";
+import { LOCAL_BUSINESS_SCHEMA } from "@/lib/seo";
 
 function NotFoundComponent() {
   return (
@@ -98,6 +99,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap",
       },
       { rel: "canonical", href: "/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify(LOCAL_BUSINESS_SCHEMA),
+      },
     ],
   }),
   shellComponent: RootShell,
