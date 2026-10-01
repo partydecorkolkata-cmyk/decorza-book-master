@@ -9,64 +9,41 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
-import { Route as SeoSlugRouteImport } from './routes/$seoSlug'
-import { Route as AboutRouteImport } from './routes/about'
-import { Route as BlogRouteImport } from './routes/blog'
-import { Route as BookRouteImport } from './routes/book'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as McpRouteImport } from './routes/mcp'
 import { Route as PackagesRouteImport } from './routes/packages'
-import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
-import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
-import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
-import { Route as CitySlugRouteImport } from './routes/city.$slug'
-import { Route as PackageIdRouteImport } from './routes/package.$id'
-import { Route as ServiceAnniversaryDecorationRouteImport } from './routes/service.anniversary-decoration'
-import { Route as ServiceBabyShowerDecorationRouteImport } from './routes/service.baby-shower-decoration'
-import { Route as ServiceBacheloretteDecorationRouteImport } from './routes/service.bachelorette-decoration'
-import { Route as ServiceBirthdayDecorationRouteImport } from './routes/service.birthday-decoration'
-import { Route as ServiceCarBootDecorationRouteImport } from './routes/service.car-boot-decoration'
-import { Route as ServiceEngagementDecorationRouteImport } from './routes/service.engagement-decoration'
-import { Route as ServiceEntranceGateDecorationRouteImport } from './routes/service.entrance-gate-decoration'
-import { Route as ServiceHaldiDecorationRouteImport } from './routes/service.haldi-decoration'
-import { Route as ServiceHousewarmingDecorationRouteImport } from './routes/service.housewarming-decoration'
-import { Route as ServiceMehendiDecorationRouteImport } from './routes/service.mehendi-decoration'
-import { Route as ServiceProposalDecorationRouteImport } from './routes/service.proposal-decoration'
-import { Route as ServiceRiceCeremonyDecorationRouteImport } from './routes/service.rice-ceremony-decoration'
-import { Route as ServiceRomanticBedroomDecorationRouteImport } from './routes/service.romantic-bedroom-decoration'
-import { Route as ServiceThemeBirthdayDecorationRouteImport } from './routes/service.theme-birthday-decoration'
+import { Route as McpRouteImport } from './routes/mcp'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as BookRouteImport } from './routes/book'
+import { Route as BlogRouteImport } from './routes/blog'
+import { Route as AuthRouteImport } from './routes/auth'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as SeoSlugRouteImport } from './routes/$seoSlug'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServiceWelcomeBabyDecorationRouteImport } from './routes/service.welcome-baby-decoration'
+import { Route as ServiceThemeBirthdayDecorationRouteImport } from './routes/service.theme-birthday-decoration'
+import { Route as ServiceRomanticBedroomDecorationRouteImport } from './routes/service.romantic-bedroom-decoration'
+import { Route as ServiceRiceCeremonyDecorationRouteImport } from './routes/service.rice-ceremony-decoration'
+import { Route as ServiceProposalDecorationRouteImport } from './routes/service.proposal-decoration'
+import { Route as ServiceMehendiDecorationRouteImport } from './routes/service.mehendi-decoration'
+import { Route as ServiceHousewarmingDecorationRouteImport } from './routes/service.housewarming-decoration'
+import { Route as ServiceHaldiDecorationRouteImport } from './routes/service.haldi-decoration'
+import { Route as ServiceEntranceGateDecorationRouteImport } from './routes/service.entrance-gate-decoration'
+import { Route as ServiceEngagementDecorationRouteImport } from './routes/service.engagement-decoration'
+import { Route as ServiceCarBootDecorationRouteImport } from './routes/service.car-boot-decoration'
+import { Route as ServiceBirthdayDecorationRouteImport } from './routes/service.birthday-decoration'
+import { Route as ServiceBacheloretteDecorationRouteImport } from './routes/service.bachelorette-decoration'
+import { Route as ServiceBabyShowerDecorationRouteImport } from './routes/service.baby-shower-decoration'
+import { Route as ServiceAnniversaryDecorationRouteImport } from './routes/service.anniversary-decoration'
+import { Route as PackageIdRouteImport } from './routes/package.$id'
+import { Route as CitySlugRouteImport } from './routes/city.$slug'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
+import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
+import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
+import { Route as DotlovableOauthConsentRouteImport } from './routes/[.]lovable.oauth.consent'
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SeoSlugRoute = SeoSlugRouteImport.update({
-  id: '/$seoSlug',
-  path: '/$seoSlug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BlogRoute = BlogRouteImport.update({
-  id: '/blog',
-  path: '/blog',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BookRoute = BookRouteImport.update({
-  id: '/book',
-  path: '/book',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
+const PackagesRoute = PackagesRouteImport.update({
+  id: '/packages',
+  path: '/packages',
   getParentRoute: () => rootRouteImport,
 } as any)
 const McpRoute = McpRouteImport.update({
@@ -74,113 +51,45 @@ const McpRoute = McpRouteImport.update({
   path: '/mcp',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PackagesRoute = PackagesRouteImport.update({
-  id: '/packages',
-  path: '/packages',
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Char91DotmcpChar93ListToolsRoute =
-  Char91DotmcpChar93ListToolsRouteImport.update({
-    id: '/.mcp/list-tools',
-    path: '/.mcp/list-tools',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const Char91DotwellKnownChar93OauthProtectedResourceRoute =
-  Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
-    id: '/.well-known/oauth-protected-resource',
-    path: '/.well-known/oauth-protected-resource',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const BlogSlugRoute = BlogSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => BlogRoute,
-} as any)
-const CitySlugRoute = CitySlugRouteImport.update({
-  id: '/city/$slug',
-  path: '/city/$slug',
+const BookRoute = BookRouteImport.update({
+  id: '/book',
+  path: '/book',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PackageIdRoute = PackageIdRouteImport.update({
-  id: '/package/$id',
-  path: '/package/$id',
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ServiceAnniversaryDecorationRoute =
-  ServiceAnniversaryDecorationRouteImport.update({
-    id: '/service/anniversary-decoration',
-    path: '/service/anniversary-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceBabyShowerDecorationRoute =
-  ServiceBabyShowerDecorationRouteImport.update({
-    id: '/service/baby-shower-decoration',
-    path: '/service/baby-shower-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceBacheloretteDecorationRoute =
-  ServiceBacheloretteDecorationRouteImport.update({
-    id: '/service/bachelorette-decoration',
-    path: '/service/bachelorette-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceBirthdayDecorationRoute =
-  ServiceBirthdayDecorationRouteImport.update({
-    id: '/service/birthday-decoration',
-    path: '/service/birthday-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceCarBootDecorationRoute =
-  ServiceCarBootDecorationRouteImport.update({
-    id: '/service/car-boot-decoration',
-    path: '/service/car-boot-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceEngagementDecorationRoute =
-  ServiceEngagementDecorationRouteImport.update({
-    id: '/service/engagement-decoration',
-    path: '/service/engagement-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceEntranceGateDecorationRoute =
-  ServiceEntranceGateDecorationRouteImport.update({
-    id: '/service/entrance-gate-decoration',
-    path: '/service/entrance-gate-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceHaldiDecorationRoute = ServiceHaldiDecorationRouteImport.update({
-  id: '/service/haldi-decoration',
-  path: '/service/haldi-decoration',
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ServiceHousewarmingDecorationRoute =
-  ServiceHousewarmingDecorationRouteImport.update({
-    id: '/service/housewarming-decoration',
-    path: '/service/housewarming-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceMehendiDecorationRoute =
-  ServiceMehendiDecorationRouteImport.update({
-    id: '/service/mehendi-decoration',
-    path: '/service/mehendi-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceProposalDecorationRoute =
-  ServiceProposalDecorationRouteImport.update({
-    id: '/service/proposal-decoration',
-    path: '/service/proposal-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceRiceCeremonyDecorationRoute =
-  ServiceRiceCeremonyDecorationRouteImport.update({
-    id: '/service/rice-ceremony-decoration',
-    path: '/service/rice-ceremony-decoration',
-    getParentRoute: () => rootRouteImport,
-  } as any)
-const ServiceRomanticBedroomDecorationRoute =
-  ServiceRomanticBedroomDecorationRouteImport.update({
-    id: '/service/romantic-bedroom-decoration',
-    path: '/service/romantic-bedroom-decoration',
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SeoSlugRoute = SeoSlugRouteImport.update({
+  id: '/$seoSlug',
+  path: '/$seoSlug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServiceWelcomeBabyDecorationRoute =
+  ServiceWelcomeBabyDecorationRouteImport.update({
+    id: '/service/welcome-baby-decoration',
+    path: '/service/welcome-baby-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
 const ServiceThemeBirthdayDecorationRoute =
@@ -189,10 +98,108 @@ const ServiceThemeBirthdayDecorationRoute =
     path: '/service/theme-birthday-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
-const ServiceWelcomeBabyDecorationRoute =
-  ServiceWelcomeBabyDecorationRouteImport.update({
-    id: '/service/welcome-baby-decoration',
-    path: '/service/welcome-baby-decoration',
+const ServiceRomanticBedroomDecorationRoute =
+  ServiceRomanticBedroomDecorationRouteImport.update({
+    id: '/service/romantic-bedroom-decoration',
+    path: '/service/romantic-bedroom-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceRiceCeremonyDecorationRoute =
+  ServiceRiceCeremonyDecorationRouteImport.update({
+    id: '/service/rice-ceremony-decoration',
+    path: '/service/rice-ceremony-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceProposalDecorationRoute =
+  ServiceProposalDecorationRouteImport.update({
+    id: '/service/proposal-decoration',
+    path: '/service/proposal-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceMehendiDecorationRoute =
+  ServiceMehendiDecorationRouteImport.update({
+    id: '/service/mehendi-decoration',
+    path: '/service/mehendi-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceHousewarmingDecorationRoute =
+  ServiceHousewarmingDecorationRouteImport.update({
+    id: '/service/housewarming-decoration',
+    path: '/service/housewarming-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceHaldiDecorationRoute = ServiceHaldiDecorationRouteImport.update({
+  id: '/service/haldi-decoration',
+  path: '/service/haldi-decoration',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServiceEntranceGateDecorationRoute =
+  ServiceEntranceGateDecorationRouteImport.update({
+    id: '/service/entrance-gate-decoration',
+    path: '/service/entrance-gate-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceEngagementDecorationRoute =
+  ServiceEngagementDecorationRouteImport.update({
+    id: '/service/engagement-decoration',
+    path: '/service/engagement-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceCarBootDecorationRoute =
+  ServiceCarBootDecorationRouteImport.update({
+    id: '/service/car-boot-decoration',
+    path: '/service/car-boot-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceBirthdayDecorationRoute =
+  ServiceBirthdayDecorationRouteImport.update({
+    id: '/service/birthday-decoration',
+    path: '/service/birthday-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceBacheloretteDecorationRoute =
+  ServiceBacheloretteDecorationRouteImport.update({
+    id: '/service/bachelorette-decoration',
+    path: '/service/bachelorette-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceBabyShowerDecorationRoute =
+  ServiceBabyShowerDecorationRouteImport.update({
+    id: '/service/baby-shower-decoration',
+    path: '/service/baby-shower-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServiceAnniversaryDecorationRoute =
+  ServiceAnniversaryDecorationRouteImport.update({
+    id: '/service/anniversary-decoration',
+    path: '/service/anniversary-decoration',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const PackageIdRoute = PackageIdRouteImport.update({
+  id: '/package/$id',
+  path: '/package/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CitySlugRoute = CitySlugRouteImport.update({
+  id: '/city/$slug',
+  path: '/city/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => BlogRoute,
+} as any)
+const Char91DotwellKnownChar93OauthProtectedResourceRoute =
+  Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
+    id: '/.well-known/oauth-protected-resource',
+    path: '/.well-known/oauth-protected-resource',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const Char91DotmcpChar93ListToolsRoute =
+  Char91DotmcpChar93ListToolsRouteImport.update({
+    id: '/.mcp/list-tools',
+    path: '/.mcp/list-tools',
     getParentRoute: () => rootRouteImport,
   } as any)
 const Char91DotmcpChar93InvokeToolToolRoute =
@@ -201,11 +208,17 @@ const Char91DotmcpChar93InvokeToolToolRoute =
     path: '/.mcp/invoke-tool/$tool',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DotlovableOauthConsentRoute = DotlovableOauthConsentRouteImport.update({
+  id: '/.lovable/oauth/consent',
+  path: '/.lovable/oauth/consent',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -231,12 +244,14 @@ export interface FileRoutesByFullPath {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -262,6 +277,7 @@ export interface FileRoutesByTo {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesById {
@@ -269,6 +285,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -294,6 +311,7 @@ export interface FileRoutesById {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRouteTypes {
@@ -302,6 +320,7 @@ export interface FileRouteTypes {
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -327,12 +346,14 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -358,12 +379,14 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   id:
     | '__root__'
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -389,6 +412,7 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesById: FileRoutesById
 }
@@ -396,6 +420,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SeoSlugRoute: typeof SeoSlugRoute
   AboutRoute: typeof AboutRoute
+  AuthRoute: typeof AuthRoute
   BlogRoute: typeof BlogRouteWithChildren
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
@@ -420,51 +445,17 @@ export interface RootRouteChildren {
   ServiceRomanticBedroomDecorationRoute: typeof ServiceRomanticBedroomDecorationRoute
   ServiceThemeBirthdayDecorationRoute: typeof ServiceThemeBirthdayDecorationRoute
   ServiceWelcomeBabyDecorationRoute: typeof ServiceWelcomeBabyDecorationRoute
+  DotlovableOauthConsentRoute: typeof DotlovableOauthConsentRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/$seoSlug': {
-      id: '/$seoSlug'
-      path: '/$seoSlug'
-      fullPath: '/$seoSlug'
-      preLoaderRoute: typeof SeoSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/blog': {
-      id: '/blog'
-      path: '/blog'
-      fullPath: '/blog'
-      preLoaderRoute: typeof BlogRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/book': {
-      id: '/book'
-      path: '/book'
-      fullPath: '/book'
-      preLoaderRoute: typeof BookRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
+    '/packages': {
+      id: '/packages'
+      path: '/packages'
+      fullPath: '/packages'
+      preLoaderRoute: typeof PackagesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/mcp': {
@@ -474,144 +465,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof McpRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/packages': {
-      id: '/packages'
-      path: '/packages'
-      fullPath: '/packages'
-      preLoaderRoute: typeof PackagesRouteImport
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/.mcp/list-tools': {
-      id: '/.mcp/list-tools'
-      path: '/.mcp/list-tools'
-      fullPath: '/.mcp/list-tools'
-      preLoaderRoute: typeof Char91DotmcpChar93ListToolsRouteImport
+    '/book': {
+      id: '/book'
+      path: '/book'
+      fullPath: '/book'
+      preLoaderRoute: typeof BookRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/.well-known/oauth-protected-resource': {
-      id: '/.well-known/oauth-protected-resource'
-      path: '/.well-known/oauth-protected-resource'
-      fullPath: '/.well-known/oauth-protected-resource'
-      preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blog/$slug': {
-      id: '/blog/$slug'
-      path: '/$slug'
-      fullPath: '/blog/$slug'
-      preLoaderRoute: typeof BlogSlugRouteImport
-      parentRoute: typeof BlogRoute
-    }
-    '/city/$slug': {
-      id: '/city/$slug'
-      path: '/city/$slug'
-      fullPath: '/city/$slug'
-      preLoaderRoute: typeof CitySlugRouteImport
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/package/$id': {
-      id: '/package/$id'
-      path: '/package/$id'
-      fullPath: '/package/$id'
-      preLoaderRoute: typeof PackageIdRouteImport
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/service/anniversary-decoration': {
-      id: '/service/anniversary-decoration'
-      path: '/service/anniversary-decoration'
-      fullPath: '/service/anniversary-decoration'
-      preLoaderRoute: typeof ServiceAnniversaryDecorationRouteImport
+    '/$seoSlug': {
+      id: '/$seoSlug'
+      path: '/$seoSlug'
+      fullPath: '/$seoSlug'
+      preLoaderRoute: typeof SeoSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/service/baby-shower-decoration': {
-      id: '/service/baby-shower-decoration'
-      path: '/service/baby-shower-decoration'
-      fullPath: '/service/baby-shower-decoration'
-      preLoaderRoute: typeof ServiceBabyShowerDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/bachelorette-decoration': {
-      id: '/service/bachelorette-decoration'
-      path: '/service/bachelorette-decoration'
-      fullPath: '/service/bachelorette-decoration'
-      preLoaderRoute: typeof ServiceBacheloretteDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/birthday-decoration': {
-      id: '/service/birthday-decoration'
-      path: '/service/birthday-decoration'
-      fullPath: '/service/birthday-decoration'
-      preLoaderRoute: typeof ServiceBirthdayDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/car-boot-decoration': {
-      id: '/service/car-boot-decoration'
-      path: '/service/car-boot-decoration'
-      fullPath: '/service/car-boot-decoration'
-      preLoaderRoute: typeof ServiceCarBootDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/engagement-decoration': {
-      id: '/service/engagement-decoration'
-      path: '/service/engagement-decoration'
-      fullPath: '/service/engagement-decoration'
-      preLoaderRoute: typeof ServiceEngagementDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/entrance-gate-decoration': {
-      id: '/service/entrance-gate-decoration'
-      path: '/service/entrance-gate-decoration'
-      fullPath: '/service/entrance-gate-decoration'
-      preLoaderRoute: typeof ServiceEntranceGateDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/haldi-decoration': {
-      id: '/service/haldi-decoration'
-      path: '/service/haldi-decoration'
-      fullPath: '/service/haldi-decoration'
-      preLoaderRoute: typeof ServiceHaldiDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/housewarming-decoration': {
-      id: '/service/housewarming-decoration'
-      path: '/service/housewarming-decoration'
-      fullPath: '/service/housewarming-decoration'
-      preLoaderRoute: typeof ServiceHousewarmingDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/mehendi-decoration': {
-      id: '/service/mehendi-decoration'
-      path: '/service/mehendi-decoration'
-      fullPath: '/service/mehendi-decoration'
-      preLoaderRoute: typeof ServiceMehendiDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/proposal-decoration': {
-      id: '/service/proposal-decoration'
-      path: '/service/proposal-decoration'
-      fullPath: '/service/proposal-decoration'
-      preLoaderRoute: typeof ServiceProposalDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/rice-ceremony-decoration': {
-      id: '/service/rice-ceremony-decoration'
-      path: '/service/rice-ceremony-decoration'
-      fullPath: '/service/rice-ceremony-decoration'
-      preLoaderRoute: typeof ServiceRiceCeremonyDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/romantic-bedroom-decoration': {
-      id: '/service/romantic-bedroom-decoration'
-      path: '/service/romantic-bedroom-decoration'
-      fullPath: '/service/romantic-bedroom-decoration'
-      preLoaderRoute: typeof ServiceRomanticBedroomDecorationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/service/theme-birthday-decoration': {
-      id: '/service/theme-birthday-decoration'
-      path: '/service/theme-birthday-decoration'
-      fullPath: '/service/theme-birthday-decoration'
-      preLoaderRoute: typeof ServiceThemeBirthdayDecorationRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/service/welcome-baby-decoration': {
@@ -621,11 +521,151 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceWelcomeBabyDecorationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/service/theme-birthday-decoration': {
+      id: '/service/theme-birthday-decoration'
+      path: '/service/theme-birthday-decoration'
+      fullPath: '/service/theme-birthday-decoration'
+      preLoaderRoute: typeof ServiceThemeBirthdayDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/romantic-bedroom-decoration': {
+      id: '/service/romantic-bedroom-decoration'
+      path: '/service/romantic-bedroom-decoration'
+      fullPath: '/service/romantic-bedroom-decoration'
+      preLoaderRoute: typeof ServiceRomanticBedroomDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/rice-ceremony-decoration': {
+      id: '/service/rice-ceremony-decoration'
+      path: '/service/rice-ceremony-decoration'
+      fullPath: '/service/rice-ceremony-decoration'
+      preLoaderRoute: typeof ServiceRiceCeremonyDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/proposal-decoration': {
+      id: '/service/proposal-decoration'
+      path: '/service/proposal-decoration'
+      fullPath: '/service/proposal-decoration'
+      preLoaderRoute: typeof ServiceProposalDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/mehendi-decoration': {
+      id: '/service/mehendi-decoration'
+      path: '/service/mehendi-decoration'
+      fullPath: '/service/mehendi-decoration'
+      preLoaderRoute: typeof ServiceMehendiDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/housewarming-decoration': {
+      id: '/service/housewarming-decoration'
+      path: '/service/housewarming-decoration'
+      fullPath: '/service/housewarming-decoration'
+      preLoaderRoute: typeof ServiceHousewarmingDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/haldi-decoration': {
+      id: '/service/haldi-decoration'
+      path: '/service/haldi-decoration'
+      fullPath: '/service/haldi-decoration'
+      preLoaderRoute: typeof ServiceHaldiDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/entrance-gate-decoration': {
+      id: '/service/entrance-gate-decoration'
+      path: '/service/entrance-gate-decoration'
+      fullPath: '/service/entrance-gate-decoration'
+      preLoaderRoute: typeof ServiceEntranceGateDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/engagement-decoration': {
+      id: '/service/engagement-decoration'
+      path: '/service/engagement-decoration'
+      fullPath: '/service/engagement-decoration'
+      preLoaderRoute: typeof ServiceEngagementDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/car-boot-decoration': {
+      id: '/service/car-boot-decoration'
+      path: '/service/car-boot-decoration'
+      fullPath: '/service/car-boot-decoration'
+      preLoaderRoute: typeof ServiceCarBootDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/birthday-decoration': {
+      id: '/service/birthday-decoration'
+      path: '/service/birthday-decoration'
+      fullPath: '/service/birthday-decoration'
+      preLoaderRoute: typeof ServiceBirthdayDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/bachelorette-decoration': {
+      id: '/service/bachelorette-decoration'
+      path: '/service/bachelorette-decoration'
+      fullPath: '/service/bachelorette-decoration'
+      preLoaderRoute: typeof ServiceBacheloretteDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/baby-shower-decoration': {
+      id: '/service/baby-shower-decoration'
+      path: '/service/baby-shower-decoration'
+      fullPath: '/service/baby-shower-decoration'
+      preLoaderRoute: typeof ServiceBabyShowerDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/service/anniversary-decoration': {
+      id: '/service/anniversary-decoration'
+      path: '/service/anniversary-decoration'
+      fullPath: '/service/anniversary-decoration'
+      preLoaderRoute: typeof ServiceAnniversaryDecorationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/package/$id': {
+      id: '/package/$id'
+      path: '/package/$id'
+      fullPath: '/package/$id'
+      preLoaderRoute: typeof PackageIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/city/$slug': {
+      id: '/city/$slug'
+      path: '/city/$slug'
+      fullPath: '/city/$slug'
+      preLoaderRoute: typeof CitySlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof BlogRoute
+    }
+    '/.well-known/oauth-protected-resource': {
+      id: '/.well-known/oauth-protected-resource'
+      path: '/.well-known/oauth-protected-resource'
+      fullPath: '/.well-known/oauth-protected-resource'
+      preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.mcp/list-tools': {
+      id: '/.mcp/list-tools'
+      path: '/.mcp/list-tools'
+      fullPath: '/.mcp/list-tools'
+      preLoaderRoute: typeof Char91DotmcpChar93ListToolsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/.mcp/invoke-tool/$tool': {
       id: '/.mcp/invoke-tool/$tool'
       path: '/.mcp/invoke-tool/$tool'
       fullPath: '/.mcp/invoke-tool/$tool'
       preLoaderRoute: typeof Char91DotmcpChar93InvokeToolToolRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/.lovable/oauth/consent': {
+      id: '/.lovable/oauth/consent'
+      path: '/.lovable/oauth/consent'
+      fullPath: '/.lovable/oauth/consent'
+      preLoaderRoute: typeof DotlovableOauthConsentRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -645,6 +685,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SeoSlugRoute: SeoSlugRoute,
   AboutRoute: AboutRoute,
+  AuthRoute: AuthRoute,
   BlogRoute: BlogRouteWithChildren,
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
@@ -670,6 +711,7 @@ const rootRouteChildren: RootRouteChildren = {
   ServiceRomanticBedroomDecorationRoute: ServiceRomanticBedroomDecorationRoute,
   ServiceThemeBirthdayDecorationRoute: ServiceThemeBirthdayDecorationRoute,
   ServiceWelcomeBabyDecorationRoute: ServiceWelcomeBabyDecorationRoute,
+  DotlovableOauthConsentRoute: DotlovableOauthConsentRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
 }
 export const routeTree = rootRouteImport
