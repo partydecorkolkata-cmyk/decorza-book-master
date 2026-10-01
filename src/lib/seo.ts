@@ -1,0 +1,34 @@
+import { BRAND } from "@/lib/brand";
+
+export const SITE_URL = "https://decorzaevents.com";
+
+export function absoluteUrl(path = "/") {
+  return new URL(path, SITE_URL).toString();
+}
+
+export const LOCAL_BUSINESS_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${SITE_URL}/#localbusiness`,
+  name: BRAND.name,
+  url: SITE_URL,
+  telephone: BRAND.whatsappDisplay,
+  email: BRAND.email,
+  description:
+    "Premium event decoration for birthdays, anniversaries, proposals, baby showers, haldi, mehendi, engagements and special celebrations.",
+  image: absoluteUrl("/images/balloon-decoration-hero-v2.jpg"),
+  priceRange: "₹₹",
+  currenciesAccepted: "INR",
+  paymentAccepted: "Cash, UPI, Bank Transfer",
+  areaServed: BRAND.cities.map((name) => ({
+    "@type": "City",
+    name,
+  })),
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: BRAND.whatsappDisplay,
+    contactType: "customer service",
+    areaServed: "IN",
+    availableLanguage: ["English", "Hindi", "Bengali"],
+  },
+};
