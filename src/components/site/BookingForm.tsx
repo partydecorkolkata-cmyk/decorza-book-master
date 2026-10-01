@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { z } from "zod";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -42,6 +42,17 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
     notes: "",
   });
   const selectedPackage = PACKAGES.find((pkg) => pkg.id === form.packageId);
+
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem(STORAGE_KEY);
+      if (!saved) return;
+      const parsed = bookingSchema.pick({ name: true, mobile: true, whatsapp: true, city: true, location: true }).partial().safeParse(JSON.parse(saved));
+      if (parsed.success) setForm((current) => ({ ...current, ...parsed.data }));
+    } catch {
+      // Ignore unavailable or malformed browser storage.
+    }
+  }, []);
 
   function update<K extends keyof typeof form>(k: K, v: (typeof form)[K]) {
     setForm((f) => ({ ...f, [k]: v }));
@@ -125,7 +136,7 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
       </div>
       <div>
         <Label>Occasion *</Label>
-        <Select value={form.eventType} onValueChange={(v) => update("eventType", v)}>
+        <Select value={form.eventType} onValueChange={(v) => setForm((current) => ({ ...current, eventType: v, packageId: "" }))}>
           <SelectTrigger><SelectValue /></SelectTrigger>
           <SelectContent>
             {CATEGORIES.map((c) => <SelectItem key={c.slug} value={c.name}>{c.name}</SelectItem>)}

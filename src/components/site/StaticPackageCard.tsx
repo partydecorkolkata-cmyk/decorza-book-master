@@ -129,8 +129,21 @@ function PackageDetailsDialog({
     try {
       const saved = window.localStorage.getItem(DETAILS_STORAGE_KEY);
       if (!saved) return;
-      const parsed = detailsEnquirySchema.partial().safeParse(JSON.parse(saved));
-      if (parsed.success) setForm((current) => ({ ...current, ...parsed.data }));
+      const parsed = z.object({
+        name: z.string().optional(),
+        phone: z.string().optional(),
+        address: z.string().optional(),
+        date: z.string().optional(),
+        time: z.string().optional(),
+      }).safeParse(JSON.parse(saved));
+      if (parsed.success) setForm((current) => ({
+        ...current,
+        name: parsed.data.name ?? current.name,
+        mobile: parsed.data.phone ?? current.mobile,
+        address: parsed.data.address ?? current.address,
+        date: parsed.data.date ?? current.date,
+        time: parsed.data.time ?? current.time,
+      }));
     } catch {
       // Ignore unavailable or malformed browser storage.
     }

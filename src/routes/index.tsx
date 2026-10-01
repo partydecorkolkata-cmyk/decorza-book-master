@@ -9,7 +9,7 @@ import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
 import { HomeBookingDialog } from "@/components/site/HomeBookingDialog";
-import { BRAND } from "@/lib/brand";
+import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
   REVIEWS, GALLERY, PACKAGES, HOMEPAGE_FAQS,
@@ -45,6 +45,7 @@ export const Route = createFileRoute("/")({
 });
 
 function HomePage() {
+  const wa = waLink(waBookingMessage({}));
   const popularCats = CATEGORIES;
 
   return (
@@ -298,7 +299,7 @@ function HomePage() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
-              <Link to="/book"><Phone className="mr-2 h-4 w-4" /> Chat on WhatsApp</Link>
+              <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> Chat on WhatsApp</a>
             </Button>
             <Button asChild size="lg" className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90">
               <Link to="/book"><CalendarCheck className="mr-2 h-4 w-4" /> Request a Callback</Link>
