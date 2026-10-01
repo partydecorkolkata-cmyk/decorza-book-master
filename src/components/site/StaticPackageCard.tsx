@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Star, Phone, CalendarCheck, Check } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -13,6 +13,19 @@ import { BRAND, waLink } from "@/lib/brand";
 import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import { toast } from "sonner";
 import type { ReactNode } from "react";
+import { z } from "zod";
+
+const detailsEnquirySchema = z.object({
+  name: z.string().trim().min(2, "Please enter your full name.").max(100, "Name is too long."),
+  mobile: z.string().trim().regex(/^\+?[0-9\s()-]{8,20}$/, "Please enter a valid mobile number."),
+  address: z.string().trim().min(8, "Please enter the full decoration address.").max(500, "Address is too long."),
+  city: z.string().trim().max(100, "City is too long."),
+  date: z.iso.date("Please select a valid event date."),
+  time: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/, "Please select a valid decoration time."),
+  notes: z.string().trim().max(800, "Notes are too long."),
+});
+
+const DETAILS_STORAGE_KEY = "decorza-customer-enquiry-details";
 
 export function StaticPackageCard({
   id, name, description, image, includes, rating, reviews,
@@ -110,25 +123,77 @@ function PackageDetailsDialog({
   original: ReactNode;
   discountPct: number;
 }) {
-  const [form, setForm] = useState({ name: "", mobile: "", date: "", city: "", notes: "" });
+  const [form, setForm] = useState({ name: "", mobile: "", address: "", date: "", time: "", city: "", notes: "" });
+
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem(DETAILS_STORAGE_KEY);
+      if (!saved) return;
+      const parsed = z.object({
+        name: z.string().optional(),
+        phone: z.string().optional(),
+        address: z.string().optional(),
+        date: z.string().optional(),
+        time: z.string().optional(),
+      }).safeParse(JSON.parse(saved));
+      if (parsed.success) setForm((current) => ({
+        ...current,
+        name: parsed.data.name ?? current.name,
+        mobile: parsed.data.phone ?? current.mobile,
+        address: parsed.data.address ?? current.address,
+        date: parsed.data.date ?? current.date,
+        time: parsed.data.time ?? current.time,
+      }));
+    } catch {
+      // Ignore unavailable or malformed browser storage.
+    }
+  }, []);
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (!form.name || !form.mobile || !form.date) {
-      toast.error("Please fill name, mobile and event date.");
+    const result = detailsEnquirySchema.safeParse(form);
+    if (!result.success) {
+      toast.error(result.error.issues[0]?.message ?? "Please check your enquiry details.");
       return;
     }
+    const customer = result.data;
+    try {
+      window.localStorage.setItem(DETAILS_STORAGE_KEY, JSON.stringify({
+        name: customer.name,
+        phone: customer.mobile,
+        address: customer.address,
+        date: customer.date,
+        time: customer.time,
+      }));
+    } catch {
+      // Continue to WhatsApp when browser storage is unavailable.
+    }
+    const imageUrl = new URL(image, window.location.origin).href;
+    const packageUrl = new URL(`/package/${encodeURIComponent(id)}`, window.location.origin).href;
     const msg = [
       `Hello ${BRAND.name},`,
-      `Enquiry for: ${name}`,
+      `I would like to enquire about this decoration package.`,
       ``,
-      `Name: ${form.name}`,
-      `Mobile: ${form.mobile}`,
-      `City: ${form.city}`,
-      `Event Date: ${form.date}`,
-      `Notes: ${form.notes}`,
+      `PACKAGE DETAILS`,
+      `Package: ${name}`,
+      `Selling Price: ${reactNodeText(offer)}`,
+      `MRP: ${reactNodeText(original)}`,
+      `Description: ${description.trim()}`,
+      `Package Image: ${imageUrl}`,
+      `Package Page: ${packageUrl}`,
+      `What's Included:`,
+      ...includes.filter((item) => item.trim()).map((item) => `• ${item.trim()}`),
       ``,
-      `Please share availability & final quote.`,
+      `CUSTOMER DETAILS`,
+      `Name: ${customer.name}`,
+      `Communication Phone: ${customer.mobile}`,
+      `Full Decoration Address: ${customer.address}`,
+      `City: ${customer.city || "Not specified"}`,
+      `Decoration Date: ${customer.date}`,
+      `Decoration Time: ${customer.time}`,
+      `Notes: ${customer.notes || "None"}`,
+      ``,
+      `Please confirm availability and the final quotation.`,
     ].join("\n");
     window.open(waLink(msg), "_blank", "noopener");
     toast.success("Opening WhatsApp with your enquiry…");
@@ -189,15 +254,25 @@ function PackageDetailsDialog({
           </div>
           <div>
             <Label htmlFor="dlg-city">City</Label>
-            <Input id="dlg-city" value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} />
+            <Input id="dlg-city" value={form.city} onChange={(e) => setForm({ ...form, city: e.target.value })} maxLength={100} />
           </div>
           <div>
+            <Label htmlFor="dlg-address">Full decoration address *</Label>
+            <Textarea id="dlg-address" autoComplete="street-address" rows={3} value={form.address} onChange={(e) => setForm({ ...form, address: e.target.value })} required minLength={8} maxLength={500} />
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
             <Label htmlFor="dlg-date">Event date *</Label>
             <Input id="dlg-date" type="date" value={form.date} onChange={(e) => setForm({ ...form, date: e.target.value })} required />
+            </div>
+            <div>
+              <Label htmlFor="dlg-time">Decoration time *</Label>
+              <Input id="dlg-time" type="time" value={form.time} onChange={(e) => setForm({ ...form, time: e.target.value })} required />
+            </div>
           </div>
           <div>
             <Label htmlFor="dlg-notes">Notes</Label>
-            <Textarea id="dlg-notes" rows={3} value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} />
+            <Textarea id="dlg-notes" rows={3} value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} maxLength={800} />
           </div>
           <Button type="submit" className="w-full bg-whatsapp hover:opacity-90 text-white">
             Send Enquiry via WhatsApp
