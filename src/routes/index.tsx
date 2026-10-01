@@ -8,7 +8,8 @@ import { PackageCard } from "@/components/site/PackageCard";
 import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
-import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
+import { HomeBookingDialog } from "@/components/site/HomeBookingDialog";
+import { BRAND } from "@/lib/brand";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
   REVIEWS, GALLERY, PACKAGES, HOMEPAGE_FAQS,
@@ -44,7 +45,6 @@ export const Route = createFileRoute("/")({
 });
 
 function HomePage() {
-  const wa = waLink(waBookingMessage({}));
   const popularCats = CATEGORIES;
 
   return (
@@ -74,14 +74,16 @@ function HomePage() {
               <Star className="h-3.5 w-3.5 fill-gold" /> ★★★★★ Trusted by 12,500+ Customers
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white shadow-luxury">
-                <a href={wa} target="_blank" rel="noopener">
-                  <Phone className="mr-2 h-4 w-4" /> Book On WhatsApp
-                </a>
-              </Button>
-              <Button asChild size="lg" className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90">
-                <Link to="/book"><CalendarCheck className="mr-2 h-4 w-4" /> Book Online</Link>
-              </Button>
+              <HomeBookingDialog
+                label="Book On WhatsApp"
+                icon={<Phone className="mr-2 h-4 w-4" />}
+                className="bg-whatsapp hover:opacity-90 text-white shadow-luxury"
+              />
+              <HomeBookingDialog
+                label="Book Online"
+                icon={<CalendarCheck className="mr-2 h-4 w-4" />}
+                className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90"
+              />
               <Button asChild size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20">
                 <Link to="/packages">View Packages</Link>
               </Button>
@@ -296,7 +298,7 @@ function HomePage() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" className="bg-whatsapp hover:opacity-90 text-white">
-              <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" /> Chat on WhatsApp</a>
+              <Link to="/book"><Phone className="mr-2 h-4 w-4" /> Chat on WhatsApp</Link>
             </Button>
             <Button asChild size="lg" className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90">
               <Link to="/book"><CalendarCheck className="mr-2 h-4 w-4" /> Request a Callback</Link>
