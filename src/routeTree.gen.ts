@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SeoSlugRouteImport } from './routes/$seoSlug'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as AuthRouteImport } from './routes/auth'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as BookRouteImport } from './routes/book'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -37,6 +38,7 @@ import { Route as ServiceRiceCeremonyDecorationRouteImport } from './routes/serv
 import { Route as ServiceRomanticBedroomDecorationRouteImport } from './routes/service.romantic-bedroom-decoration'
 import { Route as ServiceThemeBirthdayDecorationRouteImport } from './routes/service.theme-birthday-decoration'
 import { Route as ServiceWelcomeBabyDecorationRouteImport } from './routes/service.welcome-baby-decoration'
+import { Route as DotlovableOauthConsentRouteImport } from './routes/[.]lovable.oauth.consent'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 
 const IndexRoute = IndexRouteImport.update({
@@ -52,6 +54,11 @@ const SeoSlugRoute = SeoSlugRouteImport.update({
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BlogRoute = BlogRouteImport.update({
@@ -195,6 +202,11 @@ const ServiceWelcomeBabyDecorationRoute =
     path: '/service/welcome-baby-decoration',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DotlovableOauthConsentRoute = DotlovableOauthConsentRouteImport.update({
+  id: '/.lovable/oauth/consent',
+  path: '/.lovable/oauth/consent',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const Char91DotmcpChar93InvokeToolToolRoute =
   Char91DotmcpChar93InvokeToolToolRouteImport.update({
     id: '/.mcp/invoke-tool/$tool',
@@ -206,6 +218,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -231,12 +244,14 @@ export interface FileRoutesByFullPath {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -262,6 +277,7 @@ export interface FileRoutesByTo {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesById {
@@ -269,6 +285,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
+  '/auth': typeof AuthRoute
   '/blog': typeof BlogRouteWithChildren
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
@@ -294,6 +311,7 @@ export interface FileRoutesById {
   '/service/romantic-bedroom-decoration': typeof ServiceRomanticBedroomDecorationRoute
   '/service/theme-birthday-decoration': typeof ServiceThemeBirthdayDecorationRoute
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
+  '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRouteTypes {
@@ -302,6 +320,7 @@ export interface FileRouteTypes {
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -327,12 +346,14 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -358,12 +379,14 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   id:
     | '__root__'
     | '/'
     | '/$seoSlug'
     | '/about'
+    | '/auth'
     | '/blog'
     | '/book'
     | '/contact'
@@ -389,6 +412,7 @@ export interface FileRouteTypes {
     | '/service/romantic-bedroom-decoration'
     | '/service/theme-birthday-decoration'
     | '/service/welcome-baby-decoration'
+    | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesById: FileRoutesById
 }
@@ -396,6 +420,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SeoSlugRoute: typeof SeoSlugRoute
   AboutRoute: typeof AboutRoute
+  AuthRoute: typeof AuthRoute
   BlogRoute: typeof BlogRouteWithChildren
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
@@ -420,6 +445,7 @@ export interface RootRouteChildren {
   ServiceRomanticBedroomDecorationRoute: typeof ServiceRomanticBedroomDecorationRoute
   ServiceThemeBirthdayDecorationRoute: typeof ServiceThemeBirthdayDecorationRoute
   ServiceWelcomeBabyDecorationRoute: typeof ServiceWelcomeBabyDecorationRoute
+  DotlovableOauthConsentRoute: typeof DotlovableOauthConsentRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 
@@ -444,6 +470,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/about'
       preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog': {
@@ -621,6 +654,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceWelcomeBabyDecorationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/.lovable/oauth/consent': {
+      id: '/.lovable/oauth/consent'
+      path: '/.lovable/oauth/consent'
+      fullPath: '/.lovable/oauth/consent'
+      preLoaderRoute: typeof DotlovableOauthConsentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/.mcp/invoke-tool/$tool': {
       id: '/.mcp/invoke-tool/$tool'
       path: '/.mcp/invoke-tool/$tool'
@@ -645,6 +685,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SeoSlugRoute: SeoSlugRoute,
   AboutRoute: AboutRoute,
+  AuthRoute: AuthRoute,
   BlogRoute: BlogRouteWithChildren,
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
@@ -670,6 +711,7 @@ const rootRouteChildren: RootRouteChildren = {
   ServiceRomanticBedroomDecorationRoute: ServiceRomanticBedroomDecorationRoute,
   ServiceThemeBirthdayDecorationRoute: ServiceThemeBirthdayDecorationRoute,
   ServiceWelcomeBabyDecorationRoute: ServiceWelcomeBabyDecorationRoute,
+  DotlovableOauthConsentRoute: DotlovableOauthConsentRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
 }
 export const routeTree = rootRouteImport
