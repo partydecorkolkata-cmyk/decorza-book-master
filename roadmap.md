@@ -6,4 +6,4 @@
 - [x] Standardize route metadata and absolute canonical URLs
 - [x] Add FAQ and package service/offer structured data
 - [x] Improve descriptive image alt text
-- [ ] Validate build, metadata, schema, and responsive behavior
+- [x] Validate build, metadata, schema, and responsive behavior
