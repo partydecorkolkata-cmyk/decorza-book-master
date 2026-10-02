@@ -9,6 +9,7 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { PackageCard } from "@/components/site/PackageCard";
 import { BRAND } from "@/lib/brand";
 import { CATEGORIES, PACKAGES, BUDGET_BUCKETS } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 const packageSearchSchema = z.object({
   budget: fallback(z.string(), "all").default("all"),
@@ -23,9 +24,10 @@ export const Route = createFileRoute("/packages")({
     
       { property: "og:title", content: "Decoration Packages for Every Occasion | Decorza Events" },
       { property: "og:description", content: "Browse Decorza Events packages for birthdays, anniversaries, proposals, baby showers, haldi and more." },
+      { property: "og:url", content: absoluteUrl("/packages") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/packages" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/packages") }],
   }),
   component: PackagesPage,
 });

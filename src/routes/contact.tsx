@@ -10,6 +10,7 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { BRAND, waLink } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
 import { toast } from "sonner";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -19,9 +20,10 @@ export const Route = createFileRoute("/contact")({
     
       { property: "og:title", content: "Contact Decorza Events | Decoration Enquiries" },
       { property: "og:description", content: "Contact Decorza Events for premium birthday, anniversary and celebration decoration across India." },
+      { property: "og:url", content: absoluteUrl("/contact") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/contact") }],
   }),
   component: ContactPage,
 });

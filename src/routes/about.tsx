@@ -3,6 +3,7 @@ import { SectionHeader } from "@/components/site/SectionHeader";
 import { ReviewCard } from "@/components/site/ReviewCard";
 import { BRAND } from "@/lib/brand";
 import { REVIEWS, WHY_CHOOSE } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -12,9 +13,10 @@ export const Route = createFileRoute("/about")({
     
       { property: "og:title", content: "About Decorza Events | Premium Event Decorators in India" },
       { property: "og:description", content: "Learn about Decorza Events and our premium celebration decoration services across seven Indian cities." },
+      { property: "og:url", content: absoluteUrl("/about") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/about") }],
   }),
   component: AboutPage,
 });

@@ -3,6 +3,7 @@ import { CalendarDays, Clock, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { blogBySlug, BLOG_POSTS } from "@/lib/data";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -20,9 +21,10 @@ export const Route = createFileRoute("/blog/$slug")({
         { property: "og:title", content: p.title },
         { property: "og:description", content: p.excerpt },
         { property: "og:type", content: "article" },
-      
-      { name: "twitter:card", content: "summary_large_image" },],
-      links: [{ rel: "canonical", href: `/blog/${p.slug}` }],
+        { property: "og:url", content: absoluteUrl(`/blog/${p.slug}`) },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [{ rel: "canonical", href: absoluteUrl(`/blog/${p.slug}`) }],
       scripts: [{
         type: "application/ld+json",
         children: JSON.stringify({
@@ -57,7 +59,7 @@ function BlogPostPage() {
         <span className="inline-flex items-center gap-1"><CalendarDays className="h-4 w-4" />{new Date(post.date).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}</span>
         <span className="inline-flex items-center gap-1"><Clock className="h-4 w-4" />{post.readTime}</span>
       </div>
-      <img src={post.cover} alt={post.title} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-luxury" />
+      <img src={post.cover} alt={`${post.title} event decoration guide`} className="mt-8 aspect-[16/9] w-full rounded-2xl object-cover shadow-luxury" />
 
       <div className="prose prose-lg mt-10 max-w-none">
         {post.content.map((b: { heading?: string; body: string }, i: number) => (
@@ -85,7 +87,7 @@ function BlogPostPage() {
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             {related.map((p) => (
               <Link key={p.slug} to="/blog/$slug" params={{ slug: p.slug }} className="group overflow-hidden rounded-xl border bg-card transition hover:-translate-y-0.5 hover:shadow-md">
-                <img src={p.cover} alt={p.title} loading="lazy" className="aspect-[16/10] w-full object-cover" />
+                <img src={p.cover} alt={`${p.title} event decoration ideas`} loading="lazy" className="aspect-[16/10] w-full object-cover" />
                 <div className="p-4">
                   <p className="text-xs font-semibold text-primary">{p.category}</p>
                   <p className="mt-1 font-display text-lg leading-tight group-hover:text-primary">{p.title}</p>

@@ -14,7 +14,7 @@ export function PackageCard({ pkg }: { pkg: Package }) {
         <Link to="/package/$id" params={{ id: pkg.id }} aria-label={`View details for ${pkg.name}`}>
           <img
             src={pkg.image}
-            alt={pkg.name}
+            alt={`${pkg.name} event decoration package by Decorza Events`}
             loading="lazy"
             className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
           />

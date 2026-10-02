@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { BLOG_POSTS } from "@/lib/data";
 import { CalendarDays, Clock } from "lucide-react";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/blog")({
   head: () => ({
@@ -11,9 +12,10 @@ export const Route = createFileRoute("/blog")({
       { property: "og:title", content: "Decoration Ideas & Guides | Decorza Events" },
     
       { property: "og:description", content: "Explore birthday, anniversary, baby shower and proposal decoration ideas from Decorza Events." },
+      { property: "og:url", content: absoluteUrl("/blog") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/blog" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/blog") }],
   }),
   component: BlogIndex,
 });
@@ -25,7 +27,7 @@ function BlogIndex() {
       <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {BLOG_POSTS.map((p) => (
           <Link key={p.slug} to="/blog/$slug" params={{ slug: p.slug }} className="group overflow-hidden rounded-2xl border bg-card transition hover:-translate-y-1 hover:shadow-luxury">
-            <img src={p.cover} alt={p.title} loading="lazy" className="aspect-[16/10] w-full object-cover transition group-hover:scale-105" />
+            <img src={p.cover} alt={`${p.title} event decoration ideas from Decorza Events`} loading="lazy" className="aspect-[16/10] w-full object-cover transition group-hover:scale-105" />
             <div className="p-5">
               <div className="flex items-center gap-3 text-xs text-muted-foreground">
                 <span className="rounded-full bg-secondary px-2 py-0.5 font-semibold text-primary">{p.category}</span>

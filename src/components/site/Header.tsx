@@ -1,10 +1,18 @@
 import { Link } from "@tanstack/react-router";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, MapPin } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
 import { PackageSearch } from "@/components/site/PackageSearch";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
+const HEADER_CITIES = ["Kolkata", "Mumbai", "Delhi", "Bengaluru", "Pune", "Hyderabad", "Siliguri"] as const;
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -30,6 +38,20 @@ export function Header() {
         <nav className="hidden items-center gap-6 lg:flex">
           <Link to="/" className="text-sm font-medium hover:text-primary">Home</Link>
           <Link to="/packages" className="text-sm font-medium hover:text-primary">Packages</Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="inline-flex items-center gap-1 text-sm font-medium outline-none hover:text-primary">
+              Cities <ChevronDown className="h-3.5 w-3.5" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="center" className="w-44">
+              {HEADER_CITIES.map((city) => (
+                <DropdownMenuItem key={city} asChild>
+                  <Link to="/city/$slug" params={{ slug: city.toLowerCase() }} className="cursor-pointer">
+                    <MapPin className="h-4 w-4 text-primary" /> {city}
+                  </Link>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Link to="/blog" className="text-sm font-medium hover:text-primary">Blog</Link>
           <Link to="/about" className="text-sm font-medium hover:text-primary">About</Link>
           <Link to="/contact" className="text-sm font-medium hover:text-primary">Contact</Link>
@@ -83,7 +105,7 @@ export function Header() {
             <details>
               <summary className="py-2 cursor-pointer">Cities</summary>
               <div className="grid grid-cols-2 gap-1 pl-2 pb-2">
-                {BRAND.cities.map((city) => (
+                {HEADER_CITIES.map((city) => (
                   <Link
                     key={city}
                     to="/city/$slug"

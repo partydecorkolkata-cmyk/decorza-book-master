@@ -14,7 +14,7 @@ export function CategoryCard({ c }: { c: Category }) {
       >
         <img
           src={c.hero}
-          alt={c.name}
+          alt={`${c.name} event decoration service by Decorza Events`}
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
