@@ -68,6 +68,7 @@ import gateF7 from "@/assets/gate-f7.jpg.asset.json";
 import gateF8 from "@/assets/gate-f8.jpg.asset.json";
 import gateF9 from "@/assets/gate-f9.jpg.asset.json";
 import gateF10 from "@/assets/gate-f10.jpg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/service/entrance-gate-decoration")({
   loader: () => {
@@ -81,10 +82,11 @@ export const Route = createFileRoute("/service/entrance-gate-decoration")({
       { name: "description", content: "Balloon gate arches, marigold torans, floral pillars and welcome pathways for weddings, birthdays and housewarmings. Book on WhatsApp." },
       { property: "og:title", content: "Entrance Gate Decoration | Decorza Events" },
       { property: "og:description", content: "Grand welcome gates, balloon arches and floral entrances starting at ₹1,999." },
+      { property: "og:url", content: absoluteUrl("/service/entrance-gate-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [{ rel: "canonical", href: "https://decorza-book-master.lovable.app/service/entrance-gate-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/entrance-gate-decoration") }],
   }),
   component: ServicePage,
 });

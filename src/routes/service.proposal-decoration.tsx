@@ -78,6 +78,7 @@ import v7 from "@/assets/prop-v7.jpeg.asset.json";
 import v8 from "@/assets/prop-v8.jpeg.asset.json";
 import v9 from "@/assets/prop-v9.png.asset.json";
 import v10 from "@/assets/prop-v10.png.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const PACKAGES = [
   {
@@ -1452,9 +1453,10 @@ export const Route = createFileRoute("/service/proposal-decoration")({
       { property: "og:title", content: `Proposal Decoration | Decorza Events` },
     
       { property: "og:description", content: `Romantic proposal decor with candles, rose paths, ring props, LED “Marry Me” lights and dreamy ambient setups. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/proposal-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/proposal-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/proposal-decoration") }],
   }),
   component: ServicePage,
 });

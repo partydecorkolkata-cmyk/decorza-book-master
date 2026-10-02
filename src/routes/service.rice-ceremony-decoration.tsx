@@ -8,6 +8,7 @@ import { Faq } from "@/components/site/Faq";
 import { StaticPackageCard } from "@/components/site/StaticPackageCard";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { categoryBySlug } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 const RICE_REVIEWS: { name: string; city: string; service: string; text: string; rating: number }[] = [
   { name: "Ananya & Rahul Sharma", city: "Kolkata", service: "Annaprashan Decoration", text: "Decorza made our baby Avik's Annaprashan absolutely magical. The red & gold arch was exactly like the reference picture, marigolds were fresh, and the team arrived 2 hours early. Every guest asked for their contact!", rating: 5 },
@@ -117,9 +118,10 @@ export const Route = createFileRoute("/service/rice-ceremony-decoration")({
       { property: "og:title", content: `Rice Ceremony Decoration | Decorza Events` },
     
       { property: "og:description", content: `Beautiful traditional Annaprashan decor with flowers, drapes, name boards and themed props for your baby's first rice ceremony. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/rice-ceremony-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/rice-ceremony-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/rice-ceremony-decoration") }],
   }),
   component: ServicePage,
 });

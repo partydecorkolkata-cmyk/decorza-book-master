@@ -58,6 +58,7 @@ import engR7 from "@/assets/eng-r7.jpg.asset.json";
 import engR8 from "@/assets/eng-r8.jpg.asset.json";
 import engR9 from "@/assets/eng-r9.jpg.asset.json";
 import engR10 from "@/assets/eng-r10.jpg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_R = [
   {
@@ -955,9 +956,10 @@ export const Route = createFileRoute("/service/engagement-decoration")({
       { property: "og:title", content: `Engagement Decoration | Decorza Events` },
     
       { property: "og:description", content: `Premium engagement stage decor, ring exchange backdrops, floral arches and lounge seating arrangements. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/engagement-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/engagement-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/engagement-decoration") }],
   }),
   component: ServicePage,
 });

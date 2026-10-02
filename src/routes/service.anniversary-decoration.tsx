@@ -135,6 +135,7 @@ import annivM5 from "@/assets/anniv-m5.jpeg.asset.json";
 import annivM6 from "@/assets/anniv-m6.jpeg.asset.json";
 import annivM7 from "@/assets/anniv-m7.jpg.asset.json";
 import annivM8 from "@/assets/anniv-m8.jpg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const NEW_ANNIV_CARDS = [
   { id: "anniversary-a1-25y-sequin", img: annivA1.url, name: "25 Years Rose-Gold Sequin Wall", desc: "Shimmering rose-gold sequin wall paired with a lush gold, maroon & ivory balloon garland, glowing marquee '25' numbers and a neon Happy Anniversary sign — exactly like the picture.", mrp: 11999, sp: 7499, off: 38, best: true, inc: ["Rose-gold sequin shimmer wall","Gold, maroon & ivory balloon garland","Marquee '25' numbers + neon sign"], rt: 4.9, rv: 612 },
@@ -317,9 +318,10 @@ export const Route = createFileRoute("/service/anniversary-decoration")({
       { property: "og:title", content: `Anniversary Decoration | Decorza Events` },
     
       { property: "og:description", content: `Candle paths, rose petal beds, balloon canopies and personalised photo decor for unforgettable anniversaries. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/anniversary-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/anniversary-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/anniversary-decoration") }],
   }),
   component: ServicePage,
 });

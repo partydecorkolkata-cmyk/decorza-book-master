@@ -108,6 +108,7 @@ import w96 from "@/assets/wb-w96.png.asset.json";
 import w97 from "@/assets/wb-w97.png.asset.json";
 import w98 from "@/assets/wb-w98.jpeg.asset.json";
 import w99 from "@/assets/wb-w99.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/service/welcome-baby-decoration")({
   loader: () => {
@@ -122,9 +123,10 @@ export const Route = createFileRoute("/service/welcome-baby-decoration")({
       { property: "og:title", content: `Welcome Baby Decoration | Decorza Events` },
     
       { property: "og:description", content: `Cradle decor, balloon hoops and welcome-home signage to celebrate the newborn’s arrival. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/welcome-baby-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/welcome-baby-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/welcome-baby-decoration") }],
   }),
   component: ServicePage,
 });
