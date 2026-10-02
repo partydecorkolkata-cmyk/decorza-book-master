@@ -13,6 +13,7 @@ export const Route = createFileRoute("/.lovable/oauth/consent")({
     { property: "og:description", content: "Review and approve access to Decorza Events catalogue tools." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary" },
+    { name: "robots", content: "noindex, nofollow" },
   ] }),
   errorComponent: () => <p className="mx-auto max-w-lg p-8">This connection could not be loaded. Please start again from your connecting app.</p>,
   component: ConsentPage,

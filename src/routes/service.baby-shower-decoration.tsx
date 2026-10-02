@@ -92,6 +92,7 @@ import babyK8 from "@/assets/baby-k8.png.asset.json";
 import babyK9 from "@/assets/baby-k9.jpeg.asset.json";
 import babyK10 from "@/assets/baby-k10.jpeg.asset.json";
 import babyL1 from "@/assets/baby-l1.jpg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/service/baby-shower-decoration")({
   loader: () => {
@@ -106,9 +107,10 @@ export const Route = createFileRoute("/service/baby-shower-decoration")({
       { property: "og:title", content: `Baby Shower Decoration | Decorza Events` },
     
       { property: "og:description", content: `Pastel balloon arches, floral backdrops and elegant baby shower setups for the mommy-to-be. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/baby-shower-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/baby-shower-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/baby-shower-decoration") }],
   }),
   component: ServicePage,
 });

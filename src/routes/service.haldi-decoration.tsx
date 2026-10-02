@@ -36,6 +36,7 @@ import haldiQ7 from "@/assets/haldi-q7.jpg.asset.json";
 import haldiQ8 from "@/assets/haldi-q8.jpg.asset.json";
 import haldiQ9 from "@/assets/haldi-q9.jpeg.asset.json";
 import haldiQ10 from "@/assets/haldi-q10.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_P = [
   {
@@ -275,9 +276,10 @@ export const Route = createFileRoute("/service/haldi-decoration")({
       { property: "og:title", content: `Haldi Decoration | Decorza Events` },
     
       { property: "og:description", content: `Marigold florals, yellow drapes, swing decor and traditional props for a picture-perfect haldi function. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/haldi-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/haldi-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/haldi-decoration") }],
   }),
   component: ServicePage,
 });

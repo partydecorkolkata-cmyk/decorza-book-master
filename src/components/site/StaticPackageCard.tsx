@@ -50,7 +50,7 @@ export function StaticPackageCard({
   return (
     <Card className="group overflow-hidden border-border/60 p-0 transition-all hover:-translate-y-1 hover:shadow-luxury">
       <div className="relative aspect-[4/3] overflow-hidden bg-secondary/50">
-        <img src={image} alt={name} loading="lazy" className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105" />
+        <img src={image} alt={`${name} event decoration package by Decorza Events`} loading="lazy" className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105" />
         {discountPct > 0 && (
           <Badge className="absolute left-3 top-3 bg-rose-brand text-white">{discountPct}% OFF</Badge>
         )}
@@ -209,7 +209,7 @@ function PackageDetailsDialog({
       <div className="grid gap-5 md:grid-cols-2">
         <div className="space-y-3">
           <div className="overflow-hidden rounded-xl bg-secondary/50">
-            <img src={image} alt={name} className="aspect-[4/3] w-full object-contain" />
+            <img src={image} alt={`${name} event decoration package by Decorza Events`} className="aspect-[4/3] w-full object-contain" />
           </div>
           <div className="flex items-baseline gap-2">
             <span className="font-display text-2xl text-primary">{offer}</span>

@@ -38,6 +38,7 @@ import mehR7 from "@/assets/meh-r7.jpeg.asset.json";
 import mehR8 from "@/assets/meh-r8.jpg.asset.json";
 import mehR9 from "@/assets/meh-r9.jpeg.asset.json";
 import mehR10 from "@/assets/meh-r10.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_R = [
   {
@@ -300,9 +301,10 @@ export const Route = createFileRoute("/service/mehendi-decoration")({
       { property: "og:title", content: `Mehendi Decoration | Decorza Events` },
     
       { property: "og:description", content: `Bohemian umbrellas, jhoolas, floral installations and Rajasthani-style mehendi decor. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/mehendi-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/mehendi-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/mehendi-decoration") }],
   }),
   component: ServicePage,
 });

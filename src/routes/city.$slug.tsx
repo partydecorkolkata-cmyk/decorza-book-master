@@ -9,6 +9,7 @@ import { BookingForm } from "@/components/site/BookingForm";
 import { Faq } from "@/components/site/Faq";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES, BEST_SELLERS, REVIEWS, GALLERY, HOMEPAGE_FAQS, cityBySlug, categoryBySlug } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/city/$slug")({
   loader: ({ params }) => {
@@ -27,10 +28,11 @@ export const Route = createFileRoute("/city/$slug")({
         { name: "keywords", content: `event decoration ${i.name}, birthday decoration ${i.name}, anniversary decoration ${i.name}, balloon decoration ${i.name}, baby shower decorators ${i.name}, proposal decoration ${i.name}` },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
-      
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },],
-      links: [{ rel: "canonical", href: `/city/${i.slug}` }],
+        { property: "og:url", content: absoluteUrl(`/city/${i.slug}`) },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [{ rel: "canonical", href: absoluteUrl(`/city/${i.slug}`) }],
       scripts: [{
         type: "application/ld+json",
         children: JSON.stringify({
@@ -63,7 +65,7 @@ function CityPage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={GALLERY[0]} alt={`Event decoration in ${city}`} className="h-full w-full object-cover" />
+          <img src={GALLERY[0]} alt={`Premium birthday and celebration event decoration in ${city} by Decorza Events`} className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.2_0.08_305)]/95 to-[oklch(0.32_0.13_5)]/40" />
         </div>
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-white sm:px-6 lg:px-8 lg:py-28">
@@ -160,7 +162,7 @@ function CityPage() {
           <SectionHeader eyebrow="Portfolio" title={`Recent Setups in ${city}`} subtitle="A glimpse from real celebrations we delivered." />
           <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
             {GALLERY.slice(0, 12).map((g, i) => (
-              <img key={i} src={g} alt={`${city} decoration ${i + 1}`} loading="lazy" className="aspect-square w-full rounded-xl object-cover transition hover:scale-[1.03]" />
+              <img key={i} src={g} alt={`Real event decoration setup in ${city} by Decorza Events, portfolio image ${i + 1}`} loading="lazy" className="aspect-square w-full rounded-xl object-cover transition hover:scale-[1.03]" />
             ))}
           </div>
         </div>

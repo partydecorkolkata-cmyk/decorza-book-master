@@ -124,6 +124,7 @@ import themeL8 from "@/assets/theme-l8.jpg.asset.json";
 import themeL9 from "@/assets/theme-l9.jpeg.asset.json";
 import themeL10 from "@/assets/theme-l10.jpeg.asset.json";
 import themeM1 from "@/assets/theme-m1.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const NEW_THEME_CARDS_L = [
   {
@@ -1105,9 +1106,10 @@ export const Route = createFileRoute("/service/theme-birthday-decoration")({
       { property: "og:title", content: `Theme Birthday Decoration | Decorza Events` },
     
       { property: "og:description", content: `From jungle and unicorn to football, princess and superhero themes — fully styled with props, balloons and themed backdrops. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/theme-birthday-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/theme-birthday-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/theme-birthday-decoration") }],
   }),
   component: ServicePage,
 });

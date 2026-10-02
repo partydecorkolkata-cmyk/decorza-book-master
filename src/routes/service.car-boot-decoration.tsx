@@ -48,6 +48,7 @@ import f7 from "@/assets/car-f7.jpeg.asset.json";
 import f8 from "@/assets/car-f8.jpeg.asset.json";
 import f9 from "@/assets/car-f9.jpeg.asset.json";
 import f10 from "@/assets/car-f10.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 
 
@@ -849,9 +850,10 @@ export const Route = createFileRoute("/service/car-boot-decoration")({
       { property: "og:title", content: `Car Boot Decoration | Decorza Events` },
     
       { property: "og:description", content: `Roses, balloons, candles and LED setups inside your car boot — the most-loved surprise of the year. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/car-boot-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/car-boot-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/car-boot-decoration") }],
   }),
   component: ServicePage,
 });

@@ -69,6 +69,7 @@ import g7 from "@/assets/bach-g7.jpg.asset.json";
 import g8 from "@/assets/bach-g8.jpg.asset.json";
 import g9 from "@/assets/bach-g9.jpg.asset.json";
 import g10 from "@/assets/bach-g10.jpg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_G = [
   {
@@ -1136,9 +1137,10 @@ export const Route = createFileRoute("/service/bachelorette-decoration")({
       { property: "og:title", content: `Bachelorette Decoration | Decorza Events` },
     
       { property: "og:description", content: `Neon signs, sash backdrops, balloon clouds and Insta-worthy bachelorette setups for the bride squad. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/bachelorette-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/bachelorette-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/bachelorette-decoration") }],
   }),
   component: ServicePage,
 });

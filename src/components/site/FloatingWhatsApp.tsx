@@ -9,7 +9,7 @@ export function FloatingWhatsApp() {
       target="_blank"
       rel="noopener"
       aria-label={`Chat with ${BRAND.name} on WhatsApp`}
-      className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-luxury transition-transform hover:scale-105"
+      className="fixed bottom-5 right-5 z-50 hidden h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-luxury transition-transform hover:scale-105 lg:flex"
     >
       <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-whatsapp opacity-40" />
       <MessageCircle className="relative h-7 w-7" />

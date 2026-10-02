@@ -12,6 +12,7 @@ import { BookingForm } from "@/components/site/BookingForm";
 import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import { BRAND } from "@/lib/brand";
 import { packageById, categoryBySlug, REVIEWS, PACKAGES } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/package/$id")({
   loader: ({ params }) => {
@@ -29,23 +30,29 @@ export const Route = createFileRoute("/package/$id")({
         { name: "description", content: `${p.name} — starting at ₹${p.offer.toLocaleString()}. Includes ${p.includes.slice(0, 3).join(", ")}. Book on WhatsApp ${BRAND.whatsappDisplay}.` },
         { property: "og:title", content: `${p.name} | Decorza Events` },
         { property: "og:description", content: p.description },
+        { property: "og:url", content: absoluteUrl(`/package/${p.id}`) },
         { property: "og:type", content: "product" },
-      
-      { name: "twitter:card", content: "summary_large_image" },],
-      links: [{ rel: "canonical", href: `/package/${p.id}` }],
-      scripts: [{
-        type: "application/ld+json",
-        children: JSON.stringify({
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [{ rel: "canonical", href: absoluteUrl(`/package/${p.id}`) }],
+      scripts: [
+        {
+          type: "application/ld+json",
+          children: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Product",
+          "@type": "Service",
+          "@id": `${absoluteUrl(`/package/${p.id}`)}#service`,
           name: p.name,
-          image: p.gallery,
+          url: absoluteUrl(`/package/${p.id}`),
+          image: p.gallery.map((image: string) => absoluteUrl(image)),
           description: p.longDescription,
-          brand: { "@type": "Brand", name: "Decorza Events" },
+          provider: { "@type": "LocalBusiness", "@id": "https://decorzaevents.com/#localbusiness", name: "Decorza Events" },
+          areaServed: BRAND.cities.map((name) => ({ "@type": "City", name })),
           aggregateRating: { "@type": "AggregateRating", ratingValue: p.rating, reviewCount: p.reviews },
-          offers: { "@type": "Offer", priceCurrency: "INR", price: p.offer, availability: "https://schema.org/InStock" },
-        }),
-      }],
+          offers: { "@type": "Offer", url: absoluteUrl(`/package/${p.id}`), priceCurrency: "INR", price: p.offer, availability: "https://schema.org/InStock" },
+          }),
+        },
+      ],
     };
   },
   component: PackageDetailPage,
@@ -120,11 +127,11 @@ function PackageDetailPage() {
         <div className="grid gap-8 lg:grid-cols-[1.2fr_1fr]">
           <div>
             <div className="overflow-hidden rounded-2xl shadow-luxury">
-              <img src={pkg.image} alt={pkg.name} className="aspect-[4/3] w-full object-cover" />
+              <img src={pkg.image} alt={`${pkg.name} ${category.name.toLowerCase()} event decoration setup`} className="aspect-[4/3] w-full object-cover" />
             </div>
             <div className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-6">
               {pkg.gallery.map((g: string, i: number) => (
-                <img key={i} src={g} alt={`${pkg.name} ${i + 1}`} loading="lazy" className="aspect-square w-full rounded-lg object-cover ring-1 ring-border hover:ring-primary transition" />
+                <img key={i} src={g} alt={`${pkg.name} event decoration detail view ${i + 1}`} loading="lazy" className="aspect-square w-full rounded-lg object-cover ring-1 ring-border hover:ring-primary transition" />
               ))}
             </div>
           </div>
@@ -386,7 +393,7 @@ function PackageDetailPage() {
             <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <Link key={p.id} to="/package/$id" params={{ id: p.id }} className="group overflow-hidden rounded-2xl border bg-card transition hover:-translate-y-1 hover:shadow-luxury">
-                  <img src={p.image} alt={p.name} loading="lazy" className="aspect-[4/3] w-full object-cover transition group-hover:scale-105" />
+                  <img src={p.image} alt={`${p.name} related ${category.name.toLowerCase()} decoration package`} loading="lazy" className="aspect-[4/3] w-full object-cover transition group-hover:scale-105" />
                   <div className="p-4">
                     <h4 className="font-display text-lg">{p.name}</h4>
                     <div className="mt-2 flex items-baseline gap-2">

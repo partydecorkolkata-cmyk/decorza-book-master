@@ -6,6 +6,23 @@ export function absoluteUrl(path = "/") {
   return new URL(path, SITE_URL).toString();
 }
 
+export type FaqItem = { q: string; a: string };
+
+export function faqPageSchema(items: FaqItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
+  };
+}
+
 export const LOCAL_BUSINESS_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",

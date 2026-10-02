@@ -147,6 +147,7 @@ import pkgM4MickeyPink from "@/assets/bday-m4.jpg.asset.json";
 import pkgM5WhiteGoldFloral from "@/assets/bday-m5.jpg.asset.json";
 import pkgM6RedBlackFrame from "@/assets/bday-m6.png.asset.json";
 import pkgM725thBash from "@/assets/bday-m7.webp.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const birthdayGalleryImages = [
   { src: birthdayGalleryGreenThree.url, alt: "Green and gold birthday balloon frame setup" },
@@ -304,9 +305,10 @@ export const Route = createFileRoute("/service/birthday-decoration")({
       { property: "og:title", content: `Birthday Decoration | Decorza Events` },
     
       { property: "og:description", content: `Premium balloon arches, ring decorations, LED backdrops and themed birthday surprises designed to make the day unforgettable. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/birthday-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/birthday-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/birthday-decoration") }],
   }),
   component: ServicePage,
 });

@@ -9,6 +9,7 @@ import { Faq } from "@/components/site/Faq";
 import { BookingForm } from "@/components/site/BookingForm";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES, CITY_DATA, PACKAGES, REVIEWS } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 
 // Build the set of valid combined slugs: e.g. "birthday-decoration-kolkata"
 const COMBINED = (() => {
@@ -45,11 +46,11 @@ export const Route = createFileRoute("/$seoSlug")({
         { name: "keywords", content: `${category.name.toLowerCase()} ${city.name}, ${category.slug.replace(/-/g, " ")} in ${city.name}, decorators ${city.name}, ${category.name.toLowerCase()} near me` },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
-        { property: "og:url", content: `/${params.seoSlug}` },
+        { property: "og:url", content: absoluteUrl(`/${params.seoSlug}`) },
       
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-      links: [{ rel: "canonical", href: `/${params.seoSlug}` }],
+      links: [{ rel: "canonical", href: absoluteUrl(`/${params.seoSlug}`) }],
       scripts: [{
         type: "application/ld+json",
         children: JSON.stringify({

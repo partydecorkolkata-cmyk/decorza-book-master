@@ -8,8 +8,8 @@ import { PackageCard } from "@/components/site/PackageCard";
 import { ReviewCard } from "@/components/site/ReviewCard";
 import { Faq } from "@/components/site/Faq";
 import { WhyChooseUs } from "@/components/site/WhyChooseUs";
-import { HomeBookingDialog } from "@/components/site/HomeBookingDialog";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
+import { absoluteUrl } from "@/lib/seo";
 import {
   CATEGORIES, TRENDING_PACKAGES, BEST_SELLERS, BUDGET_BUCKETS,
   REVIEWS, GALLERY, PACKAGES, HOMEPAGE_FAQS,
@@ -22,24 +22,11 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Book premium birthday, anniversary, proposal, baby shower, haldi & engagement decorations in Kolkata, Mumbai, Delhi, Bengaluru, Hyderabad, Pune & Siliguri. Same-day setup. WhatsApp +91 86378 70742." },
       { property: "og:title", content: "Decorza Events | Premium Event Decoration" },
       { property: "og:description", content: "Crafting memorable celebrations across India. Book on WhatsApp." },
-    
+      { property: "og:url", content: absoluteUrl("/") },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },],
-    scripts: [
-      {
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: "Decorza Events",
-          description: "Premium event decoration & celebration planning across India.",
-          telephone: "+91 86378 70742",
-          areaServed: [...BRAND.cities],
-          priceRange: "₹₹",
-          aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "12500" },
-        }),
-      },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [{ rel: "canonical", href: absoluteUrl("/") }],
   }),
   component: HomePage,
 });
@@ -55,7 +42,7 @@ function HomePage() {
         <div className="absolute inset-0">
           <img
             src="/images/balloon-decoration-hero-v2.jpg"
-            alt="Premium event decoration"
+            alt="Premium balloon and floral event decoration by Decorza Events"
             className="h-full w-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[oklch(0.18_0.08_305)]/95 via-[oklch(0.22_0.1_315)]/80 to-[oklch(0.32_0.13_5)]/55" />
@@ -75,16 +62,12 @@ function HomePage() {
               <Star className="h-3.5 w-3.5 fill-gold" /> ★★★★★ Trusted by 12,500+ Customers
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <HomeBookingDialog
-                label="Book On WhatsApp"
-                icon={<Phone className="mr-2 h-4 w-4" />}
-                className="bg-whatsapp hover:opacity-90 text-white shadow-luxury"
-              />
-              <HomeBookingDialog
-                label="Book Online"
-                icon={<CalendarCheck className="mr-2 h-4 w-4" />}
-                className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90"
-              />
+              <Button asChild size="lg" className="bg-whatsapp text-white shadow-luxury hover:opacity-90">
+                <a href={wa} target="_blank" rel="noopener"><Phone className="mr-2 h-4 w-4" />Book On WhatsApp</a>
+              </Button>
+              <Button asChild size="lg" className="bg-gold text-[oklch(0.18_0.05_305)] hover:opacity-90">
+                <Link to="/book"><CalendarCheck className="mr-2 h-4 w-4" />Book Online</Link>
+              </Button>
               <Button asChild size="lg" variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/20">
                 <Link to="/packages">View Packages</Link>
               </Button>
@@ -108,7 +91,7 @@ function HomePage() {
                 <img
                   key={c.slug}
                   src={c.hero}
-                  alt={c.name}
+                  alt={`${c.name} celebration decoration setup by Decorza Events`}
                   className={`h-56 w-full rounded-2xl object-cover shadow-luxury ${i % 2 ? "mt-10" : ""}`}
                   loading={i === 0 ? "eager" : "lazy"}
                 />
@@ -247,7 +230,7 @@ function HomePage() {
               <>
                 <img
                   src={image}
-                  alt={pkg?.name ?? `Decorza Events decoration setup ${i + 1}`}
+                  alt={pkg ? `${pkg.name} event decoration package` : `Real celebration decoration setup by Decorza Events, gallery image ${i + 1}`}
                   loading="lazy"
                   className="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

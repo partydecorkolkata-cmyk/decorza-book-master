@@ -18,6 +18,7 @@ import hwN7 from "@/assets/hw-n7.jpg.asset.json";
 import hwN8 from "@/assets/hw-n8.jpg.asset.json";
 import hwN9 from "@/assets/hw-n9.jpeg.asset.json";
 import hwN10 from "@/assets/hw-n10.png.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_N = [
   {
@@ -114,9 +115,10 @@ export const Route = createFileRoute("/service/housewarming-decoration")({
       { property: "og:title", content: `Housewarming Decoration | Decorza Events` },
     
       { property: "og:description", content: `Traditional rangoli, floral entrances, mango leaf torans and lamp setups for housewarming ceremonies. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/housewarming-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/housewarming-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/housewarming-decoration") }],
   }),
   component: ServicePage,
 });

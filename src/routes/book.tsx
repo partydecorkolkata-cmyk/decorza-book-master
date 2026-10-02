@@ -3,6 +3,7 @@ import { z } from "zod";
 import { BookingForm } from "@/components/site/BookingForm";
 import { SectionHeader } from "@/components/site/SectionHeader";
 import { ShieldCheck, Clock, Sparkles } from "lucide-react";
+import { absoluteUrl } from "@/lib/seo";
 
 const search = z.object({ pkg: z.string().optional() });
 
@@ -15,9 +16,10 @@ export const Route = createFileRoute("/book")({
     
       { property: "og:title", content: "Book Event Decoration Online | Decorza Events" },
       { property: "og:description", content: "Book your event decoration online with Decorza Events and receive confirmation through WhatsApp." },
+      { property: "og:url", content: absoluteUrl("/book") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/book" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/book") }],
   }),
   component: BookPage,
 });

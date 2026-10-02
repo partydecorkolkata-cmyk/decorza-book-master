@@ -71,24 +71,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Decorza Events | Premium Event Decoration in Kolkata, Mumbai, Delhi & More" },
-      {
-        name: "description",
-        content:
-          "Decorza Events — premium birthday, anniversary, proposal, baby shower, haldi, mehendi and engagement decorations in Kolkata, Siliguri, Delhi, Mumbai, Bengaluru, Hyderabad and Pune. Book on WhatsApp.",
-      },
       { name: "author", content: "Decorza Events" },
       { name: "theme-color", content: "#3a1457" },
-      { property: "og:title", content: "Decorza Events | Premium Event Decoration in Kolkata, Mumbai, Delhi & More" },
-      { property: "og:description", content: "Decorza Delight is a premium event decoration booking website for Decorza Events." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Decorza Events" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Decorza Events | Premium Event Decoration in Kolkata, Mumbai, Delhi & More" },
-      { name: "description", content: "Decorza Delight is a premium event decoration booking website for Decorza Events." },
-      { name: "twitter:description", content: "Decorza Delight is a premium event decoration booking website for Decorza Events." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f05a3ce5-b97d-4eee-85c3-14bf400eadfc/id-preview-e57f6e10--883297e2-bdb1-41c0-a1e4-ae4c2ae7a7b1.lovable.app-1780074019183.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f05a3ce5-b97d-4eee-85c3-14bf400eadfc/id-preview-e57f6e10--883297e2-bdb1-41c0-a1e4-ae4c2ae7a7b1.lovable.app-1780074019183.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -98,7 +84,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap",
       },
-      { rel: "canonical", href: "/" },
     ],
     scripts: [
       {
@@ -131,7 +116,7 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="flex min-h-screen flex-col pb-12 lg:pb-0">
+      <div className="flex min-h-screen flex-col pb-[calc(3rem+env(safe-area-inset-bottom))] lg:pb-0">
         <TopBar />
         <Header />
         <main className="flex-1">

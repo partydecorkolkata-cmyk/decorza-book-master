@@ -108,6 +108,7 @@ import rbdX7 from "@/assets/rbd-x7.jpeg.asset.json";
 import rbdX8 from "@/assets/rbd-x8.jpeg.asset.json";
 import rbdX9 from "@/assets/rbd-x9.jpeg.asset.json";
 import rbdX10 from "@/assets/rbd-x10.jpeg.asset.json";
+import { absoluteUrl } from "@/lib/seo";
 
 const BATCH_X = [
   {
@@ -1879,9 +1880,10 @@ export const Route = createFileRoute("/service/romantic-bedroom-decoration")({
       { property: "og:title", content: `Romantic Bedroom Decoration | Decorza Events` },
     
       { property: "og:description", content: `Rose petal beds, candle paths, balloons and fairy lights — perfect for honeymoons, anniversaries and surprises. Book on WhatsApp.` },
+      { property: "og:url", content: absoluteUrl("/service/romantic-bedroom-decoration") },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },],
-    links: [{ rel: "canonical", href: "/service/romantic-bedroom-decoration" }],
+    links: [{ rel: "canonical", href: absoluteUrl("/service/romantic-bedroom-decoration") }],
   }),
   component: ServicePage,
 });
