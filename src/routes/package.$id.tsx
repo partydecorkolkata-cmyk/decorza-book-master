@@ -12,7 +12,7 @@ import { BookingForm } from "@/components/site/BookingForm";
 import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import { BRAND } from "@/lib/brand";
 import { packageById, categoryBySlug, REVIEWS, PACKAGES } from "@/lib/data";
-import { absoluteUrl, faqPageSchema } from "@/lib/seo";
+import { absoluteUrl } from "@/lib/seo";
 
 export const Route = createFileRoute("/package/$id")({
   loader: ({ params }) => {
@@ -51,10 +51,6 @@ export const Route = createFileRoute("/package/$id")({
           aggregateRating: { "@type": "AggregateRating", ratingValue: p.rating, reviewCount: p.reviews },
           offers: { "@type": "Offer", url: absoluteUrl(`/package/${p.id}`), priceCurrency: "INR", price: p.offer, availability: "https://schema.org/InStock" },
           }),
-        },
-        {
-          type: "application/ld+json",
-          children: JSON.stringify(faqPageSchema(loaderData?.category.faqs ?? [])),
         },
       ],
     };
