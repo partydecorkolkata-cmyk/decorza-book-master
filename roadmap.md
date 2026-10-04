@@ -1,9 +1,8 @@
 # Roadmap
 
-- [x] Differentiate homepage WhatsApp and online booking CTAs
-- [x] Add desktop and mobile city navigation
-- [x] Resolve small-screen CTA overlap
-- [x] Standardize route metadata and absolute canonical URLs
-- [x] Add FAQ and package service/offer structured data
-- [x] Improve descriptive image alt text
-- [x] Validate build, metadata, schema, and responsive behavior
+- [ ] Create secure bookings and admin-role database structure
+- [ ] Grant admin access to the approved account
+- [ ] Save all submitted booking and inquiry forms before WhatsApp opens
+- [ ] Add protected admin dashboard with filters, search, and lead updates
+- [ ] Add session-aware admin access and sign-out
+- [ ] Verify security, form persistence, dashboard behavior, and mobile layout
