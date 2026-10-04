@@ -54,7 +54,7 @@ function AdminDashboard() {
     queryFn: () => loadBookings({ data: filters }),
   });
   const updateMutation = useMutation({
-    mutationFn: (data: Parameters<typeof saveBooking>[0]["data"]) => saveBooking({ data }),
+    mutationFn: (data: { id: string; status: (typeof BOOKING_STATUSES)[number]; advanceAmount: number; balanceDue: number; internalNotes: string }) => saveBooking({ data }),
     onSuccess: () => { void queryClient.invalidateQueries({ queryKey: ["admin-bookings"] }); toast.success("Booking updated."); },
     onError: (error) => toast.error(error instanceof Error ? error.message : "Update failed."),
   });
