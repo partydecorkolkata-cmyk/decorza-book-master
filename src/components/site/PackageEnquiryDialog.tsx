@@ -15,6 +15,8 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { BRAND, waLink } from "@/lib/brand";
 import { toast } from "sonner";
+import { useServerFn } from "@tanstack/react-start";
+import { createBookingLead } from "@/lib/bookings.functions";
 
 const STORAGE_KEY = "decorza-customer-enquiry-details";
 
@@ -64,8 +66,10 @@ export function PackageEnquiryDialog({
   triggerIcon,
 }: PackageEnquiryDialogProps) {
   const [open, setOpen] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [form, setForm] = useState<CustomerDetails>(emptyCustomer);
   const fieldPrefix = useId();
+  const saveLead = useServerFn(createBookingLead);
 
   useEffect(() => {
     if (!open) return;
@@ -83,7 +87,7 @@ export function PackageEnquiryDialog({
     setForm((current) => ({ ...current, [field]: value }));
   }
 
-  function submit(event: React.FormEvent<HTMLFormElement>) {
+  async function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const result = customerSchema.safeParse(form);
     if (!result.success) {
@@ -124,9 +128,27 @@ export function PackageEnquiryDialog({
       "",
       "Please confirm availability and the final quotation.",
     ].join("\n");
-
-    window.open(waLink(message), "_blank", "noopener,noreferrer");
-    toast.success("Opening WhatsApp with your complete enquiry…");
+    setSubmitting(true);
+    try {
+      await saveLead({ data: {
+        customerName: customer.name,
+        phone: customer.phone,
+        area: customer.address,
+        address: customer.address,
+        eventDate: customer.date,
+        eventTime: customer.time,
+        packageId,
+        packageName: name,
+        sourcePage: window.location.pathname,
+        sourceType: "package_whatsapp",
+      } });
+      window.open(waLink(message), "_blank", "noopener,noreferrer");
+      toast.success("Your enquiry was saved. Opening WhatsApp…");
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "We couldn't save your request. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   const today = new Date().toISOString().slice(0, 10);
@@ -189,8 +211,8 @@ export function PackageEnquiryDialog({
                 <Input id={`${fieldPrefix}-time`} type="time" value={form.time} onChange={(event) => update("time", event.target.value)} required />
               </div>
             </div>
-            <Button type="submit" className="w-full bg-whatsapp text-white hover:opacity-90">
-              <MessageCircle className="mr-2 h-4 w-4" /> Send Complete Enquiry
+            <Button type="submit" disabled={submitting} className="w-full bg-whatsapp text-white hover:opacity-90">
+              <MessageCircle className="mr-2 h-4 w-4" /> {submitting ? "Saving…" : "Send Complete Enquiry"}
             </Button>
             <p className="text-xs text-muted-foreground">Your details stay only in this browser and are sent through WhatsApp.</p>
           </form>

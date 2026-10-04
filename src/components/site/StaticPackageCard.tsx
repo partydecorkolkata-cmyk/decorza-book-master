@@ -14,6 +14,8 @@ import { PackageEnquiryDialog } from "@/components/site/PackageEnquiryDialog";
 import { toast } from "sonner";
 import type { ReactNode } from "react";
 import { z } from "zod";
+import { useServerFn } from "@tanstack/react-start";
+import { createBookingLead } from "@/lib/bookings.functions";
 
 const detailsEnquirySchema = z.object({
   name: z.string().trim().min(2, "Please enter your full name.").max(100, "Name is too long."),
@@ -124,6 +126,8 @@ function PackageDetailsDialog({
   discountPct: number;
 }) {
   const [form, setForm] = useState({ name: "", mobile: "", address: "", date: "", time: "", city: "", notes: "" });
+  const [submitting, setSubmitting] = useState(false);
+  const saveLead = useServerFn(createBookingLead);
 
   useEffect(() => {
     try {
@@ -149,7 +153,7 @@ function PackageDetailsDialog({
     }
   }, []);
 
-  function submit(e: React.FormEvent) {
+  async function submit(e: React.FormEvent) {
     e.preventDefault();
     const result = detailsEnquirySchema.safeParse(form);
     if (!result.success) {
@@ -195,8 +199,29 @@ function PackageDetailsDialog({
       ``,
       `Please confirm availability and the final quotation.`,
     ].join("\n");
-    window.open(waLink(msg), "_blank", "noopener");
-    toast.success("Opening WhatsApp with your enquiry…");
+    setSubmitting(true);
+    try {
+      await saveLead({ data: {
+        customerName: customer.name,
+        phone: customer.mobile,
+        city: customer.city || undefined,
+        area: customer.address,
+        address: customer.address,
+        eventDate: customer.date,
+        eventTime: customer.time,
+        packageId: id,
+        packageName: name,
+        sourcePage: window.location.pathname,
+        sourceType: "package_details",
+        customerMessage: customer.notes || undefined,
+      } });
+      window.open(waLink(msg), "_blank", "noopener");
+      toast.success("Your enquiry was saved. Opening WhatsApp…");
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "We couldn't save your request. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -274,8 +299,8 @@ function PackageDetailsDialog({
             <Label htmlFor="dlg-notes">Notes</Label>
             <Textarea id="dlg-notes" rows={3} value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} maxLength={800} />
           </div>
-          <Button type="submit" className="w-full bg-whatsapp hover:opacity-90 text-white">
-            Send Enquiry via WhatsApp
+          <Button type="submit" disabled={submitting} className="w-full bg-whatsapp hover:opacity-90 text-white">
+            {submitting ? "Saving enquiry…" : "Send Enquiry via WhatsApp"}
           </Button>
           <p className="text-xs text-muted-foreground">We reply within minutes on {BRAND.whatsappDisplay}.</p>
         </form>

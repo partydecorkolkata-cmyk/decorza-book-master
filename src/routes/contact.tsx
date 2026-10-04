@@ -11,6 +11,8 @@ import { BRAND, waLink } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
 import { toast } from "sonner";
 import { absoluteUrl } from "@/lib/seo";
+import { useServerFn } from "@tanstack/react-start";
+import { createBookingLead } from "@/lib/bookings.functions";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -30,12 +32,31 @@ export const Route = createFileRoute("/contact")({
 
 function ContactPage() {
   const [f, setF] = useState({ name: "", phone: "", city: "Kolkata", type: CATEGORIES[0].name, message: "" });
-  function submit(e: React.FormEvent) {
+  const [submitting, setSubmitting] = useState(false);
+  const saveLead = useServerFn(createBookingLead);
+  async function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!f.name || !f.phone) { toast.error("Please fill name and phone."); return; }
     const msg = `Hello ${BRAND.name},\n\nNew Inquiry:\nName: ${f.name}\nPhone: ${f.phone}\nCity: ${f.city}\nEvent Type: ${f.type}\n\n${f.message}`;
-    window.open(waLink(msg), "_blank", "noopener");
-    toast.success("Opening WhatsApp to send your inquiry…");
+    setSubmitting(true);
+    try {
+      await saveLead({ data: {
+        customerName: f.name,
+        phone: f.phone,
+        city: f.city,
+        occasion: f.type,
+        serviceName: f.type,
+        sourcePage: window.location.pathname,
+        sourceType: "contact",
+        customerMessage: f.message || undefined,
+      } });
+      window.open(waLink(msg), "_blank", "noopener");
+      toast.success("Your inquiry was saved. Opening WhatsApp…");
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "We couldn't save your inquiry. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -117,7 +138,7 @@ function ContactPage() {
               <Label htmlFor="cmsg">Message</Label>
               <Textarea id="cmsg" rows={4} value={f.message} onChange={(e) => setF({ ...f, message: e.target.value })} maxLength={600} />
             </div>
-            <Button type="submit" className="bg-whatsapp text-white hover:opacity-90">Send Inquiry on WhatsApp</Button>
+            <Button type="submit" disabled={submitting} className="bg-whatsapp text-white hover:opacity-90">{submitting ? "Saving inquiry…" : "Send Inquiry on WhatsApp"}</Button>
           </div>
         </form>
       </section>
