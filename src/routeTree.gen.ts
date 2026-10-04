@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SeoSlugRouteImport } from './routes/$seoSlug'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as BlogRouteImport } from './routes/blog'
@@ -20,6 +21,7 @@ import { Route as McpRouteImport } from './routes/mcp'
 import { Route as PackagesRouteImport } from './routes/packages'
 import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
 import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
+import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CitySlugRouteImport } from './routes/city.$slug'
 import { Route as PackageIdRouteImport } from './routes/package.$id'
@@ -49,6 +51,10 @@ const IndexRoute = IndexRouteImport.update({
 const SeoSlugRoute = SeoSlugRouteImport.update({
   id: '/$seoSlug',
   path: '/$seoSlug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -98,6 +104,11 @@ const Char91DotwellKnownChar93OauthProtectedResourceRoute =
     path: '/.well-known/oauth-protected-resource',
     getParentRoute: () => rootRouteImport,
   } as any)
+const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
@@ -226,6 +237,7 @@ export interface FileRoutesByFullPath {
   '/packages': typeof PackagesRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -259,6 +271,7 @@ export interface FileRoutesByTo {
   '/packages': typeof PackagesRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -283,6 +296,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/$seoSlug': typeof SeoSlugRoute
   '/about': typeof AboutRoute
   '/auth': typeof AuthRoute
@@ -293,6 +307,7 @@ export interface FileRoutesById {
   '/packages': typeof PackagesRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
+  '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/city/$slug': typeof CitySlugRoute
   '/package/$id': typeof PackageIdRoute
@@ -328,6 +343,7 @@ export interface FileRouteTypes {
     | '/packages'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
+    | '/admin'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -361,6 +377,7 @@ export interface FileRouteTypes {
     | '/packages'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
+    | '/admin'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -384,6 +401,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/_authenticated'
     | '/$seoSlug'
     | '/about'
     | '/auth'
@@ -394,6 +412,7 @@ export interface FileRouteTypes {
     | '/packages'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
+    | '/_authenticated/admin'
     | '/blog/$slug'
     | '/city/$slug'
     | '/package/$id'
@@ -418,6 +437,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   SeoSlugRoute: typeof SeoSlugRoute
   AboutRoute: typeof AboutRoute
   AuthRoute: typeof AuthRoute
@@ -463,6 +483,13 @@ declare module '@tanstack/react-router' {
       path: '/$seoSlug'
       fullPath: '/$seoSlug'
       preLoaderRoute: typeof SeoSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -527,6 +554,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/.well-known/oauth-protected-resource'
       preLoaderRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/admin': {
+      id: '/_authenticated/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AuthenticatedAdminRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
     }
     '/blog/$slug': {
       id: '/blog/$slug'
@@ -671,6 +705,17 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedAdminRoute: typeof AuthenticatedAdminRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedAdminRoute: AuthenticatedAdminRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
 interface BlogRouteChildren {
   BlogSlugRoute: typeof BlogSlugRoute
 }
@@ -683,6 +728,7 @@ const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   SeoSlugRoute: SeoSlugRoute,
   AboutRoute: AboutRoute,
   AuthRoute: AuthRoute,

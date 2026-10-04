@@ -8,6 +8,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { BRAND, waLink } from "@/lib/brand";
 import { CATEGORIES, PACKAGES } from "@/lib/data";
 import { toast } from "sonner";
+import { useServerFn } from "@tanstack/react-start";
+import { createBookingLead } from "@/lib/bookings.functions";
 
 const bookingSchema = z.object({
   name: z.string().trim().min(2, "Please enter your full name.").max(80, "Name is too long."),
@@ -26,6 +28,8 @@ const bookingSchema = z.object({
 const STORAGE_KEY = "decorza-customer-booking-details";
 
 export function BookingForm({ defaultPackageId }: { defaultPackageId?: string }) {
+  const saveLead = useServerFn(createBookingLead);
+  const [submitting, setSubmitting] = useState(false);
   const defaultPackage = PACKAGES.find((pkg) => pkg.id === defaultPackageId);
   const defaultCategory = CATEGORIES.find((category) => category.slug === defaultPackage?.categorySlug);
   const [form, setForm] = useState({
@@ -58,7 +62,7 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
     setForm((f) => ({ ...f, [k]: v }));
   }
 
-  function onSubmit(e: React.FormEvent) {
+  async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     const result = bookingSchema.safeParse(form);
     if (!result.success) {
@@ -107,8 +111,31 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
         ...pkg.includes.filter((item) => item.trim()).map((item) => `• ${item.trim()}`),
       ] : []),
     ].join("\n");
-    window.open(waLink(msg), "_blank", "noopener");
-    toast.success("Sending your request to our team on WhatsApp…");
+    setSubmitting(true);
+    try {
+      await saveLead({ data: {
+        customerName: booking.name,
+        phone: booking.whatsapp || booking.mobile,
+        city: booking.city,
+        area: booking.location,
+        address: booking.location,
+        occasion: booking.eventType,
+        eventDate: booking.date,
+        eventTime: booking.time,
+        packageId: pkg?.id,
+        packageName: pkg?.name,
+        serviceName: booking.eventType,
+        sourcePage: window.location.pathname,
+        sourceType: "online_booking",
+        customerMessage: booking.notes || undefined,
+      } });
+      window.open(waLink(msg), "_blank", "noopener");
+      toast.success("Your booking was saved. Opening WhatsApp…");
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : "We couldn't save your booking. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   return (
@@ -196,8 +223,8 @@ export function BookingForm({ defaultPackageId }: { defaultPackageId?: string })
         <Textarea id="notes" rows={4} value={form.notes} onChange={(e) => update("notes", e.target.value)} maxLength={800} />
       </div>
       <div className="sm:col-span-2 flex flex-col gap-3 sm:flex-row">
-        <Button type="submit" className="flex-1 bg-whatsapp hover:opacity-90 text-white">
-          Send Booking Request via WhatsApp
+        <Button type="submit" disabled={submitting} className="flex-1 bg-whatsapp hover:opacity-90 text-white">
+          {submitting ? "Saving booking…" : "Send Booking Request via WhatsApp"}
         </Button>
         <Button type="button" variant="outline" className="flex-1" asChild>
           <a href={`tel:+${BRAND.whatsapp}`}>Call / Request Callback</a>
