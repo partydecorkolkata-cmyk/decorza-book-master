@@ -8,6 +8,13 @@
       "when": 1791131247499,
       "tag": "0000_create_secure_booking_pipeline",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791131356300,
+      "tag": "0001_restrict_role_helper_execution",
+      "breakpoints": true
     }
   ]
 }
