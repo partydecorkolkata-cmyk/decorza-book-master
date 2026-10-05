@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
 import { PackageSearch } from "@/components/site/PackageSearch";
+import decorzaLogo from "@/assets/decorza-logo.jpg.asset.json";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,9 +23,11 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border/60 bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-full gradient-luxury text-white font-display text-lg shadow-luxury">
-            D
-          </span>
+          <img
+            src={decorzaLogo.url}
+            alt="Decorza Events logo"
+            className="h-10 w-10 shrink-0 rounded-full object-cover shadow-luxury"
+          />
           <span className="flex flex-col leading-none">
             <span className="font-display text-lg font-semibold tracking-tight">
               {BRAND.name}

@@ -7,3 +7,4 @@
 - [x] Add session-aware admin access and sign-out
 - [x] Verify sign-in protection, form persistence, compilation, and dashboard implementation
 - [x] Remove “Across India” and the “7 Cities / Pan India” homepage statistic
+- [x] Replace the header “D” badge and browser icon with the Decorza Events logo
