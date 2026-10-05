@@ -53,7 +53,7 @@ function HomePage() {
               <Sparkles className="mr-1 h-3 w-3 text-gold" /> {BRAND.tagline}
             </Badge>
             <h1 className="mt-4 font-display text-4xl leading-tight sm:text-5xl lg:text-6xl">
-              Crafting <span className="text-gradient-gold">Memorable Celebrations</span> Across India
+              Crafting <span className="text-gradient-gold">Memorable Celebrations</span>
             </h1>
             <p className="mt-5 max-w-xl text-base text-white/85 sm:text-lg">
               Birthday Decorations · Anniversary Setups · Proposal Surprises · Romantic Room Decorations · Baby Showers · Engagement Ceremonies · Haldi · Rice Ceremony · Welcome Baby · Car Boot Decoration.
@@ -72,11 +72,10 @@ function HomePage() {
                 <Link to="/packages">View Packages</Link>
               </Button>
             </div>
-            <div className="mt-8 grid max-w-md grid-cols-3 gap-4 text-center">
+            <div className="mt-8 grid max-w-md grid-cols-2 gap-4 text-center">
               {[
                 { v: "12,500+", l: "Happy Clients" },
                 { v: "4.9★", l: "Avg Rating" },
-                { v: "7 Cities", l: "Pan India" },
               ].map((s) => (
                 <div key={s.l} className="rounded-xl border border-white/15 bg-white/5 p-3 backdrop-blur">
                   <p className="font-display text-2xl text-gold">{s.v}</p>

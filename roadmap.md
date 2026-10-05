@@ -6,3 +6,4 @@
 - [x] Add protected admin dashboard with filters, search, and lead updates
 - [x] Add session-aware admin access and sign-out
 - [x] Verify sign-in protection, form persistence, compilation, and dashboard implementation
+- [x] Remove “Across India” and the “7 Cities / Pan India” homepage statistic
