@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
 import { CATEGORIES } from "@/lib/data";
+import decorzaFooterLogo from "@/assets/decorza-footer-logo.jpg.asset.json";
 
 export function Footer() {
   const wa = waLink(waBookingMessage({}));
@@ -26,7 +27,12 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-6 lg:px-8">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2">
-            <span className="grid h-10 w-10 place-items-center rounded-full gradient-gold text-[oklch(0.18_0.05_305)] font-display text-lg">D</span>
+            <img
+              src={decorzaFooterLogo.url}
+              alt="Decorza Events logo"
+              className="h-12 w-12 shrink-0 rounded-full object-cover shadow-luxury"
+              loading="lazy"
+            />
             <span className="font-display text-xl">{BRAND.name}</span>
           </div>
           <p className="mt-4 text-sm text-white/65">

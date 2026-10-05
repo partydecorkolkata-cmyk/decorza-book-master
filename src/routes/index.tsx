@@ -117,6 +117,27 @@ function HomePage() {
         </div>
       </section>
 
+      {/* BUDGET */}
+      <section className="bg-gradient-to-b from-secondary/30 to-background py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeader eyebrow="Shop by Budget" title="Decoration By Budget" subtitle="Premium options for every pocket." />
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {BUDGET_BUCKETS.map((b) => (
+              <Link
+                key={b.slug}
+                to="/packages"
+                search={{ budget: b.slug }}
+                className="group relative overflow-hidden rounded-2xl border bg-card p-6 text-center transition-all hover:-translate-y-1 hover:shadow-luxury"
+              >
+                <IndianRupee className="mx-auto h-7 w-7 text-gold" />
+                <p className="mt-3 font-display text-lg">{b.label}</p>
+                <p className="mt-1 text-xs text-muted-foreground">Explore packages</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* POPULAR CATEGORIES */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <SectionHeader
@@ -149,27 +170,6 @@ function HomePage() {
         <SectionHeader eyebrow="Best Sellers" title="Most-Loved Packages" subtitle="Couples and families across India keep coming back for these." />
         <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {BEST_SELLERS.map((p) => <PackageCard key={p.id} pkg={p} />)}
-        </div>
-      </section>
-
-      {/* BUDGET */}
-      <section className="bg-gradient-to-b from-secondary/30 to-background py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeader eyebrow="Shop by Budget" title="Decoration By Budget" subtitle="Premium options for every pocket." />
-          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {BUDGET_BUCKETS.map((b) => (
-              <Link
-                key={b.slug}
-                to="/packages"
-                search={{ budget: b.slug }}
-                className="group relative overflow-hidden rounded-2xl border bg-card p-6 text-center transition-all hover:-translate-y-1 hover:shadow-luxury"
-              >
-                <IndianRupee className="mx-auto h-7 w-7 text-gold" />
-                <p className="mt-3 font-display text-lg">{b.label}</p>
-                <p className="mt-1 text-xs text-muted-foreground">Explore packages</p>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
