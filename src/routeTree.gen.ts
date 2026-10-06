@@ -42,6 +42,7 @@ import { Route as ServiceThemeBirthdayDecorationRouteImport } from './routes/ser
 import { Route as ServiceWelcomeBabyDecorationRouteImport } from './routes/service.welcome-baby-decoration'
 import { Route as DotlovableOauthConsentRouteImport } from './routes/[.]lovable.oauth.consent'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
+import { Route as DecorationCityAreaRouteImport } from './routes/decoration.$city.$area'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -224,6 +225,11 @@ const Char91DotmcpChar93InvokeToolToolRoute =
     path: '/.mcp/invoke-tool/$tool',
     getParentRoute: () => rootRouteImport,
   } as any)
+const DecorationCityAreaRoute = DecorationCityAreaRouteImport.update({
+  id: '/decoration/$city/$area',
+  path: '/decoration/$city/$area',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -258,6 +264,7 @@ export interface FileRoutesByFullPath {
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
   '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/decoration/$city/$area': typeof DecorationCityAreaRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -292,6 +299,7 @@ export interface FileRoutesByTo {
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
   '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/decoration/$city/$area': typeof DecorationCityAreaRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -328,6 +336,7 @@ export interface FileRoutesById {
   '/service/welcome-baby-decoration': typeof ServiceWelcomeBabyDecorationRoute
   '/.lovable/oauth/consent': typeof DotlovableOauthConsentRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
+  '/decoration/$city/$area': typeof DecorationCityAreaRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -364,6 +373,7 @@ export interface FileRouteTypes {
     | '/service/welcome-baby-decoration'
     | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
+    | '/decoration/$city/$area'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -398,6 +408,7 @@ export interface FileRouteTypes {
     | '/service/welcome-baby-decoration'
     | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
+    | '/decoration/$city/$area'
   id:
     | '__root__'
     | '/'
@@ -433,6 +444,7 @@ export interface FileRouteTypes {
     | '/service/welcome-baby-decoration'
     | '/.lovable/oauth/consent'
     | '/.mcp/invoke-tool/$tool'
+    | '/decoration/$city/$area'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -467,6 +479,7 @@ export interface RootRouteChildren {
   ServiceWelcomeBabyDecorationRoute: typeof ServiceWelcomeBabyDecorationRoute
   DotlovableOauthConsentRoute: typeof DotlovableOauthConsentRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
+  DecorationCityAreaRoute: typeof DecorationCityAreaRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -702,6 +715,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char91DotmcpChar93InvokeToolToolRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/decoration/$city/$area': {
+      id: '/decoration/$city/$area'
+      path: '/decoration/$city/$area'
+      fullPath: '/decoration/$city/$area'
+      preLoaderRoute: typeof DecorationCityAreaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -759,6 +779,7 @@ const rootRouteChildren: RootRouteChildren = {
   ServiceWelcomeBabyDecorationRoute: ServiceWelcomeBabyDecorationRoute,
   DotlovableOauthConsentRoute: DotlovableOauthConsentRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
+  DecorationCityAreaRoute: DecorationCityAreaRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
