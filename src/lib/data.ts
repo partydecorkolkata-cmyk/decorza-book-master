@@ -711,3 +711,14 @@ export function blogBySlug(slug: string) {
 export function cityBySlug(slug: string): CityInfo | undefined {
   return CITY_DATA[slug.toLowerCase()];
 }
+
+export function areaSlug(area: string) {
+  return area.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+export function areaBySlug(citySlug: string, slug: string) {
+  const city = cityBySlug(citySlug);
+  if (!city) return undefined;
+  const area = city.areas.find((a) => areaSlug(a) === slug.toLowerCase());
+  return area ? { city, area } : undefined;
+}
