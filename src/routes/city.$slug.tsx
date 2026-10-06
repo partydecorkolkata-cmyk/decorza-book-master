@@ -8,8 +8,8 @@ import { ReviewCard } from "@/components/site/ReviewCard";
 import { BookingForm } from "@/components/site/BookingForm";
 import { Faq } from "@/components/site/Faq";
 import { BRAND, waLink, waBookingMessage } from "@/lib/brand";
-import { CATEGORIES, BEST_SELLERS, REVIEWS, GALLERY, HOMEPAGE_FAQS, cityBySlug, categoryBySlug } from "@/lib/data";
-import { absoluteUrl } from "@/lib/seo";
+import { CATEGORIES, BEST_SELLERS, REVIEWS, GALLERY, HOMEPAGE_FAQS, cityBySlug, categoryBySlug, areaSlug } from "@/lib/data";
+import { absoluteUrl, localBusinessForArea, breadcrumbSchema } from "@/lib/seo";
 
 export const Route = createFileRoute("/city/$slug")({
   loader: ({ params }) => {
@@ -33,19 +33,10 @@ export const Route = createFileRoute("/city/$slug")({
         { name: "twitter:card", content: "summary_large_image" },
       ],
       links: [{ rel: "canonical", href: absoluteUrl(`/city/${i.slug}`) }],
-      scripts: [{
-        type: "application/ld+json",
-        children: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: `Decorza Events ${i.name}`,
-          description: desc,
-          telephone: "+91 86378 70742",
-          areaServed: { "@type": "City", name: i.name },
-          priceRange: "\u20B9\u20B9",
-          aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "1200" },
-        }),
-      }],
+      scripts: [
+        { type: "application/ld+json", children: JSON.stringify(localBusinessForArea({ cityName: i.name, path: `/city/${i.slug}`, description: desc })) },
+        { type: "application/ld+json", children: JSON.stringify(breadcrumbSchema([{ name: "Home", path: "/" }, { name: `Decoration in ${i.name}`, path: `/city/${i.slug}` }])) },
+      ],
     };
   },
   component: CityPage,
@@ -122,7 +113,7 @@ function CityPage() {
             <h3 className="font-display text-xl flex items-center gap-2"><MapPin className="h-5 w-5 text-gold" />Areas We Cover in {city}</h3>
             <div className="mt-4 flex flex-wrap gap-2">
               {info.areas.map((a: string) => (
-                <span key={a} className="rounded-full border bg-background px-3 py-1 text-xs font-medium">{a}</span>
+                <Link key={a} to="/decoration/$city/$area" params={{ city: info.slug, area: areaSlug(a) }} className="rounded-full border bg-background px-3 py-1 text-xs font-medium hover:border-gold hover:text-primary">{a}</Link>
               ))}
             </div>
             <p className="mt-4 text-xs text-muted-foreground">Don\u2019t see your area? WhatsApp us \u2014 we cover all of {city} and nearby.</p>
